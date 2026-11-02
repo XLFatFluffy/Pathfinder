@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The World Atlas</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-wrap">
+          <div class="brand-mark">✦</div>
+          <div>
+            <div class="eyebrow">Campaign Management</div>
+            <h1>The World Atlas</h1>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav-item active" data-section="overview">World Atlas</button>
+          <button class="nav-item" data-section="locations">Locations</button>
+          <button class="nav-item" data-section="houses">Noble Houses</button>
+          <button class="nav-item" data-section="npcs">NPCs</button>
+          <button class="nav-item" data-section="factions">Factions</button>
+          <button class="nav-item" data-section="simulation">World Simulation</button>
+          <button class="nav-item" data-section="shops">Shops &amp; Merchants</button>
+          <button class="nav-item" data-section="journal">Campaign Journal</button>
+          <button class="nav-item" data-section="quests">Quests</button>
+          <button class="nav-item" data-section="timeline">Timeline</button>
+          <button class="nav-item" data-section="maps">Map Library</button>
+          <button class="nav-item" data-section="settings">Settings &amp; Data Management</button>
+        </nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">GM Command Console</p>
+            <h2 id="campaignTitle">Untitled Campaign</h2>
+          </div>
+          <div class="topbar-actions">
+            <button id="backupButton" class="primary-button">Create backup</button>
+          </div>
+        </header>
+
+        <section id="overview" class="panel active-panel">
+          <div class="hero-card">
+            <div>
+              <p class="eyebrow">Campaign Overview</p>
+              <h3>World state at a glance</h3>
+            </div>
+            <div class="summary-comment">
+              This foundation keeps the world data persistent, organized, and ready for rich atlas features.
+            </div>
+          </div>
+
+          <div id="summaryGrid" class="summary-grid"></div>
+
+          <div class="search-panel">
+            <label for="searchInput">Global Search</label>
+            <div class="search-row">
+              <input id="searchInput" type="search" placeholder="Search locations, houses, NPCs, factions, maps, quests..." />
+            </div>
+            <div id="searchResults" class="search-results"></div>
+          </div>
+        </section>
+
+        <section id="settings" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Configuration</p>
+              <h3>Settings &amp; Data Management</h3>
+            </div>
+          </div>
+
+          <form id="settingsForm" class="settings-form">
+            <label>
+              App name
+              <input name="app_name" type="text" />
+            </label>
+            <label>
+              Campaign name
+              <input name="campaign_name" type="text" />
+            </label>
+            <label>
+              Game Master
+              <input name="gm_name" type="text" />
+            </label>
+            <label>
+              Campaign date
+              <input name="campaign_date" type="text" />
+            </label>
+            <button type="submit" class="primary-button">Save settings</button>
+          </form>
+
+          <div class="backup-panel">
+            <h4>Backup status</h4>
+            <div id="backupList" class="backup-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

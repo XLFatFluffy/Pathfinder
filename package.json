@@ -1,0 +1,27 @@
+{
+  "name": "pathfinder",
+  "version": "1.0.0",
+  "description": "an app to help with a campaign im doing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --check server.js && node --check src/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XLFatFluffy/Pathfinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/XLFatFluffy/Pathfinder/issues"
+  },
+  "homepage": "https://github.com/XLFatFluffy/Pathfinder#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}

@@ -40,11 +40,11 @@ This record separates confirmed historical facts from dates, names, and politica
 - The dynasty lost the Imperial Seat, ending approximately 400 years of rule.
 - The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
-- The dwarven victors claimed Dragonstone, the dynasty's ancestral home and principal royal residence, after the rebellion.
-- The main branch of the dwarven clans now occupies Dragonstone and is said to descend from Torag himself. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
+- The dwarven victors claimed Dragonstone, the fallen dynasty's ancestral home and principal royal residence, through conquest after the rebellion. Dragonstone was not the dwarves' ancestral homeland; the Kharadorns' ancestral homeland is Khar-Dum.
+- The main branch of the dwarven clans occupies the conquered Dragonstone stronghold and is said to descend from Torag himself. Khar-Dum remains the Kharadorns' ancestral homeland. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
 - In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century and remained in power until his death.
 - After his death, a succession crisis followed. His successor inherited the dwarven leader's authority, but the crisis led to a confrontation over the Imperial Seat.
-- The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted this arrangement reluctantly, then returned to Dragonstone and continued ruling the dwarven clans. The dwarven successor retained the authority inherited within the dwarven order, while the other house took the wider imperial throne. The dwarven empire and the human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect.
+- The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted this arrangement reluctantly, then returned to Dragonstone and continued ruling the dwarven clans from the conquered former Targaryen stronghold. The dwarven successor retained the authority inherited within the dwarven order, while the other house took the wider imperial throne. The dwarven empire and the human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect.
 - The identity of the house now occupying the Imperial Seat remains unresolved.
 - The monarch's family has a legitimate claim to the Imperial Seat. He retains substantial authority, although the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel houses see the throne as an opportunity to manipulate it for their own interests. The specific identities and balance of these powers remain unresolved.
 - One Targaryen Crown Prince survived the destruction of Dragonstone. He was nine years old at the beginning of the rebellion. His survival is concealed; his personal name belongs to the player character and is intentionally not recorded here.
@@ -86,3 +86,21 @@ The relative sequence is established. The Great Rebellion occurred approximately
 - The rebellion's two motives must remain linked: independence from centralization and removal of dragon-riding as the Targaryens' means of enforcing supremacy.
 - The dwarven leader was the same individual for more than a century after the rebellion. After his death, his successor inherited dwarven authority; the successor's threat of war compelled the installation of the head of another rebel Great House as a human compromise monarch. The monarch is a puppet, but the identity of the power or powers controlling him remains unresolved. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the clans. The dwarven empire and human monarchy maintain an uneasy peace; war would not favor the dwarves, but they are not afraid of it.
 - Do not treat the surviving Crown Prince as publicly known. The victorious houses believe the bloodline was eliminated.
+
+
+## The Six Great Houses — approved identities
+
+The six houses below are the established identities of the rebel Great Houses and the current major powers. Their detailed words, sigils, cultures, resources, ambitions, and relationships are recorded in the Campaign Bible.
+
+- **House Vaelorian (elven):** A wealthy commercial and financial dynasty whose influence rests on trade, lending, mines, contracts, and political leverage. Words: “Wealth Endures. Power Remembers.”
+- **House Kharadorn (dwarven):** The Great House associated with the main branch of the enduring dwarven empire and the principal mastermind of the Great Rebellion. Words: “Stone Remembers. Blood Endures.” Khar-Dum is its ancestral homeland. Dragonstone was the ancestral stronghold of the dragon-riding dynasty and was taken by dwarven conquest during the rebellion.
+- **House Edarth (primarily human):** A traditional landed and martial power committed to preserving noble independence. Words: “Stand When Others Fall.”
+- **House Calderan (human):** The current ruling dynasty, descended from an older royal bloodline that lost the throne during the dragon-riding dynasty's conquest but preserved a legitimate hereditary claim. Its head was installed as the post-rebellion compromise monarch. Words: “By Right, We Remain.”
+- **House Veyr (human):** The northern dynasty responsible for maintaining the Ancient Barrier and defending the frontier. Words: “Beyond the Wall, We Stand.”
+- **House Merrowen (primarily human):** A maritime and naval power whose wealth and influence rest on ports, shipping, fleets, and trade. Words: “All Roads Reach the Sea.”
+
+The houses shared enemies during the rebellion but did not share a single vision for the political settlement that followed. Their approved political relationship matrix and differing rebellion motives are recorded in the Campaign Bible.
+
+## Remaining historical uncertainties
+
+The houses' precise territorial locations, seats, current heads and heirs, detailed roles in individual campaigns of the Great Rebellion, and the later development of their rivalries remain open. The final names of the fallen dragon-riding dynasty, Dragonstone, and the Imperial Seat are also still to be determined.

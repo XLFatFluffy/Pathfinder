@@ -85,3 +85,17 @@
 - Recorded influence by a Great House council or coalition and multiple competing factions.
 - Recorded that the other rebel houses seek to manipulate the throne for their own interests.
 - Specific faction identities and influence remain unresolved.
+
+
+## 2026-11-03 — Six Great Houses approved; Khar-Dum and Dragonstone distinguished
+- GM approved the six Great House proposals, including their names, core identities, words, sigils, political aims, differing rebellion motives, and relationship matrix:
+  - House Vaelorian — elven commercial and financial dynasty.
+  - House Kharadorn — dwarven Great House associated with the main branch of the enduring dwarven empire.
+  - House Edarth — primarily human landed and martial house.
+  - House Calderan — human ruling dynasty with an older legitimate hereditary claim to the Imperial Seat.
+  - House Veyr — human northern dynasty maintaining the Ancient Barrier.
+  - House Merrowen — primarily human maritime and naval dynasty.
+- Clarified that Khar-Dum is the Kharadorns' ancestral homeland.
+- Clarified that Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty. The dwarves acquired it through conquest during the Great Rebellion; it is not their ancestral homeland.
+- Recorded the approved Imperial Council concept and competing political factions while leaving their exact membership and leadership unresolved.
+- Updated the Campaign Bible, Canon Register, Current World State, World History, Worldbuilding Direction, Decision Log, Names & Terminology Index, and Open Questions Register.

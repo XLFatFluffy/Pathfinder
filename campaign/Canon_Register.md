@@ -85,3 +85,5 @@ This file tracks major setting decisions and their status. It does not replace d
 - **UNRESOLVED:** Exact locations, territorial borders, house seats, current heads and heirs, council membership in practice, faction leadership, and the detailed political history of the houses.
 
 - **ESTABLISHED:** House Calderan is the human ruling dynasty that took the Imperial Seat and supplied the compromise monarch. Its identity is no longer an open question.
+
+- **ESTABLISHED:** House Kharadorn is the approved original name of the dwarven Great House previously represented by the legacy placeholder House Baratheon.

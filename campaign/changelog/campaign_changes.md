@@ -99,3 +99,5 @@
 - Clarified that Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty. The dwarves acquired it through conquest during the Great Rebellion; it is not their ancestral homeland.
 - Recorded the approved Imperial Council concept and competing political factions while leaving their exact membership and leadership unresolved.
 - Updated the Campaign Bible, Canon Register, Current World State, World History, Worldbuilding Direction, Decision Log, Names & Terminology Index, and Open Questions Register.
+
+- Confirmed House Kharadorn as the original name replacing the dwarven Great House's legacy House Baratheon placeholder. Khar-Dum is the ancestral homeland; Dragonstone is the conquered former Targaryen stronghold.

@@ -19,14 +19,26 @@ Use this index before naming a new person, place, house, faction, title, religio
 | House Targaryen | Historical house label | LEGACY SOURCE ONLY | Must be renamed and substantially reworked |
 | House Baratheon | Historical house label | LEGACY SOURCE ONLY | Must be renamed and substantially reworked |
 | House Edarth | Great house label | LEGACY SOURCE ONLY | Rework identity and details before canon use |
-| Dragonstone | Location label | LEGACY SOURCE ONLY | Must be replaced or substantially reimagined |
+| Dragonstone | Historical stronghold / location | PROVISIONAL LEGACY LABEL | Ancestral stronghold of the fallen dragon-riding dynasty; conquered by the dwarves during the Great Rebellion. Final in-world name remains undecided. |
 | Imperial Seat | Location / title label | LEGACY SOURCE ONLY | Final equivalent undecided |
+
+
+## Approved names
+
+| Name / term | Category | Status | Notes |
+|---|---|---|
+| House Kharadorn | Great house | ESTABLISHED | Dwarven Great House associated with the main branch of the dwarven empire; words: “Stone Remembers. Blood Endures.” |
+| House Calderan | Great house / ruling dynasty | ESTABLISHED | Human ruling dynasty with legitimate hereditary claim to the Imperial Seat; words: “By Right, We Remain.” |
+| House Veyr | Great house | ESTABLISHED | Human northern dynasty maintaining the Ancient Barrier; words: “Beyond the Wall, We Stand.” |
+| House Merrowen | Great house | ESTABLISHED | Primarily human maritime dynasty; words: “All Roads Reach the Sea.” |
+| Khar-Dum | Place / ancestral homeland | ESTABLISHED NAME | Ancestral homeland and historic center of the Kharadorns. |
+| Dragonstone | Historical stronghold / location | PROVISIONAL LEGACY LABEL | Ancestral stronghold of the fallen dragon-riding dynasty, conquered by the dwarves during the Great Rebellion; final name undecided. |
 
 ## Reserved / approved directions
 
 | Working description | Category | Status | Naming status |
 |---|---|---|---|
-| Wealthy politically influential elven dynasty | Great house | APPROVED DIRECTION | Name not chosen |
+| House Vaelorian | Great house | ESTABLISHED | Elven commercial and financial dynasty; words: “Wealth Endures. Power Remembers.” |
 | Subterranean ratfolk communities | People / societies | ESTABLISHED DIRECTION | Settlement names not chosen |
 | Starting medium-sized city | Settlement | UNRESOLVED | Name not chosen |
 

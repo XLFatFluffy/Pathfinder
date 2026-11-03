@@ -22,7 +22,7 @@ This is a concise navigation and continuity document, not a replacement for the 
 ## Ancestries and societies
 
 - Humans are dominant across much of the continent.
-- A dwarven empire has always existed and has never collapsed; it has never been especially massive in territorial scale. It consists of several independent clans united under the main branch, which occupies Dragonstone and is said to descend from Torag himself. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
+- A dwarven empire has always existed and has never collapsed; it has never been especially massive in territorial scale. It consists of several independent clans united under the main branch, which is said to descend from Torag himself. Khar-Dum is the Kharadorns' ancestral homeland. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty, captured by the dwarves through conquest during the Great Rebellion and retained after its destruction. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
 - Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility.
 - Elves possess a major political power. One of the six Great Houses is an influential elven dynasty loosely inspired by the wealthy, politically powerful noble-house archetype.
 - Ratfolk are naturally subterranean, with an extensive but incomplete underground network and decentralized settlements.
@@ -46,7 +46,7 @@ This is a concise navigation and continuity document, not a replacement for the 
 - The Targaryen ruling family was nearly exterminated and the Imperial Seat fell. The dwarven leader and the Baratheon-inspired house held power in the immediate aftermath. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. The monarch's controller or controllers and the ruling house's identity remain unresolved. The victorious dwarves claimed Dragonstone, now occupied by the main branch of the dwarven clans, which is said to descend from Torag himself.
 - One nine-year-old Crown Prince survived the destruction of Dragonstone. His survival is concealed; he is a player character.
 
-The inherited names House Targaryen, House Baratheon, House Edarth, Dragonstone, and Imperial Seat are working labels from the source material. The historical foundations above are confirmed, but names, house identities, geography, and the postwar political settlement must be developed into original setting material rather than copied from Game of Thrones.
+The legacy labels House Targaryen and House Baratheon remain historical working labels pending replacement. The approved Great Houses are Vaelorian (elven), Kharadorn (dwarven), Edarth (primarily human), Calderan (human ruling dynasty), Veyr (human northern dynasty), and Merrowen (primarily human maritime dynasty). Their words, sigils, identities, political aims, and relationships are recorded in the Campaign Bible. Khar-Dum is the Kharadorns' ancestral homeland; Dragonstone was the Targaryen dynasty's ancestral stronghold, taken by dwarven conquest during the Great Rebellion. Final geography, house seats, territorial borders, current heads, and faction leadership remain unresolved.
 
 ## Campaign start
 
@@ -68,3 +68,16 @@ The original DOCX is preserved as source material. Where older brainstorming con
 
 ## Imperial Seat and Current Monarchy
 The human monarch's family has a legitimate claim to the Imperial Seat. The monarch retains substantial authority, but the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses regard the throne as an opportunity to manipulate imperial policy for their own interests. The identities and relative influence of these factions remain unresolved.
+
+
+## Approved Great Houses
+
+The six Great Houses and their core identities are established:
+- **House Vaelorian:** Elven commercial and financial power; “Wealth Endures. Power Remembers.”
+- **House Kharadorn:** Dwarven imperial dynasty associated with the main clan branch; “Stone Remembers. Blood Endures.” Khar-Dum is its ancestral homeland. Dragonstone was taken from the fallen dragon-riding dynasty by conquest.
+- **House Edarth:** Primarily human, traditional landed and martial power; “Stand When Others Fall.”
+- **House Calderan:** Human ruling dynasty with an older hereditary claim to the Imperial Seat; “By Right, We Remain.”
+- **House Veyr:** Human northern dynasty responsible for maintaining the Ancient Barrier; “Beyond the Wall, We Stand.”
+- **House Merrowen:** Primarily human maritime and naval power; “All Roads Reach the Sea.”
+
+Their sigils, detailed identities, political goals, and relationship matrix are in the Campaign Bible. Their exact territories, seats, current heads, and local geography are not yet established.

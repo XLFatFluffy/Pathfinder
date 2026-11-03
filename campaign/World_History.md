@@ -3,7 +3,7 @@
 **Status:** ESTABLISHED HISTORICAL FOUNDATION / CHRONOLOGY INCOMPLETE  
 **Last reviewed:** 2026-11-03
 
-This record separates confirmed historical facts from dates, names, and political details that remain undecided. Legacy names such as House Targaryen, House Baratheon, and Dragonstone are working labels inherited from the source Campaign Bible; they are not necessarily the final names of the original setting.
+This record separates confirmed historical facts from dates, names, and political details that remain undecided. Legacy names such as House Targaryen, House Kharadorn, and Dragonstone are working labels inherited from the source Campaign Bible; they are not necessarily the final names of the original setting.
 
 ## Established historical foundation
 
@@ -42,7 +42,7 @@ This record separates confirmed historical facts from dates, names, and politica
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
 - The dwarven victors claimed Dragonstone, the fallen dynasty's ancestral home and principal royal residence, through conquest after the rebellion. Dragonstone was not the dwarves' ancestral homeland; the Kharadorns' ancestral homeland is Khar-Dum.
 - The main branch of the dwarven clans occupies the conquered Dragonstone stronghold and is said to descend from Torag himself. Khar-Dum remains the Kharadorns' ancestral homeland. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
-- In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century and remained in power until his death.
+- In the immediate aftermath of the rebellion, the dwarven leader and the Kharadorn house held power. The same dwarven leader ruled for more than a century and remained in power until his death.
 - After his death, a succession crisis followed. His successor inherited the dwarven leader's authority, but the crisis led to a confrontation over the Imperial Seat.
 - The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted this arrangement reluctantly, then returned to Dragonstone and continued ruling the dwarven clans from the conquered former Targaryen stronghold. The dwarven successor retained the authority inherited within the dwarven order, while the other house took the wider imperial throne. The dwarven empire and the human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect.
 - House Calderan, one of the original six rebel Great Houses, now occupies the Imperial Seat. Its head was installed as the compromise monarch.
@@ -60,7 +60,7 @@ The relative sequence is established. The Great Rebellion occurred approximately
 5. The rebels target eligible dragon riders. Most dragons are killed; surviving unclaimed dragons flee or disappear.
 6. The Imperial Seat falls and the Targaryen ruling family is nearly exterminated.
 7. The dwarven clans' main branch claims and occupies Dragonstone, the former ancestral stronghold of the fallen dragon-riding dynasty. Khar-Dum remains the Kharadorns' ancestral homeland.
-8. The dwarven leader and the Baratheon-inspired house hold power in the immediate aftermath of the fall.
+8. The dwarven leader and the Kharadorn house hold power in the immediate aftermath of the fall.
 9. The same dwarven leader remains in power for more than a century, until his death.
 10. His successor inherits his authority, but a succession crisis follows.
 11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; the head of another of the original six rebel Great Houses is installed as a compromise candidate and becomes the current puppet monarch.
@@ -107,3 +107,6 @@ The houses' precise territorial locations, seats, current heads and heirs, detai
 
 
 **Ruling-house clarification:** House Calderan is the established identity of the human Great House that took the Imperial Seat and supplied the compromise monarch. The monarch's controllers and the precise details of the settlement remain unresolved.
+
+
+**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously recorded under the legacy placeholder House Baratheon. Older references to House Baratheon are superseded. Dragonstone remains the provisional working name of the conquered former Targaryen stronghold; Khar-Dum is the Kharadorns' ancestral homeland.

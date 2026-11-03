@@ -199,6 +199,48 @@ h2 {
   white-space: pre-wrap;
 }
 
+.map-card {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.map-card .eyebrow,
+.map-card h4,
+.map-card p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.map-preview {
+  background: #0c0b0a;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  display: block;
+  height: auto;
+  max-height: 32rem;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.replace-artwork-form {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.5rem;
+}
+
+.replace-artwork-form label {
+  display: grid;
+  font-weight: 700;
+  gap: 0.45rem;
+}
+
+.replace-artwork-form input[type="file"],
+.form-stack input[type="file"] {
+  min-height: auto;
+  padding: 0.5rem;
+}
+
 .sign-out {
   margin-top: 1.5rem;
 }

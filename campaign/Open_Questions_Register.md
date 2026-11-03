@@ -17,7 +17,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | UNRESOLVED |
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
-| OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The core historical facts and causes of the rebellion are established. | PARTIALLY RESOLVED |
+| OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
 | OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the six major houses? The dwarven leader held power immediately after the rebellion; another major house later took the Imperial Seat and rules now. Which house currently rules, and how it took power, remain unresolved. | PARTIALLY ESTABLISHED |
 | OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |

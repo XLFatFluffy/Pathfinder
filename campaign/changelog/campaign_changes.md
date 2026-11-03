@@ -29,3 +29,13 @@
 - Removed their first meeting as an opening-scene requirement.
 - The precise history and dynamic of their relationship remain undocumented and must be verified during the lore review rather than inferred.
 - Updated the Current World State, Canon Register, Decision Log, and Open Questions Register accordingly.
+
+## 2026-11-03 - World foundation and ancestry audit revisions
+- Replaced the former gothic steampunk campaign direction with grounded high-medieval fantasy as the central identity; supernatural horror remains present but is not the main theme.
+- Confirmed that the Pathfinder gods are real. Updated divine-magic language so divine spellcasters are uncommon and devote themselves to a god; arcane spellcasters are rare, divine spellcasting is also uncommon, and most ordinary people may never witness a spell.
+- Corrected the dwarven history: the dwarven empire has always existed and has never collapsed or been especially massive. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
+- Recorded dwarven cultural endogamy as a matter of pride and choice, not established biological incompatibility.
+- Confirmed that elves possess a major political power and that one Great House is an influential elven dynasty.
+- Updated ratfolk prejudice from limited to widespread across surface societies, while preserving a few tolerant or accepting communities.
+- Confirmed that other Pathfinder ancestries may exist without rare/uncommon designation in this human-dominated setting.
+- Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, and Open Questions Register. The uploaded DOCX remains preserved as historical source material and was not overwritten.

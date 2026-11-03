@@ -97,3 +97,13 @@ Their sigils, detailed identities, political goals, and relationship matrix are 
 - Khar-Dum, the Kharadorns' ancestral homeland, lies in the northeastern mountain system. It is separate from Dragonstone.
 - Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist across the continent.
 - Exact dimensions, map scale, territorial borders, house seats, and final geographic names remain unresolved.
+
+## Revised Continental Geography and Minor Houses — 2026-11-03
+
+The continent is deliberately smaller than Westeros. Approved working dimensions for the revised map are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, subject to modest cartographic adjustment. Preserve the atlas's recognizable geographic identity: frozen northern wilderness; northern mountains and forests; western highlands and forests; central plains and river valleys; enormous central inland sea; northeastern mountains; eastern forests and river delta; southwestern arid lands; and southern peninsulas and island chains. The old scale bar is superseded, and the revised geography should be physically coherent.
+
+The central inland sea supports substantial shipping, naval commerce, and important ports. The southern reaches remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses. Khar-Dum remains in the northeastern mountains. The dwarven empire's visible surface territory should appear comparatively limited; its true reach is primarily subterranean and poorly understood by outsiders. Dragonstone remains a separate conquered island, with its narrow land bridge and secret dwarven underground route.
+
+**Minor houses are an established category:** wealthy lords and ladies with relatively small territories and local holdings. They possess wealth and local standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold Imperial Council seats. Their names, number, allegiances, and holdings remain undecided.
+
+The previously suggested specific regional placements for the six Great Houses remain proposals until the revised map is reviewed.

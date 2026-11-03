@@ -54,3 +54,10 @@
 - Confirmed that one nine-year-old Crown Prince survived the destruction of Dragonstone; his survival remains concealed and his personal name belongs to the player.
 - Expanded `World_History.md` from a provisional outline into an established historical foundation while keeping exact dates, original names, individual house roles, detailed campaigns, and the postwar settlement unresolved.
 - Updated the Campaign Bible's statement of the rebellion's dual objectives and synchronized the Canon Register, Current World State, Decision Log, and Open Questions Register.
+
+ 
+## 2026-11-03 - Post-rebellion ruling sequence clarified
+- GM confirmed that the dwarven leader and the Baratheon-inspired house held power following the fall of the Targaryen dynasty.
+- Established that a different major house later took the Imperial Seat and is the current ruling house.
+- The current ruling house's identity, the length and exact form of the dwarven-led rule, and the circumstances of the transfer remain unresolved.
+- Updated the World History, Campaign Bible, Canon Register, Current World State, Decision Log, and Open Questions Register.

@@ -85,3 +85,19 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 - ESTABLISHED: A council or coalition of Great Houses influences the monarch, while several competing factions also pull him in different directions.
 - ESTABLISHED: The other rebel houses see the throne as an opportunity to advance their interests.
 - UNRESOLVED: The identities and relative influence of these groups.
+
+
+### 2026-11-03 — Six Great Houses approved
+**Status:** ESTABLISHED  
+**Decision:** The GM approved the six proposed Great Houses and their core identities, words, sigils, political aims, rebellion motives, and relationship matrix:
+- House Vaelorian: elven commercial and financial dynasty; “Wealth Endures. Power Remembers.”
+- House Kharadorn: dwarven Great House associated with the main branch of the enduring dwarven empire; “Stone Remembers. Blood Endures.”
+- House Edarth: primarily human landed and martial house; “Stand When Others Fall.”
+- House Calderan: human ruling dynasty with a legitimate hereditary claim to the Imperial Seat; “By Right, We Remain.”
+- House Veyr: human northern dynasty maintaining the Ancient Barrier; “Beyond the Wall, We Stand.”
+- House Merrowen: primarily human maritime and naval dynasty; “All Roads Reach the Sea.”
+**Additional clarification:** Khar-Dum is the Kharadorns' ancestral homeland. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty. The dwarves gained Dragonstone through conquest during the Great Rebellion; it is not their ancestral homeland.
+**Reason:** The GM approved the complete Great House proposal with this specific correction to dwarven history and geography.
+**Supersedes:** The prior unresolved status of the six houses' names, identities, and political relationships. It also corrects any wording that described Dragonstone as the dwarves' ancestral homeland.
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `World_History.md`, `Worldbuilding_Direction.md`, `Names_and_Terminology_Index.md`, `Open_Questions_Register.md`, and campaign changelog.
+**Still unresolved:** Exact house territories and seats, current heads and heirs, precise map placement, and the membership and leadership of the Imperial Council and competing factions.

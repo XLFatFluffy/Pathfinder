@@ -53,3 +53,8 @@ This file tracks major setting decisions and their status. It does not replace d
 | 2026-11-03 | Revised setting identity to grounded medieval fantasy with supernatural horror as a supporting element, not the main theme; confirmed the Pathfinder gods are real and clarified the rarity of arcane and divine spellcasters. |
 | 2026-11-03 | Revised ancestry canon: ratfolk prejudice is widespread with a few accepting communities; elves possess a major political power; the dwarven empire has never collapsed and is culturally endogamous; other Pathfinder ancestries may exist without rare/uncommon status in a human-dominated world. |
 | 2026-11-03 | Confirmed the inherited historical foundations: approximately 400 years of Targaryen rule, twelve dragons at the dynasty's height, exclusive bloodline-based dragon bonding, one dragon per rider, six rebel Great Houses, a multi-year rebellion with both independence and anti-dragon objectives, dragon-slaying ballistas, the fall of the dynasty, and the dwarven claim to Dragonstone. Exact dates, original names, campaign details, and the postwar settlement remain open. |
+
+
+## Historical clarification — current ruling house
+
+**ESTABLISHED:** The major house that later took the Imperial Seat was one of the original six Great Houses that rebelled against the Targaryen dragon-riding dynasty. Its identity and accession details remain unresolved. All six Great Houses will be developed individually during the later political-structure stage.

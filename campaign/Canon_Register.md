@@ -89,12 +89,16 @@ This file tracks major setting decisions and their status. It does not replace d
 - **ESTABLISHED:** House Kharadorn is the approved original name of the dwarven Great House previously represented by the legacy placeholder House Baratheon.
 
 
-## Stage 5 — Geography decisions (2026-11-03)
+## Stage 5 — Geography decisions (2026-11-03; revised 2026-11-03)
 
-- **ESTABLISHED:** The continent is vast and follows the larger scale implied by the provisional atlas, substantially larger than Westeros. Exact dimensions and travel distances are not yet measured.
-- **ESTABLISHED:** The enormous central inland sea remains.
+- **ESTABLISHED:** The continent is deliberately smaller than Westeros for the intended campaign scope. Approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point. These are design dimensions for the revised map and may be adjusted modestly to preserve shape and geographic coherence.
+- **ESTABLISHED:** Preserve the uploaded atlas's recognizable geographic identity and overall arrangement as closely as practical, while making terrain and waterways internally coherent. The old printed scale bar is superseded and must be recalibrated.
+- **ESTABLISHED:** Retain the frozen north, northern mountain and forest systems, western highlands and forests, central plains and river valleys, enormous central inland sea, northeastern mountains, eastern forests and river delta, southwestern arid region, and southern peninsulas and island chains.
+- **ESTABLISHED:** The central inland sea is large enough to support substantial regional shipping, naval commerce, and important ports.
 - **ESTABLISHED:** Dragonstone is an island within the central inland sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
 - **GM-ONLY SECRET — ESTABLISHED:** The dwarves have built an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. Its route, entrances, extent, construction history, and distribution of knowledge remain unresolved.
-- **ESTABLISHED:** Khar-Dum is located in the northeastern mountain system and remains distinct from Dragonstone.
-- **ESTABLISHED:** Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist; the continent is not divided exclusively among the six Great Houses.
-- **UNRESOLVED:** Exact dimensions, accurate scale bar, borders, house seats, regional and geographic names, and precise locations of terrain features.
+- **ESTABLISHED:** Khar-Dum is located in the northeastern mountain system and remains distinct from Dragonstone. The dwarven empire's visible surface territory should appear comparatively limited; its true reach is primarily subterranean and poorly understood by outsiders.
+- **ESTABLISHED:** Each Great House controls a substantial, clearly defined territory. The southern reaches remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses.
+- **ESTABLISHED CATEGORY:** Minor houses are wealthy lords and ladies with relatively small territories and local holdings. They possess local wealth and standing but are nearly politically insignificant in continent-wide affairs; they do not rival Great Houses or automatically participate in the Imperial Council. Names, number, allegiances, and individual territories remain unresolved.
+- **PROPOSED, NOT CANON:** The specific regional placements previously suggested for the six Great Houses remain proposals pending the revised map.
+- **UNRESOLVED:** Final exact cartographic dimensions and scale, names of major geographic features, exact house borders and seats, minor-house names and holdings, and precise locations of rivers, roads, ports, and settlements.

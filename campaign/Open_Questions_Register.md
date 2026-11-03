@@ -18,13 +18,13 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, history, and political legacy replace the imported legacy scaffolding? | UNRESOLVED |
-| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the major houses? | UNRESOLVED |
+| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the major houses, including the elven great power and the dwarven Great House's place within its enduring empire? | UNRESOLVED |
 | OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | What are the continent's final name, regions, borders, rivers, roads, and seas? | UNRESOLVED |
 | OQ-011 | P2 | Northern Barrier | Who built the Ancient Barrier, why, and what lies beyond it? | UNRESOLVED |
-| OQ-012 | P2 | Arcane scarcity | Why is arcane magic rare in everyday society? | UNRESOLVED |
-| OQ-013 | P3 | Gods | What, if anything, is the actual source of divine magic? | UNRESOLVED; preserve uncertainty |
+| OQ-012 | P2 | Arcane scarcity | Why are arcane spellcasters rare in everyday society? | UNRESOLVED |
+| OQ-013 | P3 | Divine magic | How do the real Pathfinder gods grant or mediate divine magic, and what forms of devotion are involved? | UNRESOLVED; gods' existence is ESTABLISHED |
 | OQ-014 | P3 | Vampirism | What are the origins, limits, and hidden history of vampirism in this world? | UNRESOLVED |
 | OQ-015 | P3 | Dragons | What happened to dragons after the fall of the dragon-riding dynasty? | UNRESOLVED |
 

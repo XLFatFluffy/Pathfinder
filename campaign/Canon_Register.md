@@ -67,3 +67,10 @@ This file tracks major setting decisions and their status. It does not replace d
 | 2026-11-03 | Clarified the post-rebellion succession: the same dwarven leader ruled for more than a century until death; his successor inherited dwarven authority, threatened war unless a human took the Imperial Seat, and another of the original six rebel houses became the ruling dynasty. |
 
 | 2026-11-03 | Established that the new human monarch was a compromise candidate and puppet from the ruling Great House; the dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the clans. The dwarven empire and human monarchy maintain an uneasy, distrustful peace; war would not favor the dwarves, but they are not afraid. |
+
+## Current Imperial Settlement
+- **ESTABLISHED:** The compromise monarch's family has a legitimate claim to the Imperial Seat.
+- **ESTABLISHED:** The monarch retains substantial authority, constrained by the Great Houses.
+- **ESTABLISHED:** A council or coalition of Great Houses influences the monarch, while multiple competing factions also pull him in different directions.
+- **ESTABLISHED:** The other rebel Great Houses view the throne as an opportunity to advance their own interests through manipulation.
+- **UNRESOLVED:** The identities, membership, and relative influence of the council, coalition, and competing factions.

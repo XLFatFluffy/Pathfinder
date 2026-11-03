@@ -52,3 +52,6 @@ The six Great Houses are established as follows: House Vaelorian (elven), House 
 The Kharadorns' ancestral homeland is Khar-Dum. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty. The dwarves acquired Dragonstone through conquest during the Great Rebellion; it is a conquered possession, not the Kharadorns' ancestral homeland.
 
 The political settlement includes House Calderan's legitimate hereditary claim to the Imperial Seat, a compromise monarch with substantial but constrained authority, an Imperial Council representing the six Great Houses, and competing political factions. The exact identities of council members and faction leaders remain unresolved.
+
+
+**Naming update:** House Kharadorn is the approved original name of the dwarven Great House. The legacy placeholder House Baratheon is superseded. Khar-Dum is the ancestral homeland; Dragonstone is the conquered former Targaryen stronghold.

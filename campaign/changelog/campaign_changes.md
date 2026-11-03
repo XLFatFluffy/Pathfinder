@@ -23,3 +23,9 @@
 - Added a Lore Continuity Checklist for pre-approval reviews and post-session updates.
 - Updated campaign record instructions to require provenance, visibility classification, mystery preservation, and checkpoint updates.
 - These records formalize process; they do not resolve or invent campaign lore.
+
+## 2026-11-03 - Player characters already know each other
+- GM confirmed that the two player characters are already acquainted before Session One.
+- Removed their first meeting as an opening-scene requirement.
+- The precise history and dynamic of their relationship remain undocumented and must be verified during the lore review rather than inferred.
+- Updated the Current World State, Canon Register, Decision Log, and Open Questions Register accordingly.

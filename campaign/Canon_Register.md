@@ -28,9 +28,8 @@ This file tracks major setting decisions and their status. It does not replace d
 | Dwarves | ESTABLISHED | The enduring, relatively compact dwarven empire consists of several independent clans united under the main branch, which occupies Dragonstone and is said to descend from Torag himself. Dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements. Cultural pride leads them to reproduce only with other dwarves. |
 | Other ancestries | ESTABLISHED | Other Pathfinder ancestries may exist; none are designated rare or uncommon by default. The continent remains human-dominated. |
 | Historical distance | ESTABLISHED | The Great Rebellion occurred approximately 200–300 years before the present campaign; the exact calendar year remains unresolved. |
-| Historical distance | ESTABLISHED | The Great Rebellion occurred approximately 200–300 years before the present campaign; the exact calendar year remains unresolved. |
 | Dragon-riding dynasty and Great Rebellion | ESTABLISHED | A dragon-riding dynasty held the Imperial Seat for approximately 400 years and possessed exactly twelve dragons at its height. Six Great Houses rebelled both to preserve their independence and to eliminate dragon-riding as the source of Targaryen supremacy. The war lasted a few years; most dragons were killed, the dynasty fell, and the dwarven victors claimed Dragonstone. See `World_History.md`. |
-| Post-rebellion rule | ESTABLISHED in sequence | The dwarven leader and Baratheon-inspired house held power immediately after the fall. Later, another major house took the Imperial Seat. The current ruling house's identity and accession remain unresolved. |
+| Post-rebellion rule | ESTABLISHED in sequence | The same dwarven leader ruled for more than a century after the fall, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat; another of the original six rebel Great Houses took the throne. The dwarven successor retained the inherited authority of the dwarven order. The identity of the ruling house remains unresolved. |
 | Dragon-bond rules | ESTABLISHED | Eligible Targaryen blood was required; each rider could bond with one dragon through a telepathic connection. Eligibility depended on reproduction within the eligible bloodline. |
 | Dragons | ESTABLISHED | Enormous flying reptilian predators with strength, flight, and fire; not traditional intelligent, spellcasting Pathfinder dragons. Most died in the rebellion; surviving dragons' fate is unknown. |
 | Player character relationship | ESTABLISHED | The two PCs already know each other before Session One; exact relationship history and dynamic remain to be documented. |
@@ -57,10 +56,12 @@ This file tracks major setting decisions and their status. It does not replace d
 | 2026-11-03 | Confirmed the inherited historical foundations: approximately 400 years of Targaryen rule, twelve dragons at the dynasty's height, exclusive bloodline-based dragon bonding, one dragon per rider, six rebel Great Houses, a multi-year rebellion with both independence and anti-dragon objectives, dragon-slaying ballistas, the fall of the dynasty, and the dwarven claim to Dragonstone. Exact dates, original names, campaign details, and the postwar settlement remain open. |
 
 
-## Historical clarification — current ruling house
+## Historical clarification — post-rebellion succession
 
-**ESTABLISHED:** The major house that later took the Imperial Seat was one of the original six Great Houses that rebelled against the Targaryen dragon-riding dynasty. Its identity and accession details remain unresolved. All six Great Houses will be developed individually during the later political-structure stage.
+**ESTABLISHED:** The house that later took the Imperial Seat was one of the original six Great Houses that rebelled against the dragon-riding dynasty. Its identity remains unresolved; all six houses will be developed individually during the political-structure stage.
+
+**ESTABLISHED:** The dwarven leader was the same individual throughout more than a century of post-rebellion rule. When he died, his successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. Another of the original six rebel houses took the throne, while the dwarven successor retained the inherited authority of the dwarven order.
 
 **ESTABLISHED:** The Great Rebellion occurred approximately 200–300 years before the present campaign. The exact calendar year remains unresolved.
 
-**ESTABLISHED:** The Great Rebellion occurred approximately 200–300 years before the present campaign. The exact calendar year remains unresolved.
+| 2026-11-03 | Clarified the post-rebellion succession: the same dwarven leader ruled for more than a century until death; his successor inherited dwarven authority, threatened war unless a human took the Imperial Seat, and another of the original six rebel houses became the ruling dynasty. |

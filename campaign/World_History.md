@@ -39,12 +39,13 @@ This record separates confirmed historical facts from dates, names, and politica
 - The final battles destroyed the Targaryen ruling family. Nearly the entire royal family was killed.
 - The dynasty lost the Imperial Seat, ending approximately 400 years of rule.
 - The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
-- The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
 - The dwarven victors claimed Dragonstone, the dynasty's ancestral home and principal royal residence, after the rebellion.
 - The main branch of the dwarven clans now occupies Dragonstone and is said to descend from Torag himself. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
-- In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The dwarven leader's position was the first post-Targaryen ruling power.
-- At a later point, another of the continent's major houses took the Imperial Seat. The current ruling house is therefore one of the major houses, but its name and the circumstances of its accession remain unresolved.
+- In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century and remained in power until his death.
+- After his death, a succession crisis followed. His successor inherited the dwarven leader's authority, but the crisis led to a confrontation over the Imperial Seat.
+- The dwarven successor threatened war unless a human was placed on the Imperial Seat. Another of the original six rebel Great Houses was consequently installed as the ruling dynasty. The dwarven successor retained the authority inherited within the dwarven order, while the other house took the wider imperial throne.
+- The identity of the house now occupying the Imperial Seat remains unresolved.
 - One Targaryen Crown Prince survived the destruction of Dragonstone. He was nine years old at the beginning of the rebellion. His survival is concealed; his personal name belongs to the player character and is intentionally not recorded here.
 
 ## Chronology
@@ -59,7 +60,10 @@ The relative sequence is established. The Great Rebellion occurred approximately
 6. The Imperial Seat falls and the Targaryen ruling family is nearly exterminated.
 7. The dwarven clans' main branch claims and occupies Dragonstone.
 8. The dwarven leader and the Baratheon-inspired house hold power in the immediate aftermath of the fall.
-9. At a later point, another major house takes the Imperial Seat and becomes the current ruling dynasty.
+9. The same dwarven leader remains in power for more than a century, until his death.
+10. His successor inherits his authority, but a succession crisis follows.
+11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; another of the original six rebel Great Houses takes the throne and becomes the current ruling dynasty.
+12. The dwarven successor retains the inherited authority of the dwarven order, even though the wider imperial throne passes to the other house.
 
 ## Still unresolved
 
@@ -67,8 +71,8 @@ The relative sequence is established. The Great Rebellion occurred approximately
 - The exact calendar year of the Great Rebellion, and the exact dates of the dynasty's rise and fall (the rebellion is approximately 200–300 years before the present campaign).
 - The identities and individual roles of all six rebel Great Houses.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
-- The exact form and duration of the dwarven leader's post-rebellion rule.
-- Which major house later took the Imperial Seat, how it came to power, and whether the transfer was peaceful or contested.
+- The exact calendar dates of the dwarven leader's more-than-century-long rule and the subsequent succession crisis.
+- Which of the original six rebel Great Houses took the Imperial Seat, and the precise political and military events surrounding the threatened war and installation of a human ruler.
 - The current ruling dynasty's name, its capital, and its relationship with the other major houses.
 - The ultimate fate of dragons that escaped the rebellion.
 - Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified.
@@ -78,4 +82,5 @@ The relative sequence is established. The Great Rebellion occurred approximately
 - The dwarven empire did **not** fragment or collapse. It has always existed as a relatively compact union of independent clans under its main branch.
 - Dragonstone's occupation by the dwarven main branch is consistent with the established dwarven imperial structure.
 - The rebellion's two motives must remain linked: independence from centralization and removal of dragon-riding as the Targaryens' means of enforcing supremacy.
+- The dwarven leader was the same individual for more than a century after the rebellion. After his death, his successor inherited dwarven authority; the successor's threat of war compelled the installation of a human ruler from one of the six rebel Great Houses on the Imperial Seat.
 - Do not treat the surviving Crown Prince as publicly known. The victorious houses believe the bloodline was eliminated.

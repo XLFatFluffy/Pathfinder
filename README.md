@@ -124,3 +124,28 @@ Exports include GM-only material, including house secrets, private location/shop
 To merge a JSON export (up to 24 MB), choose it under **Import a campaign JSON file** and select **Validate and preview**. Review the new records, duplicates, conflicts, and setting differences before confirming the import. Existing records are never overwritten: matching records are skipped, conflicting IDs are reported, and records with unresolved references are not imported. Differing settings are kept unless **Replace settings that differ** is explicitly selected. Imports are additive; use a database backup before a large merge.
 
 The JSON export is intended for review and handoff, not as a substitute for a backup. Use **Create backup** to preserve the SQLite database together with imported map artwork.
+
+
+## Campaign Records
+
+Campaign reference material is being organized separately from the application code.
+
+Planned structure:
+
+- `campaign/`: Campaign Bible, world history, calendar, current world state, canon register, and source documents.
+- `campaign/geography/`: continent, kingdoms, regions, cities, and locations.
+- `campaign/politics/`: noble houses, political relationships, and succession.
+- `campaign/people/`: NPCs and family records.
+- `campaign/factions/`, `campaign/religions/`, and `campaign/creatures/`: organizations, religious institutions, and setting-specific lore.
+- `campaign/maps/`: continent, kingdom, regional, and city map assets and metadata.
+- `campaign/economy/`: shops, merchants, and trade routes.
+- `campaign/player_characters/`: player-character records, with private information protected from player-facing exports.
+- `sessions/`: session records and readable summaries.
+- `world_events/`: active and historical world events.
+- `changelog/`: approved campaign canon changes.
+
+### Canon and privacy rules
+
+Use the statuses PROPOSED, APPROVED, ESTABLISHED, REJECTED, REVISED, and UNRESOLVED. Brainstorming is not canon until explicitly approved. Preserve unresolved mysteries and flag contradictions rather than silently resolving them. Keep GM-only knowledge separate from player-facing discoveries.
+
+The existing Campaign Bible and atlas are source material, not automatically final canon. The continent map remains provisional.

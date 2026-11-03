@@ -29,7 +29,7 @@ This file records current GM-approved creative direction. It supplements the imp
 - Prejudice against ratfolk is widespread across surface societies, although a few communities tolerate or openly accept them.
 - Ratfolk have established subterranean societies and communities; they are not inherently criminal, evil, diseased, or hostile.
 - Elves possess a major political power, and one of the six Great Houses is an influential elven dynasty.
-- A dwarven empire has always existed and has never collapsed. It has never been especially massive; dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements.
+- A dwarven empire has always existed and has never collapsed. It has never been especially massive; it consists of several independent clans united under the main branch, which occupies Dragonstone and is said to descend from Torag himself. Dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements.
 - Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility.
 - Other Pathfinder ancestries may exist without being designated rare or uncommon by default; the continent remains human-dominated.
 - Ratfolk are not inherently criminal, evil, diseased, or hostile. Prejudice is a feature of the societies that practice it, not an objective truth about ratfolk.

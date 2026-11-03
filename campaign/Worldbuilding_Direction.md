@@ -12,7 +12,9 @@ This file records current GM-approved creative direction. It supplements the imp
 - Use a high-medieval technological baseline: feudal societies, castles, fortified cities, conventional medieval crafts, arms, armor, siege engines, horse-drawn transport, and sailing vessels.
 - There is no industrial or steampunk technological culture.
 - Alchemy exists within Pathfinder First Edition's framework as a specialized field of knowledge and craft. It does not imply industrialization, mass production, or advanced machinery.
-- Gothic horror, vampires, cults, religious zealotry, decaying institutions, and supernatural mysteries may contribute to the atmosphere, but they do not change the world's technological level.
+- The central identity is grounded medieval fantasy, with political and dynastic conflict at its heart.
+- Supernatural horror, vampires, cults, and other supernatural threats exist, but supernatural horror is not the main theme.
+- Do not carry forward the former gothic steampunk campaign concept; it was superseded when the campaign direction changed.
 - Do not introduce industrial machinery, steam-powered infrastructure, or Dishonored-style technology as setting features unless the GM explicitly revises this decision.
 
 ## Originality
@@ -24,14 +26,20 @@ This file records current GM-approved creative direction. It supplements the imp
 ## Major ancestries and societies
 
 - The wealthy, politically influential great-house archetype previously compared to the Lannisters should be an elven dynasty. Its name, territory, culture, heraldry, and exact power base remain undecided.
-- Ratfolk are a marginalized and hated people in some surface societies, with established subterranean societies and communities.
+- Prejudice against ratfolk is widespread across surface societies, although a few communities tolerate or openly accept them.
+- Ratfolk have established subterranean societies and communities; they are not inherently criminal, evil, diseased, or hostile.
+- Elves possess a major political power, and one of the six Great Houses is an influential elven dynasty.
+- A dwarven empire has always existed and has never collapsed. It has never been especially massive; dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements.
+- Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility.
+- Other Pathfinder ancestries may exist without being designated rare or uncommon by default; the continent remains human-dominated.
 - Ratfolk are not inherently criminal, evil, diseased, or hostile. Prejudice is a feature of the societies that practice it, not an objective truth about ratfolk.
 - Ratfolk communities are decentralized and diverse; no single settlement or organization speaks for all ratfolk.
 
 ## Working principles
 
-- Preserve the uncertainty surrounding the gods.
-- Divine magic exists mechanically and does not prove the gods exist.
+- The Pathfinder gods are real.
+- Divine spellcasters are uncommon and devote themselves to a god; the deeper details of divine magic remain open.
+- Arcane spellcasters are rare. Divine spellcasting is also uncommon, and an average person may never witness a spell cast.
 - Civilization survives behind walls; wilderness is dangerous.
 - Keep mysteries unresolved until deliberately answered.
 - GM approval is required before proposed material becomes established canon.

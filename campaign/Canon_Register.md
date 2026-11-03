@@ -17,6 +17,9 @@ This file tracks major setting decisions and their status. It does not replace d
 |---|---|---|
 | Rules system | ESTABLISHED | Pathfinder First Edition |
 | Setting identity | ESTABLISHED | Original world, not Golarion |
+| Technology | ESTABLISHED | High-medieval. No industrial or steampunk technological culture. |
+| Alchemy | ESTABLISHED | Exists within Pathfinder's framework as specialized knowledge and craft; it does not imply industrialization or advanced machinery. |
+| Gothic/supernatural atmosphere | APPROVED | Gothic horror, vampires, cults, religious zealotry, and decaying institutions may shape atmosphere without changing the high-medieval technology level. |
 | Gods | ESTABLISHED | Their existence is genuinely uncertain in-world |
 | Divine magic | ESTABLISHED | Exists mechanically; source remains uncertain |
 | Ratfolk | ESTABLISHED | Subterranean, decentralized, marginalized in some surface societies; not inherently evil or criminal |
@@ -25,16 +28,16 @@ This file tracks major setting decisions and their status. It does not replace d
 | Legacy names and history | UNRESOLVED | Existing names and direct analogues require original renaming and substantial reworking |
 | GM authority | ESTABLISHED | GM approves whether generated events become canon |
 
-## Explicit continuity flags
+## Continuity rules
 
-1. **Tone and technology conflict:** The imported Bible describes a high-medieval setting and explicitly excludes gothic, steampunk, industrial, and Dishonored influences. Earlier campaign brainstorming explored grimdark gothic horror, vampires, cults, decaying institutions, and steampunk/industrial/alchemical atmosphere. This remains unresolved; neither direction silently overrides the other.
-2. **Legacy naming and adaptation:** The Bible retains names and historical scaffolding from Game of Thrones. New material must use original identities and substantially rework the underlying histories, not merely rename copied material.
-3. **Gods and Pathfinder cosmology:** The setting's uncertainty about gods must be preserved even though Pathfinder provides the mechanical and religious framework.
-4. **Map status:** The uploaded atlas is a working visual reference only. Its names, borders, terrain, and exact geography are not final canon.
+1. **Originality:** The imported Bible retains names and historical scaffolding from Game of Thrones. New material must use original identities and substantially rework the underlying histories, not merely rename copied material.
+2. **Gods and Pathfinder cosmology:** The setting's uncertainty about gods must be preserved even though Pathfinder provides the mechanical and religious framework.
+3. **Map status:** The uploaded atlas is a working visual reference only. Its names, borders, terrain, and exact geography are not final canon.
+4. **Technology boundary:** High-medieval technology is the approved baseline. Industrial and steampunk technology are excluded unless the GM explicitly revises this decision.
 
 ## Change log
 
 | Date | Change |
 |---|---|
 | 2026-11-03 | Initial register created from the imported Campaign Bible and current project decisions. |
-| 2026-11-03 | Clarified elven great-house archetype, provisional map status, originality requirements, and unresolved tone/technology conflict. |
+| 2026-11-03 | Clarified elven great-house archetype, provisional map status, originality requirements, and high-medieval technology decision. |

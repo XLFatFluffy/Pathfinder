@@ -101,3 +101,11 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Supersedes:** The prior unresolved status of the six houses' names, identities, and political relationships. It also corrects any wording that described Dragonstone as the dwarves' ancestral homeland.
 **Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `World_History.md`, `Worldbuilding_Direction.md`, `Names_and_Terminology_Index.md`, `Open_Questions_Register.md`, and campaign changelog.
 **Still unresolved:** Exact house territories and seats, current heads and heirs, precise map placement, and the membership and leadership of the Imperial Council and competing factions.
+
+
+### 2026-11-03 — Replace the dwarven house's legacy placeholder name
+**Status:** ESTABLISHED / REVISED
+**Decision:** House Kharadorn is the approved original name of the dwarven Great House. The prior placeholder House Baratheon is superseded and may appear only when describing the imported source material or historical naming process. Khar-Dum is the Kharadorns' ancestral homeland; Dragonstone is the conquered former ancestral stronghold of the fallen dragon-riding dynasty.
+**Reason:** The GM approved the Great House proposal and clarified the distinct ancestral and conquered locations.
+**Supersedes:** Use of House Baratheon as a current setting name and any description of Dragonstone as the Kharadorns' ancestral homeland.
+**Affected records:** Campaign Bible, Canon Register, Current World State, World History, Worldbuilding Direction, and Names & Terminology Index.

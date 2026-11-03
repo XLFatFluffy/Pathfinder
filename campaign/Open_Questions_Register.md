@@ -56,8 +56,9 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 
 ## Stage 5 — Geography: remaining questions
-- What are the continent's exact dimensions, and how should the atlas scale bar be recalibrated?
+- What final cartographic dimensions and scale should be used after the revised map is generated? Working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west; the old scale bar is superseded.
 - What are the final original names for the continent, inland sea, Dragonstone, land bridge, mountain systems, rivers, and major regions?
-- What are the exact borders and principal seats of the six Great Houses?
+- What are the exact borders and principal seats of the six Great Houses? The previously suggested regional placements remain proposals pending map review.
+- How many minor houses exist, what are their names and holdings, and to whom does each owe allegiance? Minor houses are established as wealthy local lords and ladies with small territories but little continent-wide political significance.
 - What are the precise route, entrances, extent, and construction history of the dwarven underground tunnel system to Dragonstone? Which dwarves know of it? **GM-ONLY SECRET:** The system exists; the rest of the world does not know.
 - What are the final locations of major rivers, lakes, roads, ports, cities, and independent territories?

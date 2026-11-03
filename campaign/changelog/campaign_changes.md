@@ -39,3 +39,9 @@
 - Updated ratfolk prejudice from limited to widespread across surface societies, while preserving a few tolerant or accepting communities.
 - Confirmed that other Pathfinder ancestries may exist without rare/uncommon designation in this human-dominated setting.
 - Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, and Open Questions Register. The uploaded DOCX remains preserved as historical source material and was not overwritten.
+
+## 2026-11-03 - Dwarven imperial structure
+- Established that the dwarven empire consists of several independent clans united under the main branch of dwarves.
+- Established that the main branch occupies Dragonstone and is said to descend from Torag himself; the descent remains a dynastic claim or tradition rather than confirmed divine ancestry.
+- Clarified that the dwarven Great House is associated with this main branch.
+- Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, and Open Questions Register.

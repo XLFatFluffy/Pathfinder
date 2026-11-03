@@ -18,7 +18,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, history, and political legacy replace the imported legacy scaffolding? | UNRESOLVED |
-| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the major houses, including the elven great power and the dwarven Great House's place within its enduring empire? | UNRESOLVED |
+| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the major houses? The dwarven empire's clan structure, main branch on Dragonstone, and claimed descent from Torag are established; its precise offices, authority, and clan relationships remain to be developed. | PARTIALLY ESTABLISHED |
 | OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | What are the continent's final name, regions, borders, rivers, roads, and seas? | UNRESOLVED |

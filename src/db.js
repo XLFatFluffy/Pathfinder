@@ -4,10 +4,14 @@ const Database = require('better-sqlite3');
 
 const dataDir = path.join(__dirname, '..', 'data');
 const backupDir = path.join(__dirname, '..', 'backups');
+const mapStorageDir = path.join(dataDir, 'maps');
 const dbPath = path.join(dataDir, 'pathfinder.db');
+const mapTypes = new Set(['world', 'continent', 'region', 'kingdom', 'city', 'settlement', 'interior', 'dungeon']);
+const mapStatuses = new Set(['unknown', 'known', 'available_for_purchase', 'purchased', 'discovered', 'reward', 'lost']);
 
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(backupDir, { recursive: true });
+fs.mkdirSync(mapStorageDir, { recursive: true });
 
 const db = new Database(dbPath);
 db.pragma('journal_mode = WAL');
@@ -83,6 +87,10 @@ function initializeDatabase() {
       parent_id TEXT,
       file_path TEXT,
       status TEXT DEFAULT 'known',
+      description TEXT,
+      original_filename TEXT,
+      mime_type TEXT,
+      file_size INTEGER,
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
@@ -151,6 +159,20 @@ function initializeDatabase() {
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
   `);
+
+  const mapColumns = db.prepare('PRAGMA table_info(maps)').all().map(({ name }) => name);
+  const mapMigrations = [
+    ['description', 'TEXT'],
+    ['original_filename', 'TEXT'],
+    ['mime_type', 'TEXT'],
+    ['file_size', 'INTEGER']
+  ];
+
+  mapMigrations.forEach(([column, definition]) => {
+    if (!mapColumns.includes(column)) {
+      db.exec(`ALTER TABLE maps ADD COLUMN ${column} ${definition}`);
+    }
+  });
 
   const defaults = [
     ['app_name', 'The World Atlas'],
@@ -249,33 +271,216 @@ function searchRecords(query) {
 function createBackup() {
   const stamp = new Date().toISOString().replace(/[:.]/g, '-');
   const destination = path.join(backupDir, `pathfinder-backup-${stamp}.db`);
-  fs.copyFileSync(dbPath, destination);
+  const assetsDirectory = `${destination}.assets`;
+  const copiedAssets = [];
+  let databaseCopied = false;
 
-  const stats = fs.statSync(destination);
-  const record = {
-    id: `backup-${stamp}`,
-    file_path: destination,
-    size_bytes: stats.size
-  };
+  try {
+    const checkpoint = db.pragma('wal_checkpoint(FULL)')[0];
+    if (checkpoint?.busy) {
+      throw new Error('The database is busy and could not be safely backed up.');
+    }
 
-  db.prepare(`
-    INSERT INTO backups (id, file_path, created_at, size_bytes)
-    VALUES (@id, @file_path, CURRENT_TIMESTAMP, @size_bytes)
-    ON CONFLICT(id) DO UPDATE SET file_path = excluded.file_path, created_at = CURRENT_TIMESTAMP, size_bytes = excluded.size_bytes
-  `).run(record);
+    fs.copyFileSync(dbPath, destination);
+    databaseCopied = true;
+    fs.mkdirSync(assetsDirectory);
 
-  saveSetting('last_backup_path', destination);
+    const mapsWithArtwork = db.prepare('SELECT file_path FROM maps WHERE file_path IS NOT NULL').all();
+    mapsWithArtwork.forEach(({ file_path: filePath }) => {
+      const resolvedPath = path.resolve(filePath);
+      const relativePath = path.relative(mapStorageDir, resolvedPath);
+      if (!relativePath || relativePath === '.' || relativePath === '..' || relativePath.startsWith(`..${path.sep}`) || path.isAbsolute(relativePath)) {
+        throw new Error('A map references artwork outside the local map library.');
+      }
+      if (!fs.existsSync(resolvedPath)) {
+        throw new Error(`Map artwork is missing and could not be backed up: ${path.basename(resolvedPath)}`);
+      }
+      const assetCopy = path.join(assetsDirectory, path.basename(resolvedPath));
+      copiedAssets.push(assetCopy);
+      fs.copyFileSync(resolvedPath, assetCopy);
+    });
 
-  return {
-    id: record.id,
-    file_path: destination,
-    size_bytes: stats.size,
-    created_at: new Date().toISOString()
-  };
+    const sizeBytes = fs.statSync(destination).size
+      + copiedAssets.reduce((total, assetPath) => total + fs.statSync(assetPath).size, 0);
+    const record = {
+      id: `backup-${stamp}`,
+      file_path: destination,
+      size_bytes: sizeBytes
+    };
+
+    db.prepare(`
+      INSERT INTO backups (id, file_path, created_at, size_bytes)
+      VALUES (@id, @file_path, CURRENT_TIMESTAMP, @size_bytes)
+      ON CONFLICT(id) DO UPDATE SET file_path = excluded.file_path, created_at = CURRENT_TIMESTAMP, size_bytes = excluded.size_bytes
+    `).run(record);
+
+    saveSetting('last_backup_path', destination);
+
+    return {
+      id: record.id,
+      file_path: destination,
+      assets_directory: assetsDirectory,
+      size_bytes: sizeBytes,
+      created_at: new Date().toISOString()
+    };
+  } catch (error) {
+    copiedAssets.forEach((assetPath) => {
+      if (fs.existsSync(assetPath)) fs.unlinkSync(assetPath);
+    });
+    if (fs.existsSync(assetsDirectory)) fs.rmdirSync(assetsDirectory);
+    if (databaseCopied && fs.existsSync(destination)) fs.unlinkSync(destination);
+    throw error;
+  }
 }
 
 function listBackups() {
   return db.prepare('SELECT id, file_path, created_at, size_bytes FROM backups ORDER BY created_at DESC').all();
+}
+
+function listMaps() {
+  return db.prepare(`
+    SELECT maps.*, parent.name AS parent_name
+    FROM maps
+    LEFT JOIN maps AS parent ON parent.id = maps.parent_id
+    ORDER BY maps.name COLLATE NOCASE ASC
+  `).all();
+}
+
+function getMap(id) {
+  return db.prepare('SELECT * FROM maps WHERE id = ?').get(id);
+}
+
+function validateMapParent(parentId, mapId = null) {
+  if (!parentId) return;
+  if (parentId === mapId) {
+    throw mapValidationError('A map cannot be its own parent.');
+  }
+  if (!getMap(parentId)) {
+    throw mapValidationError('The selected parent map does not exist.');
+  }
+
+  let ancestor = parentId;
+  while (ancestor) {
+    if (ancestor === mapId) {
+      throw mapValidationError('This parent would create a map hierarchy cycle.');
+    }
+    const parent = getMap(ancestor);
+    ancestor = parent?.parent_id || null;
+  }
+}
+
+function createMap({ id, name, mapType, parentId, status, description, filePath, originalFilename, mimeType, fileSize }) {
+  const normalizedName = String(name || '').trim();
+  if (!normalizedName) {
+    throw mapValidationError('A map name is required.');
+  }
+  validateMapType(mapType || 'world');
+  validateMapStatus(status || 'unknown');
+  validateMapParent(parentId);
+
+  db.prepare(`
+    INSERT INTO maps (
+      id, name, map_type, parent_id, file_path, status, description,
+      original_filename, mime_type, file_size, updated_at
+    ) VALUES (
+      @id, @name, @mapType, @parentId, @filePath, @status, @description,
+      @originalFilename, @mimeType, @fileSize, CURRENT_TIMESTAMP
+    )
+  `).run({
+    id,
+    name: normalizedName,
+    mapType: mapType || 'world',
+    parentId: parentId || null,
+    filePath: filePath || null,
+    status: status || 'unknown',
+    description: description || '',
+    originalFilename: originalFilename || null,
+    mimeType: mimeType || null,
+    fileSize: fileSize || null
+  });
+
+  return getMap(id);
+}
+
+function updateMap(id, { name, mapType, parentId, status, description, filePath, originalFilename, mimeType, fileSize }) {
+  const current = getMap(id);
+  if (!current) return null;
+
+  const normalizedName = String(name ?? current.name).trim();
+  if (!normalizedName) {
+    throw mapValidationError('A map name is required.');
+  }
+  validateMapType(mapType || current.map_type);
+  validateMapStatus(status || current.status);
+  const nextParentId = parentId === undefined ? current.parent_id : (parentId || null);
+  validateMapParent(nextParentId, id);
+
+  db.prepare(`
+    UPDATE maps SET
+      name = @name,
+      map_type = @mapType,
+      parent_id = @parentId,
+      status = @status,
+      description = @description,
+      file_path = @filePath,
+      original_filename = @originalFilename,
+      mime_type = @mimeType,
+      file_size = @fileSize,
+      updated_at = CURRENT_TIMESTAMP
+    WHERE id = @id
+  `).run({
+    id,
+    name: normalizedName,
+    mapType: mapType || current.map_type,
+    parentId: nextParentId,
+    status: status || current.status,
+    description: description === undefined ? current.description : description,
+    filePath: filePath === undefined ? current.file_path : filePath,
+    originalFilename: originalFilename === undefined ? current.original_filename : originalFilename,
+    mimeType: mimeType === undefined ? current.mime_type : mimeType,
+    fileSize: fileSize === undefined ? current.file_size : fileSize
+  });
+
+  return getMap(id);
+}
+
+function getMapDependents(id) {
+  return {
+    childMaps: db.prepare('SELECT COUNT(*) AS count FROM maps WHERE parent_id = ?').get(id).count,
+    locations: db.prepare('SELECT COUNT(*) AS count FROM locations WHERE map_id = ?').get(id).count
+  };
+}
+
+function deleteMap(id) {
+  const map = getMap(id);
+  if (!map) return null;
+  const dependents = getMapDependents(id);
+  if (dependents.childMaps || dependents.locations) {
+    const error = new Error('This map is in use by other campaign records.');
+    error.dependents = dependents;
+    throw error;
+  }
+
+  db.prepare('DELETE FROM maps WHERE id = ?').run(id);
+  return map;
+}
+
+function validateMapType(mapType) {
+  if (!mapTypes.has(mapType)) {
+    throw mapValidationError('Choose a supported map level.');
+  }
+}
+
+function validateMapStatus(status) {
+  if (!mapStatuses.has(status)) {
+    throw mapValidationError('Choose a supported player-knowledge status.');
+  }
+}
+
+function mapValidationError(message) {
+  const error = new Error(message);
+  error.statusCode = 400;
+  return error;
 }
 
 module.exports = {
@@ -286,5 +491,11 @@ module.exports = {
   getCounts,
   searchRecords,
   createBackup,
-  listBackups
+  listBackups,
+  mapStorageDir,
+  listMaps,
+  getMap,
+  createMap,
+  updateMap,
+  deleteMap
 };

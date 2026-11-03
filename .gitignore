@@ -1,5 +1,6 @@
 node_modules/
 data/*.db*
-backups/*.db
+data/maps/
+backups/
 .env
 npm-debug.log*

@@ -99,6 +99,69 @@
             <div id="backupList" class="backup-list"></div>
           </div>
         </section>
+
+        <section id="maps" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Cartography Archive</p>
+              <h3>Map Library</h3>
+            </div>
+          </div>
+
+          <form id="mapForm" class="map-form">
+            <input name="id" type="hidden" />
+            <label>
+              Map name
+              <input name="name" type="text" required maxlength="160" placeholder="e.g. The Continent of Elarion" />
+            </label>
+            <label>
+              Map level
+              <select name="mapType">
+                <option value="world">World</option>
+                <option value="continent">Continent</option>
+                <option value="region">Region</option>
+                <option value="kingdom">Kingdom</option>
+                <option value="city">City</option>
+                <option value="settlement">Settlement</option>
+                <option value="interior">Interior</option>
+                <option value="dungeon">Dungeon</option>
+              </select>
+            </label>
+            <label>
+              Parent map
+              <select name="parentId">
+                <option value="">No parent</option>
+              </select>
+            </label>
+            <label>
+              Player knowledge
+              <select name="status">
+                <option value="unknown">Unknown to players</option>
+                <option value="known">Known to players</option>
+                <option value="available_for_purchase">Available for purchase</option>
+                <option value="purchased">Purchased by party</option>
+                <option value="discovered">Discovered</option>
+                <option value="reward">Given as a reward</option>
+                <option value="lost">Lost or destroyed</option>
+              </select>
+            </label>
+            <label class="map-description">
+              Description
+              <textarea name="description" rows="3" maxlength="4000" placeholder="Optional notes about this map"></textarea>
+            </label>
+            <label class="map-artwork">
+              Map artwork (PNG, JPEG, WebP, or GIF; up to 100 MB)
+              <input name="artwork" type="file" accept="image/png,image/jpeg,image/webp,image/gif" />
+            </label>
+            <div class="map-form-actions">
+              <button id="mapSubmitButton" type="submit" class="primary-button">Add map</button>
+              <button id="mapCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="mapFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="mapLibrary" class="map-library"></div>
+        </section>
       </main>
     </div>
 

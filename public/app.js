@@ -5,9 +5,25 @@ const settingsForm = document.getElementById('settingsForm');
 const backupButton = document.getElementById('backupButton');
 const backupList = document.getElementById('backupList');
 const campaignTitle = document.getElementById('campaignTitle');
+const mapForm = document.getElementById('mapForm');
+const mapLibrary = document.getElementById('mapLibrary');
+const mapFormMessage = document.getElementById('mapFormMessage');
+const mapSubmitButton = document.getElementById('mapSubmitButton');
+const mapCancelButton = document.getElementById('mapCancelButton');
 
 const sectionButtons = [...document.querySelectorAll('.nav-item')];
 const panels = [...document.querySelectorAll('.panel')];
+let maps = [];
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, (character) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  })[character]);
+}
 
 function renderSummary(data) {
   const labels = {
@@ -121,17 +137,162 @@ async function createBackup() {
   alert(`Backup created: ${payload.backup.file_path}`);
 }
 
+function updateParentMapOptions(selectedParentId = '') {
+  const parentSelect = mapForm.elements.namedItem('parentId');
+  const currentId = mapForm.elements.namedItem('id').value;
+  const options = maps
+    .filter((map) => map.id !== currentId)
+    .map((map) => `<option value="${escapeHtml(map.id)}">${escapeHtml(map.name)} (${escapeHtml(map.map_type)})</option>`);
+
+  parentSelect.innerHTML = '<option value="">No parent</option>' + options.join('');
+  parentSelect.value = selectedParentId;
+}
+
+async function loadMaps() {
+  const response = await fetch('/api/maps');
+  const payload = await response.json();
+  if (!response.ok) {
+    throw new Error(payload.error || 'Unable to load maps.');
+  }
+  maps = payload.maps || [];
+  updateParentMapOptions(mapForm.elements.namedItem('parentId').value);
+  renderMaps();
+}
+
+function renderMaps() {
+  if (!maps.length) {
+    mapLibrary.innerHTML = '<div class="empty-state">No maps yet. Add your first map above to begin building the atlas.</div>';
+    return;
+  }
+
+  mapLibrary.innerHTML = maps.map((map) => {
+    const artwork = map.file_path
+      ? `<img src="/api/maps/${encodeURIComponent(map.id)}/artwork" alt="Artwork for ${escapeHtml(map.name)}" loading="lazy" />`
+      : '<div class="map-art-placeholder">Artwork not imported</div>';
+    const parent = map.parent_name ? `<span>Parent: ${escapeHtml(map.parent_name)}</span>` : '<span>Top-level map</span>';
+
+    return `
+      <article class="map-card">
+        <div class="map-card-art">${artwork}</div>
+        <div class="map-card-content">
+          <div class="map-card-heading">
+            <div>
+              <span class="map-level">${escapeHtml(map.map_type || 'Map')}</span>
+              <h4>${escapeHtml(map.name)}</h4>
+            </div>
+            <span class="map-status">${escapeHtml(String(map.status || 'unknown').replaceAll('_', ' '))}</span>
+          </div>
+          <p>${escapeHtml(map.description || 'No description added.')}</p>
+          <div class="map-card-meta">${parent}${map.original_filename ? `<span>${escapeHtml(map.original_filename)}</span>` : ''}</div>
+          <div class="map-card-actions">
+            <button type="button" class="secondary-button" data-map-edit="${escapeHtml(map.id)}">Edit</button>
+            <button type="button" class="danger-button" data-map-delete="${escapeHtml(map.id)}">Delete</button>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  mapLibrary.querySelectorAll('[data-map-edit]').forEach((button) => {
+    button.addEventListener('click', () => editMap(button.dataset.mapEdit));
+  });
+  mapLibrary.querySelectorAll('[data-map-delete]').forEach((button) => {
+    button.addEventListener('click', () => removeMap(button.dataset.mapDelete));
+  });
+}
+
+function editMap(id) {
+  const map = maps.find((entry) => entry.id === id);
+  if (!map) return;
+
+  mapForm.elements.namedItem('id').value = map.id;
+  mapForm.elements.namedItem('name').value = map.name;
+  mapForm.elements.namedItem('mapType').value = map.map_type || 'world';
+  mapForm.elements.namedItem('status').value = map.status || 'unknown';
+  mapForm.elements.namedItem('description').value = map.description || '';
+  mapForm.elements.namedItem('artwork').value = '';
+  updateParentMapOptions(map.parent_id || '');
+  mapSubmitButton.textContent = 'Save map';
+  mapCancelButton.hidden = false;
+  mapFormMessage.textContent = 'Editing map details. Choose artwork only if you want to replace the current image.';
+  mapForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetMapForm() {
+  mapForm.reset();
+  mapForm.elements.namedItem('id').value = '';
+  mapSubmitButton.textContent = 'Add map';
+  mapCancelButton.hidden = true;
+  mapFormMessage.textContent = '';
+  updateParentMapOptions();
+}
+
+async function saveMap(event) {
+  event.preventDefault();
+  mapFormMessage.textContent = '';
+  const id = mapForm.elements.namedItem('id').value;
+  const formData = new FormData(mapForm);
+  if (!formData.get('artwork')?.size) {
+    formData.delete('artwork');
+  }
+  formData.delete('id');
+
+  const response = await fetch(id ? `/api/maps/${encodeURIComponent(id)}` : '/api/maps', {
+    method: id ? 'PUT' : 'POST',
+    body: formData
+  });
+  const payload = await response.json();
+  if (!response.ok) {
+    mapFormMessage.textContent = payload.error || 'Unable to save map.';
+    return;
+  }
+
+  resetMapForm();
+  await loadMaps();
+  await loadOverview();
+}
+
+async function removeMap(id) {
+  const map = maps.find((entry) => entry.id === id);
+  if (!map || !window.confirm(`Delete "${map.name}"? This cannot be undone.`)) return;
+
+  const response = await fetch(`/api/maps/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const payload = await response.json();
+  if (!response.ok) {
+    const dependents = payload.dependents;
+    const usage = dependents
+      ? ` It has ${dependents.childMaps} child map(s) and ${dependents.locations} linked location(s).`
+      : '';
+    window.alert(`${payload.error || 'Unable to delete map.'}${usage}`);
+    return;
+  }
+
+  resetMapForm();
+  await loadMaps();
+  await loadOverview();
+}
+
 sectionButtons.forEach((button) => {
   button.addEventListener('click', () => {
     sectionButtons.forEach((item) => item.classList.toggle('active', item === button));
     panels.forEach((panel) => panel.classList.toggle('active-panel', panel.id === button.dataset.section));
+    if (button.dataset.section === 'maps') {
+      loadMaps().catch((error) => {
+        mapFormMessage.textContent = error.message;
+      });
+    }
   });
 });
 
 searchInput.addEventListener('input', performSearch);
 settingsForm.addEventListener('submit', saveSettings);
 backupButton.addEventListener('click', createBackup);
+mapForm.addEventListener('submit', saveMap);
+mapCancelButton.addEventListener('click', resetMapForm);
 
 loadOverview();
 loadBackups();
+loadMaps().catch((error) => {
+  mapFormMessage.textContent = error.message;
+});
 performSearch();

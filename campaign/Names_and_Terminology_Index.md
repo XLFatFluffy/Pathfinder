@@ -49,3 +49,9 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Dragonstone land bridge | Geographic feature | ESTABLISHED FEATURE / PROVISIONAL LABEL | Narrow natural land bridge; only known surface route onto or off Dragonstone without dragons. Final name undecided. |
 | Dwarven underground route to Dragonstone | GM-only geographic secret | ESTABLISHED SECRET | Underground tunnel system built by the dwarves; existence unknown to the rest of the world. Exact route and entrances unresolved. |
 | Northeastern mountain system | Geographic region | APPROVED PLACEMENT / PROVISIONAL LABEL | Contains Khar-Dum, the Kharadorns' ancestral homeland. Final name undecided. |
+
+## Minor Houses
+
+| Term | Category | Status | Notes |
+|---|---|---|---|
+| Minor house | Noble house category | ESTABLISHED CATEGORY | Wealthy lords and ladies with relatively small territories and local holdings; locally established but nearly politically insignificant continent-wide. They do not rival the six Great Houses or automatically hold Imperial Council seats. Individual house names, number, holdings, and allegiances remain unresolved. |

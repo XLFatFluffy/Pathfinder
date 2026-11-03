@@ -12,19 +12,22 @@ This is a concise navigation and continuity document, not a replacement for the 
 - **High-medieval technological baseline.**
 - No industrial or steampunk technological culture.
 - Alchemy exists as specialized Pathfinder-based knowledge and craft; it does not imply industrialization or advanced machinery.
-- Gothic horror and supernatural elements may shape the atmosphere without changing the technology level.
+- Grounded medieval fantasy is the central identity. Supernatural horror exists as a supporting element, not the main theme.
 - Political landscape shaped by kingdoms, noble houses, feudal obligations, warfare, and intrigue.
 - Civilization survives behind walls; wilderness beyond settled areas is dangerous.
-- Gods' existence is genuinely uncertain. Divine magic exists mechanically, but does not settle the question.
-- Arcane magic is rare in everyday society.
+- The Pathfinder gods are real.
+- Arcane spellcasters are rare; divine spellcasters are also uncommon and devote themselves to a god.
+- The average person may live their entire life without witnessing a spell being cast.
 
 ## Ancestries and societies
 
 - Humans are dominant across much of the continent.
-- Dwarven civilization once held a much larger empire; one dwarven kingdom and several successor territories survive.
-- One great house is an elven dynasty inspired loosely by the wealthy, politically powerful noble-house archetype. Its final identity is undecided.
-- Ratfolk are subterranean inhabitants with an extensive but incomplete underground network.
-- Ratfolk settlements are decentralized; ratfolk are marginalized and hated in some surface societies, but prejudice is not universal. Ratfolk are not inherently criminal, evil, or hostile.
+- A dwarven empire has always existed and has never collapsed; it has never been especially massive in territorial scale. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
+- Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility.
+- Elves possess a major political power. One of the six Great Houses is an influential elven dynasty loosely inspired by the wealthy, politically powerful noble-house archetype.
+- Ratfolk are naturally subterranean, with an extensive but incomplete underground network and decentralized settlements.
+- Prejudice against ratfolk is widespread across surface societies, although a few communities tolerate or openly accept them. Ratfolk are not inherently criminal, evil, or hostile.
+- Other Pathfinder ancestries may exist; none are designated rare or uncommon by default. The continent remains human-dominated.
 
 ## Northern mystery
 
@@ -56,4 +59,4 @@ See the Campaign Bible's unresolved topics. In particular: final continent name 
 
 ## Continuity cautions
 
-The original DOCX is preserved as source material. Where older brainstorming conflicts with the current GM-approved direction, use this current baseline: **high-medieval technology, with no industrial or steampunk technological culture.** The atmosphere may still include gothic horror and supernatural elements.
+The original DOCX is preserved as source material. Where older brainstorming conflicts with the current GM-approved direction, use this current baseline: **grounded high-medieval fantasy, with no industrial or steampunk technological culture.** Supernatural horror exists but is not the main theme. The Pathfinder gods are real.

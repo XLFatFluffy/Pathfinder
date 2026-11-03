@@ -124,3 +124,12 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Supersedes:** The previous working preference for a continent roughly comparable in scale to Westeros. It does not supersede the provisional status of the atlas's exact terrain, labels, or scale bar.
 **Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`, `Open_Questions_Register.md`, `Names_and_Terminology_Index.md`, `Development_Roadmap.md`, and campaign changelog.
 **Still unresolved:** Exact dimensions and distances; final geographic names; precise terrain and river systems; all territorial borders and house seats; and the details of the dwarven underground route.
+
+### 2026-11-03 — Revised continental scale, geographic principles, and minor houses
+**Status:** ESTABLISHED / APPROVED DIRECTION
+**Decision:** The continent will be substantially smaller than Westeros, using approximate working dimensions of 1,700 miles north to south and 1,300 miles east to west at its widest point. The revised map should preserve the uploaded atlas's recognizable geographic identity while making its physical geography coherent. The former scale bar is superseded. The central inland sea must support substantial shipping and naval commerce; the southern reaches remain politically fragmented; and the dwarven empire should appear comparatively limited on the surface while its true reach is primarily subterranean and poorly understood by outsiders.
+
+**Minor houses:** Established as a category of wealthy lords and ladies holding relatively small territories and local holdings. They have local wealth and standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold seats on the Imperial Council. Their names, number, holdings, and allegiances remain open.
+
+**Reason:** The GM wants to retain the atlas's geographic identity while reducing the scale to suit the campaign, and wants wealthy minor nobility without adding more continent-level political powers.
+**Still unresolved:** Final map dimensions after image revision; exact regions, rivers, roads, borders, Great House seats, minor-house names, territories, and allegiances. The specific previously proposed Great House placements remain proposals pending map review.

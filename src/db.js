@@ -102,6 +102,23 @@ function initializeDatabase() {
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
 
+    CREATE TABLE IF NOT EXISTS npc_relationships (
+      id TEXT PRIMARY KEY,
+      npc_id TEXT NOT NULL REFERENCES npcs(id) ON DELETE CASCADE,
+      related_npc_id TEXT NOT NULL REFERENCES npcs(id) ON DELETE CASCADE,
+      relationship_type TEXT NOT NULL CHECK (relationship_type IN ('parent', 'sibling', 'spouse', 'former_spouse')),
+      notes TEXT,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      CHECK (npc_id != related_npc_id)
+    );
+
+    CREATE UNIQUE INDEX IF NOT EXISTS npc_relationships_unique_pair
+    ON npc_relationships (
+      CASE WHEN npc_id < related_npc_id THEN npc_id ELSE related_npc_id END,
+      CASE WHEN npc_id < related_npc_id THEN related_npc_id ELSE npc_id END
+    );
+
     CREATE TABLE IF NOT EXISTS factions (
       id TEXT PRIMARY KEY,
       name TEXT NOT NULL,
@@ -767,6 +784,103 @@ function deleteNpc(id) {
   if (!npc) return null;
   db.prepare('DELETE FROM npcs WHERE id = ?').run(id);
   return npc;
+}
+
+function listNpcRelationships(npcId = null) {
+  const rows = npcId
+    ? db.prepare(`
+      SELECT relationships.*, subject.name AS subject_name, related.name AS related_name
+      FROM npc_relationships AS relationships
+      JOIN npcs AS subject ON subject.id = relationships.npc_id
+      JOIN npcs AS related ON related.id = relationships.related_npc_id
+      WHERE relationships.npc_id = ? OR relationships.related_npc_id = ?
+      ORDER BY subject.name COLLATE NOCASE ASC, related.name COLLATE NOCASE ASC
+    `).all(npcId, npcId)
+    : db.prepare(`
+      SELECT relationships.*, subject.name AS subject_name, related.name AS related_name
+      FROM npc_relationships AS relationships
+      JOIN npcs AS subject ON subject.id = relationships.npc_id
+      JOIN npcs AS related ON related.id = relationships.related_npc_id
+      ORDER BY subject.name COLLATE NOCASE ASC, related.name COLLATE NOCASE ASC
+    `).all();
+
+  return rows.map((row) => {
+    const anchorIsParent = row.relationship_type === 'parent' && row.npc_id === npcId;
+    const anchorIsChild = row.relationship_type === 'parent' && row.related_npc_id === npcId;
+    const subjectIsAnchor = row.npc_id === npcId;
+    return {
+      ...row,
+      anchor_name: npcId ? (subjectIsAnchor ? row.subject_name : row.related_name) : row.subject_name,
+      related_npc_name: npcId ? (subjectIsAnchor ? row.related_name : row.subject_name) : row.related_name,
+      relationship_type: row.relationship_type === 'parent'
+        ? (anchorIsParent ? 'child' : (anchorIsChild ? 'parent' : row.relationship_type))
+        : row.relationship_type
+    };
+  });
+}
+
+function getNpcRelationship(id) {
+  return db.prepare('SELECT * FROM npc_relationships WHERE id = ?').get(id) || null;
+}
+
+function validateNpcRelationship(relationship) {
+  if (typeof relationship.npc_id !== 'string' || !db.prepare('SELECT 1 FROM npcs WHERE id = ?').get(relationship.npc_id)) {
+    throw npcValidationError('Choose an existing NPC for this family relationship.');
+  }
+  if (typeof relationship.related_npc_id !== 'string' || !db.prepare('SELECT 1 FROM npcs WHERE id = ?').get(relationship.related_npc_id)) {
+    throw npcValidationError('Choose an existing related NPC.');
+  }
+  if (relationship.npc_id === relationship.related_npc_id) {
+    throw npcValidationError('An NPC cannot have a family relationship with themself.');
+  }
+  if (!['parent', 'child', 'sibling', 'spouse', 'former_spouse'].includes(relationship.relationship_type)) {
+    throw npcValidationError('Choose a supported family relationship.');
+  }
+  validateOptionalText(relationship.notes, 'Family relationship notes');
+}
+
+function createNpcRelationship(relationship) {
+  if (!relationship || typeof relationship !== 'object' || Array.isArray(relationship)) {
+    throw npcValidationError('Family relationship data must be an object.');
+  }
+  const record = {
+    id: crypto.randomUUID(),
+    npc_id: relationship.npc_id,
+    related_npc_id: relationship.related_npc_id,
+    relationship_type: relationship.relationship_type,
+    notes: relationship.notes ?? ''
+  };
+  validateNpcRelationship(record);
+
+  const existing = db.prepare(`
+    SELECT 1 FROM npc_relationships
+    WHERE (npc_id = @npc_id AND related_npc_id = @related_npc_id)
+       OR (npc_id = @related_npc_id AND related_npc_id = @npc_id)
+  `).get(record);
+  if (existing) {
+    throw npcValidationError('A relationship between these NPCs already exists. Edit or remove it before adding another.');
+  }
+
+  if (record.relationship_type === 'child') {
+    record.relationship_type = 'parent';
+  } else if (record.relationship_type === 'parent') {
+    [record.npc_id, record.related_npc_id] = [record.related_npc_id, record.npc_id];
+  } else if (record.npc_id > record.related_npc_id) {
+    [record.npc_id, record.related_npc_id] = [record.related_npc_id, record.npc_id];
+  }
+
+  db.prepare(`
+    INSERT INTO npc_relationships (id, npc_id, related_npc_id, relationship_type, notes, updated_at)
+    VALUES (@id, @npc_id, @related_npc_id, @relationship_type, @notes, CURRENT_TIMESTAMP)
+  `).run(record);
+  return getNpcRelationship(record.id);
+}
+
+function deleteNpcRelationship(id) {
+  const relationship = getNpcRelationship(id);
+  if (!relationship) return null;
+  db.prepare('DELETE FROM npc_relationships WHERE id = ?').run(id);
+  return relationship;
 }
 
 function listFactions() {
@@ -2372,6 +2486,10 @@ module.exports = {
   createNpc,
   updateNpc,
   deleteNpc,
+  listNpcRelationships,
+  getNpcRelationship,
+  createNpcRelationship,
+  deleteNpcRelationship,
   listFactions,
   getFaction,
   createFaction,

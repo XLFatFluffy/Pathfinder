@@ -4,7 +4,7 @@ const FORMAT = 'pathfinder-campaign';
 const SCHEMA_VERSION = 1;
 const CATEGORY_TABLES = {
   world: ['locations', 'maps', 'map_markers'],
-  people: ['houses', 'npcs', 'factions'],
+  people: ['houses', 'npcs', 'factions', 'npc_relationships'],
   commerce: ['shops', 'shop_inventory'],
   campaign: ['quests', 'sessions', 'timeline_events', 'simulation_events', 'player_discoveries'],
   simulation: ['simulation_event_tables', 'simulation_cycles', 'simulation_results', 'simulation_rolls']
@@ -22,6 +22,7 @@ const RELATIONSHIPS = {
   locations: { parent_id: 'locations', map_id: 'maps' },
   maps: { parent_id: 'maps' },
   npcs: { location_id: 'locations', house_id: 'houses' },
+  npc_relationships: { npc_id: 'npcs', related_npc_id: 'npcs' },
   shops: { location_id: 'locations', shopkeeper_id: 'npcs' },
   map_markers: { map_id: 'maps', location_id: 'locations' },
   shop_inventory: { shop_id: 'shops' },
@@ -42,6 +43,7 @@ const NATURAL_KEYS = {
   maps: ['name', 'parent_id'],
   houses: ['name'],
   npcs: ['name'],
+  npc_relationships: ['npc_id', 'related_npc_id'],
   factions: ['name'],
   shops: ['name', 'location_id'],
   shop_inventory: ['shop_id', 'item_name'],
@@ -298,6 +300,42 @@ function createCampaignDataService(database, getSettings, saveSetting) {
       item.reason = item.state === 'duplicate'
         ? 'This record ID already exists with matching data.'
         : 'This record ID already exists with different data; existing data was not changed.';
+      return item;
+    }
+
+    if (table === 'npc_relationships') {
+      if (!['parent', 'sibling', 'spouse', 'former_spouse'].includes(row.relationship_type)) {
+        item.state = 'conflict';
+        item.reason = 'The family relationship type is not supported.';
+        return item;
+      }
+      const existingPair = database.prepare(`
+        SELECT * FROM npc_relationships
+        WHERE (npc_id = @npc_id AND related_npc_id = @related_npc_id)
+           OR (npc_id = @related_npc_id AND related_npc_id = @npc_id)
+      `).get(row);
+      if (existingPair) {
+        item.state = recordsMatch(existingPair, row, columnsFor(table)) ? 'duplicate' : 'conflict';
+        item.reason = item.state === 'duplicate'
+          ? 'This family relationship already exists.'
+          : 'A different family relationship already exists between these NPCs.';
+        return item;
+      }
+      const pairKey = JSON.stringify([row.npc_id, row.related_npc_id].sort());
+      let seenPairs = seenNaturalKeys.get(table);
+      if (!seenPairs) {
+        seenPairs = new Map();
+        seenNaturalKeys.set(table, seenPairs);
+      }
+      const priorPair = seenPairs.get(pairKey);
+      if (priorPair) {
+        item.state = recordsMatch(priorPair, row, columnsFor(table)) ? 'duplicate' : 'conflict';
+        item.reason = item.state === 'duplicate'
+          ? 'This family relationship appears more than once in the import.'
+          : 'Conflicting family relationships between these NPCs appear in the import.';
+        return item;
+      }
+      seenPairs.set(pairKey, row);
       return item;
     }
 

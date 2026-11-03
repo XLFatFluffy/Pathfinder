@@ -67,7 +67,17 @@ test('campaign JSON export and preview-first import preserve links without overw
       maps: [{ id: 'map-1', name: 'The Coast', map_type: 'continent', status: 'known', file_path: '/private/map.png' }],
       map_markers: [{ id: 'marker-1', map_id: 'map-1', location_id: 'location-1', category: 'city', x: 0.25, y: 0.75 }],
       houses: [{ id: 'house-1', name: 'House Northwind', status: 'established' }],
-      npcs: [{ id: 'npc-1', name: 'Mara Venn', location_id: 'location-1', house_id: 'house-1', status: 'alive', gm_only: 1 }],
+      npcs: [
+        { id: 'npc-1', name: 'Mara Venn', location_id: 'location-1', house_id: 'house-1', status: 'alive', gm_only: 1 },
+        { id: 'npc-2', name: 'Renn Venn', location_id: 'location-1', house_id: 'house-1', status: 'alive', gm_only: 0 }
+      ],
+      npc_relationships: [{
+        id: 'relationship-1',
+        npc_id: 'npc-1',
+        related_npc_id: 'npc-2',
+        relationship_type: 'parent',
+        notes: "Mara is Renn's mother."
+      }],
       factions: [{ id: 'faction-1', name: 'The Lantern Guild', status: 'established' }]
     }
   };
@@ -75,14 +85,14 @@ test('campaign JSON export and preview-first import preserve links without overw
   const previewResponse = await postJson(`${url}/api/data/import/preview`, { payload: campaign });
   const preview = await previewResponse.json();
   assert.equal(previewResponse.status, 200, JSON.stringify(preview));
-  assert.equal(preview.records.insert, 6);
+  assert.equal(preview.records.insert, 8);
   assert.equal(preview.canImport, true);
   assert.deepEqual(preview.settings.conflicts.map(({ key }) => key), ['campaign_name']);
 
   const importResponse = await postJson(`${url}/api/data/import`, { payload: campaign });
   const imported = await importResponse.json();
   assert.equal(importResponse.status, 200);
-  assert.equal(imported.report.records.insert, 6);
+  assert.equal(imported.report.records.insert, 8);
 
   const exportResponse = await fetch(`${url}/api/data/export?categories=world,people`);
   const exported = await exportResponse.json();
@@ -91,14 +101,36 @@ test('campaign JSON export and preview-first import preserve links without overw
   assert.equal(exported.format, 'pathfinder-campaign');
   assert.equal(exported.schemaVersion, 1);
   assert.equal(exported.records.npcs[0].house_id, 'house-1');
+  assert.equal(exported.records.npc_relationships.length, 1);
+  assert.equal(exported.records.npc_relationships[0].npc_id, 'npc-1');
   assert.equal(exported.records.map_markers[0].location_id, 'location-1');
   assert.equal(Object.hasOwn(exported.records.maps[0], 'file_path'), false);
   assert.equal(exported.settings.campaign_name, 'Untitled Campaign');
 
   const duplicateResponse = await postJson(`${url}/api/data/import/preview`, { payload: campaign });
   const duplicate = await duplicateResponse.json();
-  assert.equal(duplicate.records.duplicate, 6);
+  assert.equal(duplicate.records.duplicate, 8);
   assert.equal(duplicate.canImport, false);
+
+  const relationshipConflictResponse = await postJson(`${url}/api/data/import/preview`, {
+    payload: {
+      ...campaign,
+      includedCategories: ['people'],
+      settings: {},
+      records: {
+        npc_relationships: [{
+          id: 'relationship-reversed',
+          npc_id: 'npc-2',
+          related_npc_id: 'npc-1',
+          relationship_type: 'parent',
+          notes: ''
+        }]
+      }
+    }
+  });
+  const relationshipConflict = await relationshipConflictResponse.json();
+  assert.equal(relationshipConflict.records.conflict, 1);
+  assert.equal(relationshipConflict.canImport, false);
 
   const conflictCampaign = {
     ...campaign,

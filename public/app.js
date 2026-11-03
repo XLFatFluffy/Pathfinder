@@ -37,6 +37,9 @@ const npcList = document.getElementById('npcList');
 const npcFormMessage = document.getElementById('npcFormMessage');
 const npcSubmitButton = document.getElementById('npcSubmitButton');
 const npcCancelButton = document.getElementById('npcCancelButton');
+const npcRelationshipForm = document.getElementById('npcRelationshipForm');
+const npcRelationshipList = document.getElementById('npcRelationshipList');
+const npcRelationshipFormMessage = document.getElementById('npcRelationshipFormMessage');
 const factionForm = document.getElementById('factionForm');
 const factionList = document.getElementById('factionList');
 const factionFormMessage = document.getElementById('factionFormMessage');
@@ -104,6 +107,7 @@ let maps = [];
 let locations = [];
 let houses = [];
 let npcs = [];
+let npcRelationships = [];
 let factions = [];
 let shops = [];
 let shopInventory = [];
@@ -153,6 +157,9 @@ function populateSelectOptions(select, items, { valueKey, labelKey, placeholder 
 function refreshReferenceSelects() {
   populateSelectOptions(npcForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
   populateSelectOptions(npcForm.elements.namedItem('houseId'), houses, { placeholder: 'No linked house' });
+  npcRelationshipForm.querySelectorAll('[data-npc-select]').forEach((select) => {
+    populateSelectOptions(select, npcs, { labelKey: 'name', placeholder: 'Choose an NPC' });
+  });
   populateSelectOptions(shopForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
   populateSelectOptions(shopForm.elements.namedItem('shopkeeperId'), npcs, { labelKey: 'name', placeholder: 'No shopkeeper linked' });
   populateSelectOptions(shopInventoryForm.elements.namedItem('shopId'), shops, { labelKey: 'name', placeholder: 'Choose a shop' });
@@ -348,6 +355,7 @@ async function loadNpcs() {
   npcs = payload.npcs || [];
   renderNpcs();
   refreshReferenceSelects();
+  await loadNpcRelationships();
 }
 
 function renderNpcs() {
@@ -458,6 +466,84 @@ async function deleteNpcRecord(id) {
   if (npcForm.elements.namedItem('id').value === id) resetNpcForm();
   await loadNpcs();
   await loadOverview();
+}
+
+async function loadNpcRelationships() {
+  const response = await fetch('/api/npc-relationships');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load NPC family relationships.');
+  npcRelationships = payload.relationships || [];
+  renderNpcRelationships();
+}
+
+function renderNpcRelationships() {
+  if (!npcRelationships.length) {
+    npcRelationshipList.innerHTML = '<div class="empty-state">No family relationships recorded yet.</div>';
+    return;
+  }
+
+  const relationText = {
+    parent: 'is parent of',
+    sibling: 'is sibling of',
+    spouse: 'is spouse of',
+    former_spouse: 'is former spouse of'
+  };
+  npcRelationshipList.innerHTML = npcRelationships.map((relationship) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">Family relationship</span>
+          <h4>${escapeHtml(relationship.subject_name)} ${escapeHtml(relationText[relationship.relationship_type] || relationship.relationship_type)} ${escapeHtml(relationship.related_name)}</h4>
+        </div>
+      </div>
+      ${relationship.notes ? `<p>${escapeHtml(relationship.notes)}</p>` : ''}
+      <div class="house-card-actions">
+        <button type="button" class="danger-button" data-npc-relationship-delete="${escapeHtml(relationship.id)}">Remove relationship</button>
+      </div>
+    </article>
+  `).join('');
+
+  npcRelationshipList.querySelectorAll('[data-npc-relationship-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteNpcRelationshipRecord(button.dataset.npcRelationshipDelete));
+  });
+}
+
+async function saveNpcRelationship(event) {
+  event.preventDefault();
+  npcRelationshipFormMessage.textContent = '';
+  const payload = {
+    npc_id: npcRelationshipForm.elements.namedItem('npcId').value,
+    relationship_type: npcRelationshipForm.elements.namedItem('relationshipType').value,
+    related_npc_id: npcRelationshipForm.elements.namedItem('relatedNpcId').value,
+    notes: npcRelationshipForm.elements.namedItem('notes').value
+  };
+  const response = await fetch('/api/npc-relationships', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    npcRelationshipFormMessage.textContent = result.error || 'Unable to save family relationship.';
+    return;
+  }
+
+  npcRelationshipForm.reset();
+  refreshReferenceSelects();
+  await loadNpcRelationships();
+}
+
+async function deleteNpcRelationshipRecord(id) {
+  const relationship = npcRelationships.find((entry) => entry.id === id);
+  if (!relationship || !window.confirm(`Remove the relationship between ${relationship.subject_name} and ${relationship.related_name}?`)) return;
+
+  const response = await fetch(`/api/npc-relationships/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    npcRelationshipFormMessage.textContent = result.error || 'Unable to remove family relationship.';
+    return;
+  }
+  await loadNpcRelationships();
 }
 
 async function loadFactions() {
@@ -2647,6 +2733,7 @@ houseForm.addEventListener('submit', saveHouse);
 houseCancelButton.addEventListener('click', resetHouseForm);
 npcForm.addEventListener('submit', saveNpc);
 npcCancelButton.addEventListener('click', resetNpcForm);
+npcRelationshipForm.addEventListener('submit', saveNpcRelationship);
 factionForm.addEventListener('submit', saveFaction);
 factionCancelButton.addEventListener('click', resetFactionForm);
 shopForm.addEventListener('submit', saveShop);

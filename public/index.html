@@ -203,7 +203,7 @@
               <p class="eyebrow">People of the World</p>
               <h3>NPCs</h3>
             </div>
-            <p class="summary-comment">Track key personalities, their homes, and their relationship to the campaign's houses and locations.</p>
+            <p class="summary-comment">Track key personalities, their homes, and their relationships to the campaign's houses, locations, and families.</p>
           </div>
 
           <form id="npcForm" class="house-form">
@@ -257,6 +257,40 @@
           </form>
 
           <div id="npcList" class="house-list"></div>
+
+          <div class="inventory-subsection">
+            <h4>Family relationships</h4>
+            <p class="summary-comment">Build a readable family record from linked NPCs. Choose what the related person is to the selected NPC; each pair can have one relationship.</p>
+            <form id="npcRelationshipForm" class="house-form small-form">
+              <label>
+                Selected NPC
+                <select name="npcId" required data-npc-select></select>
+              </label>
+              <label>
+                Related person is their
+                <select name="relationshipType">
+                  <option value="parent">Parent</option>
+                  <option value="child">Child</option>
+                  <option value="sibling">Sibling</option>
+                  <option value="spouse">Spouse</option>
+                  <option value="former_spouse">Former spouse</option>
+                </select>
+              </label>
+              <label>
+                Related NPC
+                <select name="relatedNpcId" required data-npc-select></select>
+              </label>
+              <label>
+                Notes
+                <textarea name="notes" rows="2" maxlength="4000" placeholder="Optional context, such as a marriage or succession note"></textarea>
+              </label>
+              <div class="house-form-actions">
+                <button type="submit" class="primary-button">Add family relationship</button>
+                <span id="npcRelationshipFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="npcRelationshipList" class="house-list"></div>
+          </div>
         </section>
 
         <section id="factions" class="panel">

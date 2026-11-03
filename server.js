@@ -24,6 +24,9 @@ const {
   createNpc,
   updateNpc,
   deleteNpc,
+  listNpcRelationships,
+  createNpcRelationship,
+  deleteNpcRelationship,
   listFactions,
   getFaction,
   createFaction,
@@ -319,6 +322,43 @@ app.delete('/api/npcs/:id', (req, res) => {
     const status = error.statusCode || 500;
     if (status === 500) console.error(error);
     return res.status(status).json({ error: error.message || 'Unable to delete NPC.' });
+  }
+});
+
+app.get('/api/npc-relationships', (req, res) => {
+  res.json({ relationships: listNpcRelationships() });
+});
+
+app.get('/api/npcs/:id/relationships', (req, res) => {
+  const npc = getNpc(req.params.id);
+  if (!npc) {
+    return res.status(404).json({ error: 'NPC not found.' });
+  }
+  return res.json({ relationships: listNpcRelationships(req.params.id) });
+});
+
+app.post('/api/npc-relationships', (req, res) => {
+  try {
+    const relationship = createNpcRelationship(req.body || {});
+    return res.status(201).json({ relationship });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create family relationship.' });
+  }
+});
+
+app.delete('/api/npc-relationships/:id', (req, res) => {
+  try {
+    const relationship = deleteNpcRelationship(req.params.id);
+    if (!relationship) {
+      return res.status(404).json({ error: 'Family relationship not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete family relationship.' });
   }
 });
 

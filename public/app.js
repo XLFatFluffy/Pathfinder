@@ -10,10 +10,22 @@ const mapLibrary = document.getElementById('mapLibrary');
 const mapFormMessage = document.getElementById('mapFormMessage');
 const mapSubmitButton = document.getElementById('mapSubmitButton');
 const mapCancelButton = document.getElementById('mapCancelButton');
+const atlasMapPicker = document.getElementById('atlasMapPicker');
+const atlasMapTitle = document.getElementById('atlasMapTitle');
+const atlasMapRoot = document.getElementById('atlasMap');
+const atlasMapWrap = document.getElementById('atlasMapWrap');
+const atlasMapMessage = document.getElementById('atlasMapMessage');
+const atlasBreadcrumbs = document.getElementById('atlasBreadcrumbs');
+const atlasDetails = document.getElementById('atlasDetails');
 
 const sectionButtons = [...document.querySelectorAll('.nav-item')];
 const panels = [...document.querySelectorAll('.panel')];
 let maps = [];
+let atlasMap;
+let atlasImageOverlay;
+let atlasImageBounds;
+let activeMapId = '';
+let atlasLoadToken = 0;
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, (character) => ({
@@ -23,6 +35,11 @@ function escapeHtml(value) {
     '"': '&quot;',
     "'": '&#39;'
   })[character]);
+}
+
+function getArtworkUrl(map) {
+  const filename = String(map.file_path || '').split(/[\\/]/).pop();
+  return `/api/maps/${encodeURIComponent(map.id)}/artwork?v=${encodeURIComponent(filename)}`;
 }
 
 function renderSummary(data) {
@@ -157,6 +174,181 @@ async function loadMaps() {
   maps = payload.maps || [];
   updateParentMapOptions(mapForm.elements.namedItem('parentId').value);
   renderMaps();
+  renderAtlasMapPicker();
+}
+
+function getMapHierarchy(map) {
+  const hierarchy = [];
+  const visited = new Set();
+  let current = map;
+
+  while (current && !visited.has(current.id)) {
+    hierarchy.unshift(current);
+    visited.add(current.id);
+    current = maps.find((entry) => entry.id === current.parent_id);
+  }
+
+  return hierarchy;
+}
+
+function renderAtlasMapPicker() {
+  const options = maps.map((map) => {
+    const hierarchy = getMapHierarchy(map).map((entry) => entry.name).join(' / ');
+    const artworkLabel = map.file_path ? '' : ' — artwork missing';
+    return `<option value="${escapeHtml(map.id)}">${escapeHtml(`${hierarchy} (${map.map_type})${artworkLabel}`)}</option>`;
+  });
+  atlasMapPicker.innerHTML = options.join('');
+  atlasMapPicker.disabled = maps.length === 0;
+
+  let selectedMap = maps.find((map) => map.id === activeMapId);
+  if (!selectedMap) {
+    const rememberedMapId = localStorage.getItem('pathfinder-atlas-map');
+    selectedMap = maps.find((map) => map.id === rememberedMapId)
+      || maps.find((map) => !map.parent_id && ['world', 'continent'].includes(map.map_type) && map.file_path)
+      || maps.find((map) => map.file_path)
+      || maps[0];
+  }
+
+  atlasMapPicker.value = selectedMap?.id || '';
+  if (selectedMap) {
+    showAtlasMap(selectedMap.id);
+  } else {
+    showAtlasMap('');
+  }
+}
+
+function ensureLeafletMap() {
+  if (atlasMap) return;
+
+  atlasMap = L.map(atlasMapRoot, {
+    crs: L.CRS.Simple,
+    minZoom: -4,
+    maxZoom: 5,
+    zoomSnap: 0.25,
+    zoomDelta: 0.5,
+    zoomControl: false,
+    attributionControl: false
+  });
+}
+
+function showAtlasMessage(message) {
+  atlasMapMessage.textContent = message;
+  atlasMapMessage.hidden = false;
+  atlasMapWrap.classList.add('is-empty');
+}
+
+function renderAtlasBreadcrumbs(map) {
+  const hierarchy = getMapHierarchy(map);
+  atlasBreadcrumbs.innerHTML = hierarchy.map((entry, index) => {
+    const current = index === hierarchy.length - 1;
+    return current
+      ? `<span aria-current="page">${escapeHtml(entry.name)}</span>`
+      : `<button type="button" data-atlas-map="${escapeHtml(entry.id)}">${escapeHtml(entry.name)}</button>`;
+  }).join('<span class="breadcrumb-divider">›</span>');
+
+  atlasBreadcrumbs.querySelectorAll('[data-atlas-map]').forEach((button) => {
+    button.addEventListener('click', () => showAtlasMap(button.dataset.atlasMap));
+  });
+}
+
+function renderAtlasDetails(map, dimensions = null) {
+  if (!map) {
+    atlasDetails.innerHTML = '';
+    return;
+  }
+
+  const details = [
+    `<span>${escapeHtml(map.map_type || 'Map')}</span>`,
+    `<span>${escapeHtml(String(map.status || 'unknown').replaceAll('_', ' '))}</span>`
+  ];
+  if (dimensions) {
+    details.push(`<span>${dimensions.width.toLocaleString()} × ${dimensions.height.toLocaleString()} px</span>`);
+  }
+  if (map.original_filename) {
+    details.push(`<span>${escapeHtml(map.original_filename)}</span>`);
+  }
+
+  atlasDetails.innerHTML = `
+    <div class="atlas-detail-heading">
+      <h4>${escapeHtml(map.name)}</h4>
+      <div class="atlas-detail-meta">${details.join('')}</div>
+    </div>
+    <p>${escapeHtml(map.description || 'No description added to this map.')}</p>
+  `;
+}
+
+function showAtlasMap(id) {
+  const map = maps.find((entry) => entry.id === id);
+  activeMapId = map?.id || '';
+  atlasMapPicker.value = activeMapId;
+  if (activeMapId) {
+    localStorage.setItem('pathfinder-atlas-map', activeMapId);
+  }
+
+  const loadToken = ++atlasLoadToken;
+  if (atlasImageOverlay && atlasMap) {
+    atlasMap.removeLayer(atlasImageOverlay);
+    atlasImageOverlay = null;
+  }
+  atlasImageBounds = null;
+  document.getElementById('atlasZoomIn').disabled = !map?.file_path;
+  document.getElementById('atlasZoomOut').disabled = !map?.file_path;
+  document.getElementById('atlasFit').disabled = !map?.file_path;
+
+  if (!map) {
+    atlasMapTitle.textContent = 'The campaign world';
+    atlasBreadcrumbs.replaceChildren();
+    renderAtlasDetails(null);
+    showAtlasMessage('Add a map with artwork in Map Library to begin exploring the atlas.');
+    return;
+  }
+
+  atlasMapTitle.textContent = map.name;
+  renderAtlasBreadcrumbs(map);
+  renderAtlasDetails(map);
+
+  if (!map.file_path) {
+    showAtlasMessage('This map does not have artwork yet. Import an image in Map Library to view it here.');
+    return;
+  }
+
+  showAtlasMessage('Loading map artwork…');
+  ensureLeafletMap();
+  const image = new Image();
+  image.onload = () => {
+    if (loadToken !== atlasLoadToken) return;
+
+    atlasMapMessage.hidden = true;
+    atlasMapWrap.classList.remove('is-empty');
+    atlasImageBounds = [[0, 0], [image.naturalHeight, image.naturalWidth]];
+    atlasImageOverlay = L.imageOverlay(getArtworkUrl(map), atlasImageBounds).addTo(atlasMap);
+    atlasMap.invalidateSize();
+    atlasMap.fitBounds(atlasImageBounds, { padding: [18, 18] });
+    renderAtlasDetails(map, { width: image.naturalWidth, height: image.naturalHeight });
+  };
+  image.onerror = () => {
+    if (loadToken !== atlasLoadToken) return;
+    showAtlasMessage('The map artwork could not be loaded. Check the image file in Map Library.');
+  };
+  image.src = getArtworkUrl(map);
+}
+
+function activateSection(sectionId) {
+  sectionButtons.forEach((item) => item.classList.toggle('active', item.dataset.section === sectionId));
+  panels.forEach((panel) => panel.classList.toggle('active-panel', panel.id === sectionId));
+  if (sectionId === 'maps') {
+    loadMaps().catch((error) => {
+      mapFormMessage.textContent = error.message;
+    });
+  }
+  if (sectionId === 'overview' && atlasMap) {
+    requestAnimationFrame(() => {
+      atlasMap.invalidateSize();
+      if (atlasImageBounds) {
+        atlasMap.fitBounds(atlasImageBounds, { padding: [18, 18] });
+      }
+    });
+  }
 }
 
 function renderMaps() {
@@ -167,7 +359,7 @@ function renderMaps() {
 
   mapLibrary.innerHTML = maps.map((map) => {
     const artwork = map.file_path
-      ? `<img src="/api/maps/${encodeURIComponent(map.id)}/artwork" alt="Artwork for ${escapeHtml(map.name)}" loading="lazy" />`
+      ? `<img src="${getArtworkUrl(map)}" alt="Artwork for ${escapeHtml(map.name)}" loading="lazy" />`
       : '<div class="map-art-placeholder">Artwork not imported</div>';
     const parent = map.parent_name ? `<span>Parent: ${escapeHtml(map.parent_name)}</span>` : '<span>Top-level map</span>';
 
@@ -274,16 +466,17 @@ async function removeMap(id) {
 
 sectionButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    sectionButtons.forEach((item) => item.classList.toggle('active', item === button));
-    panels.forEach((panel) => panel.classList.toggle('active-panel', panel.id === button.dataset.section));
-    if (button.dataset.section === 'maps') {
-      loadMaps().catch((error) => {
-        mapFormMessage.textContent = error.message;
-      });
-    }
+    activateSection(button.dataset.section);
   });
 });
 
+document.querySelector('[data-section-link="maps"]').addEventListener('click', () => activateSection('maps'));
+atlasMapPicker.addEventListener('change', () => showAtlasMap(atlasMapPicker.value));
+document.getElementById('atlasZoomIn').addEventListener('click', () => atlasMap?.zoomIn());
+document.getElementById('atlasZoomOut').addEventListener('click', () => atlasMap?.zoomOut());
+document.getElementById('atlasFit').addEventListener('click', () => {
+  if (atlasMap && atlasImageBounds) atlasMap.fitBounds(atlasImageBounds, { padding: [18, 18] });
+});
 searchInput.addEventListener('input', performSearch);
 settingsForm.addEventListener('submit', saveSettings);
 backupButton.addEventListener('click', createBackup);

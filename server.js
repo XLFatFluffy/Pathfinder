@@ -48,6 +48,7 @@ const upload = multer({
 initializeDatabase();
 
 app.use(express.json({ limit: '2mb' }));
+app.use('/vendor/leaflet', express.static(path.join(__dirname, 'node_modules', 'leaflet', 'dist')));
 app.use(express.static(publicDir));
 
 app.get('/api/health', (req, res) => {
@@ -206,7 +207,7 @@ app.get('/api/maps/:id/artwork', (req, res) => {
   }
 
   res.type(map.mime_type);
-  res.set('Cache-Control', 'private, no-store');
+  res.set('Cache-Control', 'private, max-age=3600, immutable');
   return res.sendFile(map.file_path, (error) => {
     if (error && !res.headersSent) {
       res.status(error.statusCode || 500).json({ error: 'Unable to read map artwork.' });

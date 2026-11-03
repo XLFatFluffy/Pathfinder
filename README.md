@@ -8,6 +8,7 @@ Included so far:
 - Express server serving a local desktop web app
 - SQLite database with persistent campaign settings and core entity tables
 - Hierarchical map library with local image artwork import and replacement
+- Offline Leaflet atlas viewer with pan, zoom, fit-to-map, and hierarchy navigation
 - Local database backups that include imported map artwork
 - Global search foundation for campaign records
 - Basic fantasy-themed interface reflecting the World Atlas identity
@@ -30,8 +31,10 @@ Included so far:
 - `data/maps/` — imported map artwork
 - `backups/` — local database backups and companion artwork folders
 
-## Map library
+## Atlas maps
+
+The **World Atlas** opens the selected imported image in Leaflet using `CRS.Simple`. Pan and zoom the artwork, fit it to the viewport, and move between maps using the hierarchy selector and breadcrumbs. Leaflet is served locally, so the viewer does not require an internet connection.
 
 Open **Map Library** to add and organize world, continent, region, kingdom, city, settlement, interior, and dungeon maps. Artwork supports PNG, JPEG, WebP, and GIF files up to 100 MB. Parent maps form a hierarchy; replacing artwork preserves the map record and its links. Maps cannot be deleted while child maps or locations reference them.
 
-The interactive Leaflet atlas viewer and marker placement are the next map feature.
+Map markers and linked location panels are the next atlas feature.

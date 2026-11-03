@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The World Atlas</title>
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -47,14 +48,36 @@
         <section id="overview" class="panel active-panel">
           <div class="hero-card">
             <div>
-              <p class="eyebrow">Campaign Overview</p>
-              <h3>World state at a glance</h3>
+              <p class="eyebrow">World Atlas</p>
+              <h3 id="atlasMapTitle">The campaign world</h3>
             </div>
             <div class="summary-comment">
-              This foundation keeps the world data persistent, organized, and ready for rich atlas features.
+              Explore imported campaign maps. Pan and zoom without changing the original artwork or geography.
             </div>
           </div>
 
+          <div class="atlas-toolbar">
+            <label for="atlasMapPicker">Map level</label>
+            <select id="atlasMapPicker" aria-label="Choose a campaign map"></select>
+            <button id="atlasZoomOut" type="button" class="secondary-button" aria-label="Zoom out">−</button>
+            <button id="atlasZoomIn" type="button" class="secondary-button" aria-label="Zoom in">+</button>
+            <button id="atlasFit" type="button" class="secondary-button">Fit map</button>
+            <button type="button" class="secondary-button atlas-library-link" data-section-link="maps">Manage maps</button>
+          </div>
+          <nav id="atlasBreadcrumbs" class="atlas-breadcrumbs" aria-label="Map hierarchy"></nav>
+          <div id="atlasMapWrap" class="atlas-map-wrap">
+            <div id="atlasMap" role="application" aria-label="Interactive campaign map"></div>
+            <div id="atlasMapMessage" class="atlas-map-message">Add a map with artwork in Map Library to begin exploring the atlas.</div>
+          </div>
+          <section id="atlasDetails" class="atlas-details" aria-live="polite"></section>
+
+          <section class="atlas-summary">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Campaign Index</p>
+                <h3>World state at a glance</h3>
+              </div>
+            </div>
           <div id="summaryGrid" class="summary-grid"></div>
 
           <div class="search-panel">
@@ -64,6 +87,7 @@
             </div>
             <div id="searchResults" class="search-results"></div>
           </div>
+          </section>
         </section>
 
         <section id="settings" class="panel">
@@ -165,6 +189,7 @@
       </main>
     </div>
 
+    <script src="/vendor/leaflet/leaflet.js"></script>
     <script src="/app.js"></script>
   </body>
 </html>

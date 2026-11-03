@@ -104,10 +104,13 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Remaining work: precise geography, territories, seats, current house heads and heirs, and the Imperial Council and faction membership.
 
 
-## Completed worldbuilding stage — Geography foundations (Nov 3, 2026)
-- Approved the larger continental scale implied by the atlas, substantially larger than Westeros; exact dimensions and distances remain open.
-- Retained the enormous central inland sea and established Dragonstone as an island connected to the mainland by a narrow natural land bridge.
-- Established a GM-only secret: dwarven underground tunnels provide another route to Dragonstone, unknown to the rest of the world.
-- Placed Khar-Dum in the northeastern mountain system, separate from Dragonstone.
-- Established that each Great House controls a substantial, clearly defined territory, while smaller noble houses and independent powers also exist.
-- Next geography work: establish accurate scale and physical geography, then propose substantial territorial domains and house seats for GM review. Do not assign exact borders without approval.
+## Completed worldbuilding stage — Geography foundations and revised map direction (Nov 3, 2026)
+- Approved working dimensions of approximately 1,700 miles north to south and 1,300 miles east to west at the widest point, making the continent substantially smaller than Westeros. Modest adjustment is allowed during cartographic refinement.
+- Preserve the uploaded atlas's recognizable geographic identity while making terrain and waterways physically coherent; the former scale bar is superseded.
+- Retain the enormous central inland sea, large enough for substantial shipping and naval commerce, and Dragonstone as an island connected to the mainland by a narrow natural land bridge.
+- Established the GM-only secret dwarven underground route to Dragonstone.
+- Khar-Dum remains in the northeastern mountain system, separate from Dragonstone. The dwarven empire should appear comparatively limited on the surface, with its true reach primarily subterranean.
+- Keep the southern reaches politically fragmented.
+- Established minor houses as wealthy local lords and ladies with small territories and little continent-wide political significance. Their names, holdings, and allegiances remain open.
+- The specific proposed regional placements for the six Great Houses remain provisional until the revised map is reviewed.
+- Next: generate and review the revised continent map in a separate conversation; then settle exact terrain, regional names, borders, house seats, minor holdings, rivers, roads, and ports.

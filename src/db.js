@@ -22,6 +22,10 @@ const mapTypes = new Set(['world', 'continent', 'region', 'kingdom', 'city', 'se
 const mapStatuses = new Set(['unknown', 'known', 'available_for_purchase', 'purchased', 'discovered', 'reward', 'lost']);
 const markerCategories = new Set(['city', 'town', 'village', 'castle', 'fortress', 'ruins', 'natural_landmark', 'road', 'port', 'point_of_interest', 'hidden_location']);
 const houseStatuses = new Set(['established', 'dormant', 'extinct', 'disbanded']);
+const houseRelationshipTypes = new Set([
+  'allied', 'friendly', 'neutral', 'hostile', 'rival', 'enemy',
+  'vassal', 'overlord', 'at_war', 'marriage_alliance', 'blood_relation'
+]);
 const locationTypes = new Set([
   ...markerCategories,
   'continent', 'region', 'kingdom', 'principality', 'duchy', 'county', 'territory',
@@ -86,6 +90,36 @@ function initializeDatabase() {
       status TEXT DEFAULT 'established',
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS house_relationships (
+      id TEXT PRIMARY KEY,
+      house_id TEXT NOT NULL REFERENCES houses(id) ON DELETE CASCADE,
+      related_house_id TEXT NOT NULL REFERENCES houses(id) ON DELETE CASCADE,
+      relationship_type TEXT NOT NULL CHECK (relationship_type IN (
+        'allied', 'friendly', 'neutral', 'hostile', 'rival', 'enemy',
+        'vassal', 'overlord', 'at_war', 'marriage_alliance', 'blood_relation'
+      )),
+      notes TEXT,
+      effective_date TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      CHECK (house_id != related_house_id)
+    );
+
+    CREATE UNIQUE INDEX IF NOT EXISTS house_relationships_unique_pair
+    ON house_relationships (
+      CASE WHEN house_id < related_house_id THEN house_id ELSE related_house_id END,
+      CASE WHEN house_id < related_house_id THEN related_house_id ELSE house_id END
+    );
+
+    CREATE TABLE IF NOT EXISTS house_relationship_history (
+      id TEXT PRIMARY KEY,
+      house_relationship_id TEXT NOT NULL REFERENCES house_relationships(id) ON DELETE CASCADE,
+      relationship_type TEXT NOT NULL,
+      notes TEXT,
+      effective_date TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
     );
 
     CREATE TABLE IF NOT EXISTS npcs (
@@ -651,13 +685,153 @@ function deleteHouse(id) {
   const house = getHouse(id);
   if (!house) return null;
   const npcs = db.prepare('SELECT COUNT(*) AS count FROM npcs WHERE house_id = ?').get(id).count;
-  if (npcs) {
-    const error = new Error('This house is referenced by NPC records.');
-    error.dependents = { npcs };
+  const relationships = db.prepare(`
+    SELECT COUNT(*) AS count FROM house_relationships
+    WHERE house_id = ? OR related_house_id = ?
+  `).get(id, id).count;
+  if (npcs || relationships) {
+    const error = new Error('This house is referenced by NPC or political relationship records.');
+    error.dependents = { npcs, relationships };
     throw error;
   }
   db.prepare('DELETE FROM houses WHERE id = ?').run(id);
   return house;
+}
+
+function listHouseRelationships() {
+  const relationships = db.prepare(`
+    SELECT
+      house_relationships.*,
+      house.name AS house_name,
+      related_house.name AS related_house_name
+    FROM house_relationships
+    JOIN houses AS house ON house.id = house_relationships.house_id
+    JOIN houses AS related_house ON related_house.id = house_relationships.related_house_id
+    ORDER BY house.name COLLATE NOCASE ASC, related_house.name COLLATE NOCASE ASC
+  `).all();
+  const listHistory = db.prepare(`
+    SELECT * FROM house_relationship_history
+    WHERE house_relationship_id = ?
+    ORDER BY created_at ASC, id ASC
+  `);
+  return relationships.map((relationship) => ({
+    ...relationship,
+    history: listHistory.all(relationship.id)
+  }));
+}
+
+function getHouseRelationship(id) {
+  return listHouseRelationships().find((relationship) => relationship.id === id) || null;
+}
+
+function validateHouseRelationship(relationship) {
+  if (typeof relationship.house_id !== 'string' || !getHouse(relationship.house_id)) {
+    throw houseValidationError('Choose an existing noble house.');
+  }
+  if (typeof relationship.related_house_id !== 'string' || !getHouse(relationship.related_house_id)) {
+    throw houseValidationError('Choose an existing related noble house.');
+  }
+  if (relationship.house_id === relationship.related_house_id) {
+    throw houseValidationError('A noble house cannot have a relationship with itself.');
+  }
+  if (!houseRelationshipTypes.has(relationship.relationship_type)) {
+    throw houseValidationError('Choose a supported political relationship.');
+  }
+  validateOptionalText(relationship.notes, 'Political relationship notes');
+  if (typeof relationship.effective_date !== 'string') {
+    throw houseValidationError('The relationship date must be text.');
+  }
+  if (relationship.effective_date.length > 200) {
+    throw houseValidationError('Relationship dates cannot exceed 200 characters.');
+  }
+}
+
+function createHouseRelationship(relationship) {
+  if (!relationship || typeof relationship !== 'object' || Array.isArray(relationship)) {
+    throw houseValidationError('Political relationship data must be an object.');
+  }
+  const record = {
+    id: crypto.randomUUID(),
+    house_id: relationship.house_id,
+    related_house_id: relationship.related_house_id,
+    relationship_type: relationship.relationship_type,
+    notes: relationship.notes ?? '',
+    effective_date: relationship.effective_date || getSettings().campaign_date || ''
+  };
+  validateHouseRelationship(record);
+  const existing = db.prepare(`
+    SELECT 1 FROM house_relationships
+    WHERE (house_id = @house_id AND related_house_id = @related_house_id)
+       OR (house_id = @related_house_id AND related_house_id = @house_id)
+  `).get(record);
+  if (existing) {
+    throw houseValidationError('A political relationship between these houses already exists.');
+  }
+
+  const transaction = db.transaction(() => {
+    db.prepare(`
+      INSERT INTO house_relationships (
+        id, house_id, related_house_id, relationship_type, notes, effective_date, updated_at
+      ) VALUES (
+        @id, @house_id, @related_house_id, @relationship_type, @notes, @effective_date, CURRENT_TIMESTAMP
+      )
+    `).run(record);
+    db.prepare(`
+      INSERT INTO house_relationship_history (
+        id, house_relationship_id, relationship_type, notes, effective_date, created_at
+      ) VALUES (?, ?, ?, ?, ?, strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+    `).run(crypto.randomUUID(), record.id, record.relationship_type, record.notes, record.effective_date);
+  });
+  transaction();
+  return getHouseRelationship(record.id);
+}
+
+function updateHouseRelationship(id, changes) {
+  const current = getHouseRelationship(id);
+  if (!current) return null;
+  if (!changes || typeof changes !== 'object' || Array.isArray(changes)) {
+    throw houseValidationError('Political relationship data must be an object.');
+  }
+  const record = {
+    id,
+    house_id: current.house_id,
+    related_house_id: current.related_house_id,
+    relationship_type: changes.relationship_type === undefined ? current.relationship_type : changes.relationship_type,
+    notes: changes.notes === undefined ? current.notes : (changes.notes ?? ''),
+    effective_date: changes.effective_date === undefined || changes.effective_date === ''
+      ? (getSettings().campaign_date || current.effective_date)
+      : changes.effective_date
+  };
+  validateHouseRelationship(record);
+  const changed = record.relationship_type !== current.relationship_type
+    || record.notes !== current.notes
+    || record.effective_date !== current.effective_date;
+  if (!changed) return current;
+
+  const transaction = db.transaction(() => {
+    db.prepare(`
+      UPDATE house_relationships SET
+        relationship_type = @relationship_type,
+        notes = @notes,
+        effective_date = @effective_date,
+        updated_at = CURRENT_TIMESTAMP
+      WHERE id = @id
+    `).run(record);
+    db.prepare(`
+      INSERT INTO house_relationship_history (
+        id, house_relationship_id, relationship_type, notes, effective_date, created_at
+      ) VALUES (?, ?, ?, ?, ?, strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+    `).run(crypto.randomUUID(), id, record.relationship_type, record.notes, record.effective_date);
+  });
+  transaction();
+  return getHouseRelationship(id);
+}
+
+function deleteHouseRelationship(id) {
+  const relationship = getHouseRelationship(id);
+  if (!relationship) return null;
+  db.prepare('DELETE FROM house_relationships WHERE id = ?').run(id);
+  return relationship;
 }
 
 function listNpcs() {
@@ -2481,6 +2655,11 @@ module.exports = {
   createHouse,
   updateHouse,
   deleteHouse,
+  listHouseRelationships,
+  getHouseRelationship,
+  createHouseRelationship,
+  updateHouseRelationship,
+  deleteHouseRelationship,
   listNpcs,
   getNpc,
   createNpc,

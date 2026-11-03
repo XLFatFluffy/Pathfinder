@@ -15,6 +15,11 @@ const houseList = document.getElementById('houseList');
 const houseFormMessage = document.getElementById('houseFormMessage');
 const houseSubmitButton = document.getElementById('houseSubmitButton');
 const houseCancelButton = document.getElementById('houseCancelButton');
+const houseRelationshipForm = document.getElementById('houseRelationshipForm');
+const houseRelationshipList = document.getElementById('houseRelationshipList');
+const houseRelationshipFormMessage = document.getElementById('houseRelationshipFormMessage');
+const houseRelationshipSubmitButton = document.getElementById('houseRelationshipSubmitButton');
+const houseRelationshipCancelButton = document.getElementById('houseRelationshipCancelButton');
 const atlasMapPicker = document.getElementById('atlasMapPicker');
 const atlasMapTitle = document.getElementById('atlasMapTitle');
 const atlasMapRoot = document.getElementById('atlasMap');
@@ -106,6 +111,7 @@ const panels = [...document.querySelectorAll('.panel')];
 let maps = [];
 let locations = [];
 let houses = [];
+let houseRelationships = [];
 let npcs = [];
 let npcRelationships = [];
 let factions = [];
@@ -155,6 +161,9 @@ function populateSelectOptions(select, items, { valueKey, labelKey, placeholder 
 }
 
 function refreshReferenceSelects() {
+  houseRelationshipForm.querySelectorAll('[data-house-relationship-select]').forEach((select) => {
+    populateSelectOptions(select, houses, { labelKey: 'name', placeholder: 'Choose a noble house' });
+  });
   populateSelectOptions(npcForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
   populateSelectOptions(npcForm.elements.namedItem('houseId'), houses, { placeholder: 'No linked house' });
   npcRelationshipForm.querySelectorAll('[data-npc-select]').forEach((select) => {
@@ -216,6 +225,7 @@ async function loadHouses() {
   houses = payload.houses || [];
   renderHouses();
   refreshReferenceSelects();
+  await loadHouseRelationships();
 }
 
 function renderHouses() {
@@ -335,7 +345,12 @@ async function deleteHouse(id) {
   }
   if (!response.ok) {
     const dependents = result.dependents?.npcs || 0;
-    houseFormMessage.textContent = `${result.error || 'Unable to delete house.'}${dependents ? ` ${dependents} NPC record(s) still reference it.` : ''}`;
+    const relationships = result.dependents?.relationships || 0;
+    const reasons = [
+      dependents ? `${dependents} NPC record(s) still reference it` : '',
+      relationships ? `${relationships} political relationship(s) still reference it` : ''
+    ].filter(Boolean);
+    houseFormMessage.textContent = `${result.error || 'Unable to delete house.'}${reasons.length ? ` ${reasons.join('; ')}.` : ''}`;
     return;
   }
 
@@ -345,6 +360,140 @@ async function deleteHouse(id) {
     await loadOverview();
   } catch (error) {
     window.alert(`House deleted, but the campaign view could not refresh: ${error.message}`);
+  }
+}
+
+const houseRelationshipLabels = {
+  allied: 'Allied',
+  friendly: 'Friendly',
+  neutral: 'Neutral',
+  hostile: 'Hostile',
+  rival: 'Rival',
+  enemy: 'Enemy',
+  vassal: 'Vassal of',
+  overlord: 'Overlord of',
+  at_war: 'At war with',
+  marriage_alliance: 'Marriage alliance with',
+  blood_relation: 'Blood relation to'
+};
+
+async function loadHouseRelationships() {
+  const response = await fetch('/api/house-relationships');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load political relationships.');
+  houseRelationships = payload.relationships || [];
+  renderHouseRelationships();
+}
+
+function renderHouseRelationships() {
+  if (!houseRelationships.length) {
+    houseRelationshipList.innerHTML = '<div class="empty-state">No political relationships recorded yet.</div>';
+    return;
+  }
+
+  houseRelationshipList.innerHTML = houseRelationships.map((relationship) => {
+    const history = relationship.history.map((entry) => `
+      <div>
+        <dt>${escapeHtml(entry.effective_date || entry.created_at)}</dt>
+        <dd><strong>${escapeHtml(houseRelationshipLabels[entry.relationship_type] || entry.relationship_type)}</strong>${entry.notes ? ` — ${escapeHtml(entry.notes)}` : ''}</dd>
+      </div>
+    `).join('');
+    return `
+      <article class="house-card">
+        <div class="house-card-heading">
+          <div>
+            <span class="map-level">Political relationship</span>
+            <h4>${escapeHtml(relationship.house_name)} · ${escapeHtml(houseRelationshipLabels[relationship.relationship_type] || relationship.relationship_type)} · ${escapeHtml(relationship.related_house_name)}</h4>
+          </div>
+        </div>
+        <dl class="house-details">${history}</dl>
+        <div class="house-card-actions">
+          <button type="button" class="secondary-button" data-house-relationship-edit="${escapeHtml(relationship.id)}">Change relationship</button>
+          <button type="button" class="danger-button" data-house-relationship-delete="${escapeHtml(relationship.id)}">Remove relationship</button>
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  houseRelationshipList.querySelectorAll('[data-house-relationship-edit]').forEach((button) => {
+    button.addEventListener('click', () => editHouseRelationship(button.dataset.houseRelationshipEdit));
+  });
+  houseRelationshipList.querySelectorAll('[data-house-relationship-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteHouseRelationshipRecord(button.dataset.houseRelationshipDelete));
+  });
+}
+
+function editHouseRelationship(id) {
+  const relationship = houseRelationships.find((entry) => entry.id === id);
+  if (!relationship) return;
+  houseRelationshipForm.elements.namedItem('id').value = relationship.id;
+  houseRelationshipForm.elements.namedItem('houseId').value = relationship.house_id;
+  houseRelationshipForm.elements.namedItem('relatedHouseId').value = relationship.related_house_id;
+  houseRelationshipForm.elements.namedItem('relationshipType').value = relationship.relationship_type;
+  houseRelationshipForm.elements.namedItem('effectiveDate').value = '';
+  houseRelationshipForm.elements.namedItem('notes').value = relationship.notes || '';
+  houseRelationshipForm.elements.namedItem('houseId').disabled = true;
+  houseRelationshipForm.elements.namedItem('relatedHouseId').disabled = true;
+  houseRelationshipSubmitButton.textContent = 'Save relationship change';
+  houseRelationshipCancelButton.hidden = false;
+  houseRelationshipFormMessage.textContent = `Editing the relationship between ${relationship.house_name} and ${relationship.related_house_name}. A saved change will be added to its history.`;
+  houseRelationshipForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetHouseRelationshipForm() {
+  houseRelationshipForm.reset();
+  houseRelationshipForm.elements.namedItem('id').value = '';
+  houseRelationshipForm.elements.namedItem('houseId').disabled = false;
+  houseRelationshipForm.elements.namedItem('relatedHouseId').disabled = false;
+  houseRelationshipSubmitButton.textContent = 'Add relationship';
+  houseRelationshipCancelButton.hidden = true;
+  houseRelationshipFormMessage.textContent = '';
+}
+
+async function saveHouseRelationship(event) {
+  event.preventDefault();
+  houseRelationshipFormMessage.textContent = '';
+  const id = houseRelationshipForm.elements.namedItem('id').value;
+  const payload = {
+    house_id: houseRelationshipForm.elements.namedItem('houseId').value,
+    related_house_id: houseRelationshipForm.elements.namedItem('relatedHouseId').value,
+    relationship_type: houseRelationshipForm.elements.namedItem('relationshipType').value,
+    effective_date: houseRelationshipForm.elements.namedItem('effectiveDate').value,
+    notes: houseRelationshipForm.elements.namedItem('notes').value
+  };
+  try {
+    const response = await fetch(id ? `/api/house-relationships/${encodeURIComponent(id)}` : '/api/house-relationships', {
+      method: id ? 'PUT' : 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const result = await response.json();
+    if (!response.ok) {
+      houseRelationshipFormMessage.textContent = result.error || 'Unable to save political relationship.';
+      return;
+    }
+    resetHouseRelationshipForm();
+    await loadHouseRelationships();
+  } catch (error) {
+    houseRelationshipFormMessage.textContent = `Unable to save political relationship: ${error.message}`;
+  }
+}
+
+async function deleteHouseRelationshipRecord(id) {
+  const relationship = houseRelationships.find((entry) => entry.id === id);
+  if (!relationship || !window.confirm(`Remove the relationship between ${relationship.house_name} and ${relationship.related_house_name}, including its history?`)) return;
+  try {
+    const response = await fetch(`/api/house-relationships/${encodeURIComponent(id)}`, { method: 'DELETE' });
+    const result = await response.json();
+    if (!response.ok) {
+      houseRelationshipFormMessage.textContent = result.error || 'Unable to remove political relationship.';
+      return;
+    }
+    if (houseRelationshipForm.elements.namedItem('id').value === id) resetHouseRelationshipForm();
+    await loadHouseRelationships();
+    await loadHouses();
+  } catch (error) {
+    houseRelationshipFormMessage.textContent = `Unable to remove political relationship: ${error.message}`;
   }
 }
 
@@ -2731,6 +2880,8 @@ document.getElementById('locationEdit').addEventListener('click', () => {
 document.getElementById('locationDelete').addEventListener('click', deleteCurrentLocation);
 houseForm.addEventListener('submit', saveHouse);
 houseCancelButton.addEventListener('click', resetHouseForm);
+houseRelationshipForm.addEventListener('submit', saveHouseRelationship);
+houseRelationshipCancelButton.addEventListener('click', resetHouseRelationshipForm);
 npcForm.addEventListener('submit', saveNpc);
 npcCancelButton.addEventListener('click', resetNpcForm);
 npcRelationshipForm.addEventListener('submit', saveNpcRelationship);

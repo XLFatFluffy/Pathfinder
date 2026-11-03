@@ -19,6 +19,11 @@ const {
   createHouse,
   updateHouse,
   deleteHouse,
+  listHouseRelationships,
+  getHouseRelationship,
+  createHouseRelationship,
+  updateHouseRelationship,
+  deleteHouseRelationship,
   listNpcs,
   getNpc,
   createNpc,
@@ -271,6 +276,57 @@ app.delete('/api/houses/:id', (req, res) => {
     }
     console.error(error);
     return res.status(500).json({ error: error.message || 'Unable to delete house.' });
+  }
+});
+
+app.get('/api/house-relationships', (req, res) => {
+  res.json({ relationships: listHouseRelationships() });
+});
+
+app.get('/api/house-relationships/:id', (req, res) => {
+  const relationship = getHouseRelationship(req.params.id);
+  if (!relationship) {
+    return res.status(404).json({ error: 'Political relationship not found.' });
+  }
+  return res.json({ relationship });
+});
+
+app.post('/api/house-relationships', (req, res) => {
+  try {
+    const relationship = createHouseRelationship(req.body || {});
+    return res.status(201).json({ relationship });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create political relationship.' });
+  }
+});
+
+app.put('/api/house-relationships/:id', (req, res) => {
+  try {
+    const relationship = updateHouseRelationship(req.params.id, req.body || {});
+    if (!relationship) {
+      return res.status(404).json({ error: 'Political relationship not found.' });
+    }
+    return res.json({ relationship });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update political relationship.' });
+  }
+});
+
+app.delete('/api/house-relationships/:id', (req, res) => {
+  try {
+    const relationship = deleteHouseRelationship(req.params.id);
+    if (!relationship) {
+      return res.status(404).json({ error: 'Political relationship not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete political relationship.' });
   }
 });
 

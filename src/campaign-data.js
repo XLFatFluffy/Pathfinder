@@ -4,7 +4,7 @@ const FORMAT = 'pathfinder-campaign';
 const SCHEMA_VERSION = 1;
 const CATEGORY_TABLES = {
   world: ['locations', 'maps', 'map_markers'],
-  people: ['houses', 'npcs', 'factions', 'npc_relationships'],
+  people: ['houses', 'house_relationships', 'house_relationship_history', 'npcs', 'factions', 'npc_relationships'],
   commerce: ['shops', 'shop_inventory'],
   campaign: ['quests', 'sessions', 'timeline_events', 'simulation_events', 'player_discoveries'],
   simulation: ['simulation_event_tables', 'simulation_cycles', 'simulation_results', 'simulation_rolls']
@@ -22,6 +22,8 @@ const RELATIONSHIPS = {
   locations: { parent_id: 'locations', map_id: 'maps' },
   maps: { parent_id: 'maps' },
   npcs: { location_id: 'locations', house_id: 'houses' },
+  house_relationships: { house_id: 'houses', related_house_id: 'houses' },
+  house_relationship_history: { house_relationship_id: 'house_relationships' },
   npc_relationships: { npc_id: 'npcs', related_npc_id: 'npcs' },
   shops: { location_id: 'locations', shopkeeper_id: 'npcs' },
   map_markers: { map_id: 'maps', location_id: 'locations' },
@@ -43,6 +45,7 @@ const NATURAL_KEYS = {
   maps: ['name', 'parent_id'],
   houses: ['name'],
   npcs: ['name'],
+  house_relationships: ['house_id', 'related_house_id'],
   npc_relationships: ['npc_id', 'related_npc_id'],
   factions: ['name'],
   shops: ['name', 'location_id'],
@@ -339,6 +342,46 @@ function createCampaignDataService(database, getSettings, saveSetting) {
       return item;
     }
 
+    if (table === 'house_relationships') {
+      const relationshipTypes = [
+        'allied', 'friendly', 'neutral', 'hostile', 'rival', 'enemy',
+        'vassal', 'overlord', 'at_war', 'marriage_alliance', 'blood_relation'
+      ];
+      if (!relationshipTypes.includes(row.relationship_type)) {
+        item.state = 'conflict';
+        item.reason = 'The political relationship type is not supported.';
+        return item;
+      }
+      const existingPair = database.prepare(`
+        SELECT * FROM house_relationships
+        WHERE (house_id = @house_id AND related_house_id = @related_house_id)
+           OR (house_id = @related_house_id AND related_house_id = @house_id)
+      `).get(row);
+      if (existingPair) {
+        item.state = houseRelationshipsMatch(existingPair, row) ? 'duplicate' : 'conflict';
+        item.reason = item.state === 'duplicate'
+          ? 'This political relationship already exists.'
+          : 'A different political relationship already exists between these houses.';
+        return item;
+      }
+      const pairKey = JSON.stringify([row.house_id, row.related_house_id].sort());
+      let seenPairs = seenNaturalKeys.get(table);
+      if (!seenPairs) {
+        seenPairs = new Map();
+        seenNaturalKeys.set(table, seenPairs);
+      }
+      const priorPair = seenPairs.get(pairKey);
+      if (priorPair) {
+        item.state = houseRelationshipsMatch(priorPair, row) ? 'duplicate' : 'conflict';
+        item.reason = item.state === 'duplicate'
+          ? 'This political relationship appears more than once in the import.'
+          : 'Conflicting political relationships between these houses appear in the import.';
+        return item;
+      }
+      seenPairs.set(pairKey, row);
+      return item;
+    }
+
     const naturalKey = NATURAL_KEYS[table];
     if (naturalKey && naturalKey.every((field) => row[field] !== undefined)
         && String(row[naturalKey[0]] ?? '').trim()) {
@@ -455,6 +498,20 @@ function recordsMatch(existing, imported, columns) {
     .map(({ name }) => name)
     .filter((name) => !excluded.has(name))
     .every((name) => normalizeValue(existing[name]) === normalizeValue(imported[name]));
+}
+
+function houseRelationshipsMatch(existing, imported) {
+  const sameDirection = existing.house_id === imported.house_id
+    && existing.related_house_id === imported.related_house_id
+    && existing.relationship_type === imported.relationship_type;
+  const inverseTypes = { vassal: 'overlord', overlord: 'vassal' };
+  const reversedDirection = existing.house_id === imported.related_house_id
+    && existing.related_house_id === imported.house_id
+    && (existing.relationship_type === imported.relationship_type
+      || inverseTypes[existing.relationship_type] === imported.relationship_type);
+  return (sameDirection || reversedDirection)
+    && normalizeValue(existing.notes) === normalizeValue(imported.notes)
+    && normalizeValue(existing.effective_date) === normalizeValue(imported.effective_date);
 }
 
 function normalizeValue(value) {

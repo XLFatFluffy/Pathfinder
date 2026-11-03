@@ -106,7 +106,7 @@
               <p class="eyebrow">Political Database</p>
               <h3>Noble Houses</h3>
             </div>
-            <p class="summary-comment">Create house profiles now; NPC-linked family trees and political relationships will build on these records.</p>
+            <p class="summary-comment">Track noble houses, political ties, and how alliances and conflicts change over time.</p>
           </div>
 
           <form id="houseForm" class="house-form">
@@ -184,6 +184,52 @@
           </form>
 
           <div id="houseList" class="house-list"></div>
+
+          <div class="inventory-subsection">
+            <h4>Political relationships</h4>
+            <p class="summary-comment">Record each pair once. Changes append to its history so past alliances and conflicts remain reviewable.</p>
+            <form id="houseRelationshipForm" class="house-form small-form">
+              <input name="id" type="hidden" />
+              <label>
+                House
+                <select name="houseId" required data-house-relationship-select></select>
+              </label>
+              <label>
+                Relationship to the other house
+                <select name="relationshipType">
+                  <option value="allied">Allied</option>
+                  <option value="friendly">Friendly</option>
+                  <option value="neutral">Neutral</option>
+                  <option value="hostile">Hostile</option>
+                  <option value="rival">Rival</option>
+                  <option value="enemy">Enemy</option>
+                  <option value="vassal">Vassal of</option>
+                  <option value="overlord">Overlord of</option>
+                  <option value="at_war">At war with</option>
+                  <option value="marriage_alliance">Marriage alliance with</option>
+                  <option value="blood_relation">Blood relation to</option>
+                </select>
+              </label>
+              <label>
+                Related house
+                <select name="relatedHouseId" required data-house-relationship-select></select>
+              </label>
+              <label>
+                Effective date
+                <input name="effectiveDate" type="text" maxlength="200" placeholder="Uses the current campaign date when blank" />
+              </label>
+              <label>
+                Notes
+                <textarea name="notes" rows="2" maxlength="4000"></textarea>
+              </label>
+              <div class="house-form-actions">
+                <button id="houseRelationshipSubmitButton" type="submit" class="primary-button">Add relationship</button>
+                <button id="houseRelationshipCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+                <span id="houseRelationshipFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="houseRelationshipList" class="house-list"></div>
+          </div>
         </section>
 
         <section id="locations" class="panel">

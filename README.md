@@ -45,7 +45,7 @@ Add markers directly to a map to create or link locations. Markers use normalize
 
 The Locations panel stores the location name and type, player-visible description and visibility, and GM-only notes separately. Locations can be edited from the map marker or the campaign list; maps and locations with active dependencies are protected from deletion.
 
-The **Noble Houses** panel records house identity, heraldry description, motto, history, ruler and seat, holdings, resources, influence, objectives, status, and GM-only secrets. Deletion is blocked while NPC records reference a house. House-to-house political relationships remain a later feature.
+The **Noble Houses** panel records house identity, heraldry description, motto, history, ruler and seat, holdings, resources, influence, objectives, status, and GM-only secrets. Political relationships are tracked independently for each house pair, including alliances, rivalries, vassalage, war, marriage alliances, and blood relations. Editing a relationship appends a dated history entry instead of erasing its previous state. House deletion is blocked while NPCs or political relationships reference it. Relationship records and their history are part of the portable **Houses, NPCs, and factions** JSON category.
 
 The **NPCs** panel includes a structured family list for parent/child, sibling, spouse, and former-spouse links. Each pair is stored once and displayed from either NPC's perspective; deleting an NPC removes its family links. Optional notes can capture context such as marriage or succession details. Family records are part of the portable **Houses, NPCs, and factions** JSON category.
 

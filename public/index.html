@@ -197,6 +197,423 @@
           <div id="locationsList" class="locations-list"></div>
         </section>
 
+        <section id="npcs" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">People of the World</p>
+              <h3>NPCs</h3>
+            </div>
+            <p class="summary-comment">Track key personalities, their homes, and their relationship to the campaign's houses and locations.</p>
+          </div>
+
+          <form id="npcForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              NPC name
+              <input name="name" type="text" required maxlength="160" />
+            </label>
+            <label>
+              Title / role
+              <input name="title" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Race
+              <input name="race" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Occupation
+              <input name="occupation" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Current status
+              <select name="status">
+                <option value="alive">Alive</option>
+                <option value="missing">Missing</option>
+                <option value="deceased">Deceased</option>
+                <option value="retired">Retired</option>
+                <option value="hostile">Hostile</option>
+                <option value="neutral">Neutral</option>
+                <option value="allied">Allied</option>
+                <option value="unknown">Unknown</option>
+              </select>
+            </label>
+            <label>
+              Linked location
+              <select name="locationId" data-location-select></select>
+            </label>
+            <label>
+              Linked noble house
+              <select name="houseId" data-house-select></select>
+            </label>
+            <label class="checkbox-label">
+              <input name="gmOnly" type="checkbox" />
+              GM-only record
+            </label>
+            <div class="house-form-actions">
+              <button id="npcSubmitButton" type="submit" class="primary-button">Create NPC</button>
+              <button id="npcCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="npcFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="npcList" class="house-list"></div>
+        </section>
+
+        <section id="factions" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Power Structures</p>
+              <h3>Factions</h3>
+            </div>
+            <p class="summary-comment">Catalog groups, organizations, and conspiracies that shape the world.</p>
+          </div>
+
+          <form id="factionForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Faction name
+              <input name="name" type="text" required maxlength="160" />
+            </label>
+            <label>
+              Status
+              <select name="status">
+                <option value="established">Established</option>
+                <option value="rising">Rising</option>
+                <option value="declining">Declining</option>
+                <option value="defunct">Defunct</option>
+                <option value="secret">Secret</option>
+              </select>
+            </label>
+            <label>
+              Headquarters
+              <input name="headquarters" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Description
+              <textarea name="description" rows="4" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="factionSubmitButton" type="submit" class="primary-button">Create faction</button>
+              <button id="factionCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="factionFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="factionList" class="house-list"></div>
+        </section>
+
+        <section id="shops" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">City Economy</p>
+              <h3>Shops &amp; Merchants</h3>
+            </div>
+            <p class="summary-comment">Track vendors, guild halls, and the trade networks that keep the realm running.</p>
+          </div>
+
+          <form id="shopForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Shop name
+              <input name="name" type="text" required maxlength="160" />
+            </label>
+            <label>
+              Type
+              <input name="type" type="text" maxlength="4000" placeholder="armorer, apothecary, guild hall..." />
+            </label>
+            <label>
+              Owner
+              <input name="owner" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Location
+              <select name="locationId" data-location-select></select>
+            </label>
+            <label>
+              Shopkeeper
+              <select name="shopkeeperId" data-shopkeeper-select></select>
+            </label>
+            <label>
+              Description
+              <textarea name="description" rows="3" maxlength="4000"></textarea>
+            </label>
+            <label class="house-private-notes">
+              GM notes
+              <textarea name="gmNotes" rows="3" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="shopSubmitButton" type="submit" class="primary-button">Create shop</button>
+              <button id="shopCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="shopFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div class="inventory-subsection">
+            <h4>Inventory preview</h4>
+            <form id="shopInventoryForm" class="house-form small-form">
+              <input name="id" type="hidden" />
+              <label>
+                Shop
+                <select name="shopId"></select>
+              </label>
+              <label>
+                Item name
+                <input name="itemName" type="text" required maxlength="160" />
+              </label>
+              <label>
+                Category
+                <input name="itemCategory" type="text" maxlength="200" />
+              </label>
+              <label>
+                Quantity
+                <input name="quantity" type="number" min="0" step="1" value="1" />
+              </label>
+              <label>
+                Price
+                <input name="price" type="number" min="0" step="0.01" value="0" />
+              </label>
+              <label>
+                Currency
+                <input name="currency" type="text" maxlength="50" value="gp" />
+              </label>
+              <label>
+                Condition
+                <select name="condition">
+                  <option value="standard">Standard</option>
+                  <option value="fine">Fine</option>
+                  <option value="poor">Poor</option>
+                  <option value="masterwork">Masterwork</option>
+                </select>
+              </label>
+              <label>
+                Availability
+                <select name="availability">
+                  <option value="available">Available</option>
+                  <option value="limited">Limited</option>
+                  <option value="restocking">Restocking</option>
+                  <option value="sold_out">Sold out</option>
+                </select>
+              </label>
+              <label>
+                Description
+                <textarea name="description" rows="2" maxlength="4000"></textarea>
+              </label>
+              <label>
+                Player-visible
+                <select name="playerVisible">
+                  <option value="1">Visible to players</option>
+                  <option value="0">GM only</option>
+                </select>
+              </label>
+              <div class="house-form-actions">
+                <button id="shopInventorySubmitButton" type="submit" class="primary-button">Add inventory</button>
+                <button id="shopInventoryCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+                <span id="shopInventoryFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="shopInventoryList" class="house-list"></div>
+          </div>
+
+          <div id="shopList" class="house-list"></div>
+        </section>
+
+        <section id="journal" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Session Logs</p>
+              <h3>Campaign Journal</h3>
+            </div>
+            <p class="summary-comment">Capture sessions, milestones, and the run-of-play story arc.</p>
+          </div>
+
+          <form id="sessionForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Session number
+              <input name="sessionNumber" type="number" min="1" step="1" />
+            </label>
+            <label>
+              Campaign date
+              <input name="campaignDate" type="text" maxlength="200" placeholder="e.g. 5-14-4715" />
+            </label>
+            <label>
+              Summary
+              <textarea name="summary" rows="5" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="sessionSubmitButton" type="submit" class="primary-button">Create session</button>
+              <button id="sessionCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="sessionFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="sessionList" class="house-list"></div>
+        </section>
+
+        <section id="quests" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Adventure Threads</p>
+              <h3>Quests</h3>
+            </div>
+            <p class="summary-comment">Track story goals, where they begin, and their current stage of resolution.</p>
+          </div>
+
+          <form id="questForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Quest name
+              <input name="name" type="text" required maxlength="160" />
+            </label>
+            <label>
+              Status
+              <select name="status">
+                <option value="undiscovered">Undiscovered</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+                <option value="failed">Failed</option>
+                <option value="rewarded">Rewarded</option>
+                <option value="cancelled">Cancelled</option>
+              </select>
+            </label>
+            <label>
+              Quest giver
+              <input name="giver" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Location
+              <select name="locationId" data-location-select></select>
+            </label>
+            <label>
+              Summary
+              <textarea name="summary" rows="4" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="questSubmitButton" type="submit" class="primary-button">Create quest</button>
+              <button id="questCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="questFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="questList" class="house-list"></div>
+        </section>
+
+        <section id="timeline" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">History</p>
+              <h3>Timeline</h3>
+            </div>
+            <p class="summary-comment">Document world-shaping events across the campaign chronology.</p>
+          </div>
+
+          <form id="timelineForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Event title
+              <input name="title" type="text" required maxlength="200" />
+            </label>
+            <label>
+              Category
+              <input name="category" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Event date
+              <input name="eventDate" type="text" maxlength="200" placeholder="e.g. 4705 AR" />
+            </label>
+            <label>
+              Summary
+              <textarea name="summary" rows="4" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="timelineSubmitButton" type="submit" class="primary-button">Create timeline event</button>
+              <button id="timelineCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="timelineFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="timelineList" class="house-list"></div>
+        </section>
+
+        <section id="simulation" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">World Dynamics</p>
+              <h3>World Simulation</h3>
+            </div>
+            <p class="summary-comment">Model likely outcomes, unrest, and empire-wide developments before they reach play.</p>
+          </div>
+
+          <form id="simulationForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              Event title
+              <input name="title" type="text" required maxlength="200" />
+            </label>
+            <label>
+              Category
+              <input name="category" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Date
+              <input name="date" type="text" maxlength="200" placeholder="e.g. 4715-08" />
+            </label>
+            <label>
+              Status
+              <select name="status">
+                <option value="proposed">Proposed</option>
+                <option value="tested">Tested</option>
+                <option value="resolved">Resolved</option>
+                <option value="rejected">Rejected</option>
+              </select>
+            </label>
+            <label>
+              Details
+              <textarea name="details" rows="4" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="simulationSubmitButton" type="submit" class="primary-button">Create simulation</button>
+              <button id="simulationCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="simulationFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div class="inventory-subsection">
+            <h4>Event tables</h4>
+            <form id="simulationTableForm" class="house-form small-form">
+              <input name="id" type="hidden" />
+              <label>
+                Table name
+                <input name="name" type="text" required maxlength="160" />
+              </label>
+              <label>
+                Category
+                <input name="category" type="text" maxlength="200" />
+              </label>
+              <label>
+                Roll range
+                <input name="rollRange" type="text" maxlength="200" placeholder="1d100, 1-20, etc." />
+              </label>
+              <label>
+                Weight
+                <input name="weight" type="number" min="1" step="1" value="1" />
+              </label>
+              <label>
+                Description
+                <textarea name="description" rows="2" maxlength="4000"></textarea>
+              </label>
+              <div class="house-form-actions">
+                <button id="simulationTableSubmitButton" type="submit" class="primary-button">Add table</button>
+                <button id="simulationTableCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+                <span id="simulationTableFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="simulationTableList" class="house-list"></div>
+          </div>
+
+          <div id="simulationList" class="house-list"></div>
+        </section>
+
         <section id="settings" class="panel">
           <div class="panel-header">
             <div>

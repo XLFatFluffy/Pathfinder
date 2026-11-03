@@ -32,12 +32,66 @@ const existingLocationField = document.getElementById('existingLocationField');
 const markerCategoryField = document.getElementById('markerCategoryField');
 const locationFormMessage = document.getElementById('locationFormMessage');
 const locationDialogTitle = document.getElementById('locationDialogTitle');
+const npcForm = document.getElementById('npcForm');
+const npcList = document.getElementById('npcList');
+const npcFormMessage = document.getElementById('npcFormMessage');
+const npcSubmitButton = document.getElementById('npcSubmitButton');
+const npcCancelButton = document.getElementById('npcCancelButton');
+const factionForm = document.getElementById('factionForm');
+const factionList = document.getElementById('factionList');
+const factionFormMessage = document.getElementById('factionFormMessage');
+const factionSubmitButton = document.getElementById('factionSubmitButton');
+const factionCancelButton = document.getElementById('factionCancelButton');
+const shopForm = document.getElementById('shopForm');
+const shopList = document.getElementById('shopList');
+const shopInventoryForm = document.getElementById('shopInventoryForm');
+const shopInventoryList = document.getElementById('shopInventoryList');
+const shopInventoryFormMessage = document.getElementById('shopInventoryFormMessage');
+const shopInventorySubmitButton = document.getElementById('shopInventorySubmitButton');
+const shopInventoryCancelButton = document.getElementById('shopInventoryCancelButton');
+const shopFormMessage = document.getElementById('shopFormMessage');
+const shopSubmitButton = document.getElementById('shopSubmitButton');
+const shopCancelButton = document.getElementById('shopCancelButton');
+const sessionForm = document.getElementById('sessionForm');
+const sessionList = document.getElementById('sessionList');
+const sessionFormMessage = document.getElementById('sessionFormMessage');
+const sessionSubmitButton = document.getElementById('sessionSubmitButton');
+const sessionCancelButton = document.getElementById('sessionCancelButton');
+const questForm = document.getElementById('questForm');
+const questList = document.getElementById('questList');
+const questFormMessage = document.getElementById('questFormMessage');
+const questSubmitButton = document.getElementById('questSubmitButton');
+const questCancelButton = document.getElementById('questCancelButton');
+const timelineForm = document.getElementById('timelineForm');
+const timelineList = document.getElementById('timelineList');
+const timelineFormMessage = document.getElementById('timelineFormMessage');
+const timelineSubmitButton = document.getElementById('timelineSubmitButton');
+const timelineCancelButton = document.getElementById('timelineCancelButton');
+const simulationForm = document.getElementById('simulationForm');
+const simulationList = document.getElementById('simulationList');
+const simulationTableForm = document.getElementById('simulationTableForm');
+const simulationTableList = document.getElementById('simulationTableList');
+const simulationTableFormMessage = document.getElementById('simulationTableFormMessage');
+const simulationTableSubmitButton = document.getElementById('simulationTableSubmitButton');
+const simulationTableCancelButton = document.getElementById('simulationTableCancelButton');
+const simulationFormMessage = document.getElementById('simulationFormMessage');
+const simulationSubmitButton = document.getElementById('simulationSubmitButton');
+const simulationCancelButton = document.getElementById('simulationCancelButton');
 
 const sectionButtons = [...document.querySelectorAll('.nav-item')];
 const panels = [...document.querySelectorAll('.panel')];
 let maps = [];
 let locations = [];
 let houses = [];
+let npcs = [];
+let factions = [];
+let shops = [];
+let shopInventory = [];
+let quests = [];
+let sessions = [];
+let timelineEvents = [];
+let simulationEvents = [];
+let simulationTables = [];
 let atlasMap;
 let atlasImageOverlay;
 let atlasMarkerLayer;
@@ -62,6 +116,24 @@ function escapeHtml(value) {
 function getArtworkUrl(map) {
   const filename = String(map.file_path || '').split(/[\\/]/).pop();
   return `/api/maps/${encodeURIComponent(map.id)}/artwork?v=${encodeURIComponent(filename)}`;
+}
+
+function populateSelectOptions(select, items, { valueKey, labelKey, placeholder = '' } = {}) {
+  if (!select) return;
+  const valueField = valueKey || 'id';
+  const labelField = labelKey || 'name';
+  const options = items.map((item) => `<option value="${escapeHtml(item[valueField])}">${escapeHtml(item[labelField] || item[valueField])}</option>`).join('');
+  const fallback = placeholder ? `<option value="">${escapeHtml(placeholder)}</option>` : '';
+  select.innerHTML = `${fallback}${options}`;
+}
+
+function refreshReferenceSelects() {
+  populateSelectOptions(npcForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
+  populateSelectOptions(npcForm.elements.namedItem('houseId'), houses, { placeholder: 'No linked house' });
+  populateSelectOptions(shopForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
+  populateSelectOptions(shopForm.elements.namedItem('shopkeeperId'), npcs, { labelKey: 'name', placeholder: 'No shopkeeper linked' });
+  populateSelectOptions(shopInventoryForm.elements.namedItem('shopId'), shops, { labelKey: 'name', placeholder: 'Choose a shop' });
+  populateSelectOptions(questForm.elements.namedItem('locationId'), locations, { placeholder: 'No linked location' });
 }
 
 function renderSummary(data) {
@@ -112,6 +184,7 @@ async function loadHouses() {
   }
   houses = payload.houses || [];
   renderHouses();
+  refreshReferenceSelects();
 }
 
 function renderHouses() {
@@ -242,6 +315,1030 @@ async function deleteHouse(id) {
   } catch (error) {
     window.alert(`House deleted, but the campaign view could not refresh: ${error.message}`);
   }
+}
+
+async function loadNpcs() {
+  const response = await fetch('/api/npcs');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load NPCs.');
+  npcs = payload.npcs || [];
+  renderNpcs();
+  refreshReferenceSelects();
+}
+
+function renderNpcs() {
+  if (!npcs.length) {
+    npcList.innerHTML = '<div class="empty-state">No NPCs yet. Add a few key people to the campaign roster.</div>';
+    return;
+  }
+
+  npcList.innerHTML = npcs.map((npc) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">NPC</span>
+          <h4>${escapeHtml(npc.name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(npc.status || 'alive')}</span>
+      </div>
+      <dl class="house-details">
+        ${npc.title ? `<div><dt>Title</dt><dd>${escapeHtml(npc.title)}</dd></div>` : ''}
+        ${npc.race ? `<div><dt>Race</dt><dd>${escapeHtml(npc.race)}</dd></div>` : ''}
+        ${npc.occupation ? `<div><dt>Occupation</dt><dd>${escapeHtml(npc.occupation)}</dd></div>` : ''}
+        ${npc.location_name ? `<div><dt>Location</dt><dd>${escapeHtml(npc.location_name)}</dd></div>` : ''}
+        ${npc.house_name ? `<div><dt>House</dt><dd>${escapeHtml(npc.house_name)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-npc-edit="${escapeHtml(npc.id)}">Edit</button>
+        <button type="button" class="danger-button" data-npc-delete="${escapeHtml(npc.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  npcList.querySelectorAll('[data-npc-edit]').forEach((button) => {
+    button.addEventListener('click', () => editNpc(button.dataset.npcEdit));
+  });
+  npcList.querySelectorAll('[data-npc-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteNpcRecord(button.dataset.npcDelete));
+  });
+}
+
+function editNpc(id) {
+  const npc = npcs.find((entry) => entry.id === id);
+  if (!npc) return;
+  npcForm.elements.namedItem('id').value = npc.id;
+  npcForm.elements.namedItem('name').value = npc.name;
+  npcForm.elements.namedItem('title').value = npc.title || '';
+  npcForm.elements.namedItem('race').value = npc.race || '';
+  npcForm.elements.namedItem('occupation').value = npc.occupation || '';
+  npcForm.elements.namedItem('status').value = npc.status || 'alive';
+  npcForm.elements.namedItem('locationId').value = npc.location_id || '';
+  npcForm.elements.namedItem('houseId').value = npc.house_id || '';
+  npcForm.elements.namedItem('gmOnly').checked = Boolean(npc.gm_only);
+  npcSubmitButton.textContent = 'Save NPC';
+  npcCancelButton.hidden = false;
+  npcFormMessage.textContent = `Editing ${npc.name}.`;
+  npcForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetNpcForm() {
+  npcForm.reset();
+  npcForm.elements.namedItem('id').value = '';
+  npcSubmitButton.textContent = 'Create NPC';
+  npcCancelButton.hidden = true;
+  npcFormMessage.textContent = '';
+}
+
+async function saveNpc(event) {
+  event.preventDefault();
+  npcFormMessage.textContent = '';
+  const id = npcForm.elements.namedItem('id').value;
+  const payload = {
+    name: npcForm.elements.namedItem('name').value,
+    title: npcForm.elements.namedItem('title').value,
+    race: npcForm.elements.namedItem('race').value,
+    occupation: npcForm.elements.namedItem('occupation').value,
+    status: npcForm.elements.namedItem('status').value,
+    location_id: npcForm.elements.namedItem('locationId').value || null,
+    house_id: npcForm.elements.namedItem('houseId').value || null,
+    gm_only: npcForm.elements.namedItem('gmOnly').checked
+  };
+
+  const response = await fetch(id ? `/api/npcs/${encodeURIComponent(id)}` : '/api/npcs', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    npcFormMessage.textContent = result.error || 'Unable to save NPC.';
+    return;
+  }
+
+  resetNpcForm();
+  await loadNpcs();
+  await loadOverview();
+}
+
+async function deleteNpcRecord(id) {
+  const npc = npcs.find((entry) => entry.id === id);
+  if (!npc || !window.confirm(`Delete "${npc.name}"?`)) return;
+
+  const response = await fetch(`/api/npcs/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    npcFormMessage.textContent = result.error || 'Unable to delete NPC.';
+    return;
+  }
+
+  if (npcForm.elements.namedItem('id').value === id) resetNpcForm();
+  await loadNpcs();
+  await loadOverview();
+}
+
+async function loadFactions() {
+  const response = await fetch('/api/factions');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load factions.');
+  factions = payload.factions || [];
+  renderFactions();
+}
+
+function renderFactions() {
+  if (!factions.length) {
+    factionList.innerHTML = '<div class="empty-state">No factions recorded yet.</div>';
+    return;
+  }
+
+  factionList.innerHTML = factions.map((faction) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">Faction</span>
+          <h4>${escapeHtml(faction.name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(faction.status || 'established')}</span>
+      </div>
+      <dl class="house-details">
+        ${faction.headquarters ? `<div><dt>Headquarters</dt><dd>${escapeHtml(faction.headquarters)}</dd></div>` : ''}
+        ${faction.description ? `<div><dt>Description</dt><dd>${escapeHtml(faction.description)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-faction-edit="${escapeHtml(faction.id)}">Edit</button>
+        <button type="button" class="danger-button" data-faction-delete="${escapeHtml(faction.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  factionList.querySelectorAll('[data-faction-edit]').forEach((button) => {
+    button.addEventListener('click', () => editFaction(button.dataset.factionEdit));
+  });
+  factionList.querySelectorAll('[data-faction-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteFactionRecord(button.dataset.factionDelete));
+  });
+}
+
+function editFaction(id) {
+  const faction = factions.find((entry) => entry.id === id);
+  if (!faction) return;
+  factionForm.elements.namedItem('id').value = faction.id;
+  factionForm.elements.namedItem('name').value = faction.name;
+  factionForm.elements.namedItem('status').value = faction.status || 'established';
+  factionForm.elements.namedItem('headquarters').value = faction.headquarters || '';
+  factionForm.elements.namedItem('description').value = faction.description || '';
+  factionSubmitButton.textContent = 'Save faction';
+  factionCancelButton.hidden = false;
+  factionFormMessage.textContent = `Editing ${faction.name}.`;
+  factionForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetFactionForm() {
+  factionForm.reset();
+  factionForm.elements.namedItem('id').value = '';
+  factionSubmitButton.textContent = 'Create faction';
+  factionCancelButton.hidden = true;
+  factionFormMessage.textContent = '';
+}
+
+async function saveFaction(event) {
+  event.preventDefault();
+  factionFormMessage.textContent = '';
+  const id = factionForm.elements.namedItem('id').value;
+  const payload = {
+    name: factionForm.elements.namedItem('name').value,
+    status: factionForm.elements.namedItem('status').value,
+    headquarters: factionForm.elements.namedItem('headquarters').value,
+    description: factionForm.elements.namedItem('description').value
+  };
+
+  const response = await fetch(id ? `/api/factions/${encodeURIComponent(id)}` : '/api/factions', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    factionFormMessage.textContent = result.error || 'Unable to save faction.';
+    return;
+  }
+
+  resetFactionForm();
+  await loadFactions();
+  await loadOverview();
+}
+
+async function deleteFactionRecord(id) {
+  const faction = factions.find((entry) => entry.id === id);
+  if (!faction || !window.confirm(`Delete "${faction.name}"?`)) return;
+
+  const response = await fetch(`/api/factions/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    factionFormMessage.textContent = result.error || 'Unable to delete faction.';
+    return;
+  }
+
+  if (factionForm.elements.namedItem('id').value === id) resetFactionForm();
+  await loadFactions();
+  await loadOverview();
+}
+
+async function loadShops() {
+  const response = await fetch('/api/shops');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load shops.');
+  shops = payload.shops || [];
+  renderShops();
+  refreshReferenceSelects();
+
+  const selectedShopId = shopInventoryForm.elements.namedItem('shopId').value || shops[0]?.id || '';
+  shopInventoryForm.elements.namedItem('shopId').value = selectedShopId;
+  if (selectedShopId) {
+    await loadShopInventory(selectedShopId);
+  } else {
+    shopInventory = [];
+    renderShopInventory();
+  }
+}
+
+function renderShops() {
+  if (!shops.length) {
+    shopList.innerHTML = '<div class="empty-state">No shops or merchants logged yet.</div>';
+    return;
+  }
+
+  shopList.innerHTML = shops.map((shop) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">Shop</span>
+          <h4>${escapeHtml(shop.name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(shop.type || 'Merchant')}</span>
+      </div>
+      <dl class="house-details">
+        ${shop.location_name ? `<div><dt>Location</dt><dd>${escapeHtml(shop.location_name)}</dd></div>` : ''}
+        ${shop.owner ? `<div><dt>Owner</dt><dd>${escapeHtml(shop.owner)}</dd></div>` : ''}
+        ${shop.shopkeeper_name ? `<div><dt>Shopkeeper</dt><dd>${escapeHtml(shop.shopkeeper_name)}</dd></div>` : ''}
+        ${shop.description ? `<div><dt>Description</dt><dd>${escapeHtml(shop.description)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-shop-edit="${escapeHtml(shop.id)}">Edit</button>
+        <button type="button" class="danger-button" data-shop-delete="${escapeHtml(shop.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  shopList.querySelectorAll('[data-shop-edit]').forEach((button) => {
+    button.addEventListener('click', () => editShop(button.dataset.shopEdit));
+  });
+  shopList.querySelectorAll('[data-shop-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteShopRecord(button.dataset.shopDelete));
+  });
+}
+
+function editShop(id) {
+  const shop = shops.find((entry) => entry.id === id);
+  if (!shop) return;
+  shopForm.elements.namedItem('id').value = shop.id;
+  shopForm.elements.namedItem('name').value = shop.name;
+  shopForm.elements.namedItem('type').value = shop.type || '';
+  shopForm.elements.namedItem('owner').value = shop.owner || '';
+  shopForm.elements.namedItem('locationId').value = shop.location_id || '';
+  shopForm.elements.namedItem('shopkeeperId').value = shop.shopkeeper_id || '';
+  shopForm.elements.namedItem('description').value = shop.description || '';
+  shopForm.elements.namedItem('gmNotes').value = shop.gm_notes || '';
+  shopSubmitButton.textContent = 'Save shop';
+  shopCancelButton.hidden = false;
+  shopFormMessage.textContent = `Editing ${shop.name}.`;
+  shopForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetShopForm() {
+  shopForm.reset();
+  shopForm.elements.namedItem('id').value = '';
+  shopSubmitButton.textContent = 'Create shop';
+  shopCancelButton.hidden = true;
+  shopFormMessage.textContent = '';
+}
+
+async function saveShop(event) {
+  event.preventDefault();
+  shopFormMessage.textContent = '';
+  const id = shopForm.elements.namedItem('id').value;
+  const payload = {
+    name: shopForm.elements.namedItem('name').value,
+    type: shopForm.elements.namedItem('type').value,
+    owner: shopForm.elements.namedItem('owner').value,
+    location_id: shopForm.elements.namedItem('locationId').value || null,
+    shopkeeper_id: shopForm.elements.namedItem('shopkeeperId').value || null,
+    description: shopForm.elements.namedItem('description').value,
+    gm_notes: shopForm.elements.namedItem('gmNotes').value
+  };
+
+  const response = await fetch(id ? `/api/shops/${encodeURIComponent(id)}` : '/api/shops', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    shopFormMessage.textContent = result.error || 'Unable to save shop.';
+    return;
+  }
+
+  resetShopForm();
+  await loadShops();
+  await loadOverview();
+}
+
+async function deleteShopRecord(id) {
+  const shop = shops.find((entry) => entry.id === id);
+  if (!shop || !window.confirm(`Delete "${shop.name}"?`)) return;
+
+  const response = await fetch(`/api/shops/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    shopFormMessage.textContent = result.error || 'Unable to delete shop.';
+    return;
+  }
+
+  if (shopForm.elements.namedItem('id').value === id) resetShopForm();
+  await loadShops();
+  await loadOverview();
+}
+
+async function loadSessions() {
+  const response = await fetch('/api/sessions');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load campaign journal.');
+  sessions = payload.sessions || [];
+  renderSessions();
+}
+
+function renderSessions() {
+  if (!sessions.length) {
+    sessionList.innerHTML = '<div class="empty-state">No sessions logged yet.</div>';
+    return;
+  }
+
+  sessionList.innerHTML = sessions.map((session) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">Session ${escapeHtml(session.session_number || 'n/a')}</span>
+          <h4>${escapeHtml(session.campaign_date || 'Campaign date missing')}</h4>
+        </div>
+      </div>
+      <p>${escapeHtml(session.summary || 'No summary yet.')}</p>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-session-edit="${escapeHtml(session.id)}">Edit</button>
+        <button type="button" class="danger-button" data-session-delete="${escapeHtml(session.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  sessionList.querySelectorAll('[data-session-edit]').forEach((button) => {
+    button.addEventListener('click', () => editSession(button.dataset.sessionEdit));
+  });
+  sessionList.querySelectorAll('[data-session-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteSessionRecord(button.dataset.sessionDelete));
+  });
+}
+
+function editSession(id) {
+  const session = sessions.find((entry) => entry.id === id);
+  if (!session) return;
+  sessionForm.elements.namedItem('id').value = session.id;
+  sessionForm.elements.namedItem('sessionNumber').value = session.session_number || '';
+  sessionForm.elements.namedItem('campaignDate').value = session.campaign_date || '';
+  sessionForm.elements.namedItem('summary').value = session.summary || '';
+  sessionSubmitButton.textContent = 'Save session';
+  sessionCancelButton.hidden = false;
+  sessionFormMessage.textContent = `Editing session ${session.session_number || 'record'}.`;
+  sessionForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetSessionForm() {
+  sessionForm.reset();
+  sessionForm.elements.namedItem('id').value = '';
+  sessionSubmitButton.textContent = 'Create session';
+  sessionCancelButton.hidden = true;
+  sessionFormMessage.textContent = '';
+}
+
+async function saveSession(event) {
+  event.preventDefault();
+  sessionFormMessage.textContent = '';
+  const id = sessionForm.elements.namedItem('id').value;
+  const payload = {
+    session_number: Number(sessionForm.elements.namedItem('sessionNumber').value || 0) || null,
+    campaign_date: sessionForm.elements.namedItem('campaignDate').value,
+    summary: sessionForm.elements.namedItem('summary').value
+  };
+
+  const response = await fetch(id ? `/api/sessions/${encodeURIComponent(id)}` : '/api/sessions', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    sessionFormMessage.textContent = result.error || 'Unable to save session.';
+    return;
+  }
+
+  resetSessionForm();
+  await loadSessions();
+  await loadOverview();
+}
+
+async function deleteSessionRecord(id) {
+  const session = sessions.find((entry) => entry.id === id);
+  if (!session || !window.confirm(`Delete session ${session.session_number || 'record'}?`)) return;
+
+  const response = await fetch(`/api/sessions/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    sessionFormMessage.textContent = result.error || 'Unable to delete session.';
+    return;
+  }
+
+  if (sessionForm.elements.namedItem('id').value === id) resetSessionForm();
+  await loadSessions();
+  await loadOverview();
+}
+
+async function loadQuests() {
+  const response = await fetch('/api/quests');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load quests.');
+  quests = payload.quests || [];
+  renderQuests();
+  refreshReferenceSelects();
+}
+
+function renderQuests() {
+  if (!quests.length) {
+    questList.innerHTML = '<div class="empty-state">No quests are on the board yet.</div>';
+    return;
+  }
+
+  questList.innerHTML = quests.map((quest) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">Quest</span>
+          <h4>${escapeHtml(quest.name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(quest.status || 'undiscovered')}</span>
+      </div>
+      <dl class="house-details">
+        ${quest.giver ? `<div><dt>Giver</dt><dd>${escapeHtml(quest.giver)}</dd></div>` : ''}
+        ${quest.location_name ? `<div><dt>Location</dt><dd>${escapeHtml(quest.location_name)}</dd></div>` : ''}
+        ${quest.summary ? `<div><dt>Summary</dt><dd>${escapeHtml(quest.summary)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-quest-edit="${escapeHtml(quest.id)}">Edit</button>
+        <button type="button" class="danger-button" data-quest-delete="${escapeHtml(quest.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  questList.querySelectorAll('[data-quest-edit]').forEach((button) => {
+    button.addEventListener('click', () => editQuest(button.dataset.questEdit));
+  });
+  questList.querySelectorAll('[data-quest-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteQuestRecord(button.dataset.questDelete));
+  });
+}
+
+function editQuest(id) {
+  const quest = quests.find((entry) => entry.id === id);
+  if (!quest) return;
+  questForm.elements.namedItem('id').value = quest.id;
+  questForm.elements.namedItem('name').value = quest.name;
+  questForm.elements.namedItem('status').value = quest.status || 'undiscovered';
+  questForm.elements.namedItem('giver').value = quest.giver || '';
+  questForm.elements.namedItem('locationId').value = quest.location_id || '';
+  questForm.elements.namedItem('summary').value = quest.summary || '';
+  questSubmitButton.textContent = 'Save quest';
+  questCancelButton.hidden = false;
+  questFormMessage.textContent = `Editing ${quest.name}.`;
+  questForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetQuestForm() {
+  questForm.reset();
+  questForm.elements.namedItem('id').value = '';
+  questSubmitButton.textContent = 'Create quest';
+  questCancelButton.hidden = true;
+  questFormMessage.textContent = '';
+}
+
+async function saveQuest(event) {
+  event.preventDefault();
+  questFormMessage.textContent = '';
+  const id = questForm.elements.namedItem('id').value;
+  const payload = {
+    name: questForm.elements.namedItem('name').value,
+    status: questForm.elements.namedItem('status').value,
+    giver: questForm.elements.namedItem('giver').value,
+    location_id: questForm.elements.namedItem('locationId').value || null,
+    summary: questForm.elements.namedItem('summary').value
+  };
+
+  const response = await fetch(id ? `/api/quests/${encodeURIComponent(id)}` : '/api/quests', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    questFormMessage.textContent = result.error || 'Unable to save quest.';
+    return;
+  }
+
+  resetQuestForm();
+  await loadQuests();
+  await loadOverview();
+}
+
+async function deleteQuestRecord(id) {
+  const quest = quests.find((entry) => entry.id === id);
+  if (!quest || !window.confirm(`Delete "${quest.name}"?`)) return;
+
+  const response = await fetch(`/api/quests/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    questFormMessage.textContent = result.error || 'Unable to delete quest.';
+    return;
+  }
+
+  if (questForm.elements.namedItem('id').value === id) resetQuestForm();
+  await loadQuests();
+  await loadOverview();
+}
+
+async function loadShopInventory(shopId = '') {
+  if (!shopId) {
+    shopInventory = [];
+    renderShopInventory();
+    return;
+  }
+
+  const response = await fetch(`/api/shops/${encodeURIComponent(shopId)}/inventory`);
+  const payload = await response.json();
+  if (!response.ok) {
+    throw new Error(payload.error || 'Unable to load shop inventory.');
+  }
+  shopInventory = payload.inventory || [];
+  renderShopInventory();
+}
+
+function renderShopInventory() {
+  if (!shopInventory.length) {
+    shopInventoryList.innerHTML = '<div class="empty-state">No inventory logged for this shop yet.</div>';
+    return;
+  }
+
+  shopInventoryList.innerHTML = shopInventory.map((item) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">${escapeHtml(item.item_category || 'Inventory')}</span>
+          <h4>${escapeHtml(item.item_name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(item.availability || 'available')}</span>
+      </div>
+      <dl class="house-details">
+        ${item.quantity !== undefined ? `<div><dt>Qty</dt><dd>${escapeHtml(String(item.quantity))}</dd></div>` : ''}
+        ${item.price !== undefined ? `<div><dt>Price</dt><dd>${escapeHtml(`${item.price} ${item.currency || 'gp'}`)}</dd></div>` : ''}
+        ${item.description ? `<div><dt>Description</dt><dd>${escapeHtml(item.description)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-shop-inventory-edit="${escapeHtml(item.id)}">Edit</button>
+        <button type="button" class="danger-button" data-shop-inventory-delete="${escapeHtml(item.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  shopInventoryList.querySelectorAll('[data-shop-inventory-edit]').forEach((button) => {
+    button.addEventListener('click', () => editShopInventoryItem(button.dataset.shopInventoryEdit));
+  });
+  shopInventoryList.querySelectorAll('[data-shop-inventory-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteShopInventoryItemRecord(button.dataset.shopInventoryDelete));
+  });
+}
+
+function editShopInventoryItem(id) {
+  const item = shopInventory.find((entry) => entry.id === id);
+  if (!item) return;
+  shopInventoryForm.elements.namedItem('id').value = item.id;
+  shopInventoryForm.elements.namedItem('shopId').value = item.shop_id || '';
+  shopInventoryForm.elements.namedItem('itemName').value = item.item_name || '';
+  shopInventoryForm.elements.namedItem('itemCategory').value = item.item_category || '';
+  shopInventoryForm.elements.namedItem('quantity').value = Number(item.quantity ?? 0);
+  shopInventoryForm.elements.namedItem('price').value = Number(item.price ?? 0);
+  shopInventoryForm.elements.namedItem('currency').value = item.currency || 'gp';
+  shopInventoryForm.elements.namedItem('condition').value = item.condition || 'standard';
+  shopInventoryForm.elements.namedItem('availability').value = item.availability || 'available';
+  shopInventoryForm.elements.namedItem('description').value = item.description || '';
+  shopInventoryForm.elements.namedItem('playerVisible').value = item.player_visible ? '1' : '0';
+  shopInventorySubmitButton.textContent = 'Save inventory item';
+  shopInventoryCancelButton.hidden = false;
+  shopInventoryFormMessage.textContent = `Editing ${item.item_name}.`;
+  shopInventoryForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetShopInventoryForm() {
+  shopInventoryForm.reset();
+  shopInventoryForm.elements.namedItem('id').value = '';
+  shopInventoryForm.elements.namedItem('quantity').value = 1;
+  shopInventoryForm.elements.namedItem('price').value = 0;
+  shopInventoryForm.elements.namedItem('currency').value = 'gp';
+  shopInventoryForm.elements.namedItem('condition').value = 'standard';
+  shopInventoryForm.elements.namedItem('availability').value = 'available';
+  shopInventoryForm.elements.namedItem('playerVisible').value = '1';
+  shopInventorySubmitButton.textContent = 'Add inventory';
+  shopInventoryCancelButton.hidden = true;
+  shopInventoryFormMessage.textContent = '';
+}
+
+async function saveShopInventoryItem(event) {
+  event.preventDefault();
+  shopInventoryFormMessage.textContent = '';
+  const id = shopInventoryForm.elements.namedItem('id').value;
+  const shopId = shopInventoryForm.elements.namedItem('shopId').value;
+
+  if (!shopId) {
+    shopInventoryFormMessage.textContent = 'Choose a shop before adding inventory.';
+    return;
+  }
+
+  const payload = {
+    item_name: shopInventoryForm.elements.namedItem('itemName').value,
+    item_category: shopInventoryForm.elements.namedItem('itemCategory').value,
+    quantity: Number(shopInventoryForm.elements.namedItem('quantity').value || 0),
+    price: Number(shopInventoryForm.elements.namedItem('price').value || 0),
+    currency: shopInventoryForm.elements.namedItem('currency').value,
+    condition: shopInventoryForm.elements.namedItem('condition').value,
+    availability: shopInventoryForm.elements.namedItem('availability').value,
+    description: shopInventoryForm.elements.namedItem('description').value,
+    player_visible: shopInventoryForm.elements.namedItem('playerVisible').value === '1'
+  };
+
+  const response = await fetch(id ? `/api/shops/${encodeURIComponent(shopId)}/inventory/${encodeURIComponent(id)}` : `/api/shops/${encodeURIComponent(shopId)}/inventory`, {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    shopInventoryFormMessage.textContent = result.error || 'Unable to save inventory item.';
+    return;
+  }
+
+  resetShopInventoryForm();
+  await loadShopInventory(shopId);
+}
+
+async function deleteShopInventoryItemRecord(id) {
+  const item = shopInventory.find((entry) => entry.id === id);
+  if (!item || !window.confirm(`Delete "${item.item_name}" from inventory?`)) return;
+
+  const response = await fetch(`/api/shops/${encodeURIComponent(item.shop_id)}/inventory/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    shopInventoryFormMessage.textContent = result.error || 'Unable to delete inventory item.';
+    return;
+  }
+
+  if (shopInventoryForm.elements.namedItem('id').value === id) resetShopInventoryForm();
+  await loadShopInventory(item.shop_id);
+}
+
+async function loadSimulationTables() {
+  const response = await fetch('/api/simulation/tables');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load simulation tables.');
+  simulationTables = payload.tables || [];
+  renderSimulationTables();
+}
+
+function renderSimulationTables() {
+  if (!simulationTables.length) {
+    simulationTableList.innerHTML = '<div class="empty-state">No event tables created yet.</div>';
+    return;
+  }
+
+  simulationTableList.innerHTML = simulationTables.map((table) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">${escapeHtml(table.category || 'Table')}</span>
+          <h4>${escapeHtml(table.name)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(String(table.weight || 1))}</span>
+      </div>
+      <dl class="house-details">
+        ${table.roll_range ? `<div><dt>Roll</dt><dd>${escapeHtml(table.roll_range)}</dd></div>` : ''}
+        ${table.description ? `<div><dt>Description</dt><dd>${escapeHtml(table.description)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-simulation-table-edit="${escapeHtml(table.id)}">Edit</button>
+        <button type="button" class="danger-button" data-simulation-table-delete="${escapeHtml(table.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  simulationTableList.querySelectorAll('[data-simulation-table-edit]').forEach((button) => {
+    button.addEventListener('click', () => editSimulationTable(button.dataset.simulationTableEdit));
+  });
+  simulationTableList.querySelectorAll('[data-simulation-table-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteSimulationTableRecord(button.dataset.simulationTableDelete));
+  });
+}
+
+function editSimulationTable(id) {
+  const table = simulationTables.find((entry) => entry.id === id);
+  if (!table) return;
+  simulationTableForm.elements.namedItem('id').value = table.id;
+  simulationTableForm.elements.namedItem('name').value = table.name || '';
+  simulationTableForm.elements.namedItem('category').value = table.category || '';
+  simulationTableForm.elements.namedItem('rollRange').value = table.roll_range || '';
+  simulationTableForm.elements.namedItem('weight').value = Number(table.weight ?? 1);
+  simulationTableForm.elements.namedItem('description').value = table.description || '';
+  simulationTableSubmitButton.textContent = 'Save table';
+  simulationTableCancelButton.hidden = false;
+  simulationTableFormMessage.textContent = `Editing ${table.name}.`;
+  simulationTableForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetSimulationTableForm() {
+  simulationTableForm.reset();
+  simulationTableForm.elements.namedItem('id').value = '';
+  simulationTableForm.elements.namedItem('weight').value = 1;
+  simulationTableSubmitButton.textContent = 'Add table';
+  simulationTableCancelButton.hidden = true;
+  simulationTableFormMessage.textContent = '';
+}
+
+async function saveSimulationTable(event) {
+  event.preventDefault();
+  simulationTableFormMessage.textContent = '';
+  const id = simulationTableForm.elements.namedItem('id').value;
+  const payload = {
+    name: simulationTableForm.elements.namedItem('name').value,
+    category: simulationTableForm.elements.namedItem('category').value,
+    roll_range: simulationTableForm.elements.namedItem('rollRange').value,
+    weight: Number(simulationTableForm.elements.namedItem('weight').value || 1),
+    description: simulationTableForm.elements.namedItem('description').value
+  };
+
+  const response = await fetch(id ? `/api/simulation/tables/${encodeURIComponent(id)}` : '/api/simulation/tables', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    simulationTableFormMessage.textContent = result.error || 'Unable to save simulation table.';
+    return;
+  }
+
+  resetSimulationTableForm();
+  await loadSimulationTables();
+}
+
+async function deleteSimulationTableRecord(id) {
+  const table = simulationTables.find((entry) => entry.id === id);
+  if (!table || !window.confirm(`Delete "${table.name}"?`)) return;
+
+  const response = await fetch(`/api/simulation/tables/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    simulationTableFormMessage.textContent = result.error || 'Unable to delete simulation table.';
+    return;
+  }
+
+  if (simulationTableForm.elements.namedItem('id').value === id) resetSimulationTableForm();
+  await loadSimulationTables();
+}
+
+async function loadTimelineEvents() {
+  const response = await fetch('/api/timeline');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load timeline.');
+  timelineEvents = payload.timeline || [];
+  renderTimelineEvents();
+}
+
+function renderTimelineEvents() {
+  if (!timelineEvents.length) {
+    timelineList.innerHTML = '<div class="empty-state">No timeline entries created yet.</div>';
+    return;
+  }
+
+  timelineList.innerHTML = timelineEvents.map((event) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">${escapeHtml(event.category || 'History')}</span>
+          <h4>${escapeHtml(event.title)}</h4>
+        </div>
+      </div>
+      <dl class="house-details">
+        ${event.event_date ? `<div><dt>Date</dt><dd>${escapeHtml(event.event_date)}</dd></div>` : ''}
+        ${event.summary ? `<div><dt>Summary</dt><dd>${escapeHtml(event.summary)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-timeline-edit="${escapeHtml(event.id)}">Edit</button>
+        <button type="button" class="danger-button" data-timeline-delete="${escapeHtml(event.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  timelineList.querySelectorAll('[data-timeline-edit]').forEach((button) => {
+    button.addEventListener('click', () => editTimelineEvent(button.dataset.timelineEdit));
+  });
+  timelineList.querySelectorAll('[data-timeline-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteTimelineEventRecord(button.dataset.timelineDelete));
+  });
+}
+
+function editTimelineEvent(id) {
+  const event = timelineEvents.find((entry) => entry.id === id);
+  if (!event) return;
+  timelineForm.elements.namedItem('id').value = event.id;
+  timelineForm.elements.namedItem('title').value = event.title;
+  timelineForm.elements.namedItem('category').value = event.category || '';
+  timelineForm.elements.namedItem('eventDate').value = event.event_date || '';
+  timelineForm.elements.namedItem('summary').value = event.summary || '';
+  timelineSubmitButton.textContent = 'Save timeline event';
+  timelineCancelButton.hidden = false;
+  timelineFormMessage.textContent = `Editing ${event.title}.`;
+  timelineForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetTimelineForm() {
+  timelineForm.reset();
+  timelineForm.elements.namedItem('id').value = '';
+  timelineSubmitButton.textContent = 'Create timeline event';
+  timelineCancelButton.hidden = true;
+  timelineFormMessage.textContent = '';
+}
+
+async function saveTimelineEvent(event) {
+  event.preventDefault();
+  timelineFormMessage.textContent = '';
+  const id = timelineForm.elements.namedItem('id').value;
+  const payload = {
+    title: timelineForm.elements.namedItem('title').value,
+    category: timelineForm.elements.namedItem('category').value,
+    event_date: timelineForm.elements.namedItem('eventDate').value,
+    summary: timelineForm.elements.namedItem('summary').value
+  };
+
+  const response = await fetch(id ? `/api/timeline/${encodeURIComponent(id)}` : '/api/timeline', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    timelineFormMessage.textContent = result.error || 'Unable to save timeline event.';
+    return;
+  }
+
+  resetTimelineForm();
+  await loadTimelineEvents();
+  await loadOverview();
+}
+
+async function deleteTimelineEventRecord(id) {
+  const event = timelineEvents.find((entry) => entry.id === id);
+  if (!event || !window.confirm(`Delete "${event.title}"?`)) return;
+
+  const response = await fetch(`/api/timeline/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    timelineFormMessage.textContent = result.error || 'Unable to delete timeline event.';
+    return;
+  }
+
+  if (timelineForm.elements.namedItem('id').value === id) resetTimelineForm();
+  await loadTimelineEvents();
+  await loadOverview();
+}
+
+async function loadSimulationEvents() {
+  const response = await fetch('/api/simulation');
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error || 'Unable to load simulation events.');
+  simulationEvents = payload.simulation || [];
+  renderSimulationEvents();
+}
+
+function renderSimulationEvents() {
+  if (!simulationEvents.length) {
+    simulationList.innerHTML = '<div class="empty-state">No world simulation outcomes recorded.</div>';
+    return;
+  }
+
+  simulationList.innerHTML = simulationEvents.map((event) => `
+    <article class="house-card">
+      <div class="house-card-heading">
+        <div>
+          <span class="map-level">${escapeHtml(event.category || 'Simulation')}</span>
+          <h4>${escapeHtml(event.title)}</h4>
+        </div>
+        <span class="house-status">${escapeHtml(event.status || 'proposed')}</span>
+      </div>
+      <dl class="house-details">
+        ${event.date ? `<div><dt>Date</dt><dd>${escapeHtml(event.date)}</dd></div>` : ''}
+        ${event.details ? `<div><dt>Details</dt><dd>${escapeHtml(event.details)}</dd></div>` : ''}
+      </dl>
+      <div class="house-card-actions">
+        <button type="button" class="secondary-button" data-simulation-edit="${escapeHtml(event.id)}">Edit</button>
+        <button type="button" class="danger-button" data-simulation-delete="${escapeHtml(event.id)}">Delete</button>
+      </div>
+    </article>
+  `).join('');
+
+  simulationList.querySelectorAll('[data-simulation-edit]').forEach((button) => {
+    button.addEventListener('click', () => editSimulationEvent(button.dataset.simulationEdit));
+  });
+  simulationList.querySelectorAll('[data-simulation-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteSimulationEventRecord(button.dataset.simulationDelete));
+  });
+}
+
+function editSimulationEvent(id) {
+  const event = simulationEvents.find((entry) => entry.id === id);
+  if (!event) return;
+  simulationForm.elements.namedItem('id').value = event.id;
+  simulationForm.elements.namedItem('title').value = event.title;
+  simulationForm.elements.namedItem('category').value = event.category || '';
+  simulationForm.elements.namedItem('date').value = event.date || '';
+  simulationForm.elements.namedItem('status').value = event.status || 'proposed';
+  simulationForm.elements.namedItem('details').value = event.details || '';
+  simulationSubmitButton.textContent = 'Save simulation';
+  simulationCancelButton.hidden = false;
+  simulationFormMessage.textContent = `Editing ${event.title}.`;
+  simulationForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetSimulationForm() {
+  simulationForm.reset();
+  simulationForm.elements.namedItem('id').value = '';
+  simulationSubmitButton.textContent = 'Create simulation';
+  simulationCancelButton.hidden = true;
+  simulationFormMessage.textContent = '';
+}
+
+async function saveSimulationEvent(event) {
+  event.preventDefault();
+  simulationFormMessage.textContent = '';
+  const id = simulationForm.elements.namedItem('id').value;
+  const payload = {
+    title: simulationForm.elements.namedItem('title').value,
+    category: simulationForm.elements.namedItem('category').value,
+    date: simulationForm.elements.namedItem('date').value,
+    status: simulationForm.elements.namedItem('status').value,
+    details: simulationForm.elements.namedItem('details').value
+  };
+
+  const response = await fetch(id ? `/api/simulation/${encodeURIComponent(id)}` : '/api/simulation', {
+    method: id ? 'PUT' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    simulationFormMessage.textContent = result.error || 'Unable to save simulation event.';
+    return;
+  }
+
+  resetSimulationForm();
+  await loadSimulationEvents();
+  await loadOverview();
+}
+
+async function deleteSimulationEventRecord(id) {
+  const event = simulationEvents.find((entry) => entry.id === id);
+  if (!event || !window.confirm(`Delete "${event.title}"?`)) return;
+
+  const response = await fetch(`/api/simulation/${encodeURIComponent(id)}`, { method: 'DELETE' });
+  const result = await response.json();
+  if (!response.ok) {
+    simulationFormMessage.textContent = result.error || 'Unable to delete simulation event.';
+    return;
+  }
+
+  if (simulationForm.elements.namedItem('id').value === id) resetSimulationForm();
+  await loadSimulationEvents();
+  await loadOverview();
 }
 
 async function loadOverview() {
@@ -549,6 +1646,49 @@ function activateSection(sectionId) {
       houseList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
     });
   }
+  if (sectionId === 'npcs') {
+    loadNpcs().catch((error) => {
+      npcList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+    loadHouses().catch(() => {});
+    loadLocations().catch(() => {});
+  }
+  if (sectionId === 'factions') {
+    loadFactions().catch((error) => {
+      factionList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+  }
+  if (sectionId === 'shops') {
+    loadShops().catch((error) => {
+      shopList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+    loadLocations().catch(() => {});
+    loadNpcs().catch(() => {});
+  }
+  if (sectionId === 'journal') {
+    loadSessions().catch((error) => {
+      sessionList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+  }
+  if (sectionId === 'quests') {
+    loadQuests().catch((error) => {
+      questList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+    loadLocations().catch(() => {});
+  }
+  if (sectionId === 'timeline') {
+    loadTimelineEvents().catch((error) => {
+      timelineList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+  }
+  if (sectionId === 'simulation') {
+    loadSimulationEvents().catch((error) => {
+      simulationList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+    loadSimulationTables().catch((error) => {
+      simulationTableList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+  }
   if (sectionId === 'overview' && atlasMap) {
     requestAnimationFrame(() => {
       atlasMap.invalidateSize();
@@ -571,6 +1711,7 @@ async function loadLocations() {
   existingSelect.innerHTML = '<option value="">Create a new location record</option>' + locations.map((location) => (
     `<option value="${escapeHtml(location.id)}">${escapeHtml(location.name)} (${escapeHtml(location.type || 'location')})</option>`
   )).join('');
+  refreshReferenceSelects();
 }
 
 function renderLocations() {
@@ -978,6 +2119,29 @@ document.getElementById('locationEdit').addEventListener('click', () => {
 document.getElementById('locationDelete').addEventListener('click', deleteCurrentLocation);
 houseForm.addEventListener('submit', saveHouse);
 houseCancelButton.addEventListener('click', resetHouseForm);
+npcForm.addEventListener('submit', saveNpc);
+npcCancelButton.addEventListener('click', resetNpcForm);
+factionForm.addEventListener('submit', saveFaction);
+factionCancelButton.addEventListener('click', resetFactionForm);
+shopForm.addEventListener('submit', saveShop);
+shopCancelButton.addEventListener('click', resetShopForm);
+shopInventoryForm.addEventListener('submit', saveShopInventoryItem);
+shopInventoryForm.elements.namedItem('shopId').addEventListener('change', (event) => {
+  loadShopInventory(event.target.value).catch((error) => {
+    shopInventoryList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+  });
+});
+shopInventoryCancelButton.addEventListener('click', resetShopInventoryForm);
+sessionForm.addEventListener('submit', saveSession);
+sessionCancelButton.addEventListener('click', resetSessionForm);
+questForm.addEventListener('submit', saveQuest);
+questCancelButton.addEventListener('click', resetQuestForm);
+timelineForm.addEventListener('submit', saveTimelineEvent);
+timelineCancelButton.addEventListener('click', resetTimelineForm);
+simulationForm.addEventListener('submit', saveSimulationEvent);
+simulationCancelButton.addEventListener('click', resetSimulationForm);
+simulationTableForm.addEventListener('submit', saveSimulationTable);
+simulationTableCancelButton.addEventListener('click', resetSimulationTableForm);
 searchInput.addEventListener('input', performSearch);
 settingsForm.addEventListener('submit', saveSettings);
 backupButton.addEventListener('click', createBackup);
@@ -991,5 +2155,32 @@ loadMaps().catch((error) => {
 });
 loadLocations().catch((error) => {
   locationsList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadHouses().catch((error) => {
+  houseList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadNpcs().catch((error) => {
+  npcList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadFactions().catch((error) => {
+  factionList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadShops().catch((error) => {
+  shopList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadSimulationTables().catch((error) => {
+  simulationTableList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadSessions().catch((error) => {
+  sessionList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadQuests().catch((error) => {
+  questList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadTimelineEvents().catch((error) => {
+  timelineList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+});
+loadSimulationEvents().catch((error) => {
+  simulationList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
 });
 performSearch();

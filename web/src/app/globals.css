@@ -27,7 +27,8 @@ a {
 }
 
 button,
-input {
+input,
+select {
   font: inherit;
 }
 
@@ -54,12 +55,24 @@ button:hover,
 
 button:focus-visible,
 a:focus-visible,
-input:focus-visible {
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
   outline: 3px solid #fff;
   outline-offset: 3px;
 }
 
 input {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  color: var(--text);
+  min-height: 2.8rem;
+  padding: 0.6rem 0.75rem;
+  width: 100%;
+}
+
+select {
   background: var(--background);
   border: 1px solid var(--border);
   border-radius: 0.35rem;
@@ -138,6 +151,15 @@ h2 {
   display: grid;
   font-weight: 700;
   gap: 0.45rem;
+}
+
+.workspace-nav {
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .error {

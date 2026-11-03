@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { signOut } from "@/app/login/actions";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import WorkspaceNav from "@/app/workspace-nav";
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +23,7 @@ export default async function GmLayout({
       <header className="card">
         <p className="eyebrow">GM workspace</p>
         <h1>The World Atlas</h1>
+        <WorkspaceNav role="gm" />
         {children}
         <form action={signOut} className="sign-out">
           <button type="submit">Sign out</button>

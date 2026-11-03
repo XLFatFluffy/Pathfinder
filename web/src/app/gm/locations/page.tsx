@@ -1,0 +1,84 @@
+import Link from "next/link";
+import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import { createSupabaseServerClient } from "@/lib/supabase/server";
+import LocationForm from "./location-form";
+
+export const dynamic = "force-dynamic";
+
+export default async function GmLocationsPage() {
+  const member = await getCurrentCampaignMember();
+  if (!member) {
+    return null;
+  }
+
+  const supabase = await createSupabaseServerClient();
+  const { data: locations, error } = await supabase
+    .from("campaign_locations")
+    .select("id, name, location_type, description, parent_id, player_visible")
+    .eq("campaign_id", member.campaign_id)
+    .order("name");
+
+  if (error) {
+    throw new Error(`Unable to load campaign locations: ${error.message}`);
+  }
+
+  const { data: privateNotes, error: notesError } = await supabase
+    .from("campaign_location_gm_notes")
+    .select("location_id, notes")
+    .eq("campaign_id", member.campaign_id);
+
+  if (notesError) {
+    throw new Error(`Unable to load private location notes: ${notesError.message}`);
+  }
+
+  const locationsById = new Map(locations.map((location) => [location.id, location]));
+  const notesByLocationId = new Map(
+    privateNotes.map((entry) => [entry.location_id, entry.notes]),
+  );
+
+  return (
+    <>
+      <p className="muted">
+        Create linked places for the campaign. Player visibility and GM-only notes
+        are protected separately by database policies.
+      </p>
+      <p className="muted">
+        <Link href="/gm">Return to overview</Link>
+      </p>
+      <LocationForm
+        parents={locations.map(({ id, name }) => ({ id, name }))}
+      />
+      <section className="entry-list" aria-labelledby="locations-heading">
+        <h3 id="locations-heading">Campaign locations</h3>
+        {locations.length ? (
+          locations.map((location) => {
+            const parent = location.parent_id
+              ? locationsById.get(location.parent_id)
+              : null;
+
+            return (
+              <article className="entry-card" key={location.id}>
+                <p className="eyebrow">
+                  {location.player_visible ? "Player-visible" : "GM-only"}
+                  {location.location_type ? ` · ${location.location_type}` : ""}
+                  {parent ? ` · Within ${parent.name}` : ""}
+                </p>
+                <h4>{location.name}</h4>
+                {location.description ? (
+                  <p className="entry-content">{location.description}</p>
+                ) : null}
+                {notesByLocationId.get(location.id) ? (
+                  <p className="private-notes">
+                    <strong>GM-only:</strong> {notesByLocationId.get(location.id)}
+                  </p>
+                ) : null}
+              </article>
+            );
+          })
+        ) : (
+          <p className="muted">No cloud locations yet.</p>
+        )}
+      </section>
+    </>
+  );
+}

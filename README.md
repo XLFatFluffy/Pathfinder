@@ -48,7 +48,7 @@ Email signup is disabled in local Supabase configuration. The GM account is crea
 
 Run the cloud type check and production build with `npm run cloud:typecheck` and `npm run cloud:build`. Run the database RLS tests with `npx supabase test db`.
 
-The first cloud slice implements sign-in, GM/player route separation, and journal visibility enforced by row-level security. The GM can create journal entries and choose whether players can read them. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
+The cloud foundation now includes sign-in, GM/player route separation, journal visibility enforced by row-level security, and linked location records. The GM can create locations with parent links, player-facing descriptions, visibility settings, and private notes. Private location notes live in a separate table that players cannot read, even when the location itself is visible. The player workspace lists only locations the GM has shared. This begins the World Atlas phase; map uploads, the interactive viewer, markers, and layers remain to be migrated. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
 
 ### Production deployment status
 

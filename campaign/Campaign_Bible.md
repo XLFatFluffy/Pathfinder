@@ -788,7 +788,7 @@ House Edarth has been established as one of the six rebellious great houses.
 
 The identities and histories of the remaining rebellious houses will be developed separately.
 
-Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. At a later point, another of the continent's major houses took the Imperial Seat. The current ruling dynasty is one of the major houses; its identity and the circumstances of its accession remain to be established.
+Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. Another of the original six rebel Great Houses was installed as the ruling dynasty. The dwarven successor retained the inherited authority of the dwarven order, while the other house took the wider imperial throne. The identity of that ruling house remains to be established.
 
 The current count remains six rebellious great houses in total. House Edarth is one of those six.
 
@@ -872,7 +872,7 @@ They do not currently fear the return of a Targaryen claimant.
 
 House Baratheon claimed Dragonstone after the rebellion.
 <PARSED TEXT FOR PAGE: 21 / 40>
-The Imperial Seat passed into the hands of a different ruling dynasty.
+The Imperial Seat passed into the hands of another of the original six rebel Great Houses after the dwarven leader's death and a succession crisis. The dwarven successor threatened war unless a human was placed on the throne, then retained the inherited authority of the dwarven order.
 
 The exact political settlement following the rebellion, including the current relationships among
 the six houses and the new ruling dynasty, remains to be developed.
@@ -1591,7 +1591,7 @@ Political and Historical
    ·   House Baratheon is a dwarven great house led by a dwarven ruler.
    ·   House Baratheon developed specialized dragon-slaying ballistas.
    ·   House Baratheon claimed Dragonstone after the rebellion.
-   ·   A different dynasty now occupies the Imperial Seat.
+   ·   Another of the original six rebel Great Houses now occupies the Imperial Seat, following a succession crisis after the death of the dwarven ruler.
    ·   House Targaryen ruled from the Imperial Seat for approximately 400 years.
    ·   The Imperial Seat is a physical throne of supreme political authority.
    ·   Dragonstone was the Targaryen ancestral homeland, primary royal residence, and dragon

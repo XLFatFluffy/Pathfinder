@@ -61,3 +61,12 @@
 - Established that a different major house later took the Imperial Seat and is the current ruling house.
 - The current ruling house's identity, the length and exact form of the dwarven-led rule, and the circumstances of the transfer remain unresolved.
 - Updated the World History, Campaign Bible, Canon Register, Current World State, Decision Log, and Open Questions Register.
+
+
+## 2026-11-03 - Dwarven succession crisis and transfer of the Imperial Seat
+- GM confirmed that the same dwarven leader ruled for more than a century after the Great Rebellion and remained in power until his death.
+- His successor inherited his authority, but a succession crisis followed.
+- The dwarven successor threatened war unless a human was placed on the Imperial Seat.
+- Another of the original six rebel Great Houses took the throne and became the current ruling dynasty; the dwarven successor retained the inherited authority of the dwarven order.
+- The identity of the ruling house and the precise chronology and events of the crisis remain unresolved.
+- Updated `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Decision_Log.md`, and `Open_Questions_Register.md`.

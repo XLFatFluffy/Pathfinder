@@ -1719,3 +1719,6 @@ Campaign Development
 
 
 END OF MASTER EDITION
+
+### Current Imperial Settlement (Established)
+The monarch's family has a legitimate claim to the Imperial Seat. He retains substantial authority, though the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses see the throne as an opportunity to manipulate it for their own interests. The specific factions and their relative influence remain unresolved.

@@ -70,3 +70,11 @@
 - Another of the original six rebel Great Houses took the throne and became the current ruling dynasty; the dwarven successor retained the inherited authority of the dwarven order.
 - The identity of the ruling house and the precise chronology and events of the crisis remain unresolved.
 - Updated `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Decision_Log.md`, and `Open_Questions_Register.md`.
+
+
+## 2026-11-03 - Compromise monarch and dwarven-human uneasy peace
+- GM clarified that the human placed on the Imperial Seat was the head of the Great House that now rules, but only as a compromise candidate; he is a puppet monarch.
+- The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans.
+- Established an uneasy peace marked by mutual distrust between the dwarven empire and the human monarchy. War would not favor the dwarves, but they are not afraid of it.
+- The identity of the ruling house and the person or powers controlling the puppet monarch remain unresolved.
+- Updated `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Decision_Log.md`, and `Open_Questions_Register.md`.

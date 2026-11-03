@@ -1,6 +1,6 @@
 # Current World State
 
-**Status:** Initial baseline imported from the Campaign Bible  
+**Status:** Current GM-approved baseline  
 **Last reviewed:** 2026-11-03
 
 This is a concise navigation and continuity document, not a replacement for the full Campaign Bible.
@@ -9,7 +9,10 @@ This is a concise navigation and continuity document, not a replacement for the 
 
 - Original fantasy setting using Pathfinder First Edition as its mechanical foundation.
 - Not Golarion and not a direct adaptation of another setting.
-- High-medieval technological baseline.
+- **High-medieval technological baseline.**
+- No industrial or steampunk technological culture.
+- Alchemy exists as specialized Pathfinder-based knowledge and craft; it does not imply industrialization or advanced machinery.
+- Gothic horror and supernatural elements may shape the atmosphere without changing the technology level.
 - Political landscape shaped by kingdoms, noble houses, feudal obligations, warfare, and intrigue.
 - Civilization survives behind walls; wilderness beyond settled areas is dangerous.
 - Gods' existence is genuinely uncertain. Divine magic exists mechanically, but does not settle the question.
@@ -52,4 +55,4 @@ See the Campaign Bible's unresolved topics. In particular: final continent name 
 
 ## Continuity cautions
 
-The imported Bible contains a few older statements that should not be silently treated as current decisions. Most notably, its earlier campaign register labels gothic, steampunk, industrial, and Dishonored influences as excluded, while earlier brainstorming explored a grimdark gothic-horror/industrial direction. This conflict remains flagged for an explicit decision.
+The original DOCX is preserved as source material. Where older brainstorming conflicts with the current GM-approved direction, use this current baseline: **high-medieval technology, with no industrial or steampunk technological culture.** The atmosphere may still include gothic horror and supernatural elements.

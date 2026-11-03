@@ -3,10 +3,14 @@
 This directory is the organized record of the campaign world. The application code remains separate from campaign data.
 
 ## Source of truth
-- `Campaign_Bible.md` is the imported master reference.
+- `Campaign_Bible.md` is the living master reference.
 - `Canon_Register.md` tracks the status of major decisions and continuity flags.
 - `Current_World_State.md` is the concise current baseline.
-- `Worldbuilding_Direction.md` records newer creative direction and unresolved conflicts.
+- `Worldbuilding_Direction.md` records approved creative direction and boundaries.
+- `Worldbuilding_Decision_Log.md` records why important decisions were made and what they supersede.
+- `Open_Questions_Register.md` tracks unresolved questions and deliberate mysteries.
+- `Names_and_Terminology_Index.md` prevents duplicate names and spelling drift.
+- `Continuity_Checklist.md` is the required review process for substantial new lore.
 - `World_History.md` and `Calendar.md` are working files for chronology and timekeeping.
 - Original files are preserved in the parent directory: `Campaign Bible.docx` and `The Continent_ A Fantasy Atlas Map.png`.
 
@@ -31,13 +35,17 @@ Each substantial record should identify:
 - Visibility: GM_ONLY, PLAYER_SHARED, or PUBLIC
 - Summary and detailed information
 - Relationships to other records
-- Source / session where it was established
+- Provenance: source document, GM decision, or session where it was established
 - Last updated date
 
 ## Operating rules
 - Brainstorming is not canon until explicitly approved.
 - Preserve mysteries and unresolved questions.
-- Never silently reconcile contradictory source material.
+- Never silently reconcile contradictory source material; flag the conflict for GM review.
+- Distinguish objective GM truth from public knowledge, rumors, propaganda, and player discoveries.
+- Check the names index before creating named entities.
+- Record meaningful decisions and superseded material in the decision log.
 - GM-only information must not enter player-facing exports.
 - The GM approves simulated events before they become established history.
 - Preserve original source files; edit working Markdown records instead.
+- At meaningful worldbuilding and session checkpoints, update the relevant records and dated changelog.

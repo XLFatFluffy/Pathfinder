@@ -1,10 +1,12 @@
 # Pathfinder
 
-Pathfinder is a desktop-first campaign management application for a custom Pathfinder First Edition world. It is built around the requirements in the "PATHFINDER WORLD ATLAS & WORLD SIMULATOR" brief and uses a Node.js + Express + SQLite stack.
+Pathfinder is a campaign management application for a custom Pathfinder First Edition world. The amended product brief calls for a Next.js and Supabase cloud app with separate GM and player workspaces. The original Express + SQLite app remains available during the incremental transition; no campaign data has been moved or removed.
 
 ## Current features
 
 Included so far:
+- Cloud foundation in `web/`: Next.js, Supabase Auth, GM/player route separation, and database-enforced campaign access
+- Version-controlled Supabase migrations and an RLS test covering GM-only journal content
 - Express server serving a local desktop web app
 - SQLite database with persistent campaign settings and core entity tables
 - Hierarchical map library with local image artwork import and replacement
@@ -19,6 +21,50 @@ Included so far:
 
 ## Run locally
 
+### Cloud workspace
+
+The cloud app runs on port 3001 so it can coexist with the existing local app on port 3000.
+
+1. Install Docker Desktop (or Docker Engine) and Node.js 20.9 or newer.
+2. From the repository root, start the local Supabase services:
+   `npx supabase start`
+3. Copy `web/.env.example` to `web/.env.local`. Replace the placeholder with the local API URL and anon/publishable key printed by the Supabase CLI.
+4. Apply migrations with `npx supabase migration up`.
+5. In Supabase Studio at `http://localhost:54323`, create the initial GM user. Open the SQL editor and assign that user's UUID to the seeded campaign:
+
+   ```sql
+   insert into public.campaign_members (campaign_id, user_id, role)
+   select id, 'REPLACE-WITH-GM-USER-UUID'::uuid, 'gm'
+   from public.campaigns
+   where id = '00000000-0000-4000-8000-000000000001';
+   ```
+
+6. Install the cloud app's dependencies and start it:
+   `npm --prefix web install`
+   `npm run cloud:dev`
+7. Open `http://localhost:3001` and sign in with the GM account.
+
+Email signup is disabled in local Supabase configuration. The GM account is created administratively; players cannot register themselves or assign their own roles. The browser only receives the Supabase anon/publishable key. Do not put a service-role key in `web/.env.local` or any `NEXT_PUBLIC_` variable.
+
+Run the cloud type check and production build with `npm run cloud:typecheck` and `npm run cloud:build`. Run the database RLS tests with `npx supabase test db`.
+
+The first cloud slice implements sign-in, GM/player route separation, and journal visibility enforced by row-level security. The GM can create journal entries and choose whether players can read them. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
+
+### Production deployment status
+
+The cloud app is not yet deployed. When preparing a production project:
+
+1. Create a Supabase project, sign in with `npx supabase login`, link it with `npx supabase link --project-ref <project-ref>`, then apply the checked-in migrations with `npx supabase db push`. Confirm the linked project before pushing migrations.
+2. Disable public email signup in the production Supabase Auth settings. Create the initial GM account administratively, then add its UUID to `campaign_members` using the bootstrap SQL above. Do not expose a service-role key to the browser.
+3. Create a Vercel project from this repository and set its root directory to `web`.
+4. Configure `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel for the appropriate deployment environments.
+5. Add the production domain and required preview URLs to Supabase Auth's allowed redirect URLs.
+6. Before inviting players, verify private-record isolation using separate GM and player accounts. The local pgTAP tests are a baseline, not a substitute for checking each production role against the deployed policies.
+
+No Supabase or Vercel credentials are present in this repository, so no hosted project has been created or deployed.
+
+### Existing local app
+
 1. Install dependencies:
    npm install
 2. Start the app:
@@ -28,10 +74,13 @@ Included so far:
 
 ## Project structure
 
+- `web/` — Next.js cloud workspace and Supabase Auth integration
+- `supabase/migrations/` — version-controlled cloud database schema and RLS policies
+- `supabase/tests/database/` — database permission tests
 - `server.js` — Express server and API routes
 - `src/db.js` — SQLite database initialization and persistence helpers
 - `public/` — static web UI and client logic
-- `data/pathfinder.db` — local SQLite database file
+- `data/pathfinder.db` — local SQLite campaign database
 - `data/maps/` — imported map artwork
 - `backups/` — local database backups and companion artwork folders
 

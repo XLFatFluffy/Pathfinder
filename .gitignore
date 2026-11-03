@@ -3,4 +3,12 @@ data/*.db*
 data/maps/
 backups/
 .env
+.env.*
+!.env.example
+web/.env.local
+web/.next/
+web/tsconfig.tsbuildinfo
+.vercel/
+supabase/.temp/
+supabase/.branches/
 npm-debug.log*

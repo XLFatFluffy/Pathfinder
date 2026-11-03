@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
+    "cloud:dev": "npm --prefix web run dev",
+    "cloud:build": "npm --prefix web run build",
+    "cloud:typecheck": "npm --prefix web run typecheck",
     "test": "node --check server.js && node --check src/db.js && node --check src/calendar.js && node --check src/campaign-data.js && node --check public/app.js && node --test"
   },
   "repository": {

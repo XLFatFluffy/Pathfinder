@@ -17,7 +17,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Frozen Expanse | Region | PROVISIONAL | Legacy working term; final name undecided |
 | Ancient Barrier | Structure / landmark | PROVISIONAL | Legacy working term; builders and purpose unknown |
 | House Targaryen | Historical house label | LEGACY SOURCE ONLY | Must be renamed and substantially reworked |
-| House Baratheon | Historical house label | LEGACY SOURCE ONLY | Must be renamed and substantially reworked |
+| House Baratheon | Historical house label | SUPERSEDED LEGACY LABEL | Replaced by approved original Great House name: House Kharadorn. Retained only when documenting source-material history. |
 | House Edarth | Great house label | LEGACY SOURCE ONLY | Rework identity and details before canon use |
 | Dragonstone | Historical stronghold / location | PROVISIONAL LEGACY LABEL | Ancestral stronghold of the fallen dragon-riding dynasty; conquered by the dwarves during the Great Rebellion. Final in-world name remains undecided. |
 | Imperial Seat | Location / title label | LEGACY SOURCE ONLY | Final equivalent undecided |
@@ -47,3 +47,5 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Official name | Category | Status | Aliases / notes | Canon record |
 |---|---|---|---|---|
 |  |  |  |  |  |
+
+| House Edarth | Great house | ESTABLISHED | Primarily human Great House; “Stand When Others Fall.” |

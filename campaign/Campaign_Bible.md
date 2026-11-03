@@ -998,3 +998,719 @@ Princess Elyra Targaryen
 Age at death: 5
 
 Quiet, observant, and curious about history.
+
+
+Killed during the siege of Dragonstone.
+
+Princess Vaelis Targaryen
+
+Age at death: 3
+
+The youngest child.
+
+Cheerful and affectionate.
+
+Killed during the siege of Dragonstone.
+<PARSED TEXT FOR PAGE: 24 / 40>
+The personal memories and emotional experiences of the surviving Crown Prince regarding his
+family remain for the player to establish.
+
+13. THE OTHER ROYAL BRANCHES
+13.1 Prince Vaedric Targaryen
+Age at death: 43
+Relationship: Younger brother of Aerovar III
+Wife: Princess Aelyra Targaryen
+
+Vaedric was a military commander and an ambitious member of the royal family.
+
+He believed the king should have taken a more forceful approach toward the great houses.
+
+Despite his political disagreements with Aerovar, he remained loyal to the dynasty and did not
+betray his family.
+
+His children were:
+
+   ·   Prince Theron Targaryen, age 19.
+   ·   Princess Saeryn Targaryen, age 16.
+   ·   Prince Othric Targaryen, age 13.
+
+All three possessed the eligible dragon bloodline.
+
+None had been designated to claim a dragon.
+
+All three were killed during the rebellion.
+
+13.2 Princess Maereth Targaryen
+Age at death: 41
+Relationship: Younger sister of Aerovar III
+Husband: Lord Caldus Halvern
+
+Maereth was diplomatic and believed the dynasty's survival depended on maintaining
+relationships with the great houses.
+
+She was loyal to her brother but disagreed with his increasing centralization of authority.
+
+Her children were:
+
+   ·   Lady Elowen Halvern, age 17.
+   ·   Lord Merek Halvern, age 14.
+<PARSED TEXT FOR PAGE: 25 / 40>
+Because their father was outside the eligible Targaryen bloodline, her children did not retain the
+ability to bond with dragons.
+
+Their ultimate fates remain unconfirmed.
+
+They were presumed dead following the rebellion, but their deaths have not been established as
+fact.
+
+14. THE LAST KNOWN TARGARYEN
+The surviving Crown Prince is the human vampire player character.
+
+He was nine years old when the Great Rebellion began.
+
+He escaped the siege of Dragonstone.
+
+A vampire who had served at Dragonstone Castle for years found him after his escape and turned
+him.
+
+The vampire had developed an affinity for the boy during his years of service at Dragonstone.
+
+The exact circumstances, motivations, and nature of their relationship remain for the player and
+Game Master to establish.
+
+The Crown Prince eventually abandoned the Targaryen name and spent centuries hiding his
+identity.
+
+He is now the last known surviving member of the Targaryen dragon-riding bloodline.
+
+His mesmerist class is intrinsically connected to his vampirism.
+
+His original dragon bond had begun during childhood but was never completed.
+
+Whether he could still form a dragon bond, whether his original dragon survived, and whether he
+retains any legal claim to the Imperial Seat remain unresolved.
+
+The six victorious houses believe the Targaryen bloodline was completely destroyed.
+
+They have no reason to suspect that the former Crown Prince survived.
+<PARSED TEXT FOR PAGE: 26 / 40>
+PART VI: THE CONTINENT & THE
+NORTH
+15. THE CONTINENT
+The primary campaign setting takes place on one enormous continent, approximately comparable
+in scale to Westeros.
+
+It contains numerous kingdoms, territories, cultures, climates, and political systems.
+
+The wider world exists beyond the continent, but the initial focus remains on this primary
+landmass.
+
+The existing atlas is a working foundation.
+
+Its geography, coastlines, mountain ranges, rivers, seas, islands, climates, political borders, and
+place names will be modified to fit the original setting.
+
+The final continent must feel like its own world rather than a renamed version of Westeros.
+
+The final continent name and map remain undecided.
+
+16. THE NORTHERN WILDERNESS
+The far north contains a vast, sparsely populated wilderness.
+
+It is a harsh region of frozen expanses, ancient forests, mountain ranges, remote valleys, and
+largely unexplored territory.
+
+The north is predominantly inhabited by humans.
+
+Its people have adapted to the severe climate, and generations of life in the region have produced
+hardy communities accustomed to difficult conditions and long winters.
+
+The region is known for:
+
+   ·   Ancient ruins and remnants of forgotten civilizations.
+   ·   Dangerous creatures and remote wilderness.
+   ·   Vast, ancient forests with ominous reputations.
+   ·   Mountain ranges, isolated valleys, and difficult passes.
+   ·   Frozen and largely unexplored territory.
+   ·   Evidence of civilizations that may predate humanity.
+<PARSED TEXT FOR PAGE: 27 / 40>
+The northern forests are generally natural wilderness rather than inherently magical or corrupted
+places.
+
+However, isolated locations may harbor supernatural dangers, strange occurrences, or signs of
+something unnatural.
+
+The history of the north remains poorly understood.
+
+Ruins and remnants suggest that multiple civilizations once occupied the region, some
+potentially predating humanity.
+
+Their identities, origins, and ultimate fates remain unknown.
+
+16.1 The Frozen Expanse
+Far beyond the settled northern territories lies an enormous region known as the Frozen Expanse.
+
+It is a vast, inhospitable wilderness of extreme cold, frozen landscapes, and largely unexplored
+territory.
+
+Few people have traveled far into it, and reliable accounts of what lies beyond the known
+northern lands are scarce.
+
+Stories and rumors describe:
+
+   ·   Strange creatures.
+   ·   Abandoned ruins.
+   ·   Unfamiliar dangers.
+   ·   Evidence of forgotten civilizations.
+   ·   Things that may not exist anywhere else on the continent.
+
+The truth behind these accounts remains uncertain.
+
+The Frozen Expanse should remain one of the continent's great mysteries.
+
+Its history, inhabitants, dangers, and secrets have not been established.
+
+16.2 The Ancient Barrier
+An enormous ancient wall or barrier separates the settled northern territories from the Frozen
+Expanse.
+
+Its original builders are unknown.
+
+Its original purpose is unknown.
+
+It predates the current northern ruling house and was not built by them.
+<PARSED TEXT FOR PAGE: 28 / 40>
+Much of the structure has deteriorated over time.
+
+Significant sections have collapsed, disappeared, or fallen into ruin.
+
+The surviving portions are maintained and guarded by the great northern house, which inherited
+responsibility for their protection.
+
+The barrier is not necessarily an uninterrupted wall.
+
+Its surviving sections are associated with natural defensive terrain, including mountain ranges,
+valleys, and important passes.
+
+The northern house continues to maintain the barrier despite the uncertainty surrounding its
+original purpose.
+
+Different generations have held different beliefs about why it was built and what, if anything, it
+was intended to keep out.
+
+The barrier's builders, original purpose, and relationship to the dangers of the Frozen Expanse
+remain unresolved.
+
+16.3 The Northern Ruling House
+The northern territories are dominated by an ancient and powerful noble house.
+
+It maintains its ancestral seat in a formidable mountain valley south of the Ancient Barrier.
+
+The house possesses substantial territorial authority and military independence.
+
+It is one of the continent's six great houses and is recognized as a major political and military
+power.
+
+Its authority extends across substantial northern lands, including:
+
+   ·   Settlements.
+   ·   Forests.
+   ·   Hunting grounds.
+   ·   Mountain passes.
+   ·   Important routes through the region.
+
+Smaller noble houses and settlements exist under its influence.
+
+The house is particularly respected for its military strength, discipline, and ability to defend its
+territory under difficult conditions.
+
+Its forces are considered among the strongest on the continent, particularly in defensive warfare
+and operations in harsh northern terrain.
+<PARSED TEXT FOR PAGE: 29 / 40>
+Values and Traditions
+
+The house places exceptional importance on:
+
+   ·   Justice.
+   ·   Honesty.
+   ·   Honor.
+   ·   Loyalty.
+   ·   Duty.
+   ·   Courage.
+
+It believes that nobility is an obligation rather than merely a privilege.
+
+Those who possess authority are expected to demonstrate integrity, uphold their word, and
+accept responsibility for those under their protection.
+
+Its reputation for honesty and justice has earned it considerable respect throughout the continent.
+
+Its members are expected to take oaths seriously, honor agreements, and defend what they
+believe to be right, even when doing so creates political difficulties.
+
+The house's name, words, heraldry, ancestral seat, family history, subordinate houses, and
+specific political relationships remain to be developed.
+
+
+PART VII: CAMPAIGN STRUCTURE
+17. CAMPAIGN PHILOSOPHY
+The campaign is intended to be a living sandbox rather than a predetermined story.
+
+The world exists independently of the player characters.
+
+Noble houses pursue ambitions, rulers make decisions, factions compete, merchants trade,
+religious institutions expand their influence, and conflicts develop whether the characters
+become involved or not.
+
+The players determine what matters to their characters through their choices.
+
+There is no requirement for the characters to:
+
+   ·   Save the world.
+   ·   Become rulers.
+   ·   Fulfill a prophecy.
+   ·   Uncover a predetermined conspiracy.
+   ·   Become the center of every major political event.
+<PARSED TEXT FOR PAGE: 30 / 40>
+They may become important, powerful, wealthy, infamous, or influential, but those outcomes
+should emerge naturally through play.
+
+The Game Master should have enough information about the world to respond consistently to
+player decisions without forcing a particular narrative.
+
+Useful campaign tools will include:
+
+   ·   Independent factions with their own goals.
+   ·   Noble houses with competing interests.
+   ·   NPCs with motivations and relationships.
+   ·   Political developments.
+   ·   Rumors and local events.
+   ·   Economic and social pressures.
+   ·   Consequences for player decisions.
+   ·   Secrets that may or may not ever be discovered.
+
+The world should reward curiosity, initiative, alliances, ambition, caution, and experimentation.
+
+18. THE WORLD SIMULATOR
+The campaign will use a living World Simulator concept to help manage the world
+independently of the player characters.
+
+The purpose is to create a setting that continues to develop even when the players are focused on
+their own activities.
+
+The simulator should support:
+
+   ·   Advancing the world's calendar.
+   ·   Tracking factions and their objectives.
+   ·   Tracking noble houses and political relationships.
+   ·   Generating potential events through random rolls.
+   ·   Managing developments occurring away from the player characters.
+   ·   Tracking consequences of previous events.
+   ·   Maintaining economic and political changes.
+   ·   Recording rumors and discoveries.
+   ·   Preserving unresolved mysteries.
+
+18.1 Game Master Authority
+The simulator should generate potential developments, not automatically establish canon.
+
+The Game Master reviews generated results and determines what actually happens.
+<PARSED TEXT FOR PAGE: 31 / 40>
+Random events should create opportunities for storytelling rather than dictate the campaign.
+
+18.2 Offline and Privacy Requirements
+The intended system should operate locally and offline without relying on an external API.
+
+The GM's master atlas is private.
+
+Players should only see maps and information they have acquired or been shown.
+
+Maps, shop inventories, and other information should be selectively shared.
+
+The system must distinguish between:
+
+   ·   Established Canon.
+   ·   GM-Only Knowledge.
+   ·   Player-Known Information.
+   ·   Undiscovered Information.
+
+Information known to the Game Master must not automatically become known to the player
+characters.
+
+19. ESTABLISHED CAMPAIGN STARTING POINT
+The campaign begins with two player characters.
+
+Both begin at level 5.
+
+They arrive in a medium-sized city where much of the early campaign will take place.
+
+The city should have enough depth to support an extended sandbox campaign without requiring
+the characters to leave.
+
+It should eventually include:
+
+   ·   A defined government and political structure.
+   ·   Local noble influence.
+   ·   Merchants and businesses.
+   ·   Religious institutions.
+   ·   Criminal organizations.
+   ·   Local factions.
+   ·   Important NPCs.
+   ·   Social and economic tensions.
+   ·   Opportunities for adventuring.
+   ·   Rumors, events, and developing situations.
+
+The city's name, location, ruler, government, factions, and history remain undecided.
+<PARSED TEXT FOR PAGE: 32 / 40>
+19.1 Player Character One: Human Vampire Mesmerist
+The first character is human and is a vampire.
+
+He is the last known surviving member of House Targaryen, a fallen noble house once known
+for its dragon riders.
+
+His class is mesmerist.
+
+In this setting, the mesmerist class is intrinsically connected to his vampirism and is part of what
+it means to be a vampire for this character.
+
+The precise rules implementation and any broader implications for vampires remain to be
+developed.
+
+His vampirism allowed him to survive across the years and remain alive during the fall of House
+Targaryen.
+
+He personally lived through the destruction of his house.
+
+The six other major houses believe House Targaryen was completely destroyed and that every
+member of the bloodline is dead.
+
+They do not currently fear a surviving Targaryen.
+
+His original dragon bond had begun during childhood but was never completed.
+
+Whether he can still form a dragon bond, whether his original dragon survived, and whether he
+retains a legal claim to the Imperial Seat remain unresolved.
+
+19.2 Player Character Two: Male Ratfolk Alchemist
+The second character is a male ratfolk alchemist.
+
+The human vampire discovered a nearly dead ratfolk woman while scavenging corpses on a
+battlefield.
+
+She had an infant son with her.
+
+Before dying, she asked him to care for the child.
+
+He accepted and raised the ratfolk boy.
+
+As the boy grew older, his aptitude for alchemy became apparent and far surpassed his
+guardian's own abilities.
+
+The vampire became the ratfolk's adoptive guardian and teacher.
+<PARSED TEXT FOR PAGE: 33 / 40>
+The identities of the ratfolk's mother, the circumstances surrounding the battlefield, and the
+reason for the battle remain undefined.
+
+These details do not need to connect to a larger conspiracy or predetermined storyline.
+
+The characters' personalities, ambitions, and individual motivations will develop through play.
+
+
+PART VIII: WORLD DEVELOPMENT &
+CANON
+20. WORLD DEVELOPMENT ORDER
+The world will be developed from the macro level downward.
+
+The goal is to establish a coherent world that exists independently of the player characters before
+concentrating on individual cities, NPCs, and adventures.
+
+The intended development order is:
+
+Stage 1: World Macro
+   ·   Continents and major landmasses.
+   ·   Geography and climate.
+   ·   Major mountain ranges, rivers, seas, and natural boundaries.
+   ·   Broad regional identities.
+   ·   Major wilderness regions.
+
+Stage 2: Political Macro
+   ·   Kingdoms and independent territories.
+   ·   Major ruling powers.
+   ·   Political borders.
+   ·   The Imperial Seat and current ruling dynasty.
+   ·   Relationships between kingdoms and great houses.
+
+Stage 3: Historical Macro
+   ·   Ancient civilizations.
+   ·   Fallen empires.
+   ·   Major wars.
+   ·   The Targaryen dynasty.
+   ·   The Great Rebellion.
+   ·   Major historical turning points.
+<PARSED TEXT FOR PAGE: 34 / 40>
+Stage 4: Regional Development
+   ·   Individual kingdoms.
+   ·   Regional cultures.
+   ·   Economies and trade.
+   ·   Important locations.
+   ·   Local political structures.
+
+Stage 5: Major Factions
+   ·   Great houses.
+   ·   Religious institutions.
+   ·   Military organizations.
+   ·   Merchant powers.
+   ·   Criminal organizations.
+   ·   Other influential factions.
+
+Stage 6: Local Development
+   ·   Cities and settlements.
+   ·   Castles and fortifications.
+   ·   Roads and trade routes.
+   ·   Local rulers and important NPCs.
+   ·   Regional points of interest.
+
+Stage 7: Campaign Development
+   ·   Starting city.
+   ·   Local conflicts.
+   ·   NPC relationships.
+   ·   Adventures and encounters.
+   ·   Player decisions and consequences.
+
+The setting should not be built around the assumption that the player characters must become
+involved in every major event.
+
+The world should continue developing whether or not the characters participate.
+
+21. WORLD-BUILDING RULES
+The following principles govern future development of the setting.
+
+ 1.    Established canon matters. Once a decision is finalized, it should remain consistent
+       unless deliberately revised.
+ 2.    Suggestions are not canon. Ideas proposed during brainstorming do not become
+       established lore until explicitly accepted.
+<PARSED TEXT FOR PAGE: 35 / 40>
+ 3.    Mysteries should remain mysteries. Unresolved history, rumors, and unexplained
+       events should not receive accidental answers.
+ 4.    The world comes first. The setting should exist independently of the player characters.
+ 5.    Pathfinder mechanics remain the foundation. Avoid unnecessary homebrew rules.
+ 6.    Originality matters. Inspirations from other fantasy settings should influence
+       atmosphere and structure, not produce direct copies.
+ 7.    The world should feel lived in. Cultures, institutions, political systems, and historical
+       events should have believable reasons for existing.
+ 8.    Consequences should matter. Decisions made by NPCs, factions, rulers, and player
+       characters should have effects on the world.
+ 9.    Not everything needs to be explained. Some histories, legends, and supernatural events
+       may remain uncertain.
+10.    Development is collaborative. Major setting decisions should be discussed and agreed
+       upon before becoming established canon.
+
+22. CANON MANAGEMENT
+Future worldbuilding should distinguish between proposed ideas and accepted decisions.
+
+Use the following categories:
+
+PROPOSED
+
+An idea under consideration. It is not canon.
+
+APPROVED
+
+An accepted direction that may still require detailed development.
+
+ESTABLISHED
+
+A confirmed setting fact. Preserve it consistently.
+
+REJECTED
+
+An idea that was considered and declined.
+
+REVISED
+
+An established fact that has been deliberately changed.
+
+UNRESOLVED
+
+A question that remains unanswered.
+
+The purpose of this system is to maintain consistency as the world grows.
+<PARSED TEXT FOR PAGE: 36 / 40>
+The World Bible should be updated whenever major decisions become established.
+
+
+PART IX: MASTER CANON REGISTER
+23. ESTABLISHED CANON
+The following points are confirmed setting facts.
+
+World and Rules
+   ·   The campaign uses Pathfinder First Edition.
+   ·   The setting is an original fantasy world, not Golarion or a direct adaptation of another
+       setting.
+   ·   Its primary creative inspiration is medieval political fantasy comparable to A Song of Ice
+       and Fire.
+   ·   The technological baseline is high-medieval.
+   ·   The world is built around kingdoms, noble houses, feudal relationships, warfare, and
+       political intrigue.
+   ·   Gothic, steampunk, industrial, and Dishonored influences are not part of the setting.
+   ·   Existing Pathfinder rules should be used wherever possible.
+
+Religion and Magic
+   ·   The existence of gods is genuinely uncertain.
+   ·   Divine magic exists mechanically, but does not prove the gods exist.
+   ·   Arcane magic is rare in everyday society.
+   ·   Much magical knowledge has been lost, forgotten, suppressed, or misunderstood.
+   ·   Supernatural threats exist but are uncommon in settled civilization.
+
+Ancestries
+   ·   Humans are the dominant population across much of the continent.
+   ·   Dwarven civilization once possessed a much larger empire.
+   ·   One dwarven kingdom survives, alongside several independent successor territories.
+   ·   One great house is an elven dynasty loosely inspired by the Lannister archetype.
+   ·   Ratfolk are naturally subterranean inhabitants.
+   ·   Ratfolk possess an extensive but incomplete underground network.
+   ·   Ratfolk have decentralized settlements and no unified government.
+   ·   Ratfolk civilizations vary significantly in size, wealth, development, and political
+       organization.
+   ·   Ratfolk possess specialized traditions in areas including alchemy, medicine, engineering,
+       mining, metallurgy, and subterranean agriculture.
+<PARSED TEXT FOR PAGE: 37 / 40>
+   ·   Ratfolk are marginalized and widely hated in some surface societies, but prejudice is not
+       universal.
+   ·   Ratfolk are not inherently criminal, evil, or hostile.
+   ·   Secretive organizations and sects exist within ratfolk society, but their purposes remain
+       unresolved.
+
+Political and Historical
+   ·   Six great houses united to destroy House Targaryen.
+   ·   House Edarth was one of the six rebellious houses.
+   ·   House Baratheon was the principal mastermind behind the rebellion.
+   ·   House Baratheon is a dwarven great house led by a dwarven ruler.
+   ·   House Baratheon developed specialized dragon-slaying ballistas.
+   ·   House Baratheon claimed Dragonstone after the rebellion.
+   ·   A different dynasty now occupies the Imperial Seat.
+   ·   House Targaryen ruled from the Imperial Seat for approximately 400 years.
+   ·   The Imperial Seat is a physical throne of supreme political authority.
+   ·   Dragonstone was the Targaryen ancestral homeland, primary royal residence, and dragon
+       breeding grounds.
+   ·   The Targaryens possessed exactly twelve dragons at their height.
+   ·   Dragon bonding required the proper Targaryen bloodline.
+   ·   Each rider could bond with only one dragon.
+   ·   The Great Rebellion lasted a few years and was devastating.
+   ·   Most dragons died during the rebellion; surviving dragons fled.
+   ·   The last Crown Prince escaped Dragonstone.
+   ·   His dragon bond had begun but was never completed.
+   ·   His mother and three younger siblings died during the siege of Dragonstone.
+   ·   His father, King Aerovar III, died during the fall of the Imperial Seat.
+   ·   The six victorious houses believe all Targaryens are dead and do not fear a surviving
+       claimant.
+
+Geography
+   ·   The primary setting is one enormous continent approximately comparable in scale to
+       Westeros.
+   ·   The existing atlas is a working foundation, not a final map.
+   ·   The northern wilderness is harsh, sparsely populated, and predominantly human.
+   ·   The Frozen Expanse lies beyond the northern settled territories.
+   ·   The Ancient Barrier separates the settled northern territories from the Frozen Expanse.
+   ·   The Ancient Barrier predates the current northern ruling house.
+   ·   The northern great house maintains the surviving portions of the Ancient Barrier.
+   ·   The northern great house values justice, honesty, honor, loyalty, duty, and courage.
+<PARSED TEXT FOR PAGE: 38 / 40>
+   ·   It believes nobility is an obligation rather than merely a privilege.
+
+Campaign
+   ·   The campaign is a living sandbox.
+   ·   The world develops independently of the player characters.
+   ·   The campaign begins with two level 5 characters.
+   ·   The starting location is a medium-sized city that remains unnamed.
+   ·   One player character is a human vampire mesmerist and the last known surviving
+       Targaryen.
+   ·   The second player character is a male ratfolk alchemist raised by the vampire.
+   ·   The ratfolk character's mother died after asking the vampire to care for her infant son.
+   ·   The circumstances surrounding the mother's death and the battlefield remain undefined.
+   ·   The World Simulator is intended to operate locally and offline.
+   ·   The Game Master retains authority over whether generated events become canon.
+   ·   The GM's master atlas and undiscovered information remain private.
+
+24. UNRESOLVED WORLD-BUILDING TOPICS
+The following subjects require further development.
+
+They are intentionally unresolved and must not be treated as established canon.
+
+Geography
+   ·   Final continent name.
+   ·   Final continent map.
+   ·   Mountain ranges.
+   ·   Rivers and lakes.
+   ·   Seas and islands.
+   ·   Climate regions.
+   ·   Kingdom borders.
+   ·   Major cities and settlements.
+
+Political Structure
+   ·   Final names of the six great houses.
+   ·   Heraldry and house words.
+   ·   Ancestral seats.
+   ·   House histories.
+   ·   Current rulers.
+   ·   Political alliances.
+   ·   Rivalries and territorial disputes.
+   ·   Smaller noble houses.
+<PARSED TEXT FOR PAGE: 39 / 40>
+  ·   Current political settlement after the rebellion.
+  ·   Current dynasty occupying the Imperial Seat.
+  ·   Name of the royal capital.
+
+Ancestries
+  ·   Full elven civilization and history.
+  ·   Dwarven successor territories and their relationships.
+  ·   Individual ratfolk settlements and their political structures.
+  ·   Origins of anti-ratfolk prejudice.
+  ·   Identities and purposes of ratfolk secretive organizations and sects.
+  ·   Halfling and gnome cultures.
+  ·   Other ancestry relationships.
+
+Religion
+  ·   The true nature, if any, of the gods.
+  ·   The source of divine magic.
+  ·   Religious institutions.
+  ·   Religious orders.
+  ·   Religious conflicts.
+  ·   Major cults and heresies.
+
+Magic and Supernatural History
+  ·   Why arcane magic became rare.
+  ·   The history of supernatural events and catastrophes.
+  ·   The origins of vampires.
+  ·   The broader nature of supernatural creatures.
+  ·   The history of forgotten magical civilizations.
+
+Dragons and Targaryen History
+  ·   The chronology of the dragon age.
+  ·   The exact circumstances of the Targaryen downfall.
+  ·   The motivations of the six great houses.
+  ·   The final fate of surviving dragons.
+  ·   The final fate of the Crown Prince's dragon.
+  ·   Whether the surviving Crown Prince can still form a dragon bond.
+  ·   Whether the surviving Crown Prince retains a legal claim to the Imperial Seat.
+  ·   The ultimate fate of Lady Elowen and Lord Merek Halvern.
+  ·   The exact political settlement following the rebellion.
+<PARSED TEXT FOR PAGE: 40 / 40>
+Northern Mysteries
+  ·   The builders of the Ancient Barrier.
+  ·   Its original purpose.
+  ·   The civilizations that existed in the north.
+  ·   The truth behind the Frozen Expanse.
+  ·   Whether something actually exists beyond the barrier.
+
+Campaign Development
+  ·   Starting city.
+  ·   Starting city government.
+  ·   Local factions.
+  ·   Important NPCs.
+  ·   Criminal organizations.
+  ·   Local economy.
+  ·   Regional conflicts.
+  ·   World Simulator implementation.
+
+
+END OF MASTER EDITION

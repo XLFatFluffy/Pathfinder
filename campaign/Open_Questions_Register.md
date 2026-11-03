@@ -13,7 +13,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | ID | Priority | Topic | Question / missing detail | Status |
 |---|---|---|---|---|
 | OQ-001 | P0 | Starting city | What is the city's name, ruler, location, character, and immediate situation? | UNRESOLVED |
-| OQ-002 | P0 | Opening situation | Where do the PCs begin, why are they together, and what immediate situation draws them in? | UNRESOLVED |
+| OQ-002 | P0 | Opening situation | The PCs already know each other. Where do they begin, what is their current relationship/dynamic, and what immediate situation draws them in? | PARTIALLY RESOLVED; opening details UNRESOLVED |
 | OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | UNRESOLVED |
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |

@@ -14,6 +14,11 @@ const {
   mapStorageDir,
   listMaps,
   getMap,
+  listHouses,
+  getHouse,
+  createHouse,
+  updateHouse,
+  deleteHouse,
   createMap,
   updateMap,
   deleteMap,
@@ -109,6 +114,59 @@ app.post('/api/backups', (req, res) => {
     res.status(201).json({ backup, message: 'Backup created successfully.' });
   } catch (error) {
     res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/houses', (req, res) => {
+  res.json({ houses: listHouses() });
+});
+
+app.get('/api/houses/:id', (req, res) => {
+  const house = getHouse(req.params.id);
+  if (!house) {
+    return res.status(404).json({ error: 'House not found.' });
+  }
+  return res.json({ house });
+});
+
+app.post('/api/houses', (req, res) => {
+  try {
+    const house = createHouse(req.body);
+    return res.status(201).json({ house });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create house.' });
+  }
+});
+
+app.put('/api/houses/:id', (req, res) => {
+  try {
+    const house = updateHouse(req.params.id, req.body);
+    if (!house) {
+      return res.status(404).json({ error: 'House not found.' });
+    }
+    return res.json({ house });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update house.' });
+  }
+});
+
+app.delete('/api/houses/:id', (req, res) => {
+  try {
+    const house = deleteHouse(req.params.id);
+    if (!house) {
+      return res.status(404).json({ error: 'House not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    if (error.dependents) {
+      return res.status(409).json({ error: error.message, dependents: error.dependents });
+    }
+    console.error(error);
+    return res.status(500).json({ error: error.message || 'Unable to delete house.' });
   }
 });
 

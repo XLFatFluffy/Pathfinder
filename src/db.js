@@ -10,6 +10,7 @@ const dbPath = path.join(dataDir, 'pathfinder.db');
 const mapTypes = new Set(['world', 'continent', 'region', 'kingdom', 'city', 'settlement', 'interior', 'dungeon']);
 const mapStatuses = new Set(['unknown', 'known', 'available_for_purchase', 'purchased', 'discovered', 'reward', 'lost']);
 const markerCategories = new Set(['city', 'town', 'village', 'castle', 'fortress', 'ruins', 'natural_landmark', 'road', 'port', 'point_of_interest', 'hidden_location']);
+const houseStatuses = new Set(['established', 'dormant', 'extinct', 'disbanded']);
 const locationTypes = new Set([
   ...markerCategories,
   'continent', 'region', 'kingdom', 'principality', 'duchy', 'county', 'territory',
@@ -58,8 +59,18 @@ function initializeDatabase() {
       id TEXT PRIMARY KEY,
       name TEXT NOT NULL,
       motto TEXT,
+      heraldry TEXT,
+      founding_history TEXT,
       seat TEXT,
       ruler TEXT,
+      territorial_holdings TEXT,
+      military_strength TEXT,
+      wealth TEXT,
+      resources TEXT,
+      political_influence TEXT,
+      religious_affiliations TEXT,
+      objectives TEXT,
+      gm_secrets TEXT,
       status TEXT DEFAULT 'established',
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
@@ -194,6 +205,26 @@ function initializeDatabase() {
     db.exec('ALTER TABLE locations ADD COLUMN gm_notes TEXT');
   }
 
+  const houseColumns = db.prepare('PRAGMA table_info(houses)').all().map(({ name }) => name);
+  const houseMigrations = [
+    ['heraldry', 'TEXT'],
+    ['founding_history', 'TEXT'],
+    ['territorial_holdings', 'TEXT'],
+    ['military_strength', 'TEXT'],
+    ['wealth', 'TEXT'],
+    ['resources', 'TEXT'],
+    ['political_influence', 'TEXT'],
+    ['religious_affiliations', 'TEXT'],
+    ['objectives', 'TEXT'],
+    ['gm_secrets', 'TEXT']
+  ];
+
+  houseMigrations.forEach(([column, definition]) => {
+    if (!houseColumns.includes(column)) {
+      db.exec(`ALTER TABLE houses ADD COLUMN ${column} ${definition}`);
+    }
+  });
+
   mapMigrations.forEach(([column, definition]) => {
     if (!mapColumns.includes(column)) {
       db.exec(`ALTER TABLE maps ADD COLUMN ${column} ${definition}`);
@@ -264,7 +295,12 @@ function searchRecords(query) {
 
   const tables = [
     { name: 'locations', labelColumn: 'name', summaryColumn: 'type' },
-    { name: 'houses', labelColumn: 'name', summaryColumn: 'seat' },
+    {
+      name: 'houses',
+      labelColumn: 'name',
+      summaryColumn: 'seat',
+      searchColumns: ['motto', 'heraldry', 'founding_history', 'ruler', 'territorial_holdings', 'military_strength', 'wealth', 'resources', 'political_influence', 'religious_affiliations', 'objectives']
+    },
     { name: 'npcs', labelColumn: 'name', summaryColumn: 'title' },
     { name: 'factions', labelColumn: 'name', summaryColumn: 'description' },
     { name: 'maps', labelColumn: 'name', summaryColumn: 'map_type' },
@@ -275,13 +311,14 @@ function searchRecords(query) {
 
   const matches = [];
 
-  tables.forEach(({ name, labelColumn, summaryColumn }) => {
+  tables.forEach(({ name, labelColumn, summaryColumn, searchColumns = [] }) => {
     try {
       const rows = db.prepare(`SELECT * FROM ${name}`).all();
       rows.forEach((row) => {
         const label = row[labelColumn] || 'Unnamed';
         const summary = row[summaryColumn] || '';
-        const haystack = `${label} ${summary}`.toLowerCase();
+        const additionalText = searchColumns.map((column) => row[column] || '').join(' ');
+        const haystack = `${label} ${summary} ${additionalText}`.toLowerCase();
         if (haystack.includes(normalized)) {
           matches.push({ type: name, id: row.id, label, summary: summary || 'Record match', status: row.status || 'active' });
         }
@@ -370,6 +407,148 @@ function listMaps() {
     LEFT JOIN maps AS parent ON parent.id = maps.parent_id
     ORDER BY maps.name COLLATE NOCASE ASC
   `).all();
+}
+
+function listHouses() {
+  return db.prepare('SELECT * FROM houses ORDER BY name COLLATE NOCASE ASC').all();
+}
+
+function getHouse(id) {
+  return db.prepare('SELECT * FROM houses WHERE id = ?').get(id) || null;
+}
+
+function validateHouse(house) {
+  if (typeof house.name !== 'string' || !house.name.trim()) {
+    throw houseValidationError('A house name is required.');
+  }
+  if (house.name.length > 160) {
+    throw houseValidationError('House names cannot exceed 160 characters.');
+  }
+  if (!houseStatuses.has(house.status)) {
+    throw houseValidationError('Choose a supported house status.');
+  }
+  [
+    'motto',
+    'heraldry',
+    'foundingHistory',
+    'seat',
+    'ruler',
+    'territorialHoldings',
+    'militaryStrength',
+    'wealth',
+    'resources',
+    'politicalInfluence',
+    'religiousAffiliations',
+    'objectives',
+    'gmSecrets'
+  ].forEach((field) => validateOptionalText(house[field], field));
+}
+
+function validateHousePayload(house) {
+  if (!house || typeof house !== 'object' || Array.isArray(house)) {
+    throw houseValidationError('House data must be an object.');
+  }
+}
+
+function createHouse(house) {
+  validateHousePayload(house);
+  const record = {
+    id: crypto.randomUUID(),
+    name: house.name,
+    status: house.status ?? 'established',
+    motto: house.motto ?? '',
+    heraldry: house.heraldry ?? '',
+    foundingHistory: house.foundingHistory ?? '',
+    seat: house.seat ?? '',
+    ruler: house.ruler ?? '',
+    territorialHoldings: house.territorialHoldings ?? '',
+    militaryStrength: house.militaryStrength ?? '',
+    wealth: house.wealth ?? '',
+    resources: house.resources ?? '',
+    politicalInfluence: house.politicalInfluence ?? '',
+    religiousAffiliations: house.religiousAffiliations ?? '',
+    objectives: house.objectives ?? '',
+    gmSecrets: house.gmSecrets ?? ''
+  };
+  validateHouse(record);
+  record.name = record.name.trim();
+
+  db.prepare(`
+    INSERT INTO houses (
+      id, name, motto, heraldry, founding_history, seat, ruler, territorial_holdings,
+      military_strength, wealth, resources, political_influence, religious_affiliations,
+      objectives, gm_secrets, status, updated_at
+    ) VALUES (
+      @id, @name, @motto, @heraldry, @foundingHistory, @seat, @ruler, @territorialHoldings,
+      @militaryStrength, @wealth, @resources, @politicalInfluence, @religiousAffiliations,
+      @objectives, @gmSecrets, @status, CURRENT_TIMESTAMP
+    )
+  `).run(record);
+
+  return getHouse(record.id);
+}
+
+function updateHouse(id, house) {
+  const current = getHouse(id);
+  if (!current) return null;
+  validateHousePayload(house);
+
+  const record = {
+    id,
+    name: house.name === undefined ? current.name : house.name,
+    status: house.status === undefined ? current.status : house.status,
+    motto: house.motto === undefined ? current.motto : house.motto,
+    heraldry: house.heraldry === undefined ? current.heraldry : house.heraldry,
+    foundingHistory: house.foundingHistory === undefined ? current.founding_history : house.foundingHistory,
+    seat: house.seat === undefined ? current.seat : house.seat,
+    ruler: house.ruler === undefined ? current.ruler : house.ruler,
+    territorialHoldings: house.territorialHoldings === undefined ? current.territorial_holdings : house.territorialHoldings,
+    militaryStrength: house.militaryStrength === undefined ? current.military_strength : house.militaryStrength,
+    wealth: house.wealth === undefined ? current.wealth : house.wealth,
+    resources: house.resources === undefined ? current.resources : house.resources,
+    politicalInfluence: house.politicalInfluence === undefined ? current.political_influence : house.politicalInfluence,
+    religiousAffiliations: house.religiousAffiliations === undefined ? current.religious_affiliations : house.religiousAffiliations,
+    objectives: house.objectives === undefined ? current.objectives : house.objectives,
+    gmSecrets: house.gmSecrets === undefined ? current.gm_secrets : house.gmSecrets
+  };
+  validateHouse(record);
+  record.name = record.name.trim();
+
+  db.prepare(`
+    UPDATE houses SET
+      name = @name,
+      motto = @motto,
+      heraldry = @heraldry,
+      founding_history = @foundingHistory,
+      seat = @seat,
+      ruler = @ruler,
+      territorial_holdings = @territorialHoldings,
+      military_strength = @militaryStrength,
+      wealth = @wealth,
+      resources = @resources,
+      political_influence = @politicalInfluence,
+      religious_affiliations = @religiousAffiliations,
+      objectives = @objectives,
+      gm_secrets = @gmSecrets,
+      status = @status,
+      updated_at = CURRENT_TIMESTAMP
+    WHERE id = @id
+  `).run(record);
+
+  return getHouse(id);
+}
+
+function deleteHouse(id) {
+  const house = getHouse(id);
+  if (!house) return null;
+  const npcs = db.prepare('SELECT COUNT(*) AS count FROM npcs WHERE house_id = ?').get(id).count;
+  if (npcs) {
+    const error = new Error('This house is referenced by NPC records.');
+    error.dependents = { npcs };
+    throw error;
+  }
+  db.prepare('DELETE FROM houses WHERE id = ?').run(id);
+  return house;
 }
 
 function getMap(id) {
@@ -736,6 +915,12 @@ function mapValidationError(message) {
   return error;
 }
 
+function houseValidationError(message) {
+  const error = new Error(message);
+  error.statusCode = 400;
+  return error;
+}
+
 module.exports = {
   db,
   initializeDatabase,
@@ -748,6 +933,11 @@ module.exports = {
   mapStorageDir,
   listMaps,
   getMap,
+  listHouses,
+  getHouse,
+  createHouse,
+  updateHouse,
+  deleteHouse,
   createMap,
   updateMap,
   deleteMap,

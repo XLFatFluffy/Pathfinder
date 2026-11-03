@@ -653,6 +653,120 @@ textarea, select {
   resize: vertical;
 }
 
+.house-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(20, 32, 40, 0.8);
+}
+
+.house-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--muted);
+}
+
+.house-form input,
+.house-form select,
+.house-form textarea {
+  width: 100%;
+  background: rgba(14, 22, 30, 0.9);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.82rem 0.9rem;
+}
+
+.house-form textarea {
+  resize: vertical;
+}
+
+.house-private-notes,
+.house-form-actions {
+  grid-column: 1 / -1;
+}
+
+.house-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.house-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.house-card {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel-soft);
+}
+
+.house-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.house-card-heading h4 {
+  margin: 0.3rem 0 0;
+  font-size: 1.1rem;
+}
+
+.house-status {
+  border: 1px solid rgba(209, 176, 114, 0.28);
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  text-transform: capitalize;
+}
+
+.house-details {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+}
+
+.house-details > div {
+  border-top: 1px solid var(--line);
+  padding-top: 0.6rem;
+}
+
+.house-details dt {
+  color: var(--accent-strong);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.house-details dd {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+  white-space: pre-line;
+}
+
+.house-empty-details {
+  color: var(--muted);
+}
+
+.house-card-actions {
+  display: flex;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
 .map-description,
 .map-artwork,
 .map-form-actions {
@@ -804,6 +918,10 @@ textarea, select {
     grid-template-columns: 1fr;
   }
 
+  .house-form {
+    grid-template-columns: 1fr;
+  }
+
   .location-fields {
     grid-template-columns: 1fr;
   }
@@ -818,7 +936,17 @@ textarea, select {
     grid-column: 1;
   }
 
+  .house-form label,
+  .house-private-notes,
+  .house-form-actions {
+    grid-column: 1;
+  }
+
   .map-library {
+    grid-template-columns: 1fr;
+  }
+
+  .house-list {
     grid-template-columns: 1fr;
   }
 }

@@ -10,6 +10,11 @@ const mapLibrary = document.getElementById('mapLibrary');
 const mapFormMessage = document.getElementById('mapFormMessage');
 const mapSubmitButton = document.getElementById('mapSubmitButton');
 const mapCancelButton = document.getElementById('mapCancelButton');
+const houseForm = document.getElementById('houseForm');
+const houseList = document.getElementById('houseList');
+const houseFormMessage = document.getElementById('houseFormMessage');
+const houseSubmitButton = document.getElementById('houseSubmitButton');
+const houseCancelButton = document.getElementById('houseCancelButton');
 const atlasMapPicker = document.getElementById('atlasMapPicker');
 const atlasMapTitle = document.getElementById('atlasMapTitle');
 const atlasMapRoot = document.getElementById('atlasMap');
@@ -32,6 +37,7 @@ const sectionButtons = [...document.querySelectorAll('.nav-item')];
 const panels = [...document.querySelectorAll('.panel')];
 let maps = [];
 let locations = [];
+let houses = [];
 let atlasMap;
 let atlasImageOverlay;
 let atlasMarkerLayer;
@@ -80,6 +86,162 @@ function renderSummary(data) {
   `);
 
   summaryGrid.innerHTML = cards.join('');
+}
+
+const houseProfileFields = [
+  ['Motto', 'motto', 'motto'],
+  ['Heraldry / colors', 'heraldry', 'heraldry'],
+  ['Founding history', 'foundingHistory', 'founding_history'],
+  ['Ancestral seat', 'seat', 'seat'],
+  ['Current ruler', 'ruler', 'ruler'],
+  ['Territorial holdings', 'territorialHoldings', 'territorial_holdings'],
+  ['Military strength', 'militaryStrength', 'military_strength'],
+  ['Wealth', 'wealth', 'wealth'],
+  ['Resources', 'resources', 'resources'],
+  ['Political influence', 'politicalInfluence', 'political_influence'],
+  ['Religious affiliations', 'religiousAffiliations', 'religious_affiliations'],
+  ['Current objectives', 'objectives', 'objectives'],
+  ['GM-only secrets', 'gmSecrets', 'gm_secrets']
+];
+
+async function loadHouses() {
+  const response = await fetch('/api/houses');
+  const payload = await response.json();
+  if (!response.ok) {
+    throw new Error(payload.error || 'Unable to load noble houses.');
+  }
+  houses = payload.houses || [];
+  renderHouses();
+}
+
+function renderHouses() {
+  if (!houses.length) {
+    houseList.innerHTML = '<div class="empty-state">No noble houses yet. Create a house profile to begin recording the campaign’s political history.</div>';
+    return;
+  }
+
+  houseList.innerHTML = houses.map((house) => {
+    const details = houseProfileFields
+      .filter(([, , field]) => house[field])
+      .map(([label, , field]) => `
+        <div>
+          <dt>${escapeHtml(label)}</dt>
+          <dd>${escapeHtml(house[field])}</dd>
+        </div>
+      `).join('');
+    const detailList = details
+      ? `<dl class="house-details">${details}</dl>`
+      : '<p class="house-empty-details">No profile details added.</p>';
+    return `
+      <article class="house-card">
+        <div class="house-card-heading">
+          <div>
+            <span class="map-level">Noble House</span>
+            <h4>${escapeHtml(house.name)}</h4>
+          </div>
+          <span class="house-status">${escapeHtml(house.status)}</span>
+        </div>
+        ${detailList}
+        <div class="house-card-actions">
+          <button type="button" class="secondary-button" data-house-edit="${escapeHtml(house.id)}">Edit</button>
+          <button type="button" class="danger-button" data-house-delete="${escapeHtml(house.id)}">Delete</button>
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  houseList.querySelectorAll('[data-house-edit]').forEach((button) => {
+    button.addEventListener('click', () => editHouse(button.dataset.houseEdit));
+  });
+  houseList.querySelectorAll('[data-house-delete]').forEach((button) => {
+    button.addEventListener('click', () => deleteHouse(button.dataset.houseDelete));
+  });
+}
+
+function editHouse(id) {
+  const house = houses.find((entry) => entry.id === id);
+  if (!house) return;
+
+  houseForm.elements.namedItem('id').value = house.id;
+  houseForm.elements.namedItem('name').value = house.name;
+  houseForm.elements.namedItem('status').value = house.status || 'established';
+  houseProfileFields.forEach(([, formName, field]) => {
+    houseForm.elements.namedItem(formName).value = house[field] || '';
+  });
+  houseSubmitButton.textContent = 'Save house';
+  houseCancelButton.hidden = false;
+  houseFormMessage.textContent = `Editing ${house.name}.`;
+  houseForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetHouseForm() {
+  houseForm.reset();
+  houseForm.elements.namedItem('id').value = '';
+  houseSubmitButton.textContent = 'Create house';
+  houseCancelButton.hidden = true;
+  houseFormMessage.textContent = '';
+}
+
+async function saveHouse(event) {
+  event.preventDefault();
+  houseFormMessage.textContent = '';
+  const id = houseForm.elements.namedItem('id').value;
+  const payload = Object.fromEntries(new FormData(houseForm).entries());
+  delete payload.id;
+
+  let response;
+  let result;
+  try {
+    response = await fetch(id ? `/api/houses/${encodeURIComponent(id)}` : '/api/houses', {
+      method: id ? 'PUT' : 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    result = await response.json();
+  } catch (error) {
+    houseFormMessage.textContent = `Unable to save house: ${error.message}`;
+    return;
+  }
+  if (!response.ok) {
+    houseFormMessage.textContent = result.error || 'Unable to save house.';
+    return;
+  }
+
+  resetHouseForm();
+  try {
+    await loadHouses();
+    await loadOverview();
+  } catch (error) {
+    window.alert(`House saved, but the campaign view could not refresh: ${error.message}`);
+  }
+}
+
+async function deleteHouse(id) {
+  const house = houses.find((entry) => entry.id === id);
+  if (!house || !window.confirm(`Delete "${house.name}"? This cannot be undone.`)) return;
+
+  let response;
+  let result;
+  try {
+    response = await fetch(`/api/houses/${encodeURIComponent(id)}`, { method: 'DELETE' });
+    result = await response.json();
+  } catch (error) {
+    houseFormMessage.textContent = `Unable to delete house: ${error.message}`;
+    return;
+  }
+  if (!response.ok) {
+    const dependents = result.dependents?.npcs || 0;
+    houseFormMessage.textContent = `${result.error || 'Unable to delete house.'}${dependents ? ` ${dependents} NPC record(s) still reference it.` : ''}`;
+    return;
+  }
+
+  if (houseForm.elements.namedItem('id').value === id) resetHouseForm();
+  try {
+    await loadHouses();
+    await loadOverview();
+  } catch (error) {
+    window.alert(`House deleted, but the campaign view could not refresh: ${error.message}`);
+  }
 }
 
 async function loadOverview() {
@@ -380,6 +542,11 @@ function activateSection(sectionId) {
   if (sectionId === 'locations') {
     loadLocations().catch((error) => {
       locationsList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
+    });
+  }
+  if (sectionId === 'houses') {
+    loadHouses().catch((error) => {
+      houseList.innerHTML = `<div class="empty-state">${escapeHtml(error.message)}</div>`;
     });
   }
   if (sectionId === 'overview' && atlasMap) {
@@ -809,6 +976,8 @@ document.getElementById('locationEdit').addEventListener('click', () => {
   if (currentLocationData) openLocationDialog('edit', currentLocationData);
 });
 document.getElementById('locationDelete').addEventListener('click', deleteCurrentLocation);
+houseForm.addEventListener('submit', saveHouse);
+houseCancelButton.addEventListener('click', resetHouseForm);
 searchInput.addEventListener('input', performSearch);
 settingsForm.addEventListener('submit', saveSettings);
 backupButton.addEventListener('click', createBackup);

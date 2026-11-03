@@ -9,6 +9,7 @@ Included so far:
 - SQLite database with persistent campaign settings and core entity tables
 - Hierarchical map library with local image artwork import and replacement
 - Offline Leaflet atlas viewer with pan, zoom, fit-to-map, and hierarchy navigation
+- Noble House profiles with political, historical, and GM-only notes
 - Local database backups that include imported map artwork
 - Global search foundation for campaign records
 - Basic fantasy-themed interface reflecting the World Atlas identity
@@ -40,3 +41,5 @@ Open **Map Library** to add and organize world, continent, region, kingdom, city
 Add markers directly to a map to create or link locations. Markers use normalized image coordinates, so they remain in place when artwork is replaced or resized. Markers can be moved, categorized, and linked to the same location across multiple maps.
 
 The Locations panel stores the location name and type, player-visible description and visibility, and GM-only notes separately. Locations can be edited from the map marker or the campaign list; maps and locations with active dependencies are protected from deletion.
+
+The **Noble Houses** panel records house identity, heraldry description, motto, history, ruler and seat, holdings, resources, influence, objectives, status, and GM-only secrets. Deletion is blocked while NPC records reference a house. Family trees and political relationships are planned as later features built on these profiles.

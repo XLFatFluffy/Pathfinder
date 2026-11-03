@@ -100,6 +100,92 @@
           </section>
         </section>
 
+        <section id="houses" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Political Database</p>
+              <h3>Noble Houses</h3>
+            </div>
+            <p class="summary-comment">Create house profiles now; NPC-linked family trees and political relationships will build on these records.</p>
+          </div>
+
+          <form id="houseForm" class="house-form">
+            <input name="id" type="hidden" />
+            <label>
+              House name
+              <input name="name" type="text" required maxlength="160" placeholder="e.g. House Valewind" />
+            </label>
+            <label>
+              Status
+              <select name="status">
+                <option value="established">Established</option>
+                <option value="dormant">Dormant</option>
+                <option value="extinct">Extinct</option>
+                <option value="disbanded">Disbanded</option>
+              </select>
+            </label>
+            <label>
+              Motto
+              <input name="motto" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Heraldry / colors description
+              <textarea name="heraldry" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Founding history
+              <textarea name="foundingHistory" rows="3" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Ancestral seat
+              <input name="seat" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Current ruler
+              <input name="ruler" type="text" maxlength="4000" />
+            </label>
+            <label>
+              Territorial holdings
+              <textarea name="territorialHoldings" rows="3" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Military strength
+              <textarea name="militaryStrength" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Wealth
+              <textarea name="wealth" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Resources
+              <textarea name="resources" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Political influence
+              <textarea name="politicalInfluence" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Religious affiliations
+              <textarea name="religiousAffiliations" rows="2" maxlength="4000"></textarea>
+            </label>
+            <label>
+              Current objectives
+              <textarea name="objectives" rows="3" maxlength="4000"></textarea>
+            </label>
+            <label class="house-private-notes">
+              GM-only secrets
+              <textarea name="gmSecrets" rows="3" maxlength="4000"></textarea>
+            </label>
+            <div class="house-form-actions">
+              <button id="houseSubmitButton" type="submit" class="primary-button">Create house</button>
+              <button id="houseCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+              <span id="houseFormMessage" class="form-message" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div id="houseList" class="house-list"></div>
+        </section>
+
         <section id="locations" class="panel">
           <div class="panel-header">
             <div>

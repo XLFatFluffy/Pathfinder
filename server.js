@@ -16,7 +16,15 @@ const {
   getMap,
   createMap,
   updateMap,
-  deleteMap
+  deleteMap,
+  listLocations,
+  getLocation,
+  getMapMarkers,
+  createMapMarker,
+  updateLocation,
+  deleteLocation,
+  updateMapMarker,
+  deleteMapMarker
 } = require('./src/db');
 
 const app = express();
@@ -102,6 +110,88 @@ app.post('/api/backups', (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
+});
+
+app.get('/api/locations', (req, res) => {
+  res.json({ locations: listLocations() });
+});
+
+app.get('/api/locations/:id', (req, res) => {
+  const location = getLocation(req.params.id);
+  if (!location) {
+    return res.status(404).json({ error: 'Location not found.' });
+  }
+  return res.json({ location });
+});
+
+app.put('/api/locations/:id', (req, res) => {
+  try {
+    const location = updateLocation(req.params.id, req.body || {});
+    if (!location) {
+      return res.status(404).json({ error: 'Location not found.' });
+    }
+    return res.json({ location });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update location.' });
+  }
+});
+
+app.delete('/api/locations/:id', (req, res) => {
+  try {
+    const location = deleteLocation(req.params.id);
+    if (!location) {
+      return res.status(404).json({ error: 'Location not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    if (error.dependents) {
+      return res.status(409).json({ error: error.message, dependents: error.dependents });
+    }
+    console.error(error);
+    return res.status(500).json({ error: error.message || 'Unable to delete location.' });
+  }
+});
+
+app.get('/api/maps/:id/markers', (req, res) => {
+  if (!getMap(req.params.id)) {
+    return res.status(404).json({ error: 'Map not found.' });
+  }
+  return res.json({ markers: getMapMarkers(req.params.id) });
+});
+
+app.post('/api/maps/:id/markers', (req, res) => {
+  try {
+    const marker = createMapMarker(req.params.id, req.body || {});
+    return res.status(201).json({ marker });
+  } catch (error) {
+    const status = error.code === 'SQLITE_CONSTRAINT_UNIQUE' ? 409 : (error.statusCode || 500);
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: status === 409 ? 'That location already has a marker on this map.' : error.message });
+  }
+});
+
+app.put('/api/maps/:mapId/markers/:markerId', (req, res) => {
+  try {
+    const marker = updateMapMarker(req.params.mapId, req.params.markerId, req.body || {});
+    if (!marker) {
+      return res.status(404).json({ error: 'Map marker not found.' });
+    }
+    return res.json({ marker });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to move marker.' });
+  }
+});
+
+app.delete('/api/maps/:mapId/markers/:markerId', (req, res) => {
+  const deleted = deleteMapMarker(req.params.mapId, req.params.markerId);
+  if (!deleted) {
+    return res.status(404).json({ error: 'Map marker not found.' });
+  }
+  return res.json({ deleted: true });
 });
 
 app.get('/api/maps', (req, res) => {

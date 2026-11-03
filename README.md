@@ -37,4 +37,6 @@ The **World Atlas** opens the selected imported image in Leaflet using `CRS.Simp
 
 Open **Map Library** to add and organize world, continent, region, kingdom, city, settlement, interior, and dungeon maps. Artwork supports PNG, JPEG, WebP, and GIF files up to 100 MB. Parent maps form a hierarchy; replacing artwork preserves the map record and its links. Maps cannot be deleted while child maps or locations reference them.
 
-Map markers and linked location panels are the next atlas feature.
+Add markers directly to a map to create or link locations. Markers use normalized image coordinates, so they remain in place when artwork is replaced or resized. Markers can be moved, categorized, and linked to the same location across multiple maps.
+
+The Locations panel stores the location name and type, player-visible description and visibility, and GM-only notes separately. Locations can be edited from the map marker or the campaign list; maps and locations with active dependencies are protected from deletion.

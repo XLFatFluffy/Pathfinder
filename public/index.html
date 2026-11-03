@@ -62,12 +62,22 @@
             <button id="atlasZoomOut" type="button" class="secondary-button" aria-label="Zoom out">−</button>
             <button id="atlasZoomIn" type="button" class="secondary-button" aria-label="Zoom in">+</button>
             <button id="atlasFit" type="button" class="secondary-button">Fit map</button>
+            <button id="atlasAddMarker" type="button" class="secondary-button" disabled>Place marker</button>
             <button type="button" class="secondary-button atlas-library-link" data-section-link="maps">Manage maps</button>
           </div>
+          <div id="atlasNotice" class="atlas-notice" role="status" aria-live="polite"></div>
           <nav id="atlasBreadcrumbs" class="atlas-breadcrumbs" aria-label="Map hierarchy"></nav>
           <div id="atlasMapWrap" class="atlas-map-wrap">
             <div id="atlasMap" role="application" aria-label="Interactive campaign map"></div>
             <div id="atlasMapMessage" class="atlas-map-message">Add a map with artwork in Map Library to begin exploring the atlas.</div>
+          </div>
+          <div class="marker-legend" aria-label="Map marker categories">
+            <span>✦ City / settlement</span>
+            <span>♜ Castle / fortress</span>
+            <span>◇ Ruins / point of interest</span>
+            <span>⌁ Natural landmark</span>
+            <span>⚓ Port</span>
+            <span>! Hidden location</span>
           </div>
           <section id="atlasDetails" class="atlas-details" aria-live="polite"></section>
 
@@ -88,6 +98,17 @@
             <div id="searchResults" class="search-results"></div>
           </div>
           </section>
+        </section>
+
+        <section id="locations" class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Geography Database</p>
+              <h3>Locations</h3>
+            </div>
+            <p class="summary-comment">Location records are shared by every map marker that references them.</p>
+          </div>
+          <div id="locationsList" class="locations-list"></div>
         </section>
 
         <section id="settings" class="panel">
@@ -188,6 +209,94 @@
         </section>
       </main>
     </div>
+
+    <dialog id="locationDialog" class="location-dialog">
+      <form id="locationForm">
+        <div class="location-dialog-heading">
+          <div>
+            <p class="eyebrow">Geography Record</p>
+            <h3 id="locationDialogTitle">Place a location</h3>
+          </div>
+          <button id="locationClose" type="button" class="secondary-button" aria-label="Close location panel">Close</button>
+        </div>
+        <input name="locationId" type="hidden" />
+        <input name="x" type="hidden" />
+        <input name="y" type="hidden" />
+        <label id="existingLocationField" class="dialog-field">
+          Attach an existing location (optional)
+          <select name="attachExistingLocation">
+            <option value="">Create a new location record</option>
+          </select>
+        </label>
+        <fieldset id="locationFields" class="location-fields">
+          <label>
+            Location name
+            <input name="name" type="text" required maxlength="160" />
+          </label>
+          <label>
+            Location type
+            <select name="type">
+              <option value="city">City</option>
+              <option value="town">Town</option>
+              <option value="village">Village</option>
+              <option value="castle">Castle</option>
+              <option value="fortress">Fortress</option>
+              <option value="ruins">Ruins</option>
+              <option value="natural_landmark">Natural landmark</option>
+              <option value="road">Road</option>
+              <option value="port">Port</option>
+              <option value="point_of_interest">Point of interest</option>
+              <option value="hidden_location">Hidden location</option>
+              <option value="continent">Continent</option>
+              <option value="region">Region</option>
+              <option value="kingdom">Kingdom</option>
+              <option value="principality">Principality</option>
+              <option value="duchy">Duchy</option>
+              <option value="county">County</option>
+              <option value="territory">Territory</option>
+              <option value="district">District</option>
+              <option value="wilderness_area">Wilderness area</option>
+              <option value="dungeon">Dungeon</option>
+              <option value="building">Building</option>
+            </select>
+          </label>
+          <label>
+            Player-known description
+            <textarea name="description" rows="3" maxlength="4000"></textarea>
+          </label>
+          <label>
+            GM-only notes
+            <textarea name="gmNotes" rows="3" maxlength="4000"></textarea>
+          </label>
+          <label class="checkbox-label">
+            <input name="playerVisible" type="checkbox" checked />
+            Known to players
+          </label>
+        </fieldset>
+        <label id="markerCategoryField" class="dialog-field">
+          Marker category for this map
+          <select name="category">
+            <option value="city">City</option>
+            <option value="town">Town</option>
+            <option value="village">Village</option>
+            <option value="castle">Castle</option>
+            <option value="fortress">Fortress</option>
+            <option value="ruins">Ruins</option>
+            <option value="natural_landmark">Natural landmark</option>
+            <option value="road">Road</option>
+            <option value="port">Port</option>
+            <option value="point_of_interest">Point of interest</option>
+            <option value="hidden_location">Hidden location</option>
+          </select>
+        </label>
+        <p id="locationFormMessage" class="form-message" role="status" aria-live="polite"></p>
+        <div class="location-dialog-actions">
+          <button id="locationSave" type="submit" class="primary-button">Save location</button>
+          <button id="locationEdit" type="button" class="secondary-button" hidden>Edit details</button>
+          <button id="locationDelete" type="button" class="danger-button" hidden>Delete location</button>
+        </div>
+      </form>
+    </dialog>
 
     <script src="/vendor/leaflet/leaflet.js"></script>
     <script src="/app.js"></script>

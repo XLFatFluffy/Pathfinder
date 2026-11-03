@@ -206,6 +206,184 @@ textarea, select {
   cursor: not-allowed;
 }
 
+.atlas-notice {
+  min-height: 1.3rem;
+  color: var(--accent-strong);
+  font-size: 0.84rem;
+}
+
+.marker-legend {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  margin: 0.7rem 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.atlas-map-wrap.placing-marker,
+.atlas-map-wrap.placing-marker #atlasMap,
+#atlasMap.placing-marker,
+#atlasMap.placing-marker .leaflet-interactive {
+  cursor: crosshair;
+}
+
+.atlas-marker-icon-wrap {
+  border: 0;
+  background: transparent;
+}
+
+.atlas-marker-icon {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border: 1px solid rgba(247, 226, 179, 0.85);
+  border-radius: 50%;
+  background: #6c4a24;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+  color: #fff2d6;
+  font-size: 0.88rem;
+  line-height: 1;
+}
+
+.atlas-marker-icon.marker-hidden_location {
+  background: #6a3540;
+  border-color: #e19a9e;
+}
+
+.leaflet-tooltip.atlas-marker-tooltip {
+  border: 1px solid rgba(209, 176, 114, 0.45);
+  border-radius: 6px;
+  background: #15232d;
+  color: var(--text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.location-dialog {
+  width: min(620px, calc(100vw - 2rem));
+  max-height: min(90vh, 900px);
+  overflow: auto;
+  padding: 1.3rem;
+  border: 1px solid rgba(209, 176, 114, 0.38);
+  border-radius: 16px;
+  background: #14212a;
+  color: var(--text);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.6);
+}
+
+.location-dialog::backdrop {
+  background: rgba(3, 8, 12, 0.76);
+  backdrop-filter: blur(3px);
+}
+
+.location-dialog form {
+  display: grid;
+  gap: 1rem;
+}
+
+.location-dialog-heading,
+.location-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.location-dialog-heading h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.location-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.location-fields:disabled {
+  opacity: 0.75;
+}
+
+.location-fields label,
+.dialog-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.location-fields label:nth-child(n + 3) {
+  grid-column: 1 / -1;
+}
+
+.location-fields input:not([type="checkbox"]),
+.location-fields select,
+.location-fields textarea,
+.dialog-field select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: rgba(8, 14, 19, 0.75);
+  color: var(--text);
+  font: inherit;
+}
+
+.location-fields textarea {
+  resize: vertical;
+}
+
+.location-fields .checkbox-label {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox-label input {
+  accent-color: var(--accent);
+}
+
+.location-dialog-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.locations-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.location-card {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel-soft);
+}
+
+.location-card h4 {
+  margin: 0.3rem 0 0.55rem;
+}
+
+.location-card p,
+.location-card small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.location-card-actions {
+  display: flex;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+}
+
 .atlas-breadcrumbs {
   display: flex;
   align-items: center;
@@ -624,6 +802,15 @@ textarea, select {
 
   .map-form {
     grid-template-columns: 1fr;
+  }
+
+  .location-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .location-fields label,
+  .location-fields label:nth-child(n + 3) {
+    grid-column: 1;
   }
 
   .map-form label,

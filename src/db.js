@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const Database = require('better-sqlite3');
 
 const dataDir = path.join(__dirname, '..', 'data');
@@ -8,6 +9,12 @@ const mapStorageDir = path.join(dataDir, 'maps');
 const dbPath = path.join(dataDir, 'pathfinder.db');
 const mapTypes = new Set(['world', 'continent', 'region', 'kingdom', 'city', 'settlement', 'interior', 'dungeon']);
 const mapStatuses = new Set(['unknown', 'known', 'available_for_purchase', 'purchased', 'discovered', 'reward', 'lost']);
+const markerCategories = new Set(['city', 'town', 'village', 'castle', 'fortress', 'ruins', 'natural_landmark', 'road', 'port', 'point_of_interest', 'hidden_location']);
+const locationTypes = new Set([
+  ...markerCategories,
+  'continent', 'region', 'kingdom', 'principality', 'duchy', 'county', 'territory',
+  'district', 'wilderness_area', 'dungeon', 'building'
+]);
 
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(backupDir, { recursive: true });
@@ -15,6 +22,7 @@ fs.mkdirSync(mapStorageDir, { recursive: true });
 
 const db = new Database(dbPath);
 db.pragma('journal_mode = WAL');
+db.pragma('foreign_keys = ON');
 
 function initializeDatabase() {
   db.exec(`
@@ -41,6 +49,7 @@ function initializeDatabase() {
       coordinates TEXT,
       status TEXT DEFAULT 'established',
       player_visible INTEGER DEFAULT 1,
+      gm_notes TEXT,
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
@@ -93,6 +102,18 @@ function initializeDatabase() {
       file_size INTEGER,
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE TABLE IF NOT EXISTS map_markers (
+      id TEXT PRIMARY KEY,
+      map_id TEXT NOT NULL REFERENCES maps(id) ON DELETE CASCADE,
+      location_id TEXT NOT NULL REFERENCES locations(id) ON DELETE CASCADE,
+      category TEXT NOT NULL,
+      x REAL NOT NULL CHECK (x >= 0 AND x <= 1),
+      y REAL NOT NULL CHECK (y >= 0 AND y <= 1),
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE (map_id, location_id)
     );
 
     CREATE TABLE IF NOT EXISTS shops (
@@ -167,6 +188,11 @@ function initializeDatabase() {
     ['mime_type', 'TEXT'],
     ['file_size', 'INTEGER']
   ];
+
+  const locationColumns = db.prepare('PRAGMA table_info(locations)').all().map(({ name }) => name);
+  if (!locationColumns.includes('gm_notes')) {
+    db.exec('ALTER TABLE locations ADD COLUMN gm_notes TEXT');
+  }
 
   mapMigrations.forEach(([column, definition]) => {
     if (!mapColumns.includes(column)) {
@@ -350,6 +376,189 @@ function getMap(id) {
   return db.prepare('SELECT * FROM maps WHERE id = ?').get(id);
 }
 
+function listLocations() {
+  return db.prepare(`
+    SELECT
+      locations.*,
+      COUNT(DISTINCT map_markers.id) AS marker_count,
+      GROUP_CONCAT(DISTINCT maps.name) AS map_names,
+      MIN(map_markers.map_id) AS first_map_id
+    FROM locations
+    LEFT JOIN map_markers ON map_markers.location_id = locations.id
+    LEFT JOIN maps ON maps.id = map_markers.map_id
+    GROUP BY locations.id
+    ORDER BY locations.name COLLATE NOCASE ASC
+  `).all();
+}
+
+function getLocation(id) {
+  const location = db.prepare('SELECT * FROM locations WHERE id = ?').get(id);
+  if (!location) return null;
+
+  const markers = db.prepare(`
+    SELECT map_markers.id AS marker_id, map_markers.map_id, map_markers.category,
+      map_markers.x, map_markers.y, maps.name AS map_name
+    FROM map_markers
+    JOIN maps ON maps.id = map_markers.map_id
+    WHERE map_markers.location_id = ?
+    ORDER BY maps.name COLLATE NOCASE ASC
+  `).all(id);
+
+  return { ...location, markers, marker_count: markers.length };
+}
+
+function getMapMarkers(mapId) {
+  return db.prepare(`
+    SELECT
+      map_markers.id AS marker_id,
+      map_markers.map_id,
+      map_markers.location_id,
+      map_markers.category,
+      map_markers.x,
+      map_markers.y,
+      locations.name,
+      locations.type,
+      locations.description,
+      locations.gm_notes,
+      locations.player_visible,
+      locations.status,
+      maps.name AS map_name
+    FROM map_markers
+    JOIN locations ON locations.id = map_markers.location_id
+    JOIN maps ON maps.id = map_markers.map_id
+    WHERE map_markers.map_id = ?
+    ORDER BY locations.name COLLATE NOCASE ASC
+  `).all(mapId);
+}
+
+function createMapMarker(mapId, marker) {
+  if (!getMap(mapId)) {
+    const error = new Error('Map not found.');
+    error.statusCode = 404;
+    throw error;
+  }
+
+  const category = validateMarkerCategory(marker.category);
+  const x = validateNormalizedCoordinate(marker.x, 'x');
+  const y = validateNormalizedCoordinate(marker.y, 'y');
+  const locationId = marker.locationId || crypto.randomUUID();
+  const markerId = crypto.randomUUID();
+  const existingLocation = marker.locationId ? getLocation(marker.locationId) : null;
+
+  if (marker.locationId && !existingLocation) {
+    const error = new Error('The selected location does not exist.');
+    error.statusCode = 404;
+    throw error;
+  }
+  if (!existingLocation) {
+    validateLocation(marker.name, marker.type);
+    validateOptionalText(marker.description, 'Description');
+    validateOptionalText(marker.gmNotes, 'GM notes');
+  }
+  const playerVisible = existingLocation ? 1 : normalizePlayerVisibility(marker.playerVisible, true);
+
+  const insert = db.transaction(() => {
+    if (!existingLocation) {
+      db.prepare(`
+        INSERT INTO locations (
+          id, name, type, description, gm_notes, status, player_visible, updated_at
+        ) VALUES (
+          @id, @name, @type, @description, @gmNotes, 'established', @playerVisible, CURRENT_TIMESTAMP
+        )
+      `).run({
+        id: locationId,
+        name: String(marker.name).trim(),
+        type: marker.type,
+        description: marker.description || '',
+        gmNotes: marker.gmNotes || '',
+        playerVisible
+      });
+    }
+
+    db.prepare(`
+      INSERT INTO map_markers (id, map_id, location_id, category, x, y, updated_at)
+      VALUES (@id, @mapId, @locationId, @category, @x, @y, CURRENT_TIMESTAMP)
+    `).run({ id: markerId, mapId, locationId, category, x, y });
+
+    return getMapMarkers(mapId).find((entry) => entry.marker_id === markerId);
+  });
+
+  return insert();
+}
+
+function updateLocation(id, { name, type, description, gmNotes, playerVisible }) {
+  const location = db.prepare('SELECT * FROM locations WHERE id = ?').get(id);
+  if (!location) return null;
+
+  const nextName = name === undefined ? location.name : name;
+  const nextType = type ?? location.type;
+  validateLocation(nextName, nextType);
+  validateOptionalText(description === undefined ? location.description : description, 'Description');
+  validateOptionalText(gmNotes === undefined ? location.gm_notes : gmNotes, 'GM notes');
+  const nextPlayerVisible = normalizePlayerVisibility(playerVisible, Boolean(location.player_visible));
+
+  db.prepare(`
+    UPDATE locations SET
+      name = @name,
+      type = @type,
+      description = @description,
+      gm_notes = @gmNotes,
+      player_visible = @playerVisible,
+      updated_at = CURRENT_TIMESTAMP
+    WHERE id = @id
+  `).run({
+    id,
+    name: nextName.trim(),
+    type: nextType,
+    description: description === undefined ? location.description : description,
+    gmNotes: gmNotes === undefined ? location.gm_notes : gmNotes,
+    playerVisible: nextPlayerVisible
+  });
+
+  return getLocation(id);
+}
+
+function getLocationDependents(id) {
+  return {
+    childLocations: db.prepare('SELECT COUNT(*) AS count FROM locations WHERE parent_id = ?').get(id).count,
+    npcs: db.prepare('SELECT COUNT(*) AS count FROM npcs WHERE location_id = ?').get(id).count,
+    shops: db.prepare('SELECT COUNT(*) AS count FROM shops WHERE location_id = ?').get(id).count,
+    quests: db.prepare('SELECT COUNT(*) AS count FROM quests WHERE location_id = ?').get(id).count
+  };
+}
+
+function deleteLocation(id) {
+  const location = db.prepare('SELECT * FROM locations WHERE id = ?').get(id);
+  if (!location) return null;
+
+  const dependents = getLocationDependents(id);
+  if (Object.values(dependents).some((count) => count > 0)) {
+    const error = new Error('This location is referenced by other campaign records.');
+    error.dependents = dependents;
+    throw error;
+  }
+
+  db.prepare('DELETE FROM locations WHERE id = ?').run(id);
+  return location;
+}
+
+function updateMapMarker(mapId, markerId, { x, y }) {
+  const normalizedX = validateNormalizedCoordinate(x, 'x');
+  const normalizedY = validateNormalizedCoordinate(y, 'y');
+  const result = db.prepare(`
+    UPDATE map_markers
+    SET x = ?, y = ?, updated_at = CURRENT_TIMESTAMP
+    WHERE id = ? AND map_id = ?
+  `).run(normalizedX, normalizedY, markerId, mapId);
+
+  return result.changes ? getMapMarkers(mapId).find((entry) => entry.marker_id === markerId) : null;
+}
+
+function deleteMapMarker(mapId, markerId) {
+  const result = db.prepare('DELETE FROM map_markers WHERE id = ? AND map_id = ?').run(markerId, mapId);
+  return result.changes > 0;
+}
+
 function validateMapParent(parentId, mapId = null) {
   if (!parentId) return;
   if (parentId === mapId) {
@@ -447,7 +656,8 @@ function updateMap(id, { name, mapType, parentId, status, description, filePath,
 function getMapDependents(id) {
   return {
     childMaps: db.prepare('SELECT COUNT(*) AS count FROM maps WHERE parent_id = ?').get(id).count,
-    locations: db.prepare('SELECT COUNT(*) AS count FROM locations WHERE map_id = ?').get(id).count
+    locations: db.prepare('SELECT COUNT(*) AS count FROM locations WHERE map_id = ?').get(id).count,
+    markers: db.prepare('SELECT COUNT(*) AS count FROM map_markers WHERE map_id = ?').get(id).count
   };
 }
 
@@ -455,7 +665,7 @@ function deleteMap(id) {
   const map = getMap(id);
   if (!map) return null;
   const dependents = getMapDependents(id);
-  if (dependents.childMaps || dependents.locations) {
+  if (dependents.childMaps || dependents.locations || dependents.markers) {
     const error = new Error('This map is in use by other campaign records.');
     error.dependents = dependents;
     throw error;
@@ -475,6 +685,49 @@ function validateMapStatus(status) {
   if (!mapStatuses.has(status)) {
     throw mapValidationError('Choose a supported player-knowledge status.');
   }
+}
+
+function validateMarkerCategory(category) {
+  if (!markerCategories.has(category)) {
+    throw mapValidationError('Choose a supported marker category.');
+  }
+  return category;
+}
+
+function validateLocation(name, type) {
+  if (typeof name !== 'string' || !name.trim()) {
+    throw mapValidationError('A location name is required.');
+  }
+  if (name.length > 160) {
+    throw mapValidationError('Location names cannot exceed 160 characters.');
+  }
+  if (!locationTypes.has(type)) {
+    throw mapValidationError('Choose a supported location type.');
+  }
+}
+
+function validateOptionalText(value, label) {
+  if (value !== undefined && value !== null && typeof value !== 'string') {
+    throw mapValidationError(`${label} must be text.`);
+  }
+  if (typeof value === 'string' && value.length > 4000) {
+    throw mapValidationError(`${label} cannot exceed 4,000 characters.`);
+  }
+}
+
+function normalizePlayerVisibility(value, defaultValue) {
+  if (value === undefined) return defaultValue ? 1 : 0;
+  if (value === true || value === 1) return 1;
+  if (value === false || value === 0) return 0;
+  throw mapValidationError('Player visibility must be true or false.');
+}
+
+function validateNormalizedCoordinate(value, axis) {
+  const coordinate = Number(value);
+  if (!Number.isFinite(coordinate) || coordinate < 0 || coordinate > 1) {
+    throw mapValidationError(`The marker ${axis} coordinate must be between 0 and 1.`);
+  }
+  return coordinate;
 }
 
 function mapValidationError(message) {
@@ -497,5 +750,15 @@ module.exports = {
   getMap,
   createMap,
   updateMap,
-  deleteMap
+  deleteMap,
+  listLocations,
+  getLocation,
+  getMapMarkers,
+  createMapMarker,
+  updateLocation,
+  deleteLocation,
+  updateMapMarker,
+  deleteMapMarker,
+  markerCategories: [...markerCategories],
+  locationTypes: [...locationTypes]
 };

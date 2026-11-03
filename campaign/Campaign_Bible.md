@@ -1653,8 +1653,7 @@ Political and Historical
        claimant.
 
 Geography
-   ·   The primary setting is one enormous continent approximately comparable in scale to
-       Westeros.
+   ·   The primary setting is one enormous continent at the larger scale suggested by the provisional atlas, substantially larger than Westeros. Exact dimensions and travel distances remain to be measured and established.
    ·   The existing atlas is a working foundation, not a final map.
    ·   The northern wilderness is harsh, sparsely populated, and predominantly human.
    ·   The Frozen Expanse lies beyond the northern settled territories.
@@ -1769,3 +1768,35 @@ The monarch's family has a legitimate claim to the Imperial Seat. He retains sub
 
 
 **Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously referred to by the legacy placeholder House Baratheon. References to House Baratheon in older imported source passages are superseded by House Kharadorn. Dragonstone remains a provisional working name for the conquered former Targaryen stronghold, not the Kharadorns' ancestral homeland.
+
+
+## Stage 5 — Continental Geography: Approved Foundations (2026-11-03)
+
+The following geographic foundations are **ESTABLISHED**. They do not yet establish exact borders, coordinates, regional names, or house seats.
+
+### Continental scale
+- The continent is vast and follows the larger scale implied by the uploaded atlas, rather than being comparable in size to Westeros.
+- The atlas's printed scale bar is not yet accepted as an accurate measurement. Exact dimensions, distances, and travel times remain to be established.
+- The uploaded atlas remains a provisional visual reference. Its overall large-scale concept is approved, but its precise geography and labels are not automatically canon.
+
+### Central inland sea and Dragonstone
+- The enormous central inland sea is retained as a major geographic feature.
+- Dragonstone, the provisional legacy name for the fallen dragon-riding dynasty's ancestral stronghold, is an island within this inland sea.
+- A narrow natural land bridge connects Dragonstone to the mainland. It is the only known surface route onto or off the island that does not involve dragons.
+- **GM-ONLY SECRET — ESTABLISHED:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The existence of this route is unknown to the rest of the world.
+- The exact route, entrances, extent, construction history, and which dwarven individuals or institutions know of it remain to be developed. Do not reveal its existence as public or commonly known information.
+
+### Dwarven homeland
+- Khar-Dum, the Kharadorns' ancestral homeland, is located in the northeastern mountain system.
+- Khar-Dum and Dragonstone are separate places. Khar-Dum is ancestral; Dragonstone is a conquered possession of the dwarven empire.
+
+### Great House territorial structure
+- Each of the six Great Houses controls a substantial, clearly defined territory.
+- The continent is not divided exclusively among the six houses. Smaller noble houses, independent settlements, lesser political powers, and other territories may exist within the wider political landscape.
+- Exact territorial borders, house seats, and the placement of individual holdings remain unresolved.
+
+### Still unresolved
+- Exact continental dimensions, accurate map scale, and travel distances.
+- Final names for the continent, inland sea, island, land bridge, mountain systems, rivers, and regions.
+- Exact placement and borders of all six Great House territories.
+- The specific route, entrances, and construction history of the dwarven underground access to Dragonstone.

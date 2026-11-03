@@ -35,3 +35,10 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 3. When a question is answered, move the answer into its proper lore record and mark this entry RESOLVED with a reference.
 4. Questions can remain intentionally unresolved indefinitely.
 5. Add new questions when a decision creates important consequences.
+
+
+## Imperial Settlement: Remaining Questions
+- Which Great Houses comprise the council or coalition influencing the monarch?
+- Which competing factions are pulling the monarch in different directions, and what do they want?
+- How does the monarch's legitimate family claim work, and how strong is it legally or traditionally?
+- What formal powers does the Imperial Seat possess, and what mechanisms allow the Great Houses to constrain it?

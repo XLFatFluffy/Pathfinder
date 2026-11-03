@@ -109,3 +109,18 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM approved the Great House proposal and clarified the distinct ancestral and conquered locations.
 **Supersedes:** Use of House Baratheon as a current setting name and any description of Dragonstone as the Kharadorns' ancestral homeland.
 **Affected records:** Campaign Bible, Canon Register, Current World State, World History, Worldbuilding Direction, and Names & Terminology Index.
+
+
+### 2026-11-03 — Stage 5: Continental geography foundations approved
+**Status:** ESTABLISHED / APPROVED DIRECTION  
+**Decisions:**
+- The continent is vast and substantially larger than Westeros, following the larger scale implied by the provisional atlas. Exact dimensions and travel distances remain unmeasured.
+- The enormous central inland sea is retained.
+- Dragonstone is an island within the inland sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
+- **GM-ONLY SECRET:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. The precise route, entrances, extent, construction history, and who knows of it remain unresolved.
+- Khar-Dum is located in the northeastern mountain system, separate from Dragonstone.
+- Each Great House controls a substantial, clearly defined territory, while smaller noble houses, independent settlements, and lesser political powers also exist.
+**Reason:** The GM approved the larger continental scale, retained the inland sea and island stronghold concept, specified the narrow land bridge and secret dwarven access, placed Khar-Dum in the northeastern mountains, and chose substantial defined Great House territories.
+**Supersedes:** The previous working preference for a continent roughly comparable in scale to Westeros. It does not supersede the provisional status of the atlas's exact terrain, labels, or scale bar.
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`, `Open_Questions_Register.md`, `Names_and_Terminology_Index.md`, `Development_Roadmap.md`, and campaign changelog.
+**Still unresolved:** Exact dimensions and distances; final geographic names; precise terrain and river systems; all territorial borders and house seats; and the details of the dwarven underground route.

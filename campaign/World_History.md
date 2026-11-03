@@ -39,6 +39,7 @@ This record separates confirmed historical facts from dates, names, and politica
 - The final battles destroyed the Targaryen ruling family. Nearly the entire royal family was killed.
 - The dynasty lost the Imperial Seat, ending approximately 400 years of rule.
 - The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
+- The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
 - The dwarven victors claimed Dragonstone, the dynasty's ancestral home and principal royal residence, after the rebellion.
 - The main branch of the dwarven clans now occupies Dragonstone and is said to descend from Torag himself. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.

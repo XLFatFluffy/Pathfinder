@@ -55,3 +55,14 @@ The political settlement includes House Calderan's legitimate hereditary claim t
 
 
 **Naming update:** House Kharadorn is the approved original name of the dwarven Great House. The legacy placeholder House Baratheon is superseded. Khar-Dum is the ancestral homeland; Dragonstone is the conquered former Targaryen stronghold.
+
+
+## Approved continental geography direction — Stage 5 (2026-11-03)
+
+- The continent is vast and substantially larger than Westeros, following the larger scale implied by the provisional atlas. Exact dimensions and travel distances remain open.
+- Retain the enormous central inland sea.
+- Dragonstone is an island within that sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
+- **GM-ONLY SECRET:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. Exact route, entrances, extent, construction history, and who knows of it remain unresolved.
+- Khar-Dum is located in the northeastern mountain system and remains distinct from Dragonstone.
+- Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist.
+- These are approved foundations, not a finalized map. Exact dimensions, scale, borders, house seats, geographic names, and precise placements remain unresolved.

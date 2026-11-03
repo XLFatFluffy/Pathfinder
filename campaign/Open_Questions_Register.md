@@ -18,7 +18,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
-| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the six major houses? The dwarven leader held power immediately after the rebellion; another major house later took the Imperial Seat and rules now. Which house currently rules, and how it took power, remain unresolved. | PARTIALLY ESTABLISHED |
+| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the six major houses? The current ruling house is one of the original six rebel houses, but its identity remains unresolved. | PARTIALLY ESTABLISHED |
 | OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | What are the continent's final name, regions, borders, rivers, roads, and seas? | UNRESOLVED |
@@ -26,7 +26,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-012 | P2 | Arcane scarcity | Why are arcane spellcasters rare in everyday society? | UNRESOLVED |
 | OQ-013 | P3 | Divine magic | How do the real Pathfinder gods grant or mediate divine magic, and what forms of devotion are involved? | UNRESOLVED; gods' existence is ESTABLISHED |
 | OQ-014 | P3 | Vampirism | What are the origins, limits, and hidden history of vampirism in this world? | UNRESOLVED |
-| OQ-016 | P1 | Post-rebellion succession | Which major house later took the Imperial Seat from the dwarven-led ruling power, when did this occur, and by what means? | UNRESOLVED |
+| OQ-016 | P1 | Post-rebellion succession | Which of the six rebel houses took the Imperial Seat after the dwarven leader died, and what were the precise events and dates of the succession crisis? The same dwarven leader ruled for more than a century; his successor inherited dwarven authority and threatened war unless a human was placed on the throne. The successor retained the inherited authority after another rebel house took the Imperial Seat. | PARTIALLY ESTABLISHED |
 | OQ-015 | P3 | Dragons | What is the ultimate fate of dragons that fled after losing their riders? Most dragons were killed during the rebellion; the survivors' fate is unknown. | PARTIALLY RESOLVED |
 
 ## Rules

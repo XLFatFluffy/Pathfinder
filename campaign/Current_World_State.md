@@ -22,7 +22,7 @@ This is a concise navigation and continuity document, not a replacement for the 
 ## Ancestries and societies
 
 - Humans are dominant across much of the continent.
-- A dwarven empire has always existed and has never collapsed; it has never been especially massive in territorial scale. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
+- A dwarven empire has always existed and has never collapsed; it has never been especially massive in territorial scale. It consists of several independent clans united under the main branch, which occupies Dragonstone and is said to descend from Torag himself. Dwarves primarily inhabit mountains and underground settlements and rarely live in conventional surface stone-built settlements.
 - Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility.
 - Elves possess a major political power. One of the six Great Houses is an influential elven dynasty loosely inspired by the wealthy, politically powerful noble-house archetype.
 - Ratfolk are naturally subterranean, with an extensive but incomplete underground network and decentralized settlements.

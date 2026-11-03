@@ -60,7 +60,7 @@
 **Exit condition:** The party can travel beyond the starting city and encounter a coherent regional power structure.
 
 ## Milestone 3 — Wider world and historical foundations (ongoing)
-- Finalize continent geography and political borders.
+- Finalize detailed continent geography and political borders. Stage 5 foundations are approved: the continent is substantially larger than Westeros; the central inland sea remains; Dragonstone is an island connected by a narrow land bridge, with a GM-only secret dwarven underground route; Khar-Dum lies in the northeastern mountains; and each Great House controls a substantial, clearly defined territory.
 - The six Great Houses are established: Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen. Continue developing their territories, seats, rulers, branches, and histories as geography and play require.
 - Develop the dwarven empire around Khar-Dum and its conquered possession of Dragonstone; do not treat the dwarves as fragmented successor territories.
 - Develop the elven political and economic power centered on House Vaelorian.
@@ -102,3 +102,12 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Established House Calderan as the current human ruling dynasty.
 - Established Khar-Dum as the Kharadorns' ancestral homeland and Dragonstone as the conquered former stronghold of the fallen dragon-riding dynasty.
 - Remaining work: precise geography, territories, seats, current house heads and heirs, and the Imperial Council and faction membership.
+
+
+## Completed worldbuilding stage — Geography foundations (Nov 3, 2026)
+- Approved the larger continental scale implied by the atlas, substantially larger than Westeros; exact dimensions and distances remain open.
+- Retained the enormous central inland sea and established Dragonstone as an island connected to the mainland by a narrow natural land bridge.
+- Established a GM-only secret: dwarven underground tunnels provide another route to Dragonstone, unknown to the rest of the world.
+- Placed Khar-Dum in the northeastern mountain system, separate from Dragonstone.
+- Established that each Great House controls a substantial, clearly defined territory, while smaller noble houses and independent powers also exist.
+- Next geography work: establish accurate scale and physical geography, then propose substantial territorial domains and house seats for GM review. Do not assign exact borders without approval.

@@ -77,3 +77,11 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM confirmed the compromise nature of the human candidate, his status as a puppet, the dwarven successor's reluctant acceptance and return to Dragonstone, and the current relationship between the dwarven empire and human monarchy.  
 **Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`, `changelog/campaign_changes.md`.
 **Still unresolved:** Which of the six rebel houses supplied the monarch, who actually controls or influences him, and the exact chronology and events of the succession crisis.
+
+
+## 2026-11-03: Imperial Settlement
+- ESTABLISHED: The monarch's family has a legitimate claim to the Imperial Seat.
+- ESTABLISHED: The monarch retains substantial authority, constrained by the Great Houses.
+- ESTABLISHED: A council or coalition of Great Houses influences the monarch, while several competing factions also pull him in different directions.
+- ESTABLISHED: The other rebel houses see the throne as an opportunity to advance their interests.
+- UNRESOLVED: The identities and relative influence of these groups.

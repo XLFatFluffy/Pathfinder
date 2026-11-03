@@ -34,7 +34,7 @@ This file tracks major setting decisions and their status. It does not replace d
 | Dragon-bond rules | ESTABLISHED | Eligible Targaryen blood was required; each rider could bond with one dragon through a telepathic connection. Eligibility depended on reproduction within the eligible bloodline. |
 | Dragons | ESTABLISHED | Enormous flying reptilian predators with strength, flight, and fire; not traditional intelligent, spellcasting Pathfinder dragons. Most died in the rebellion; surviving dragons' fate is unknown. |
 | Player character relationship | ESTABLISHED | The two PCs already know each other before Session One; exact relationship history and dynamic remain to be documented. |
-| Continent map | UNRESOLVED | Uploaded atlas is provisional reference artwork, not final geography |
+| Continent geography foundations | APPROVED / PARTIALLY ESTABLISHED | Larger-than-Westeros continental scale; central inland sea; Dragonstone island joined by a narrow land bridge; secret dwarven underground access; Khar-Dum in northeastern mountains; substantial defined Great House territories. Exact map, dimensions, borders, and names remain unresolved. |
 | Legacy identities and names | APPROVED for reworking | The historical foundations are confirmed, but inherited labels such as Targaryen, Baratheon, Dragonstone, and Imperial Seat remain working names to be replaced with original identities. |
 | GM authority | ESTABLISHED | GM approves whether generated events become canon |
 
@@ -87,3 +87,14 @@ This file tracks major setting decisions and their status. It does not replace d
 - **ESTABLISHED:** House Calderan is the human ruling dynasty that took the Imperial Seat and supplied the compromise monarch. Its identity is no longer an open question.
 
 - **ESTABLISHED:** House Kharadorn is the approved original name of the dwarven Great House previously represented by the legacy placeholder House Baratheon.
+
+
+## Stage 5 — Geography decisions (2026-11-03)
+
+- **ESTABLISHED:** The continent is vast and follows the larger scale implied by the provisional atlas, substantially larger than Westeros. Exact dimensions and travel distances are not yet measured.
+- **ESTABLISHED:** The enormous central inland sea remains.
+- **ESTABLISHED:** Dragonstone is an island within the central inland sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
+- **GM-ONLY SECRET — ESTABLISHED:** The dwarves have built an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. Its route, entrances, extent, construction history, and distribution of knowledge remain unresolved.
+- **ESTABLISHED:** Khar-Dum is located in the northeastern mountain system and remains distinct from Dragonstone.
+- **ESTABLISHED:** Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist; the continent is not divided exclusively among the six Great Houses.
+- **UNRESOLVED:** Exact dimensions, accurate scale bar, borders, house seats, regional and geographic names, and precise locations of terrain features.

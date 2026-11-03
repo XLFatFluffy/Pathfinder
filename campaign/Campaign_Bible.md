@@ -788,7 +788,7 @@ House Edarth has been established as one of the six rebellious great houses.
 
 The identities and histories of the remaining rebellious houses will be developed separately.
 
-Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. Another of the original six rebel Great Houses was installed as the ruling dynasty. The dwarven successor retained the inherited authority of the dwarven order, while the other house took the wider imperial throne. The identity of that ruling house remains to be established.
+Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted the arrangement reluctantly, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. The identity of the ruling house and the power or powers controlling the puppet monarch remain to be established.
 
 The current count remains six rebellious great houses in total. House Edarth is one of those six.
 

@@ -173,15 +173,15 @@ The house will have its own history, culture, ambitions, territory, and politica
 
 The Dwarven Great House
 
-The Baratheon-inspired great house is dwarven and led by a dwarven ruler.
+The Baratheon-inspired great house is dwarven and associated with the main branch of the
+dwarven clans, which occupies Dragonstone.
 
 It was the principal mastermind behind the Great Rebellion against House Targaryen.
 
 It developed the specialized dragon-slaying ballistas and claimed Dragonstone following the
 rebellion.
 
-Its final identity, history, territory, and relationship with the other great houses remain to be
-developed.
+Its final identity, history, and relationship with the other great houses remain to be developed.
 
 The Northern Great House
 
@@ -338,6 +338,12 @@ Humanity is not a single unified political or cultural group.
 A dwarven empire has always existed and has never collapsed. It has never been especially
 massive in territorial scale.
 
+The empire consists of several independent dwarven clans united under the main branch of
+dwarves. The clans retain their independence while recognizing the authority of this main branch.
+
+The main branch occupies Dragonstone. It is said to descend directly from Torag himself; this is
+an established dynastic claim or tradition, not yet a confirmed fact about divine ancestry.
+
 Dwarves primarily inhabit mountains and underground settlements. They rarely live in
 conventional surface stone-built settlements.
 
@@ -345,9 +351,9 @@ Dwarven pride and cultural identity are strong. As a matter of cultural choice a
 do not reproduce with members of other ancestries; this is not established as a biological
 incompatibility.
 
-The Baratheon-inspired great house is dwarven and led by a dwarven ruler. Its place within the
-dwarven empire and the precise relationship between the house and imperial authority remain
-to be developed.
+The Baratheon-inspired great house is dwarven and associated with the main branch that
+occupies Dragonstone. The precise titles, authority, and relationship between the Great House,
+the main branch, and the independent clans remain to be developed.
 
 7.3 Elves
 Elves possess an important place in the continent's political and cultural landscape.

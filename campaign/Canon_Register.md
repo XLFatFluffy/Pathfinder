@@ -28,6 +28,7 @@ This file tracks major setting decisions and their status. It does not replace d
 | Dwarves | ESTABLISHED | The enduring, relatively compact dwarven empire consists of several independent clans united under the main branch, which occupies Dragonstone and is said to descend from Torag himself. Dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements. Cultural pride leads them to reproduce only with other dwarves. |
 | Other ancestries | ESTABLISHED | Other Pathfinder ancestries may exist; none are designated rare or uncommon by default. The continent remains human-dominated. |
 | Historical distance | ESTABLISHED | The Great Rebellion occurred approximately 200–300 years before the present campaign; the exact calendar year remains unresolved. |
+| Historical distance | ESTABLISHED | The Great Rebellion occurred approximately 200–300 years before the present campaign; the exact calendar year remains unresolved. |
 | Dragon-riding dynasty and Great Rebellion | ESTABLISHED | A dragon-riding dynasty held the Imperial Seat for approximately 400 years and possessed exactly twelve dragons at its height. Six Great Houses rebelled both to preserve their independence and to eliminate dragon-riding as the source of Targaryen supremacy. The war lasted a few years; most dragons were killed, the dynasty fell, and the dwarven victors claimed Dragonstone. See `World_History.md`. |
 | Post-rebellion rule | ESTABLISHED in sequence | The dwarven leader and Baratheon-inspired house held power immediately after the fall. Later, another major house took the Imperial Seat. The current ruling house's identity and accession remain unresolved. |
 | Dragon-bond rules | ESTABLISHED | Eligible Targaryen blood was required; each rider could bond with one dragon through a telepathic connection. Eligibility depended on reproduction within the eligible bloodline. |
@@ -59,5 +60,7 @@ This file tracks major setting decisions and their status. It does not replace d
 ## Historical clarification — current ruling house
 
 **ESTABLISHED:** The major house that later took the Imperial Seat was one of the original six Great Houses that rebelled against the Targaryen dragon-riding dynasty. Its identity and accession details remain unresolved. All six Great Houses will be developed individually during the later political-structure stage.
+
+**ESTABLISHED:** The Great Rebellion occurred approximately 200–300 years before the present campaign. The exact calendar year remains unresolved.
 
 **ESTABLISHED:** The Great Rebellion occurred approximately 200–300 years before the present campaign. The exact calendar year remains unresolved.

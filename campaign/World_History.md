@@ -45,7 +45,7 @@ This record separates confirmed historical facts from dates, names, and politica
 - In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century and remained in power until his death.
 - After his death, a succession crisis followed. His successor inherited the dwarven leader's authority, but the crisis led to a confrontation over the Imperial Seat.
 - The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted this arrangement reluctantly, then returned to Dragonstone and continued ruling the dwarven clans from the conquered former Targaryen stronghold. The dwarven successor retained the authority inherited within the dwarven order, while the other house took the wider imperial throne. The dwarven empire and the human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect.
-- The identity of the house now occupying the Imperial Seat remains unresolved.
+- House Calderan, one of the original six rebel Great Houses, now occupies the Imperial Seat. Its head was installed as the compromise monarch.
 - The monarch's family has a legitimate claim to the Imperial Seat. He retains substantial authority, although the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel houses see the throne as an opportunity to manipulate it for their own interests. The specific identities and balance of these powers remain unresolved.
 - One Targaryen Crown Prince survived the destruction of Dragonstone. He was nine years old at the beginning of the rebellion. His survival is concealed; his personal name belongs to the player character and is intentionally not recorded here.
 
@@ -59,7 +59,7 @@ The relative sequence is established. The Great Rebellion occurred approximately
 4. The dwarven leader develops dragon-slaying ballistas and directs the rebellion.
 5. The rebels target eligible dragon riders. Most dragons are killed; surviving unclaimed dragons flee or disappear.
 6. The Imperial Seat falls and the Targaryen ruling family is nearly exterminated.
-7. The dwarven clans' main branch claims and occupies Dragonstone.
+7. The dwarven clans' main branch claims and occupies Dragonstone, the former ancestral stronghold of the fallen dragon-riding dynasty. Khar-Dum remains the Kharadorns' ancestral homeland.
 8. The dwarven leader and the Baratheon-inspired house hold power in the immediate aftermath of the fall.
 9. The same dwarven leader remains in power for more than a century, until his death.
 10. His successor inherits his authority, but a succession crisis follows.
@@ -71,10 +71,10 @@ The relative sequence is established. The Great Rebellion occurred approximately
 
 - The original names, heraldry, and distinct identities that will replace the inherited legacy labels.
 - The exact calendar year of the Great Rebellion, and the exact dates of the dynasty's rise and fall (the rebellion is approximately 200–300 years before the present campaign).
-- The identities and individual roles of all six rebel Great Houses.
+- The individual roles of the six rebel Great Houses in specific campaigns and battles.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
 - The exact calendar dates of the dwarven leader's more-than-century-long rule and the subsequent succession crisis.
-- Which of the original six rebel Great Houses took the Imperial Seat, who actually controls or influences the puppet monarch, and the precise political and military events surrounding the threatened war and installation of the compromise candidate.
+- Who actually controls or influences the Calderan puppet monarch, and what were the precise political and military events surrounding the threatened war and installation of the compromise candidate.
 - The current ruling dynasty's name, its capital, and its relationship with the other major houses.
 - The ultimate fate of dragons that escaped the rebellion.
 - Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified.
@@ -104,3 +104,6 @@ The houses shared enemies during the rebellion but did not share a single vision
 ## Remaining historical uncertainties
 
 The houses' precise territorial locations, seats, current heads and heirs, detailed roles in individual campaigns of the Great Rebellion, and the later development of their rivalries remain open. The final names of the fallen dragon-riding dynasty, Dragonstone, and the Imperial Seat are also still to be determined.
+
+
+**Ruling-house clarification:** House Calderan is the established identity of the human Great House that took the Imperial Seat and supplied the compromise monarch. The monarch's controllers and the precise details of the settlement remain unresolved.

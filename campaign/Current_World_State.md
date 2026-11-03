@@ -45,13 +45,14 @@ Treat those legacy names as **provisional source material pending deliberate ren
 - Living sandbox; the world develops independently of the player characters.
 - Two level-5 player characters.
 - Starting location: an unnamed medium-sized city.
+- The two player characters already know each other before Session One begins. They are not strangers whose first meeting needs to be staged during the opening session.
 - One PC: human vampire mesmerist, last known surviving member of the fallen dragon-riding bloodline.
 - One PC: male ratfolk alchemist, raised by the vampire guardian after his mother died.
 - The ratfolk PC's mother's battlefield circumstances remain undefined.
 
 ## Unresolved
 
-See the Campaign Bible's unresolved topics. In particular: final continent name and geography, house names and identities, political settlement after the rebellion, current dynasty, starting city, ratfolk settlements and prejudice origins, divine magic's source, vampire origins, dragon history, and the Ancient Barrier's builders and purpose.
+See the Campaign Bible's unresolved topics. In particular: final continent name and geography, house names and identities, political settlement after the rebellion, current dynasty, starting city, opening situation, ratfolk settlements and prejudice origins, divine magic's source, vampire origins, dragon history, and the Ancient Barrier's builders and purpose.
 
 ## Continuity cautions
 

@@ -26,7 +26,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-012 | P2 | Arcane scarcity | Why are arcane spellcasters rare in everyday society? | UNRESOLVED |
 | OQ-013 | P3 | Divine magic | How do the real Pathfinder gods grant or mediate divine magic, and what forms of devotion are involved? | UNRESOLVED; gods' existence is ESTABLISHED |
 | OQ-014 | P3 | Vampirism | What are the origins, limits, and hidden history of vampirism in this world? | UNRESOLVED |
-| OQ-016 | P1 | Post-rebellion succession | Which of the six rebel houses supplied the compromise monarch, who actually controls or influences the puppet, and what were the precise events and dates of the succession crisis? The same dwarven leader ruled for more than a century; his successor inherited dwarven authority, threatened war unless a human was placed on the throne, then reluctantly accepted the compromise and returned to Dragonstone to continue ruling the clans. The dwarven empire and human monarchy maintain an uneasy peace and mutual distrust; war would not favor the dwarves, but they are not afraid of it. | PARTIALLY ESTABLISHED |
+| OQ-016 | P1 | Post-rebellion succession | Who actually controls or influences the Calderan puppet monarch, and what were the precise events and dates of the succession crisis? The same dwarven leader ruled for more than a century; his successor inherited dwarven authority, threatened war unless a human was placed on the throne, then reluctantly accepted the compromise and returned to Dragonstone to continue ruling the clans. The dwarven empire and human monarchy maintain an uneasy peace and mutual distrust; war would not favor the dwarves, but they are not afraid of it. | PARTIALLY ESTABLISHED |
 | OQ-015 | P3 | Dragons | What is the ultimate fate of dragons that fled after losing their riders? Most dragons were killed during the rebellion; the survivors' fate is unknown. | PARTIALLY RESOLVED |
 
 ## Rules
@@ -51,3 +51,5 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 - Who leads the Royal Court, Traditionalists, Royal Expansionists, Merchant Interests, and Religious Establishment, and what are their actual memberships and influence?
 - What were each house's specific campaigns, commanders, alliances, and sacrifices during the Great Rebellion?
 - What is the final in-world name of Dragonstone, the conquered ancestral stronghold of the fallen dragon-riding dynasty?
+
+- **RESOLVED:** House Calderan supplied the compromise monarch and is the current human ruling dynasty. The identity of the monarch's controllers and the detailed sequence of the succession crisis remain unresolved.

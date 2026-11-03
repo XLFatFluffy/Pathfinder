@@ -64,6 +64,30 @@ test('NPC status transitions retain dated history and round-trip through campaig
   const created = await createResponse.json();
   assert.equal(createResponse.status, 201);
 
+  const invalidStatusResponse = await postJson(`${url}/api/npcs`, {
+    name: 'Invalid Status NPC',
+    status: 'x'.repeat(101)
+  });
+  assert.equal(invalidStatusResponse.status, 400);
+  const emptyStatusResponse = await postJson(`${url}/api/npcs`, {
+    name: 'Empty Status NPC',
+    status: ' '
+  });
+  assert.equal(emptyStatusResponse.status, 400);
+
+  const customStatusResponse = await postJson(`${url}/api/npcs`, {
+    name: 'Veilbound Sella',
+    status: 'bound to the Ashen Veil'
+  });
+  const customStatusNpc = await customStatusResponse.json();
+  assert.equal(customStatusResponse.status, 201);
+  assert.equal(customStatusNpc.npc.status, 'bound to the Ashen Veil');
+  const npcsResponse = await fetch(`${url}/api/npcs`);
+  const npcs = await npcsResponse.json();
+  assert.ok(npcs.npcs.some((npc) => npc.id === customStatusNpc.npc.id
+    && npc.status === 'bound to the Ashen Veil'
+    && npc.status_history.length === 1));
+
   const initialHistoryResponse = await fetch(`${url}/api/npcs/${created.npc.id}/history`);
   const initialHistory = await initialHistoryResponse.json();
   assert.equal(initialHistoryResponse.status, 200);
@@ -94,7 +118,7 @@ test('NPC status transitions retain dated history and round-trip through campaig
   assert.equal(unchanged.history.length, 2);
 
   const exported = await (await fetch(`${url}/api/data/export?categories=people`)).json();
-  assert.equal(exported.records.npc_status_history.length, 2);
+  assert.equal(exported.records.npc_status_history.length, 3);
   assert.ok(exported.records.npc_status_history.some((entry) => entry.new_status === 'missing'));
 
   const duplicatePreviewResponse = await postJson(`${url}/api/data/import/preview`, { payload: exported });

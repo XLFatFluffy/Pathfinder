@@ -910,6 +910,12 @@ function validateNpc(npc) {
   if (npc.status !== undefined && npc.status !== null && typeof npc.status !== 'string') {
     throw npcValidationError('NPC status must be text.');
   }
+  if (typeof npc.status === 'string' && !npc.status.trim()) {
+    throw npcValidationError('NPC status cannot be empty.');
+  }
+  if (typeof npc.status === 'string' && npc.status.length > 100) {
+    throw npcValidationError('NPC status cannot exceed 100 characters.');
+  }
   if (npc.gm_only !== undefined && npc.gm_only !== null && typeof npc.gm_only !== 'number' && typeof npc.gm_only !== 'boolean') {
     throw npcValidationError('GM-only status must be true or false.');
   }
@@ -928,7 +934,7 @@ function createNpc(npc) {
     occupation: npc.occupation ?? '',
     location_id: npc.location_id ?? null,
     house_id: npc.house_id ?? null,
-    status: npc.status ?? 'alive',
+    status: typeof npc.status === 'string' ? npc.status.trim() : (npc.status ?? 'alive'),
     gm_only: npc.gm_only === undefined ? 0 : Number(Boolean(npc.gm_only))
   };
   validateNpc(record);
@@ -970,7 +976,9 @@ function updateNpc(id, npc) {
     occupation: npc.occupation === undefined ? current.occupation : (npc.occupation ?? ''),
     location_id: npc.location_id === undefined ? current.location_id : (npc.location_id || null),
     house_id: npc.house_id === undefined ? current.house_id : (npc.house_id || null),
-    status: npc.status === undefined ? current.status : (npc.status ?? 'alive'),
+    status: npc.status === undefined
+      ? current.status
+      : (typeof npc.status === 'string' ? npc.status.trim() : (npc.status ?? 'alive')),
     gm_only: npc.gm_only === undefined ? current.gm_only : Number(Boolean(npc.gm_only))
   };
   validateNpc(record);

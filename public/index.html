@@ -272,16 +272,19 @@
             </label>
             <label>
               Current status
-              <select name="status">
-                <option value="alive">Alive</option>
-                <option value="missing">Missing</option>
-                <option value="deceased">Deceased</option>
-                <option value="retired">Retired</option>
-                <option value="hostile">Hostile</option>
-                <option value="neutral">Neutral</option>
-                <option value="allied">Allied</option>
-                <option value="unknown">Unknown</option>
-              </select>
+              <input name="status" type="text" list="npcStatusOptions" required maxlength="100" value="alive" />
+              <datalist id="npcStatusOptions">
+                <option value="alive"></option>
+                <option value="dead"></option>
+                <option value="deceased"></option>
+                <option value="missing"></option>
+                <option value="imprisoned"></option>
+                <option value="retired"></option>
+                <option value="hostile"></option>
+                <option value="neutral"></option>
+                <option value="allied"></option>
+                <option value="unknown"></option>
+              </datalist>
             </label>
             <label>
               Status change note

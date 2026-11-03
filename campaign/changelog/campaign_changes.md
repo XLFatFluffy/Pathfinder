@@ -101,3 +101,14 @@
 - Updated the Campaign Bible, Canon Register, Current World State, World History, Worldbuilding Direction, Decision Log, Names & Terminology Index, and Open Questions Register.
 
 - Confirmed House Kharadorn as the original name replacing the dwarven Great House's legacy House Baratheon placeholder. Khar-Dum is the ancestral homeland; Dragonstone is the conquered former Targaryen stronghold.
+
+
+## 2026-11-03 — Stage 5 geography foundations approved
+- GM approved a vast continent substantially larger than Westeros, following the larger scale implied by the provisional atlas. Exact dimensions and travel distances remain unmeasured.
+- Retained the enormous central inland sea.
+- Established Dragonstone as an island within the inland sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
+- **GM-ONLY SECRET:** Established that the dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. Exact route, entrances, extent, construction history, and who knows of it remain unresolved.
+- Placed Khar-Dum, the Kharadorns' ancestral homeland, in the northeastern mountain system, separate from Dragonstone.
+- Established that each Great House controls a substantial, clearly defined territory, while smaller noble houses, independent settlements, and lesser political powers also exist.
+- Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, Open Questions Register, Names & Terminology Index, and Development Roadmap.
+- The atlas remains provisional for exact terrain, labels, scale bar, borders, and placements. Detailed territorial geography remains the next task.

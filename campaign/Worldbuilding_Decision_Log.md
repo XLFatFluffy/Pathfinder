@@ -39,3 +39,18 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Supersedes:**  
 **Affected records:**  
 **Open consequences or follow-up questions:**  
+
+
+### 2026-11-03 — Grounded medieval fantasy and real Pathfinder gods
+**Status:** ESTABLISHED / REVISED  
+**Decision:** The campaign's central identity is grounded high-medieval fantasy with political and dynastic conflict. Supernatural horror remains part of the world but is not the main theme. The Pathfinder gods are real. Arcane spellcasters are rare; divine spellcasters are also uncommon and devote themselves to a god. An average person may live their entire life without witnessing a spell cast.  
+**Reason:** The GM clarified that the original gothic steampunk campaign concept was superseded when the players requested a different direction. The GM also corrected the earlier uncertainty about the gods.  
+**Supersedes:** Gothic steampunk as the campaign's central concept; prior records stating that the gods' existence is uncertain.  
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`, `Open_Questions_Register.md`.
+
+### 2026-11-03 — Ancestry and civilization revisions
+**Status:** ESTABLISHED / REVISED  
+**Decision:** Ratfolk prejudice is widespread across surface societies, though a few communities tolerate or accept them. Elves possess a major political power. The dwarven empire has always existed and has never collapsed; it has never been especially massive. Dwarves primarily live in mountains and underground and rarely inhabit conventional surface stone-built settlements. Dwarven pride leads them to reproduce only with other dwarves as a cultural choice, not an established biological incompatibility. Other Pathfinder ancestries may exist without rare/uncommon designation; the continent remains human-dominated.  
+**Reason:** The GM corrected the earlier ancestry summary and replaced the inaccurate fallen-dwarven-empire history.  
+**Supersedes:** The prior account of a collapsed, formerly much larger dwarven empire with surviving successor territories; the prior description of ratfolk prejudice as limited to some societies.  
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`.

@@ -54,3 +54,10 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM corrected the earlier ancestry summary and replaced the inaccurate fallen-dwarven-empire history.  
 **Supersedes:** The prior account of a collapsed, formerly much larger dwarven empire with surviving successor territories; the prior description of ratfolk prejudice as limited to some societies.  
 **Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`.
+
+
+### 2026-11-03 — Dwarven imperial structure and Dragonstone
+**Status:** ESTABLISHED  
+**Decision:** The dwarven empire consists of several independent clans united under the main branch of dwarves. The main branch occupies Dragonstone and is said to descend from Torag himself. This descent is recorded as a dynastic claim or tradition, not as confirmed divine ancestry. The dwarven Great House is associated with this main branch.  
+**Reason:** The GM clarified the relationship between the dwarven clans, imperial authority, and Dragonstone.  
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Direction.md`, `Open_Questions_Register.md`.

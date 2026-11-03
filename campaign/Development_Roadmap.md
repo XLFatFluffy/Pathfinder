@@ -9,7 +9,7 @@
 - Confirm the opening premise and why the two PCs are together.
 - Identify first-session-critical unknowns.
 - Keep the continuity records current.
-- Do not attempt to finish the continent or all six great houses.
+- The six Great Houses and their core political identities are now established. Do not attempt to finish the continent or assign every house its final territory before geography is developed.
 
 ### Nov 4 — Starting region and city
 - Establish the city name, location, government, and immediate political situation.
@@ -52,7 +52,7 @@
 
 ## Milestone 2 — Regional and political framework (Sessions 3–6)
 - Define neighboring territories and travel routes.
-- Develop relevant noble houses, rulers, succession claims, resources, and alliances.
+- Develop the local roles of established noble houses, rulers, succession claims, resources, and alliances as they become relevant.
 - Establish how local events connect to wider politics.
 - Build ratfolk communities and underground connections where play makes them relevant.
 - Develop regional religions and institutions while preserving uncertainty about the gods.
@@ -61,8 +61,9 @@
 
 ## Milestone 3 — Wider world and historical foundations (ongoing)
 - Finalize continent geography and political borders.
-- Rework the legacy six-house structure into original dynasties and histories.
-- Develop dwarven successor territories and elven political/economic power.
+- The six Great Houses are established: Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen. Continue developing their territories, seats, rulers, branches, and histories as geography and play require.
+- Develop the dwarven empire around Khar-Dum and its conquered possession of Dragonstone; do not treat the dwarves as fragmented successor territories.
+- Develop the elven political and economic power centered on House Vaelorian.
 - Establish the history of the fallen dragon-riding dynasty in layers: public history, disputed accounts, and GM truth.
 - Develop the northern territories, Ancient Barrier, and Frozen Expanse.
 - Expand cultures, trade, warfare, religions, and historical chronology.
@@ -73,7 +74,7 @@
 - Develop the origins and limits of vampirism.
 - Decide what happened to dragons, if and when the campaign needs the answer.
 - Explore the origins and purpose of the Ancient Barrier.
-- Explore the source of divine magic without prematurely resolving the setting's uncertainty about gods.
+- Explore the source and operation of divine magic. The Pathfinder gods are real; their deeper relationships with mortals and the means by which divine power is granted remain open.
 - Develop the history of ratfolk marginalization and the purposes of secretive organizations.
 
 **Rule:** These mysteries can remain unresolved. Their records should distinguish objective GM truth, competing theories, public beliefs, and player discoveries.
@@ -94,3 +95,10 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Keep proposals distinct from approved canon.
 - The simulator may suggest events; only GM approval makes them history.
 - The high-medieval technology baseline remains in force unless explicitly revised.
+
+
+## Completed worldbuilding stage — Great Houses (Nov 3, 2026)
+- Approved six original Great Houses and their core identities, words, sigils, political aims, rebellion motives, and relationships.
+- Established House Calderan as the current human ruling dynasty.
+- Established Khar-Dum as the Kharadorns' ancestral homeland and Dragonstone as the conquered former stronghold of the fallen dragon-riding dynasty.
+- Remaining work: precise geography, territories, seats, current house heads and heirs, and the Imperial Council and faction membership.

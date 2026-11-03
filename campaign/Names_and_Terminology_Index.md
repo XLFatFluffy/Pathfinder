@@ -18,7 +18,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Ancient Barrier | Structure / landmark | PROVISIONAL | Legacy working term; builders and purpose unknown |
 | House Targaryen | Historical house label | LEGACY SOURCE ONLY | Name of the fallen dragon-riding dynasty in inherited source material; final original name remains undecided. |
 | House Baratheon | Historical house label | SUPERSEDED LEGACY LABEL | Replaced by approved original Great House name: House Kharadorn. Retained only when documenting source-material history. |
-| Dragonstone | Historical stronghold / location | PROVISIONAL LEGACY LABEL | Ancestral stronghold of the fallen dragon-riding dynasty; conquered by the dwarves during the Great Rebellion. Final in-world name remains undecided. |
+| Dragonstone | Island / former dynastic stronghold | PROVISIONAL LEGACY LABEL | Ancestral stronghold of the fallen dragon-riding dynasty, now held by the dwarves. Island in the central inland sea, connected to the mainland by a narrow natural land bridge. GM-only secret: dwarven underground tunnel system provides another route; its existence is unknown to the rest of the world. Final in-world name remains undecided. |
 | Imperial Seat | Location / title label | PROVISIONAL LEGACY LABEL | Working term for the supreme royal throne and its seat; final in-world name remains undecided. |
 | House Vaelorian | Great house | ESTABLISHED | Elven commercial and financial dynasty; “Wealth Endures. Power Remembers.” |
 | House Kharadorn | Great house | ESTABLISHED | Dwarven Great House associated with the main branch of the dwarven empire; “Stone Remembers. Blood Endures.” |
@@ -26,7 +26,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | House Calderan | Great house / ruling dynasty | ESTABLISHED | Human ruling dynasty with legitimate hereditary claim to the Imperial Seat; “By Right, We Remain.” |
 | House Veyr | Great house | ESTABLISHED | Human northern dynasty maintaining the Ancient Barrier; “Beyond the Wall, We Stand.” |
 | House Merrowen | Great house | ESTABLISHED | Primarily human maritime dynasty; “All Roads Reach the Sea.” |
-| Khar-Dum | Place / ancestral homeland | ESTABLISHED NAME | Ancestral homeland and historic center of the Kharadorns. |
+| Khar-Dum | Place / ancestral homeland | ESTABLISHED NAME | Ancestral homeland and historic center of the Kharadorns, located in the northeastern mountain system; separate from Dragonstone. |
 
 ## Reserved / approved directions
 
@@ -40,3 +40,12 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Official name | Category | Status | Aliases / notes | Canon record |
 |---|---|---|---|---|
 |  |  |  |  |  |
+
+
+## Approved geographic descriptions (names remain provisional)
+| Working description | Category | Status | Notes |
+|---|---|---|---|
+| Central inland sea | Geographic feature | ESTABLISHED FEATURE | Enormous inland sea; final name undecided. Dragonstone lies within it. |
+| Dragonstone land bridge | Geographic feature | ESTABLISHED FEATURE / PROVISIONAL LABEL | Narrow natural land bridge; only known surface route onto or off Dragonstone without dragons. Final name undecided. |
+| Dwarven underground route to Dragonstone | GM-only geographic secret | ESTABLISHED SECRET | Underground tunnel system built by the dwarves; existence unknown to the rest of the world. Exact route and entrances unresolved. |
+| Northeastern mountain system | Geographic region | APPROVED PLACEMENT / PROVISIONAL LABEL | Contains Khar-Dum, the Kharadorns' ancestral homeland. Final name undecided. |

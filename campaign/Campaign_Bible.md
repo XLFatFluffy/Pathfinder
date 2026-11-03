@@ -395,7 +395,7 @@ Dwarven pride and cultural identity are strong. As a matter of cultural choice a
 do not reproduce with members of other ancestries; this is not established as a biological
 incompatibility.
 
-The Baratheon-inspired great house is dwarven and associated with the main branch that
+The Kharadorn great house is dwarven and associated with the main branch that
 occupies Dragonstone. The precise titles, authority, and relationship between the Great House,
 the main branch, and the independent clans remain to be developed.
 
@@ -704,7 +704,7 @@ The existence of dragons made travel between Dragonstone and the capital conside
 
 Dragonstone was therefore the familial, political, and military heart of the Targaryen dynasty.
 
-Following the Great Rebellion, House Baratheon claimed Dragonstone and its symbolic
+Following the Great Rebellion, House Kharadorn claimed Dragonstone and its symbolic
 importance.
 
 8.5 Targaryen Government and Authority
@@ -832,25 +832,25 @@ House Edarth has been established as one of the six rebellious great houses.
 
 The identities and histories of the remaining rebellious houses will be developed separately.
 
-Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted the arrangement reluctantly, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. The identity of the ruling house and the power or powers controlling the puppet monarch remain to be established.
+Following the fall of House Targaryen, the dwarven leader and the Kharadorn house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted the arrangement reluctantly, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. The identity of the ruling house and the power or powers controlling the puppet monarch remain to be established.
 
 The current count remains six rebellious great houses in total. House Edarth is one of those six.
 
-11.2 House Baratheon and the Rebellion
-House Baratheon was the principal leader and mastermind behind the rebellion.
+11.2 House Kharadorn and the Rebellion
+House Kharadorn was the principal leader and mastermind behind the rebellion.
 
 The house developed a specialized weapon designed to kill dragons: an enormous dragon-slaying
 ballista.
 
 The development of this weapon was a major strategic advantage.
 
-House Baratheon wanted exclusive control over the weapon's design and production.
+House Kharadorn wanted exclusive control over the weapon's design and production.
 
 The ballistas were designed to penetrate dragon scales reliably, giving ordinary military forces a
 means of killing creatures that had previously dominated the battlefield.
 
 11.3 The Dragon-Slaying Ballistas
-The dragon-slaying ballistas were developed and manufactured exclusively by House Baratheon.
+The dragon-slaying ballistas were developed and manufactured exclusively by House Kharadorn.
 
 Their manufacturing methods were closely guarded.
 
@@ -877,7 +877,7 @@ The weapons survived the rebellion.
 Some remain in military service, primarily as defensive siege weapons protecting castles and
 important fortifications.
 
-Their continued existence represents an important part of House Baratheon's military legacy.
+Their continued existence represents an important part of House Kharadorn's military legacy.
 
 With dragons believed extinct, their primary purpose has shifted toward conventional defensive
 warfare.
@@ -914,7 +914,7 @@ The six victorious houses believe the dynasty is extinct.
 
 They do not currently fear the return of a Targaryen claimant.
 
-House Baratheon claimed Dragonstone after the rebellion.
+House Kharadorn claimed Dragonstone after the rebellion.
 <PARSED TEXT FOR PAGE: 21 / 40>
 The Imperial Seat passed into the hands of another of the original six rebel Great Houses after the dwarven leader's death and a succession crisis. The dwarven successor threatened war unless a human was placed on the throne, then retained the inherited authority of the dwarven order.
 
@@ -1631,10 +1631,10 @@ Ancestries
 Political and Historical
    ·   Six great houses united to destroy House Targaryen.
    ·   House Edarth was one of the six rebellious houses.
-   ·   House Baratheon was the principal mastermind behind the rebellion.
-   ·   House Baratheon is a dwarven great house led by a dwarven ruler.
-   ·   House Baratheon developed specialized dragon-slaying ballistas.
-   ·   House Baratheon claimed Dragonstone after the rebellion.
+   ·   House Kharadorn was the principal mastermind behind the rebellion.
+   ·   House Kharadorn is a dwarven great house led by a dwarven ruler.
+   ·   House Kharadorn developed specialized dragon-slaying ballistas.
+   ·   House Kharadorn claimed Dragonstone after the rebellion.
    ·   Another of the original six rebel Great Houses now occupies the Imperial Seat, following a succession crisis after the death of the dwarven ruler.
    ·   House Targaryen ruled from the Imperial Seat for approximately 400 years.
    ·   The Imperial Seat is a physical throne of supreme political authority.
@@ -1766,3 +1766,6 @@ END OF MASTER EDITION
 
 ### Current Imperial Settlement (Established)
 The monarch's family has a legitimate claim to the Imperial Seat. He retains substantial authority, though the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses see the throne as an opportunity to manipulate it for their own interests. The specific factions and their relative influence remain unresolved.
+
+
+**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously referred to by the legacy placeholder House Baratheon. References to House Baratheon in older imported source passages are superseded by House Kharadorn. Dragonstone remains a provisional working name for the conquered former Targaryen stronghold, not the Kharadorns' ancestral homeland.

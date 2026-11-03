@@ -6,7 +6,7 @@ Pathfinder is a campaign management application for a custom Pathfinder First Ed
 
 Included so far:
 - Cloud foundation in `web/`: Next.js, Supabase Auth, GM/player route separation, and database-enforced campaign access
-- Cloud map library with map hierarchy, linked locations, resumable GM artwork uploads/replacement, and player-shared maps
+- Cloud map library and interactive atlas with map hierarchy, linked locations, pan/zoom, resumable GM artwork uploads/replacement, and player-shared maps
 - Version-controlled Supabase migrations and an RLS test covering GM-only journal content
 - Express server serving a local desktop web app
 - SQLite database with persistent campaign settings and core entity tables
@@ -49,7 +49,7 @@ Email signup is disabled in local Supabase configuration. The GM account is crea
 
 Run the cloud type check and production build with `npm run cloud:typecheck` and `npm run cloud:build`. Run the database RLS tests with `npx supabase test db`.
 
-The cloud foundation now includes sign-in, GM/player route separation, journal visibility enforced by row-level security, linked location records, and a private cloud map library. The GM can create locations with parent links, player-facing descriptions, visibility settings, and private notes. Private location notes live in a separate table that players cannot read, even when the location itself is visible. The GM can upload and replace PNG, JPEG, WebP, or GIF maps up to 100 MB, connect them to locations, organize maps into a hierarchy, and control player visibility. Artwork is kept in a private Supabase Storage bucket; shared maps use short-lived signed URLs and storage policies check campaign membership and map visibility. The player workspace lists only locations and maps the GM has shared. The interactive atlas viewer, map markers, and overlays remain to be built. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
+The cloud foundation now includes sign-in, GM/player route separation, journal visibility enforced by row-level security, linked location records, a private cloud map library, and an interactive atlas. The GM can create locations with parent links, player-facing descriptions, visibility settings, and private notes. Private location notes live in a separate table that players cannot read, even when the location itself is visible. The GM can upload and replace PNG, JPEG, WebP, or GIF maps up to 100 MB, connect them to locations, organize maps into a hierarchy, and control player visibility. The GM and players can explore accessible maps in the atlas with pan, zoom, fit-to-map, hierarchy navigation, and keyboard controls. Artwork is kept in a private Supabase Storage bucket; shared maps use short-lived signed URLs and storage policies check campaign membership and map visibility. Map markers and overlays remain to be built. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
 
 ### Production deployment status
 

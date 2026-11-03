@@ -45,3 +45,12 @@
 - Established that the main branch occupies Dragonstone and is said to descend from Torag himself; the descent remains a dynastic claim or tradition rather than confirmed divine ancestry.
 - Clarified that the dwarven Great House is associated with this main branch.
 - Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, and Open Questions Register.
+
+ 
+## 2026-11-03 - Great Rebellion and dragon dynasty history confirmed
+- GM confirmed the previously questioned historical details: approximately 400 years of Targaryen rule; exactly twelve dragons at the dynasty's height; exclusive bloodline-based dragon bonding; one dragon per rider; telepathic rider-dragon bond; and the established interpretation of dragons as enormous flying reptilian predators rather than traditional Pathfinder dragons.
+- Confirmed that six Great Houses rebelled for two connected objectives: preserve their political independence against Targaryen centralization and eliminate dragon-riding as the foundation of Targaryen political and military supremacy.
+- Confirmed the multi-year rebellion, dwarven leadership, specialized dragon-slaying ballistas, deaths of most dragons, destruction of nearly the entire Targaryen ruling family, fall of the Imperial Seat, transfer to a different dynasty, and dwarven claim to Dragonstone.
+- Confirmed that one nine-year-old Crown Prince survived the destruction of Dragonstone; his survival remains concealed and his personal name belongs to the player.
+- Expanded `World_History.md` from a provisional outline into an established historical foundation while keeping exact dates, original names, individual house roles, detailed campaigns, and the postwar settlement unresolved.
+- Updated the Campaign Bible's statement of the rebellion's dual objectives and synchronized the Canon Register, Current World State, Decision Log, and Open Questions Register.

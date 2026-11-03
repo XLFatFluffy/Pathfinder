@@ -66,3 +66,12 @@ The political settlement includes House Calderan's legitimate hereditary claim t
 - Khar-Dum is located in the northeastern mountain system and remains distinct from Dragonstone.
 - Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist.
 - These are approved foundations, not a finalized map. Exact dimensions, scale, borders, house seats, geographic names, and precise placements remain unresolved.
+
+## Revised Geography Direction — 2026-11-03
+
+- The continent is deliberately smaller than Westeros. Use approximately 1,700 miles north to south and 1,300 miles east to west at its widest point as the approved working dimensions for the revised map; modest adjustment is acceptable to preserve the atlas's recognizable shape and coherent geography.
+- Preserve the atlas's major geographic identity: frozen north, northern mountain and forest systems, western highlands and forests, central plains and river valleys, central inland sea, northeastern mountains, eastern forests and river delta, southwestern arid region, and southern peninsulas and island chains.
+- The central inland sea should support substantial regional shipping and naval commerce. Keep the southern reaches politically fragmented.
+- The dwarven empire should appear comparatively limited on the surface; its true reach is primarily subterranean and poorly understood by outsiders. Khar-Dum remains in the northeastern mountains, separate from Dragonstone.
+- Minor houses are wealthy lords and ladies with small territories and local holdings. They have local standing but are nearly politically insignificant continent-wide, do not rival Great Houses, and do not automatically hold Imperial Council seats. Do not inflate them into hidden kingmakers or additional Great Houses.
+- The exact regional placements previously proposed for the six Great Houses remain provisional until the revised map is reviewed.

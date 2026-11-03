@@ -93,7 +93,7 @@
           <div class="search-panel">
             <label for="searchInput">Global Search</label>
             <div class="search-row">
-              <input id="searchInput" type="search" placeholder="Search locations, houses, NPCs, factions, maps, quests..." />
+              <input id="searchInput" type="search" placeholder="Search locations, houses, NPCs, factions, maps, quests, discoveries..." />
             </div>
             <div id="searchResults" class="search-results"></div>
           </div>
@@ -448,6 +448,36 @@
           </form>
 
           <div id="sessionList" class="house-list"></div>
+
+          <div class="inventory-subsection">
+            <h4>Player discoveries</h4>
+            <p class="summary-comment">Record information learned by the party. Revealing an entry marks it as player-known; it does not create a player-facing screen.</p>
+            <form id="discoveryForm" class="house-form small-form">
+              <input name="id" type="hidden" />
+              <label>
+                Discovery title
+                <input name="title" type="text" required maxlength="200" />
+              </label>
+              <label>
+                Category
+                <input name="category" type="text" maxlength="100" placeholder="e.g. Rumor, known NPC, discovered location" />
+              </label>
+              <label>
+                Details
+                <textarea name="details" rows="4" maxlength="4000"></textarea>
+              </label>
+              <label class="checkbox-label">
+                <input name="visibleToPlayers" type="checkbox" />
+                Players know this information
+              </label>
+              <div class="house-form-actions">
+                <button id="discoverySubmitButton" type="submit" class="primary-button">Add discovery</button>
+                <button id="discoveryCancelButton" type="button" class="secondary-button" hidden>Cancel edit</button>
+                <span id="discoveryFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="discoveryList" class="house-list"></div>
+          </div>
         </section>
 
         <section id="quests" class="panel">
@@ -541,7 +571,50 @@
               <p class="eyebrow">World Dynamics</p>
               <h3>World Simulation</h3>
             </div>
-            <p class="summary-comment">Model likely outcomes, unrest, and empire-wide developments before they reach play.</p>
+            <p class="summary-comment">Advance campaign time, roll GM-authored event tables, and decide which potential developments become canon.</p>
+          </div>
+
+          <div class="inventory-subsection simulation-clock">
+            <h4>Campaign calendar</h4>
+            <p class="summary-comment">Dates use day-month-year order. Define each month below; the default calendar has twelve 30-day months.</p>
+            <form id="calendarForm" class="house-form small-form">
+              <label>
+                Current date
+                <input name="campaignDate" type="text" required maxlength="20" pattern="[0-9]{1,4}-[0-9]{1,3}-[0-9]{1,6}" placeholder="1-01-0001" />
+              </label>
+              <label class="calendar-months-field">
+                Calendar months (one per line: name: days)
+                <textarea name="months" rows="6" required maxlength="6000" placeholder="Month 1: 30&#10;Month 2: 30"></textarea>
+              </label>
+              <div class="house-form-actions">
+                <button id="calendarSubmitButton" type="submit" class="primary-button">Save calendar</button>
+                <span id="calendarFormMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+
+            <form id="timeAdvanceForm" class="house-form small-form">
+              <label>
+                Advance by
+                <input name="amount" type="number" min="1" max="100000" step="1" value="1" required />
+              </label>
+              <label>
+                Interval
+                <select name="unit">
+                  <option value="day">Day(s)</option>
+                  <option value="week">Week(s)</option>
+                  <option value="month">Month(s)</option>
+                  <option value="year">Year(s)</option>
+                  <option value="custom">Custom number of days</option>
+                </select>
+              </label>
+              <div class="house-form-actions">
+                <button id="timeAdvanceButton" type="submit" class="primary-button">Advance time</button>
+                <span id="timeAdvanceMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <p class="summary-comment">Each advance rolls once per event-table group. Results remain suggestions until you approve them.</p>
+            <h4>Simulation cycles</h4>
+            <div id="simulationCycleList" class="house-list"></div>
           </div>
 
           <form id="simulationForm" class="house-form">
@@ -583,7 +656,11 @@
             <form id="simulationTableForm" class="house-form small-form">
               <input name="id" type="hidden" />
               <label>
-                Table name
+                Event table name
+                <input name="groupName" type="text" required maxlength="120" placeholder="e.g. Kingdom Events" />
+              </label>
+              <label>
+                Outcome name
                 <input name="name" type="text" required maxlength="160" />
               </label>
               <label>
@@ -591,8 +668,8 @@
                 <input name="category" type="text" maxlength="200" />
               </label>
               <label>
-                Roll range
-                <input name="rollRange" type="text" maxlength="200" placeholder="1d100, 1-20, etc." />
+                Roll range (optional; all entries in a table must use ranges or weights)
+                <input name="rollRange" type="text" maxlength="30" placeholder="1-20; leave blank to use weight" />
               </label>
               <label>
                 Weight
@@ -609,6 +686,7 @@
               </div>
             </form>
             <div id="simulationTableList" class="house-list"></div>
+            <p class="summary-comment">Each table group is rolled once per time advance. Numeric ranges are inclusive; gaps can produce a roll with no selected outcome. If all ranges are blank, entries are selected by weight.</p>
           </div>
 
           <div id="simulationList" class="house-list"></div>
@@ -635,12 +713,47 @@
               Game Master
               <input name="gm_name" type="text" />
             </label>
-            <label>
-              Campaign date
-              <input name="campaign_date" type="text" />
-            </label>
             <button type="submit" class="primary-button">Save settings</button>
           </form>
+
+          <section class="data-transfer-panel" aria-labelledby="dataTransferHeading">
+            <h4 id="dataTransferHeading">Campaign JSON for review and handoff</h4>
+            <p class="summary-comment">Export a portable campaign snapshot to review with an external assistant. No AI service is connected to this app.</p>
+            <p class="data-warning"><strong>GM-only information is included.</strong> Exports can contain secrets, private notes, and unrevealed discoveries. Review the file before sharing it.</p>
+
+            <form id="campaignExportForm" class="data-transfer-form">
+              <fieldset>
+                <legend>Include categories</legend>
+                <label class="checkbox-label"><input type="checkbox" name="category" value="world" checked /> World and maps</label>
+                <label class="checkbox-label"><input type="checkbox" name="category" value="people" checked /> Houses, NPCs, and factions</label>
+                <label class="checkbox-label"><input type="checkbox" name="category" value="commerce" checked /> Shops and inventory</label>
+                <label class="checkbox-label"><input type="checkbox" name="category" value="campaign" checked /> Quests, sessions, timeline, and discoveries</label>
+                <label class="checkbox-label"><input type="checkbox" name="category" value="simulation" checked /> Simulation tables, cycles, and outcomes</label>
+              </fieldset>
+              <div class="house-form-actions">
+                <button type="submit" class="primary-button">Download campaign JSON</button>
+                <span id="campaignExportMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+
+            <form id="campaignImportForm" class="data-transfer-form">
+              <h4>Import a campaign JSON file</h4>
+              <label>
+                Pathfinder campaign export (JSON, up to 24 MB)
+                <input name="file" type="file" accept=".json,application/json" required />
+              </label>
+              <label class="checkbox-label">
+                <input name="overwriteSettings" type="checkbox" />
+                Replace settings that differ (records are never overwritten)
+              </label>
+              <div class="house-form-actions">
+                <button id="campaignImportPreviewButton" type="submit" class="secondary-button">Validate and preview</button>
+                <button id="campaignImportApplyButton" type="button" class="primary-button" disabled>Import non-conflicting records</button>
+                <span id="campaignImportMessage" class="form-message" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+            <div id="campaignImportPreview" class="import-preview" aria-live="polite"></div>
+          </section>
 
           <div class="backup-panel">
             <h4>Backup status</h4>
@@ -712,6 +825,48 @@
         </section>
       </main>
     </div>
+
+    <dialog id="simulationResultDialog" class="location-dialog simulation-result-dialog">
+      <form id="simulationResultForm">
+        <div class="location-dialog-heading">
+          <div>
+            <p class="eyebrow">Proposed Development</p>
+            <h3>Edit simulation result</h3>
+          </div>
+          <button id="simulationResultClose" type="button" class="secondary-button">Close</button>
+        </div>
+        <input name="id" type="hidden" />
+        <label class="dialog-field">
+          Event title
+          <input name="title" type="text" required maxlength="200" />
+        </label>
+        <label class="dialog-field">
+          Category
+          <input name="category" type="text" maxlength="4000" />
+        </label>
+        <label class="dialog-field">
+          Event date
+          <input name="eventDate" type="text" maxlength="200" />
+        </label>
+        <label class="dialog-field">
+          Location (optional)
+          <input name="locationName" type="text" maxlength="4000" />
+        </label>
+        <label class="dialog-field">
+          Involved NPCs, houses, or factions (optional)
+          <textarea name="involvedText" rows="2" maxlength="4000"></textarea>
+        </label>
+        <label class="dialog-field">
+          Description
+          <textarea name="description" rows="4" maxlength="4000"></textarea>
+        </label>
+        <p id="simulationResultFormMessage" class="form-message" role="status" aria-live="polite"></p>
+        <div class="location-dialog-actions">
+          <button type="submit" class="primary-button">Save development</button>
+          <button id="simulationResultCancel" type="button" class="secondary-button">Cancel</button>
+        </div>
+      </form>
+    </dialog>
 
     <dialog id="locationDialog" class="location-dialog">
       <form id="locationForm">

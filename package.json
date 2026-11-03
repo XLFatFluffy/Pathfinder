@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "test": "node --check server.js && node --check src/db.js && node --check public/app.js"
+    "test": "node --check server.js && node --check src/db.js && node --check src/calendar.js && node --check src/campaign-data.js && node --check public/app.js && node --test"
   },
   "repository": {
     "type": "git",

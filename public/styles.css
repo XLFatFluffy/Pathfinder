@@ -594,6 +594,82 @@ textarea, select {
   color: var(--muted);
 }
 
+.data-transfer-panel {
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(20, 32, 40, 0.8);
+}
+
+.data-transfer-panel > h4,
+.data-transfer-form h4 {
+  margin: 0;
+}
+
+.data-warning {
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--accent-strong);
+  color: var(--muted);
+  background: rgba(209, 176, 114, 0.08);
+  line-height: 1.5;
+}
+
+.data-transfer-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(14, 22, 30, 0.55);
+}
+
+.data-transfer-form fieldset {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.6rem 1rem;
+  border: 0;
+  padding: 0;
+}
+
+.data-transfer-form legend {
+  margin-bottom: 0.6rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.data-transfer-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--muted);
+}
+
+.data-transfer-form input[type="file"] {
+  max-width: 100%;
+}
+
+.data-transfer-form .house-form-actions {
+  grid-column: auto;
+}
+
+.import-preview {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.import-preview ul {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.import-preview .import-issue {
+  color: var(--accent-strong);
+}
+
 .backup-list {
   display: grid;
   gap: 0.7rem;
@@ -684,6 +760,95 @@ textarea, select {
 
 .house-form textarea {
   resize: vertical;
+}
+
+.simulation-clock {
+  margin: 1.5rem 0 2rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(20, 32, 40, 0.55);
+}
+
+.simulation-clock > h4:not(:first-child) {
+  margin-top: 1.8rem;
+}
+
+.simulation-clock .summary-comment {
+  margin-top: 0.4rem;
+}
+
+.simulation-result-list {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.simulation-result-card {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(14, 22, 30, 0.7);
+}
+
+.simulation-result-card h5 {
+  margin: 0.3rem 0 0;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.simulation-result-card > p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.simulation-result-card .house-card-actions {
+  flex-wrap: wrap;
+}
+
+.simulation-roll-list {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.simulation-roll {
+  padding: 0.65rem 0.8rem;
+  border-radius: 8px;
+  background: rgba(8, 14, 19, 0.7);
+  color: var(--muted);
+}
+
+.simulation-roll span {
+  margin-left: 0.6rem;
+  color: var(--accent-strong);
+}
+
+.simulation-result-dialog .dialog-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.simulation-result-dialog input,
+.simulation-result-dialog textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: rgba(8, 14, 19, 0.75);
+  color: var(--text);
+  font: inherit;
+}
+
+.simulation-result-dialog textarea {
+  resize: vertical;
+}
+
+.calendar-months-field {
+  grid-column: 1 / -1;
 }
 
 .house-private-notes,

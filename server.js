@@ -19,6 +19,68 @@ const {
   createHouse,
   updateHouse,
   deleteHouse,
+  listNpcs,
+  getNpc,
+  createNpc,
+  updateNpc,
+  deleteNpc,
+  listFactions,
+  getFaction,
+  createFaction,
+  updateFaction,
+  deleteFaction,
+  listShops,
+  getShop,
+  createShop,
+  updateShop,
+  deleteShop,
+  listShopInventory,
+  getShopInventoryItem,
+  createShopInventoryItem,
+  updateShopInventoryItem,
+  deleteShopInventoryItem,
+  listEventTables,
+  getEventTable,
+  createEventTable,
+  updateEventTable,
+  deleteEventTable,
+  listQuests,
+  getQuest,
+  createQuest,
+  updateQuest,
+  deleteQuest,
+  listSessions,
+  getSession,
+  createSession,
+  updateSession,
+  deleteSession,
+  listPlayerDiscoveries,
+  getPlayerDiscovery,
+  createPlayerDiscovery,
+  updatePlayerDiscovery,
+  deletePlayerDiscovery,
+  listTimelineEvents,
+  getTimelineEvent,
+  createTimelineEvent,
+  updateTimelineEvent,
+  deleteTimelineEvent,
+  listSimulationEvents,
+  getSimulationEvent,
+  createSimulationEvent,
+  updateSimulationEvent,
+  deleteSimulationEvent,
+  listSimulationCycles,
+  getCampaignCalendar,
+  saveCampaignCalendar,
+  advanceCampaignTime,
+  listSimulationRolls,
+  listSimulationResults,
+  getSimulationResult,
+  updateSimulationResult,
+  decideSimulationResult,
+  exportCampaignData,
+  previewCampaignImport,
+  importCampaignData,
   createMap,
   updateMap,
   deleteMap,
@@ -60,7 +122,7 @@ const upload = multer({
 
 initializeDatabase();
 
-app.use(express.json({ limit: '2mb' }));
+app.use(express.json({ limit: '25mb' }));
 app.use('/vendor/leaflet', express.static(path.join(__dirname, 'node_modules', 'leaflet', 'dist')));
 app.use(express.static(publicDir));
 
@@ -117,6 +179,45 @@ app.post('/api/backups', (req, res) => {
   }
 });
 
+app.get('/api/data/export', (req, res) => {
+  try {
+    const categories = req.query.categories
+      ? String(req.query.categories).split(',').map((category) => category.trim()).filter(Boolean)
+      : undefined;
+    const data = exportCampaignData(categories);
+    const dateStamp = new Date().toISOString().slice(0, 10);
+    res.setHeader('Content-Disposition', `attachment; filename="pathfinder-campaign-${dateStamp}.json"`);
+    return res.json(data);
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to export campaign data.' });
+  }
+});
+
+app.post('/api/data/import/preview', (req, res) => {
+  try {
+    const { payload, options = {} } = req.body || {};
+    return res.json(previewCampaignImport(payload, options).report);
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to validate campaign import.' });
+  }
+});
+
+app.post('/api/data/import', (req, res) => {
+  try {
+    const { payload, options = {} } = req.body || {};
+    const report = importCampaignData(payload, options);
+    return res.json({ report });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to import campaign data.' });
+  }
+});
+
 app.get('/api/houses', (req, res) => {
   res.json({ houses: listHouses() });
 });
@@ -167,6 +268,600 @@ app.delete('/api/houses/:id', (req, res) => {
     }
     console.error(error);
     return res.status(500).json({ error: error.message || 'Unable to delete house.' });
+  }
+});
+
+app.get('/api/npcs', (req, res) => {
+  res.json({ npcs: listNpcs() });
+});
+
+app.get('/api/npcs/:id', (req, res) => {
+  const npc = getNpc(req.params.id);
+  if (!npc) {
+    return res.status(404).json({ error: 'NPC not found.' });
+  }
+  return res.json({ npc });
+});
+
+app.post('/api/npcs', (req, res) => {
+  try {
+    const npc = createNpc(req.body || {});
+    return res.status(201).json({ npc });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create NPC.' });
+  }
+});
+
+app.put('/api/npcs/:id', (req, res) => {
+  try {
+    const npc = updateNpc(req.params.id, req.body || {});
+    if (!npc) {
+      return res.status(404).json({ error: 'NPC not found.' });
+    }
+    return res.json({ npc });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update NPC.' });
+  }
+});
+
+app.delete('/api/npcs/:id', (req, res) => {
+  try {
+    const npc = deleteNpc(req.params.id);
+    if (!npc) {
+      return res.status(404).json({ error: 'NPC not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete NPC.' });
+  }
+});
+
+app.get('/api/factions', (req, res) => {
+  res.json({ factions: listFactions() });
+});
+
+app.get('/api/factions/:id', (req, res) => {
+  const faction = getFaction(req.params.id);
+  if (!faction) {
+    return res.status(404).json({ error: 'Faction not found.' });
+  }
+  return res.json({ faction });
+});
+
+app.post('/api/factions', (req, res) => {
+  try {
+    const faction = createFaction(req.body || {});
+    return res.status(201).json({ faction });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create faction.' });
+  }
+});
+
+app.put('/api/factions/:id', (req, res) => {
+  try {
+    const faction = updateFaction(req.params.id, req.body || {});
+    if (!faction) {
+      return res.status(404).json({ error: 'Faction not found.' });
+    }
+    return res.json({ faction });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update faction.' });
+  }
+});
+
+app.delete('/api/factions/:id', (req, res) => {
+  try {
+    const faction = deleteFaction(req.params.id);
+    if (!faction) {
+      return res.status(404).json({ error: 'Faction not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete faction.' });
+  }
+});
+
+app.get('/api/shops', (req, res) => {
+  res.json({ shops: listShops() });
+});
+
+app.get('/api/shops/:id', (req, res) => {
+  const shop = getShop(req.params.id);
+  if (!shop) {
+    return res.status(404).json({ error: 'Shop not found.' });
+  }
+  return res.json({ shop });
+});
+
+app.post('/api/shops', (req, res) => {
+  try {
+    const shop = createShop(req.body || {});
+    return res.status(201).json({ shop });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create shop.' });
+  }
+});
+
+app.put('/api/shops/:id', (req, res) => {
+  try {
+    const shop = updateShop(req.params.id, req.body || {});
+    if (!shop) {
+      return res.status(404).json({ error: 'Shop not found.' });
+    }
+    return res.json({ shop });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update shop.' });
+  }
+});
+
+app.delete('/api/shops/:id', (req, res) => {
+  try {
+    const shop = deleteShop(req.params.id);
+    if (!shop) {
+      return res.status(404).json({ error: 'Shop not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete shop.' });
+  }
+});
+
+app.get('/api/shops/:id/inventory', (req, res) => {
+  const shopId = req.params.id;
+  const shop = getShop(shopId);
+  if (!shop) {
+    return res.status(404).json({ error: 'Shop not found.' });
+  }
+  return res.json({ inventory: listShopInventory(shopId) });
+});
+
+app.post('/api/shops/:id/inventory', (req, res) => {
+  const shopId = req.params.id;
+  const shop = getShop(shopId);
+  if (!shop) {
+    return res.status(404).json({ error: 'Shop not found.' });
+  }
+
+  try {
+    const item = createShopInventoryItem(shopId, req.body || {});
+    return res.status(201).json({ item });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create inventory item.' });
+  }
+});
+
+app.put('/api/shops/:id/inventory/:inventoryId', (req, res) => {
+  const shopId = req.params.id;
+  const inventoryId = req.params.inventoryId;
+  const shop = getShop(shopId);
+  if (!shop) {
+    return res.status(404).json({ error: 'Shop not found.' });
+  }
+
+  try {
+    const item = updateShopInventoryItem(inventoryId, { ...req.body, shop_id: shopId });
+    if (!item) {
+      return res.status(404).json({ error: 'Inventory item not found.' });
+    }
+    return res.json({ item });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update inventory item.' });
+  }
+});
+
+app.delete('/api/shops/:id/inventory/:inventoryId', (req, res) => {
+  const shopId = req.params.id;
+  const inventoryId = req.params.inventoryId;
+  const shop = getShop(shopId);
+  if (!shop) {
+    return res.status(404).json({ error: 'Shop not found.' });
+  }
+
+  try {
+    const item = deleteShopInventoryItem(inventoryId);
+    if (!item) {
+      return res.status(404).json({ error: 'Inventory item not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete inventory item.' });
+  }
+});
+
+app.get('/api/simulation/tables', (req, res) => {
+  res.json({ tables: listEventTables() });
+});
+
+app.get('/api/simulation/tables/:id', (req, res) => {
+  const table = getEventTable(req.params.id);
+  if (!table) {
+    return res.status(404).json({ error: 'Simulation event table not found.' });
+  }
+  return res.json({ table });
+});
+
+app.post('/api/simulation/tables', (req, res) => {
+  try {
+    const table = createEventTable(req.body || {});
+    return res.status(201).json({ table });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create simulation table.' });
+  }
+});
+
+app.put('/api/simulation/tables/:id', (req, res) => {
+  try {
+    const table = updateEventTable(req.params.id, req.body || {});
+    if (!table) {
+      return res.status(404).json({ error: 'Simulation event table not found.' });
+    }
+    return res.json({ table });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update simulation table.' });
+  }
+});
+
+app.delete('/api/simulation/tables/:id', (req, res) => {
+  try {
+    const table = deleteEventTable(req.params.id);
+    if (!table) {
+      return res.status(404).json({ error: 'Simulation event table not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete simulation table.' });
+  }
+});
+
+app.get('/api/simulation/results/:id', (req, res) => {
+  const result = getSimulationResult(req.params.id);
+  if (!result) {
+    return res.status(404).json({ error: 'Simulation development not found.' });
+  }
+  return res.json({ result });
+});
+
+app.put('/api/simulation/results/:id', (req, res) => {
+  try {
+    const result = updateSimulationResult(req.params.id, req.body || {});
+    if (!result) {
+      return res.status(404).json({ error: 'Simulation development not found.' });
+    }
+    return res.json({ result });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to edit simulation development.' });
+  }
+});
+
+app.post('/api/simulation/results/:id/decision', (req, res) => {
+  try {
+    const result = decideSimulationResult(req.params.id, req.body?.decision);
+    if (!result) {
+      return res.status(404).json({ error: 'Simulation development not found.' });
+    }
+    return res.json({ result });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to record simulation decision.' });
+  }
+});
+
+app.get('/api/quests', (req, res) => {
+  res.json({ quests: listQuests() });
+});
+
+app.get('/api/quests/:id', (req, res) => {
+  const quest = getQuest(req.params.id);
+  if (!quest) {
+    return res.status(404).json({ error: 'Quest not found.' });
+  }
+  return res.json({ quest });
+});
+
+app.post('/api/quests', (req, res) => {
+  try {
+    const quest = createQuest(req.body || {});
+    return res.status(201).json({ quest });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create quest.' });
+  }
+});
+
+app.put('/api/quests/:id', (req, res) => {
+  try {
+    const quest = updateQuest(req.params.id, req.body || {});
+    if (!quest) {
+      return res.status(404).json({ error: 'Quest not found.' });
+    }
+    return res.json({ quest });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update quest.' });
+  }
+});
+
+app.delete('/api/quests/:id', (req, res) => {
+  try {
+    const quest = deleteQuest(req.params.id);
+    if (!quest) {
+      return res.status(404).json({ error: 'Quest not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete quest.' });
+  }
+});
+
+app.get('/api/sessions', (req, res) => {
+  res.json({ sessions: listSessions() });
+});
+
+app.get('/api/sessions/:id', (req, res) => {
+  const session = getSession(req.params.id);
+  if (!session) {
+    return res.status(404).json({ error: 'Session not found.' });
+  }
+  return res.json({ session });
+});
+
+app.post('/api/sessions', (req, res) => {
+  try {
+    const session = createSession(req.body || {});
+    return res.status(201).json({ session });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create session log.' });
+  }
+});
+
+app.put('/api/sessions/:id', (req, res) => {
+  try {
+    const session = updateSession(req.params.id, req.body || {});
+    if (!session) {
+      return res.status(404).json({ error: 'Session not found.' });
+    }
+    return res.json({ session });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update session log.' });
+  }
+});
+
+app.delete('/api/sessions/:id', (req, res) => {
+  try {
+    const session = deleteSession(req.params.id);
+    if (!session) {
+      return res.status(404).json({ error: 'Session not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete session log.' });
+  }
+});
+
+app.get('/api/discoveries', (req, res) => {
+  res.json({ discoveries: listPlayerDiscoveries() });
+});
+
+app.get('/api/discoveries/:id', (req, res) => {
+  const discovery = getPlayerDiscovery(req.params.id);
+  if (!discovery) {
+    return res.status(404).json({ error: 'Player discovery not found.' });
+  }
+  return res.json({ discovery });
+});
+
+app.post('/api/discoveries', (req, res) => {
+  try {
+    const discovery = createPlayerDiscovery(req.body || {});
+    return res.status(201).json({ discovery });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create player discovery.' });
+  }
+});
+
+app.put('/api/discoveries/:id', (req, res) => {
+  try {
+    const discovery = updatePlayerDiscovery(req.params.id, req.body || {});
+    if (!discovery) {
+      return res.status(404).json({ error: 'Player discovery not found.' });
+    }
+    return res.json({ discovery });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update player discovery.' });
+  }
+});
+
+app.delete('/api/discoveries/:id', (req, res) => {
+  try {
+    const discovery = deletePlayerDiscovery(req.params.id);
+    if (!discovery) {
+      return res.status(404).json({ error: 'Player discovery not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete player discovery.' });
+  }
+});
+
+app.get('/api/timeline', (req, res) => {
+  res.json({ timeline: listTimelineEvents() });
+});
+
+app.get('/api/timeline/:id', (req, res) => {
+  const event = getTimelineEvent(req.params.id);
+  if (!event) {
+    return res.status(404).json({ error: 'Timeline event not found.' });
+  }
+  return res.json({ event });
+});
+
+app.post('/api/timeline', (req, res) => {
+  try {
+    const event = createTimelineEvent(req.body || {});
+    return res.status(201).json({ event });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create timeline event.' });
+  }
+});
+
+app.put('/api/timeline/:id', (req, res) => {
+  try {
+    const event = updateTimelineEvent(req.params.id, req.body || {});
+    if (!event) {
+      return res.status(404).json({ error: 'Timeline event not found.' });
+    }
+    return res.json({ event });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update timeline event.' });
+  }
+});
+
+app.delete('/api/timeline/:id', (req, res) => {
+  try {
+    const event = deleteTimelineEvent(req.params.id);
+    if (!event) {
+      return res.status(404).json({ error: 'Timeline event not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete timeline event.' });
+  }
+});
+
+app.get('/api/simulation/clock', (req, res) => {
+  const cycles = listSimulationCycles().map((cycle) => ({
+    ...cycle,
+    results: listSimulationResults(cycle.id),
+    rolls: listSimulationRolls(cycle.id)
+  }));
+  res.json({ calendar: getCampaignCalendar(), cycles });
+});
+
+app.put('/api/simulation/clock/calendar', (req, res) => {
+  try {
+    const calendar = saveCampaignCalendar(req.body?.campaignDate, req.body?.months);
+    return res.json({ calendar });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to save the campaign calendar.' });
+  }
+});
+
+app.post('/api/simulation/clock/advance', (req, res) => {
+  try {
+    const cycle = advanceCampaignTime(Number(req.body?.amount), req.body?.unit);
+    return res.status(201).json({ cycle, calendar: getCampaignCalendar() });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to advance campaign time.' });
+  }
+});
+
+app.get('/api/simulation', (req, res) => {
+  res.json({ simulation: listSimulationEvents() });
+});
+
+app.get('/api/simulation/:id', (req, res) => {
+  const event = getSimulationEvent(req.params.id);
+  if (!event) {
+    return res.status(404).json({ error: 'Simulation event not found.' });
+  }
+  return res.json({ event });
+});
+
+app.post('/api/simulation', (req, res) => {
+  try {
+    const event = createSimulationEvent(req.body || {});
+    return res.status(201).json({ event });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to create simulation event.' });
+  }
+});
+
+app.put('/api/simulation/:id', (req, res) => {
+  try {
+    const event = updateSimulationEvent(req.params.id, req.body || {});
+    if (!event) {
+      return res.status(404).json({ error: 'Simulation event not found.' });
+    }
+    return res.json({ event });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to update simulation event.' });
+  }
+});
+
+app.delete('/api/simulation/:id', (req, res) => {
+  try {
+    const event = deleteSimulationEvent(req.params.id);
+    if (!event) {
+      return res.status(404).json({ error: 'Simulation event not found.' });
+    }
+    return res.json({ deleted: true });
+  } catch (error) {
+    const status = error.statusCode || 500;
+    if (status === 500) console.error(error);
+    return res.status(status).json({ error: error.message || 'Unable to delete simulation event.' });
   }
 });
 
@@ -394,7 +1089,7 @@ app.use((error, req, res, next) => {
     next(error);
     return;
   }
-  const status = error instanceof multer.MulterError ? 400 : (error.statusCode || 500);
+  const status = error instanceof multer.MulterError ? 400 : (error.statusCode || error.status || 500);
   if (status === 500) {
     console.error(error);
   }

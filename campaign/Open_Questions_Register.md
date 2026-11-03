@@ -18,7 +18,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
-| OQ-007 | P1 | Great houses | What are the identities, seats, territories, rulers, resources, and relationships of the six major houses? The current ruling house is one of the original six rebel houses, but its identity remains unresolved. Its head was installed as a compromise candidate and is a puppet monarch; who controls or influences him remains unknown. | PARTIALLY ESTABLISHED |
+| OQ-007 | P1 | Great houses | The six houses are established as Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen, with approved identities and relationships recorded in the Campaign Bible. Their exact seats, territorial borders, current heads and heirs, and detailed house histories remain open. The identities and leadership of the Imperial Council and competing factions also remain open. | PARTIALLY RESOLVED; core identities ESTABLISHED |
 | OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | What are the continent's final name, regions, borders, rivers, roads, and seas? | UNRESOLVED |
@@ -40,5 +40,14 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 ## Imperial Settlement: Remaining Questions
 - Which Great Houses comprise the council or coalition influencing the monarch?
 - Which competing factions are pulling the monarch in different directions, and what do they want?
-- How does the monarch's legitimate family claim work, and how strong is it legally or traditionally?
-- What formal powers does the Imperial Seat possess, and what mechanisms allow the Great Houses to constrain it?
+- What specific genealogical records, marriages, hereditary titles, and historical events substantiate the Calderan family's legitimate claim?
+- What are the exact membership, voting or approval procedures, and customary practices of the Imperial Council?
+
+
+## Great Houses — remaining questions
+- Where are the six houses' territories and principal seats located on the final continent map?
+- Who are the current heads, heirs, and significant branches of each house?
+- Which houses and individuals hold seats on the Imperial Council in practice, and how are its procedures applied?
+- Who leads the Royal Court, Traditionalists, Royal Expansionists, Merchant Interests, and Religious Establishment, and what are their actual memberships and influence?
+- What were each house's specific campaigns, commanders, alliances, and sacrifices during the Great Rebellion?
+- What is the final in-world name of Dragonstone, the conquered ancestral stronghold of the fallen dragon-riding dynasty?

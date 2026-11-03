@@ -1770,17 +1770,23 @@ The monarch's family has a legitimate claim to the Imperial Seat. He retains sub
 **Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously referred to by the legacy placeholder House Baratheon. References to House Baratheon in older imported source passages are superseded by House Kharadorn. Dragonstone remains a provisional working name for the conquered former Targaryen stronghold, not the Kharadorns' ancestral homeland.
 
 
-## Stage 5 — Continental Geography: Approved Foundations (2026-11-03)
+## Stage 5 — Continental Geography: Approved Foundations (2026-11-03; revised 2026-11-03)
 
 The following geographic foundations are **ESTABLISHED**. They do not yet establish exact borders, coordinates, regional names, or house seats.
 
 ### Continental scale
-- The continent is vast and follows the larger scale implied by the uploaded atlas, rather than being comparable in size to Westeros.
-- The atlas's printed scale bar is not yet accepted as an accurate measurement. Exact dimensions, distances, and travel times remain to be established.
-- The uploaded atlas remains a provisional visual reference. Its overall large-scale concept is approved, but its precise geography and labels are not automatically canon.
+- The continent is a large but manageable landmass, deliberately smaller than Westeros for the intended campaign scope.
+- **APPROVED WORKING DIMENSIONS:** approximately 1,700 miles north to south and 1,300 miles east to west at its widest point. These are design dimensions for the revised map, not surveyed measurements; modest adjustment may be made to preserve the atlas's recognizable shape and coherent geography.
+- The uploaded atlas's printed scale bar is superseded and must be recalibrated to the revised dimensions.
+- Preserve the atlas's overall geographic identity and arrangement as closely as practical rather than redesigning the continent from scratch. Its precise terrain, labels, and borders remain subject to the revised map.
+
+### Major geographic character
+- Retain the frozen northern wilderness; northern mountain and forest systems; western highlands and forests; broad central plains and river valleys; enormous central inland sea; northeastern mountains; eastern forests and river delta; southwestern arid region; and southern peninsulas and island chains.
+- Physical geography should be internally coherent: mountain systems should explain river sources and watersheds; rivers should support fertile valleys, trade, and settlement; and coastlines, passes, and waterways should create plausible strategic routes and chokepoints.
+- The central inland sea is large enough to support substantial regional shipping, naval commerce, and important ports. It functions as a major inland waterway for the surrounding powers.
 
 ### Central inland sea and Dragonstone
-- The enormous central inland sea is retained as a major geographic feature.
+- The enormous central inland sea is retained as a defining geographic feature.
 - Dragonstone, the provisional legacy name for the fallen dragon-riding dynasty's ancestral stronghold, is an island within this inland sea.
 - A narrow natural land bridge connects Dragonstone to the mainland. It is the only known surface route onto or off the island that does not involve dragons.
 - **GM-ONLY SECRET — ESTABLISHED:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The existence of this route is unknown to the rest of the world.
@@ -1789,14 +1795,23 @@ The following geographic foundations are **ESTABLISHED**. They do not yet establ
 ### Dwarven homeland
 - Khar-Dum, the Kharadorns' ancestral homeland, is located in the northeastern mountain system.
 - Khar-Dum and Dragonstone are separate places. Khar-Dum is ancestral; Dragonstone is a conquered possession of the dwarven empire.
+- The dwarven empire's visible surface territory should appear comparatively limited. Its true reach and strength are primarily subterranean, and outsiders have an incomplete understanding of the extent of its underground domains.
 
-### Great House territorial structure
+### Great House and minor-house territorial structure
 - Each of the six Great Houses controls a substantial, clearly defined territory.
-- The continent is not divided exclusively among the six houses. Smaller noble houses, independent settlements, lesser political powers, and other territories may exist within the wider political landscape.
-- Exact territorial borders, house seats, and the placement of individual holdings remain unresolved.
+- The continent is not divided exclusively among the six Great Houses. Smaller noble houses, independent settlements, lesser political powers, and other territories also exist.
+- **MINOR HOUSES — ESTABLISHED CATEGORY:** Minor houses are wealthy lords and ladies who hold relatively small territories, estates, castles, or local holdings. They possess money, property, household retainers, and local standing, but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses, hold seats on the Imperial Council by virtue of being minor houses, or ordinarily determine the balance of power between the major dynasties.
+- A minor house may owe allegiance to a Great House, the Crown, or another local authority; some may hold their lands under more unusual arrangements. Their exact number, names, ancestry, allegiances, seats, and individual fortunes remain to be developed.
+- Minor houses can matter locally without becoming major political actors. Their wealth should not automatically translate into continental influence.
+- The southern reaches should remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses.
+
+### Regional and house placement status
+- The broad physical features above are established design direction.
+- The previously suggested placement of Vaelorian in the western highlands, Edarth in the western heartlands, Calderan in the central river basin, Veyr in the north, Kharadorn in the northeastern mountains, and Merrowen along the eastern coast remains a **PROPOSAL**, not a final territorial map.
+- The exact distribution of regions, borders, house seats, minor holdings, rivers, roads, ports, and settlements will be settled through the revised map.
 
 ### Still unresolved
-- Exact continental dimensions, accurate map scale, and travel distances.
+- Final continental dimensions and exact cartographic scale after the revised map is generated.
 - Final names for the continent, inland sea, island, land bridge, mountain systems, rivers, and regions.
-- Exact placement and borders of all six Great House territories.
+- Exact placement and borders of all six Great House territories and the locations, names, and allegiances of minor houses.
 - The specific route, entrances, and construction history of the dwarven underground access to Dragonstone.

@@ -24,6 +24,7 @@ This file tracks major setting decisions and their status. It does not replace d
 | Divine magic | ESTABLISHED | Exists mechanically; source remains uncertain |
 | Ratfolk | ESTABLISHED | Subterranean, decentralized, marginalized in some surface societies; not inherently evil or criminal |
 | Elven great house | APPROVED | The wealthy, politically influential great-house archetype is to be an elven dynasty; final identity, territory, culture, and power base are undecided |
+| Player character relationship | ESTABLISHED | The two PCs already know each other before Session One; exact relationship history and dynamic remain to be documented. |
 | Continent map | UNRESOLVED | Uploaded atlas is provisional reference artwork, not final geography |
 | Legacy names and history | UNRESOLVED | Existing names and direct analogues require original renaming and substantial reworking |
 | GM authority | ESTABLISHED | GM approves whether generated events become canon |
@@ -41,3 +42,4 @@ This file tracks major setting decisions and their status. It does not replace d
 |---|---|
 | 2026-11-03 | Initial register created from the imported Campaign Bible and current project decisions. |
 | 2026-11-03 | Clarified elven great-house archetype, provisional map status, originality requirements, and high-medieval technology decision. |
+| 2026-11-03 | Recorded that the two player characters already know each other before Session One; their exact relationship history remains open. |

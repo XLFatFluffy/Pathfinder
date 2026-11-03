@@ -69,3 +69,10 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM explicitly confirmed the previously questioned historical details and clarified that the rebellion's two objectives were both intentional: independence and elimination of dragon-riding so the Targaryens could no longer hold power.
 **Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`.
 **Still unresolved:** Exact dates, original names, individual roles of the six houses, battle chronology, new dynasty, capital, and postwar settlement.
+
+
+### 2026-11-03 — Post-rebellion ruling sequence clarified
+**Status:** ESTABLISHED sequence; identities and transition details unresolved  
+**Decision:** Following the fall of the Targaryens, the dwarven leader and the Baratheon-inspired house held power. At a later point, another of the continent's major houses took the Imperial Seat. The current ruling dynasty is one of the major houses. The identity of that house, the duration and exact form of the dwarven leader's rule, and the circumstances of the later transfer remain unresolved.
+**Reason:** The GM clarified that the Baratheon-inspired dwarven leader held power following the fall, but a different major house now occupies the Imperial Seat.
+**Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`.

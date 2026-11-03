@@ -152,54 +152,98 @@ The characters are not automatically important to the world's political events. 
 influential through their own decisions and actions.
 
 4.2 The Six Great Houses
-Six major houses dominate the continent's political landscape.
 
-These houses were responsible for the destruction of House Targaryen and represent some of the
-most powerful political and military forces in the setting.
+Six Great Houses dominate the continent's political landscape. They united to overthrow the dragon-riding dynasty during the Great Rebellion approximately 200–300 years ago. Their alliance was built around shared objectives, not necessarily shared interests in the political order that followed.
 
-Their individual names, histories, territories, heraldry, and political relationships are still being
-developed.
+House Vaelorian — Elven Great House
+- Words: “Wealth Endures. Power Remembers.”
+- Sigil: A golden sun rising behind a black tree on a deep crimson field.
+- A wealthy, cultured, calculating, and politically dangerous dynasty.
+- Its power rests on valuable mines, trade routes, banking interests, prosperous commercial cities, lending, debts, contracts, diplomatic connections, and well-funded professional forces.
+- Elven longevity supports long-term political patience. The house contains internal divisions between traditionalists and members more integrated into human commercial society, as well as branches with conflicting commercial interests.
+- Its political aim is to influence the Imperial Seat without needing to occupy it, preserve trade and stability, maintain noble autonomy, and prevent an over-powerful monarch. Its influence can damage rivals through debt and commerce without declaring war.
 
-Several ancestry associations and house concepts have been established.
+House Kharadorn — Dwarven Great House
+- Words: “Stone Remembers. Blood Endures.”
+- Sigil: A black mountain crowned by a silver hammer on a dark red field.
+- The Great House is associated with the main branch of the enduring dwarven empire, whose several independent clans are united under that branch.
+- Khar-Dum is the Kharadorns' ancestral homeland and historic center. Dragonstone was not their ancestral home: it was the ancestral stronghold of the fallen dragon-riding dynasty, captured by the dwarves through conquest during the Great Rebellion and retained after the dynasty's destruction.
+- The main branch is said to descend from Torag himself. This remains a dynastic claim or tradition, not a confirmed fact of divine ancestry.
+- The clans retain their own identities, customs, leadership, and internal authority while recognizing the main branch through ancient agreements, clan obligations, shared ancestry, and legitimacy.
+- Dwarven culture prizes ancestry, craftsmanship, military discipline, personal honor, oaths, clan histories, and pride.
+- Its power rests on defensible mountain and underground settlements, heavy infantry, metalworking, weaponsmithing, clan obligations, siege engineering, and underground routes and fortifications.
+- It was the principal mastermind of the Great Rebellion and developed the specialized dragon-slaying ballistas.
+- Its political aim is to preserve the empire's independence and prevent outside interference in clan affairs. It is an enduring empire, not a collapsed kingdom awaiting restoration.
 
-The Elven Great House
+House Edarth — Primarily Human Great House
+- Words: “Stand When Others Fall.”
+- Sigil: A white stag before a broken black crown on a dark green field.
+- Stern, traditional, martial, pragmatic, and independent.
+- Its power rests on agricultural population, landed nobility, traditional military strength, experienced commanders, lesser noble alliances, strategic roads, and fortifications.
+- Its culture values duty, loyalty, courage, reputation, oaths, preparation, supply, and discipline.
+- Its rebellion against the dragon-riding dynasty was rooted in preserving the independence of the Great Houses.
+- Its political aim is to preserve the old noble order and prevent absolute monarchy. It is suspicious of both the current monarchy and the dwarven empire, but prefers the present order to renewed war.
 
-One of the major houses is an elven dynasty loosely inspired by the political and economic role
-of House Lannister.
-<PARSED TEXT FOR PAGE: 5 / 40>
-The Lannister name and identity will not be used directly.
+House Calderan — Human Ruling Great House
+- Words: “By Right, We Remain.”
+- Sigil: A silver crown above a golden tower on a deep blue field.
+- The current human ruling dynasty occupying the Imperial Seat.
+- Its family descends from an older royal bloodline that ruled a substantial portion of the continent before the dragon-riding dynasty conquered it. The older dynasty lost the throne, but its descendants survived, became a powerful noble family, and preserved their claim through genealogy, marriages, and hereditary titles.
+- The head of House Calderan was selected as the post-rebellion compromise monarch because he was human, possessed a legitimate hereditary claim, and was powerful enough to command respect without being so dominant that the other Great Houses would unite against him.
+- The monarch is a puppet influenced by a council or coalition of Great Houses and by multiple competing factions. He nevertheless retains substantial authority: he can issue royal decrees, appoint officials and governors, command the royal army, collect taxes and administer Crown territories, summon the Great Houses, and make treaties.
+- He cannot safely command Great House armies, seize ancestral lands, or impose extraordinary taxes without risking a political crisis. His practical power depends on cooperation.
+- The Imperial Council consists of representatives of the six Great Houses. It advises the monarch, negotiates disputes, reviews extraordinary taxation and military levies, discusses major wars, recognizes succession, and negotiates with the dwarves. It is not a modern parliament. Some decisions require approval; others are technically royal powers but politically dangerous to exercise against the Great Houses.
+- Political factions include the Royal Court, Traditionalists, Royal Expansionists, Merchant Interests, and Religious Establishment. Their leaders, membership, and exact influence remain to be developed.
+- The house's long-term political ambition is to make the Imperial Seat genuinely sovereign without necessarily destroying the Great Houses. Its members are divided between compromise-minded figures and those who want to free the Crown from outside control.
+- The other rebel houses see the throne as an opportunity to manipulate imperial policy for their own interests.
 
-The house will have its own history, culture, ambitions, territory, and political identity.
+House Veyr — Human Northern Great House
+- Words: “Beyond the Wall, We Stand.”
+- Sigil: A silver tower beneath a white star on a dark blue-black field.
+- An ancient northern dynasty that maintains the Ancient Barrier.
+- Its lands are harsh and sparsely populated, with remote settlements, mountain passes, forests, frozen expanses, and fortified outposts.
+- Its culture values endurance, discipline, preparedness, and practical leadership.
+- Its power rests on frontier control, forces experienced in harsh terrain, fortifications, northern resources, and strategic mountain passes and travel routes.
+- Its political aim is to preserve northern independence and control of the frontier. It believes southern powers benefit from northern protection without understanding its cost.
+- It is not primarily expansionist; it believes the rest of the continent is dangerously complacent about threats beyond the Barrier.
 
-The Dwarven Great House
+House Merrowen — Primarily Human Maritime Great House
+- Words: “All Roads Reach the Sea.”
+- Sigil: A white ship beneath a silver crescent over dark teal waves.
+- A major naval and commercial power controlling important ports, shipping routes, coastal territories, and commercial agreements.
+- Its culture is shaped by trade, travel, and foreign contact. Its nobles often learn languages and customs; internal tensions divide traditional landed nobles from merchant-connected wealth.
+- Its power rests on ports and harbors, naval forces and merchant fleets, maritime trade, shipbuilding, foreign diplomatic ties, and customs and commercial taxation.
+- Its political aim is to preserve free trade and prevent any single power from controlling the major commercial routes. It is willing to exploit instability when doing so benefits its interests.
+- It may maintain unofficial relationships with foreign powers, city-states, and underground commercial networks.
 
-The Baratheon-inspired great house is dwarven and associated with the main branch of the
-dwarven clans, which occupies Dragonstone.
+Political relationships and fault lines
+- Vaelorian and Calderan maintain uneasy cooperation: Vaelorian wealth can finance and influence the Crown, but the house resists royal expansion.
+- Vaelorian and Merrowen are competitive partners, cooperating in trade while competing over shipping and commercial influence.
+- Vaelorian and Edarth regard one another with suspicion: Edarth distrusts financial manipulation, while Vaelorian considers Edarth predictable but economically unsophisticated.
+- Vaelorian and Kharadorn maintain a respectful rivalry between traditional powers with different political cultures.
+- Vaelorian has limited cooperation with Veyr, whose northern hardship is poorly understood by southern commercial interests.
+- Kharadorn and Calderan maintain uneasy peace. The dwarves remember the throne's origins and reject interference in their empire.
+- Kharadorn and Edarth retain historical respect from the rebellion, but neither accepts being dictated to.
+- Kharadorn and Veyr share respect for defensive warfare, independence, and enduring institutions.
+- Kharadorn and Merrowen maintain practical trade, linking dwarven craftsmanship with maritime commerce.
+- Edarth and Calderan are political rivals: Edarth supports Great House independence and fears centralization.
+- Edarth and Veyr cooperate militarily and share martial traditions and frontier-defense concerns.
+- Edarth and Merrowen maintain a transactional relationship linking inland markets with maritime trade.
+- Calderan and Veyr have a frustrated relationship: the Crown expects northern loyalty, while Veyr expects greater resources and attention.
+- Calderan and Merrowen cooperate when politically useful; the Crown needs fleets and revenue, while Merrowen seeks favorable policies.
+- Veyr and Merrowen have limited shared interests, though northern resources and maritime access can create opportunities.
 
-It was the principal mastermind behind the Great Rebellion against House Targaryen.
+The rebellion's shared causes differed by house:
+- Kharadorn sought to end dragon-riding supremacy and preserve dwarven independence.
+- Vaelorian sought to stop centralization that threatened its financial and commercial power.
+- Edarth sought to preserve traditional noble authority.
+- Calderan's ancestors saw an opportunity to restore their older hereditary claim and reclaim the Imperial Seat.
+- Veyr sought to preserve northern autonomy and prevent Crown control over frontier military resources.
+- Merrowen sought to protect maritime privileges and trade routes.
 
-It developed the specialized dragon-slaying ballistas and claimed Dragonstone following the
-rebellion.
+These houses were allies in destroying the old order, not necessarily allies in deciding what should replace it.
 
-Its final identity, history, and relationship with the other great houses remain to be developed.
-
-The Northern Great House
-
-An ancient and powerful human noble house dominates the northern territories.
-
-It maintains the Ancient Barrier and possesses substantial military independence.
-
-Its established characteristics are detailed in the Northern Wilderness section.
-
-House Edarth
-
-House Edarth is established as one of the six great houses that rebelled against House Targaryen.
-
-Its ancestry, territory, ruling family, history, and specific role in the rebellion remain to be
-developed.
-
-The remaining great houses and their ancestry associations will be developed separately.
-
+The principal continuing political fault lines are Crown versus Great Houses; the independence of the dwarven empire; competition between commercial wealth, landed power, military strength, royal institutions, and clan authority; the burden of maintaining the northern Barrier; and the possibility that the fallen dragon-riding bloodline may not have been entirely extinguished.
 
 PART III: RELIGION, MAGIC & THE
 SUPERNATURAL
@@ -341,7 +385,7 @@ massive in territorial scale.
 The empire consists of several independent dwarven clans united under the main branch of
 dwarves. The clans retain their independence while recognizing the authority of this main branch.
 
-The main branch occupies Dragonstone. It is said to descend directly from Torag himself; this is
+The main branch's ancestral homeland is Khar-Dum. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty; the dwarves captured it through conquest during the Great Rebellion and retained it after the dynasty's destruction. It is said to descend directly from Torag himself; this is
 an established dynastic claim or tradition, not yet a confirmed fact about divine ancestry.
 
 Dwarves primarily inhabit mountains and underground settlements. They rarely live in

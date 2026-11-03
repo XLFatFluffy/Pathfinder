@@ -15,3 +15,11 @@
 - Alchemy remains a specialized Pathfinder-based field and does not imply industrialization or advanced machinery.
 - Gothic horror, vampires, cults, religious zealotry, and decaying institutions may remain as atmosphere and supernatural content without changing the technological baseline.
 - Updated the current worldbuilding direction, canon register, and current world state to reflect this decision.
+
+## 2026-11-03 - Continuity management system established
+- Added a Worldbuilding Decision Log to preserve rationale and document superseded decisions.
+- Added an Open Questions Register with priorities, including first-session-critical gaps.
+- Added a Names & Terminology Index to prevent duplicate names and spelling drift.
+- Added a Lore Continuity Checklist for pre-approval reviews and post-session updates.
+- Updated campaign record instructions to require provenance, visibility classification, mystery preservation, and checkpoint updates.
+- These records formalize process; they do not resolve or invent campaign lore.

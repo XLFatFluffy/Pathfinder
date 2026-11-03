@@ -204,20 +204,16 @@ The remaining great houses and their ancestry associations will be developed sep
 PART III: RELIGION, MAGIC & THE
 SUPERNATURAL
 5. GODS & RELIGION
-5.1 The Central Mystery
-The existence of gods is genuinely uncertain in this world.
+5.1 The Gods
+The Pathfinder gods are real within the setting. Their existence is an established fact, not an
+in-world mystery.
 
-Nobody knows with absolute certainty whether the gods exist.
-<PARSED TEXT FOR PAGE: 6 / 40>
 Pathfinder's established gods, portfolios, alignments, domains, religious traditions, and
-mythology provide the foundation for the setting's religions.
+mythology provide the foundation for the world's religions. The setting uses these gods rather
+than inventing a replacement pantheon.
 
-However, their actual existence is not established as an objective fact within the world's known
-history.
-
-Religious institutions exist, and their influence can be enormous.
-
-Faith is a powerful force in society, regardless of whether the beliefs behind it are correct.
+The gods' deeper history, relationships with mortals, methods of influence, and the details of
+their place in the world's cosmology may be developed later.
 
 5.2 Religion and Society
 Religious institutions may:
@@ -242,23 +238,19 @@ Religious fanatics and zealots are prominent features of the setting.
 Faith may be sincere, corrupt, compassionate, political, coercive, or contradictory.
 
 5.3 Divine Magic
-Divine magic exists within the Pathfinder mechanical framework.
+Divine magic exists within the Pathfinder mechanical framework, and the gods themselves are
+real.
 
-Its ultimate source and relationship to the supposed gods remain part of the setting's larger
-mystery.
-
-The existence of divine magic does not automatically settle the question of whether gods exist.
-
-This uncertainty should remain a defining characteristic of the setting.
-
-No original gods have been established.
+Divine spellcasters are uncommon. Those who wield divine magic devote themselves to a god.
+The precise nature of that devotion, the ways the gods grant or mediate divine power, and the
+institutions surrounding divine spellcasters remain subjects for later development.
 <PARSED TEXT FOR PAGE: 7 / 40>
 6. MAGIC & THE SUPERNATURAL
-Magic is uncommon in everyday civilization.
+Magic is uncommon in everyday civilization. Arcane spellcasters are rare, and divine
+spellcasters are also uncommon. The average person may live their entire life without witnessing
+a spell being cast.
 
-Arcane magic is particularly rare.
-
-Much of its knowledge has been lost, forgotten, suppressed, or misunderstood.
+Much arcane knowledge has been lost, forgotten, suppressed, or misunderstood.
 
 Wizards may be regarded as:
 
@@ -276,8 +268,6 @@ Possible features of the world's magical history include:
    ·   Hidden collections and ancient ruins may preserve forgotten knowledge.
    ·   Certain forms of arcane practice may be forbidden or heavily restricted.
    ·   Alchemists may be mistaken for practitioners of other forms of magic.
-
-The average person may live their entire life without witnessing a spell being cast.
 
 The scarcity of magic is a feature of society, population, institutions, and history.
 
@@ -323,7 +313,8 @@ Humans are the dominant population across much of the continent.
 Other Pathfinder ancestries maintain their own territories, cultures, communities, and political
 influence.
 
-However, they are generally minorities within a larger human-dominated political landscape.
+The continent is human-dominated in population and political influence, but other Pathfinder
+ancestries may also exist. No ancestry is designated rare or uncommon by default.
 
 Ancestry does not automatically determine an individual's culture, beliefs, or loyalties.
 
@@ -344,25 +335,25 @@ Human cultures, political systems, and social traditions vary considerably by re
 Humanity is not a single unified political or cultural group.
 
 7.2 Dwarves
-Dwarven civilization once possessed a much larger empire.
+A dwarven empire has always existed and has never collapsed. It has never been especially
+massive in territorial scale.
 
-That empire no longer exists in its former unified form.
+Dwarves primarily inhabit mountains and underground settlements. They rarely live in
+conventional surface stone-built settlements.
 
-The current dwarven political landscape consists of:
+Dwarven pride and cultural identity are strong. As a matter of cultural choice and pride, dwarves
+do not reproduce with members of other ancestries; this is not established as a biological
+incompatibility.
 
-   ·   One surviving dwarven kingdom.
-   ·   Several independent territories descended from the former dwarven empire.
-
-The relationships between these territories, their histories, and their political ambitions remain to
-be developed.
-
-The Baratheon-inspired great house is dwarven and led by a dwarven ruler.
+The Baratheon-inspired great house is dwarven and led by a dwarven ruler. Its place within the
+dwarven empire and the precise relationship between the house and imperial authority remain
+to be developed.
 
 7.3 Elves
 Elves possess an important place in the continent's political and cultural landscape.
 
-One of the six great houses is an elven dynasty inspired by the political and economic archetype
-of House Lannister.
+One of the six great houses is an influential elven dynasty inspired loosely by the political and
+economic archetype associated with House Lannister. Elves also possess a major political power.
 
 The wider elven population, its history, culture, territories, and relationship with human
 kingdoms remain to be developed.
@@ -1555,16 +1546,21 @@ World and Rules
    ·   Existing Pathfinder rules should be used wherever possible.
 
 Religion and Magic
-   ·   The existence of gods is genuinely uncertain.
-   ·   Divine magic exists mechanically, but does not prove the gods exist.
-   ·   Arcane magic is rare in everyday society.
+   ·   The Pathfinder gods are real.
+   ·   Divine spellcasters are uncommon and devote themselves to a god.
+   ·   Arcane spellcasters are rare; divine spellcasting is also uncommon.
+   ·   The average person may live their entire life without witnessing a spell cast.
    ·   Much magical knowledge has been lost, forgotten, suppressed, or misunderstood.
    ·   Supernatural threats exist but are uncommon in settled civilization.
 
 Ancestries
    ·   Humans are the dominant population across much of the continent.
-   ·   Dwarven civilization once possessed a much larger empire.
-   ·   One dwarven kingdom survives, alongside several independent successor territories.
+   ·   A dwarven empire has always existed and has never collapsed.
+   ·   The dwarven empire has never been especially massive in territorial scale.
+   ·   Dwarves primarily inhabit mountains and underground settlements, and rarely live in
+       conventional surface stone-built settlements.
+   ·   Dwarves do not reproduce with members of other ancestries as a matter of cultural
+       pride and choice, not established biological incompatibility.
    ·   One great house is an elven dynasty loosely inspired by the Lannister archetype.
    ·   Ratfolk are naturally subterranean inhabitants.
    ·   Ratfolk possess an extensive but incomplete underground network.
@@ -1574,8 +1570,8 @@ Ancestries
    ·   Ratfolk possess specialized traditions in areas including alchemy, medicine, engineering,
        mining, metallurgy, and subterranean agriculture.
 <PARSED TEXT FOR PAGE: 37 / 40>
-   ·   Ratfolk are marginalized and widely hated in some surface societies, but prejudice is not
-       universal.
+   ·   Prejudice against ratfolk is widespread across surface societies, although a few
+       communities tolerate or openly accept them.
    ·   Ratfolk are not inherently criminal, evil, or hostile.
    ·   Secretive organizations and sects exist within ratfolk society, but their purposes remain
        unresolved.
@@ -1662,7 +1658,8 @@ Political Structure
 
 Ancestries
   ·   Full elven civilization and history.
-  ·   Dwarven successor territories and their relationships.
+  ·   The dwarven empire's political structure and the relationship between its great house and
+      imperial authority.
   ·   Individual ratfolk settlements and their political structures.
   ·   Origins of anti-ratfolk prejudice.
   ·   Identities and purposes of ratfolk secretive organizations and sects.
@@ -1670,8 +1667,8 @@ Ancestries
   ·   Other ancestry relationships.
 
 Religion
-  ·   The true nature, if any, of the gods.
-  ·   The source of divine magic.
+  ·   The deeper history of the Pathfinder gods and their relationship with mortals.
+  ·   How the gods grant or mediate divine magic.
   ·   Religious institutions.
   ·   Religious orders.
   ·   Religious conflicts.

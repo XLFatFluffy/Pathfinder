@@ -136,6 +136,16 @@ function initializeDatabase() {
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
 
+    CREATE TABLE IF NOT EXISTS npc_status_history (
+      id TEXT PRIMARY KEY,
+      npc_id TEXT NOT NULL REFERENCES npcs(id) ON DELETE CASCADE,
+      previous_status TEXT,
+      new_status TEXT NOT NULL,
+      effective_date TEXT NOT NULL DEFAULT '',
+      notes TEXT,
+      created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+    );
+
     CREATE TABLE IF NOT EXISTS npc_relationships (
       id TEXT PRIMARY KEY,
       npc_id TEXT NOT NULL REFERENCES npcs(id) ON DELETE CASCADE,
@@ -835,7 +845,7 @@ function deleteHouseRelationship(id) {
 }
 
 function listNpcs() {
-  return db.prepare(`
+  const npcs = db.prepare(`
     SELECT
       npcs.*,
       locations.name AS location_name,
@@ -845,6 +855,21 @@ function listNpcs() {
     LEFT JOIN houses ON houses.id = npcs.house_id
     ORDER BY npcs.name COLLATE NOCASE ASC
   `).all();
+  const historyByNpc = new Map();
+  db.prepare('SELECT * FROM npc_status_history ORDER BY created_at ASC, id ASC').all().forEach((entry) => {
+    const history = historyByNpc.get(entry.npc_id) || [];
+    history.push(entry);
+    historyByNpc.set(entry.npc_id, history);
+  });
+  return npcs.map((npc) => ({ ...npc, status_history: historyByNpc.get(npc.id) || [] }));
+}
+
+function listNpcStatusHistory(id) {
+  return db.prepare(`
+    SELECT * FROM npc_status_history
+    WHERE npc_id = ?
+    ORDER BY created_at ASC, id ASC
+  `).all(id);
 }
 
 function getNpc(id) {
@@ -908,10 +933,24 @@ function createNpc(npc) {
   };
   validateNpc(record);
 
-  db.prepare(`
-    INSERT INTO npcs (id, name, title, race, occupation, location_id, house_id, status, gm_only, updated_at)
-    VALUES (@id, @name, @title, @race, @occupation, @location_id, @house_id, @status, @gm_only, CURRENT_TIMESTAMP)
-  `).run(record);
+  validateOptionalText(npc.status_change_notes, 'Status change notes');
+  const transaction = db.transaction(() => {
+    db.prepare(`
+      INSERT INTO npcs (id, name, title, race, occupation, location_id, house_id, status, gm_only, updated_at)
+      VALUES (@id, @name, @title, @race, @occupation, @location_id, @house_id, @status, @gm_only, CURRENT_TIMESTAMP)
+    `).run(record);
+    db.prepare(`
+      INSERT INTO npc_status_history (id, npc_id, previous_status, new_status, effective_date, notes)
+      VALUES (?, ?, NULL, ?, ?, ?)
+    `).run(
+      crypto.randomUUID(),
+      record.id,
+      record.status,
+      getSettings().campaign_date || '',
+      npc.status_change_notes ?? ''
+    );
+  });
+  transaction();
 
   return getNpc(record.id);
 }
@@ -935,20 +974,37 @@ function updateNpc(id, npc) {
     gm_only: npc.gm_only === undefined ? current.gm_only : Number(Boolean(npc.gm_only))
   };
   validateNpc(record);
+  validateOptionalText(npc.status_change_notes, 'Status change notes');
 
-  db.prepare(`
-    UPDATE npcs SET
-      name = @name,
-      title = @title,
-      race = @race,
-      occupation = @occupation,
-      location_id = @location_id,
-      house_id = @house_id,
-      status = @status,
-      gm_only = @gm_only,
-      updated_at = CURRENT_TIMESTAMP
-    WHERE id = @id
-  `).run(record);
+  const transaction = db.transaction(() => {
+    db.prepare(`
+      UPDATE npcs SET
+        name = @name,
+        title = @title,
+        race = @race,
+        occupation = @occupation,
+        location_id = @location_id,
+        house_id = @house_id,
+        status = @status,
+        gm_only = @gm_only,
+        updated_at = CURRENT_TIMESTAMP
+      WHERE id = @id
+    `).run(record);
+    if (record.status !== current.status) {
+      db.prepare(`
+        INSERT INTO npc_status_history (id, npc_id, previous_status, new_status, effective_date, notes)
+        VALUES (?, ?, ?, ?, ?, ?)
+      `).run(
+        crypto.randomUUID(),
+        id,
+        current.status,
+        record.status,
+        getSettings().campaign_date || '',
+        npc.status_change_notes ?? ''
+      );
+    }
+  });
+  transaction();
 
   return getNpc(id);
 }
@@ -2661,6 +2717,7 @@ module.exports = {
   updateHouseRelationship,
   deleteHouseRelationship,
   listNpcs,
+  listNpcStatusHistory,
   getNpc,
   createNpc,
   updateNpc,

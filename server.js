@@ -25,6 +25,7 @@ const {
   updateHouseRelationship,
   deleteHouseRelationship,
   listNpcs,
+  listNpcStatusHistory,
   getNpc,
   createNpc,
   updateNpc,
@@ -340,6 +341,14 @@ app.get('/api/npcs/:id', (req, res) => {
     return res.status(404).json({ error: 'NPC not found.' });
   }
   return res.json({ npc });
+});
+
+app.get('/api/npcs/:id/history', (req, res) => {
+  const npc = getNpc(req.params.id);
+  if (!npc) {
+    return res.status(404).json({ error: 'NPC not found.' });
+  }
+  return res.json({ history: listNpcStatusHistory(req.params.id) });
 });
 
 app.post('/api/npcs', (req, res) => {

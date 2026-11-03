@@ -529,6 +529,19 @@ function renderNpcs() {
         ${npc.location_name ? `<div><dt>Location</dt><dd>${escapeHtml(npc.location_name)}</dd></div>` : ''}
         ${npc.house_name ? `<div><dt>House</dt><dd>${escapeHtml(npc.house_name)}</dd></div>` : ''}
       </dl>
+      ${npc.status_history?.length ? `
+        <details class="npc-status-history">
+          <summary>Status history (${npc.status_history.length})</summary>
+          <dl class="house-details">
+            ${npc.status_history.map((entry) => `
+              <div>
+                <dt>${escapeHtml(entry.effective_date || entry.created_at)}</dt>
+                <dd><strong>${entry.previous_status ? `${escapeHtml(entry.previous_status)} → ` : 'Initial status: '}${escapeHtml(entry.new_status)}</strong>${entry.notes ? ` — ${escapeHtml(entry.notes)}` : ''}</dd>
+              </div>
+            `).join('')}
+          </dl>
+        </details>
+      ` : ''}
       <div class="house-card-actions">
         <button type="button" class="secondary-button" data-npc-edit="${escapeHtml(npc.id)}">Edit</button>
         <button type="button" class="danger-button" data-npc-delete="${escapeHtml(npc.id)}">Delete</button>
@@ -553,6 +566,7 @@ function editNpc(id) {
   npcForm.elements.namedItem('race').value = npc.race || '';
   npcForm.elements.namedItem('occupation').value = npc.occupation || '';
   npcForm.elements.namedItem('status').value = npc.status || 'alive';
+  npcForm.elements.namedItem('statusChangeNotes').value = '';
   npcForm.elements.namedItem('locationId').value = npc.location_id || '';
   npcForm.elements.namedItem('houseId').value = npc.house_id || '';
   npcForm.elements.namedItem('gmOnly').checked = Boolean(npc.gm_only);
@@ -580,6 +594,7 @@ async function saveNpc(event) {
     race: npcForm.elements.namedItem('race').value,
     occupation: npcForm.elements.namedItem('occupation').value,
     status: npcForm.elements.namedItem('status').value,
+    status_change_notes: npcForm.elements.namedItem('statusChangeNotes').value,
     location_id: npcForm.elements.namedItem('locationId').value || null,
     house_id: npcForm.elements.namedItem('houseId').value || null,
     gm_only: npcForm.elements.namedItem('gmOnly').checked

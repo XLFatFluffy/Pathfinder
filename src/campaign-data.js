@@ -4,7 +4,9 @@ const FORMAT = 'pathfinder-campaign';
 const SCHEMA_VERSION = 1;
 const CATEGORY_TABLES = {
   world: ['locations', 'maps', 'map_markers'],
-  people: ['houses', 'house_relationships', 'house_relationship_history', 'npcs', 'factions', 'npc_relationships'],
+  people: [
+    'houses', 'house_relationships', 'house_relationship_history', 'npcs', 'npc_status_history', 'factions', 'npc_relationships'
+  ],
   commerce: ['shops', 'shop_inventory'],
   campaign: ['quests', 'sessions', 'timeline_events', 'simulation_events', 'player_discoveries'],
   simulation: ['simulation_event_tables', 'simulation_cycles', 'simulation_results', 'simulation_rolls']
@@ -24,6 +26,7 @@ const RELATIONSHIPS = {
   npcs: { location_id: 'locations', house_id: 'houses' },
   house_relationships: { house_id: 'houses', related_house_id: 'houses' },
   house_relationship_history: { house_relationship_id: 'house_relationships' },
+  npc_status_history: { npc_id: 'npcs' },
   npc_relationships: { npc_id: 'npcs', related_npc_id: 'npcs' },
   shops: { location_id: 'locations', shopkeeper_id: 'npcs' },
   map_markers: { map_id: 'maps', location_id: 'locations' },

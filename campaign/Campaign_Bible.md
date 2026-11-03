@@ -771,18 +771,18 @@ remaining mechanically compatible with the system.
 11.1 The Six Great Houses
 Six great houses united against House Targaryen.
 
-Their rebellion was driven by two closely connected concerns:
+Their rebellion was driven by two closely connected objectives:
 
- 1.    The Targaryens had become too powerful, and the other great houses feared permanent
-       subordination.
+ 1.    The great houses sought to preserve their political independence against a dynasty they
+       feared would permanently subordinate them through centralization.
 <PARSED TEXT FOR PAGE: 19 / 40>
- 2.    The Targaryens increasingly sought to centralize political authority, threatening the
-       independence and privileges of the great houses.
+ 2.    They sought to eliminate the Targaryens' ability to command dragons, because dragon-riding
+       was the foundation of the dynasty's overwhelming political and military power.
 
-The rebellion was not simply a dispute over succession.
+The rebellion was not simply a dispute over succession or a conventional war of independence.
 
-It was a coordinated attempt to destroy the existing Targaryen political order and eliminate the
-dynasty's ability to command dragons.
+It was a coordinated attempt to destroy the existing Targaryen political order and eliminate
+dragon-riding as the instrument that allowed the dynasty to enforce its supremacy.
 
 House Edarth has been established as one of the six rebellious great houses.
 

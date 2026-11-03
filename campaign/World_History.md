@@ -41,7 +41,8 @@ This record separates confirmed historical facts from dates, names, and politica
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
 - The dwarven victors claimed Dragonstone, the dynasty's ancestral home and principal royal residence, after the rebellion.
 - The main branch of the dwarven clans now occupies Dragonstone and is said to descend from Torag himself. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
-- The Imperial Seat passed to a different ruling dynasty. Its identity, the name of its capital, and the exact political settlement after the rebellion remain unresolved.
+- In the immediate aftermath of the rebellion, the dwarven leader and the Baratheon-inspired house held power. The dwarven leader's position was the first post-Targaryen ruling power.
+- At a later point, another of the continent's major houses took the Imperial Seat. The current ruling house is therefore one of the major houses, but its name and the circumstances of its accession remain unresolved.
 - One Targaryen Crown Prince survived the destruction of Dragonstone. He was nine years old at the beginning of the rebellion. His survival is concealed; his personal name belongs to the player character and is intentionally not recorded here.
 
 ## Chronology
@@ -55,7 +56,8 @@ The relative sequence is established; exact calendar dates and the duration betw
 5. The rebels target eligible dragon riders. Most dragons are killed; surviving unclaimed dragons flee or disappear.
 6. The Imperial Seat falls and the Targaryen ruling family is nearly exterminated.
 7. The dwarven clans' main branch claims and occupies Dragonstone.
-8. A different dynasty takes the Imperial Seat. The current political settlement develops from the rebellion's victory.
+8. The dwarven leader and the Baratheon-inspired house hold power in the immediate aftermath of the fall.
+9. At a later point, another major house takes the Imperial Seat and becomes the current ruling dynasty.
 
 ## Still unresolved
 
@@ -63,8 +65,9 @@ The relative sequence is established; exact calendar dates and the duration betw
 - The exact dates of the dynasty's rise, the rebellion, and the fall.
 - The identities and individual roles of all six rebel Great Houses.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
-- The exact political settlement and current relationship between the six victorious houses and the new dynasty on the Imperial Seat.
-- The identity of the new ruling dynasty and its capital.
+- The exact form and duration of the dwarven leader's post-rebellion rule.
+- Which major house later took the Imperial Seat, how it came to power, and whether the transfer was peaceful or contested.
+- The current ruling dynasty's name, its capital, and its relationship with the other major houses.
 - The ultimate fate of dragons that escaped the rebellion.
 - Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified.
 

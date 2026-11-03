@@ -112,3 +112,11 @@
 - Established that each Great House controls a substantial, clearly defined territory, while smaller noble houses, independent settlements, and lesser political powers also exist.
 - Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, Open Questions Register, Names & Terminology Index, and Development Roadmap.
 - The atlas remains provisional for exact terrain, labels, scale bar, borders, and placements. Detailed territorial geography remains the next task.
+
+## 2026-11-03 — Revised continental scale and minor-house structure
+- Replaced the earlier larger-than-Westeros direction with approved working dimensions of approximately 1,700 miles north to south and 1,300 miles east to west at the widest point. Modest adjustment is permitted during map refinement; the previous atlas scale bar is superseded.
+- Confirmed that the revised map should preserve the atlas's recognizable geographic identity while making terrain and waterways coherent.
+- Confirmed the central inland sea should support substantial regional shipping and naval commerce, the southern reaches should remain politically fragmented, and the dwarven empire should appear comparatively limited on the surface with its true reach primarily subterranean.
+- Established minor houses as wealthy lords and ladies with small territories and local holdings but little continent-wide political significance. Their names, number, holdings, and allegiances remain unresolved.
+- Kept the specific proposed regional placements of the six Great Houses provisional pending review of the revised map.
+- Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, Open Questions Register, Names & Terminology Index, and Development Roadmap.

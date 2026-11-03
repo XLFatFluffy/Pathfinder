@@ -39,9 +39,14 @@ This is a concise navigation and continuity document, not a replacement for the 
 
 ## Political and historical baseline
 
-The existing Bible contains legacy names and plot scaffolding, including House Targaryen, House Baratheon, House Edarth, Dragonstone, the Imperial Seat, and the Great Rebellion. These are preserved in the imported source document, but the campaign's newer direction is to create original names, map geography, and identities rather than reproduce Game of Thrones.
+- A dragon-riding dynasty held the Imperial Seat for approximately 400 years and possessed exactly twelve dragons at its height.
+- Eligible Targaryen blood was required to bond with a dragon; each rider could bond with only one dragon through a telepathic connection. Maintaining eligibility required reproduction within the eligible bloodline.
+- Six Great Houses rebelled both to preserve their political independence against increasing centralization and to eliminate dragon-riding as the source of Targaryen supremacy. These were connected objectives: without dragons, the dynasty could no longer enforce its overwhelming power.
+- The rebellion lasted a few years. The dwarven Great House was its principal mastermind and developed specialized dragon-slaying ballistas. Most dragons were killed; surviving dragons fled after losing their riders, and their fate remains unknown.
+- The Targaryen ruling family was nearly exterminated, the Imperial Seat fell, and a different dynasty took it. The victorious dwarves claimed Dragonstone, now occupied by the main branch of the dwarven clans, which is said to descend from Torag himself.
+- One nine-year-old Crown Prince survived the destruction of Dragonstone. His survival is concealed; he is a player character.
 
-Treat those legacy names as **provisional source material pending deliberate renaming/reworking**, not as final names for the original setting.
+The inherited names House Targaryen, House Baratheon, House Edarth, Dragonstone, and Imperial Seat are working labels from the source material. The historical foundations above are confirmed, but names, house identities, geography, and the postwar political settlement must be developed into original setting material rather than copied from Game of Thrones.
 
 ## Campaign start
 

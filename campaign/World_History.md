@@ -38,6 +38,7 @@ This record separates confirmed historical facts from dates, names, and politica
 
 - The final battles destroyed the Targaryen ruling family. Nearly the entire royal family was killed.
 - The dynasty lost the Imperial Seat, ending approximately 400 years of rule.
+- The Great Rebellion took place approximately **200–300 years before the present campaign**. The exact year remains undecided.
 - The surviving dragon-riding bloodline was believed to have been eliminated. The six victorious houses believe the dynasty is extinct and do not currently fear a Targaryen claimant.
 - The dwarven victors claimed Dragonstone, the dynasty's ancestral home and principal royal residence, after the rebellion.
 - The main branch of the dwarven clans now occupies Dragonstone and is said to descend from Torag himself. This descent is an established dynastic claim or tradition, not a confirmed fact of divine ancestry.
@@ -47,7 +48,7 @@ This record separates confirmed historical facts from dates, names, and politica
 
 ## Chronology
 
-The relative sequence is established; exact calendar dates and the duration between events remain unresolved.
+The relative sequence is established. The Great Rebellion occurred approximately 200–300 years before the present campaign; the exact calendar year and the dates of the dynasty's rise and fall remain unresolved.
 
 1. The dragon-riding dynasty establishes and maintains its continent-spanning political order.
 2. Across generations, it increasingly centralizes authority, provoking resistance among the Great Houses.
@@ -62,7 +63,7 @@ The relative sequence is established; exact calendar dates and the duration betw
 ## Still unresolved
 
 - The original names, heraldry, and distinct identities that will replace the inherited legacy labels.
-- The exact dates of the dynasty's rise, the rebellion, and the fall.
+- The exact calendar year of the Great Rebellion, and the exact dates of the dynasty's rise and fall (the rebellion is approximately 200–300 years before the present campaign).
 - The identities and individual roles of all six rebel Great Houses.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
 - The exact form and duration of the dwarven leader's post-rebellion rule.

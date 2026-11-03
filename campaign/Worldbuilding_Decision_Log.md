@@ -71,9 +71,9 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Still unresolved:** Exact dates, original names, individual roles of the six houses, battle chronology, new dynasty, capital, and postwar settlement.
 
 
-### 2026-11-03 — Post-rebellion ruling sequence and succession clarified
-**Status:** ESTABLISHED sequence; ruling house identity and exact crisis details unresolved  
-**Decision:** The same dwarven leader ruled for more than a century after the Targaryen fall, until his death. His successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. Another of the original six rebel Great Houses took the Imperial Seat and became the ruling dynasty. The dwarven successor retained the inherited authority of the dwarven order.  
-**Reason:** The GM confirmed the length and continuity of the dwarven leader's rule, the succession crisis, the threat of war, the requirement that a human occupy the throne, and the successor's continued authority.  
+### 2026-11-03 — Post-rebellion ruling sequence and puppet monarch established
+**Status:** ESTABLISHED sequence; ruling house identity and monarch's controller unresolved  
+**Decision:** The same dwarven leader ruled for more than a century after the Targaryen fall, until his death. His successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.  
+**Reason:** The GM confirmed the compromise nature of the human candidate, his status as a puppet, the dwarven successor's reluctant acceptance and return to Dragonstone, and the current relationship between the dwarven empire and human monarchy.  
 **Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`, `changelog/campaign_changes.md`.
-**Still unresolved:** Which of the six rebel houses took the Imperial Seat, the exact chronology, and the political or military details of the crisis.
+**Still unresolved:** Which of the six rebel houses supplied the monarch, who actually controls or influences him, and the exact chronology and events of the succession crisis.

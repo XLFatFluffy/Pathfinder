@@ -78,3 +78,10 @@
 - Established an uneasy peace marked by mutual distrust between the dwarven empire and the human monarchy. War would not favor the dwarves, but they are not afraid of it.
 - The identity of the ruling house and the person or powers controlling the puppet monarch remain unresolved.
 - Updated `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Worldbuilding_Decision_Log.md`, and `Open_Questions_Register.md`.
+
+
+## 2026-11-03
+- Recorded the monarch's legitimate family claim and substantial but constrained authority.
+- Recorded influence by a Great House council or coalition and multiple competing factions.
+- Recorded that the other rebel houses seek to manipulate the throne for their own interests.
+- Specific faction identities and influence remain unresolved.

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import MapAtlas from "@/app/atlas/map-atlas";
-import { getCampaignAtlasMaps } from "@/lib/campaign-atlas";
+import { getCampaignAtlasData } from "@/lib/campaign-atlas";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 
 export const dynamic = "force-dynamic";
@@ -11,7 +11,7 @@ export default async function PlayerAtlasPage() {
     return null;
   }
 
-  const maps = await getCampaignAtlasMaps(member.campaign_id);
+  const { maps, locations } = await getCampaignAtlasData(member.campaign_id);
   return (
     <>
       <p className="muted">
@@ -20,7 +20,7 @@ export default async function PlayerAtlasPage() {
       <p className="muted">
         <Link href="/player">Return to overview</Link>
       </p>
-      <MapAtlas maps={maps} mapLibraryHref="/player/maps" />
+      <MapAtlas locations={locations} maps={maps} mapLibraryHref="/player/maps" />
     </>
   );
 }

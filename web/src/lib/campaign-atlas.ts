@@ -8,24 +8,36 @@ export type CampaignAtlasMap = {
   parent_map_id: string | null;
   location_name: string | null;
   has_artwork: boolean;
+  player_visible: boolean;
 };
 
-export async function getCampaignAtlasMaps(
+export type CampaignAtlasLocation = {
+  id: string;
+  name: string;
+  player_visible: boolean;
+};
+
+export type CampaignAtlasData = {
+  maps: CampaignAtlasMap[];
+  locations: CampaignAtlasLocation[];
+};
+
+export async function getCampaignAtlasData(
   campaignId: string,
-): Promise<CampaignAtlasMap[]> {
+): Promise<CampaignAtlasData> {
   const supabase = await createSupabaseServerClient();
   const [{ data: maps, error }, { data: locations, error: locationsError }] =
     await Promise.all([
       supabase
         .from("campaign_maps")
         .select(
-          "id, name, map_type, description, parent_map_id, location_id, artwork_path",
+          "id, name, map_type, description, parent_map_id, location_id, artwork_path, player_visible",
         )
         .eq("campaign_id", campaignId)
         .order("name"),
       supabase
         .from("campaign_locations")
-        .select("id, name")
+        .select("id, name, player_visible")
         .eq("campaign_id", campaignId),
     ]);
 
@@ -36,18 +48,20 @@ export async function getCampaignAtlasMaps(
     throw new Error(`Unable to load map locations: ${locationsError.message}`);
   }
 
-  const locationsById = new Map(
-    locations.map((location) => [location.id, location.name]),
-  );
-  return maps.map((map) => ({
-    id: map.id,
-    name: map.name,
-    map_type: map.map_type,
-    description: map.description,
-    parent_map_id: map.parent_map_id,
-    location_name: map.location_id
-      ? (locationsById.get(map.location_id) ?? null)
-      : null,
-    has_artwork: Boolean(map.artwork_path),
-  }));
+  const locationsById = new Map(locations.map((location) => [location.id, location]));
+  return {
+    maps: maps.map((map) => ({
+      id: map.id,
+      name: map.name,
+      map_type: map.map_type,
+      description: map.description,
+      parent_map_id: map.parent_map_id,
+      location_name: map.location_id
+        ? (locationsById.get(map.location_id)?.name ?? null)
+        : null,
+      has_artwork: Boolean(map.artwork_path),
+      player_visible: map.player_visible,
+    })),
+    locations,
+  };
 }

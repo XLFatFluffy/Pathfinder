@@ -65,3 +65,6 @@ See the Campaign Bible's unresolved topics. In particular: final continent name 
 ## Continuity cautions
 
 The original DOCX is preserved as source material. Where older brainstorming conflicts with the current GM-approved direction, use this current baseline: **grounded high-medieval fantasy, with no industrial or steampunk technological culture.** Supernatural horror exists but is not the main theme. The Pathfinder gods are real.
+
+## Imperial Seat and Current Monarchy
+The human monarch's family has a legitimate claim to the Imperial Seat. The monarch retains substantial authority, but the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses regard the throne as an opportunity to manipulate imperial policy for their own interests. The identities and relative influence of these factions remain unresolved.

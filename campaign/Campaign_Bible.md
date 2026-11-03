@@ -788,6 +788,8 @@ House Edarth has been established as one of the six rebellious great houses.
 
 The identities and histories of the remaining rebellious houses will be developed separately.
 
+Following the fall of House Targaryen, the dwarven leader and the Baratheon-inspired house held power. At a later point, another of the continent's major houses took the Imperial Seat. The current ruling dynasty is one of the major houses; its identity and the circumstances of its accession remain to be established.
+
 The current count remains six rebellious great houses in total. House Edarth is one of those six.
 
 11.2 House Baratheon and the Rebellion

@@ -171,3 +171,16 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Extent and maintenance responsibility for public water, drainage, waste collection, and fire response.
 - Precise boundaries of House Denvor's property rights and manorial jurisdiction.
 - Whether any named household relocates, changes circumstances, or becomes directly involved with the PCs; do not presume a relationship before play.
+
+
+## Tallowmere — Streets, Landmarks, and Routes (2026-11-04)
+
+**ESTABLISHED FRAMEWORK:** Named principal streets, public squares, river crossings, harbor controls, civic landmarks, and district connections are recorded in Streets_Landmarks_and_Routes.md. Practical travel-time estimates are provisional table guidance rather than measured distances.
+
+**STILL OPEN:**
+- Exact scaled geometry, compass bearings, street lengths, coastline, harbor depth, river bends, and wall lines.
+- Precise placement and dimensions of gates, towers, bridges, quays, and public buildings.
+- Additional outer-suburb bridges, ferries, roads, and landmarks.
+- Exact street entrances and routes through the Underways; no complete public map exists.
+- Market days, bell schedule, curfew customs, gate hours, and routine harbor-chain procedures.
+- Ownership, maintenance funding, legal status, tolls, and access rights for individual roads, bridges, and public spaces.

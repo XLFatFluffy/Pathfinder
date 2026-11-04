@@ -13,6 +13,11 @@ import {
   getCampaignMapMarkers,
   saveCampaignMapMarker,
 } from "./actions";
+import {
+  deleteCampaignMapOverlay,
+  getCampaignMapOverlays,
+  saveCampaignMapOverlay,
+} from "./overlay-actions";
 import type {
   CampaignAtlasLocation,
   CampaignAtlasMap,
@@ -22,6 +27,12 @@ import {
   type CampaignMapMarker,
   type CampaignMarkerType,
 } from "@/lib/campaign-markers";
+import {
+  campaignMapOverlayTypes,
+  type CampaignMapOverlay,
+  type CampaignMapOverlayType,
+  type CampaignMapPoint,
+} from "@/lib/campaign-map-overlays";
 
 const minimumZoom = 0.005;
 const maximumZoom = 8;
@@ -47,6 +58,12 @@ function clampZoom(scale: number) {
 
 function isCampaignMarkerType(value: string): value is CampaignMarkerType {
   return campaignMarkerTypes.some((type) => type === value);
+}
+
+function isCampaignMapOverlayType(
+  value: string,
+): value is CampaignMapOverlayType {
+  return campaignMapOverlayTypes.some((type) => type === value);
 }
 
 function mapHierarchyLabel(
@@ -99,6 +116,19 @@ export default function MapAtlas({
   const [markerLocationId, setMarkerLocationId] = useState("");
   const [markerPlayerVisible, setMarkerPlayerVisible] = useState(false);
   const [markerPending, setMarkerPending] = useState(false);
+  const [overlays, setOverlays] = useState<CampaignMapOverlay[]>([]);
+  const [overlaysStatus, setOverlaysStatus] = useState("");
+  const [selectedOverlayId, setSelectedOverlayId] = useState("");
+  const [overlayDraftPoints, setOverlayDraftPoints] = useState<
+    CampaignMapPoint[] | null
+  >(null);
+  const [isDrawingOverlay, setIsDrawingOverlay] = useState(false);
+  const [overlayType, setOverlayType] =
+    useState<CampaignMapOverlayType>("region");
+  const [overlayName, setOverlayName] = useState("");
+  const [overlayColor, setOverlayColor] = useState("#e6b45e");
+  const [overlayPlayerVisible, setOverlayPlayerVisible] = useState(false);
+  const [overlayPending, setOverlayPending] = useState(false);
   const viewportRef = useRef<HTMLDivElement>(null);
   const loadSequence = useRef(0);
   const dragged = useRef(false);
@@ -112,11 +142,67 @@ export default function MapAtlas({
 
   const selectedMap = mapsById.get(selectedId);
   const selectedMarker = markers.find((marker) => marker.id === selectedMarkerId);
+  const selectedOverlay = overlays.find(
+    (overlay) => overlay.id === selectedOverlayId,
+  );
+  const minimumOverlayPoints = overlayType === "region" ? 3 : 2;
+
+  const refreshOverlays = useCallback(async () => {
+    if (!selectedId) {
+      setOverlays([]);
+      setOverlaysStatus("");
+      return;
+    }
+
+    setOverlays([]);
+    setOverlaysStatus("Loading overlays…");
+    try {
+      const result = await getCampaignMapOverlays(selectedId);
+      if (result.error || !result.overlays) {
+        setOverlays([]);
+        setOverlaysStatus(result.error ?? "Unable to load map overlays.");
+        return;
+      }
+      setOverlays(result.overlays);
+      setOverlaysStatus("");
+    } catch (error) {
+      setOverlays([]);
+      setOverlaysStatus(
+        error instanceof Error
+          ? `Unable to load map overlays: ${error.message}`
+          : "Unable to load map overlays.",
+      );
+    }
+  }, [selectedId]);
 
   function chooseMarkerType(value: string) {
     if (isCampaignMarkerType(value)) {
       setMarkerType(value);
     }
+  }
+
+  function chooseOverlayType(value: string) {
+    if (isCampaignMapOverlayType(value)) {
+      setOverlayType(value);
+    }
+  }
+
+  function startOverlayDrawing(type: CampaignMapOverlayType) {
+    setOverlayType(type);
+    setSelectedMarkerId("");
+    setPendingPoint(undefined);
+    setIsPlacingMarker(false);
+    setSelectedOverlayId("");
+    setOverlayDraftPoints([]);
+    setOverlayName("");
+    setOverlayColor("#e6b45e");
+    setOverlayPlayerVisible(false);
+    setIsDrawingOverlay(true);
+    setOverlaysStatus(
+      type === "region"
+        ? "Click around the map to outline a region."
+        : "Click along the map to trace a route.",
+    );
   }
 
   const refreshMarkers = useCallback(async () => {
@@ -193,8 +279,12 @@ export default function MapAtlas({
     setSelectedMarkerId("");
     setPendingPoint(undefined);
     setIsPlacingMarker(false);
+    setSelectedOverlayId("");
+    setOverlayDraftPoints(null);
+    setIsDrawingOverlay(false);
     void refreshMarkers();
-  }, [refreshMarkers]);
+    void refreshOverlays();
+  }, [refreshMarkers, refreshOverlays]);
 
   useEffect(() => {
     if (!selectedMarker) {
@@ -205,6 +295,16 @@ export default function MapAtlas({
     setMarkerLocationId(selectedMarker.location_id ?? "");
     setMarkerPlayerVisible(selectedMarker.player_visible);
   }, [selectedMarker]);
+
+  useEffect(() => {
+    if (!selectedOverlay) {
+      return;
+    }
+    setOverlayName(selectedOverlay.name);
+    setOverlayType(selectedOverlay.overlay_type);
+    setOverlayColor(selectedOverlay.color);
+    setOverlayPlayerVisible(selectedOverlay.player_visible);
+  }, [selectedOverlay]);
 
   const fitMap = useCallback(() => {
     const viewport = viewportRef.current;
@@ -271,7 +371,7 @@ export default function MapAtlas({
       return;
     }
     dragged.current = false;
-    if (!artworkUrl || isPlacingMarker) {
+    if (!artworkUrl || isPlacingMarker || isDrawingOverlay) {
       return;
     }
     event.preventDefault();
@@ -304,7 +404,7 @@ export default function MapAtlas({
   }
 
   function handleViewportClick(event: React.MouseEvent<HTMLDivElement>) {
-    if (!canEditMarkers || !isPlacingMarker || dragged.current || !naturalSize.width) {
+    if (!canEditMarkers || dragged.current || !naturalSize.width) {
       return;
     }
     const viewport = viewportRef.current;
@@ -321,8 +421,27 @@ export default function MapAtlas({
         (naturalSize.height * view.scale) +
       0.5;
     if (x < 0 || x > 1 || y < 0 || y > 1) {
-      setMarkersStatus("Place the marker inside the map artwork.");
-      return;
+        if (isDrawingOverlay) {
+          setOverlaysStatus("Add overlay points inside the map artwork.");
+        } else if (isPlacingMarker) {
+          setMarkersStatus("Place the marker inside the map artwork.");
+        }
+        return;
+    }
+    if (isDrawingOverlay) {
+        if ((overlayDraftPoints?.length ?? 0) >= 1000) {
+          setOverlaysStatus("Overlays cannot contain more than 1,000 points.");
+          return;
+        }
+        setOverlayDraftPoints((points) => [
+          ...(points ?? []),
+          { x, y },
+        ]);
+        setOverlaysStatus("Point added. Add more points or finish the overlay.");
+        return;
+    }
+    if (!isPlacingMarker) {
+        return;
     }
     setPendingPoint({ x, y });
     if (!selectedMarker) {
@@ -334,6 +453,106 @@ export default function MapAtlas({
     }
     setIsPlacingMarker(false);
     setMarkersStatus("Set the marker details, then save it.");
+  }
+
+  function finishOverlayDrawing() {
+    if (!overlayDraftPoints || overlayDraftPoints.length < minimumOverlayPoints) {
+      setOverlaysStatus(
+        `${overlayType === "region" ? "Regions need at least three points." : "Routes need at least two points."}`,
+      );
+      return;
+    }
+    setIsDrawingOverlay(false);
+    setOverlaysStatus("Set the overlay details, then save it.");
+  }
+
+  function cancelOverlayDrawing() {
+    setIsDrawingOverlay(false);
+    setOverlayDraftPoints(null);
+    if (!selectedOverlay) {
+      setSelectedOverlayId("");
+    }
+    setOverlaysStatus("Overlay drawing cancelled.");
+  }
+
+  function redrawSelectedOverlay() {
+    if (!selectedOverlay) {
+      return;
+    }
+    setIsPlacingMarker(false);
+    setOverlayType(selectedOverlay.overlay_type);
+    setOverlayDraftPoints([]);
+    setIsDrawingOverlay(true);
+    setOverlaysStatus(
+      selectedOverlay.overlay_type === "region"
+        ? "Click around the map to redraw this region."
+        : "Click along the map to retrace this route.",
+    );
+  }
+
+  async function submitOverlay(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const points = overlayDraftPoints ?? selectedOverlay?.points;
+    if (!points || !selectedId) {
+      setOverlaysStatus("Draw an overlay on the map first.");
+      return;
+    }
+
+    setOverlayPending(true);
+    setOverlaysStatus("");
+    try {
+      const result = await saveCampaignMapOverlay({
+        ...(selectedOverlay ? { id: selectedOverlay.id } : {}),
+        mapId: selectedId,
+        name: overlayName,
+        overlayType,
+        points,
+        color: overlayColor,
+        playerVisible: overlayPlayerVisible,
+      });
+      if (result.error) {
+        setOverlaysStatus(result.error);
+        return;
+      }
+      setOverlayDraftPoints(null);
+      setSelectedOverlayId(result.id ?? "");
+      await refreshOverlays();
+      setOverlaysStatus("Map overlay saved.");
+    } catch (error) {
+      setOverlaysStatus(
+        error instanceof Error
+          ? `Unable to save map overlay: ${error.message}`
+          : "Unable to save map overlay.",
+      );
+    } finally {
+      setOverlayPending(false);
+    }
+  }
+
+  async function removeSelectedOverlay() {
+    if (!selectedOverlay) {
+      return;
+    }
+    setOverlayPending(true);
+    setOverlaysStatus("");
+    try {
+      const result = await deleteCampaignMapOverlay(selectedOverlay.id);
+      if (result.error) {
+        setOverlaysStatus(result.error);
+        return;
+      }
+      setSelectedOverlayId("");
+      setOverlaysStatus("Map overlay deleted.");
+      await refreshOverlays();
+    } catch (error) {
+      setOverlaysStatus(
+        error instanceof Error
+          ? `Unable to delete map overlay: ${error.message}`
+          : "Unable to delete map overlay.",
+      );
+    } finally {
+      setOverlayPending(false);
+    }
   }
 
   async function submitMarker(event: FormEvent<HTMLFormElement>) {
@@ -411,6 +630,16 @@ export default function MapAtlas({
   }
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
+    if (isDrawingOverlay && event.key === "Enter") {
+      event.preventDefault();
+      finishOverlayDrawing();
+      return;
+    }
+    if (isDrawingOverlay && event.key === "Escape") {
+      event.preventDefault();
+      cancelOverlayDrawing();
+      return;
+    }
     if (event.key === "+" || event.key === "=") {
       event.preventDefault();
       zoomAt(1.2);
@@ -492,8 +721,11 @@ export default function MapAtlas({
           <button
             disabled={!artworkUrl}
             onClick={() => {
+              setIsDrawingOverlay(false);
+              setOverlayDraftPoints(null);
               setPendingPoint(undefined);
               setSelectedMarkerId("");
+              setSelectedOverlayId("");
               setIsPlacingMarker((current) => !current);
               setMarkersStatus(
                 isPlacingMarker
@@ -505,6 +737,40 @@ export default function MapAtlas({
           >
             {isPlacingMarker ? "Cancel marker" : "Place marker"}
           </button>
+        ) : null}
+        {canEditMarkers ? (
+          <>
+            <button
+              disabled={!artworkUrl}
+              onClick={() => startOverlayDrawing("region")}
+              type="button"
+            >
+              Draw region
+            </button>
+            <button
+              disabled={!artworkUrl}
+              onClick={() => startOverlayDrawing("route")}
+              type="button"
+            >
+              Draw route
+            </button>
+            {isDrawingOverlay ? (
+              <>
+                <button
+                  disabled={
+                    (overlayDraftPoints?.length ?? 0) < minimumOverlayPoints
+                  }
+                  onClick={finishOverlayDrawing}
+                  type="button"
+                >
+                  Finish overlay ({overlayDraftPoints?.length ?? 0})
+                </button>
+                <button onClick={cancelOverlayDrawing} type="button">
+                  Cancel drawing
+                </button>
+              </>
+            ) : null}
+          </>
         ) : null}
         <output className="atlas-zoom" aria-label="Current zoom">
           {Math.round(view.scale * 100)}%
@@ -544,7 +810,7 @@ export default function MapAtlas({
       <div
         aria-label="Interactive map. Drag to pan, use the mouse wheel to zoom, or use arrow, plus, minus, and home keys."
         aria-roledescription="interactive map"
-        className={`atlas-viewport${artworkUrl ? " is-ready" : ""}`}
+        className={`atlas-viewport${artworkUrl ? " is-ready" : ""}${isDrawingOverlay ? " is-drawing-overlay" : ""}`}
         onClick={handleViewportClick}
         onKeyDown={handleKeyDown}
         onPointerDown={handlePointerDown}
@@ -588,6 +854,77 @@ export default function MapAtlas({
               }}
               src={artworkUrl}
             />
+            <svg
+              aria-hidden="true"
+              className="atlas-overlay-layer"
+              preserveAspectRatio="none"
+              viewBox="0 0 1 1"
+            >
+              {overlays.map((overlay) => {
+                const points = overlay.points
+                  .map((point) => `${point.x},${point.y}`)
+                  .join(" ");
+                const selected = selectedOverlayId === overlay.id;
+                return overlay.overlay_type === "region" ? (
+                  <polygon
+                    className={selected ? "is-selected" : undefined}
+                    fill={overlay.color}
+                    fillOpacity={selected ? "0.34" : "0.22"}
+                    key={overlay.id}
+                    points={points}
+                    stroke={overlay.color}
+                    strokeWidth={selected ? "0.006" : "0.003"}
+                  />
+                ) : (
+                  <polyline
+                    className={selected ? "is-selected" : undefined}
+                    fill="none"
+                    key={overlay.id}
+                    points={points}
+                    stroke={overlay.color}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={selected ? "0.012" : "0.008"}
+                  />
+                );
+              })}
+              {overlayDraftPoints?.map((point, index) => (
+                <circle
+                  cx={point.x}
+                  cy={point.y}
+                  fill={overlayColor}
+                  key={`draft-${index}`}
+                  r="0.007"
+                />
+              ))}
+              {overlayDraftPoints?.length ? (
+                overlayType === "region" ? (
+                  <polygon
+                    className="atlas-overlay-draft"
+                    fill={overlayColor}
+                    fillOpacity="0.2"
+                    points={overlayDraftPoints
+                      .map((point) => `${point.x},${point.y}`)
+                      .join(" ")}
+                    stroke={overlayColor}
+                    strokeDasharray="0.012 0.008"
+                    strokeWidth="0.004"
+                  />
+                ) : (
+                  <polyline
+                    className="atlas-overlay-draft"
+                    fill="none"
+                    points={overlayDraftPoints
+                      .map((point) => `${point.x},${point.y}`)
+                      .join(" ")}
+                    stroke={overlayColor}
+                    strokeDasharray="0.012 0.008"
+                    strokeLinecap="round"
+                    strokeWidth="0.008"
+                  />
+                )
+              ) : null}
+            </svg>
             {markers.map((marker) => (
               <button
                 aria-label={`${marker.name}${marker.location_name ? `, ${marker.location_name}` : ""}`}
@@ -631,6 +968,149 @@ export default function MapAtlas({
         Drag to pan. Scroll to zoom at the pointer. Keyboard: arrow keys to pan,
         +/− to zoom, Home or 0 to fit the map.
       </p>
+      {canEditMarkers || overlays.length || overlaysStatus ? (
+        <section
+          className="atlas-overlay-panel"
+          aria-labelledby="atlas-overlays-heading"
+        >
+          <h3 id="atlas-overlays-heading">Map overlays</h3>
+          {canEditMarkers ? (
+            <p className="muted">
+              Draw regions by outlining an area or routes by tracing a path.
+              Overlays use proportional artwork coordinates.
+            </p>
+          ) : null}
+          {overlays.length ? (
+            <ul className="atlas-overlay-list">
+              {overlays.map((overlay) => (
+                <li key={overlay.id}>
+                  <button
+                    aria-pressed={selectedOverlayId === overlay.id}
+                    onClick={() => {
+                      setSelectedMarkerId("");
+                      setPendingPoint(undefined);
+                      setIsDrawingOverlay(false);
+                      setOverlayDraftPoints(null);
+                      setSelectedOverlayId(overlay.id);
+                    }}
+                    type="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="atlas-overlay-swatch"
+                      style={{ backgroundColor: overlay.color }}
+                    />
+                    {overlay.name} · {overlay.overlay_type}
+                  </button>
+                  {canEditMarkers ? (
+                    <span className="muted">
+                      {overlay.player_visible ? "Shared" : "GM-only"}
+                    </span>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="muted">
+              {overlaysStatus || "No overlays have been added to this map."}
+            </p>
+          )}
+          {canEditMarkers &&
+          !isDrawingOverlay &&
+          (selectedOverlay || overlayDraftPoints !== null) ? (
+            <form className="atlas-overlay-form" onSubmit={submitOverlay}>
+              <h4>{selectedOverlay ? "Edit overlay" : "New overlay"}</h4>
+              <label>
+                Overlay name
+                <input
+                  maxLength={160}
+                  onChange={(event) => setOverlayName(event.target.value)}
+                  required
+                  value={overlayName}
+                />
+              </label>
+              <label>
+                Shape
+                <select
+                  onChange={(event) => chooseOverlayType(event.target.value)}
+                  value={overlayType}
+                >
+                  {campaignMapOverlayTypes.map((type) => (
+                    <option key={type} value={type}>
+                      {type[0].toUpperCase() + type.slice(1)}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Overlay color
+                <input
+                  onChange={(event) => setOverlayColor(event.target.value)}
+                  type="color"
+                  value={overlayColor}
+                />
+              </label>
+              <label className="checkbox-label">
+                <input
+                  checked={overlayPlayerVisible}
+                  onChange={(event) =>
+                    setOverlayPlayerVisible(event.target.checked)
+                  }
+                  type="checkbox"
+                />
+                Visible to players
+              </label>
+              {overlayPlayerVisible && !selectedMap?.player_visible ? (
+                <p className="notice" role="status">
+                  Players will only see this overlay after the map is shared.
+                </p>
+              ) : null}
+              <div className="atlas-overlay-actions">
+                <button disabled={overlayPending} type="submit">
+                  {overlayPending ? "Saving…" : "Save overlay"}
+                </button>
+                {selectedOverlay ? (
+                  <>
+                    <button
+                      disabled={overlayPending}
+                      onClick={redrawSelectedOverlay}
+                      type="button"
+                    >
+                      Redraw shape
+                    </button>
+                    <button
+                      disabled={overlayPending}
+                      onClick={removeSelectedOverlay}
+                      type="button"
+                    >
+                      Delete overlay
+                    </button>
+                  </>
+                ) : (
+                  <button
+                    disabled={overlayPending}
+                    onClick={cancelOverlayDrawing}
+                    type="button"
+                  >
+                    Cancel
+                  </button>
+                )}
+              </div>
+            </form>
+          ) : null}
+          {overlaysStatus ? (
+            <p
+              className={
+                overlaysStatus.startsWith("Unable") ? "error" : "notice"
+              }
+              role="status"
+              aria-live="polite"
+            >
+              {overlaysStatus}
+            </p>
+          ) : null}
+        </section>
+      ) : null}
       {canEditMarkers || markers.length || markersStatus ? (
         <section className="atlas-marker-panel" aria-labelledby="atlas-markers-heading">
           <h3 id="atlas-markers-heading">Map markers</h3>

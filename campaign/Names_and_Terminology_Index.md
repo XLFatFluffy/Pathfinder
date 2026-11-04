@@ -277,3 +277,22 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Mara Doss | Person | ESTABLISHED | Human grain tally clerk, Rivergate. |
 | Brother Halen | Person | ESTABLISHED | Human hospice stores clerk, Lantern Ward. |
 | Workforce and Daily Life | Campaign reference | ESTABLISHED | District labor patterns, Pathfinder hireling wage baselines, hiring practices, labor pressures, supporting workers, and daily rhythm recorded in `Workforce_and_Daily_Life.md`. |
+
+
+## Tallowmere — Residential Life and Housing (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Residential Life and Housing | Campaign reference | ESTABLISHED | Residential districts, local rent estimates, housing patterns, sanitation, household pressures, and residential neighbors recorded in Residential_Life_and_Housing.md. |
+| Marta Rill | Person | ESTABLISHED | Member of Jessa Rill's Rivergate household; keeps household accounts. |
+| Tavin Rill | Person | ESTABLISHED | Jessa Rill's younger brother; works when health permits. |
+| Elsie Rill | Person | ESTABLISHED | Tavin's daughter and member of the Rill household. |
+| Corren Pellor | Person | ESTABLISHED | Husband of baker Hesta Pellor; aging carter. |
+| Lysa Pellor | Person | ESTABLISHED | Adult niece of Hesta Pellor; helps at Three Grain Bakery and hopes to rent her own room. |
+| Pate Venn | Person | ESTABLISHED | Adult son of Mara Venn; works aboard coastal vessels. |
+| Nalia Moss | Person | ESTABLISHED | Sister of Edda Moss; manages their Lantern Ward household. |
+| Veska | Person | ESTABLISHED | Partner of Kett-of-the-Low-Arch; trades in repaired lamps and fittings. |
+| Pip | Person | ESTABLISHED | Child in Kett-of-the-Low-Arch and Veska's household. |
+| Rusk | Person | ESTABLISHED | Child in Kett-of-the-Low-Arch and Veska's household. |
+| Orren Reed | Person | ESTABLISHED | Husband of Pellan Reed; member of the Rivergate Reed household. |
+| Sella Reed | Person | ESTABLISHED | Elderly aunt of Orren Reed; lives with the Reed household. |

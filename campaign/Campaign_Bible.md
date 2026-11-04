@@ -1815,3 +1815,15 @@ The following geographic foundations are **ESTABLISHED**. They do not yet establ
 - Final names for the continent, inland sea, island, land bridge, mountain systems, rivers, and regions.
 - Exact placement and borders of all six Great House territories and the locations, names, and allegiances of minor houses.
 - The specific route, entrances, and construction history of the dwarven underground access to Dragonstone.
+
+
+## Stage 5 — Approved Great House Territorial Framework (2026-11-04)
+
+The following broad territorial placements are ESTABLISHED. Exact borders, seats, subordinate holdings, and local jurisdictions remain to be mapped.
+
+- **House Veyr:** Controls the majority of the northern frontier and northern territories, including the principal responsibility for the Ancient Barrier.
+- **House Calderan:** Holds its principal Crown territory farther inland, rather than directly on the inland sea, preferably near the meeting of major rivers and central routes. The precise capital location remains unresolved.
+- **House Merrowen:** Its maritime territory extends along the eastern coast, rather than being confined to the eastern delta or southeastern coast. It does not automatically control every eastern port.
+- **House Kharadorn:** Controls Dragonstone, the central inland sea, and surrounding territory. Dragonstone remains distinct from Khar-Dum, the Kharadorns' ancestral homeland in the northeastern mountains. The dwarven underground route to Dragonstone remains a GM-only secret.
+
+These placements do not imply that the six Great Houses own every part of the continent. Lesser houses, independent cities, minor kingdoms, and other political territories remain especially important in the southern reaches. The exact limits of Kharadorn's inland-sea territory and the degree of its control over individual shores, ports, and islands remain to be detailed.

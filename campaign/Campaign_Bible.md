@@ -2095,3 +2095,8 @@ The names and leadership of major religious institutions; the relative prominenc
 # 8. CURRENT RULERS OF THE GREAT HOUSES
 
 The current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler political dynamics are recorded in the dedicated reference `House_Rulers.md`. These identities and relationships are established as of 2026-11-04. The document does not establish or alter any player character's identity or personal history. Exact wider family trees, Council representatives, and household officers remain unresolved.
+
+
+# 9. THE IMPERIAL COUNCIL AND ROYAL COURT
+
+The current six Great House representatives, Crown officers, leaders of the five court factions, religious advisers, and principal political fault lines are recorded in `Court_and_Council.md`. The Council retains six permanent Great House seats; the monarch presides without an additional seat. Religious authorities may advise the Crown but have no automatic Council seat. The representatives and officers established in this reference are current as of 2026-11-04. Exact Council procedures and the full organization of the court factions remain unresolved.

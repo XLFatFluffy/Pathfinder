@@ -55,3 +55,33 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Term | Category | Status | Notes |
 |---|---|---|---|
 | Minor house | Noble house category | ESTABLISHED CATEGORY | Wealthy lords and ladies with relatively small territories and local holdings; locally established but nearly politically insignificant continent-wide. They do not rival the six Great Houses or automatically hold Imperial Council seats. Individual house names, number, holdings, and allegiances remain unresolved. |
+
+
+## Stage 8 — Established Current Rulers and Immediate Family
+
+| Name | Category | Status | Notes |
+|---|---|---|---|
+| King Aldric Calderan | Person | ESTABLISHED | Current human monarch; House Calderan. |
+| Queen Elowen Calderan | Person | ESTABLISHED | Queen consort; House Calderan. |
+| Crown Prince Edric Calderan | Person | ESTABLISHED | Recognized heir to the Imperial Seat. |
+| Princess Maerelle Calderan | Person | ESTABLISHED | Younger daughter of Aldric and Elowen. |
+| Lord Theren Vaelorian | Person | ESTABLISHED | Current elven ruler of House Vaelorian. |
+| Lady Seralyth Vaelorian | Person | ESTABLISHED | Theren's eldest daughter and designated heir. |
+| Lord Caelion Vaelorian | Person | ESTABLISHED | Theren's younger son. |
+| Lady Virella Vaelorian | Person | ESTABLISHED | Theren's sister; influential among traditionalist elven families. |
+| High King Durnak Kharadorn | Person | ESTABLISHED | Current ruler of the dwarven empire; later ruler, not the post-Rebellion founder. |
+| Prince Vorgun Kharadorn | Person | ESTABLISHED | Durnak's eldest son and designated successor. |
+| Princess Brynja Kharadorn | Person | ESTABLISHED | Durnak's daughter; influential in clan diplomacy. |
+| Lord Kazrik Kharadorn | Person | ESTABLISHED | Durnak's younger brother; influential among older clans. |
+| Lord Garrick Edarth | Person | ESTABLISHED | Current ruler of House Edarth. |
+| Ser Rowan Edarth | Person | ESTABLISHED | Garrick's eldest son and recognized heir. |
+| Lady Elayne Edarth | Person | ESTABLISHED | Garrick's daughter; politically influential. |
+| Ser Tomas Edarth | Person | ESTABLISHED | Garrick's nephew; popular knight. |
+| Lord Edran Veyr | Person | ESTABLISHED | Current ruler of House Veyr. |
+| Lady Anika Veyr | Person | ESTABLISHED | Edran's eldest daughter and designated heir. |
+| Ser Halvar Veyr | Person | ESTABLISHED | Edran's son; Northern Watch officer. |
+| Lord Stellan Veyr | Person | ESTABLISHED | Edran's uncle; veteran commander. |
+| Lady Maris Merrowen | Person | ESTABLISHED | Current ruler of House Merrowen. |
+| Lord Corvin Merrowen | Person | ESTABLISHED | Maris's eldest son and designated heir. |
+| Lady Selene Merrowen | Person | ESTABLISHED | Maris's daughter; involved in trade negotiations. |
+| Lord Aeric Merrowen | Person | ESTABLISHED | Maris's brother; traditional coastal lord. |

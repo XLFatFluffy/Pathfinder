@@ -4,7 +4,9 @@
 **Last updated:** 2026-11-04  
 **Important boundary:** These are player-character goals and backstory facts supplied by the GM. Do not invent, revise, or expand personal histories, motives, identities, or relationships beyond what the GM and players provide. The PCs are not assumed to be heroes.
 
-## 1. The Surviving Heir of the Fallen Dragon-Riding Dynasty
+## 1. Tyler: The Vampire Mesmerist and Surviving Heir
+
+**These are one character, not two separate PCs.** Tyler is the vampire mesmerist and is also the surviving Crown Prince of the fallen dragon-riding dynasty.
 
 **Primary ambition:** Rebuild the fallen dynasty.
 
@@ -17,7 +19,7 @@ Established goals:
 
 This is a long-term project of dynastic restoration, requiring resources, allies, political leverage, and military power. It is not automatically a heroic cause, and the character is not required to pursue it through honorable or benevolent means.
 
-**Existing established background:** One surviving Crown Prince escaped the destruction of Dragonstone. He was nine years old at the beginning of the Great Rebellion. His survival is concealed, and the six Great Houses believe the old dragon-riding dynasty extinct. The PC is this surviving heir. His personal name and further history remain the player's domain.
+**Existing established background:** One surviving Crown Prince escaped the destruction of Dragonstone. He was nine years old at the beginning of the Great Rebellion. His survival is concealed, and the six Great Houses believe the old dragon-riding dynasty extinct. The PC is this surviving heir. His further personal history remains the player's domain.
 
 ## 2. The Ratfolk Alchemist
 
@@ -33,23 +35,15 @@ Established background and goals:
 
 This is a people-wide political and social ambition rooted in personal loss. It may involve changing laws, public attitudes, economic power, political representation, security, and ratfolk communities' ability to organize and defend themselves. These are possible avenues, not additional established goals or prescribed methods.
 
-## 3. The Vampire Mesmerist
+## 3. Tyler's Relationship with the Ratfolk Alchemist
 
-**Established information:**
-- The vampire PC saved the ratfolk alchemist.
-- He raised the ratfolk after the ratfolk's family was killed.
-- His personal long-term ambition has not yet been supplied.
-
-The player's real-world name is Tyler. **Tyler is not the vampire character's name.** Do not use the player's real-world name as the character's name.
-
-Do not invent the vampire's personal ambitions, history, identity, or reasons for saving and raising the ratfolk. Await the player's backstory from the GM.
+Tyler, the vampire mesmerist and surviving dragon-dynasty heir, saved the ratfolk alchemist after the ratfolk's family was killed by persecution and raised him. Tyler's own further personal history and any ambitions beyond dynastic restoration remain for the player to establish.
 
 ## 4. Party-Level Campaign Identity
 
 The party is not defined as a group of heroes. Their ambitions are personal, political, and potentially ruthless:
-- Restore a destroyed ruling dynasty.
-- End the oppression of ratfolk and elevate their standing across the continent.
-- The vampire's own ambition remains to be established by the player.
+- Tyler seeks to restore the fallen dragon-riding dynasty.
+- The ratfolk alchemist seeks to end the oppression of ratfolk and elevate their standing across the continent.
 
 These goals can intersect, reinforce one another, or eventually conflict. Do not force them into a unified moral mission. The campaign world should respond to their actions and consequences rather than presuming they will save kingdoms, defend the innocent, or act for the greater good.
 

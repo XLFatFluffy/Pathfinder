@@ -180,3 +180,5 @@ This overview contains older planning language that has since been superseded by
 
 
 - [Residential Life and Housing](Residential_Life_and_Housing.md): housing by district, local rent estimates, sanitation, household pressures, and ordinary residential NPCs.
+
+- [Streets, Landmarks, and Routes](Streets_Landmarks_and_Routes.md): named streets, public squares, bridges, civic buildings, harbor controls, and practical travel-time assumptions.

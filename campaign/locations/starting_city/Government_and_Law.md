@@ -44,3 +44,8 @@ Kharadorn's rights are strategic. Dwarven envoys may inspect obligations, negoti
 
 ## Open Details
 Exact charter text, council seat allocation, court procedure, tax schedule, watch strength, garrison numbers, and remaining officeholders are not yet fixed. No specific privilege or restriction is established until recorded.
+
+
+## Chartered Council and Kharadorn Presence — 2026-11-04
+
+The seven recognized seats, appointment customs, quorum, petition procedures, and advisory limits of the local Chartered Council are detailed in [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md). Kharadorn's resident charter representative, Charter House, limited escort, and defense-review role are detailed in [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md). These records clarify local procedure without changing House Denvor's ordinary governing authority or Kharadorn's strategic charter rights.

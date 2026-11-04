@@ -215,3 +215,14 @@ The factions are overlapping political networks, not formal parties. House affil
 - The vampire mesmerist's personal ambition remains unknown. His established connection is that he saved and raised the ratfolk alchemist. Tyler is the player's real-world name, not the vampire character's name.
 
 Do not invent PC identities, personal histories, motives, or methods. Full record: `Player_Character_Ambitions.md`.
+
+
+## Table and Rules Philosophy (2026-11-04)
+
+**Status: ESTABLISHED CAMPAIGN STANDARD.** Pathfinder First Edition is the mechanical baseline. The campaign will be strict and consistent with the published rules unless the GM explicitly approves a house rule.
+
+- Player creativity and ambition should be supported within the rules. The GM should adjudicate unusual plans fairly rather than rejecting them merely because they are unconventional.
+- Setting conditions may affect what is available: knowledge, materials, teachers, markets, legal permissions, time, and money can all matter. These are world circumstances, not undisclosed changes to character mechanics.
+- Do not invent additional mechanical prerequisites, penalties, or restrictions for convenience. Any house rule must be discussed and explicitly approved.
+- NPCs operate under the same mechanical framework as PCs. Their capabilities should have a plausible rules-based explanation.
+- Consequences should arise from established rules, the setting, and the choices of the PCs—not arbitrary permission gates or plot protection.

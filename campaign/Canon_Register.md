@@ -202,3 +202,14 @@ Succession tensions are deliberately distinct: Calderan's cautious heir versus a
 The factions are overlapping political networks, not formal parties. House affiliation does not determine membership. The Council representatives are distinct from their house rulers and are appointed by their respective houses. Religious authorities have no automatic Council seat. The Council's exact voting rules, quorum, vetoes, and formal procedures remain unresolved.
 
 **Reference:** `Court_and_Council.md`.
+
+
+## Player Character Ambitions (2026-11-04)
+
+**Status: ESTABLISHED PLAYER-CHARACTER INFORMATION.** The GM supplied the following goals and backstory facts. The PCs are not assumed to be heroes.
+
+- The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule.
+- The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish them as equals to, or greater than, other peoples. His family was killed by persecution; the vampire PC saved and raised him.
+- The vampire mesmerist's personal ambition remains unknown. His established connection is that he saved and raised the ratfolk alchemist. Tyler is the player's real-world name, not the vampire character's name.
+
+Do not invent PC identities, personal histories, motives, or methods. Full record: `Player_Character_Ambitions.md`.

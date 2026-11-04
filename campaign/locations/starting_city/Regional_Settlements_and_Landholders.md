@@ -290,3 +290,10 @@ The PCs can trade with, work for, compete against, assist, or ignore any of thes
 - Specific local events that may occur during the campaign calendar.
 
 Do not invent exact tax rates, toll amounts, or military obligations until those systems are established consistently with the wider campaign.
+
+
+## 5. House Relland's Holding
+
+House Relland is a minor human noble family owing allegiance to House Velleran. Its modest manor and tenant lands lie along the South Road within the broader Velleran-chartered territory south of Tallowmere. The exact surveyed location and boundary are deliberately provisional pending the finished regional map. The house is locally established but has no continent-wide influence and no Imperial Council seat.
+
+House Relland's history includes a serious abuse of authority approximately ten years before the campaign: armed retainers used the house's livery and road-patrol authority to extort a travelling merchant family, then murdered the parents when they resisted. The household later concealed the misconduct. Full details, current family members, and possible evidence are recorded in `../../House_Relland_and_the_Merchant_Incident.md`. This event does not make House Relland a Tallowmere faction or imply that House Velleran ordered or approved the crime.

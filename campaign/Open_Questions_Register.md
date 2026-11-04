@@ -46,9 +46,9 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 ## Great Houses — remaining questions
 - Where are the six houses' territories and principal seats located on the final continent map?
-- What wider family trees, collateral branches, and detailed house histories exist beyond the established rulers and immediate families in `House_Rulers.md`?
-- The six Council representatives are established in `Court_and_Council.md`; what exact procedures, voting rules, quorum, vetoes, and customary practices govern the Council?
-- The five faction leaders are established in `Court_and_Council.md`; who belongs to each network, how do their memberships overlap, and what is their relative influence?
+- What wider family trees, collateral branches, and detailed house histories exist beyond the established rulers and immediate families in `politics/House_Rulers.md`?
+- The six Council representatives are established in `politics/Court_and_Council.md`; what exact procedures, voting rules, quorum, vetoes, and customary practices govern the Council?
+- The five faction leaders are established in `politics/Court_and_Council.md`; who belongs to each network, how do their memberships overlap, and what is their relative influence?
 - What were each house's specific campaigns, commanders, alliances, and sacrifices during the Great Rebellion?
 - What is the final in-world name of Dragonstone, the conquered ancestral stronghold of the fallen dragon-riding dynasty?
 
@@ -66,7 +66,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 ## Stage 8 — Current Rulers and Succession
 
-**RESOLVED:** Current rulers and immediate families of all six Great Houses, including designated heirs and principal succession tensions, are established in `House_Rulers.md` (2026-11-04).
+**RESOLVED:** Current rulers and immediate families of all six Great Houses, including designated heirs and principal succession tensions, are established in `politics/House_Rulers.md` (2026-11-04).
 
 **Still open:** Wider family trees and collateral branches; individual Imperial Council representatives; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded.
 

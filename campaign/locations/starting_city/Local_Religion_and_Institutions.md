@@ -2,7 +2,7 @@
 
 **Status:** ESTABLISHED LOCAL FRAMEWORK — 2026-11-04  
 **Ruleset:** Pathfinder First Edition  
-**Parent canon:** `campaign/Religion_and_Faith.md`
+**Parent canon:** `campaign/religions/Religion_and_Faith.md`
 
 This document applies the established continental religious framework to Tallowmere. It does not create a separate pantheon, make one faith the city's official religion, or imply that every priest can cast spells.
 

@@ -1,11 +1,12 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import {
   deletePlayerCharacter,
   savePlayerCharacter,
   type CharacterFormState,
 } from "./actions";
+import { formatAbilityModifier } from "./ability-scores";
 
 export type CharacterSheet = {
   id: string;
@@ -37,6 +38,16 @@ export type CharacterSheet = {
 const initialState: CharacterFormState = {};
 
 export default function CharacterForm({ character }: { character?: CharacterSheet }) {
+  const [scores, setScores] = useState({
+    strength: character?.strength == null ? "" : String(character.strength),
+    dexterity: character?.dexterity == null ? "" : String(character.dexterity),
+    constitution:
+      character?.constitution == null ? "" : String(character.constitution),
+    intelligence:
+      character?.intelligence == null ? "" : String(character.intelligence),
+    wisdom: character?.wisdom == null ? "" : String(character.wisdom),
+    charisma: character?.charisma == null ? "" : String(character.charisma),
+  });
   const [state, saveAction, isSaving] = useActionState(
     savePlayerCharacter,
     initialState,
@@ -124,9 +135,17 @@ export default function CharacterForm({ character }: { character?: CharacterShee
               ] as const
             ).map(([field, label]) => (
               <label key={field}>
-                {label}
+                {label} (mod {formatAbilityModifier(
+                  scores[field] ? Number(scores[field]) : null,
+                )})
                 <input
-                  defaultValue={character?.[field] ?? ""}
+                  onChange={(event) =>
+                    setScores((current) => ({
+                      ...current,
+                      [field]: event.currentTarget.value,
+                    }))
+                  }
+                  value={scores[field]}
                   max={100}
                   min={1}
                   name={field}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import CharacterForm from "./character-form";
+import { formatAbilityModifier } from "./ability-scores";
 
 export const dynamic = "force-dynamic";
 
@@ -55,6 +56,20 @@ export default async function PlayerCharactersPage() {
                 HP {character.current_hp}/{character.max_hp}
                 {` · AC ${character.armor_class}`}
                 {character.alignment ? ` · ${character.alignment}` : ""}
+              </p>
+              <p className="muted">
+                STR {character.strength ?? "—"} (
+                {formatAbilityModifier(character.strength)}) · DEX{" "}
+                {character.dexterity ?? "—"} (
+                {formatAbilityModifier(character.dexterity)}) · CON{" "}
+                {character.constitution ?? "—"} (
+                {formatAbilityModifier(character.constitution)}) · INT{" "}
+                {character.intelligence ?? "—"} (
+                {formatAbilityModifier(character.intelligence)}) · WIS{" "}
+                {character.wisdom ?? "—"} (
+                {formatAbilityModifier(character.wisdom)}) · CHA{" "}
+                {character.charisma ?? "—"} (
+                {formatAbilityModifier(character.charisma)})
               </p>
               <details className="entry-edit">
                 <summary>View or edit character sheet</summary>

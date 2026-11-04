@@ -2,6 +2,7 @@ import Link from "next/link";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import GmCharacterNotesForm from "./gm-notes-form";
+import { formatAbilityModifier } from "@/app/player/characters/ability-scores";
 
 export const dynamic = "force-dynamic";
 
@@ -82,7 +83,8 @@ export default async function GmCharactersPage() {
                     ["CHA", character.charisma],
                   ].map(([label, score]) => (
                     <p className="muted" key={label}>
-                      <strong>{label}:</strong> {score ?? "—"}
+                      <strong>{label}:</strong> {score ?? "—"} (
+                      {formatAbilityModifier(score)})
                     </p>
                   ))}
                 </div>

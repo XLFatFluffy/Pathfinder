@@ -243,3 +243,18 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **CARTOGRAPHIC LIMITATION:** The illustration's printed 0–100 mile scale bar conflicts with the written journey distances and is not a valid measurement reference. Keep the established written distances unchanged. Use the illustration for relative direction and terrain only until a properly scaled regional map is prepared.
 
 **STILL OPEN:** Correct or remove the scale bar; establish surveyed coordinates and exact road distances only when a measured map is created. The detailed city map remains separate future work.
+
+
+## Tallowmere — Local Institutions and Civic Life (2026-11-04)
+
+**ESTABLISHED:** Tallowmere's initial local religious institutions and clergy are recorded in `locations/starting_city/Local_Religion_and_Institutions.md`. The city has no single official patron deity or unified church; divine spellcasting remains uncommon and must be established by Pathfinder First Edition capability.
+
+**ESTABLISHED:** The seven-seat advisory Chartered Council, appointment practices, quorum, petition access, and limits are recorded in `locations/starting_city/Chartered_Council_and_Civic_Procedure.md`. Ratfolk residents may petition but have no guaranteed Council seat under the current charter.
+
+**ESTABLISHED:** Kharadorn's resident Charter Warden Vardek Flintmark, clerk Belda Ironmark, Charter House, limited escort, and defense-review remit are recorded in `locations/starting_city/Kharadorn_Charter_Presence.md`. Exact tribute, inspection date, and full charter wording remain open.
+
+**ESTABLISHED:** Initial named criminal operators and their fragmented networks are recorded in `locations/starting_city/Criminal_Operators_and_Networks.md`. No unified criminal syndicate, citywide boss, or ratfolk-controlled underworld is established.
+
+**ESTABLISHED FRAMEWORK:** Daily rhythms, seasonal commercial patterns, civic notices, and recurring observances are recorded in `locations/starting_city/Civic_Calendar_and_Seasonal_Routines.md`.
+
+**STILL OPEN:** The formal calendar's year length, months, weekdays, era system, current campaign date, exact market-day frequency, and fixed festival dates; individual temple finances and divine spellcaster availability; full Council charter history and internal guild election rules; exact Kharadorn tribute and inspection schedule; and the scale and membership of criminal associates. These remain open deliberately and should not be improvised as fixed canon.

@@ -113,3 +113,13 @@ The relative city layout, gates and defenses framework, surrounding regional str
 - The proper name of the surrounding region, settlement names, distances, population, land tenure, minor houses, and specific wilderness sites.
 - The truth behind current rumors, the exact identity of any merchant consortium, and the specific Kharadorn envoy.
 - The PCs' opening situation and the precise date of the campaign's first session.
+
+
+## Tallowmere — Commerce and Shop Inventories (2026-11-04)
+
+Named shops and their initial inventories, asking prices, and stock policies are recorded in `Shopkeepers_and_Stock.md`. Still to develop:
+- More independent shops and market stalls, especially food sellers, clothing, leatherwork, arms and armor, lodging, transport, and ship supplies.
+- Exact suppliers and delivery routes for each business.
+- Individual shopkeepers' full relationships, debts, and rivalries.
+- A practical inventory ledger and time-based restocking cadence for campaign play.
+- Specialist sources for rare spell components, unusual alchemical reagents, and magic-item commissions.

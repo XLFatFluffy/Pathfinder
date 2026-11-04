@@ -177,7 +177,7 @@ Route knowledge is a practical resource, but it is not a citywide intelligence s
 
 Miraq Ashwhisk, Tikka Vell, repairers, couriers, water maintainers, craftspeople, and households have overlapping interests but different livelihoods. Some want greater surface integration; others prefer autonomy and limited contact. Some may support the PC's ambitions, some may distrust them, and some may simply want reliable customers and safe streets.
 
-**Political limit:** Ratfolk residents have no established formal seat on the chartered council. This does not mean they lack influence or that all surface officials reject their participation. The precise channels through which neighborhood representatives petition or negotiate remain open.
+**Political limit:** Ratfolk residents have no guaranteed formal seat on the chartered council. They may petition through the Town Reeve, attend public portions where permitted, submit a written or witnessed statement, or seek sponsorship from a Council member. Access depends on procedure and sponsorship; this remains a structural disadvantage.
 
 ## 7. Religious and Charitable Institutions
 
@@ -185,7 +185,7 @@ The city's temples, hospice, shrines, and charitable networks possess social tru
 
 - **Sister Alwen and Lantern Hospice:** The hospice provides care, shelter, and burial assistance within finite resources. Its need for donations creates relationships with merchants, households, and the Denvors. It may advocate for vulnerable residents without becoming a political organization.
 - **Brother Caldus and the Sailors' Shrine:** The shrine serves sailors and their families, preserves names of the missing, and offers rites and counsel. It hears maritime news and grief, but does not automatically share confidential information with civic authorities.
-- **Other temples and religious houses:** Their local clergy, patronage, doctrine, and political positions are not yet named. Do not treat them as one church or assign them a common agenda.
+- **Other temples and religious houses:** The Open Ledger, Quiet Gate, Tideward Shrine, and House of the Dawn, with their local clergy and positions, are established in Local_Religion_and_Institutions.md. Do not treat them as one church or assign them a common agenda.
 
 Religious institutions can shape public opinion, provide aid, mediate disputes, and criticize abuses. Their influence depends on trust and resources, not on an assumed power to command the city.
 
@@ -203,7 +203,7 @@ People with informal leverage may include:
 
 Some individuals operate entirely outside the law; others participate in both legitimate and illicit transactions. A person who knows a smuggler is not necessarily a smuggler. A person who breaks one law is not necessarily part of a wider organization.
 
-No named citywide criminal boss, unified thieves' guild, or secret council is established. Named operators, safehouses, corrupt officials, and specific networks remain open.
+No named citywide criminal boss, unified thieves' guild, or secret council is established. Initial named operators and fragmented networks are recorded in Criminal_Operators_and_Networks.md. Specific safehouses, associates, evidence, and further corrupt officials remain open.
 
 ## 9. Relationship Map: Current Cooperation and Friction
 
@@ -269,17 +269,16 @@ The surviving heir's identity and ambitions may create unusually significant pol
 
 ## 13. Open Details
 
-The following are deliberately unresolved:
-- Exact membership, seats, and procedures of the Tallowmere chartered council.
-- Whether any ratfolk neighborhood has a recognized formal petition channel or representative arrangement.
-- Names and identities of Kharadorn envoys or inspectors assigned to the defense review.
-- Individual leaders and membership of any informal criminal networks.
-- Which merchants actively support or oppose regular ratfolk market access.
-- The exact positions of local temples and their clergy.
+The following remain deliberately unresolved:
+- Exact charter wording, historic precedents, and future amendments to the Tallowmere Council.
+- Whether ratfolk petition access will ever become a guaranteed seat or formal representation.
+- The exact date, detailed findings, and required remedies of the current Kharadorn defense review.
+- Further criminal associates, safehouses, evidence, and the extent of individual operations.
+- Which merchants actively support or oppose regular ratfolk market access, beyond positions already recorded.
 - Which current commercial disputes will escalate, settle, or be overtaken by other events.
 - The precise resources, manpower, and readiness of the Denvor garrison and city watch.
 
-These details should be established when they become relevant, not invented retroactively to force a preferred plot.
+The initial council, Kharadorn presence, local religious leadership, and criminal operators are established in their dedicated records. These remaining details should be developed when relevant, not invented retroactively to force a preferred plot.
 
 
 ## Local Institutions and Named Operators — 2026-11-04

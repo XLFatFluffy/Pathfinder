@@ -100,9 +100,9 @@ Tallowmere's shops are independent businesses. They do not share identical stock
 
 ## 5. Tallowmere Alchemical Supply
 **District:** Market Ward, in a fire-separated workshop lane  
-**Owner:** Master Joric Pell, human alchemist; capable but guarded about his trade.  
-**Customers:** Apothecaries, craftspeople, wealthy households, a few adventurers, and licensed buyers.  
-**Character:** A specialist workshop, not a general store. Joric sells prepared alchemical goods and mundane laboratory supplies. He is one of the city's few established alchemical practitioners.
+**Owner:** Miraq Ashwhisk, ratfolk alchemist, independent craftswoman and careful business owner.  
+**Customers:** Apothecaries, craftspeople, a few adventurers, practical-minded merchants, and discreet repeat customers.  
+**Character:** A specialist workshop, not a general store. Miraq sells prepared alchemical goods and mundane laboratory supplies. She is one of the few established alchemical practitioners in Tallowmere and among the rare ratfolk business owners with a visible surface storefront. Her shop is in a narrow fire-separated lane off Market Ward, with a rear service entrance that opens toward a small Underways passage.
 
 | Item | Stock | Asking price | Notes |
 |---|---:|---:|---|
@@ -117,7 +117,11 @@ Tallowmere's shops are independent businesses. They do not share identical stock
 | Reagent bundle | 5 | 3 gp | Mundane supplies; contents itemized at purchase |
 | Distilled alcohol, acids, salts | Limited | Quoted | Sold by measured quantity and intended use |
 
-**Limitations:** Joric does not sell unlimited quantities. Hazardous goods are stored separately, and large orders require notice. He may decline a sale if he believes the buyer intends to endanger the workshop or city. This is a business judgment, not a new crafting rule.
+**Limitations:** Miraq does not sell unlimited quantities. Hazardous goods are stored separately, and large orders require notice. She may decline a sale if she believes the buyer intends to endanger the workshop or city. This is a business judgment, not a new crafting rule.
+
+**Personality and relationships:** Miraq is observant, dry-humored, technically curious, and slow to trust people who treat her as a novelty or assume she represents all ratfolk. She has earned her position through skill, careful accounts, and stubborn persistence. She knows Tikka Vell through the local trading community and occasionally buys repaired glassware and small fittings from her. She has no automatic loyalty to the ratfolk PC. Their shared species and alchemical interests provide natural common ground, but friendship would develop through respect, honest dealing, and shared experience. Miraq has her own customers, obligations, and opinions about how ratfolk should pursue acceptance.
+
+**Possible PC connection:** Miraq could become a professional contact, supplier, rival, confidante, or genuine friend to the ratfolk alchemist. The relationship is open and should emerge through play. She may be interested in comparing techniques, discussing reagent sourcing, or collaborating on a commission, but will not automatically hand over trade secrets or become a permanent sidekick.
 
 ## 6. Pell & Daughter, Scribes and Stationers
 **District:** High Ward, near the magistrates' offices  
@@ -180,3 +184,143 @@ A listed price may change when:
 - Quality, provenance, or workmanship differs.
 
 Do not apply arbitrary price changes to punish player success. State the asking price before purchase and keep negotiated prices consistent with the agreement.
+
+
+## 9. The Copper Ladle
+**District:** Market Ward, on the edge of the open food market  
+**Owner:** Della Rusk, human widow who runs the stall with two adult sons.  
+**Customers:** Dockworkers, servants, travelers, apprentices, and anyone who needs a hot meal without spending a silver on atmosphere.  
+**Character:** A busy cooked-food stall with a covered seating area. The menu changes with deliveries and season.
+
+| Item | Typical daily stock | Asking price | Notes |
+|---|---:|---:|---|
+| Loaf of coarse bread | 35 | 2 cp | Standard |
+| Bowl of bean and onion stew | 25 | 3 cp | Filling, inexpensive |
+| Bowl of fish stew | 12 | 5 cp | Depends on catch |
+| Sausage and bread | 18 | 4 cp | Local pork or preserved meat |
+| Hard cheese portion | 20 | 2 cp | Varies by supplier |
+| Small beer | 30 | 2 cp | Common table drink |
+| Hot spiced cider | 15 | 3 cp | Seasonal |
+| Packed travel meal | 8 | 5 cp | Bread, cheese, onion, and salted meat |
+
+**Limitations:** The Ladle is a food stall, not an inn. It closes when the day's food is gone. Prices can rise when fish, grain, or firewood become scarce.
+
+## 10. Thread & Thimble
+**District:** Market Ward  
+**Owner:** Sella Marr, halfling tailor and cloth merchant.  
+**Customers:** Household servants, sailors' families, apprentices, merchants, and modestly wealthy residents.  
+**Character:** Repairs and practical clothing are the core business. Sella keeps common sizes and fabrics, but fine garments are made to measure.
+
+| Item or service | Stock / capacity | Asking price | Notes |
+|---|---:|---:|---|
+| Commoner's outfit | 8 | 1 gp | Standard |
+| Artisan's outfit | 3 | 1 gp | Standard |
+| Traveler's outfit | 4 | 1 gp | Standard |
+| Noble's outfit | By commission | 75 gp | Standard starting price; fabric and ornament can raise cost |
+| Cloak | 6 | 5 sp | Plain wool |
+| Belt pouch | 10 | 1 gp | Standard |
+| Clothing repair | 5 jobs/day | 2 sp-1 gp | Depends on damage |
+| Tailored work shirt | 12 | 3 sp | Better fit than mass-produced clothing |
+| Heavy wool coat | 4 | 3 gp | Seasonal stock |
+
+**Limitations:** Sella does not keep expensive clothing ready-made. Fitting and sewing take time; rush work costs more when her workroom is busy.
+
+## 11. The Split Hide
+**District:** Old Quays, close to the cart route  
+**Owner:** Hadran Voss, human leatherworker and harness-maker.  
+**Customers:** Carters, sailors, horse owners, guards, and travelers.  
+**Character:** Durable leather goods, repairs, straps, harness, and waterproofing. Hadran's work is functional rather than fashionable.
+
+| Item or service | Stock / capacity | Asking price | Notes |
+|---|---:|---:|---|
+| Belt pouch | 8 | 1 gp | Standard |
+| Backpack | 4 | 2 gp | Standard |
+| Saddlebags | 3 pairs | 4 gp | Standard |
+| Leather harness | 5 | 5 gp | Standard |
+| Waterskin | 10 | 1 gp | Standard |
+| Leatherworking repair | 3 jobs/day | 5 sp-2 gp | Depends on item |
+| Riding saddle | 2 | 10 gp | Standard |
+| Military saddle | 1 | 20 gp | Standard |
+| Hide armor | 2 | 15 gp | Standard |
+| Leather armor | 1 | 10 gp | Standard |
+
+**Limitations:** Armor stock is limited and made to order when sold. Hadran buys hides from regional tanners and may be delayed when roads are unsafe.
+
+## 12. Gull & Anchor Chandlery
+**District:** Old Quays  
+**Owner:** Nessa Tor, human widow of a ship's purser.  
+**Customers:** Ship crews, captains, shipwrights, river pilots, and dockside businesses.  
+**Character:** Rope, canvas, hooks, lamps, tar, pitch, sail repair materials, and practical maritime supplies. Nessa knows which ships are expected and which captains pay late.
+
+| Item | Stock | Asking price | Notes |
+|---|---:|---:|---|
+| Rope, hempen (50 ft.) | 18 | 1 gp | Standard |
+| Grappling hook | 8 | 1 gp | Standard |
+| Fishing net | 5 | 4 gp | Standard |
+| Net, professional cargo | 3 | 10 gp | Heavy woven rope |
+| Hooded lantern | 4 | 7 gp | Standard |
+| Oil, flask | 24 | 1 sp | Standard |
+| Waterproof canvas square | 10 | 5 sp | Locally cut |
+| Pitch pot | 12 | 2 sp | Ship repair supply; not an alchemical weapon |
+| Sailcloth, bolt | 3 | 8 gp | Quality varies |
+| Ship's block and tackle | 4 | 5 gp | Standard |
+
+**Limitations:** Large quantities are sold by order and may require a ship's account or deposit. Nessa does not sell naval weapons.
+
+## 13. Brindle & Sons Stables
+**District:** Outside the West Gate, beside the caravan yards  
+**Owner:** Toman Brindle, human, with his daughter Ressa managing the books.  
+**Customers:** Merchants, messengers, travelers, minor nobles, and caravan masters.  
+**Character:** Boarding, feed, tack, and horse trading. The stable is practical and crowded during market weeks.
+
+| Service or animal | Typical availability | Asking price | Notes |
+|---|---:|---:|---|
+| Stabling, per day | 12 stalls | 5 sp | Includes ordinary feed |
+| Stabling, per week | 6 long-stay places | 3 gp | Advance payment preferred |
+| Light riding horse | 2 | 75 gp | Standard |
+| Heavy horse | 1 | 200 gp | Standard |
+| Pony | 3 | 30 gp | Standard |
+| Mule | 2 | 8 gp | Standard |
+| Feed, per day | 20 portions | 5 cp | Standard |
+| Saddle | 3 | 10 gp | Standard |
+| Riding saddle, used | 2 | 7 gp | Inspected; wear visible |
+
+**Limitations:** Animals are not interchangeable commodities. Temperament, health, training, and intended use affect price. Warhorses and trained mounts are not normally available for casual purchase.
+
+## 14. The Blue Heron
+**District:** Old Quays, overlooking the older harbor  
+**Owner:** Veyra Dane, half-elf innkeeper and former ship's cook.  
+**Customers:** Established sailors, small merchants, visiting factors, and travelers who prefer a clean bed to a cheap one.  
+**Character:** A respectable inn with a modest dining room. It is quieter and more expensive than dockside alehouses.
+
+| Service or meal | Typical availability | Asking price | Notes |
+|---|---:|---:|---|
+| Common room bed | 8 places | 2 sp/night | Shared room |
+| Private room | 5 rooms | 8 sp/night | Clean, simple |
+| Fine private room | 1 room | 2 gp/night | Better furnishings |
+| Poor meal | Daily | 1 sp | Simple fare |
+| Common meal | Daily | 3 sp | Meat or fish when available |
+| Good meal | Daily | 5 sp | Better ingredients |
+| Ale, mug | 25 servings | 4 cp | Local brew |
+| Laundry | 4 loads/day | 2 sp | Returned next day |
+
+**Limitations:** Rooms are often reserved during major ship arrivals. Veyra keeps a guest ledger and remembers troublesome customers.
+
+## 15. The Crooked Oar
+**District:** New Quays  
+**Owner:** Pellik Sorn, human, former deckhand.  
+**Customers:** Dock laborers, sailors between voyages, casual crews, and people who do not mind noise.  
+**Character:** Cheap drink, hot food, loud arguments, and crowded benches. It is not a den of villains; it is a working tavern where people unwind.
+
+| Item | Typical daily stock | Asking price | Notes |
+|---|---:|---:|---|
+| Small beer | 50 | 2 cp | House brew |
+| Ale, mug | 35 | 3 cp | Standard |
+| Cheap wine, cup | 15 | 2 sp | Rough local vintage |
+| Bread and dripping | 25 | 2 cp | Cheap food |
+| Onion and fish pie | 18 | 4 cp | Changes with catch |
+| Sausage plate | 12 | 5 cp | Filling |
+| Common bunk upstairs | 6 | 1 sp/night | Noisy, shared |
+| Private room | 1 | 5 sp/night | Often booked by crew officers |
+
+**Limitations:** The Crooked Oar does not extend much credit. Fights are common enough that the watch knows the regulars, but serious violence brings consequences.

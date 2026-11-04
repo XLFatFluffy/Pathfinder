@@ -197,3 +197,9 @@ This record supersedes earlier planning language in this overview that described
 **CURRENT STATUS: HISTORICAL FRAMEWORK ESTABLISHED.** Tallowmere's civic identity, development from a river landing into a walled port, growth of Old and New Quays, post-Great-Rebellion Denvor charter, Greywatch, civic works, Underways history, recurring hazards, and local memory are documented in [History and Local Memory](History_and_Local_Memory.md).
 
 The document deliberately leaves exact dates, the earliest settlement name, specific wartime events, the date and negotiators of the Denvor charter, and the oldest ratfolk settlements unresolved. It supersedes earlier statements in this overview that described the city's founding history and older identity as wholly undeveloped; the broad historical framework is now established, while those particulars remain open.
+
+## Surrounding Settlements and Local Landholders — 2026-11-04
+
+**CURRENT STATUS: INITIAL REGIONAL SETTLEMENTS ESTABLISHED.** The first playable communities around Tallowmere, including their approximate populations, local authorities, trade roles, and current concerns, are recorded in [Regional Settlements and Landholders](Regional_Settlements_and_Landholders.md). The initial set includes Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge.
+
+This develops the regional framework beyond generic settlement types. Exact map positions, boundaries, and distances remain provisional pending the final regional map.

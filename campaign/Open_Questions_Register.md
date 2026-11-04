@@ -199,3 +199,10 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Local temple leadership and political positions.
 - Which current merchant and civic disputes escalate, settle, or fade.
 - Precise resources, manpower, and readiness of the Denvor garrison and city watch.
+
+
+## Tallowmere — history and local memory
+
+**ESTABLISHED FRAMEWORK:** Tallowmere's development from a river landing and market into a walled inland-sea port, its growth of Old and New Quays, post-Great-Rebellion Denvor charter, Greywatch and civic works, recurring hazards, Underways history, and differing traditions of local memory are documented in `locations/starting_city/History_and_Local_Memory.md` (2026-11-04).
+
+**Still open:** exact founding date and earliest name; earliest pre-Denvor authority; dates and builders of first bridge and harbor works; date, terms, and recipient of the Denvor charter; Tallowmere's specific military experience during the Great Rebellion; dated historical fires, floods, epidemics, and raids; oldest surviving structures; earliest ratfolk neighborhoods; and local festivals or commemorations.

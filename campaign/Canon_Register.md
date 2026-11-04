@@ -181,3 +181,24 @@ This file tracks major setting decisions and their status. It does not replace d
 Succession tensions are deliberately distinct: Calderan's cautious heir versus an ambitious princess; Vaelorian traditionalists uneasy about the designated heir; Kharadorn's militaristic heir versus clan-consensus interests; Edarth's recognized heir alongside influential alternatives; Veyr's recognized daughter-heir alongside a popular military son; and Merrowen's ruling dynasty balancing merchant power against traditional maritime nobility. Merchant families can challenge Merrowen policy but do not presently threaten to replace the dynasty.
 
 **Reference:** `House_Rulers.md`. Exact wider family trees, Council representatives, and household officers remain unresolved.
+
+
+## Stage 9 — Imperial Council and Royal Court (2026-11-04)
+
+**Status: ESTABLISHED.** The GM instructed continued development and delegated creative selection of the current Council representatives, Crown officers, and faction leaders. Their profiles and political relationships are recorded in `Court_and_Council.md`.
+
+**Imperial Council representatives:**
+- House Calderan: Lord Chancellor Othmar Rusk.
+- House Vaelorian: Lady Ilyra Vaelorian.
+- House Kharadorn: Thane Brokk Ironvein.
+- House Edarth: Lady Ysabet Edarth.
+- House Veyr: Ser Merek Veyr.
+- House Merrowen: Lady Cassia Merrowen.
+
+**Crown officers:** Royal Chancellor Othmar Rusk; Master of Coin Lady Meredyth Sorn; Master of Laws Lord Bastian Wycliffe; Master of War Marshal Garran Holt; Royal Spymaster Mistress Nerys Vale; Lord Chamberlain Lord Perrin Ashcombe.
+
+**Court faction leaders and key associates:** Royal Court — Queen Elowen Calderan, with Othmar Rusk; Traditionalists — Lord Garrick Edarth, with Lady Ysabet Edarth; Royal Expansionists — Princess Maerelle Calderan, with Marshal Garran Holt as a professionally aligned associate, not a declared partisan; Merchant Interests — Lady Cassia Merrowen, with Lady Ilyra Vaelorian; Religious Establishment — High Prelate Aveline Marr, with Prior-General Odran Thrice-Blessed.
+
+The factions are overlapping political networks, not formal parties. House affiliation does not determine membership. The Council representatives are distinct from their house rulers and are appointed by their respective houses. Religious authorities have no automatic Council seat. The Council's exact voting rules, quorum, vetoes, and formal procedures remain unresolved.
+
+**Reference:** `Court_and_Council.md`.

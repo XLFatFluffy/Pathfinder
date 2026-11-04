@@ -51,22 +51,26 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 ## Campaign start
 
 - Living sandbox; the world develops independently of the player characters.
-- Two level-5 player characters.
-- Starting location: an unnamed medium-sized city.
-- The two player characters already know each other before Session One begins. They are not strangers whose first meeting needs to be staged during the opening session.
-- One PC: human vampire mesmerist, last known surviving member of the fallen dragon-riding bloodline.
-- One PC: male ratfolk alchemist, raised by the vampire guardian after his mother died.
-- The ratfolk PC's mother's battlefield circumstances remain undefined.
+- Two level-5 player characters begin the campaign.
+- **Starting location: Tallowmere**, a walled port city on the northwestern shore of the central inland sea, with an approximate population of 18,000.
+- The PCs arrive in Tallowmere at the beginning of Session One. They are not established residents, and no prior local residence or accumulated local contacts should be assumed.
+- The two PCs already know each other before Session One. Their first meeting is not staged during the opening session.
+- One PC is a human vampire mesmerist and the concealed surviving heir of the fallen dragon-riding dynasty.
+- The other PC is a male ratfolk alchemist, saved and raised by the vampire PC after his family was killed by anti-ratfolk persecution.
+- Their established ambitions are recorded in Player_Character_Ambitions.md. Do not invent further personal history or motives.
+- Character-sheet details, equipment, carried wealth, and specific personal possessions are pending receipt of the completed player PDFs.
+- The players' detailed backstories are pending. Incorporate them only when supplied by the GM/players.
+
 
 ## Unresolved
 
-- Starting city, its government, districts, local power structure, and opening situation.
+- Tallowmere's first-session opening scene, immediate situation, precise starting location within the city, and which NPCs the PCs encounter.
 - Campaign date and calendar conventions.
 - Final original names for the continent, inland sea, major geographic features, the fallen dragon-riding dynasty, and Dragonstone.
 - Exact borders, coordinates, travel times, route courses, river courses, and local port jurisdictions.
 - Minor-house names, holdings, allegiances, and individual southern polities.
 - The forces, relationships, and political dependencies that constrain or influence King Aldric Calderan; the exact post-Rebellion succession chronology and dwarven succession chain also need clarification.
-- Ratfolk settlements, customs, networks, and the historical origins and mechanisms of surface prejudice. The battlefield circumstances of the ratfolk PC's mother's death remain PC-backstory territory and must not be invented.
+- Detailed names, population, customs, leadership, and local geography of Tallowmere's Underways and the wider ratfolk network. The battlefield circumstances of the ratfolk PC's mother's death remain PC-backstory territory and must not be invented.
 - The Ancient Barrier's builders, purpose, and what lies beyond it.
 - The reasons arcane spellcasters are rare; how the real Pathfinder gods grant or mediate divine magic.
 - The origins and limits of vampirism.
@@ -234,3 +238,10 @@ The Council's exact voting rules, quorum, vetoes, formal powers, and customary p
 ## Player Character Ambitions (Established, 2026-11-04)
 
 The party is not assumed to be heroic. The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, accumulate the wealth, influence, and military strength to do so, confront House Kharadorn, retake Dragonstone, and restore his family's rule. The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish ratfolk as equals to or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him. The vampire's own ambition is not yet established. Tyler is the vampire player's real-world name, not the character's name. See `Player_Character_Ambitions.md`.
+
+
+## Tallowmere Arrival Baseline — 2026-11-04
+
+The PCs arrive in Tallowmere at the start of Session One. Treat them as newcomers to the city unless later backstory material explicitly establishes a prior visit or connection. They already know one another; do not stage their first meeting as strangers. Their familiarity with the wider world should be based on ancestry, upbringing, education, and supplied backstories, not on assumed local knowledge of Tallowmere. The city's established public-facing framework is in the dedicated Tallowmere records. The exact first-session scene, arrival circumstances, campaign date, and immediate reason for coming to Tallowmere remain to be established.
+
+Player character sheets and detailed backstories are pending. Do not assign starting cash, equipment, magic items, heirlooms, or additional personal knowledge until the relevant character sheets and backstories are received and reviewed.

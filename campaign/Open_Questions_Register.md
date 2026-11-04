@@ -131,3 +131,11 @@ Named shops and their initial inventories, asking prices, and stock policies are
 - Exact wholesale price sheets, supplier identities beyond the initial network, delivery timetables, guild dues, property rents, wage scales, and full individual debts or rivalries remain open.
 - A practical inventory ledger and time-based restocking cadence for campaign play.
 - Specialist sources for rare spell components, unusual alchemical reagents, and magic-item commissions.
+
+## Tallowmere — Commercial Infrastructure (2026-11-04)
+
+The initial framework for commercial rents, specific vacant premises, market stall allocation, guild dues, membership, and baseline trade rules is established in `Commercial_Property_and_Premises.md` and `Guild_Membership_and_Trade_Rules.md`. Still open:
+- Exact parcel boundaries, landlords, title records, and property sale prices for specific buildings.
+- Guild leadership, internal voting rules, craft examinations, and shared-facility schedules.
+- Individual worker availability, wages above Pathfinder hireling baselines, and specific employment agreements.
+- Exact workshop safety requirements applicable to unusually hazardous or large-scale operations; apply existing ordinances consistently and do not invent a blanket alchemist license.

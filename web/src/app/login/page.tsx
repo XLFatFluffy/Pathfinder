@@ -6,9 +6,13 @@ export const dynamic = "force-dynamic";
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; next?: string }>;
+  searchParams: Promise<{
+    error?: string | string[];
+    next?: string | string[];
+  }>;
 }) {
-  const { error } = await searchParams;
+  const { error, next } = await searchParams;
+  const errorMessage = typeof error === "string" ? error : null;
 
   return (
     <main>
@@ -18,12 +22,15 @@ export default async function LoginPage({
         <p className="muted">
           Accounts are created and assigned to this campaign by the GM.
         </p>
-        {error ? (
+        {errorMessage ? (
           <p className="error" role="alert">
-            {error}
+            {errorMessage}
           </p>
         ) : null}
         <form action={signIn} className="form-stack">
+          {typeof next === "string" ? (
+            <input name="next" type="hidden" value={next} />
+          ) : null}
           <label>
             Email
             <input

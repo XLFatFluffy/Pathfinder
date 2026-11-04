@@ -165,3 +165,19 @@ This file tracks major setting decisions and their status. It does not replace d
 **Still unresolved:** How gods grant or mediate divine magic; major religious institutions and leaders; regional prominence of particular gods; the scholarly order's name, ranks, and governance; legal relationships between religious and secular courts; the exact influence of religion over marriage, inheritance, coronation, and secular law; and the history of major religious disputes.
 
 **Reference:** `Religion_and_Faith.md`.
+
+
+## Stage 8 — Current Great House Rulers (2026-11-04)
+
+**Status: ESTABLISHED.** The GM delegated final selection of current Great House rulers and immediate family structures to the assistant and approved continued development. Current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics are recorded in `House_Rulers.md`.
+
+- House Calderan: King Aldric Calderan; Queen Elowen; Crown Prince Edric (recognized heir); Princess Maerelle.
+- House Vaelorian: Lord Theren Vaelorian; Lady Seralyth (designated heir); Lord Caelion; Lady Virella.
+- House Kharadorn: High King Durnak Kharadorn; Prince Vorgun (designated heir); Princess Brynja; Lord Kazrik.
+- House Edarth: Lord Garrick Edarth; Ser Rowan (recognized heir); Lady Elayne; Ser Tomas.
+- House Veyr: Lord Edran Veyr; Lady Anika (designated heir); Ser Halvar; Lord Stellan.
+- House Merrowen: Lady Maris Merrowen; Lord Corvin (designated heir); Lady Selene; Lord Aeric.
+
+Succession tensions are deliberately distinct: Calderan's cautious heir versus an ambitious princess; Vaelorian traditionalists uneasy about the designated heir; Kharadorn's militaristic heir versus clan-consensus interests; Edarth's recognized heir alongside influential alternatives; Veyr's recognized daughter-heir alongside a popular military son; and Merrowen's ruling dynasty balancing merchant power against traditional maritime nobility. Merchant families can challenge Merrowen policy but do not presently threaten to replace the dynasty.
+
+**Reference:** `House_Rulers.md`. Exact wider family trees, Council representatives, and household officers remain unresolved.

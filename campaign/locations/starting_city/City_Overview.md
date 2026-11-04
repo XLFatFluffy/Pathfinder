@@ -182,3 +182,12 @@ This overview contains older planning language that has since been superseded by
 - [Residential Life and Housing](Residential_Life_and_Housing.md): housing by district, local rent estimates, sanitation, household pressures, and ordinary residential NPCs.
 
 - [Streets, Landmarks, and Routes](Streets_Landmarks_and_Routes.md): named streets, public squares, bridges, civic buildings, harbor controls, and practical travel-time assumptions.
+
+
+## Faction and Local Power Development — 2026-11-04
+
+**CURRENT STATUS: ESTABLISHED FRAMEWORK.** Tallowmere's local power structure and relationships are documented in `Faction_Relationships_and_Local_Power.md`.
+
+The framework establishes how House Denvor, House Kharadorn's charter interests, civic offices, commercial guilds, ratfolk neighborhoods, religious institutions, and informal operators influence one another. No single faction controls the city. Commercial and civic interests cooperate and compete issue by issue; ratfolk residents are not a unified political bloc; and the illicit economy remains fragmented.
+
+This record supersedes earlier planning language in this overview that described the city's factions and institutions as wholly undeveloped. Individual memberships, private dealings, council procedures, criminal operators, and future changes remain open.

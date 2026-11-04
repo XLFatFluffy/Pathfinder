@@ -177,3 +177,6 @@ This overview contains older planning language that has since been superseded by
 - `Civic_NPCs.md`
 - `Workforce_and_Daily_Life.md`
 - `Current_Situation_and_Rumors.md`
+
+
+- [Residential Life and Housing](Residential_Life_and_Housing.md): housing by district, local rent estimates, sanitation, household pressures, and ordinary residential NPCs.

@@ -152,113 +152,129 @@ The characters are not automatically important to the world's political events. 
 influential through their own decisions and actions.
 
 4.2 The Six Great Houses
-Six major houses dominate the continent's political landscape.
 
-These houses were responsible for the destruction of House Targaryen and represent some of the
-most powerful political and military forces in the setting.
+Six Great Houses dominate the continent's political landscape. They united to overthrow the dragon-riding dynasty during the Great Rebellion approximately 200–300 years ago. Their alliance was built around shared objectives, not necessarily shared interests in the political order that followed.
 
-Their individual names, histories, territories, heraldry, and political relationships are still being
-developed.
+House Vaelorian — Elven Great House
+- Words: “Wealth Endures. Power Remembers.”
+- Sigil: A golden sun rising behind a black tree on a deep crimson field.
+- A wealthy, cultured, calculating, and politically dangerous dynasty.
+- Its power rests on valuable mines, trade routes, banking interests, prosperous commercial cities, lending, debts, contracts, diplomatic connections, and well-funded professional forces.
+- Elven longevity supports long-term political patience. The house contains internal divisions between traditionalists and members more integrated into human commercial society, as well as branches with conflicting commercial interests.
+- Its political aim is to influence the Imperial Seat without needing to occupy it, preserve trade and stability, maintain noble autonomy, and prevent an over-powerful monarch. Its influence can damage rivals through debt and commerce without declaring war.
 
-Several ancestry associations and house concepts have been established.
+House Kharadorn — Dwarven Great House
+- Words: “Stone Remembers. Blood Endures.”
+- Sigil: A black mountain crowned by a silver hammer on a dark red field.
+- The Great House is associated with the main branch of the enduring dwarven empire, whose several independent clans are united under that branch.
+- Khar-Dum is the Kharadorns' ancestral homeland and historic center. Dragonstone was not their ancestral home: it was the ancestral stronghold of the fallen dragon-riding dynasty, captured by the dwarves through conquest during the Great Rebellion and retained after the dynasty's destruction.
+- The main branch is said to descend from Torag himself. This remains a dynastic claim or tradition, not a confirmed fact of divine ancestry.
+- The clans retain their own identities, customs, leadership, and internal authority while recognizing the main branch through ancient agreements, clan obligations, shared ancestry, and legitimacy.
+- Dwarven culture prizes ancestry, craftsmanship, military discipline, personal honor, oaths, clan histories, and pride.
+- Its power rests on defensible mountain and underground settlements, heavy infantry, metalworking, weaponsmithing, clan obligations, siege engineering, and underground routes and fortifications.
+- It was the principal mastermind of the Great Rebellion and developed the specialized dragon-slaying ballistas.
+- Its political aim is to preserve the empire's independence and prevent outside interference in clan affairs. It is an enduring empire, not a collapsed kingdom awaiting restoration.
 
-The Elven Great House
+House Edarth — Primarily Human Great House
+- Words: “Stand When Others Fall.”
+- Sigil: A white stag before a broken black crown on a dark green field.
+- Stern, traditional, martial, pragmatic, and independent.
+- Its power rests on agricultural population, landed nobility, traditional military strength, experienced commanders, lesser noble alliances, strategic roads, and fortifications.
+- Its culture values duty, loyalty, courage, reputation, oaths, preparation, supply, and discipline.
+- Its rebellion against the dragon-riding dynasty was rooted in preserving the independence of the Great Houses.
+- Its political aim is to preserve the old noble order and prevent absolute monarchy. It is suspicious of both the current monarchy and the dwarven empire, but prefers the present order to renewed war.
 
-One of the major houses is an elven dynasty loosely inspired by the political and economic role
-of House Lannister.
-<PARSED TEXT FOR PAGE: 5 / 40>
-The Lannister name and identity will not be used directly.
+House Calderan — Human Ruling Great House
+- Words: “By Right, We Remain.”
+- Sigil: A silver crown above a golden tower on a deep blue field.
+- The current human ruling dynasty occupying the Imperial Seat.
+- Its family descends from an older royal bloodline that ruled a substantial portion of the continent before the dragon-riding dynasty conquered it. The older dynasty lost the throne, but its descendants survived, became a powerful noble family, and preserved their claim through genealogy, marriages, and hereditary titles.
+- The head of House Calderan was selected as the post-rebellion compromise monarch because he was human, possessed a legitimate hereditary claim, and was powerful enough to command respect without being so dominant that the other Great Houses would unite against him.
+- The monarch is a puppet influenced by a council or coalition of Great Houses and by multiple competing factions. He nevertheless retains substantial authority: he can issue royal decrees, appoint officials and governors, command the royal army, collect taxes and administer Crown territories, summon the Great Houses, and make treaties.
+- He cannot safely command Great House armies, seize ancestral lands, or impose extraordinary taxes without risking a political crisis. His practical power depends on cooperation.
+- The Imperial Council consists of representatives of the six Great Houses. It advises the monarch, negotiates disputes, reviews extraordinary taxation and military levies, discusses major wars, recognizes succession, and negotiates with the dwarves. It is not a modern parliament. Some decisions require approval; others are technically royal powers but politically dangerous to exercise against the Great Houses.
+- Political factions include the Royal Court, Traditionalists, Royal Expansionists, Merchant Interests, and Religious Establishment. Their leaders, membership, and exact influence remain to be developed.
+- The house's long-term political ambition is to make the Imperial Seat genuinely sovereign without necessarily destroying the Great Houses. Its members are divided between compromise-minded figures and those who want to free the Crown from outside control.
+- The other rebel houses see the throne as an opportunity to manipulate imperial policy for their own interests.
 
-The house will have its own history, culture, ambitions, territory, and political identity.
+House Veyr — Human Northern Great House
+- Words: “Beyond the Wall, We Stand.”
+- Sigil: A silver tower beneath a white star on a dark blue-black field.
+- An ancient northern dynasty that maintains the Ancient Barrier.
+- Its lands are harsh and sparsely populated, with remote settlements, mountain passes, forests, frozen expanses, and fortified outposts.
+- Its culture values endurance, discipline, preparedness, and practical leadership.
+- Its power rests on frontier control, forces experienced in harsh terrain, fortifications, northern resources, and strategic mountain passes and travel routes.
+- Its political aim is to preserve northern independence and control of the frontier. It believes southern powers benefit from northern protection without understanding its cost.
+- It is not primarily expansionist; it believes the rest of the continent is dangerously complacent about threats beyond the Barrier.
 
-The Dwarven Great House
+House Merrowen — Primarily Human Maritime Great House
+- Words: “All Roads Reach the Sea.”
+- Sigil: A white ship beneath a silver crescent over dark teal waves.
+- A major naval and commercial power controlling important ports, shipping routes, coastal territories, and commercial agreements.
+- Its culture is shaped by trade, travel, and foreign contact. Its nobles often learn languages and customs; internal tensions divide traditional landed nobles from merchant-connected wealth.
+- Its power rests on ports and harbors, naval forces and merchant fleets, maritime trade, shipbuilding, foreign diplomatic ties, and customs and commercial taxation.
+- Its political aim is to preserve free trade and prevent any single power from controlling the major commercial routes. It is willing to exploit instability when doing so benefits its interests.
+- It may maintain unofficial relationships with foreign powers, city-states, and underground commercial networks.
 
-The Baratheon-inspired great house is dwarven and led by a dwarven ruler.
+Political relationships and fault lines
+- Vaelorian and Calderan maintain uneasy cooperation: Vaelorian wealth can finance and influence the Crown, but the house resists royal expansion.
+- Vaelorian and Merrowen are competitive partners, cooperating in trade while competing over shipping and commercial influence.
+- Vaelorian and Edarth regard one another with suspicion: Edarth distrusts financial manipulation, while Vaelorian considers Edarth predictable but economically unsophisticated.
+- Vaelorian and Kharadorn maintain a respectful rivalry between traditional powers with different political cultures.
+- Vaelorian has limited cooperation with Veyr, whose northern hardship is poorly understood by southern commercial interests.
+- Kharadorn and Calderan maintain uneasy peace. The dwarves remember the throne's origins and reject interference in their empire.
+- Kharadorn and Edarth retain historical respect from the rebellion, but neither accepts being dictated to.
+- Kharadorn and Veyr share respect for defensive warfare, independence, and enduring institutions.
+- Kharadorn and Merrowen maintain practical trade, linking dwarven craftsmanship with maritime commerce.
+- Edarth and Calderan are political rivals: Edarth supports Great House independence and fears centralization.
+- Edarth and Veyr cooperate militarily and share martial traditions and frontier-defense concerns.
+- Edarth and Merrowen maintain a transactional relationship linking inland markets with maritime trade.
+- Calderan and Veyr have a frustrated relationship: the Crown expects northern loyalty, while Veyr expects greater resources and attention.
+- Calderan and Merrowen cooperate when politically useful; the Crown needs fleets and revenue, while Merrowen seeks favorable policies.
+- Veyr and Merrowen have limited shared interests, though northern resources and maritime access can create opportunities.
 
-It was the principal mastermind behind the Great Rebellion against House Targaryen.
+The rebellion's shared causes differed by house:
+- Kharadorn sought to end dragon-riding supremacy and preserve dwarven independence.
+- Vaelorian sought to stop centralization that threatened its financial and commercial power.
+- Edarth sought to preserve traditional noble authority.
+- Calderan's ancestors saw an opportunity to restore their older hereditary claim and reclaim the Imperial Seat.
+- Veyr sought to preserve northern autonomy and prevent Crown control over frontier military resources.
+- Merrowen sought to protect maritime privileges and trade routes.
 
-It developed the specialized dragon-slaying ballistas and claimed Dragonstone following the
-rebellion.
+These houses were allies in destroying the old order, not necessarily allies in deciding what should replace it.
 
-Its final identity, history, territory, and relationship with the other great houses remain to be
-developed.
-
-The Northern Great House
-
-An ancient and powerful human noble house dominates the northern territories.
-
-It maintains the Ancient Barrier and possesses substantial military independence.
-
-Its established characteristics are detailed in the Northern Wilderness section.
-
-House Edarth
-
-House Edarth is established as one of the six great houses that rebelled against House Targaryen.
-
-Its ancestry, territory, ruling family, history, and specific role in the rebellion remain to be
-developed.
-
-The remaining great houses and their ancestry associations will be developed separately.
-
+The principal continuing political fault lines are Crown versus Great Houses; the independence of the dwarven empire; competition between commercial wealth, landed power, military strength, royal institutions, and clan authority; the burden of maintaining the northern Barrier; and the possibility that the fallen dragon-riding bloodline may not have been entirely extinguished.
 
 PART III: RELIGION, MAGIC & THE
 SUPERNATURAL
 5. GODS & RELIGION
-5.1 The Central Mystery
-The existence of gods is genuinely uncertain in this world.
 
-Nobody knows with absolute certainty whether the gods exist.
-<PARSED TEXT FOR PAGE: 6 / 40>
-Pathfinder's established gods, portfolios, alignments, domains, religious traditions, and
-mythology provide the foundation for the setting's religions.
+The Pathfinder gods are real within the setting. The continent broadly recognizes the Pathfinder pantheon, but worship varies by region, culture, community, and individual. No single god is established as universally dominant. People may pray to different gods for different needs rather than maintaining exclusive devotion to one deity.
 
-However, their actual existence is not established as an objective fact within the world's known
-history.
+There is no single supreme religious authority governing all faiths across the continent. Major faiths maintain independent hierarchies, institutions, traditions, and internal disputes. Religious institutions may own land, receive donations, provide charity and education, preserve records, advise rulers, influence ceremonies and public expectations, and condemn rulers or teachings. They can wield substantial social and political influence but do not universally govern secular territories, command Great House armies, or automatically overrule secular law.
 
-Religious institutions exist, and their influence can be enormous.
+A priest may perform religious duties, teach doctrine, maintain a shrine, and lead ceremonies without possessing divine spellcasting ability. Dedicated clergy and divine spellcasters are not interchangeable. Temples do not imply routine access to magic. Remote settlements may have only a shrine, caretaker, or occasional traveling priest, while major cities may support multiple temples and religious communities.
 
-Faith is a powerful force in society, regardless of whether the beliefs behind it are correct.
+Common institutions include temples, monasteries, shrines, cathedrals, religious orders, and clerical courts. Their organization and authority vary by faith and region.
 
-5.2 Religion and Society
-Religious institutions may:
+The Religious Establishment is an established court faction or network seeking to preserve and expand organized religious authority. Senior religious authorities have recognized access to the royal court and may advise the monarch. They do not hold an automatic Imperial Council seat, since its six permanent seats represent the Great Houses. Religious authorities instead exert influence through relationships, advice, patronage, negotiation, and public pressure. The Religious Establishment is politically influential but not a single unified church; its constituent institutions may disagree and compete.
 
-   ·   Influence kings and noble houses.
-   ·   Control land and wealth.
-   ·   Maintain military or religious orders.
-   ·   Spread doctrine and religious teachings.
-   ·   Influence laws and social expectations.
-   ·   Justify political authority.
-   ·   Declare individuals or groups heretical.
-   ·   Engage in religious persecution.
-   ·   Compete with other religious institutions.
+A scholarly tradition exists that is institutionally distinct from religious hierarchies, though it may cooperate with temples. Its scholars may study history, genealogy, mathematics, accounting, medicine, astronomy, calendars, law, administration, languages, natural philosophy, theology, and religious history. Scholars may serve noble households, royal offices, major temples, and wealthy cities. Some may also be clergy, but scholarship does not require ordination, and theologians need not be spellcasters. The order's name, ranks, training, and governing structure remain unresolved.
 
-Different cultures may interpret the same Pathfinder deity in dramatically different ways.
+Divine spellcasters are uncommon and devote themselves to a god. Divine spellcasting is regarded as significant rather than routine. Those who demonstrate it may be respected as blessed servants, but reactions can include fear, suspicion, or distrust. A village priest may serve for decades without casting spells; a cleric capable of extraordinary healing or other powerful magic may attract considerable attention. Magical ability does not automatically confer senior religious office, and religious leaders may possess authority without spellcasting.
 
-Religious institutions may possess conflicting scriptures, histories, doctrines, and interpretations
-of supposed divine signs.
+The Great Houses do not each have a single exclusive patron deity or uniform religious identity. Their members may hold differing beliefs. Broad cultural tendencies include Vaelorian temple patronage and scholarship; Kharadorn's strong Torag traditions and clan-linked religious customs; Edarth's traditional worship, public ceremonies, and oaths; Calderan's cultivation of religious legitimacy; Veyr's practical faith shaped by hardship and frontier danger; and Merrowen's customs shaped by sailors, travel, trade, and maritime dangers. These are tendencies, not exclusive doctrines.
 
-Religious fanatics and zealots are prominent features of the setting.
+Religious tensions may arise between religious and secular authority, competing interpretations of doctrine and divine signs, institutional wealth, accusations of heresy, and disagreements about divine power. Religious zealots and fanatics are prominent, but religious life is not uniformly fanatical or corrupt. Faith may be sincere, compassionate, political, coercive, contradictory, or deeply personal.
 
-Faith may be sincere, corrupt, compassionate, political, coercive, or contradictory.
+The gods' deeper history, relationships with mortals, methods of influence, and the precise ways divine power is granted or mediated remain unresolved. The scholarly order's name and organization, major religious leaders, regional prominence of particular gods, religious courts' legal authority, and the exact influence of religious institutions over secular law also remain open.
 
-5.3 Divine Magic
-Divine magic exists within the Pathfinder mechanical framework.
-
-Its ultimate source and relationship to the supposed gods remain part of the setting's larger
-mystery.
-
-The existence of divine magic does not automatically settle the question of whether gods exist.
-
-This uncertainty should remain a defining characteristic of the setting.
-
-No original gods have been established.
-<PARSED TEXT FOR PAGE: 7 / 40>
 6. MAGIC & THE SUPERNATURAL
-Magic is uncommon in everyday civilization.
+Magic is uncommon in everyday civilization. Arcane spellcasters are rare, and divine
+spellcasters are also uncommon. The average person may live their entire life without witnessing
+a spell being cast.
 
-Arcane magic is particularly rare.
-
-Much of its knowledge has been lost, forgotten, suppressed, or misunderstood.
+Much arcane knowledge has been lost, forgotten, suppressed, or misunderstood.
 
 Wizards may be regarded as:
 
@@ -276,8 +292,6 @@ Possible features of the world's magical history include:
    ·   Hidden collections and ancient ruins may preserve forgotten knowledge.
    ·   Certain forms of arcane practice may be forbidden or heavily restricted.
    ·   Alchemists may be mistaken for practitioners of other forms of magic.
-
-The average person may live their entire life without witnessing a spell being cast.
 
 The scarcity of magic is a feature of society, population, institutions, and history.
 
@@ -323,7 +337,8 @@ Humans are the dominant population across much of the continent.
 Other Pathfinder ancestries maintain their own territories, cultures, communities, and political
 influence.
 
-However, they are generally minorities within a larger human-dominated political landscape.
+The continent is human-dominated in population and political influence, but other Pathfinder
+ancestries may also exist. No ancestry is designated rare or uncommon by default.
 
 Ancestry does not automatically determine an individual's culture, beliefs, or loyalties.
 
@@ -344,25 +359,31 @@ Human cultures, political systems, and social traditions vary considerably by re
 Humanity is not a single unified political or cultural group.
 
 7.2 Dwarves
-Dwarven civilization once possessed a much larger empire.
+A dwarven empire has always existed and has never collapsed. It has never been especially
+massive in territorial scale.
 
-That empire no longer exists in its former unified form.
+The empire consists of several independent dwarven clans united under the main branch of
+dwarves. The clans retain their independence while recognizing the authority of this main branch.
 
-The current dwarven political landscape consists of:
+The main branch's ancestral homeland is Khar-Dum. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty; the dwarves captured it through conquest during the Great Rebellion and retained it after the dynasty's destruction. It is said to descend directly from Torag himself; this is
+an established dynastic claim or tradition, not yet a confirmed fact about divine ancestry.
 
-   ·   One surviving dwarven kingdom.
-   ·   Several independent territories descended from the former dwarven empire.
+Dwarves primarily inhabit mountains and underground settlements. They rarely live in
+conventional surface stone-built settlements.
 
-The relationships between these territories, their histories, and their political ambitions remain to
-be developed.
+Dwarven pride and cultural identity are strong. As a matter of cultural choice and pride, dwarves
+do not reproduce with members of other ancestries; this is not established as a biological
+incompatibility.
 
-The Baratheon-inspired great house is dwarven and led by a dwarven ruler.
+The Kharadorn great house is dwarven and associated with the main branch that
+occupies Dragonstone. The precise titles, authority, and relationship between the Great House,
+the main branch, and the independent clans remain to be developed.
 
 7.3 Elves
 Elves possess an important place in the continent's political and cultural landscape.
 
-One of the six great houses is an elven dynasty inspired by the political and economic archetype
-of House Lannister.
+One of the six great houses is an influential elven dynasty inspired loosely by the political and
+economic archetype associated with House Lannister. Elves also possess a major political power.
 
 The wider elven population, its history, culture, territories, and relationship with human
 kingdoms remain to be developed.
@@ -663,7 +684,7 @@ The existence of dragons made travel between Dragonstone and the capital conside
 
 Dragonstone was therefore the familial, political, and military heart of the Targaryen dynasty.
 
-Following the Great Rebellion, House Baratheon claimed Dragonstone and its symbolic
+Following the Great Rebellion, House Kharadorn claimed Dragonstone and its symbolic
 importance.
 
 8.5 Targaryen Government and Authority
@@ -774,40 +795,42 @@ remaining mechanically compatible with the system.
 11.1 The Six Great Houses
 Six great houses united against House Targaryen.
 
-Their rebellion was driven by two closely connected concerns:
+Their rebellion was driven by two closely connected objectives:
 
- 1.    The Targaryens had become too powerful, and the other great houses feared permanent
-       subordination.
+ 1.    The great houses sought to preserve their political independence against a dynasty they
+       feared would permanently subordinate them through centralization.
 <PARSED TEXT FOR PAGE: 19 / 40>
- 2.    The Targaryens increasingly sought to centralize political authority, threatening the
-       independence and privileges of the great houses.
+ 2.    They sought to eliminate the Targaryens' ability to command dragons, because dragon-riding
+       was the foundation of the dynasty's overwhelming political and military power.
 
-The rebellion was not simply a dispute over succession.
+The rebellion was not simply a dispute over succession or a conventional war of independence.
 
-It was a coordinated attempt to destroy the existing Targaryen political order and eliminate the
-dynasty's ability to command dragons.
+It was a coordinated attempt to destroy the existing Targaryen political order and eliminate
+dragon-riding as the instrument that allowed the dynasty to enforce its supremacy.
 
 House Edarth has been established as one of the six rebellious great houses.
 
 The identities and histories of the remaining rebellious houses will be developed separately.
 
+Following the fall of House Targaryen, the dwarven leader and the Kharadorn house held power. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor accepted the arrangement reluctantly, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy now maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. House Calderan is the established ruling house and supplied the compromise monarch. The power or powers controlling the puppet monarch remain to be established.
+
 The current count remains six rebellious great houses in total. House Edarth is one of those six.
 
-11.2 House Baratheon and the Rebellion
-House Baratheon was the principal leader and mastermind behind the rebellion.
+11.2 House Kharadorn and the Rebellion
+House Kharadorn was the principal leader and mastermind behind the rebellion.
 
 The house developed a specialized weapon designed to kill dragons: an enormous dragon-slaying
 ballista.
 
 The development of this weapon was a major strategic advantage.
 
-House Baratheon wanted exclusive control over the weapon's design and production.
+House Kharadorn wanted exclusive control over the weapon's design and production.
 
 The ballistas were designed to penetrate dragon scales reliably, giving ordinary military forces a
 means of killing creatures that had previously dominated the battlefield.
 
 11.3 The Dragon-Slaying Ballistas
-The dragon-slaying ballistas were developed and manufactured exclusively by House Baratheon.
+The dragon-slaying ballistas were developed and manufactured exclusively by House Kharadorn.
 
 Their manufacturing methods were closely guarded.
 
@@ -834,7 +857,7 @@ The weapons survived the rebellion.
 Some remain in military service, primarily as defensive siege weapons protecting castles and
 important fortifications.
 
-Their continued existence represents an important part of House Baratheon's military legacy.
+Their continued existence represents an important part of House Kharadorn's military legacy.
 
 With dragons believed extinct, their primary purpose has shifted toward conventional defensive
 warfare.
@@ -871,9 +894,9 @@ The six victorious houses believe the dynasty is extinct.
 
 They do not currently fear the return of a Targaryen claimant.
 
-House Baratheon claimed Dragonstone after the rebellion.
+House Kharadorn claimed Dragonstone after the rebellion.
 <PARSED TEXT FOR PAGE: 21 / 40>
-The Imperial Seat passed into the hands of a different ruling dynasty.
+The Imperial Seat passed into the hands of another of the original six rebel Great Houses after the dwarven leader's death and a succession crisis. The dwarven successor threatened war unless a human was placed on the throne, then retained the inherited authority of the dwarven order.
 
 The exact political settlement following the rebellion, including the current relationships among
 the six houses and the new ruling dynasty, remains to be developed.
@@ -1555,16 +1578,21 @@ World and Rules
    ·   Existing Pathfinder rules should be used wherever possible.
 
 Religion and Magic
-   ·   The existence of gods is genuinely uncertain.
-   ·   Divine magic exists mechanically, but does not prove the gods exist.
-   ·   Arcane magic is rare in everyday society.
+   ·   The Pathfinder gods are real.
+   ·   Divine spellcasters are uncommon and devote themselves to a god.
+   ·   Arcane spellcasters are rare; divine spellcasting is also uncommon.
+   ·   The average person may live their entire life without witnessing a spell cast.
    ·   Much magical knowledge has been lost, forgotten, suppressed, or misunderstood.
    ·   Supernatural threats exist but are uncommon in settled civilization.
 
 Ancestries
    ·   Humans are the dominant population across much of the continent.
-   ·   Dwarven civilization once possessed a much larger empire.
-   ·   One dwarven kingdom survives, alongside several independent successor territories.
+   ·   A dwarven empire has always existed and has never collapsed.
+   ·   The dwarven empire has never been especially massive in territorial scale.
+   ·   Dwarves primarily inhabit mountains and underground settlements, and rarely live in
+       conventional surface stone-built settlements.
+   ·   Dwarves do not reproduce with members of other ancestries as a matter of cultural
+       pride and choice, not established biological incompatibility.
    ·   One great house is an elven dynasty loosely inspired by the Lannister archetype.
    ·   Ratfolk are naturally subterranean inhabitants.
    ·   Ratfolk possess an extensive but incomplete underground network.
@@ -1574,8 +1602,8 @@ Ancestries
    ·   Ratfolk possess specialized traditions in areas including alchemy, medicine, engineering,
        mining, metallurgy, and subterranean agriculture.
 <PARSED TEXT FOR PAGE: 37 / 40>
-   ·   Ratfolk are marginalized and widely hated in some surface societies, but prejudice is not
-       universal.
+   ·   Prejudice against ratfolk is widespread across surface societies, although a few
+       communities tolerate or openly accept them.
    ·   Ratfolk are not inherently criminal, evil, or hostile.
    ·   Secretive organizations and sects exist within ratfolk society, but their purposes remain
        unresolved.
@@ -1583,11 +1611,11 @@ Ancestries
 Political and Historical
    ·   Six great houses united to destroy House Targaryen.
    ·   House Edarth was one of the six rebellious houses.
-   ·   House Baratheon was the principal mastermind behind the rebellion.
-   ·   House Baratheon is a dwarven great house led by a dwarven ruler.
-   ·   House Baratheon developed specialized dragon-slaying ballistas.
-   ·   House Baratheon claimed Dragonstone after the rebellion.
-   ·   A different dynasty now occupies the Imperial Seat.
+   ·   House Kharadorn was the principal mastermind behind the rebellion.
+   ·   House Kharadorn is a dwarven great house led by a dwarven ruler.
+   ·   House Kharadorn developed specialized dragon-slaying ballistas.
+   ·   House Kharadorn claimed Dragonstone after the rebellion.
+   ·   Another of the original six rebel Great Houses now occupies the Imperial Seat, following a succession crisis after the death of the dwarven ruler.
    ·   House Targaryen ruled from the Imperial Seat for approximately 400 years.
    ·   The Imperial Seat is a physical throne of supreme political authority.
    ·   Dragonstone was the Targaryen ancestral homeland, primary royal residence, and dragon
@@ -1605,8 +1633,7 @@ Political and Historical
        claimant.
 
 Geography
-   ·   The primary setting is one enormous continent approximately comparable in scale to
-       Westeros.
+   ·   The primary setting is one enormous continent at the larger scale suggested by the provisional atlas, substantially larger than Westeros. Exact dimensions and travel distances remain to be measured and established.
    ·   The existing atlas is a working foundation, not a final map.
    ·   The northern wilderness is harsh, sparsely populated, and predominantly human.
    ·   The Frozen Expanse lies beyond the northern settled territories.
@@ -1647,7 +1674,7 @@ Geography
    ·   Major cities and settlements.
 
 Political Structure
-   ·   Final names of the six great houses.
+   ·   Exact territorial locations, principal seats, and current heads of the six Great Houses.
    ·   Heraldry and house words.
    ·   Ancestral seats.
    ·   House histories.
@@ -1662,7 +1689,8 @@ Political Structure
 
 Ancestries
   ·   Full elven civilization and history.
-  ·   Dwarven successor territories and their relationships.
+  ·   The dwarven empire's political structure and the relationship between its great house and
+      imperial authority.
   ·   Individual ratfolk settlements and their political structures.
   ·   Origins of anti-ratfolk prejudice.
   ·   Identities and purposes of ratfolk secretive organizations and sects.
@@ -1670,8 +1698,8 @@ Ancestries
   ·   Other ancestry relationships.
 
 Religion
-  ·   The true nature, if any, of the gods.
-  ·   The source of divine magic.
+  ·   The deeper history of the Pathfinder gods and their relationship with mortals.
+  ·   How the gods grant or mediate divine magic.
   ·   Religious institutions.
   ·   Religious orders.
   ·   Religious conflicts.
@@ -1714,3 +1742,366 @@ Campaign Development
 
 
 END OF MASTER EDITION
+
+### Current Imperial Settlement (Established)
+The monarch's family has a legitimate claim to the Imperial Seat. He retains substantial authority, though the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses see the throne as an opportunity to manipulate it for their own interests. The specific factions and their relative influence remain unresolved.
+
+
+**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously referred to by the legacy placeholder House Baratheon. References to House Baratheon in older imported source passages are superseded by House Kharadorn. Dragonstone remains a provisional working name for the conquered former Targaryen stronghold, not the Kharadorns' ancestral homeland.
+
+
+## Stage 5 — Continental Geography: Approved Foundations (2026-11-03; revised 2026-11-03)
+
+The following geographic foundations are **ESTABLISHED**. They do not yet establish exact borders, coordinates, regional names, or house seats.
+
+### Continental scale
+- The continent is a large but manageable landmass, deliberately smaller than Westeros for the intended campaign scope.
+- **APPROVED WORKING DIMENSIONS:** approximately 1,700 miles north to south and 1,300 miles east to west at its widest point. These are design dimensions for the revised map, not surveyed measurements; modest adjustment may be made to preserve the atlas's recognizable shape and coherent geography.
+- The uploaded atlas's printed scale bar is superseded and must be recalibrated to the revised dimensions.
+- Preserve the atlas's overall geographic identity and arrangement as closely as practical rather than redesigning the continent from scratch. Its precise terrain, labels, and borders remain subject to the revised map.
+
+### Major geographic character
+- Retain the frozen northern wilderness; northern mountain and forest systems; western highlands and forests; broad central plains and river valleys; enormous central inland sea; northeastern mountains; eastern forests and river delta; southwestern arid region; and southern peninsulas and island chains.
+- Physical geography should be internally coherent: mountain systems should explain river sources and watersheds; rivers should support fertile valleys, trade, and settlement; and coastlines, passes, and waterways should create plausible strategic routes and chokepoints.
+- The central inland sea is large enough to support substantial regional shipping, naval commerce, and important ports. It functions as a major inland waterway for the surrounding powers.
+
+### Central inland sea and Dragonstone
+- The enormous central inland sea is retained as a defining geographic feature.
+- Dragonstone, the provisional legacy name for the fallen dragon-riding dynasty's ancestral stronghold, is an island within this inland sea.
+- A narrow natural land bridge connects Dragonstone to the mainland. It is the only known surface route onto or off the island that does not involve dragons.
+- **GM-ONLY SECRET — ESTABLISHED:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The existence of this route is unknown to the rest of the world.
+- The exact route, entrances, extent, construction history, and which dwarven individuals or institutions know of it remain to be developed. Do not reveal its existence as public or commonly known information.
+
+### Dwarven homeland
+- Khar-Dum, the Kharadorns' ancestral homeland, is located in the northeastern mountain system.
+- Khar-Dum and Dragonstone are separate places. Khar-Dum is ancestral; Dragonstone is a conquered possession of the dwarven empire.
+- The dwarven empire's visible surface territory should appear comparatively limited. Its true reach and strength are primarily subterranean, and outsiders have an incomplete understanding of the extent of its underground domains.
+
+### Great House and minor-house territorial structure
+- Each of the six Great Houses controls a substantial, clearly defined territory.
+- The continent is not divided exclusively among the six Great Houses. Smaller noble houses, independent settlements, lesser political powers, and other territories also exist.
+- **MINOR HOUSES — ESTABLISHED CATEGORY:** Minor houses are wealthy lords and ladies who hold relatively small territories, estates, castles, or local holdings. They possess money, property, household retainers, and local standing, but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses, hold seats on the Imperial Council by virtue of being minor houses, or ordinarily determine the balance of power between the major dynasties.
+- A minor house may owe allegiance to a Great House, the Crown, or another local authority; some may hold their lands under more unusual arrangements. Their exact number, names, ancestry, allegiances, seats, and individual fortunes remain to be developed.
+- Minor houses can matter locally without becoming major political actors. Their wealth should not automatically translate into continental influence.
+- The southern reaches should remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses.
+
+### Regional and house placement status
+- The broad physical features above are established design direction.
+- The previously suggested placement of Vaelorian in the western highlands, Edarth in the western heartlands, Calderan in the central river basin, Veyr in the north, Kharadorn in the northeastern mountains, and Merrowen along the eastern coast remains a **PROPOSAL**, not a final territorial map.
+- The exact distribution of regions, borders, house seats, minor holdings, rivers, roads, ports, and settlements will be settled through the revised map.
+
+### Still unresolved
+- Final continental dimensions and exact cartographic scale after the revised map is generated.
+- Final names for the continent, inland sea, island, land bridge, mountain systems, rivers, and regions.
+- Exact placement and borders of all six Great House territories and the locations, names, and allegiances of minor houses.
+- The specific route, entrances, and construction history of the dwarven underground access to Dragonstone.
+
+
+## Stage 5 — Approved Great House Territorial Framework (2026-11-04)
+
+The following broad territorial placements are ESTABLISHED. Exact borders, seats, subordinate holdings, and local jurisdictions remain to be mapped.
+
+- **House Veyr:** Controls the majority of the northern frontier and northern territories, including the principal responsibility for the Ancient Barrier.
+- **House Calderan:** Holds its principal Crown territory farther inland, rather than directly on the inland sea, preferably near the meeting of major rivers and central routes. The precise capital location remains unresolved.
+- **House Merrowen:** Its maritime territory extends along the eastern coast, rather than being confined to the eastern delta or southeastern coast. It does not automatically control every eastern port.
+- **House Kharadorn:** Controls Dragonstone, the central inland sea, and surrounding territory. Dragonstone remains distinct from Khar-Dum, the Kharadorns' ancestral homeland in the northeastern mountains. The dwarven underground route to Dragonstone remains a GM-only secret.
+
+These placements do not imply that the six Great Houses own every part of the continent. Lesser houses, independent cities, minor kingdoms, and other political territories remain especially important in the southern reaches. The exact limits of Kharadorn's inland-sea territory and the degree of its control over individual shores, ports, and islands remain to be detailed.
+
+
+## Stage 5 — Political Atlas: Approved Regional Framework and Seats (2026-11-04)
+
+The GM approved the Political Atlas development package. The following regional placements, principal seats, internal structures, settlement concepts, and strategic relationships are now **ESTABLISHED**, subject to the limits and unresolved details stated below. The map's exact borders and the final names of geographic features remain to be settled. Names listed here for seats and settlements are approved setting names unless explicitly marked otherwise.
+
+### Continental political arrangement
+
+The six Great Houses occupy distinct broad spheres of influence:
+- **House Veyr — Northern Marches:** controls the majority of the northern frontier and northern territories, including the principal responsibility for the Ancient Barrier.
+- **House Vaelorian — Western Highlands:** controls western highlands, mountain valleys, forested regions, mineral-rich lands, and important routes linking the western coast with the central heartlands.
+- **House Edarth — Western Heartlands:** controls western-central plains, agricultural valleys, inland roads, and defensible approaches between the western highlands and central heartlands.
+- **House Calderan — Central Crownlands:** holds the principal Crown territory in the inland central river basin, away from direct frontage on the inland sea and positioned near major river confluences and central routes.
+- **House Kharadorn — Inland Sea and Dragonstone:** controls Dragonstone, the central inland sea, and surrounding territory. Its northeastern imperial homeland remains centered on Khar-Dum, geographically separate from Dragonstone.
+- **House Merrowen — Eastern Coast:** holds an extended maritime territory along the eastern coast, including important ports and coastal routes, but does not automatically control every eastern port.
+- **Southern Reaches:** remain politically fragmented, with lesser kingdoms, independent city-states, minor houses, island powers, and territories beyond the direct control of the six Great Houses.
+
+The Great Houses do not own every part of the continent. Borders should follow defensible terrain, watersheds, river crossings, roads, and economic geography where practical. Some boundaries and jurisdictions may remain disputed or locally ambiguous.
+
+### House Veyr — Northern Marches
+
+Veyr's territory extends across the majority of the northern frontier, from the settled northern lands toward the Frozen Expanse and the Ancient Barrier. It includes harsh northern wilderness, mountain approaches, forests, valleys, and fortified frontier settlements. Population is comparatively sparse and concentrated around defensible settlements, resource sites, and routes.
+
+**Principal seat: Frosthold.** A major fortress in the southern portion of Veyr territory, positioned to coordinate the northern roads, supplies, and military response to the Barrier rather than sitting directly against the frontier.
+
+**Established regional structure:**
+- **Frostlands:** the coldest and most remote northern reaches, with scattered settlements and wilderness.
+- **Northern Holds:** fortified settlements and military territories supporting the frontier.
+- **Pine Marches:** forested lands, rivers, timber communities, and routes.
+- **Southern Marches:** comparatively temperate valleys and the more settled agricultural edge of Veyr territory.
+
+**Named settlements:** Wintermere, a fortified northern town; Greywatch, a military outpost guarding a pass; and Pinecross, a timber and hunting settlement.
+
+**Military and economy:** Veyr maintains the permanent **Northern Watch** at the Barrier, supported by mobile **Marcher Companies** responsible for patrols, escorts, and rapid response, and the Veyr Household Guard. Its economy draws on timber, iron and other minerals, furs and hides, hunting, fishing, livestock, and limited agriculture. Veyr relies on grain and other supplies from the south, creating a persistent political grievance: the north bears the burden of frontier defense while depending on others to feed its defenders.
+
+### House Vaelorian — Western Highlands
+
+Vaelorian's territory occupies the western mountain systems, forested valleys, mineral-rich highlands, and important trade routes connecting western coastal access with the central heartlands. It controls some strategically important mountain passes, but not every route through the western ranges.
+
+**Principal seat: Aurelith.** An ancient elven fortified city in a protected mountain valley. Its character is defined by pale stone towers, terraced gardens, libraries, merchant districts, and fortified approaches.
+
+**Established regional structure:**
+- **High Peaks:** mountain territories, mines, and highland fortifications.
+- **Green Valleys:** forested valleys, older elven settlements, estates, and productive land.
+- **Western Passes:** roads, fortified crossings, and commercial routes through the mountains.
+
+**Named settlements:** Silverfall, a precious-metal and gemstone mining center; Thornvale, a forested valley with estates and agriculture; and Goldmere, a commercial crossroads.
+
+**Political and military character:** Vaelorian is more centralized than Edarth. The ruling family directly controls its most valuable mines, major commercial settlements, and important passes, while older elven families retain estates and privileges. Internal tension exists between traditionalist old families and younger commercial families more deeply integrated into human society and trade. Its military is comparatively compact and professional, relying on well-equipped infantry, skilled archers, household troops, and mountain garrisons.
+
+### House Edarth — Western Heartlands
+
+Edarth controls broad western-central plains, agricultural valleys, rolling lowlands, and inland roads between the western highlands and the central heartlands. Its lands are important to continental food production and provide defensible approaches toward the interior.
+
+**Principal seat: Stoneguard.** A major fortified castle overlooking an important river crossing, with walls and towers, barracks, stables, grain stores, a great hall, and a fortified market settlement.
+
+**Established regional structure:**
+- **Golden Fields:** productive agricultural lands.
+- **Riverlands:** fertile valleys, waterways, bridges, and crossings.
+- **Western Borderlands:** rolling hills and fortified approaches toward the highlands.
+- **Southern Estates:** lands held by lesser noble families and landed retainers.
+
+**Named settlements:** Harveston, an agricultural market center; Riverrun, a fortified river crossing; and Westfield, a major agricultural district.
+
+**Political and military character:** Edarth remains relatively decentralized. Powerful lesser families hold estates, castles, and local authority. Its forces rely on heavy infantry, feudal levies, household cavalry, professional household soldiers, archers and crossbowmen, and siege specialists. Its agricultural depth allows it to sustain armies, but the loyalty and cooperation of subordinate lords can fracture under political pressure.
+
+### House Calderan — Central Crownlands
+
+Calderan's principal Crown territory lies inland in the central river basin, near major river confluences and the continent's central routes, rather than directly on the inland sea. The Crown's territory is compact compared with the lands of the Great Houses but strategically valuable. Royal authority is strongest near the capital and becomes less direct near the borders of powerful vassals and neighboring Great Houses.
+
+**Imperial capital and principal seat: Valedorn.** Valedorn is established as the capital of the current monarchy and the location of the Imperial Seat. It is a large, old, fortified inland city built around a major river confluence. It predates the Calderan dynasty and survived the fall of the dragon-riding regime. Its political importance does not make it necessarily the continent's richest city or strongest military power.
+
+**Valedorn's established districts:**
+1. **Imperial Quarter:** the Imperial Palace, throne chamber, royal treasury, archives, and senior royal offices.
+2. **Council District:** the High Council Hall, residences and offices for Great House representatives, diplomatic residences, and archives of treaties and decrees.
+3. **Old City:** ancient streets, old noble estates, historic temples, guild halls, and traditional markets. Some structures predate the dragon-riding dynasty.
+4. **Merchant Quarter:** foreign merchants, banks, warehouses, craft guilds, inns, taverns, and public markets. Vaelorian and Merrowen commercial interests are especially visible.
+5. **Outer City:** common neighborhoods, craftsmen, inns, smaller markets, barracks, river docks, and newer districts beyond the oldest walls.
+
+The Imperial Palace developed around an older royal fortress and contains architectural layers from successive dynasties. The **Imperial Seat** is both a physical throne and a political institution and symbol: it represents the monarch's authority, the legitimacy of the reigning dynasty, and the post-Rebellion settlement. Its precise appearance and deeper construction history remain open.
+
+**Crown subdivisions:** the **Royal Basin**, a fertile river-valley core; **King's Reach**, encompassing important roads, bridges, and crossings; and the **Southern Crownlands**, lower territories extending toward the southern reaches.
+
+**Named settlements:** Kingsbridge, an important approach and crossing near Valedorn; Highmere, an agricultural and administrative center; and Dunwall, a border settlement near Edarth territory.
+
+### House Kharadorn — Inland Sea and Dragonstone
+
+Kharadorn's political authority spans two geographically separate but politically united dominions:
+- **Northeastern Dominion:** centered on Khar-Dum, the ancestral dwarven homeland and heart of the enduring subterranean empire.
+- **Inland Sea Dominion:** centered on Dragonstone, the conquered former stronghold of the fallen dragon-riding dynasty, acquired after the Great Rebellion.
+
+Kharadorn controls Dragonstone, the central inland sea, and surrounding territory, including strategic shorelines, ports, maritime passages, and islands. Not every settlement around the inland sea is necessarily dwarven in population or culture; human and other communities may live in coastal towns under Kharadorn authority.
+
+**Dragonstone's established historical layers:**
+1. **Ancient Foundation:** structures originating with the dragon-riding dynasty's earliest occupation.
+2. **Royal Remains:** fortifications, chambers, and facilities expanded during the dynasty's imperial period.
+3. **Dwarven Occupation:** walls, garrisons, underground works, and defensive structures built or altered after the conquest.
+
+The dwarves have altered Dragonstone but have not erased its earlier history. Some chambers and structures remain sealed, inaccessible, or ruined. The narrow natural land bridge remains the only known surface route to the island. The dwarven underground route remains a **GM-ONLY SECRET**; its entrances, course, construction history, and the dwarves who know of it are not public knowledge.
+
+**Named settlements:** Ironharbor, a fortified port; Stonewake, a coastal commercial settlement; and Deepwatch, a fortified settlement guarding an important approach.
+
+**Sea administration and military:** Dwarven naval forces maintain military control of the inland sea, while surface settlements and merchant communities conduct much of its everyday commerce. Merchant guilds and operators pay fees and customs; Kharadorn officials supervise harbors and strategic facilities. Kharadorn's forces include heavy infantry, elite armored troops, engineers, siege specialists, and clan contingents, as well as naval garrisons, coastal fortifications, marines, and vessels that may be requisitioned in wartime. Kharadorn and Merrowen are strategic competitors over maritime influence.
+
+### House Merrowen — Eastern Coast
+
+Merrowen's territory extends along a substantial length of the eastern coastline, encompassing important ports, shipping routes, coastal estates, forests, and the eastern river systems and delta. Its authority is maritime and coastal rather than uniformly inland. Individual eastern ports may remain outside its control.
+
+**Principal seat: Tidemark.** A wealthy coastal city built around a major natural harbor, with merchant docks, shipyards, warehouses, customs facilities, a fortified harbor, noble estates, coastal defenses, and a naval commandery.
+
+**Established regional structure:**
+- **Northern Coast:** northern ports and coastal territories.
+- **Eastern Shore:** the principal coastal heartland and major shipping routes.
+- **Great Delta:** river mouths, fertile lowlands, ports, and commercial settlements.
+- **Southern Coast:** southern harbors and coastal territories linking toward the fragmented southern reaches.
+
+**Named settlements:** Eastwatch, a northern port; Saltmere, a fishing, salt-production, and trade settlement; Deltaport, a major delta commercial city; and Stormhaven, a southern harbor.
+
+**Political and military character:** the ruling house controls major ports, naval installations, and coastal territories, while wealthy merchant families and lesser maritime lords exert influence. Political tension exists between traditional landed nobility and merchant-connected wealth. Merrowen's military strength rests on warships, coastal forts, naval infantry, professional port guards, and the ability to requisition merchant vessels during war. Its fleets allow rapid movement along the coast, but its ability to project power far inland is limited.
+
+### The Southern Reaches
+
+The southern continent remains fragmented rather than consolidated under one of the six Great Houses. Three broad geographic-political zones are established:
+
+- **Southwestern Marches:** arid highlands, dry valleys, rocky plateaus, and scattered oases, containing small principalities and fortified territories. **Sablecross** is an established proposed regional settlement name.
+- **Southern Principalities:** fertile lowlands, coastal forests, and river valleys, containing small hereditary kingdoms and independent city-states. **Brightwater** is an established proposed regional settlement name.
+- **Southern Islands:** island chains, sheltered harbors, fishing settlements, island lords, merchant councils, and maritime principalities. **Marrowgate** and **Duskport** are established settlement names.
+
+These regions provide space for local rivalries, piracy, smuggling, foreign trade, isolated communities, and conflicts that need not involve the Great Houses directly.
+
+### Minor-house relationships and local authority
+
+Minor houses remain a category of local nobility, not additional Great Powers. Three useful administrative descriptions are established:
+- **Banner Houses:** lesser noble families sworn to a Great House.
+- **Independent Lords:** minor houses controlling small territories outside the direct authority of a Great House.
+- **Crown Vassals:** lesser nobles owing allegiance directly to the monarch.
+
+These are descriptive categories, not necessarily formal hereditary titles or a uniform legal system. Minor houses may hold castles, estates, villages, small towns, local roads, agricultural holdings, or mines. Their influence is primarily local; they do not rival the Great Houses or automatically participate in continental government.
+
+### Principal trade routes and strategic corridors
+
+The following route concepts are established as major continental arteries. Their exact courses, distances, and formal names may be adjusted as the physical map is finalized:
+- **Northern Road:** links Veyr's principal settlements, fortresses, and frontier supply network.
+- **Western Mountain Road:** connects Vaelorian mines and western access routes with Edarth and the central heartlands.
+- **King's Road:** links Valedorn with the principal territories and routes of the Crown.
+- **Inland Sea Route:** connects Dragonstone and the major ports and settlements around the central inland sea.
+- **Eastern Coastal Road:** links Merrowen's principal ports and coastal settlements.
+- **Southern Trade Road:** connects the central heartlands with southern cities, principalities, and ports.
+
+Strategic chokepoints include western mountain passes, central river crossings, the approaches to Valedorn, the land bridge to Dragonstone, and important inland-sea passages.
+
+### Economic dependencies
+
+The Great Houses are linked by practical dependencies:
+- **Veyr** supplies northern resources, timber, and frontier security; it needs grain, manufactured goods, and financial support.
+- **Vaelorian** supplies precious metals, minerals, financing, and commercial connections; it needs food, labor, and reliable access to maritime trade.
+- **Edarth** supplies grain, livestock, manpower, and military strength; it needs metals, manufactured goods, and commercial access.
+- **Calderan** supplies royal administration, legal authority, political recognition, and the institutions of the Crown; it needs tax revenue, military cooperation, and recognition of its legitimacy.
+- **Kharadorn** supplies metalwork, weapons, engineering, and control of inland-sea routes; it needs food, surface commerce, and agricultural goods.
+- **Merrowen** supplies shipping, naval power, and maritime trade; it needs raw materials, food, and access to inland markets.
+
+### Limits and unresolved details
+
+The broad territorial framework, principal seats, regional divisions, named settlements, and major route concepts above are established. They do **not** yet fix surveyed borders, exact coordinates, travel times, population figures, river courses, the jurisdiction of every port or island, the number and identity of minor houses, or the exact military and legal arrangements between neighboring territories. The working atlas still requires cartographic calibration against the approved approximate dimensions of 1,700 miles north to south and 1,300 miles east to west. The printed 0–1,000-mile scale bar must not be treated as accurate until recalibrated.
+
+
+## Stage 6 — Imperial Court and Government (Established, 2026-11-04)
+
+The GM approved the proposed structure of the Crown, Imperial Council, royal household, political factions, and Valedorn's political role. This framework defines the current imperial government without fixing individual officeholders or faction leaders.
+
+### The Crown and Royal Household
+
+The monarch governs through a royal administration and appointed household officers. The following offices are established:
+- **Royal Chancellor:** oversees royal administration, decrees, correspondence, and the conduct of government business.
+- **Master of Coin:** oversees royal revenue, taxation, debts, and the treasury.
+- **Master of Laws:** oversees royal justice, legal disputes, and interpretation of Crown law.
+- **Master of War:** coordinates the royal army, fortifications, military readiness, and defense.
+- **Royal Spymaster:** coordinates intelligence, informants, and covert information-gathering for the Crown.
+- **Lord Chamberlain:** oversees the royal household, court ceremonies, access to the monarch, and palace administration.
+
+These officers serve the Crown rather than representing the Great Houses. The monarch appoints them, but powerful houses and court factions seek influence over appointments.
+
+The Crown maintains a permanent household guard and a distinct royal military force. These forces are sufficient to protect Valedorn and uphold ordinary royal authority, but are not assumed to be strong enough to defeat all six Great Houses acting together.
+
+### The Imperial Council
+
+The Imperial Council has **six permanent seats**, one for each Great House. Each house appoints its own representative; the representative need not be the house's ruler. The monarch presides over the Council but does not hold an additional Great House seat.
+
+Council business includes:
+- Disputes between Great Houses.
+- Extraordinary taxation and major royal financial demands.
+- Major military levies and continental warfare.
+- Treaties substantially affecting Great House interests.
+- Recognition of royal succession.
+- Relations between the Crown and the dwarven empire.
+- Laws substantially affecting Great House rights and privileges.
+
+The Council is an aristocratic institution of negotiation and privilege, not a modern parliament. Its exact voting rules, quorum, vetoes, formal legal powers, and customary procedures remain unresolved. The monarch retains substantial independent authority, but ignoring the Council can provoke political isolation, refusal of cooperation, or rebellion.
+
+Representatives may differ from their house rulers in temperament, loyalties, and political strategy. They may be skilled negotiators, reluctant appointees, political hostages in all but name, or individuals pursuing their own interests.
+
+### Court Factions
+
+Five political factions operate as movements and networks of shared interests within the court and wider nobility. They are not necessarily formal organizations with fixed membership, and allegiance may overlap.
+
+- **Royal Court:** seeks to preserve the monarchy and maintain stability through compromise.
+- **Traditionalists:** seek to preserve the ancient rights, privileges, and political independence of the Great Houses.
+- **Royal Expansionists:** seek to strengthen the Crown and gradually reduce the Great Houses' independent power.
+- **Merchant Interests:** seek to protect commerce, trade privileges, financial stability, and commercial influence.
+- **Religious Establishment:** seeks to preserve and expand the authority and influence of organized religious institutions.
+
+Faction membership is not determined by ancestry or Great House affiliation. Members of the same house may support opposing factions, and individuals may cooperate with different factions on different issues. The identities of faction leaders, actual membership, relative strength, and specific internal organizations remain unresolved.
+
+### Valedorn's political role
+
+Valedorn is the principal arena where Crown administration, Great House representatives, diplomats, merchants, religious authorities, and court factions compete for influence. Its established districts retain their distinct political and social functions: Imperial Quarter, Council District, Old City, Merchant Quarter, and Outer City. A substantial river port connects the inland capital to wider trade networks.
+
+### Current political conditions
+
+The following broad conditions are established as the present political climate:
+- The monarch seeks to strengthen royal authority without provoking another Great House rebellion.
+- The Great Houses publicly uphold the post-Rebellion settlement while competing privately for influence.
+- Kharadorn remains independent and distrustful of the Crown.
+- Vaelorian and Merrowen compete for commercial influence.
+- Edarth and Veyr are wary of royal centralization, though their priorities differ.
+- The Religious Establishment has growing influence in court affairs.
+- The fragmented southern territories remain difficult for the Crown to control.
+
+### Still unresolved
+
+The monarch's personal identity and character; the names and identities of officeholders; the exact strength and composition of the royal military; Imperial Council voting and legal procedures; individual representatives; faction leaders and membership; the relative influence of each faction; and the specific institutions and doctrines represented by the Religious Establishment.
+
+
+PART VII: RELIGIOUS INSTITUTIONS AND LEARNING
+[Stage 7 — Established 2026-11-04]
+
+7.1 Worship and the Pantheon
+The Pathfinder pantheon is the religious foundation of the continent. Worship varies by region, ancestry, community, and individual. No single pattern of devotion is imposed on the entire continent. People may pray to different gods for different needs, while others maintain a dedicated devotion to one deity or religious tradition.
+
+A person who performs religious duties is not necessarily a divine spellcaster. Priests, temple attendants, caretakers, theologians, and religious officials may serve their faith without possessing supernatural abilities. Religious office and magical power are distinct.
+
+7.2 Religious Institutions
+The continent has an organized religious establishment, but it is not a single unified church under one supreme authority. Major faiths maintain their own hierarchies, institutions, traditions, and interpretations. Their authority and organization vary by deity and region.
+
+Common institutional forms include:
+- Temples: permanent centers of worship, ceremony, community service, and religious authority.
+- Monasteries: communities devoted to study, discipline, contemplation, or service.
+- Shrines: smaller local places of worship maintained by communities or caretakers.
+- Cathedrals: major religious centers with regional or broader influence.
+- Religious orders: organizations devoted to a deity, doctrine, or particular religious mission.
+- Clerical courts: religious authorities that address internal disputes, religious law, and matters within their jurisdiction.
+
+Not every settlement contains every institution. Remote communities may rely on a shrine, a visiting priest, or local custom, while major cities such as Valedorn can sustain prominent temples and senior religious authorities.
+
+Religious institutions may own land and wealth, provide education and charity, influence rulers, participate in ceremonies involving marriage, funerals, coronations, and inheritance, and shape public expectations. They can condemn rulers or decisions and influence common opinion. Their authority does not automatically supersede secular law, nor do they command the armies of the Great Houses.
+
+7.3 Religion at Court
+The Religious Establishment is a recognized political movement within the court and wider nobility. It seeks to preserve and expand the authority and influence of organized religious institutions.
+
+Senior religious authorities have access to the royal court and may advise the monarch. Religious representatives can influence the Imperial Council through relationships, negotiation, and public pressure, but religion has no automatic seat on the Council, whose six permanent seats belong to the Great Houses.
+
+The Crown seeks religious legitimacy; Great Houses cultivate religious support when useful; religious authorities seek to preserve institutional independence. Different faiths and religious leaders may disagree with one another.
+
+7.4 Scholarship and Learned Orders
+A scholarly tradition exists separately from the religious hierarchy. Its fields of study may include history and genealogy, mathematics and accounting, medicine and anatomy, astronomy and calendars, law and administration, languages and translation, natural philosophy, and theology.
+
+Scholars may serve noble households, royal administration, major temples, and wealthy cities. Some are ordained clergy; others are secular scholars. The study of theology does not itself confer divine magic.
+
+The scholarly tradition is institutionally distinct from the religious hierarchy, although cooperation between scholars and religious institutions is possible. Its formal name, ranks, training system, and relationship with the Crown remain unresolved.
+
+7.5 Divine Spellcasters
+Divine spellcasters are uncommon and devote themselves to a god. Their abilities are unusual in ordinary society and are not a routine feature of local religious service. A village priest may serve for decades without casting a spell. A person capable of powerful divine magic may attract attention, reverence, fear, or suspicion.
+
+Major temples may have only a small number of divine spellcasters. Noble houses may compete for the services of capable clerics. Magical ability does not automatically confer high religious office, and religious authority does not require magical ability.
+
+7.6 Religious Character of the Great Houses
+The Great Houses do not each belong exclusively to one faith. Religious practice varies among their members, branches, retainers, and subjects. Regional traditions may shape each house's public ceremonies and customs, but no house is defined as uniformly devoted to a single deity.
+
+7.7 Religious Tensions
+Potential sources of conflict include disputes between religious and secular authority; competing interpretations of the teachings of real gods; religious wealth and property; accusations of heresy or forbidden teaching; and disagreement over who may interpret divine signs or exercise religious authority. The existence of the gods does not mean mortals agree about their wishes.
+
+7.8 Open Details
+The names and leadership of major religious institutions; the relative prominence of individual deities; regional worship customs; the scholarly order's name and structure; religious courts' jurisdiction; and the exact legal relationship between religious and secular authorities remain unresolved.
+
+
+# 8. CURRENT RULERS OF THE GREAT HOUSES
+
+The current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler political dynamics are recorded in the dedicated reference `House_Rulers.md`. These identities and relationships are established as of 2026-11-04. The document does not establish or alter any player character's identity or personal history. Exact wider family trees, Council representatives, and household officers remain unresolved.
+
+
+# 9. THE IMPERIAL COUNCIL AND ROYAL COURT
+
+The current six Great House representatives, Crown officers, leaders of the five court factions, religious advisers, and principal political fault lines are recorded in `Court_and_Council.md`. The Council retains six permanent Great House seats; the monarch presides without an additional seat. Religious authorities may advise the Crown but have no automatic Council seat. The representatives and officers established in this reference are current as of 2026-11-04. Exact Council procedures and the full organization of the court factions remain unresolved.
+
+
+# 10. PLAYER CHARACTER AMBITIONS AND CAMPAIGN IDENTITY
+
+The player characters are not assumed to be heroes. Their established ambitions are to rebuild the fallen dragon-riding dynasty; end the persecution of ratfolk and establish ratfolk as equals or greater than other peoples; and, for the vampire mesmerist, an as-yet-unknown personal ambition. The vampire saved and raised the ratfolk alchemist after the ratfolk's family was killed by anti-ratfolk persecution. The surviving dragon-dynasty heir is the concealed Crown Prince described in the historical section. PC personal histories, identities, methods, and motivations beyond these supplied facts remain player-controlled. See `Player_Character_Ambitions.md`.

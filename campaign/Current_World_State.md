@@ -1,7 +1,7 @@
 # Current World State
 
 **Status:** Current GM-approved baseline  
-**Last reviewed:** 2026-11-03
+**Last reviewed:** 2026-11-04
 
 This is a concise navigation and continuity document, not a replacement for the full Campaign Bible.
 
@@ -43,10 +43,10 @@ This is a concise navigation and continuity document, not a replacement for the 
 - Eligible Targaryen blood was required to bond with a dragon; each rider could bond with only one dragon through a telepathic connection. Maintaining eligibility required reproduction within the eligible bloodline.
 - Six Great Houses rebelled both to preserve their political independence against increasing centralization and to eliminate dragon-riding as the source of Targaryen supremacy. These were connected objectives: without dragons, the dynasty could no longer enforce its overwhelming power.
 - The rebellion lasted a few years and occurred approximately 200–300 years before the present campaign; its exact calendar year remains unresolved. The dwarven Great House was its principal mastermind and developed specialized dragon-slaying ballistas. Most dragons were killed; surviving dragons fled after losing their riders, and their fate remains unknown.
-- The Targaryen ruling family was nearly exterminated and the Imperial Seat fell. The dwarven leader and the Kharadorn house held power in the immediate aftermath. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. House Calderan is the established ruling house and supplied the compromise monarch. The monarch's controller or controllers remain unresolved. The victorious dwarves claimed Dragonstone, now occupied by the main branch of the dwarven clans, which is said to descend from Torag himself.
+- The Targaryen ruling family was nearly exterminated and the Imperial Seat fell. The dwarven leader and the Kharadorn house held power in the immediate aftermath. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. House Calderan is the established ruling house and supplied the compromise monarch. The monarch's practical constraints and sources of influence remain unresolved; do not assume a single controller or that the dwarves control him. The victorious dwarves claimed Dragonstone, now occupied by the main branch of the dwarven clans, which is said to descend from Torag himself.
 - One nine-year-old Crown Prince survived the destruction of Dragonstone. His survival is concealed; he is a player character.
 
-The legacy labels House Targaryen and House Kharadorn remain historical working labels pending replacement. The approved Great Houses are Vaelorian (elven), Kharadorn (dwarven), Edarth (primarily human), Calderan (human ruling dynasty), Veyr (human northern dynasty), and Merrowen (primarily human maritime dynasty). Their words, sigils, identities, political aims, and relationships are recorded in the Campaign Bible. Khar-Dum is the Kharadorns' ancestral homeland; Dragonstone was the Targaryen dynasty's ancestral stronghold, taken by dwarven conquest during the Great Rebellion. The approved geographic foundations are: a vast continent substantially larger than Westeros; an enormous central inland sea; Dragonstone as an island connected to the mainland by a narrow natural land bridge; a secret dwarven underground tunnel system providing another route to Dragonstone; Khar-Dum in the northeastern mountain system; and substantial, clearly defined territories for each Great House. Exact dimensions, borders, house seats, and geographic names remain unresolved.
+The fallen dragon-riding dynasty's original name and the final name of its former stronghold remain unresolved; House Kharadorn is an approved original Great House name, not a placeholder. The six established Great Houses are Vaelorian (elven), Kharadorn (dwarven), Edarth (primarily human), Calderan (human ruling dynasty), Veyr (human northern dynasty), and Merrowen (primarily human maritime dynasty). Their words, sigils, identities, political aims, rulers, seats, representatives, and court-faction leadership are established in the Campaign Bible and dedicated records. The continent's approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, making it smaller than Westeros. The central inland sea, Dragonstone island and its narrow natural land bridge, the GM-only dwarven underground route, Khar-Dum in the northeastern mountains, and broad Great House territories are established. Exact borders, coordinates, routes, local jurisdictions, and final geographic names remain open.
 
 ## Campaign start
 
@@ -60,14 +60,26 @@ The legacy labels House Targaryen and House Kharadorn remain historical working 
 
 ## Unresolved
 
-See the Campaign Bible's unresolved topics. In particular: final continent name and geography, house names and identities, identity of the current ruling house, the power or powers controlling the puppet monarch, exact chronology and political details of the succession crisis, starting city, opening situation, ratfolk settlements and prejudice origins, divine magic's source, vampire origins, dragon history, and the Ancient Barrier's builders and purpose.
+- Starting city, its government, districts, local power structure, and opening situation.
+- Campaign date and calendar conventions.
+- Final original names for the continent, inland sea, major geographic features, the fallen dragon-riding dynasty, and Dragonstone.
+- Exact borders, coordinates, travel times, route courses, river courses, and local port jurisdictions.
+- Minor-house names, holdings, allegiances, and individual southern polities.
+- The forces, relationships, and political dependencies that constrain or influence King Aldric Calderan; the exact post-Rebellion succession chronology and dwarven succession chain also need clarification.
+- Ratfolk settlements, customs, networks, and the historical origins and mechanisms of surface prejudice. The battlefield circumstances of the ratfolk PC's mother's death remain PC-backstory territory and must not be invented.
+- The Ancient Barrier's builders, purpose, and what lies beyond it.
+- The reasons arcane spellcasters are rare; how the real Pathfinder gods grant or mediate divine magic.
+- The origins and limits of vampirism.
+- The fate of dragons that fled after the Great Rebellion. The vampire PC's interaction with dragon bonding remains unresolved and player-character-specific.
+
+For current rulers, Great House seats and territories, Council representatives, Crown officers, and court-faction leaders, consult the approved Stage 5, Stage 8, and Stage 9 records. Those subjects are not open questions.
 
 ## Continuity cautions
 
 The original DOCX is preserved as source material. Where older brainstorming conflicts with the current GM-approved direction, use this current baseline: **grounded high-medieval fantasy, with no industrial or steampunk technological culture.** Supernatural horror exists but is not the main theme. The Pathfinder gods are real.
 
 ## Imperial Seat and Current Monarchy
-The human monarch's family has a legitimate claim to the Imperial Seat. The monarch retains substantial authority, but the Great Houses can constrain him. A council or coalition of Great Houses influences him, while several competing factions pull him in different directions. The other rebel Great Houses regard the throne as an opportunity to manipulate imperial policy for their own interests. The identities and relative influence of these factions remain unresolved.
+King Aldric Calderan has a legitimate hereditary claim and retains substantial formal authority, but the Great Houses and court factions constrain his practical freedom. He seeks to strengthen royal authority gradually. The six-seat Imperial Council and five court factions are established; their exact procedures, membership beyond recorded leaders and associates, and relative influence remain open. Do not characterize Aldric as a powerless puppet or assume that any one house controls him.
 
 
 ## Approved Great Houses
@@ -80,7 +92,7 @@ The six Great Houses and their core identities are established:
 - **House Veyr:** Human northern dynasty responsible for maintaining the Ancient Barrier; “Beyond the Wall, We Stand.”
 - **House Merrowen:** Primarily human maritime and naval power; “All Roads Reach the Sea.”
 
-Their sigils, detailed identities, political goals, and relationship matrix are in the Campaign Bible. Their exact territories, seats, current heads, and local geography are not yet established.
+Their sigils, detailed identities, political goals, and relationship matrix are in the Campaign Bible. Their broad territories and principal seats, as well as current rulers and heirs, are established in the approved Stage 5 and Stage 8 records. Exact borders and local geography remain open.
 
 
 **Ruling-house clarification:** House Calderan is the established human ruling dynasty and was one of the six original rebel Great Houses. The identity of the individuals and factions controlling or influencing its puppet monarch remains unresolved.

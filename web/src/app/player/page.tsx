@@ -18,6 +18,7 @@ export default async function PlayerPage() {
     { count: mapCount, error: mapCountError },
     { count: npcCount, error: npcCountError },
     { count: houseCount, error: houseCountError },
+    { count: factionCount, error: factionCountError },
     { data: entries, error: entriesError },
   ] = await Promise.all([
     supabase
@@ -46,6 +47,10 @@ export default async function PlayerPage() {
       .select("id", { count: "exact", head: true })
       .eq("campaign_id", member.campaign_id),
     supabase
+      .from("campaign_factions")
+      .select("id", { count: "exact", head: true })
+      .eq("campaign_id", member.campaign_id),
+    supabase
       .from("campaign_journal_entries")
       .select("id, title, content, campaign_date, created_at")
       .eq("campaign_id", member.campaign_id)
@@ -70,6 +75,9 @@ export default async function PlayerPage() {
   }
   if (houseCountError) {
     throw new Error(`Unable to count known noble houses: ${houseCountError.message}`);
+  }
+  if (factionCountError) {
+    throw new Error(`Unable to count known factions: ${factionCountError.message}`);
   }
   if (entriesError) {
     throw new Error(`Unable to load campaign journal entries: ${entriesError.message}`);
@@ -100,6 +108,11 @@ export default async function PlayerPage() {
           <span className="eyebrow">Politics</span>
           <strong>Noble houses</strong>
           <span className="muted">{houseCount ?? 0} known houses</span>
+        </Link>
+        <Link className="player-resource-card" href="/player/factions">
+          <span className="eyebrow">Organizations</span>
+          <strong>Known factions</strong>
+          <span className="muted">{factionCount ?? 0} shared factions</span>
         </Link>
         <Link className="player-resource-card" href="/player/atlas">
           <span className="eyebrow">Explore</span>

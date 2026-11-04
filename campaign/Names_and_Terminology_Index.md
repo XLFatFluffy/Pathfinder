@@ -35,6 +35,25 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Subterranean ratfolk communities | People / societies | ESTABLISHED DIRECTION | Settlement names not chosen |
 | Starting medium-sized city | Settlement | UNRESOLVED | Name not chosen |
 
+## Tallowmere and House Denvor
+
+
+| Tallowmere | City | ESTABLISHED | Walled inland-sea port on the northwestern shore, at a sheltered harbor where a navigable river reaches the sea; approximate population 18,000. |
+| House Denvor | Minor house | ESTABLISHED | Human ruling family of Tallowmere; hereditary local lordship under a charter confirmed by House Kharadorn. Arms: black heron in silver water on deep green; words: “Where Waters Gather.” |
+| Greywatch | Noble seat / fortress | ESTABLISHED | Fortified ancestral residence of House Denvor on elevated ground overlooking Tallowmere's harbor. |
+| Lord Oswin Denvor | Person | ESTABLISHED | Current lord of Tallowmere. |
+| Lady Catrin Denvor | Person | ESTABLISHED | Wife of Lord Oswin Denvor; active in civic and charitable relationships. |
+| Ser Edwyn Denvor | Person | ESTABLISHED | Eldest child and recognized heir of Lord Oswin Denvor. |
+| Lady Anwen Denvor | Person | ESTABLISHED | Younger child of Lord Oswin and Lady Catrin; socially and commercially connected in Tallowmere. |
+| Greywatch Rise | City district | ESTABLISHED | Elevated district containing Greywatch and the principal noble and garrison buildings. |
+| High Ward | City district | ESTABLISHED | Older, wealthier residential and institutional quarter. |
+| Old Quays | City district | ESTABLISHED | Historic inner waterfront and traditional maritime trades. |
+| New Quays | City district | ESTABLISHED | Expanded wharves, bulk cargo yards, and newer merchant concerns. |
+| Market Ward | City district | ESTABLISHED | Principal market, guildhalls, inns, moneychangers, and commercial services. |
+| Rivergate | City district | ESTABLISHED | River-facing quarter of bargemen, mills, carters, and working trades. |
+| Lantern Ward | City district | ESTABLISHED | Religious, charitable, healing, and burial institutions. |
+| The Underways | Subterranean district / surface term | ESTABLISHED | Surface term for accessible subterranean spaces beneath Tallowmere, including ratfolk homes, workshops, stores, and routes; not a unified settlement or faction. |
+
 ## Add new entry template
 
 | Official name | Category | Status | Aliases / notes | Canon record |

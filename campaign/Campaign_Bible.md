@@ -2058,3 +2058,55 @@ The following broad conditions are established as the present political climate:
 ### Still unresolved
 
 The monarch's personal identity and character; the names and identities of officeholders; the exact strength and composition of the royal military; Imperial Council voting and legal procedures; individual representatives; faction leaders and membership; the relative influence of each faction; and the specific institutions and doctrines represented by the Religious Establishment.
+
+
+PART VII: RELIGIOUS INSTITUTIONS AND LEARNING
+[Stage 7 — Established 2026-11-04]
+
+7.1 Worship and the Pantheon
+The Pathfinder pantheon is the religious foundation of the continent. Worship varies by region, ancestry, community, and individual. No single pattern of devotion is imposed on the entire continent. People may pray to different gods for different needs, while others maintain a dedicated devotion to one deity or religious tradition.
+
+A person who performs religious duties is not necessarily a divine spellcaster. Priests, temple attendants, caretakers, theologians, and religious officials may serve their faith without possessing supernatural abilities. Religious office and magical power are distinct.
+
+7.2 Religious Institutions
+The continent has an organized religious establishment, but it is not a single unified church under one supreme authority. Major faiths maintain their own hierarchies, institutions, traditions, and interpretations. Their authority and organization vary by deity and region.
+
+Common institutional forms include:
+- Temples: permanent centers of worship, ceremony, community service, and religious authority.
+- Monasteries: communities devoted to study, discipline, contemplation, or service.
+- Shrines: smaller local places of worship maintained by communities or caretakers.
+- Cathedrals: major religious centers with regional or broader influence.
+- Religious orders: organizations devoted to a deity, doctrine, or particular religious mission.
+- Clerical courts: religious authorities that address internal disputes, religious law, and matters within their jurisdiction.
+
+Not every settlement contains every institution. Remote communities may rely on a shrine, a visiting priest, or local custom, while major cities such as Valedorn can sustain prominent temples and senior religious authorities.
+
+Religious institutions may own land and wealth, provide education and charity, influence rulers, participate in ceremonies involving marriage, funerals, coronations, and inheritance, and shape public expectations. They can condemn rulers or decisions and influence common opinion. Their authority does not automatically supersede secular law, nor do they command the armies of the Great Houses.
+
+7.3 Religion at Court
+The Religious Establishment is a recognized political movement within the court and wider nobility. It seeks to preserve and expand the authority and influence of organized religious institutions.
+
+Senior religious authorities have access to the royal court and may advise the monarch. Religious representatives can influence the Imperial Council through relationships, negotiation, and public pressure, but religion has no automatic seat on the Council, whose six permanent seats belong to the Great Houses.
+
+The Crown seeks religious legitimacy; Great Houses cultivate religious support when useful; religious authorities seek to preserve institutional independence. Different faiths and religious leaders may disagree with one another.
+
+7.4 Scholarship and Learned Orders
+A scholarly tradition exists separately from the religious hierarchy. Its fields of study may include history and genealogy, mathematics and accounting, medicine and anatomy, astronomy and calendars, law and administration, languages and translation, natural philosophy, and theology.
+
+Scholars may serve noble households, royal administration, major temples, and wealthy cities. Some are ordained clergy; others are secular scholars. The study of theology does not itself confer divine magic.
+
+The scholarly tradition is institutionally distinct from the religious hierarchy, although cooperation between scholars and religious institutions is possible. Its formal name, ranks, training system, and relationship with the Crown remain unresolved.
+
+7.5 Divine Spellcasters
+Divine spellcasters are uncommon and devote themselves to a god. Their abilities are unusual in ordinary society and are not a routine feature of local religious service. A village priest may serve for decades without casting a spell. A person capable of powerful divine magic may attract attention, reverence, fear, or suspicion.
+
+Major temples may have only a small number of divine spellcasters. Noble houses may compete for the services of capable clerics. Magical ability does not automatically confer high religious office, and religious authority does not require magical ability.
+
+7.6 Religious Character of the Great Houses
+The Great Houses do not each belong exclusively to one faith. Religious practice varies among their members, branches, retainers, and subjects. Regional traditions may shape each house's public ceremonies and customs, but no house is defined as uniformly devoted to a single deity.
+
+7.7 Religious Tensions
+Potential sources of conflict include disputes between religious and secular authority; competing interpretations of the teachings of real gods; religious wealth and property; accusations of heresy or forbidden teaching; and disagreement over who may interpret divine signs or exercise religious authority. The existence of the gods does not mean mortals agree about their wishes.
+
+7.8 Open Details
+The names and leadership of major religious institutions; the relative prominence of individual deities; regional worship customs; the scholarly order's name and structure; religious courts' jurisdiction; and the exact legal relationship between religious and secular authorities remain unresolved.

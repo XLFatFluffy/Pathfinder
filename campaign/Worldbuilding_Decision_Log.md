@@ -141,3 +141,34 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM approved these broad territorial placements during review of the revised continental map.
 **Still unresolved:** Exact borders, seats, the Crown capital's precise location, the limits of Kharadorn's inland-sea territory, and jurisdiction over individual shores, ports, and islands.
 **Affected records:** Campaign Bible, Canon Register, Current World State, and future political map.
+
+
+### 2026-11-04 — Stage 5: Political Atlas approved and canonized
+**Status:** ESTABLISHED
+**Decision:** The GM approved the Political Atlas package. The following broad territorial arrangement and principal seats are canon:
+- House Veyr: Northern Marches; seat Frosthold.
+- House Vaelorian: Western Highlands; seat Aurelith.
+- House Edarth: Western Heartlands; seat Stoneguard.
+- House Calderan: inland Central Crownlands; Valedorn is the royal capital and location of the Imperial Seat.
+- House Kharadorn: Dragonstone, central inland sea, and surrounding territory; its separate northeastern ancestral dominion remains centered on Khar-Dum.
+- House Merrowen: extended eastern maritime territory; seat Tidemark. It does not automatically control every eastern port.
+
+**Regional divisions and named settlements:**
+- Veyr: Frostlands, Northern Holds, Pine Marches, Southern Marches; Wintermere, Greywatch, Pinecross.
+- Vaelorian: High Peaks, Green Valleys, Western Passes; Silverfall, Thornvale, Goldmere.
+- Edarth: Golden Fields, Riverlands, Western Borderlands, Southern Estates; Harveston, Riverrun, Westfield.
+- Calderan: Royal Basin, King's Reach, Southern Crownlands; Kingsbridge, Highmere, Dunwall. Valedorn's districts: Imperial Quarter, Council District, Old City, Merchant Quarter, Outer City.
+- Kharadorn: northeastern dominion centered on Khar-Dum and Inland Sea dominion centered on Dragonstone; Ironharbor, Stonewake, Deepwatch. Dragonstone's architectural layers: Ancient Foundation, Royal Remains, Dwarven Occupation.
+- Merrowen: Northern Coast, Eastern Shore, Great Delta, Southern Coast; Eastwatch, Saltmere, Deltaport, Stormhaven.
+
+**Southern Reaches:** Three fragmented zones are established: Southwestern Marches, Southern Principalities, and Southern Islands. They contain lesser principalities, small hereditary kingdoms, independent city-states, island powers, and minor houses. Sablecross, Brightwater, Marrowgate, and Duskport are approved settlement names.
+
+**Minor houses:** Banner Houses, Independent Lords, and Crown Vassals are established as descriptive categories, not necessarily formal legal titles. Minor houses remain locally influential but nearly insignificant in continent-wide affairs.
+
+**Trade and economy:** Principal route concepts are Northern Road, Western Mountain Road, King's Road, Inland Sea Route, Eastern Coastal Road, and Southern Trade Road. Veyr needs southern grain and support; Vaelorian needs food, labor, and maritime access; Edarth needs metals and manufactured goods; Calderan needs revenue and cooperation; Kharadorn needs food and surface commerce; Merrowen needs raw materials, food, and inland markets.
+
+**Imperial Seat:** Valedorn is the established royal capital. The Imperial Seat is both a physical throne and an institution/symbol of royal authority, dynastic legitimacy, and the post-Rebellion settlement. The palace developed around an older royal fortress and contains architectural layers from successive dynasties.
+
+**Reason:** The GM approved the Political Atlas proposal and requested canonization before continuing development.
+**Still unresolved:** Exact borders, coordinates, river and road courses, map scale calibration, travel times, population, individual minor-house identities and holdings, local port jurisdictions, the precise appearance/history of the Imperial Seat, and detailed military/legal arrangements.
+**Affected records:** Campaign Bible, Canon Register, Current World State, and future political map.

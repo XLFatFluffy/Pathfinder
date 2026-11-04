@@ -206,3 +206,14 @@ Religious tensions include religious versus secular authority, competing interpr
 Succession tensions differ by house. Calderan's heir favors caution while Maerelle is more ambitious; Vaelorian traditionalists distrust Seralyth's approach; Kharadorn's heir is more militaristic than Durnak; Edarth's heir faces influential relatives and a decentralized nobility; Veyr's heir Anika must contend with her brother's popularity among frontier soldiers; Merrowen's ruling family must balance traditional maritime nobility and powerful merchant interests. Merrowen merchants can constrain policy but do not presently threaten the dynasty itself.
 
 The Crown's key political relationships include Aldric's dependence on Theren's financial support, Durnak's insistence on dwarven independence, Garrick's suspicion of royal centralization, Edran's demand for northern resources, and Maris's transactional support for the Crown. Full profiles and dynamics are in `House_Rulers.md`.
+
+
+## Stage 9 — Imperial Council and Royal Court (Established, 2026-11-04)
+
+The current Council representatives are Othmar Rusk (Calderan), Ilyra Vaelorian, Brokk Ironvein (Kharadorn), Ysabet Edarth, Merek Veyr, and Cassia Merrowen. The monarch presides but has no additional Great House seat. Rusk also serves as Royal Chancellor.
+
+The Crown's current senior officers are Master of Coin Meredyth Sorn, Master of Laws Bastian Wycliffe, Master of War Garran Holt, Royal Spymaster Nerys Vale, and Lord Chamberlain Perrin Ashcombe, alongside Rusk as Royal Chancellor.
+
+The five court factions have identifiable current leaders: Queen Elowen Calderan (Royal Court); Lord Garrick Edarth (Traditionalists); Princess Maerelle Calderan (Royal Expansionists); Cassia Merrowen (Merchant Interests); and High Prelate Aveline Marr (Religious Establishment). Key associates and faction tensions are recorded in `Court_and_Council.md`. The factions remain overlapping networks, not formal parties. Religious authorities have no automatic Council seat.
+
+The Council's exact voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved. The intelligence network's size and the royal military's precise composition also remain unresolved.

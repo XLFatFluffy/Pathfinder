@@ -375,3 +375,12 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Chartered Council and Civic Procedure | Campaign reference | ESTABLISHED | Seven-seat local council, appointments, quorum, petitions, and advisory procedure. |
 | Kharadorn Charter Presence | Campaign reference | ESTABLISHED | Charter House, resident Charter Warden, limited escort, and strategic review role. |
 | Criminal Operators and Networks | Campaign reference | ESTABLISHED | Named independent operators and fragmented illicit networks; no citywide syndicate. |
+
+
+## Player Character Concepts and Opening (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Vampire rescued the ratfolk as a child after men associated with an unnamed minor house took his travelling-merchant family's wares through extortion and killed his parents. The vampire later taught him alchemy. See Player_Character_Concepts_and_Opening.md. |
+| Roadside troll opening | Session One encounter concept | PROVISIONAL | The PCs intend to confront a troll on their approach to Tallowmere; encounter balance depends on completed character sheets. |
+| Player Character Concepts and Opening | Campaign reference | PROVISIONAL | GM-facing record of the shared backstory, unresolved details, and proposed opening adventure. |

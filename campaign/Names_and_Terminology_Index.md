@@ -342,3 +342,36 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Shepherd's Fold | Ruined seasonal enclosure | ESTABLISHED | Former upland grazing station in the Upper Vale. |
 | The Drowned Storehouse | Partially submerged ruin | ESTABLISHED | Flood-damaged riverside storehouse in a backwater below Millhaven. |
 | Wilderness Beyond Tallowmere | Campaign reference | ESTABLISHED FRAMEWORK | Initial frontier regions, abandoned sites, resource opportunities, Pathfinder threat ecology, and GM principles. |
+
+
+## Tallowmere — Local Institutions and Civic Life (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| The Open Ledger | Temple | ESTABLISHED | Public temple dedicated to Abadar in the High Ward. |
+| Prelate Damas Orrel | Person | ESTABLISHED | Senior local figure at the Open Ledger. |
+| The Quiet Gate | Temple | ESTABLISHED | Pharasma institution in Lantern Ward serving funerary and burial needs. |
+| Keeper Lethia Sorn | Person | ESTABLISHED | Senior local figure at the Quiet Gate. |
+| The Tideward Shrine | Shrine | ESTABLISHED | Gozreh shrine at Old Quays; maintained by Brother Caldus. |
+| The House of the Dawn | Religious house | ESTABLISHED | Sarenrae institution in Lantern Ward. |
+| Dawn-Sister Vaela Dorn | Person | ESTABLISHED | Senior local figure at the House of the Dawn. |
+| Charter Warden Vardek Flintmark | Person / officeholder | ESTABLISHED | Resident Kharadorn representative responsible for monitoring Tallowmere's Denvor charter obligations. |
+| Belda Ironmark | Person | ESTABLISHED | Clerk at the Kharadorn Charter House. |
+| Charter House | Civic / diplomatic office | ESTABLISHED | Modest Kharadorn office near the Harbor Office. |
+| Tavin Rusk | Person | ESTABLISHED | Harbor Fellowship representative on Tallowmere's Chartered Council. |
+| Edran Pellor | Person | ESTABLISHED | Property holders' representative on the Chartered Council. |
+| Tallowmere Chartered Council | Civic body | ESTABLISHED | Seven-seat advisory and negotiating body under House Denvor; not a sovereign legislature. |
+| Noll Tarrow | Person / criminal operator | ESTABLISHED | Organizer of the loose Grey Net cargo-diversion network. |
+| Grey Net | Informal criminal network | ESTABLISHED | Fragmented cargo theft and diversion operators around Old Quays. |
+| Edrik Vale | Person / criminal operator | ESTABLISHED | Copyist and document-fraud operator associated with the Bent Seal. |
+| Bent Seal | Informal criminal network | ESTABLISHED | Loose network producing and using forged commercial documents. |
+| Hessa Quill | Person / criminal operator | ESTABLISHED | Broker of private loans and coercive debt collection through the Quiet Account. |
+| Quiet Account | Informal criminal network | ESTABLISHED | Fragmented private lending and debt-pressure network. |
+| Sella Vane | Person | ESTABLISHED | Independent small-scale smuggler and boat owner. |
+| Othric Pell | Person | ESTABLISHED | Independent information broker. |
+| Dannel Rusk | Person | ESTABLISHED | Independent private debt enforcer. |
+| Civic Calendar and Seasonal Routines | Campaign reference | ESTABLISHED FRAMEWORK | Daily rhythms, seasonal trade, public notices, civic observances, and recurring routines; formal calendar remains unresolved. |
+| Local Religion and Institutions | Campaign reference | ESTABLISHED | Tallowmere temples, clergy, local religious tensions, and limits of religious authority. |
+| Chartered Council and Civic Procedure | Campaign reference | ESTABLISHED | Seven-seat local council, appointments, quorum, petitions, and advisory procedure. |
+| Kharadorn Charter Presence | Campaign reference | ESTABLISHED | Charter House, resident Charter Warden, limited escort, and strategic review role. |
+| Criminal Operators and Networks | Campaign reference | ESTABLISHED | Named independent operators and fragmented illicit networks; no citywide syndicate. |

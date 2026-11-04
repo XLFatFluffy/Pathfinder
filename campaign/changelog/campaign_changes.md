@@ -120,3 +120,14 @@
 - Established minor houses as wealthy lords and ladies with small territories and local holdings but little continent-wide political significance. Their names, number, holdings, and allegiances remain unresolved.
 - Kept the specific proposed regional placements of the six Great Houses provisional pending review of the revised map.
 - Updated the Campaign Bible, Canon Register, Current World State, Worldbuilding Direction, Decision Log, Open Questions Register, Names & Terminology Index, and Development Roadmap.
+
+
+## 2026-11-04 — Campaign lore library organization
+- Moved the world-history and calendar records into `campaign/history/`.
+- Moved Great House rulers, the Imperial Council and Royal Court, and the House Relland incident into `campaign/politics/`.
+- Moved the detailed religion reference into `campaign/religions/`.
+- Moved player-character background and opening-preparation records into `campaign/player_characters/`.
+- Moved the original Campaign Bible, world-atlas/simulator document, and character-sheet PDF into `campaign/source_material/` without altering their contents.
+- Added navigation records for the history library, location dossiers, and Tallowmere's local reference collection.
+- Corrected geography and source-material instructions to point to the current authoritative atlas at `campaign/maps/continent_atlas.png`.
+- Updated the campaign directory index and subject-folder guidance. No lore was rewritten or promoted to canon as part of this organizational change.

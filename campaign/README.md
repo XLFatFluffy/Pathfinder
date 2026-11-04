@@ -1,44 +1,53 @@
 # Campaign Records
 
-This directory is the organized record of the campaign world. The application code remains separate from campaign data.
+This directory contains the campaign's lore, canon records, GM materials, maps, and session documentation. Application source code remains outside this directory.
 
-## Source of truth
-- Campaign_Bible.md is the living master reference.
-- Canon_Register.md tracks the status of major decisions and continuity flags.
-- Current_World_State.md is the concise current baseline.
-- Worldbuilding_Direction.md records approved creative direction and boundaries.
-- Worldbuilding_Decision_Log.md records why important decisions were made and what they supersede.
-- Open_Questions_Register.md tracks unresolved questions and deliberate mysteries.
-- Names_and_Terminology_Index.md prevents duplicate names and spelling drift.
-- Continuity_Checklist.md is the required review process for substantial new lore.
-- World_History.md and Calendar.md are working files for chronology and timekeeping.
-- Original source documents are preserved where applicable. The authoritative continental atlas is maintained at maps/continent_atlas.png.
+## Authority and canon control
 
-## Organization
-- geography/: continent, kingdoms, regions, cities, settlements, and locations.
-- politics/: noble houses, dynasties, succession, and political relationships.
-- people/: NPCs, families, and character relationships.
-- factions/: religious, military, criminal, commercial, and other organizations.
-- religions/: institutions, doctrines, orders, and religious history.
-- creatures/: creatures, supernatural phenomena, undead, dragons, and monsters.
-- maps/: map artwork references, metadata, and parent/child map relationships.
-- economy/: shops, merchants, goods, resources, and trade routes.
-- player_characters/: player character records; protect private information.
-- world_events/: active and historical world events.
-- source_material/: documentation about preserved original sources.
-- Top-level sessions/: session summaries and records.
+- [Campaign Bible](Campaign_Bible.md) — living master reference and consolidated setting record.
+- [Canon Register](Canon_Register.md) — approved, proposed, and unresolved status of major setting decisions.
+- [Current World State](Current_World_State.md) — concise current GM-approved baseline.
+- [Worldbuilding Direction](Worldbuilding_Direction.md) — approved creative direction and boundaries.
+- [Worldbuilding Decision Log](Worldbuilding_Decision_Log.md) — rationale, dates, and superseded decisions.
+- [Open Questions Register](Open_Questions_Register.md) — unresolved questions and deliberate mysteries.
+- [Names and Terminology Index](Names_and_Terminology_Index.md) — authoritative spellings and naming control.
+- [Continuity Checklist](Continuity_Checklist.md) — review process for new lore and post-session updates.
+- [Development Roadmap](Development_Roadmap.md) — staged campaign-development priorities.
+- [Rules and Table Standards](Rules_and_Table_Standards.md) — Pathfinder rules and table conventions.
 
-## Record convention
-Each substantial record should identify name and stable ID, canon status, visibility, summary and detailed information, relationships to other records, provenance, and last updated date.
+These governance records remain at the campaign root because they apply across all subjects. Detailed subject records belong in the folders below.
+
+## Subject folders
+
+- [geography/](geography/) — continent, territories, regions, physical geography, settlements, and geographic references.
+- [locations/](locations/) — location-specific dossiers. The current starting-city collection is in [locations/starting_city/](locations/starting_city/).
+- [history/](history/) — historical foundations, chronology, calendar, and dating conventions.
+- [politics/](politics/) — Great Houses, dynasties, succession, royal government, court, council, and political incidents.
+- [people/](people/) — NPC biographies, family records, personal relationships, and status histories.
+- [factions/](factions/) — organized political, military, criminal, commercial, scholarly, and other groups.
+- [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, and religious history.
+- [creatures/](creatures/) — creatures, supernatural phenomena, undead, dragons, monsters, and regional threats.
+- [economy/](economy/) — merchants, shops, goods, services, markets, resources, production, and trade.
+- [maps/](maps/) — authoritative map artwork, map metadata, and geographic overlays.
+- [player_characters/](player_characters/) — player-character records and GM preparation. Treat contents as restricted GM material unless explicitly marked player-facing.
+- [world_events/](world_events/) — active, proposed, resolved, and historical events affecting the setting.
+- [source_material/](source_material/) — preserved original documents and reference files. Do not edit originals.
+- [changelog/](changelog/) — human-readable summaries of meaningful campaign-record changes.
+- [../sessions/](../sessions/) — session preparation, logs, and recaps.
+
+## Record standards
+
+Every substantial record should identify its subject, canon status, visibility, provenance, relationships to other records, and last-updated date. Link to authoritative records rather than copying the same lore into multiple files.
 
 ## Operating rules
-- Brainstorming is not canon until explicitly approved.
-- Preserve mysteries and unresolved questions.
-- Never silently reconcile contradictory source material; flag the conflict for GM review.
-- Distinguish objective GM truth from public knowledge, rumors, propaganda, and player discoveries.
-- Check the names index before creating named entities.
+
+- Brainstorming is not canon until explicitly approved by the GM.
+- Preserve the distinction between established canon, proposals, rumors, public knowledge, player discoveries, and GM-only truth.
+- Never silently reconcile contradictory source material or perform a retcon; flag conflicts for GM review.
+- Preserve unresolved mysteries. Unknown details remain unknown rather than being filled in for completeness.
+- Check the names index before introducing named entities.
 - Record meaningful decisions and superseded material in the decision log.
 - GM-only information must not enter player-facing exports.
 - The GM approves simulated events before they become established history.
-- Preserve original source files; edit working Markdown records instead.
-- At meaningful worldbuilding and session checkpoints, update the relevant records and dated changelog.
+- Preserve original source files; revise working Markdown records instead.
+- Update relevant records and the changelog at meaningful worldbuilding and session checkpoints.

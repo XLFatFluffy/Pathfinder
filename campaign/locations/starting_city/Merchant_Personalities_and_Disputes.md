@@ -113,3 +113,10 @@ These are opportunities, not prewritten quests. The PCs may ignore every one of 
 ## Still Open
 
 Exact names of the shipyard, the small merchant partnership, the two mill agents, the garrison inspection date, and the next caravan season remain undefined until they matter in play. The current obligations are established; do not silently change their amounts or deadlines.
+
+
+## Additional Established Merchant — Master Tavren Selwick
+
+Tavren Selwick is a wealthy merchant and shipowner operating as Selwick & Company near the Old Quays. He trades in finished cloth, household wares, lamp oil, metal fittings, and provisions. He is measured, observant, and known for paying agreed sums and keeping accurate cargo accounts. He rewards useful work without confusing gratitude with permanent obligation.
+
+**Opening connection:** One of Selwick's wagons is the intended target of the roadside troll encounter. If the PCs protect his crew or recover the consignment, he offers 30 gp, a meal and one night's lodging at the Blue Heron, and a signed introduction to Meret Sorn. His recommendation can get the PCs a hearing with a Warehouse Guild factor and modest recognition among some Old Quays merchants. It does not grant automatic trust, credit, guild membership, or employment. See `Selwick_Merchant_Contact.md`.

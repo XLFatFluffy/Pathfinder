@@ -104,3 +104,13 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Lord Perrin Ashcombe | Person / Crown officer | ESTABLISHED | Lord Chamberlain. |
 | High Prelate Aveline Marr | Person / Religious authority | ESTABLISHED | Principal visible religious adviser at court; leader of Religious Establishment network. |
 | Prior-General Odran Thrice-Blessed | Person / Religious authority | ESTABLISHED | Key associate of Aveline; leads an influential religious order. |
+
+
+## Starting City — Tallowmere (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Tallowmere | City | ESTABLISHED | Walled port on the northwestern shore of the central inland sea, at the mouth of a navigable river; starting city. Approximate population 18,000 pending refinement. |
+| House Denvor | Minor noble house | ESTABLISHED | Old, respected human family; hereditary rulers of Tallowmere under a charter confirmed by House Kharadorn after the Great Rebellion. Locally powerful, continentally minor; no automatic Imperial Council seat. |
+| Greywatch | Noble seat / fortress | ESTABLISHED | House Denvor's fortified ancestral residence within Tallowmere, on high ground overlooking the harbor. |
+| Lordship of Tallowmere | Political territory | ESTABLISHED | Hereditary local lordship held by House Denvor within House Kharadorn's sphere. Denvor obligations include tribute, harbor defense, and ships or supplies when called under charter. |

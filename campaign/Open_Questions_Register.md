@@ -118,8 +118,8 @@ The relative city layout, gates and defenses framework, surrounding regional str
 ## Tallowmere — Commerce and Shop Inventories (2026-11-04)
 
 Named shops and their initial inventories, asking prices, and stock policies are recorded in `Shopkeepers_and_Stock.md`. Still to develop:
-- More independent shops and market stalls, especially food sellers, clothing, leatherwork, arms and armor, lodging, transport, and ship supplies.
-- Exact suppliers and delivery routes for each business.
-- Individual shopkeepers' full relationships, debts, and rivalries.
+- Additional independent shops now include a specialist weaponsmith, armorer, bakery, bulk provisioner, and local ferry service; see `Shopkeepers_and_Stock.md`.
+- Initial supplier and customer relationships are recorded in `Merchant_Relationships_and_Supply_Lines.md`.
+- Exact wholesale price sheets, supplier identities beyond the initial network, delivery timetables, guild dues, property rents, wage scales, and full individual debts or rivalries remain open.
 - A practical inventory ledger and time-based restocking cadence for campaign play.
 - Specialist sources for rare spell components, unusual alchemical reagents, and magic-item commissions.

@@ -139,3 +139,11 @@ The initial framework for commercial rents, specific vacant premises, market sta
 - Guild leadership, internal voting rules, craft examinations, and shared-facility schedules.
 - Individual worker availability, wages above Pathfinder hireling baselines, and specific employment agreements.
 - Exact workshop safety requirements applicable to unusually hazardous or large-scale operations; apply existing ordinances consistently and do not invent a blanket alchemist license.
+
+## Tallowmere — Workforce and Daily Life (2026-11-04)
+
+The initial workforce and daily-life framework is established in `Workforce_and_Daily_Life.md`, including district employment patterns, hiring practices, labor pressures, a supporting worker cast, and daily city rhythms. Still open:
+- Reliable population and household counts by district; no complete census exists.
+- Seasonal migration and the exact size of the casual labor pool.
+- Individual negotiated wages for skilled specialists and permanent staff beyond Pathfinder's published hireling baselines.
+- Full identities and structures of labor gangs, household-service networks, and local employment brokers.

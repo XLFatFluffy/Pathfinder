@@ -81,3 +81,19 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 ## Documentation status correction — 2026-11-04
 
 The older appended question lists above predate approved decisions. Where they conflict with Stages 5, 8, or 9, the approved stages and dedicated records take precedence. Great House identities and principal seats; broad territorial spheres; current rulers and immediate families; Imperial Council representatives; Crown officers; and current court-faction leaders are established, not unresolved. Only additional detail explicitly listed as open remains undecided. The gods' existence is established; the source and operation of divine magic remain open. The continent is smaller than Westeros under the approved working dimensions, not larger. House Kharadorn is an approved name; the fallen dragon-riding dynasty and Dragonstone retain provisional names.
+
+
+## Tallowmere — Remaining Development (2026-11-04)
+
+The city name, broad location, approximate population, House Denvor, Greywatch, lordship charter framework, initial district identities, major commercial associations, ratfolk community concept, religious framework, crime framework, and initial civic cast are established in the dedicated Tallowmere records.
+
+Still to develop:
+- Exact coastline, river course, harbor engineering, street plan, gates, and final city map.
+- Founding date, major historical events, and detailed local chronology.
+- Exact population breakdown, including seasonal residents and surrounding settlements.
+- Detailed charter wording, council membership and procedures, tax schedule, court practices, watch strength, and garrison numbers.
+- Named leaders and full membership of the guilds and merchant families.
+- Ratfolk neighborhood names, local meeting structure, population, and named community figures beyond the initial contacts.
+- Specific temples, represented deities, clergy, holy days, and religious disagreements.
+- Named criminal operators, groups, safehouses, and particular illicit markets.
+- The city's current events and the PCs' opening situation.

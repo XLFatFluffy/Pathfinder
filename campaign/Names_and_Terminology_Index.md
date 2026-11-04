@@ -85,3 +85,22 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Lord Corvin Merrowen | Person | ESTABLISHED | Maris's eldest son and designated heir. |
 | Lady Selene Merrowen | Person | ESTABLISHED | Maris's daughter; involved in trade negotiations. |
 | Lord Aeric Merrowen | Person | ESTABLISHED | Maris's brother; traditional coastal lord. |
+
+
+## Stage 9 — Imperial Council and Royal Court
+
+| Name | Category | Status | Notes |
+|---|---|---|---|
+| Lord Chancellor Othmar Rusk | Person / Crown officer | ESTABLISHED | Royal Chancellor and House Calderan's Imperial Council representative. |
+| Lady Ilyra Vaelorian | Person | ESTABLISHED | House Vaelorian's Council representative. |
+| Thane Brokk Ironvein | Person | ESTABLISHED | House Kharadorn's Council representative. |
+| Lady Ysabet Edarth | Person | ESTABLISHED | House Edarth's Council representative; Traditionalist associate. |
+| Ser Merek Veyr | Person | ESTABLISHED | House Veyr's Council representative. |
+| Lady Cassia Merrowen | Person | ESTABLISHED | House Merrowen's Council representative; Merchant Interests leader. |
+| Lady Meredyth Sorn | Person / Crown officer | ESTABLISHED | Master of Coin. |
+| Lord Bastian Wycliffe | Person / Crown officer | ESTABLISHED | Master of Laws. |
+| Marshal Garran Holt | Person / Crown officer | ESTABLISHED | Master of War; professional associate of Royal Expansionists, not a declared partisan. |
+| Mistress Nerys Vale | Person / Crown officer | ESTABLISHED | Royal Spymaster. |
+| Lord Perrin Ashcombe | Person / Crown officer | ESTABLISHED | Lord Chamberlain. |
+| High Prelate Aveline Marr | Person / Religious authority | ESTABLISHED | Principal visible religious adviser at court; leader of Religious Establishment network. |
+| Prior-General Odran Thrice-Blessed | Person / Religious authority | ESTABLISHED | Key associate of Aveline; leads an influential religious order. |

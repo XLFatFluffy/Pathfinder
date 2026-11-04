@@ -258,3 +258,22 @@ Use this index before naming a new person, place, house, faction, title, religio
 |---|---|---|---|
 | Commercial Property and Premises | Campaign reference | ESTABLISHED | District uses, typical commercial rents, available premises, market stall allocation, lease checks, and workshop safety recorded in `Commercial_Property_and_Premises.md`. |
 | Guild Membership and Trade Rules | Campaign reference | ESTABLISHED | Membership categories, customary dues, guild services and limits, civic trade rules, and hiring principles recorded in `Guild_Membership_and_Trade_Rules.md`. |
+
+## Tallowmere — Workforce and Daily Life (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Jessa Rill | Person | ESTABLISHED | Human quay labor forewoman, Old Quays. |
+| Dorrik Slatehand | Person | ESTABLISHED | Dwarven mason and repair contractor, Rivergate. |
+| Lella Fen | Person | ESTABLISHED | Halfling market porter and delivery organizer. |
+| Tomas Wren | Person | ESTABLISHED | Human cooper's journeyman, New Quays. |
+| Neri | Person | ESTABLISHED | Half-elf tailoring apprentice at Thread & Thimble. |
+| Varo Kett | Person | ESTABLISHED | Human river barge pilot. |
+| Ansel Pike | Person | ESTABLISHED | Human watch sergeant, North Gate patrol. |
+| Rutha Bell | Person | ESTABLISHED | Half-orc laundress and lodging-house keeper, Old Quays. |
+| Edda Moss | Person | ESTABLISHED | Human midwife and practical healer, Lantern Ward. |
+| Kett-of-the-Low-Arch | Person | ESTABLISHED | Ratfolk masonry patcher and passage inspector in the Underways. |
+| Rillik Venn | Person | ESTABLISHED | Ratfolk courier serving surface and Underways clients. |
+| Mara Doss | Person | ESTABLISHED | Human grain tally clerk, Rivergate. |
+| Brother Halen | Person | ESTABLISHED | Human hospice stores clerk, Lantern Ward. |
+| Workforce and Daily Life | Campaign reference | ESTABLISHED | District labor patterns, Pathfinder hireling wage baselines, hiring practices, labor pressures, supporting workers, and daily rhythm recorded in `Workforce_and_Daily_Life.md`. |

@@ -2090,3 +2090,8 @@ Potential sources of conflict include disputes between religious and secular aut
 
 7.8 Open Details
 The names and leadership of major religious institutions; the relative prominence of individual deities; regional worship customs; the scholarly order's name and structure; religious courts' jurisdiction; and the exact legal relationship between religious and secular authorities remain unresolved.
+
+
+# 8. CURRENT RULERS OF THE GREAT HOUSES
+
+The current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler political dynamics are recorded in the dedicated reference `House_Rulers.md`. These identities and relationships are established as of 2026-11-04. The document does not establish or alter any player character's identity or personal history. Exact wider family trees, Council representatives, and household officers remain unresolved.

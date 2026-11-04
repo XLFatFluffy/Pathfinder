@@ -60,7 +60,7 @@
 **Exit condition:** The party can travel beyond the starting city and encounter a coherent regional power structure.
 
 ## Milestone 3 — Wider world and historical foundations (ongoing)
-- Finalize detailed continent geography and political borders. Stage 5 foundations are approved: the continent is substantially larger than Westeros; the central inland sea remains; Dragonstone is an island connected by a narrow land bridge, with a GM-only secret dwarven underground route; Khar-Dum lies in the northeastern mountains; and each Great House controls a substantial, clearly defined territory.
+- Finalize detailed continent geography and political borders. Stage 5 geography foundations are approved: the continent is approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, smaller than Westeros; the central inland sea remains; Dragonstone is an island connected by a narrow land bridge, with a GM-only secret dwarven underground route; Khar-Dum lies in the northeastern mountains; and each Great House controls a substantial, clearly defined territory.
 - The six Great Houses are established: Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen. Their broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and court-faction leaders are also established. Continue with exact borders, wider family branches, detailed histories, and local consequences as geography and play require.
 - Develop the dwarven empire around Khar-Dum and its conquered possession of Dragonstone; do not treat the dwarves as fragmented successor territories.
 - Develop the elven political and economic power centered on House Vaelorian.

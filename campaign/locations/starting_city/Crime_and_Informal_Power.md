@@ -1,6 +1,6 @@
 # Tallowmere: Crime and Informal Power
 
-**Status:** Established framework; named organizations and leaders remain open.
+**Status:** Established framework with initial named operators; further associates, safehouses, and specific evidence remain open.
 
 ## General Character
 Tallowmere has crime because it is a busy port with valuable cargo, transient crews, debts, private rivalries, and uneven enforcement. It has no single criminal organization controlling the city. Its illicit economy is fragmented, opportunistic, and connected to legitimate commerce in ways that are not always obvious.

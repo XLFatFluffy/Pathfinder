@@ -21,6 +21,12 @@ The city should support open-ended exploration and meaningful interaction with t
 - **Multiple layers:** The city has public institutions and visible neighborhoods, less privileged districts, hidden or neglected places, and a substantial ratfolk community beneath the surface.
 - **Player agency:** The PCs can pursue their own ambitions, ignore offered hooks, make allies or enemies, and change the city. The city does not exist solely to make them important.
 
+## Magical Craft and Commerce
+
+**ESTABLISHED FOUNDATION:** Magic items are rare for two reinforcing reasons: relatively few people possess the specialized knowledge and talent required to create them, and the necessary materials are difficult to obtain. This creates the possibility of a valuable but politically sensitive magical-goods trade. The player characters' interest in creating and selling magic items may eventually attract attention from merchants, nobles, magical practitioners, religious institutions, and local authorities.
+
+The city should provide opportunities to source materials, find expertise, reach buyers, and establish commercial relationships, but it should not begin with a fully developed magical manufacturing industry that makes the PCs' venture ordinary. The precise materials, crafting constraints, existing suppliers, legal restrictions, and market structure remain unresolved. These pressures should emerge from the setting and the PCs' choices rather than being imposed as an automatic plot.
+
 ## Ratfolk Community
 
 A ratfolk presence beneath the city is part of the intended foundation. It should be represented as a real community with homes, families, businesses, workshops, leadership, internal disagreements, and connections to the wider subterranean network. It must not be reduced to a sewer-dwelling criminal faction or a single unified political bloc.

@@ -187,3 +187,23 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Northfield Harvest | Regional concern | ESTABLISHED | Expected to be adequate but uneven; final harvest outcome unresolved. |
 | Ratfolk Market Access | Civic tension | ESTABLISHED | Ratfolk traders seek regular stalls and recognized leases in the Market Ward. |
 | Kharadorn Strategic Review | Political tension | ESTABLISHED | House Kharadorn has requested updated accounts of harbor defenses and charter obligations. |
+
+
+## Tallowmere — Shops and Merchants (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Beren Harlowe | Person / shopkeeper | ESTABLISHED | Owns Harlowe's General Stores in Market Ward. |
+| Harlowe's General Stores | Business | ESTABLISHED | Everyday necessities and common travel goods. |
+| Mara Venn | Person / shopkeeper | ESTABLISHED | Former caravan quartermaster; owns the Salted Tack. |
+| The Salted Tack | Business | ESTABLISHED | Practical travel, climbing, and outdoor equipment in Old Quays. |
+| Orsik Feld | Person / smith | ESTABLISHED | Dwarven independent smith in Rivergate. |
+| Orsik Ironworks | Business | ESTABLISHED | Common ironwork, tools, repairs, and commissioned fittings. |
+| Fenna Wale | Person / herbalist | ESTABLISHED | Runs Fenna's Physic Garden near the Lantern Ward hospice. |
+| Fenna's Physic Garden | Business | ESTABLISHED | Herbs, poultices, and mundane remedies. |
+| Joric Pell | Person / alchemist | ESTABLISHED | Master alchemist and proprietor of Tallowmere Alchemical Supply. |
+| Tallowmere Alchemical Supply | Business | ESTABLISHED | Limited stock of alchemical goods and laboratory supplies. |
+| Elira Pell | Person / merchant | ESTABLISHED | Co-owner of Pell & Daughter with Odran Pell. |
+| Odran Pell | Person / civic officer and merchant | ESTABLISHED | Chief Magistrate; senior partner in Pell & Daughter with his daughter Elira. |
+| Pell & Daughter | Business | ESTABLISHED | Scribes, stationers, document copying, and map services in High Ward. |
+| The Brass Scale | Business | ESTABLISHED | Ilyne Marris's moneychanging and brokerage business in Market Ward. |

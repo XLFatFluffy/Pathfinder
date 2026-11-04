@@ -115,6 +115,14 @@ The relative city layout, gates and defenses framework, surrounding regional str
 - The PCs' opening situation and the precise date of the campaign's first session.
 
 
+## Tallowmere — Merchant Relationships and Disputes (2026-11-04)
+
+Initial merchant personalities, commercial debts, supply disputes, and contract pressures are established in `Merchant_Personalities_and_Disputes.md`. Still open:
+- Identity and details of the shipyard owing Nessa Tor, the merchant partnership indebted to Ilyne Marris, and the mill agents negotiating with Hesta Pellor and Ollo Venn.
+- Whether the disputed glassware, charcoal pricing, and caravan equipment complaints arise from error, market pressure, or deliberate misconduct.
+- Outcomes of current payment deadlines and commercial negotiations; these should advance with campaign time and PC involvement.
+
+
 ## Tallowmere — Commerce and Shop Inventories (2026-11-04)
 
 Named shops and their initial inventories, asking prices, and stock policies are recorded in `Shopkeepers_and_Stock.md`. Still to develop:

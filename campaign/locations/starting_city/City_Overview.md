@@ -191,3 +191,9 @@ This overview contains older planning language that has since been superseded by
 The framework establishes how House Denvor, House Kharadorn's charter interests, civic offices, commercial guilds, ratfolk neighborhoods, religious institutions, and informal operators influence one another. No single faction controls the city. Commercial and civic interests cooperate and compete issue by issue; ratfolk residents are not a unified political bloc; and the illicit economy remains fragmented.
 
 This record supersedes earlier planning language in this overview that described the city's factions and institutions as wholly undeveloped. Individual memberships, private dealings, council procedures, criminal operators, and future changes remain open.
+
+## History and Local Identity — 2026-11-04
+
+**CURRENT STATUS: HISTORICAL FRAMEWORK ESTABLISHED.** Tallowmere's civic identity, development from a river landing into a walled port, growth of Old and New Quays, post-Great-Rebellion Denvor charter, Greywatch, civic works, Underways history, recurring hazards, and local memory are documented in [History and Local Memory](History_and_Local_Memory.md).
+
+The document deliberately leaves exact dates, the earliest settlement name, specific wartime events, the date and negotiators of the Denvor charter, and the oldest ratfolk settlements unresolved. It supersedes earlier statements in this overview that described the city's founding history and older identity as wholly undeveloped; the broad historical framework is now established, while those particulars remain open.

@@ -381,7 +381,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
-| Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Vampire rescued the ratfolk as a child after men associated with an unnamed minor house took his travelling-merchant family's wares through extortion and killed his parents. The vampire later taught him alchemy. See Player_Character_Concepts_and_Opening.md. |
+| Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Vampire rescued the ratfolk as a child after men associated with an unnamed minor house took his travelling-merchant family's wares through extortion and killed his parents. The vampire later taught him alchemy. See player_characters/Player_Character_Concepts_and_Opening.md. |
 | Roadside troll opening | Session One encounter concept | PROVISIONAL | The PCs intend to confront a troll on their approach to Tallowmere; encounter balance depends on completed character sheets. |
 | Player Character Concepts and Opening | Campaign reference | PROVISIONAL | GM-facing record of the shared backstory, unresolved details, and proposed opening adventure. |
 

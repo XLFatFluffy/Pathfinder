@@ -119,7 +119,7 @@ At each meaningful worldbuilding checkpoint and after each session:
 ## Completed worldbuilding stages — Government, religion, rulers, and court (Nov 4, 2026)
 - **Stage 6 — Government and Court:** Established the Crown's royal offices and forces, the six-seat Imperial Council, and five overlapping court factions. Exact Council procedures and full faction membership remain open.
 - **Stage 7 — Religion and Faith:** Established that the Pathfinder gods are real, the broad religious framework, the distinction between clergy and divine spellcasters, and the limits of religious political authority. The source of divine magic and detailed institutions remain open.
-- **Stage 8 — Great House Rulers:** Established current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics in `House_Rulers.md`.
-- **Stage 9 — Imperial Council and Royal Court:** Established Council representatives, Crown officers, faction leaders, and key associates in `Court_and_Council.md`.
+- **Stage 8 — Great House Rulers:** Established current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics in `politics/House_Rulers.md`.
+- **Stage 9 — Imperial Council and Royal Court:** Established Council representatives, Crown officers, faction leaders, and key associates in `politics/Court_and_Council.md`.
 
 These stages supersede earlier roadmap statements that treated these frameworks as future work or unresolved. They do not resolve the remaining details explicitly listed as open in the dedicated records.

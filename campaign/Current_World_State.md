@@ -57,7 +57,7 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 - The two PCs already know each other before Session One. Their first meeting is not staged during the opening session.
 - One PC is a human vampire mesmerist and the concealed surviving heir of the fallen dragon-riding dynasty.
 - The other PC is a male ratfolk alchemist, saved and raised by the vampire PC after his family was killed by anti-ratfolk persecution.
-- Their established ambitions are recorded in Player_Character_Ambitions.md. Do not invent further personal history or motives.
+- Their established ambitions are recorded in player_characters/Player_Character_Ambitions.md. Do not invent further personal history or motives.
 - Character-sheet details, equipment, carried wealth, and specific personal possessions are pending receipt of the completed player PDFs.
 - The players' detailed backstories are pending. Incorporate them only when supplied by the GM/players.
 
@@ -237,7 +237,7 @@ The Council's exact voting rules, quorum, vetoes, formal powers, and customary p
 
 ## Player Character Ambitions (Established, 2026-11-04)
 
-The party is not assumed to be heroic. The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, accumulate the wealth, influence, and military strength to do so, confront House Kharadorn, retake Dragonstone, and restore his family's rule. The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish ratfolk as equals to or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him. The vampire's own ambition is not yet established. Tyler is the vampire player's real-world name, not the character's name. See `Player_Character_Ambitions.md`.
+The party is not assumed to be heroic. The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, accumulate the wealth, influence, and military strength to do so, confront House Kharadorn, retake Dragonstone, and restore his family's rule. The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish ratfolk as equals to or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him. The vampire's own ambition is not yet established. Tyler is the vampire player's real-world name, not the character's name. See `player_characters/Player_Character_Ambitions.md`.
 
 
 ## Tallowmere Arrival Baseline — 2026-11-04

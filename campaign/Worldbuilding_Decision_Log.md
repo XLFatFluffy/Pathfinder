@@ -67,7 +67,7 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Status:** ESTABLISHED  
 **Decision:** The dragon-riding dynasty held the Imperial Seat for approximately 400 years and possessed exactly twelve dragons at its height. Eligible Targaryen blood was required for dragon bonding; each rider could bond with one dragon through a telepathic connection, and eligibility depended on reproduction within the eligible bloodline. Six Great Houses rebelled for two connected objectives: to preserve their political independence against increasing centralization and to eliminate dragon-riding as the foundation of Targaryen political and military supremacy. The rebellion lasted a few years. The dwarven Great House was its principal mastermind and developed specialized dragon-slaying ballistas. Most dragons were killed; surviving dragons fled after losing their riders and their fate remains unknown. The Targaryen ruling family was nearly exterminated, the Imperial Seat fell to a different dynasty, and the dwarven victors claimed Dragonstone. One nine-year-old Crown Prince survived the destruction of Dragonstone; his survival is concealed and his personal name belongs to the player.
 **Reason:** The GM explicitly confirmed the previously questioned historical details and clarified that the rebellion's two objectives were both intentional: independence and elimination of dragon-riding so the Targaryens could no longer hold power.
-**Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`.
+**Affected records:** `history/World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`.
 **Still unresolved:** Exact dates, original names, individual roles of the six houses, battle chronology, new dynasty, capital, and postwar settlement.
 
 
@@ -75,7 +75,7 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Status:** ESTABLISHED sequence; ruling house identity and monarch's controller unresolved  
 **Decision:** The same dwarven leader ruled for more than a century after the Targaryen fall, until his death. His successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.  
 **Reason:** The GM confirmed the compromise nature of the human candidate, his status as a puppet, the dwarven successor's reluctant acceptance and return to Dragonstone, and the current relationship between the dwarven empire and human monarchy.  
-**Affected records:** `World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`, `changelog/campaign_changes.md`.
+**Affected records:** `history/World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`, `changelog/campaign_changes.md`.
 **Still unresolved:** Which of the six rebel houses supplied the monarch, who actually controls or influences him, and the exact chronology and events of the succession crisis.
 
 
@@ -99,7 +99,7 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Additional clarification:** Khar-Dum is the Kharadorns' ancestral homeland. Dragonstone was the ancestral stronghold of the fallen dragon-riding dynasty. The dwarves gained Dragonstone through conquest during the Great Rebellion; it is not their ancestral homeland.
 **Reason:** The GM approved the complete Great House proposal with this specific correction to dwarven history and geography.
 **Supersedes:** The prior unresolved status of the six houses' names, identities, and political relationships. It also corrects any wording that described Dragonstone as the dwarves' ancestral homeland.
-**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `World_History.md`, `Worldbuilding_Direction.md`, `Names_and_Terminology_Index.md`, `Open_Questions_Register.md`, and campaign changelog.
+**Affected records:** `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `history/World_History.md`, `Worldbuilding_Direction.md`, `Names_and_Terminology_Index.md`, `Open_Questions_Register.md`, and campaign changelog.
 **Still unresolved:** Exact house territories and seats, current heads and heirs, precise map placement, and the membership and leadership of the Imperial Council and competing factions.
 
 
@@ -197,21 +197,21 @@ The present political climate includes a monarch seeking greater authority witho
 
 **Reason:** The GM approved the Stage 7 proposal and instructed that worldbuilding continue with approved lore recorded in GitHub.
 **Still unresolved:** Divine magic's precise mediation; major religious institutions and leaders; regional prominence of gods; scholarly order's name and organization; religious courts' legal authority; and religion's precise influence over secular law, marriage, inheritance, and coronation.
-**Affected records:** Campaign Bible, Canon Register, Current World State, and the new `Religion_and_Faith.md` reference.
+**Affected records:** Campaign Bible, Canon Register, Current World State, and the new `religions/Religion_and_Faith.md` reference.
 
 
 ### 2026-11-04 — Stage 8: Current Great House Rulers approved
 **Status:** ESTABLISHED
-**Decision:** The GM delegated the final selection of current Great House rulers and immediate family structures to the assistant, approved the proposed direction, and instructed continued development. The six current rulers, immediate families, designated heirs, succession tensions, and key ruler-to-ruler dynamics are established in `House_Rulers.md`.
+**Decision:** The GM delegated the final selection of current Great House rulers and immediate family structures to the assistant, approved the proposed direction, and instructed continued development. The six current rulers, immediate families, designated heirs, succession tensions, and key ruler-to-ruler dynamics are established in `politics/House_Rulers.md`.
 
 **Reason:** Establish a usable political cast with distinct leadership styles and family pressures before developing the opening campaign region. Succession conflicts are intentionally varied rather than duplicated across all houses.
 **Still unresolved:** Wider family trees, Imperial Council representatives, household officers and commanders, and additional branch members.
-**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `House_Rulers.md`.
+**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `politics/House_Rulers.md`.
 
 
 ### 2026-11-04 — Stage 9: Imperial Council and Royal Court established
 **Status:** ESTABLISHED
-**Decision:** The GM instructed the assistant to continue and delegated creative development of the current Council representatives, Crown officers, and court faction leadership. Current names, roles, priorities, and principal political relationships are recorded in `Court_and_Council.md`.
+**Decision:** The GM instructed the assistant to continue and delegated creative development of the current Council representatives, Crown officers, and court faction leadership. Current names, roles, priorities, and principal political relationships are recorded in `politics/Court_and_Council.md`.
 
 **Council:** Othmar Rusk (Calderan), Ilyra Vaelorian, Brokk Ironvein (Kharadorn), Ysabet Edarth, Merek Veyr, and Cassia Merrowen. Rusk also serves as Royal Chancellor.
 
@@ -220,7 +220,7 @@ The present political climate includes a monarch seeking greater authority witho
 **Faction leadership:** Elowen Calderan (Royal Court); Garrick Edarth (Traditionalists); Maerelle Calderan (Royal Expansionists); Cassia Merrowen (Merchant Interests); Aveline Marr (Religious Establishment). Key associates are detailed in the reference. Factions remain overlapping networks, not formal parties.
 
 **Still unresolved:** Council procedures and appointment/removal customs; faction membership and relative strength; royal army structure; intelligence network scale; and religious institutions' exact representation.
-**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `Court_and_Council.md`.
+**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `politics/Court_and_Council.md`.
 
 
 ### 2026-11-04 — Player-character ambitions clarified
@@ -228,4 +228,4 @@ The present political climate includes a monarch seeking greater authority witho
 **Decision:** The GM clarified that the surviving dragon-dynasty heir's goal is to rebuild the dynasty. The ratfolk alchemist's goal is to end persecution and hatred of ratfolk and establish them as equals to or greater than other peoples. His family was killed by persecution; the vampire PC saved and raised him. The vampire's own ambition remains unknown.
 
 **Campaign principle:** The PCs are not assumed to be heroes. Do not impose a conventional heroic mission or invent personal histories, goals, identities, or methods for PCs. Tyler is the vampire player's real-world name, not the character's name.
-**Reference:** `Player_Character_Ambitions.md`.
+**Reference:** `player_characters/Player_Character_Ambitions.md`.

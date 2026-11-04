@@ -166,12 +166,12 @@ This file tracks major setting decisions and their status. It does not replace d
 
 **Still unresolved:** How gods grant or mediate divine magic; major religious institutions and leaders; regional prominence of particular gods; the scholarly order's name, ranks, and governance; legal relationships between religious and secular courts; the exact influence of religion over marriage, inheritance, coronation, and secular law; and the history of major religious disputes.
 
-**Reference:** `Religion_and_Faith.md`.
+**Reference:** `religions/Religion_and_Faith.md`.
 
 
 ## Stage 8 — Current Great House Rulers (2026-11-04)
 
-**Status: ESTABLISHED.** The GM delegated final selection of current Great House rulers and immediate family structures to the assistant and approved continued development. Current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics are recorded in `House_Rulers.md`.
+**Status: ESTABLISHED.** The GM delegated final selection of current Great House rulers and immediate family structures to the assistant and approved continued development. Current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics are recorded in `politics/House_Rulers.md`.
 
 - House Calderan: King Aldric Calderan; Queen Elowen; Crown Prince Edric (recognized heir); Princess Maerelle.
 - House Vaelorian: Lord Theren Vaelorian; Lady Seralyth (designated heir); Lord Caelion; Lady Virella.
@@ -182,12 +182,12 @@ This file tracks major setting decisions and their status. It does not replace d
 
 Succession tensions are deliberately distinct: Calderan's cautious heir versus an ambitious princess; Vaelorian traditionalists uneasy about the designated heir; Kharadorn's militaristic heir versus clan-consensus interests; Edarth's recognized heir alongside influential alternatives; Veyr's recognized daughter-heir alongside a popular military son; and Merrowen's ruling dynasty balancing merchant power against traditional maritime nobility. Merchant families can challenge Merrowen policy but do not presently threaten to replace the dynasty.
 
-**Reference:** `House_Rulers.md`. Exact wider family trees, Council representatives, and household officers remain unresolved.
+**Reference:** `politics/House_Rulers.md`. Exact wider family trees, Council representatives, and household officers remain unresolved.
 
 
 ## Stage 9 — Imperial Council and Royal Court (2026-11-04)
 
-**Status: ESTABLISHED.** The GM instructed continued development and delegated creative selection of the current Council representatives, Crown officers, and faction leaders. Their profiles and political relationships are recorded in `Court_and_Council.md`.
+**Status: ESTABLISHED.** The GM instructed continued development and delegated creative selection of the current Council representatives, Crown officers, and faction leaders. Their profiles and political relationships are recorded in `politics/Court_and_Council.md`.
 
 **Imperial Council representatives:**
 - House Calderan: Lord Chancellor Othmar Rusk.
@@ -203,7 +203,7 @@ Succession tensions are deliberately distinct: Calderan's cautious heir versus a
 
 The factions are overlapping political networks, not formal parties. House affiliation does not determine membership. The Council representatives are distinct from their house rulers and are appointed by their respective houses. Religious authorities have no automatic Council seat. The Council's exact voting rules, quorum, vetoes, and formal procedures remain unresolved.
 
-**Reference:** `Court_and_Council.md`.
+**Reference:** `politics/Court_and_Council.md`.
 
 
 ## Player Character Ambitions (2026-11-04)
@@ -214,7 +214,7 @@ The factions are overlapping political networks, not formal parties. House affil
 - The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish them as equals to, or greater than, other peoples. His family was killed by persecution; the vampire PC saved and raised him.
 - The vampire mesmerist is the surviving heir and seeks to rebuild the fallen dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule. His further personal motives and methods remain for the player to establish. Tyler is the player's real-world name, not the vampire character's name.
 
-Do not invent PC identities, personal histories, motives, or methods. Full record: `Player_Character_Ambitions.md`.
+Do not invent PC identities, personal histories, motives, or methods. Full record: `player_characters/Player_Character_Ambitions.md`.
 
 
 ## Table and Rules Philosophy (2026-11-04)

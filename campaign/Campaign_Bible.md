@@ -1827,3 +1827,167 @@ The following broad territorial placements are ESTABLISHED. Exact borders, seats
 - **House Kharadorn:** Controls Dragonstone, the central inland sea, and surrounding territory. Dragonstone remains distinct from Khar-Dum, the Kharadorns' ancestral homeland in the northeastern mountains. The dwarven underground route to Dragonstone remains a GM-only secret.
 
 These placements do not imply that the six Great Houses own every part of the continent. Lesser houses, independent cities, minor kingdoms, and other political territories remain especially important in the southern reaches. The exact limits of Kharadorn's inland-sea territory and the degree of its control over individual shores, ports, and islands remain to be detailed.
+
+
+## Stage 5 — Political Atlas: Approved Regional Framework and Seats (2026-11-04)
+
+The GM approved the Political Atlas development package. The following regional placements, principal seats, internal structures, settlement concepts, and strategic relationships are now **ESTABLISHED**, subject to the limits and unresolved details stated below. The map's exact borders and the final names of geographic features remain to be settled. Names listed here for seats and settlements are approved setting names unless explicitly marked otherwise.
+
+### Continental political arrangement
+
+The six Great Houses occupy distinct broad spheres of influence:
+- **House Veyr — Northern Marches:** controls the majority of the northern frontier and northern territories, including the principal responsibility for the Ancient Barrier.
+- **House Vaelorian — Western Highlands:** controls western highlands, mountain valleys, forested regions, mineral-rich lands, and important routes linking the western coast with the central heartlands.
+- **House Edarth — Western Heartlands:** controls western-central plains, agricultural valleys, inland roads, and defensible approaches between the western highlands and central heartlands.
+- **House Calderan — Central Crownlands:** holds the principal Crown territory in the inland central river basin, away from direct frontage on the inland sea and positioned near major river confluences and central routes.
+- **House Kharadorn — Inland Sea and Dragonstone:** controls Dragonstone, the central inland sea, and surrounding territory. Its northeastern imperial homeland remains centered on Khar-Dum, geographically separate from Dragonstone.
+- **House Merrowen — Eastern Coast:** holds an extended maritime territory along the eastern coast, including important ports and coastal routes, but does not automatically control every eastern port.
+- **Southern Reaches:** remain politically fragmented, with lesser kingdoms, independent city-states, minor houses, island powers, and territories beyond the direct control of the six Great Houses.
+
+The Great Houses do not own every part of the continent. Borders should follow defensible terrain, watersheds, river crossings, roads, and economic geography where practical. Some boundaries and jurisdictions may remain disputed or locally ambiguous.
+
+### House Veyr — Northern Marches
+
+Veyr's territory extends across the majority of the northern frontier, from the settled northern lands toward the Frozen Expanse and the Ancient Barrier. It includes harsh northern wilderness, mountain approaches, forests, valleys, and fortified frontier settlements. Population is comparatively sparse and concentrated around defensible settlements, resource sites, and routes.
+
+**Principal seat: Frosthold.** A major fortress in the southern portion of Veyr territory, positioned to coordinate the northern roads, supplies, and military response to the Barrier rather than sitting directly against the frontier.
+
+**Established regional structure:**
+- **Frostlands:** the coldest and most remote northern reaches, with scattered settlements and wilderness.
+- **Northern Holds:** fortified settlements and military territories supporting the frontier.
+- **Pine Marches:** forested lands, rivers, timber communities, and routes.
+- **Southern Marches:** comparatively temperate valleys and the more settled agricultural edge of Veyr territory.
+
+**Named settlements:** Wintermere, a fortified northern town; Greywatch, a military outpost guarding a pass; and Pinecross, a timber and hunting settlement.
+
+**Military and economy:** Veyr maintains the permanent **Northern Watch** at the Barrier, supported by mobile **Marcher Companies** responsible for patrols, escorts, and rapid response, and the Veyr Household Guard. Its economy draws on timber, iron and other minerals, furs and hides, hunting, fishing, livestock, and limited agriculture. Veyr relies on grain and other supplies from the south, creating a persistent political grievance: the north bears the burden of frontier defense while depending on others to feed its defenders.
+
+### House Vaelorian — Western Highlands
+
+Vaelorian's territory occupies the western mountain systems, forested valleys, mineral-rich highlands, and important trade routes connecting western coastal access with the central heartlands. It controls some strategically important mountain passes, but not every route through the western ranges.
+
+**Principal seat: Aurelith.** An ancient elven fortified city in a protected mountain valley. Its character is defined by pale stone towers, terraced gardens, libraries, merchant districts, and fortified approaches.
+
+**Established regional structure:**
+- **High Peaks:** mountain territories, mines, and highland fortifications.
+- **Green Valleys:** forested valleys, older elven settlements, estates, and productive land.
+- **Western Passes:** roads, fortified crossings, and commercial routes through the mountains.
+
+**Named settlements:** Silverfall, a precious-metal and gemstone mining center; Thornvale, a forested valley with estates and agriculture; and Goldmere, a commercial crossroads.
+
+**Political and military character:** Vaelorian is more centralized than Edarth. The ruling family directly controls its most valuable mines, major commercial settlements, and important passes, while older elven families retain estates and privileges. Internal tension exists between traditionalist old families and younger commercial families more deeply integrated into human society and trade. Its military is comparatively compact and professional, relying on well-equipped infantry, skilled archers, household troops, and mountain garrisons.
+
+### House Edarth — Western Heartlands
+
+Edarth controls broad western-central plains, agricultural valleys, rolling lowlands, and inland roads between the western highlands and the central heartlands. Its lands are important to continental food production and provide defensible approaches toward the interior.
+
+**Principal seat: Stoneguard.** A major fortified castle overlooking an important river crossing, with walls and towers, barracks, stables, grain stores, a great hall, and a fortified market settlement.
+
+**Established regional structure:**
+- **Golden Fields:** productive agricultural lands.
+- **Riverlands:** fertile valleys, waterways, bridges, and crossings.
+- **Western Borderlands:** rolling hills and fortified approaches toward the highlands.
+- **Southern Estates:** lands held by lesser noble families and landed retainers.
+
+**Named settlements:** Harveston, an agricultural market center; Riverrun, a fortified river crossing; and Westfield, a major agricultural district.
+
+**Political and military character:** Edarth remains relatively decentralized. Powerful lesser families hold estates, castles, and local authority. Its forces rely on heavy infantry, feudal levies, household cavalry, professional household soldiers, archers and crossbowmen, and siege specialists. Its agricultural depth allows it to sustain armies, but the loyalty and cooperation of subordinate lords can fracture under political pressure.
+
+### House Calderan — Central Crownlands
+
+Calderan's principal Crown territory lies inland in the central river basin, near major river confluences and the continent's central routes, rather than directly on the inland sea. The Crown's territory is compact compared with the lands of the Great Houses but strategically valuable. Royal authority is strongest near the capital and becomes less direct near the borders of powerful vassals and neighboring Great Houses.
+
+**Imperial capital and principal seat: Valedorn.** Valedorn is established as the capital of the current monarchy and the location of the Imperial Seat. It is a large, old, fortified inland city built around a major river confluence. It predates the Calderan dynasty and survived the fall of the dragon-riding regime. Its political importance does not make it necessarily the continent's richest city or strongest military power.
+
+**Valedorn's established districts:**
+1. **Imperial Quarter:** the Imperial Palace, throne chamber, royal treasury, archives, and senior royal offices.
+2. **Council District:** the High Council Hall, residences and offices for Great House representatives, diplomatic residences, and archives of treaties and decrees.
+3. **Old City:** ancient streets, old noble estates, historic temples, guild halls, and traditional markets. Some structures predate the dragon-riding dynasty.
+4. **Merchant Quarter:** foreign merchants, banks, warehouses, craft guilds, inns, taverns, and public markets. Vaelorian and Merrowen commercial interests are especially visible.
+5. **Outer City:** common neighborhoods, craftsmen, inns, smaller markets, barracks, river docks, and newer districts beyond the oldest walls.
+
+The Imperial Palace developed around an older royal fortress and contains architectural layers from successive dynasties. The **Imperial Seat** is both a physical throne and a political institution and symbol: it represents the monarch's authority, the legitimacy of the reigning dynasty, and the post-Rebellion settlement. Its precise appearance and deeper construction history remain open.
+
+**Crown subdivisions:** the **Royal Basin**, a fertile river-valley core; **King's Reach**, encompassing important roads, bridges, and crossings; and the **Southern Crownlands**, lower territories extending toward the southern reaches.
+
+**Named settlements:** Kingsbridge, an important approach and crossing near Valedorn; Highmere, an agricultural and administrative center; and Dunwall, a border settlement near Edarth territory.
+
+### House Kharadorn — Inland Sea and Dragonstone
+
+Kharadorn's political authority spans two geographically separate but politically united dominions:
+- **Northeastern Dominion:** centered on Khar-Dum, the ancestral dwarven homeland and heart of the enduring subterranean empire.
+- **Inland Sea Dominion:** centered on Dragonstone, the conquered former stronghold of the fallen dragon-riding dynasty, acquired after the Great Rebellion.
+
+Kharadorn controls Dragonstone, the central inland sea, and surrounding territory, including strategic shorelines, ports, maritime passages, and islands. Not every settlement around the inland sea is necessarily dwarven in population or culture; human and other communities may live in coastal towns under Kharadorn authority.
+
+**Dragonstone's established historical layers:**
+1. **Ancient Foundation:** structures originating with the dragon-riding dynasty's earliest occupation.
+2. **Royal Remains:** fortifications, chambers, and facilities expanded during the dynasty's imperial period.
+3. **Dwarven Occupation:** walls, garrisons, underground works, and defensive structures built or altered after the conquest.
+
+The dwarves have altered Dragonstone but have not erased its earlier history. Some chambers and structures remain sealed, inaccessible, or ruined. The narrow natural land bridge remains the only known surface route to the island. The dwarven underground route remains a **GM-ONLY SECRET**; its entrances, course, construction history, and the dwarves who know of it are not public knowledge.
+
+**Named settlements:** Ironharbor, a fortified port; Stonewake, a coastal commercial settlement; and Deepwatch, a fortified settlement guarding an important approach.
+
+**Sea administration and military:** Dwarven naval forces maintain military control of the inland sea, while surface settlements and merchant communities conduct much of its everyday commerce. Merchant guilds and operators pay fees and customs; Kharadorn officials supervise harbors and strategic facilities. Kharadorn's forces include heavy infantry, elite armored troops, engineers, siege specialists, and clan contingents, as well as naval garrisons, coastal fortifications, marines, and vessels that may be requisitioned in wartime. Kharadorn and Merrowen are strategic competitors over maritime influence.
+
+### House Merrowen — Eastern Coast
+
+Merrowen's territory extends along a substantial length of the eastern coastline, encompassing important ports, shipping routes, coastal estates, forests, and the eastern river systems and delta. Its authority is maritime and coastal rather than uniformly inland. Individual eastern ports may remain outside its control.
+
+**Principal seat: Tidemark.** A wealthy coastal city built around a major natural harbor, with merchant docks, shipyards, warehouses, customs facilities, a fortified harbor, noble estates, coastal defenses, and a naval commandery.
+
+**Established regional structure:**
+- **Northern Coast:** northern ports and coastal territories.
+- **Eastern Shore:** the principal coastal heartland and major shipping routes.
+- **Great Delta:** river mouths, fertile lowlands, ports, and commercial settlements.
+- **Southern Coast:** southern harbors and coastal territories linking toward the fragmented southern reaches.
+
+**Named settlements:** Eastwatch, a northern port; Saltmere, a fishing, salt-production, and trade settlement; Deltaport, a major delta commercial city; and Stormhaven, a southern harbor.
+
+**Political and military character:** the ruling house controls major ports, naval installations, and coastal territories, while wealthy merchant families and lesser maritime lords exert influence. Political tension exists between traditional landed nobility and merchant-connected wealth. Merrowen's military strength rests on warships, coastal forts, naval infantry, professional port guards, and the ability to requisition merchant vessels during war. Its fleets allow rapid movement along the coast, but its ability to project power far inland is limited.
+
+### The Southern Reaches
+
+The southern continent remains fragmented rather than consolidated under one of the six Great Houses. Three broad geographic-political zones are established:
+
+- **Southwestern Marches:** arid highlands, dry valleys, rocky plateaus, and scattered oases, containing small principalities and fortified territories. **Sablecross** is an established proposed regional settlement name.
+- **Southern Principalities:** fertile lowlands, coastal forests, and river valleys, containing small hereditary kingdoms and independent city-states. **Brightwater** is an established proposed regional settlement name.
+- **Southern Islands:** island chains, sheltered harbors, fishing settlements, island lords, merchant councils, and maritime principalities. **Marrowgate** and **Duskport** are established settlement names.
+
+These regions provide space for local rivalries, piracy, smuggling, foreign trade, isolated communities, and conflicts that need not involve the Great Houses directly.
+
+### Minor-house relationships and local authority
+
+Minor houses remain a category of local nobility, not additional Great Powers. Three useful administrative descriptions are established:
+- **Banner Houses:** lesser noble families sworn to a Great House.
+- **Independent Lords:** minor houses controlling small territories outside the direct authority of a Great House.
+- **Crown Vassals:** lesser nobles owing allegiance directly to the monarch.
+
+These are descriptive categories, not necessarily formal hereditary titles or a uniform legal system. Minor houses may hold castles, estates, villages, small towns, local roads, agricultural holdings, or mines. Their influence is primarily local; they do not rival the Great Houses or automatically participate in continental government.
+
+### Principal trade routes and strategic corridors
+
+The following route concepts are established as major continental arteries. Their exact courses, distances, and formal names may be adjusted as the physical map is finalized:
+- **Northern Road:** links Veyr's principal settlements, fortresses, and frontier supply network.
+- **Western Mountain Road:** connects Vaelorian mines and western access routes with Edarth and the central heartlands.
+- **King's Road:** links Valedorn with the principal territories and routes of the Crown.
+- **Inland Sea Route:** connects Dragonstone and the major ports and settlements around the central inland sea.
+- **Eastern Coastal Road:** links Merrowen's principal ports and coastal settlements.
+- **Southern Trade Road:** connects the central heartlands with southern cities, principalities, and ports.
+
+Strategic chokepoints include western mountain passes, central river crossings, the approaches to Valedorn, the land bridge to Dragonstone, and important inland-sea passages.
+
+### Economic dependencies
+
+The Great Houses are linked by practical dependencies:
+- **Veyr** supplies northern resources, timber, and frontier security; it needs grain, manufactured goods, and financial support.
+- **Vaelorian** supplies precious metals, minerals, financing, and commercial connections; it needs food, labor, and reliable access to maritime trade.
+- **Edarth** supplies grain, livestock, manpower, and military strength; it needs metals, manufactured goods, and commercial access.
+- **Calderan** supplies royal administration, legal authority, political recognition, and the institutions of the Crown; it needs tax revenue, military cooperation, and recognition of its legitimacy.
+- **Kharadorn** supplies metalwork, weapons, engineering, and control of inland-sea routes; it needs food, surface commerce, and agricultural goods.
+- **Merrowen** supplies shipping, naval power, and maritime trade; it needs raw materials, food, and access to inland markets.
+
+### Limits and unresolved details
+
+The broad territorial framework, principal seats, regional divisions, named settlements, and major route concepts above are established. They do **not** yet fix surveyed borders, exact coordinates, travel times, population figures, river courses, the jurisdiction of every port or island, the number and identity of minor houses, or the exact military and legal arrangements between neighboring territories. The working atlas still requires cartographic calibration against the approved approximate dimensions of 1,700 miles north to south and 1,300 miles east to west. The printed 0–1,000-mile scale bar must not be treated as accurate until recalibrated.

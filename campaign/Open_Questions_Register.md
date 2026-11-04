@@ -156,3 +156,18 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **PENDING:** Exact campaign date and calendar, arrival circumstances, precise starting location, opening scene, and first-session cast. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
 
 **Player handout readiness:** The shared world and Tallowmere guide can be drafted from established canon. Individual starting-inventory and character-specific knowledge supplements must wait for the character sheets and backstories.
+
+
+## Tallowmere — Residential Life and Housing (2026-11-04)
+
+**ESTABLISHED:** Residential patterns by district, local working rent estimates, broad housing conditions, sanitation and fire concerns, and six residential household groupings are recorded in Residential_Life_and_Housing.md. These are local estimates and descriptive patterns, not a fixed citywide rent code.
+
+**STILL OPEN:**
+- Exact residential street names, addresses, and block-by-block boundaries.
+- Household counts and population distribution by district.
+- Specific Underways neighborhood names, tenancy customs, and property concepts.
+- Exact rent and condition for any individual property; use the documented ranges as starting estimates and adjust for actual features.
+- Local procedures for eviction, inheritance, leases, landlord disputes, and abandoned property.
+- Extent and maintenance responsibility for public water, drainage, waste collection, and fire response.
+- Precise boundaries of House Denvor's property rights and manorial jurisdiction.
+- Whether any named household relocates, changes circumstances, or becomes directly involved with the PCs; do not presume a relationship before play.

@@ -212,3 +212,11 @@ This develops the regional framework beyond generic settlement types. Exact map 
 ## Wilderness Beyond the Settled Region — 2026-11-04
 
 **CURRENT STATUS: INITIAL WILDERNESS FRAMEWORK ESTABLISHED.** The first frontier environments, abandoned sites, resource opportunities, and threat principles beyond Tallowmere are recorded in [Wilderness Beyond Tallowmere](Wilderness_Beyond_Tallowmere.md). The framework includes the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore. Specific creature lairs, hidden histories, and exact boundaries remain unresolved.
+
+## Current Development Status — Regional Map Integration (2026-11-04)
+
+The GM-provided regional illustration **The Lands About Tallowmere** is now the visual reference for the broad relative placement of the city, neighboring settlements, major terrain, River Vale, and the Inland Sea. Its relative arrangement is consistent with the dedicated regional geography record.
+
+The illustration's printed scale bar is not reliable and must not override the written journey distances. The regional geography record explains the discrepancy and establishes how the map is to be used. A properly scaled regional map and a separate detailed city map remain future cartographic work.
+
+Tallowmere's city framework is substantially developed across its dedicated records: districts and defenses, streets and landmarks, government and law, history, factions, commerce, guilds, shops and inventories, workforce, housing, ratfolk community, religion, crime, surrounding settlements, regional geography, and wilderness. Remaining city work should focus on reconciling outstanding details, filling specific institutional gaps, and preparing the city for actual play rather than reopening established foundations.

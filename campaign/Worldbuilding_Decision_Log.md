@@ -133,3 +133,11 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 
 **Reason:** The GM wants to retain the atlas's geographic identity while reducing the scale to suit the campaign, and wants wealthy minor nobility without adding more continent-level political powers.
 **Still unresolved:** Final map dimensions after image revision; exact regions, rivers, roads, borders, Great House seats, minor-house names, territories, and allegiances. The specific previously proposed Great House placements remain proposals pending map review.
+
+
+### 2026-11-04 — Stage 5: Great House territorial framework
+**Status:** ESTABLISHED broad placements; exact borders and seats unresolved.
+**Decision:** House Veyr controls the majority of the northern frontier and northern territories. House Calderan's principal Crown territory is farther inland, preferably near major river confluences and central routes, rather than directly on the inland sea. House Merrowen's maritime territory extends along the eastern coast. House Kharadorn controls Dragonstone, the central inland sea, and surrounding territory. Khar-Dum remains the separate ancestral homeland in the northeastern mountains. Lesser houses, independent cities, minor kingdoms, and other political territories continue to exist outside the six Great Houses' direct control, especially in the south.
+**Reason:** The GM approved these broad territorial placements during review of the revised continental map.
+**Still unresolved:** Exact borders, seats, the Crown capital's precise location, the limits of Kharadorn's inland-sea territory, and jurisdiction over individual shores, ports, and islands.
+**Affected records:** Campaign Bible, Canon Register, Current World State, and future political map.

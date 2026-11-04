@@ -2100,3 +2100,8 @@ The current rulers, immediate families, designated heirs, succession tensions, a
 # 9. THE IMPERIAL COUNCIL AND ROYAL COURT
 
 The current six Great House representatives, Crown officers, leaders of the five court factions, religious advisers, and principal political fault lines are recorded in `Court_and_Council.md`. The Council retains six permanent Great House seats; the monarch presides without an additional seat. Religious authorities may advise the Crown but have no automatic Council seat. The representatives and officers established in this reference are current as of 2026-11-04. Exact Council procedures and the full organization of the court factions remain unresolved.
+
+
+# 10. PLAYER CHARACTER AMBITIONS AND CAMPAIGN IDENTITY
+
+The player characters are not assumed to be heroes. Their established ambitions are to rebuild the fallen dragon-riding dynasty; end the persecution of ratfolk and establish ratfolk as equals or greater than other peoples; and, for the vampire mesmerist, an as-yet-unknown personal ambition. The vampire saved and raised the ratfolk alchemist after the ratfolk's family was killed by anti-ratfolk persecution. The surviving dragon-dynasty heir is the concealed Crown Prince described in the historical section. PC personal histories, identities, methods, and motivations beyond these supplied facts remain player-controlled. See `Player_Character_Ambitions.md`.

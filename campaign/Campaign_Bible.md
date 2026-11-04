@@ -1991,3 +1991,70 @@ The Great Houses are linked by practical dependencies:
 ### Limits and unresolved details
 
 The broad territorial framework, principal seats, regional divisions, named settlements, and major route concepts above are established. They do **not** yet fix surveyed borders, exact coordinates, travel times, population figures, river courses, the jurisdiction of every port or island, the number and identity of minor houses, or the exact military and legal arrangements between neighboring territories. The working atlas still requires cartographic calibration against the approved approximate dimensions of 1,700 miles north to south and 1,300 miles east to west. The printed 0–1,000-mile scale bar must not be treated as accurate until recalibrated.
+
+
+## Stage 6 — Imperial Court and Government (Established, 2026-11-04)
+
+The GM approved the proposed structure of the Crown, Imperial Council, royal household, political factions, and Valedorn's political role. This framework defines the current imperial government without fixing individual officeholders or faction leaders.
+
+### The Crown and Royal Household
+
+The monarch governs through a royal administration and appointed household officers. The following offices are established:
+- **Royal Chancellor:** oversees royal administration, decrees, correspondence, and the conduct of government business.
+- **Master of Coin:** oversees royal revenue, taxation, debts, and the treasury.
+- **Master of Laws:** oversees royal justice, legal disputes, and interpretation of Crown law.
+- **Master of War:** coordinates the royal army, fortifications, military readiness, and defense.
+- **Royal Spymaster:** coordinates intelligence, informants, and covert information-gathering for the Crown.
+- **Lord Chamberlain:** oversees the royal household, court ceremonies, access to the monarch, and palace administration.
+
+These officers serve the Crown rather than representing the Great Houses. The monarch appoints them, but powerful houses and court factions seek influence over appointments.
+
+The Crown maintains a permanent household guard and a distinct royal military force. These forces are sufficient to protect Valedorn and uphold ordinary royal authority, but are not assumed to be strong enough to defeat all six Great Houses acting together.
+
+### The Imperial Council
+
+The Imperial Council has **six permanent seats**, one for each Great House. Each house appoints its own representative; the representative need not be the house's ruler. The monarch presides over the Council but does not hold an additional Great House seat.
+
+Council business includes:
+- Disputes between Great Houses.
+- Extraordinary taxation and major royal financial demands.
+- Major military levies and continental warfare.
+- Treaties substantially affecting Great House interests.
+- Recognition of royal succession.
+- Relations between the Crown and the dwarven empire.
+- Laws substantially affecting Great House rights and privileges.
+
+The Council is an aristocratic institution of negotiation and privilege, not a modern parliament. Its exact voting rules, quorum, vetoes, formal legal powers, and customary procedures remain unresolved. The monarch retains substantial independent authority, but ignoring the Council can provoke political isolation, refusal of cooperation, or rebellion.
+
+Representatives may differ from their house rulers in temperament, loyalties, and political strategy. They may be skilled negotiators, reluctant appointees, political hostages in all but name, or individuals pursuing their own interests.
+
+### Court Factions
+
+Five political factions operate as movements and networks of shared interests within the court and wider nobility. They are not necessarily formal organizations with fixed membership, and allegiance may overlap.
+
+- **Royal Court:** seeks to preserve the monarchy and maintain stability through compromise.
+- **Traditionalists:** seek to preserve the ancient rights, privileges, and political independence of the Great Houses.
+- **Royal Expansionists:** seek to strengthen the Crown and gradually reduce the Great Houses' independent power.
+- **Merchant Interests:** seek to protect commerce, trade privileges, financial stability, and commercial influence.
+- **Religious Establishment:** seeks to preserve and expand the authority and influence of organized religious institutions.
+
+Faction membership is not determined by ancestry or Great House affiliation. Members of the same house may support opposing factions, and individuals may cooperate with different factions on different issues. The identities of faction leaders, actual membership, relative strength, and specific internal organizations remain unresolved.
+
+### Valedorn's political role
+
+Valedorn is the principal arena where Crown administration, Great House representatives, diplomats, merchants, religious authorities, and court factions compete for influence. Its established districts retain their distinct political and social functions: Imperial Quarter, Council District, Old City, Merchant Quarter, and Outer City. A substantial river port connects the inland capital to wider trade networks.
+
+### Current political conditions
+
+The following broad conditions are established as the present political climate:
+- The monarch seeks to strengthen royal authority without provoking another Great House rebellion.
+- The Great Houses publicly uphold the post-Rebellion settlement while competing privately for influence.
+- Kharadorn remains independent and distrustful of the Crown.
+- Vaelorian and Merrowen compete for commercial influence.
+- Edarth and Veyr are wary of royal centralization, though their priorities differ.
+- The Religious Establishment has growing influence in court affairs.
+- The fragmented southern territories remain difficult for the Crown to control.
+
+### Still unresolved
+
+The monarch's personal identity and character; the names and identities of officeholders; the exact strength and composition of the royal military; Imperial Council voting and legal procedures; individual representatives; faction leaders and membership; the relative influence of each faction; and the specific institutions and doctrines represented by the Religious Establishment.

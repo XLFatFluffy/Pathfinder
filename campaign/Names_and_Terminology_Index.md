@@ -325,3 +325,20 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Saltwick Beacon | Landmark | ESTABLISHED | Modest navigational and storm-warning beacon maintained by Saltwick boat-owning households. |
 | South Mile Cross | Landmark | ESTABLISHED | Weathered roadside cross north of Harthbridge; dedication unresolved. |
 | Regional Geography and Points of Interest | Campaign reference | ESTABLISHED FRAMEWORK | Working terrain, watershed, roads, crossings, travel conditions, and regional landmarks; exact map positions remain provisional. |
+
+
+## Wilderness Beyond Tallowmere (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Deep Bracken | Wilderness region | ESTABLISHED FRAMEWORK | Older, less-managed woodland beyond Brackenholt and the Brackenwood. |
+| Upper Vale | Wilderness region | ESTABLISHED FRAMEWORK | River Vale headwaters, broken hills, ravines, and upland pasture west of Fordmere. |
+| Greyback Heights | Wilderness region | ESTABLISHED FRAMEWORK | Rough ridges and high ground beyond Stonehollow's worked quarries. |
+| Siltfen | Wetland region | ESTABLISHED FRAMEWORK | Low wet ground, reed beds, pools, and channels south and southeast of the River Vale. |
+| Outer Eastern Shore | Coastal region | ESTABLISHED FRAMEWORK | Less-settled, exposed coves and isolated landing places beyond Saltwick. |
+| Rook's Watch | Ruined watch post | ESTABLISHED | Small roofless stone roadside watch post west of the River Vale Road; builder and history unknown. |
+| The Broken Mile | Road remnant | ESTABLISHED | Older stretch of paved road in the lower Greyback country; original destination and builders unknown. |
+| Alder Chapel | Abandoned chapel | ESTABLISHED | Small rural chapel near the Siltfen; former dedication and congregation unknown. |
+| Shepherd's Fold | Ruined seasonal enclosure | ESTABLISHED | Former upland grazing station in the Upper Vale. |
+| The Drowned Storehouse | Partially submerged ruin | ESTABLISHED | Flood-damaged riverside storehouse in a backwater below Millhaven. |
+| Wilderness Beyond Tallowmere | Campaign reference | ESTABLISHED FRAMEWORK | Initial frontier regions, abandoned sites, resource opportunities, Pathfinder threat ecology, and GM principles. |

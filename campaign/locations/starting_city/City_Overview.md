@@ -41,20 +41,16 @@ The details of its location, size, leadership, relationship with surface authori
 - Do not assume the city is directly ruled by a Great House, independent, or governed by a charter until that is decided.
 - Do not assume exact coordinates, coastline, nearby settlements, or travel times before the map and local geography are developed.
 
-## Unresolved City Identity
+## Remaining City Development
 
-The following are still open:
-- City name and any older names or titles.
-- Exact location and coastline.
-- Population and physical scale.
-- Founding, major historical events, and age.
-- Formal political status and governing structure.
-- Ruler or governing authority.
-- Relationship with House Kharadorn and other Great Houses.
-- Harbor design, shipping routes, and major exports/imports.
-- Districts, landmarks, and surrounding settlements.
-- Ratfolk settlement layout and leadership.
-- Major factions, institutions, and NPCs.
+The city's name, broad location, approximate population, hereditary ruling house, local government framework, and relationship with House Kharadorn are established. The following remain to be developed:
+- Exact coastline, river course, harbor engineering, and placement on the final map.
+- Founding date, detailed history, and older names or titles.
+- Final district boundaries, streets, gates, landmarks, and surrounding settlements.
+- Detailed trade flows, major exports/imports, seasonal patterns, and specific merchant interests.
+- Ratfolk community name, settlement layout, leadership, customs, and relationship with surface authorities.
+- Civic officers, guilds, religious institutions, local factions, and broader NPC cast.
+- Current events, local tensions, and the campaign's opening situation.
 
 ## Development Standard
 
@@ -92,3 +88,51 @@ The city therefore has several overlapping kinds of power: hereditary authority 
 - House Denvor is not designed as an automatic villain, a secretly incompetent paper tiger, or a guaranteed obstacle. Its members have their own goals and may become allies, patrons, rivals, or adversaries depending on events.
 - The city should contain meaningful routes to influence that do not require replacing the ruling family: commercial success, civic service, guild relationships, property, military reputation, religious patronage, and personal alliances.
 - The exact location on the final map, detailed charter text, current ruler and family members, population breakdown, districts, and local factions remain to be developed.
+
+
+## Civic Character and Daily Life
+
+Tallowmere is a working port first and a noble seat second. Its public identity is shaped by the harbor: bells mark the opening and closing of the main harbor chain, cargo tallies are argued over in counting houses, crews come and go with the sailing seasons, and the price of grain or lamp oil can change when shipping is delayed. The city is busy without being cosmopolitan to the point of losing its local character. Most residents know the rhythms of the port even if they never go aboard a ship.
+
+The city is mixed in ancestry and origin, though humans form the majority. Dwarven merchants and factors are a familiar sight because of the Kharadorn connection; elves are present in trade, finance, and specialist crafts; halflings and gnomes are found among artisans, innkeepers, and river commerce. Ratfolk are visible in some surface markets and workshops, but many maintain homes and businesses in subterranean neighborhoods beneath the older city. Prejudice is common and consequential, but it is not universal and does not make every surface resident hostile.
+
+Tallowmere's reputation is practical rather than glamorous. It is known for reliable warehousing, competent ship repair, river access, and a harbor that can handle a steady flow of ordinary trade. It is not famous for luxury, naval supremacy, or magical industry.
+
+## District Framework
+
+These are the initial district identities. Boundaries and exact street plans remain open until the city map is developed.
+
+- **Greywatch Rise:** The elevated heart of noble authority. House Denvor's fortified residence, the principal garrison buildings, formal gardens, and the homes of senior household officers stand here. The district looks down over the harbor and is deliberately visible from the water.
+- **The High Ward:** The older, wealthier residential quarter below Greywatch Rise. It contains substantial townhouses, legal offices, established temples, private courtyards, and the homes of prosperous families. Respectability matters here, and so does who is invited through which door.
+- **The Old Quays:** The oldest part of the working waterfront. Stone warehouses, chandlers, shipwrights, rope-makers, taverns, and long-established shipping offices crowd the inner harbor. It is prosperous but noisy, crowded, and vulnerable to fire.
+- **The New Quays:** Expanded wharves and storage yards built as trade grew. Larger vessels, bulk cargo, bonded warehouses, and newer merchant concerns are concentrated here. The district has more room than the Old Quays and more disputes over leases, labor, and fees.
+- **Market Ward:** The city's commercial center, with the principal market square, guildhalls, moneychangers, inns, public notices, and specialist shops. It is where country produce, imported goods, and port services meet. Market rules are enforced, but enforcement is not always impartial.
+- **Rivergate:** The river-facing district of bargemen, millers, fishmongers, carters, small foundries, tanners, and laborers. It connects the harbor to inland traffic. Its lower streets are vulnerable to flooding and muddy in wet weather.
+- **Lantern Ward:** A district of shrines, temples, charitable houses, healers, burial grounds, and religious hostels. Several faiths maintain a public presence. No single temple governs the city's conscience, though prominent clergy can exert influence through charity, education, and public trust.
+- **The Underways:** A surface term for the accessible subterranean spaces and routes beneath parts of Tallowmere. Ratfolk communities live and work in these spaces, including homes, workshops, stores, meeting places, and connections to deeper routes. The Underways are not one unified settlement or a single political faction; their internal names and local leadership remain to be developed.
+
+## Economy and Trade
+
+Tallowmere prospers by moving goods rather than producing everything it consumes. Its key economic functions are transshipment, warehousing, ship repair, provisioning, river transport, brokerage, and market exchange. Local farms and estates supply grain, vegetables, livestock, timber, and other necessities. The river brings inland produce and sends imported goods toward smaller settlements upriver.
+
+The harbor's everyday commerce includes grain, salt, preserved fish, timber, wool, hides, metal goods, pottery, tools, cloth, wine, oil, and worked stone. These are broad categories of plausible trade, not a finalized export ledger. Luxury goods and unusual materials pass through in smaller quantities. The city has moneychangers, lenders, insurers in informal or contract-based forms, and merchant partnerships, but its financial institutions should remain grounded in the setting's medieval economy.
+
+Tallowmere's prosperity is uneven. Shipowners, warehouse holders, successful merchants, and master craftsmen can become wealthy. Dockworkers, porters, sailors, carters, and casual laborers live closer to the edge. A bad sailing season, a blocked river, a fire, a failed harvest, or a new toll can affect the whole city. The ruling house cannot simply extract unlimited wealth without damaging the commercial base on which its own income depends.
+
+## Security and Public Order
+
+House Denvor maintains a household guard and a modest garrison responsible for Greywatch, the walls, gates, and the defense obligations in its Kharadorn charter. The city watch handles ordinary patrols, disturbances, and enforcement of local ordinances. Harbor officials oversee vessel entry, anchorage, cargo declarations, and harbor safety. These bodies overlap in emergencies and sometimes dispute jurisdiction.
+
+Tallowmere is not a city under permanent martial law. Most residents go about ordinary business, and most disputes are settled through custom, fines, guild pressure, courts, or personal negotiation. Serious violence, arson, smuggling, corruption, and organized theft exist, but no single criminal organization controls the city. The watch is capable in some areas and under-resourced in others; its behavior depends on leadership, neighborhood, and the interests involved.
+
+## Political Balance
+
+The Lord of Tallowmere possesses the formal authority to appoint civic officers, enforce the charter, collect customary dues, call the local levy, and preside over the city's courts or appoint judges. In practice, the ruling house depends on cooperation from the harbor master, guild leaders, major shipowners, landholders, clergy, and neighborhood figures.
+
+The chartered council is a negotiating body rather than a democratic legislature. Its members can delay projects, withhold cooperation, organize petitions, or make the economic cost of a decision painfully clear. It cannot lawfully depose the ruling house by ordinary vote. The balance between hereditary authority and civic influence is a continuing feature of local politics.
+
+The Kharadorn connection is real but not omnipresent. Dwarven representatives and officials may visit to inspect obligations or negotiate strategic matters, but House Kharadorn does not micromanage market stalls, petty crimes, or routine city administration. Tallowmere's local leadership has room to govern, provided it honors the charter and does not threaten the strategic interests of its overlord.
+
+## Campaign Use
+
+Tallowmere is designed to support multiple styles of play: commerce and crafting, exploration, faction relationships, investigation, local politics, travel, hirelings, property, and dangerous expeditions beyond the walls. No district is reserved for a single quest, and no faction exists solely to recruit or oppose the PCs. The city should continue changing when the PCs are elsewhere.

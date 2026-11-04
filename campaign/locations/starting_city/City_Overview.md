@@ -207,3 +207,8 @@ This develops the regional framework beyond generic settlement types. Exact map 
 ## Regional Geography — 2026-11-04
 
 **CURRENT STATUS: WORKING REGIONAL GEOGRAPHY ESTABLISHED.** The River Vale's broad course and tributaries, Brackenwood, Greyback Ridges, Northfields, Eastern Shore, regional road connections, crossings, and named landmarks are recorded in [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md). This provides a consistent text-based travel region while exact coastline, coordinates, and boundaries remain provisional.
+
+
+## Wilderness Beyond the Settled Region — 2026-11-04
+
+**CURRENT STATUS: INITIAL WILDERNESS FRAMEWORK ESTABLISHED.** The first frontier environments, abandoned sites, resource opportunities, and threat principles beyond Tallowmere are recorded in [Wilderness Beyond Tallowmere](Wilderness_Beyond_Tallowmere.md). The framework includes the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore. Specific creature lairs, hidden histories, and exact boundaries remain unresolved.

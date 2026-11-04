@@ -248,47 +248,27 @@ The principal continuing political fault lines are Crown versus Great Houses; th
 PART III: RELIGION, MAGIC & THE
 SUPERNATURAL
 5. GODS & RELIGION
-5.1 The Gods
-The Pathfinder gods are real within the setting. Their existence is an established fact, not an
-in-world mystery.
 
-Pathfinder's established gods, portfolios, alignments, domains, religious traditions, and
-mythology provide the foundation for the world's religions. The setting uses these gods rather
-than inventing a replacement pantheon.
+The Pathfinder gods are real within the setting. The continent broadly recognizes the Pathfinder pantheon, but worship varies by region, culture, community, and individual. No single god is established as universally dominant. People may pray to different gods for different needs rather than maintaining exclusive devotion to one deity.
 
-The gods' deeper history, relationships with mortals, methods of influence, and the details of
-their place in the world's cosmology may be developed later.
+There is no single supreme religious authority governing all faiths across the continent. Major faiths maintain independent hierarchies, institutions, traditions, and internal disputes. Religious institutions may own land, receive donations, provide charity and education, preserve records, advise rulers, influence ceremonies and public expectations, and condemn rulers or teachings. They can wield substantial social and political influence but do not universally govern secular territories, command Great House armies, or automatically overrule secular law.
 
-5.2 Religion and Society
-Religious institutions may:
+A priest may perform religious duties, teach doctrine, maintain a shrine, and lead ceremonies without possessing divine spellcasting ability. Dedicated clergy and divine spellcasters are not interchangeable. Temples do not imply routine access to magic. Remote settlements may have only a shrine, caretaker, or occasional traveling priest, while major cities may support multiple temples and religious communities.
 
-   ·   Influence kings and noble houses.
-   ·   Control land and wealth.
-   ·   Maintain military or religious orders.
-   ·   Spread doctrine and religious teachings.
-   ·   Influence laws and social expectations.
-   ·   Justify political authority.
-   ·   Declare individuals or groups heretical.
-   ·   Engage in religious persecution.
-   ·   Compete with other religious institutions.
+Common institutions include temples, monasteries, shrines, cathedrals, religious orders, and clerical courts. Their organization and authority vary by faith and region.
 
-Different cultures may interpret the same Pathfinder deity in dramatically different ways.
+The Religious Establishment is an established court faction or network seeking to preserve and expand organized religious authority. Senior religious authorities have recognized access to the royal court and may advise the monarch. They do not hold an automatic Imperial Council seat, since its six permanent seats represent the Great Houses. Religious authorities instead exert influence through relationships, advice, patronage, negotiation, and public pressure. The Religious Establishment is politically influential but not a single unified church; its constituent institutions may disagree and compete.
 
-Religious institutions may possess conflicting scriptures, histories, doctrines, and interpretations
-of supposed divine signs.
+A scholarly tradition exists that is institutionally distinct from religious hierarchies, though it may cooperate with temples. Its scholars may study history, genealogy, mathematics, accounting, medicine, astronomy, calendars, law, administration, languages, natural philosophy, theology, and religious history. Scholars may serve noble households, royal offices, major temples, and wealthy cities. Some may also be clergy, but scholarship does not require ordination, and theologians need not be spellcasters. The order's name, ranks, training, and governing structure remain unresolved.
 
-Religious fanatics and zealots are prominent features of the setting.
+Divine spellcasters are uncommon and devote themselves to a god. Divine spellcasting is regarded as significant rather than routine. Those who demonstrate it may be respected as blessed servants, but reactions can include fear, suspicion, or distrust. A village priest may serve for decades without casting spells; a cleric capable of extraordinary healing or other powerful magic may attract considerable attention. Magical ability does not automatically confer senior religious office, and religious leaders may possess authority without spellcasting.
 
-Faith may be sincere, corrupt, compassionate, political, coercive, or contradictory.
+The Great Houses do not each have a single exclusive patron deity or uniform religious identity. Their members may hold differing beliefs. Broad cultural tendencies include Vaelorian temple patronage and scholarship; Kharadorn's strong Torag traditions and clan-linked religious customs; Edarth's traditional worship, public ceremonies, and oaths; Calderan's cultivation of religious legitimacy; Veyr's practical faith shaped by hardship and frontier danger; and Merrowen's customs shaped by sailors, travel, trade, and maritime dangers. These are tendencies, not exclusive doctrines.
 
-5.3 Divine Magic
-Divine magic exists within the Pathfinder mechanical framework, and the gods themselves are
-real.
+Religious tensions may arise between religious and secular authority, competing interpretations of doctrine and divine signs, institutional wealth, accusations of heresy, and disagreements about divine power. Religious zealots and fanatics are prominent, but religious life is not uniformly fanatical or corrupt. Faith may be sincere, compassionate, political, coercive, contradictory, or deeply personal.
 
-Divine spellcasters are uncommon. Those who wield divine magic devote themselves to a god.
-The precise nature of that devotion, the ways the gods grant or mediate divine power, and the
-institutions surrounding divine spellcasters remain subjects for later development.
-<PARSED TEXT FOR PAGE: 7 / 40>
+The gods' deeper history, relationships with mortals, methods of influence, and the precise ways divine power is granted or mediated remain unresolved. The scholarly order's name and organization, major religious leaders, regional prominence of particular gods, religious courts' legal authority, and the exact influence of religious institutions over secular law also remain open.
+
 6. MAGIC & THE SUPERNATURAL
 Magic is uncommon in everyday civilization. Arcane spellcasters are rare, and divine
 spellcasters are also uncommon. The average person may live their entire life without witnessing

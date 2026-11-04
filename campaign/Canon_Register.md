@@ -146,3 +146,22 @@ This file tracks major setting decisions and their status. It does not replace d
 - **Current climate:** The monarch seeks to strengthen royal authority without provoking rebellion; Great Houses uphold the settlement publicly while competing privately; Kharadorn remains independent and distrustful; Vaelorian and Merrowen compete commercially; Edarth and Veyr resist centralization for different reasons; the Religious Establishment is gaining court influence; southern territories remain difficult for the Crown to control.
 
 **Still unresolved:** Monarch and officeholders; royal force composition; Council voting, quorum, vetoes, and legal procedure; representatives; faction leadership, membership, and relative influence; specific religious institutions and doctrines.
+
+
+## Stage 7 — Religion, Faith, and Religious Institutions (2026-11-04)
+
+**Status: ESTABLISHED.** The GM approved the Stage 7 framework for worship, religious institutions, the Religious Establishment, independent scholarship, divine spellcasters, Great House religious character, and religious tensions.
+
+- The Pathfinder pantheon is broadly recognized across the continent. Worship varies by region, culture, community, and individual; no single god is established as universally dominant. Individuals may pray to different gods for different needs.
+- There is no single supreme religious authority. Major faiths maintain independent hierarchies, institutions, traditions, and internal disputes.
+- Temples, monasteries, shrines, cathedrals, religious orders, and clerical courts are recognized institutional forms, with variable presence and authority.
+- Clergy and divine spellcasters are distinct. Priests may serve without magic; not every temple worker is a spellcaster. Divine spellcasters remain uncommon and devote themselves to a god. Their abilities are significant and may inspire respect, fear, or suspicion, but magical ability does not automatically confer senior religious office.
+- Religious institutions may own land and wealth, provide charity and education, advise rulers, influence ceremonies and public expectations, and condemn rulers or teachings. They do not universally govern secular territories, command Great House armies, or automatically overrule secular law.
+- The Religious Establishment is a politically influential but divided court faction/network. Senior religious authorities may advise the monarch and maintain a recognized court presence, but they have no automatic Imperial Council seat; its six seats represent the Great Houses.
+- An independent scholarly tradition exists, institutionally distinct from religious hierarchies but able to cooperate with them. Scholars study fields including history, genealogy, mathematics, medicine, astronomy, law, languages, natural philosophy, theology, and religious history. Scholars need not be clergy or spellcasters.
+- The Great Houses have broad religious tendencies but no exclusive patron deity or uniform doctrine: Vaelorian emphasizes traditions, temple patronage, and scholarship; Kharadorn maintains strong Torag and clan traditions; Edarth values traditional worship, public ceremonies, and oaths; Calderan cultivates religious legitimacy; Veyr's faith is shaped by hardship and frontier danger; Merrowen's customs reflect sailors, travel, trade, and maritime dangers.
+- Religious tensions include religious versus secular authority, competing interpretations, institutional wealth, accusations of heresy, and questions surrounding divine power. Religious life is varied and is not uniformly fanatical or corrupt.
+
+**Still unresolved:** How gods grant or mediate divine magic; major religious institutions and leaders; regional prominence of particular gods; the scholarly order's name, ranks, and governance; legal relationships between religious and secular courts; the exact influence of religion over marriage, inheritance, coronation, and secular law; and the history of major religious disputes.
+
+**Reference:** `Religion_and_Faith.md`.

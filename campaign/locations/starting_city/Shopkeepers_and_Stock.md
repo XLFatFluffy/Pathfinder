@@ -324,3 +324,98 @@ Do not apply arbitrary price changes to punish player success. State the asking 
 | Private room | 1 | 5 sp/night | Often booked by crew officers |
 
 **Limitations:** The Crooked Oar does not extend much credit. Fights are common enough that the watch knows the regulars, but serious violence brings consequences.
+
+
+## 16. Redoubt Arms
+**District:** High Ward, near the western approach to Greywatch Rise  
+**Owner:** Master Jorren Vale, human weaponsmith; his sister Tessa handles sales and accounts.  
+**Customers:** Town guards, caravan guards, household retainers, hunters, and private buyers with lawful business.  
+**Character:** A serious weapons shop with a narrow, carefully displayed selection. Jorren values balance and reliable construction over ornament. He is a member of the Artificers' Hall and supplies replacement weapons to the town watch under a standing contract.
+
+| Item | Stock | Asking price | Notes |
+|---|---:|---:|---|
+| Dagger | 8 | 2 gp | Standard |
+| Shortsword | 4 | 10 gp | Standard |
+| Longsword | 5 | 15 gp | Standard |
+| Spear | 8 | 2 gp | Standard |
+| Battleaxe | 3 | 10 gp | Standard |
+| Light crossbow | 3 | 35 gp | Standard |
+| Heavy crossbow | 1 | 50 gp | Standard |
+| Bolts (10) | 12 | 1 gp | Standard |
+| Masterwork weapon | By commission | Standard price + 300 gp | Requires time and suitable materials |
+
+**Limitations:** Jorren does not stock every weapon. Unusual weapons and masterwork pieces are commissioned. He records larger sales and may ask for a buyer's intended use when a transaction could create trouble with the watch. He is not a magical weaponsmith.
+
+## 17. Hearth & Hammer Armoury
+**District:** Greywatch Rise, below the garrison yard  
+**Owner:** Brunna Keld, dwarf armorer, operating under a contract with House Denvor.  
+**Customers:** Greywatch garrison, household guards, caravan companies, and wealthy private clients.  
+**Character:** A compact armory and repair shop whose best work is usually reserved for contract clients. Brunna is blunt, meticulous, and protective of her apprentices. Her Denvor contract provides steady work but limits how much finished armor she can sell openly.
+
+| Item or service | Stock / capacity | Asking price | Notes |
+|---|---:|---:|---|
+| Padded armor | 3 | 5 gp | Standard |
+| Leather armor | 2 | 10 gp | Standard |
+| Studded leather | 2 | 25 gp | Standard |
+| Chain shirt | 1 | 100 gp | Standard |
+| Scale mail | 1 | 50 gp | Standard |
+| Heavy steel shield | 3 | 20 gp | Standard |
+| Light steel shield | 4 | 9 gp | Standard |
+| Armor fitting and adjustment | 2 jobs/day | 1-5 gp | Depends on armor and fit |
+| Armor repair | 2 jobs/day | 10% of item price and up | Damage assessed first |
+| Masterwork armor | By commission | Standard price + 150 gp | Lead time and deposit required |
+
+**Limitations:** Brunna's ready stock is deliberately modest because most of her production fulfills the garrison contract. A private commission is possible, but she will not promise a delivery date until she has checked the contract schedule. She does not sell restricted military stores without authorization.
+
+## 18. Three Grain Bakery
+**District:** Market Ward, beside the north market lane  
+**Owner:** Hesta Pellor, human baker, with two apprentices.  
+**Customers:** Households, taverns, ship crews, and market workers.  
+**Character:** A busy neighborhood bakery that supplies several inns and taverns. Hesta rises before dawn and is famously unimpressed by customers who arrive after the popular loaves are gone.
+
+| Item | Typical daily stock | Asking price | Notes |
+|---|---:|---:|---|
+| Small loaf | 45 | 2 cp | Coarse wheat or rye |
+| White loaf | 18 | 4 cp | Fine flour; often sells out |
+| Flatbread | 30 | 1 cp | Popular with dock crews |
+| Meat pie | 16 | 5 cp | Filling varies by day |
+| Sweet bun | 20 | 2 cp | Honey or dried fruit when available |
+| Ship biscuit, 1 lb. | 25 | 2 cp | Hard-baked for storage |
+
+**Limitations:** Bulk orders require a day's notice and a deposit. Flour prices affect the menu; poor harvests or disrupted river traffic can change prices. Hesta supplies the Blue Heron and Copper Ladle when their orders are placed in time.
+
+## 19. Salt & Root Provisioners
+**District:** New Quays, at the edge of the cargo market  
+**Owner:** Ollo Venn, halfling provisioner, with his cousin Merra managing deliveries.  
+**Customers:** Shipmasters, caravan leaders, boarding houses, and households buying in bulk.  
+**Character:** A practical store dealing in preserved food, grain, salt, oil, and imported staples. It is less convenient than the general store but better suited to provisioning a crew or expedition.
+
+| Item | Stock | Asking price | Notes |
+|---|---:|---:|---|
+| Trail rations (1 day) | 30 | 5 sp | Standard |
+| Dried beans, 1 lb. | 40 | 2 sp | Bulk staple |
+| Dried fruit, 1 lb. | 18 | 5 sp | Seasonal supply |
+| Salt, 1 lb. | 25 | 5 sp | Price varies with coastal shipments |
+| Smoked fish, 1 lb. | 20 | 3 sp | Local catch |
+| Hard cheese, 1 lb. | 12 | 1 sp | Regional |
+| Cooking oil, flask | 16 | 1 sp | Standard |
+| Fresh water cask | 8 | 5 sp | Cask deposit may apply |
+| Ship's provisions, 1 person/week | 12 bundles | 3 gp | Dried and salted staples; ordinary quality |
+
+**Limitations:** Fresh produce is not its trade. Large orders are assembled from multiple suppliers and require notice. Ollo offers modest discounts for repeat bulk customers, but does not extend unsecured credit to new captains.
+
+## 20. The Ferryman's Steps
+**District:** Rivergate, at the main landing below the river bridge  
+**Owner:** Edrin Salk, human boatman and licensed ferryman.  
+**Customers:** Residents, messengers, traders, travelers, and people moving goods between riverbank landings.  
+**Character:** A small family operation with two flat-bottomed boats and one covered passenger launch. Edrin knows the river's moods and the people who use it daily.
+
+| Service | Capacity / availability | Asking price | Notes |
+|---|---:|---:|---|
+| Passenger crossing | 2 boats, daylight | 1 cp/person | Across the local river reach |
+| Covered launch passage | 6 passengers | 2 sp/person | Short scheduled route |
+| Small cargo punt | 1 boat | 5 sp/half-day | Local movement only |
+| Boat and pilot, full day | By arrangement | 2 gp | Weather and river conditions permitting |
+| Urgent night crossing | By arrangement | 5 sp/person | Only when safe; watch may be notified |
+
+**Limitations:** Edrin does not operate a long-distance ferry service or rent boats for unsupervised use. High water, ice, fog, and dangerous currents can suspend service. He pays a landing fee and has a working relationship with the River Carters' and Bargemen's Company.

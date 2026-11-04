@@ -296,3 +296,10 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Rusk | Person | ESTABLISHED | Child in Kett-of-the-Low-Arch and Veska's household. |
 | Orren Reed | Person | ESTABLISHED | Husband of Pellan Reed; member of the Rivergate Reed household. |
 | Sella Reed | Person | ESTABLISHED | Elderly aunt of Orren Reed; lives with the Reed household. |
+
+
+## Tallowmere historical records
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| History and Local Memory | Lore record | ESTABLISHED FRAMEWORK | Tallowmere's civic identity, early growth, port development, post-rebellion charter settlement, local memory, and deliberately unresolved historical details. |

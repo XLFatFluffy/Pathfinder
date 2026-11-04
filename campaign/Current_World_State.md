@@ -192,3 +192,17 @@ The Great Houses have broad religious tendencies, not exclusive patron deities o
 Religious tensions include religious versus secular authority, competing interpretations, institutional wealth, accusations of heresy, and questions surrounding divine power. Religious life is varied, not uniformly fanatical or corrupt.
 
 **Still unresolved:** Divine magic's precise mediation; major religious institutions and leaders; regional prominence of gods; scholarly order's name and organization; religious courts' legal authority; and religion's precise influence over secular law and inheritance.
+
+
+## Stage 8 — Current Great House Leadership (Established, 2026-11-04)
+
+- **House Calderan:** King Aldric Calderan (56, ruled 18 years); Queen Elowen; Crown Prince Edric (27, recognized heir); Princess Maerelle (23).
+- **House Vaelorian:** Lord Theren Vaelorian (elf, approximately 240, ruled nearly 90 years); Lady Seralyth (designated heir); Lord Caelion; Lady Virella.
+- **House Kharadorn:** High King Durnak Kharadorn (dwarf, approximately 190, ruled 42 years); Prince Vorgun (designated heir); Princess Brynja; Lord Kazrik. Durnak is a later ruler, not the historical post-Rebellion leader.
+- **House Edarth:** Lord Garrick Edarth (62, ruled 26 years); Ser Rowan (recognized heir); Lady Elayne; Ser Tomas.
+- **House Veyr:** Lord Edran Veyr (51, ruled 17 years); Lady Anika (designated heir); Ser Halvar; Lord Stellan.
+- **House Merrowen:** Lady Maris Merrowen (48, ruled 14 years); Lord Corvin (designated heir); Lady Selene; Lord Aeric.
+
+Succession tensions differ by house. Calderan's heir favors caution while Maerelle is more ambitious; Vaelorian traditionalists distrust Seralyth's approach; Kharadorn's heir is more militaristic than Durnak; Edarth's heir faces influential relatives and a decentralized nobility; Veyr's heir Anika must contend with her brother's popularity among frontier soldiers; Merrowen's ruling family must balance traditional maritime nobility and powerful merchant interests. Merrowen merchants can constrain policy but do not presently threaten the dynasty itself.
+
+The Crown's key political relationships include Aldric's dependence on Theren's financial support, Durnak's insistence on dwarven independence, Garrick's suspicion of royal centralization, Edran's demand for northern resources, and Maris's transactional support for the Crown. Full profiles and dynamics are in `House_Rulers.md`.

@@ -303,3 +303,25 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
 | History and Local Memory | Lore record | ESTABLISHED FRAMEWORK | Tallowmere's civic identity, early growth, port development, post-rebellion charter settlement, local memory, and deliberately unresolved historical details. |
+
+
+## Tallowmere Regional Geography (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| River Vale | River | ESTABLISHED | Principal river serving Tallowmere; drains the Western Uplands and reaches the inland sea through the city's harbor. |
+| Mill Brook | Stream | ESTABLISHED | Tributary entering the River Vale near Millhaven. |
+| Ash Run | Stream | ESTABLISHED | Seasonal Northfields watercourse draining toward the River Vale. |
+| Blackroot Burn | Stream | ESTABLISHED | Fast, rocky stream descending from the western woodland. |
+| Stonewash | Watercourse | ESTABLISHED | Quarry runoff channel near Stonehollow. |
+| Brackenwood | Woodland | ESTABLISHED | Managed woodland west of Tallowmere, worked for fuel, timber, and gathered resources. |
+| Greyback Ridges | Hills / uplands | ESTABLISHED | Low stony hills southwest of Tallowmere, including the Stonehollow quarry country. |
+| Three Mile Stones | Landmark | ESTABLISHED | Old boundary and distance stones along the River Vale Road. |
+| Bellwater Pool | Landmark | ESTABLISHED | Deep, slow pool on the River Vale upstream of Millhaven. |
+| Old Burn | Landmark | ESTABLISHED | Former charcoal-burning clearing at the edge of the Brackenwood. |
+| Quarry Steps | Landmark | ESTABLISHED | Stone-cut track descending from the Three Faces quarry cuts. |
+| Ashcombe Rise | Landmark | ESTABLISHED | Low hill on which Ashcombe Hall stands. |
+| Merewick Yard | Landmark | ESTABLISHED | Toll, ferry, and inn yard at Fordmere. |
+| Saltwick Beacon | Landmark | ESTABLISHED | Modest navigational and storm-warning beacon maintained by Saltwick boat-owning households. |
+| South Mile Cross | Landmark | ESTABLISHED | Weathered roadside cross north of Harthbridge; dedication unresolved. |
+| Regional Geography and Points of Interest | Campaign reference | ESTABLISHED FRAMEWORK | Working terrain, watershed, roads, crossings, travel conditions, and regional landmarks; exact map positions remain provisional. |

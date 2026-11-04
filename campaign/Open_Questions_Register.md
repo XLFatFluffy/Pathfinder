@@ -258,3 +258,12 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **ESTABLISHED FRAMEWORK:** Daily rhythms, seasonal commercial patterns, civic notices, and recurring observances are recorded in `locations/starting_city/Civic_Calendar_and_Seasonal_Routines.md`.
 
 **STILL OPEN:** The formal calendar's year length, months, weekdays, era system, current campaign date, exact market-day frequency, and fixed festival dates; individual temple finances and divine spellcaster availability; full Council charter history and internal guild election rules; exact Kharadorn tribute and inspection schedule; and the scale and membership of criminal associates. These remain open deliberately and should not be improvised as fixed canon.
+
+
+## Player Characters and Session One Opening (2026-11-04)
+
+**PROVISIONAL CONCEPT:** The vampire PC rescued the ratfolk PC as a child after men associated with an unnamed minor house extorted his travelling-merchant family and took their wares for a fraction of their value. His parents did not survive the attack. The vampire defeated the attackers and saved the child, later teaching him alchemy and recognizing his exceptional aptitude. The ratfolk regards the vampire as a friend and mentor. Details and the responsible house remain open. See `Player_Character_Concepts_and_Opening.md`.
+
+**PROVISIONAL OPENING:** The two PCs want to confront a troll while travelling to Tallowmere. The encounter may introduce them to the city through travellers, recovered cargo, a report to local authorities, or a merchant contact. Exact road, site, encounter composition, survivors, reward, and first contact remain undecided.
+
+**SESSION-CRITICAL:** The players have concepts, not completed character sheets. Confirm classes, levels, feats, spells, equipment, defenses, and abilities before finalizing the encounter. A standard Pathfinder First Edition troll is CR 5 and its regeneration requires appropriate fire or acid. Evaluate the threat for a two-PC party; do not assume the alchemist has a particular formula or item before character creation.

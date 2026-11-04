@@ -242,3 +242,12 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Salt & Root Provisioners | Business | ESTABLISHED | New Quays bulk food and ship-provisioning business. |
 | Edrin Salk | Person / ferryman | ESTABLISHED | Human licensed ferryman operating local river crossings and cargo punts. |
 | The Ferryman's Steps | Business | ESTABLISHED | Rivergate passenger and small-cargo ferry operation. |
+
+## Tallowmere — Merchant Personalities and Disputes (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Pellis Arno | Person / glass factor | ESTABLISHED | Supplier whose disputed glassware shipment was partly rejected by Miraq Ashwhisk. |
+| Deren Holt | Person / charcoal factor | ESTABLISHED | Western upland charcoal supplier to Orsik Feld; recent price increase disputed by Orsik. |
+| Rusk & Fen | Business / wholesaler | ESTABLISHED | Caravan equipment wholesaler whose climbing gear quality is questioned by Mara Venn; deliberate substitution unproven. |
+| Tallowmere merchant disputes | Campaign situation | ESTABLISHED | Specific debts, supply disagreements, and contract pressures recorded in Merchant Personalities and Disputes; not a unified conspiracy. |

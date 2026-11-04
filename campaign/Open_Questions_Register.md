@@ -206,3 +206,16 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **ESTABLISHED FRAMEWORK:** Tallowmere's development from a river landing and market into a walled inland-sea port, its growth of Old and New Quays, post-Great-Rebellion Denvor charter, Greywatch and civic works, recurring hazards, Underways history, and differing traditions of local memory are documented in `locations/starting_city/History_and_Local_Memory.md` (2026-11-04).
 
 **Still open:** exact founding date and earliest name; earliest pre-Denvor authority; dates and builders of first bridge and harbor works; date, terms, and recipient of the Denvor charter; Tallowmere's specific military experience during the Great Rebellion; dated historical fires, floods, epidemics, and raids; oldest surviving structures; earliest ratfolk neighborhoods; and local festivals or commemorations.
+
+## Tallowmere — Regional Settlements and Landholders (2026-11-04)
+
+**ESTABLISHED INITIAL REGIONAL FRAMEWORK:** The first playable settlements and local landholders are documented in `locations/starting_city/Regional_Settlements_and_Landholders.md`: Millhaven, Brackenholt, Stonehollow, Ashcombe Manor (House Avenholt), Fordmere (Merewick crossing charter), Saltwick, and Harthbridge (House Velleran). Approximate populations, travel distances, trade relationships, and local concerns are recorded. Exact map positions and jurisdictional boundaries remain provisional.
+
+**Still open:**
+- Exact coordinates, road geometry, and surveyed travel distances.
+- Precise borders of the Denvor lordship and neighboring charters.
+- Full genealogies and household retainers of Houses Avenholt and Velleran.
+- Exact terms and historical origins of the Merewick and Saltwick charters.
+- Local courts, reeves, and council customs beyond the named contacts.
+- Detailed yields, output, quotas, fishing seasons, and toll schedules.
+- Specific regional shrines, ruins, historical sites, and campaign-calendar events.

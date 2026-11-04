@@ -52,6 +52,8 @@ export default async function GmPage() {
         <Link href="/gm/quests">Manage campaign quests</Link>
         {" · "}
         <Link href="/gm/sessions">Manage session logs</Link>
+        {" · "}
+        <Link href="/gm/characters">Review player characters</Link>
       </p>
       <JournalEntryForm />
       <section className="entry-list" aria-labelledby="journal-heading">

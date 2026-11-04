@@ -21,6 +21,7 @@ export default async function PlayerPage() {
     { count: factionCount, error: factionCountError },
     { count: questCount, error: questCountError },
     { count: sessionCount, error: sessionCountError },
+    { count: characterCount, error: characterCountError },
     { data: entries, error: entriesError },
   ] = await Promise.all([
     supabase
@@ -61,6 +62,10 @@ export default async function PlayerPage() {
       .select("id", { count: "exact", head: true })
       .eq("campaign_id", member.campaign_id),
     supabase
+      .from("campaign_characters")
+      .select("id", { count: "exact", head: true })
+      .eq("campaign_id", member.campaign_id),
+    supabase
       .from("campaign_journal_entries")
       .select("id, title, content, campaign_date, created_at")
       .eq("campaign_id", member.campaign_id)
@@ -94,6 +99,9 @@ export default async function PlayerPage() {
   }
   if (sessionCountError) {
     throw new Error(`Unable to count shared sessions: ${sessionCountError.message}`);
+  }
+  if (characterCountError) {
+    throw new Error(`Unable to count your character sheets: ${characterCountError.message}`);
   }
   if (entriesError) {
     throw new Error(`Unable to load campaign journal entries: ${entriesError.message}`);
@@ -139,6 +147,11 @@ export default async function PlayerPage() {
           <span className="eyebrow">Chronicle</span>
           <strong>Session history</strong>
           <span className="muted">{sessionCount ?? 0} shared recaps</span>
+        </Link>
+        <Link className="player-resource-card" href="/player/characters">
+          <span className="eyebrow">Player space</span>
+          <strong>My characters</strong>
+          <span className="muted">{characterCount ?? 0} private sheets</span>
         </Link>
         <Link className="player-resource-card" href="/player/atlas">
           <span className="eyebrow">Explore</span>

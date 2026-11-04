@@ -280,3 +280,10 @@ The following are deliberately unresolved:
 - The precise resources, manpower, and readiness of the Denvor garrison and city watch.
 
 These details should be established when they become relevant, not invented retroactively to force a preferred plot.
+
+
+## Local Institutions and Named Operators — 2026-11-04
+
+The local religious institutions and clergy are detailed in [Local Religion and Institutions](Local_Religion_and_Institutions.md). The seven-seat Chartered Council and its procedures are detailed in [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md). Kharadorn's resident Charter Warden and limited local presence are detailed in [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md). The initial named criminal operators are recorded in [Criminal Operators and Networks](Criminal_Operators_and_Networks.md).
+
+These additions clarify existing power relationships; they do not create a unified religious bloc, a Kharadorn occupation, or a citywide criminal syndicate. Ratfolk residents retain petition access but no guaranteed Council seat under the current charter, an established political disadvantage that may become a subject of civic dispute.

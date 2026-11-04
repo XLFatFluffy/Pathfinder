@@ -139,3 +139,8 @@ These are practical table estimates, not measured distances. Change them when th
 - Market days, bell schedule, curfew customs, gate hours, and routine harbor-chain procedures.
 - The legal status, ownership, maintenance funding, and toll arrangements of individual roads, bridges, and public spaces.
 - Specific landmarks in the outer suburbs and villages beyond the walls.
+
+
+## Regional Route Connections — 2026-11-04
+
+The city routes continue into the surrounding region as follows: North Road serves Ashcombe Manor and the Northfields; West Road connects to the River Vale Road and the routes toward Millhaven and Fordmere; the western approach branches toward Brackenholt and the Brackenwood; Quarry Road serves Stonehollow and the Greyback Ridges; the eastern coastal approach continues as the Eastern Shore Road toward Saltwick; and King's Road continues south as the South Road toward Harthbridge. The full regional terrain, crossings, and landmarks are recorded in [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md). Exact alignments remain provisional.

@@ -22,7 +22,8 @@ export default async function LoginPage({
         <p className="eyebrow">The World Atlas</p>
         <h1>Sign in</h1>
         <p className="muted">
-          Accounts are created and assigned to this campaign by the GM.
+          The GM assigns each account a login ID. Players sign in with their ID;
+          the GM also enters a password.
         </p>
         {errorMessage ? (
           <p className="error" role="alert">
@@ -39,30 +40,30 @@ export default async function LoginPage({
             <input name="next" type="hidden" value={next} />
           ) : null}
           <label>
-            Email
+            Login ID
             <input
-              autoComplete="email"
-              name="email"
+              autoComplete="username"
+              name="loginId"
               required
-              type="email"
+              type="text"
             />
           </label>
           <label>
-            Password
+            GM password (players leave this blank)
             <input
               autoComplete="current-password"
               name="password"
-              required
               type="password"
             />
           </label>
           <button type="submit">Sign in</button>
         </form>
         <p className="muted">
-          Need help? Ask the campaign GM to set up your account.
+          Login IDs are not passwords. Anyone who knows a player ID can sign in
+          as that player and access that player&apos;s sheets and notes.
         </p>
         <p>
-          <Link href="/forgot-password">Forgot your password?</Link>
+          <Link href="/forgot-password">GM: forgot your password?</Link>
         </p>
         <Link href="/setup">Setup instructions</Link>
       </section>

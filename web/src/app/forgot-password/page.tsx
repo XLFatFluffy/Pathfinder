@@ -17,8 +17,8 @@ export default async function ForgotPasswordPage({
         <p className="eyebrow">Account recovery</p>
         <h1>Reset your password</h1>
         <p className="muted">
-          Enter your account email and we will send a password reset link if
-          the account exists.
+          GM account recovery: enter the GM account email and we will send a
+          password reset link if the account exists.
         </p>
         {errorMessage ? (
           <p className="error" role="alert">

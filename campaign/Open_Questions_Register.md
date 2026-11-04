@@ -12,14 +12,14 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 | ID | Priority | Topic | Question / missing detail | Status |
 |---|---|---|---|---|
-| OQ-001 | P0 | Starting city | What is the opening situation, exact local map, and first-session cast? | CITY IDENTITY, BROAD LOCATION, RULING HOUSE, AND GOVERNMENT FRAMEWORK ESTABLISHED; OPENING DETAILS UNRESOLVED |
-| OQ-002 | P0 | Opening situation | The PCs already know each other. Where do they begin, what is their current relationship/dynamic, and what immediate situation draws them in? | PARTIALLY RESOLVED; opening details UNRESOLVED |
+| OQ-001 | P0 | Starting city | What is the precise first-session opening situation, arrival location, and initial cast? | RESOLVED: Tallowmere is the starting city; its identity, location, ruling house, government framework, and supporting records are established. Opening scene, exact arrival point, and initial cast remain open |
+| OQ-002 | P0 | Opening situation | The PCs arrive in Tallowmere at the start of Session One and already know each other. What are the precise arrival circumstances, immediate situation, and opening scene? | PARTIALLY RESOLVED: arrival city and prior acquaintance established; opening details remain unresolved |
 | OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | UNRESOLVED |
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
 | OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established in Stages 5, 8, and 9 and their dedicated records. Exact borders, wider family trees, detailed house histories, faction membership and influence, and Council procedure remain open. | CORE FRAMEWORK ESTABLISHED; DETAILS OPEN |
-| OQ-008 | P1 | Ratfolk societies | What underground settlements, customs, and networks exist near the starting region? | UNRESOLVED |
+| OQ-008 | P1 | Ratfolk societies | What are the detailed names, population, customs, leadership, and local geography of the Underways and wider nearby ratfolk network? | PARTIALLY ESTABLISHED: decentralized ratfolk community framework and Tallowmere Underways concept documented; detailed local particulars remain open |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | Approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at the widest point, making the continent smaller than Westeros. The central inland sea, Dragonstone island and narrow land bridge, secret dwarven underground route, Khar-Dum in the northeastern mountains, broad Great House territories, and Stage 5 territorial framework are established. Exact borders, coordinates, travel distances, routes, rivers, local jurisdictions, and final names remain open. | FRAMEWORK ESTABLISHED; CARTOGRAPHIC DETAILS OPEN |
 | OQ-011 | P2 | Northern Barrier | Who built the Ancient Barrier, why, and what lies beyond it? | UNRESOLVED |
@@ -75,7 +75,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 **ESTABLISHED:** The surviving dragon-dynasty heir seeks to rebuild the dynasty. The ratfolk alchemist seeks to end anti-ratfolk persecution and establish ratfolk as equals or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him.
 
-**Still open by player choice:** The vampire PC's personal ambition and the detailed personal backstories of the vampire and other PCs. The GM will provide those backstories when received. Do not invent missing PC details.
+**Still open by player choice:** Detailed personal backstories, further personal motives, and methods beyond the established ambitions. The GM will provide those backstories when received. Do not invent missing PC details. Completed character sheets are also pending and will establish actual statistics, equipment, and carried wealth.
 
 
 ## Documentation status correction — 2026-11-04
@@ -147,3 +147,12 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Seasonal migration and the exact size of the casual labor pool.
 - Individual negotiated wages for skilled specialists and permanent staff beyond Pathfinder's published hireling baselines.
 - Full identities and structures of labor gangs, household-service networks, and local employment brokers.
+
+
+## Session One Arrival and Player Materials — 2026-11-04
+
+**ESTABLISHED:** The two level-5 PCs arrive in Tallowmere at the beginning of Session One. They already know each other. They should be treated as newcomers to the city; do not assume prior residence, established local contacts, or detailed local knowledge without support from their eventual backstories.
+
+**PENDING:** Exact campaign date and calendar, arrival circumstances, precise starting location, opening scene, and first-session cast. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
+
+**Player handout readiness:** The shared world and Tallowmere guide can be drafted from established canon. Individual starting-inventory and character-specific knowledge supplements must wait for the character sheets and backstories.

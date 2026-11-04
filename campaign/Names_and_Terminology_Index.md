@@ -133,3 +133,37 @@ Use this index before naming a new person, place, house, faction, title, religio
 | House Denvor | Minor noble house | ESTABLISHED | Old, respected human family; hereditary rulers of Tallowmere under a charter confirmed by House Kharadorn after the Great Rebellion. Locally powerful, continentally minor; no automatic Imperial Council seat. |
 | Greywatch | Noble seat / fortress | ESTABLISHED | House Denvor's fortified ancestral residence within Tallowmere, on high ground overlooking the harbor. |
 | Lordship of Tallowmere | Political territory | ESTABLISHED | Hereditary local lordship held by House Denvor within House Kharadorn's sphere. Denvor obligations include tribute, harbor defense, and ships or supplies when called under charter. |
+
+
+## Tallowmere — Civic Cast and Districts (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Greywatch Rise | City district | ESTABLISHED | Elevated noble and garrison quarter containing Greywatch. |
+| High Ward | City district | ESTABLISHED | Wealthier residential and institutional quarter. |
+| Old Quays | City district | ESTABLISHED | Historic waterfront and traditional maritime trades. |
+| New Quays | City district | ESTABLISHED | Expanded wharves, bulk cargo yards, and newer merchant concerns. |
+| Market Ward | City district | ESTABLISHED | Principal market, guildhalls, inns, moneychangers, and commercial services. |
+| Rivergate | City district | ESTABLISHED | River-facing working quarter with bargemen, mills, carters, and trades. |
+| Lantern Ward | City district | ESTABLISHED | Religious, charitable, healing, and burial institutions. |
+| The Underways | Subterranean district / surface term | ESTABLISHED | Umbrella term for accessible subterranean neighborhoods and routes beneath Tallowmere; ratfolk communities are diverse and decentralized. |
+| Reeve Marrec Holt | Person / civic officer | ESTABLISHED | Town Reeve. |
+| Harbor Master Ysella Vane | Person / civic officer | ESTABLISHED | Oversees harbor administration and safety. |
+| Chief Magistrate Odran Pell | Person / civic officer | ESTABLISHED | Oversees delegated judicial proceedings. |
+| Captain Brinna Salk | Person / civic officer | ESTABLISHED | Commands the city watch. |
+| Castellan Hadrik Voss | Person / civic officer | ESTABLISHED | Dwarf in Denvor service; responsible for Greywatch. |
+| Meret Sorn | Person / merchant | ESTABLISHED | Warehouse Guild factor. |
+| Dagna Coppervein | Person / craftsperson | ESTABLISHED | Shipwrights' Brotherhood master. |
+| Pellan Reed | Person / merchant | ESTABLISHED | Bargemen's Company organizer. |
+| Ilyne Marris | Person / merchant | ESTABLISHED | Independent moneychanger and broker. |
+| Sister Alwen | Person / religious figure | ESTABLISHED | Hospice administrator. |
+| Brother Caldus | Person / religious figure | ESTABLISHED | Keeper of the sailors' shrine. |
+| Nix-of-the-Cistern | Person / ratfolk community contact | ESTABLISHED | Maintainer of a shared water chamber and neighborhood mediator. |
+| Tikka Vell | Person / ratfolk merchant | ESTABLISHED | Repairer and small-goods trader seeking open surface trade. |
+| Serren Coil | Person / ratfolk courier | ESTABLISHED | Courier and route guide; protects route knowledge. |
+| Harbor Fellowship | Commercial association | ESTABLISHED | Shipowners, captains, chandlers, pilots, and shipping agents. |
+| Warehouse Guild | Commercial association | ESTABLISHED | Warehouse owners, bonded-store keepers, weighers, and cargo clerks. |
+| River Carters' and Bargemen's Company | Commercial association | ESTABLISHED | River transport and inland freight interests. |
+| Market Guild | Commercial association | ESTABLISHED | Established stallholders, produce dealers, moneychangers, brokers, and shopkeepers. |
+| Artificers' Hall | Craft association | ESTABLISHED | Recognized masters in a range of crafts. |
+| Shipwrights' Brotherhood | Craft association | ESTABLISHED | Shipwrights and specialist maritime crafts. |

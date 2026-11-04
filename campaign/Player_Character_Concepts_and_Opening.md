@@ -149,3 +149,27 @@ The PCs should decide how much of their history they disclose. NPCs do not know 
 - The city introduction should arise from the encounter's consequences, not a forced cutscene.
 - Selwick's conditional payment and written introduction are established; no separate public bounty exists.
 - Selwick and House Relland are not connected to one another or to the ratfolk family's tragedy.
+
+
+## 6. Companion NPC and Campaign Structure
+
+The PCs are expected to travel with a companion NPC. The current working assumption is that this companion may be approximately **CR 8**, but the exact creature/NPC statistics, class levels, equipment, and abilities are not yet finalized.
+
+The likely concept is **Alaric Thorne**, a human huntsman, tracker, and scout proposed in a separate player-submitted concept. He remains provisional and subject to GM refinement and approval. His final mechanics and role must fit the campaign's Pathfinder First Edition rules and should not overshadow the PCs.
+
+### Encounter-Balance Implications
+
+- The opening party is expected to consist of two PCs, currently only concepts, plus the companion NPC.
+- Do not treat the companion's CR as if it were a PC level or simply add CR values to calculate party level.
+- A CR 8 combat-capable ally is a major force beside two level-five PCs. Encounter difficulty must account for his actual offensive, defensive, mobility, scouting, and support abilities.
+- Reassess the proposed standard CR 5 troll after the PCs' character sheets and the companion's final build are available.
+- Do not increase the troll's statistics or add extra enemies merely to counterbalance the companion. Build a fair encounter for the actual group and the intended opening tone.
+- The companion should contribute meaningfully without solving every problem or displacing player decisions.
+
+### Campaign Structure After Arrival
+
+The troll and Selwick wagon are intended as an opening introduction to Tallowmere, not the start of a mandatory quest chain. Once the PCs reach the city and have had a chance to establish their first contacts, the campaign opens into a **sandbox**.
+
+The PCs may pursue commercial opportunities, personal goals, relationships, faction interests, exploration, political developments, or entirely unexpected plans. Tallowmere and the surrounding region continue to function independently of them. The GM should present opportunities, consequences, and information without assuming a required order of adventures or a single central plot.
+
+The opening establishes a foothold; it does not prescribe what the PCs must do next.

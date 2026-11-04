@@ -59,3 +59,36 @@ The following are still open:
 ## Development Standard
 
 Build the city in layers, beginning with its identity and political status, then developing its economy, districts, communities, factions, institutions, NPCs, and living event systems. Keep player-facing information separate from GM-only secrets. Record approved decisions as canon and keep proposals clearly labeled until approved.
+
+
+## City Identity and Political Foundation
+
+**City name: Tallowmere. Status: ESTABLISHED CAMPAIGN SETTING.** Tallowmere is a walled port city on the northwestern shore of the central inland sea, built around a sheltered natural harbor where a navigable river reaches the sea. It is large enough to support several distinct districts, a substantial merchant class, craft guilds, religious institutions, and a diverse working population, but it is not a metropolis or a continental capital. Its population is provisionally estimated at approximately 18,000 within the walls and immediate suburbs; the figure may be refined as districts and surrounding settlements are mapped.
+
+Tallowmere's importance comes from its position: ships moving across the inland sea can exchange cargo, crews, news, and passengers here, while the river connects the harbor to inland farms, estates, and market towns. The city is prosperous, but its prosperity depends on shipping seasons, safe routes, reliable storage, labor, and political stability. It is neither the richest nor the strongest port on the sea.
+
+### House Denvor and the Lordship of Tallowmere
+
+**House Denvor: ESTABLISHED MINOR HOUSE.** House Denvor is an old, respected human noble family whose hereditary seat, Greywatch, stands within Tallowmere's walls on the high ground overlooking the harbor. The house is locally powerful and regionally established, but has little influence in the affairs of the continent as a whole. It is not a seventh Great House and holds no automatic seat on the Imperial Council.
+
+The Denvors are traditional in matters of lineage, duty, and public reputation, but they are not hostile to commerce. They understand that Tallowmere's wealth depends on merchants, shipowners, craftspeople, dockworkers, and the movement of goods. Their preferred style of rule is cautious, personal, and negotiated: preserve the family's authority, keep the harbor functioning, prevent disorder from threatening trade, and avoid drawing the attention of greater powers unnecessarily.
+
+House Denvor's authority rests on a hereditary charter confirmed by House Kharadorn after the Great Rebellion. The Denvors govern Tallowmere and a modest surrounding territory in return for fixed obligations to the Kharadorn rulers: annual tribute, maintenance of harbor defenses, and provision of ships or supplies when called upon under the charter. Kharadorn retains strategic rights connected to the harbor and inland-sea defense, but does not administer the city's daily affairs. This makes Tallowmere locally governed while remaining within the Kharadorn sphere of influence.
+
+The charter gives House Denvor substantial authority, but not unlimited freedom. The family must balance its obligations to Kharadorn against the needs of the city and the interests of its own subjects. Kharadorn's attention is not constant; it becomes more immediate when strategic shipping, tribute, the harbor, or regional security is at stake.
+
+### City Government
+
+The Lord or Lady of Tallowmere is the city's hereditary ruler and final local authority. Day-to-day administration is carried out through appointed officers, including a town reeve, harbor master, chief magistrate, and captain of the watch. Their precise names, personalities, and jurisdictions will be developed in the civic cast.
+
+A chartered council of leading guilds, shipowners, property holders, and recognized civic officers advises the ruling house and negotiates matters affecting trade, public works, market privileges, and local taxation. It is not an independent parliament and cannot simply overrule the lord. Its influence comes from the practical reality that the city cannot prosper if its merchants, laborers, and shipowners refuse to cooperate.
+
+The city therefore has several overlapping kinds of power: hereditary authority at Greywatch, administrative authority exercised by appointed officers, economic influence held by guilds and wealthy merchants, and informal influence held by religious leaders, neighborhood figures, and other established communities. These powers cooperate when interests align and compete when they do not.
+
+### Design Notes
+
+- The ruling family's seat is inside the city, overlooking the harbor. This is deliberate: the house is a visible part of daily civic life, not a distant landlord.
+- The PCs are not presumed to want House Denvor's wealth, title, or territory. Those are possible outcomes of a sandbox, not an assigned campaign objective.
+- House Denvor is not designed as an automatic villain, a secretly incompetent paper tiger, or a guaranteed obstacle. Its members have their own goals and may become allies, patrons, rivals, or adversaries depending on events.
+- The city should contain meaningful routes to influence that do not require replacing the ruling family: commercial success, civic service, guild relationships, property, military reputation, religious patronage, and personal alliances.
+- The exact location on the final map, detailed charter text, current ruler and family members, population breakdown, districts, and local factions remain to be developed.

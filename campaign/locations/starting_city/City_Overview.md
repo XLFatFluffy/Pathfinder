@@ -150,3 +150,7 @@ The following dedicated records define the current civic framework:
 - [Civic NPCs](Civic_NPCs.md): initial cast of officials, merchants, religious figures, and ratfolk community contacts.
 
 These records establish the initial framework. Names, relationships, statistics, precise resources, and secrets can be expanded as the campaign requires. A proposed detail is not canon until explicitly established.
+
+- [City Layout and Defenses](City_Layout_and_Defenses.md): relative district placement, gates, harbor, river, roads, and defensive framework.
+- [Surrounding Region](Surrounding_Region.md): hinterland, agricultural and trade dependencies, roads, and regional settlement types.
+- [Current Situation and Rumors](Current_Situation_and_Rumors.md): active civic pressures and rumors circulating before the PCs' arrival.

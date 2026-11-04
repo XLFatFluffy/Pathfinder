@@ -72,3 +72,12 @@ Quiet, observant, and protective of route knowledge. Serren guides trusted trave
 
 ## Use of the Cast
 These are initial motivations, not complete biographies. Family ties, secrets, mechanical statistics, resources, and relationships can be developed when needed. NPCs respond to PC conduct and the passage of time rather than remaining static quest dispensers.
+
+
+### Miraq Ashwhisk
+**Role:** Alchemist and proprietor of Tallowmere Alchemical Supply | **Ancestry:** Ratfolk  
+Miraq is a capable, independent craftswoman who has built a small but respected surface business through skill, careful accounts, and persistence. She is observant, dry-humored, technically curious, and slow to trust people who treat her as a novelty or expect her to speak for all ratfolk. She knows Tikka Vell through local trade and occasionally buys repaired glassware and small fittings from Tikka.
+
+Miraq may become a professional contact, supplier, rival, confidante, or genuine friend to the ratfolk PC. Their shared ancestry and alchemical interests create natural common ground, but the relationship must develop through play. Miraq has her own customers, obligations, and views on how ratfolk should pursue acceptance. She will not automatically become a sidekick or hand over her trade secrets.
+
+See [Shopkeepers and Stock](Shopkeepers_and_Stock.md) for her shop's inventory, prices, and commercial practices.

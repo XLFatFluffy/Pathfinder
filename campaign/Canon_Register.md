@@ -35,7 +35,7 @@ This file tracks major setting decisions and their status. It does not replace d
 | Dragon-bond rules | ESTABLISHED | Eligible Targaryen blood was required; each rider could bond with one dragon through a telepathic connection. Eligibility depended on reproduction within the eligible bloodline. |
 | Dragons | ESTABLISHED | Enormous flying reptilian predators with strength, flight, and fire; not traditional intelligent, spellcasting Pathfinder dragons. Most died in the rebellion; surviving dragons' fate is unknown. |
 | Player character relationship | ESTABLISHED | The two PCs already know each other before Session One; exact relationship history and dynamic remain to be documented. |
-| Continent geography foundations | APPROVED / PARTIALLY ESTABLISHED | Larger-than-Westeros continental scale; central inland sea; Dragonstone island joined by a narrow land bridge; secret dwarven underground access; Khar-Dum in northeastern mountains; substantial defined Great House territories. Exact map, dimensions, borders, and names remain unresolved. |
+| Continent geography foundations | APPROVED / PARTIALLY ESTABLISHED | The continent is smaller than Westeros, with approved working dimensions of approximately 1,700 miles north to south and 1,300 miles east to west at its widest point; central inland sea; Dragonstone island joined by a narrow land bridge; secret dwarven underground access; Khar-Dum in northeastern mountains; and broad Great House territorial framework. Exact borders, coordinates, routes, and final names remain open. |
 | Legacy identities and names | APPROVED for reworking | The historical foundations are confirmed, but inherited labels such as Targaryen, Baratheon, Dragonstone, and Imperial Seat remain working names to be replaced with original identities. |
 | GM authority | ESTABLISHED | GM approves whether generated events become canon |
 
@@ -212,7 +212,7 @@ The factions are overlapping political networks, not formal parties. House affil
 
 - The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule.
 - The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish them as equals to, or greater than, other peoples. His family was killed by persecution; the vampire PC saved and raised him.
-- The vampire mesmerist's personal ambition remains unknown. His established connection is that he saved and raised the ratfolk alchemist. Tyler is the player's real-world name, not the vampire character's name.
+- The vampire mesmerist is the surviving heir and seeks to rebuild the fallen dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule. His further personal motives and methods remain for the player to establish. Tyler is the player's real-world name, not the vampire character's name.
 
 Do not invent PC identities, personal histories, motives, or methods. Full record: `Player_Character_Ambitions.md`.
 
@@ -226,3 +226,14 @@ Do not invent PC identities, personal histories, motives, or methods. Full recor
 - Do not invent additional mechanical prerequisites, penalties, or restrictions for convenience. Any house rule must be discussed and explicitly approved.
 - NPCs operate under the same mechanical framework as PCs. Their capabilities should have a plausible rules-based explanation.
 - Consequences should arise from established rules, the setting, and the choices of the PCs—not arbitrary permission gates or plot protection.
+
+
+## Tallowmere Starting Location and PC Arrival (2026-11-04)
+
+**Status: ESTABLISHED.** Tallowmere is the campaign's starting city. The two level-5 PCs arrive in Tallowmere at the beginning of Session One. They already know one another; they are not established residents, and no prior local contacts should be assumed unless later-supplied backstories establish them. The city identity, approximate population, House Denvor, Greywatch, local government, districts, commercial framework, Underways community concept, and civic records are established in the dedicated Tallowmere documents.
+
+**Still unresolved:** Exact campaign date; the precise circumstances and location of the PCs' arrival; the opening scene and immediate situation; first-session NPC encounters; the PCs' actual equipment, carried currency, special possessions, and detailed personal knowledge pending completed character sheets and backstories.
+
+The ratfolk community framework beneath Tallowmere is established in campaign/locations/starting_city/Ratfolk_Underways.md; its detailed neighborhood names, population, named leadership, customs, and precise settlement geography remain open. Do not treat the community itself as wholly undeveloped.
+
+| 2026-11-04 | Corrected the post-Rebellion monarch description, continental scale, vampire PC ambition, and established Tallowmere as the PCs' Session One arrival city. |

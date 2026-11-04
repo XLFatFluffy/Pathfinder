@@ -217,3 +217,8 @@ The Crown's current senior officers are Master of Coin Meredyth Sorn, Master of 
 The five court factions have identifiable current leaders: Queen Elowen Calderan (Royal Court); Lord Garrick Edarth (Traditionalists); Princess Maerelle Calderan (Royal Expansionists); Cassia Merrowen (Merchant Interests); and High Prelate Aveline Marr (Religious Establishment). Key associates and faction tensions are recorded in `Court_and_Council.md`. The factions remain overlapping networks, not formal parties. Religious authorities have no automatic Council seat.
 
 The Council's exact voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved. The intelligence network's size and the royal military's precise composition also remain unresolved.
+
+
+## Player Character Ambitions (Established, 2026-11-04)
+
+The party is not assumed to be heroic. The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, accumulate the wealth, influence, and military strength to do so, confront House Kharadorn, retake Dragonstone, and restore his family's rule. The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish ratfolk as equals to or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him. The vampire's own ambition is not yet established. Tyler is the vampire player's real-world name, not the character's name. See `Player_Character_Ambitions.md`.

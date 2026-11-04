@@ -172,3 +172,27 @@ These are overlapping jurisdictions rather than a clean set of modern borders. R
 - Whether the wider regional map includes another settlement or major road junction not yet described.
 
 Until a scaled map is approved, use the relative arrangement and approximate travel times in this document consistently.
+
+## 11. Regional Reference Map — 4 November 2026
+
+The GM-provided regional illustration titled **The Lands About Tallowmere** is accepted as the current visual reference for the broad relative arrangement of the region.
+
+The illustration agrees with the established framework in the following respects:
+- Tallowmere occupies the northwestern shore of the Inland Sea at the mouth of the River Vale.
+- The River Vale approaches from the west and northwest, passing Millhaven before reaching Tallowmere.
+- Fordmere lies farther upstream.
+- Brackenwood and Brackenholt lie west of the city; the Western Uplands rise farther west.
+- Stonehollow and the Greyback Ridges lie southwest.
+- The Northfields and Ashcombe Manor lie north and northeast.
+- Saltwick lies along the southeastern shore.
+- Harthbridge lies south, along the route toward the southern jurisdictions.
+
+The map is a **relative-layout illustration, not a surveyed scale map**. Its printed 0–100 mile scale bar is inconsistent with the established journey distances in Section 7. For example, the visual separation between Tallowmere and Millhaven is far greater than the documented 9-mile route. Do not use the printed scale bar to calculate distances, travel times, or settlement coordinates.
+
+Until a properly scaled regional map is produced:
+1. Use this illustration for relative direction, terrain arrangement, and broad settlement placement.
+2. Use the written route distances and travel assumptions in Section 7 for play.
+3. Do not infer exact borders, coordinates, road lengths, river widths, or property boundaries from the illustration.
+4. Treat minor visual details not described in the written records as cartographic decoration rather than new canon.
+
+The printed scale bar should be removed or corrected before the illustration is presented as a measured map. No written settlement distance is changed by this map review.

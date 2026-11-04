@@ -12,6 +12,7 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
   const housesHref = role === "gm" ? "/gm/houses" : "/player/houses";
   const factionsHref = role === "gm" ? "/gm/factions" : "/player/factions";
   const questsHref = role === "gm" ? "/gm/quests" : "/player/quests";
+  const sessionsHref = role === "gm" ? "/gm/sessions" : "/player/sessions";
 
   return (
     <nav aria-label="Campaign navigation" className="workspace-nav">
@@ -23,6 +24,7 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
       <Link href={housesHref}>{role === "gm" ? "Noble houses" : "Known houses"}</Link>
       <Link href={factionsHref}>{role === "gm" ? "Factions" : "Known factions"}</Link>
       <Link href={questsHref}>{role === "gm" ? "Quests" : "Campaign quests"}</Link>
+      <Link href={sessionsHref}>{role === "gm" ? "Session logs" : "Session history"}</Link>
       <Link href={atlasHref}>{role === "gm" ? "Atlas" : "Explore atlas"}</Link>
       <Link href={mapsHref}>{role === "gm" ? "Map library" : "Shared maps"}</Link>
       {role === "player" ? <Link href="/player/notes">My notes</Link> : null}

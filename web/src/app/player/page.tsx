@@ -20,6 +20,7 @@ export default async function PlayerPage() {
     { count: houseCount, error: houseCountError },
     { count: factionCount, error: factionCountError },
     { count: questCount, error: questCountError },
+    { count: sessionCount, error: sessionCountError },
     { data: entries, error: entriesError },
   ] = await Promise.all([
     supabase
@@ -56,6 +57,10 @@ export default async function PlayerPage() {
       .select("id", { count: "exact", head: true })
       .eq("campaign_id", member.campaign_id),
     supabase
+      .from("campaign_sessions")
+      .select("id", { count: "exact", head: true })
+      .eq("campaign_id", member.campaign_id),
+    supabase
       .from("campaign_journal_entries")
       .select("id, title, content, campaign_date, created_at")
       .eq("campaign_id", member.campaign_id)
@@ -86,6 +91,9 @@ export default async function PlayerPage() {
   }
   if (questCountError) {
     throw new Error(`Unable to count shared quests: ${questCountError.message}`);
+  }
+  if (sessionCountError) {
+    throw new Error(`Unable to count shared sessions: ${sessionCountError.message}`);
   }
   if (entriesError) {
     throw new Error(`Unable to load campaign journal entries: ${entriesError.message}`);
@@ -126,6 +134,11 @@ export default async function PlayerPage() {
           <span className="eyebrow">Adventure</span>
           <strong>Campaign quests</strong>
           <span className="muted">{questCount ?? 0} shared quests</span>
+        </Link>
+        <Link className="player-resource-card" href="/player/sessions">
+          <span className="eyebrow">Chronicle</span>
+          <strong>Session history</strong>
+          <span className="muted">{sessionCount ?? 0} shared recaps</span>
         </Link>
         <Link className="player-resource-card" href="/player/atlas">
           <span className="eyebrow">Explore</span>

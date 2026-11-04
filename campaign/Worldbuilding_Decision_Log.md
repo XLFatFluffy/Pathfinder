@@ -189,3 +189,12 @@ The present political climate includes a monarch seeking greater authority witho
 **Reason:** The GM approved the proposed Stage 6 government and court framework and requested that it be canonized before development continued.
 **Still unresolved:** Monarch and officeholder identities; royal force composition; Council procedures; representatives; faction leadership, membership, and relative influence; and the religious institutions and doctrines represented by the Religious Establishment.
 **Affected records:** Campaign Bible, Canon Register, Current World State, and future court/setting references.
+
+
+### 2026-11-04 — Stage 7: Religion, Faith, and Religious Institutions approved
+**Status:** ESTABLISHED
+**Decision:** The GM approved the Stage 7 framework. The continent broadly recognizes the Pathfinder pantheon, while worship varies across regions, cultures, communities, and individuals; no single god is universally dominant. Major faiths maintain independent hierarchies rather than answering to one supreme religious authority. Clergy and divine spellcasters are distinct, and divine spellcasters remain uncommon. Religious institutions may wield significant social and political influence without universally governing secular territories or automatically overruling secular law. The Religious Establishment has a recognized and growing presence at the royal court but no automatic Imperial Council seat. An independent scholarly tradition exists outside religious hierarchies, though it may cooperate with them. The Great Houses have broad religious tendencies but no exclusive patron deities or uniform doctrines. Religious tensions may involve secular authority, competing interpretations, wealth, heresy, and divine power.
+
+**Reason:** The GM approved the Stage 7 proposal and instructed that worldbuilding continue with approved lore recorded in GitHub.
+**Still unresolved:** Divine magic's precise mediation; major religious institutions and leaders; regional prominence of gods; scholarly order's name and organization; religious courts' legal authority; and religion's precise influence over secular law, marriage, inheritance, and coronation.
+**Affected records:** Campaign Bible, Canon Register, Current World State, and the new `Religion_and_Faith.md` reference.

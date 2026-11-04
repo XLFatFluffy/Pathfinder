@@ -220,3 +220,10 @@ The GM-provided regional illustration **The Lands About Tallowmere** is now the 
 The illustration's printed scale bar is not reliable and must not override the written journey distances. The regional geography record explains the discrepancy and establishes how the map is to be used. A properly scaled regional map and a separate detailed city map remain future cartographic work.
 
 Tallowmere's city framework is substantially developed across its dedicated records: districts and defenses, streets and landmarks, government and law, history, factions, commerce, guilds, shops and inventories, workforce, housing, ratfolk community, religion, crime, surrounding settlements, regional geography, and wilderness. Remaining city work should focus on reconciling outstanding details, filling specific institutional gaps, and preparing the city for actual play rather than reopening established foundations.
+
+
+## Civic Institutions and Daily Rhythms — 2026-11-04
+
+**CURRENT STATUS: LOCAL INSTITUTIONAL FRAMEWORK COMPLETE AT THE INITIAL SANDBOX LEVEL.** The city's specific temples and clergy are documented in [Local Religion and Institutions](Local_Religion_and_Institutions.md); the seven-seat advisory council and its procedures in [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md); Kharadorn's resident charter representative and strategic presence in [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md); named fragmented criminal operators in [Criminal Operators and Networks](Criminal_Operators_and_Networks.md); and ordinary daily and seasonal routines in [Civic Calendar and Seasonal Routines](Civic_Calendar_and_Seasonal_Routines.md).
+
+The formal world calendar remains unresolved. These records deliberately avoid fixed month names, weekday names, year length, or a campaign date. Tallowmere is now sufficiently developed for broad sandbox play; its remaining work is primarily map integration, session-opening preparation, and refinement through actual play rather than foundational institution design.

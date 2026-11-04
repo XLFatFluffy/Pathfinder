@@ -198,3 +198,12 @@ The present political climate includes a monarch seeking greater authority witho
 **Reason:** The GM approved the Stage 7 proposal and instructed that worldbuilding continue with approved lore recorded in GitHub.
 **Still unresolved:** Divine magic's precise mediation; major religious institutions and leaders; regional prominence of gods; scholarly order's name and organization; religious courts' legal authority; and religion's precise influence over secular law, marriage, inheritance, and coronation.
 **Affected records:** Campaign Bible, Canon Register, Current World State, and the new `Religion_and_Faith.md` reference.
+
+
+### 2026-11-04 — Stage 8: Current Great House Rulers approved
+**Status:** ESTABLISHED
+**Decision:** The GM delegated the final selection of current Great House rulers and immediate family structures to the assistant, approved the proposed direction, and instructed continued development. The six current rulers, immediate families, designated heirs, succession tensions, and key ruler-to-ruler dynamics are established in `House_Rulers.md`.
+
+**Reason:** Establish a usable political cast with distinct leadership styles and family pressures before developing the opening campaign region. Succession conflicts are intentionally varied rather than duplicated across all houses.
+**Still unresolved:** Wider family trees, Imperial Council representatives, household officers and commanders, and additional branch members.
+**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `House_Rulers.md`.

@@ -29,3 +29,8 @@ Crime can create investigations, bargains, rivalries, dangerous jobs, and opport
 
 ## Open Details
 Named criminal groups, operators, safehouses, corrupt officials, and the scale of illicit markets remain unresolved. Do not assign the entire underworld to one master villain.
+
+
+## Named Operators — 2026-11-04
+
+The first named criminal operators and fragmented networks are recorded in [Criminal Operators and Networks](Criminal_Operators_and_Networks.md). They do not form a unified syndicate, control the Underways, or represent any ancestry or district. Their activities remain subject to evidence, local law, and ordinary Pathfinder mechanics.

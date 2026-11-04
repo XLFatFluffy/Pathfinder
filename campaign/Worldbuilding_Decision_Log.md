@@ -172,3 +172,20 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Reason:** The GM approved the Political Atlas proposal and requested canonization before continuing development.
 **Still unresolved:** Exact borders, coordinates, river and road courses, map scale calibration, travel times, population, individual minor-house identities and holdings, local port jurisdictions, the precise appearance/history of the Imperial Seat, and detailed military/legal arrangements.
 **Affected records:** Campaign Bible, Canon Register, Current World State, and future political map.
+
+
+### 2026-11-04 — Stage 6: Imperial Court and Government approved
+**Status:** ESTABLISHED
+**Decision:** The GM approved the proposed structure of the Crown, royal household, Imperial Council, five court factions, and current political climate.
+
+The established royal offices are Royal Chancellor, Master of Coin, Master of Laws, Master of War, Royal Spymaster, and Lord Chamberlain. These officials serve the Crown; Great Houses and factions seek influence over appointments. The Crown maintains a permanent household guard and a distinct royal military force, sufficient for protecting Valedorn and ordinary royal authority but not assumed capable of defeating all six Great Houses together.
+
+The Imperial Council has six permanent seats, one appointed by each Great House. The monarch presides without an additional Great House seat. The Council addresses inter-house disputes, extraordinary taxation, major military levies and wars, significant treaties, recognition of royal succession, relations with the dwarven empire, and laws affecting Great House privileges. It is an aristocratic negotiating body, not a modern parliament. Exact procedures and legal powers remain unresolved.
+
+Five overlapping court movements are established: Royal Court, Traditionalists, Royal Expansionists, Merchant Interests, and Religious Establishment. Membership is not determined by Great House affiliation, and these movements need not be formal organizations.
+
+The present political climate includes a monarch seeking greater authority without provoking rebellion; Great Houses competing privately while upholding the settlement publicly; Kharadorn's independence and distrust; Vaelorian-Merrowen commercial competition; Edarth and Veyr's different concerns about centralization; growing influence of the Religious Establishment; and weak Crown control in the southern reaches.
+
+**Reason:** The GM approved the proposed Stage 6 government and court framework and requested that it be canonized before development continued.
+**Still unresolved:** Monarch and officeholder identities; royal force composition; Council procedures; representatives; faction leadership, membership, and relative influence; and the religious institutions and doctrines represented by the Religious Establishment.
+**Affected records:** Campaign Bible, Canon Register, Current World State, and future court/setting references.

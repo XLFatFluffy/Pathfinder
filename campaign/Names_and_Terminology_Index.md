@@ -251,3 +251,10 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Deren Holt | Person / charcoal factor | ESTABLISHED | Western upland charcoal supplier to Orsik Feld; recent price increase disputed by Orsik. |
 | Rusk & Fen | Business / wholesaler | ESTABLISHED | Caravan equipment wholesaler whose climbing gear quality is questioned by Mara Venn; deliberate substitution unproven. |
 | Tallowmere merchant disputes | Campaign situation | ESTABLISHED | Specific debts, supply disagreements, and contract pressures recorded in Merchant Personalities and Disputes; not a unified conspiracy. |
+
+## Tallowmere — Commercial Infrastructure (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Commercial Property and Premises | Campaign reference | ESTABLISHED | District uses, typical commercial rents, available premises, market stall allocation, lease checks, and workshop safety recorded in `Commercial_Property_and_Premises.md`. |
+| Guild Membership and Trade Rules | Campaign reference | ESTABLISHED | Membership categories, customary dues, guild services and limits, civic trade rules, and hiring principles recorded in `Guild_Membership_and_Trade_Rules.md`. |

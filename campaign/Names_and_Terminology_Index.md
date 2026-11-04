@@ -399,3 +399,10 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Selwick & Company | Merchant concern | ESTABLISHED | Tallowmere trading firm dealing in cloth, household wares, lamp oil, metal fittings, and provisions. |
 | House Relland and the Merchant Incident | Campaign reference | ESTABLISHED | GM-facing history of the ratfolk PC's family tragedy and the Relland household's cover-up. |
 | Selwick Merchant Contact | Campaign reference | ESTABLISHED | Tavren Selwick, his wagon, the conditional reward, and the PCs' first commercial introduction to Tallowmere. |
+
+
+## Session Readiness (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Session One GM Readiness Packet | GM reference | ESTABLISHED | Table-ready Tallowmere opening, city quick reference, key NPCs, active pressures, sandbox opportunities, world-state rhythm, and pre-session checklist. Troll balance remains pending final character sheets and companion build. |

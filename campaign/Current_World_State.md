@@ -152,3 +152,26 @@ Veyr depends on southern grain and support; Vaelorian on food, labor, and mariti
 Valedorn is the established capital of the current monarchy. The Imperial Seat is both a physical throne and a political institution/symbol representing royal authority, dynastic legitimacy, and the post-Rebellion settlement. The palace grew around an older royal fortress and reflects successive dynastic building periods.
 
 **Remaining open:** exact borders, coordinates, river and road courses, travel times, population, individual minor houses, local port jurisdictions, and the precise appearance/history of the Imperial Seat. The map's scale bar remains uncalibrated and should not be used to calculate distances.
+
+
+## Stage 6 — Government and Court (Established, 2026-11-04)
+
+The current monarchy governs through royal officers, a permanent household guard, and a distinct royal military force. The established royal offices are Royal Chancellor, Master of Coin, Master of Laws, Master of War, Royal Spymaster, and Lord Chamberlain. These officials serve the Crown, though Great Houses and court factions seek influence over appointments. The Crown's forces can protect Valedorn and uphold ordinary royal authority but are not presumed capable of defeating all six Great Houses acting together.
+
+The Imperial Council has six permanent seats, one appointed by each Great House. A representative need not be the house ruler. The monarch presides but holds no additional Great House seat. The Council addresses inter-house disputes, extraordinary taxation, major military levies and wars, significant treaties, recognition of royal succession, relations with the dwarven empire, and laws affecting Great House privileges. It is an aristocratic negotiating body, not a modern parliament. Its precise procedures and legal powers remain open.
+
+Five overlapping political movements operate within the court:
+- **Royal Court:** stability and compromise.
+- **Traditionalists:** preservation of Great House rights and independence.
+- **Royal Expansionists:** stronger royal authority and reduced Great House autonomy.
+- **Merchant Interests:** protection of commerce, trade privileges, and financial stability.
+- **Religious Establishment:** preservation and expansion of organized religious authority.
+
+Faction membership is not determined by Great House affiliation. Members of one house may support different movements, and individuals may cooperate across factions on particular issues.
+
+Valedorn is the principal arena for Crown administration, Great House diplomacy, merchants, religious authorities, and factional competition. Its river port connects the inland capital to wider trade networks.
+
+### Current political climate
+The monarch seeks to strengthen royal authority without provoking another rebellion. The Great Houses publicly uphold the post-Rebellion settlement while privately competing for influence. Kharadorn remains independent and distrustful of the Crown. Vaelorian and Merrowen compete for commercial influence. Edarth and Veyr are wary of royal centralization for different reasons. The Religious Establishment is gaining influence in court affairs. The southern territories remain difficult for the Crown to control.
+
+**Still unresolved:** identities of the monarch and royal officeholders; exact composition of the royal forces; Council voting and legal procedures; representatives; faction leaders and membership; and the religious institutions and doctrines represented by the Religious Establishment.

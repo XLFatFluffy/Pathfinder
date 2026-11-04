@@ -28,3 +28,8 @@ Religious leaders may disagree about poverty, prejudice, warfare, burial, charit
 
 ## Open Details
 The exact local pantheon represented, temple names, holy days, clergy, theological disagreements, and religious histories remain open. Established Great House and Imperial Court religious figures should not be reassigned here without reason.
+
+
+## Local Tallowmere Institutions — 2026-11-04
+
+The city's specific temples, clergy, local religious tensions, and limits on local religious authority are recorded in [Local Religion and Institutions](Local_Religion_and_Institutions.md). This local record applies the established continental pantheon and does not make every priest a spellcaster or grant temples general secular jurisdiction.

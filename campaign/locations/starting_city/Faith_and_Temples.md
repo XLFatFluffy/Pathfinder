@@ -1,6 +1,6 @@
 # Tallowmere: Faith and Temples
 
-**Status:** Established framework; specific local clergy and institutions remain open.
+**Status:** Established framework; local institutions and clergy established in Local_Religion_and_Institutions.md.
 
 ## Religious Character
 The gods are real, but divine spellcasters are uncommon and most residents will not regularly witness divine magic. Religious life is expressed through worship, rites, festivals, burial customs, charity, vows, education, and community institutions.
@@ -27,7 +27,7 @@ Divine magic exists and the gods are real. Clerics, oracles, and other divine pr
 Religious leaders may disagree about poverty, prejudice, warfare, burial, charity, and rulers' obligations. They may advise House Denvor, criticize it, or avoid politics. Influence depends on congregation, reputation, resources, and service. Religious differences do not automatically map onto ancestry or class.
 
 ## Open Details
-The exact local pantheon represented, temple names, holy days, clergy, theological disagreements, and religious histories remain open. Established Great House and Imperial Court religious figures should not be reassigned here without reason.
+Tallowmere's local temples, clergy, and current religious tensions are established in Local_Religion_and_Institutions.md. Exact service schedules, temple finances, regional superiors, historical religious disputes, and the formal calendar dates of observances remain open. Established Great House and Imperial Court religious figures should not be reassigned here without reason.
 
 
 ## Local Tallowmere Institutions — 2026-11-04

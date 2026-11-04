@@ -62,3 +62,10 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 - How many minor houses exist, what are their names and holdings, and to whom does each owe allegiance? Minor houses are established as wealthy local lords and ladies with small territories but little continent-wide political significance.
 - What are the precise route, entrances, extent, and construction history of the dwarven underground tunnel system to Dragonstone? Which dwarves know of it? **GM-ONLY SECRET:** The system exists; the rest of the world does not know.
 - What are the final locations of major rivers, lakes, roads, ports, cities, and independent territories?
+
+
+## Stage 8 — Current Rulers and Succession
+
+**RESOLVED:** Current rulers and immediate families of all six Great Houses, including designated heirs and principal succession tensions, are established in `House_Rulers.md` (2026-11-04).
+
+**Still open:** Wider family trees and collateral branches; individual Imperial Council representatives; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded.

@@ -136,3 +136,17 @@ The Kharadorn connection is real but not omnipresent. Dwarven representatives an
 ## Campaign Use
 
 Tallowmere is designed to support multiple styles of play: commerce and crafting, exploration, faction relationships, investigation, local politics, travel, hirelings, property, and dangerous expeditions beyond the walls. No district is reserved for a single quest, and no faction exists solely to recruit or oppose the PCs. The city should continue changing when the PCs are elsewhere.
+
+
+## Supporting City Records
+
+The following dedicated records define the current civic framework:
+
+- [Government and Law](Government_and_Law.md): lordship, charter, civic offices, council, courts, security, and revenue.
+- [Guilds and Commerce](Guilds_and_Commerce.md): commercial associations, trade interests, magical commerce, and player-business opportunities.
+- [Ratfolk and the Underways](Ratfolk_Underways.md): community structure, livelihoods, surface relations, and internal differences.
+- [Faith and Temples](Faith_and_Temples.md): religious life, institutions, charity, and divine magic availability.
+- [Crime and Informal Power](Crime_and_Informal_Power.md): illicit trade, corruption, informal influence, and criminal activity.
+- [Civic NPCs](Civic_NPCs.md): initial cast of officials, merchants, religious figures, and ratfolk community contacts.
+
+These records establish the initial framework. Names, relationships, statistics, precise resources, and secrets can be expanded as the campaign requires. A proposed detail is not canon until explicitly established.

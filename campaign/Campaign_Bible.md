@@ -3,7 +3,16 @@ PATHFINDER CAMPAIGN BIBLE
 MASTER EDITION
 Campaign Setting: Original Pathfinder First Edition Fantasy World
 Document Status: Living Master Reference
-Last Updated: November 3, 2026
+Last Updated: November 4, 2026
+
+
+DOCUMENT CONTROL — CANON PRECEDENCE (UPDATED NOVEMBER 4, 2026)
+
+This master document contains imported source material and later approved additions. Some older paragraphs and unresolved-topic lists have not yet been fully consolidated. Do not treat every statement in this file as equally current. Later GM-approved stages and dedicated current records supersede earlier brainstorming, imported text, and older statements that describe already-settled subjects as undecided.
+
+For current continuity, use `Current_World_State.md`. For approved Great House identities and political foundations, use the latest approved Stage 5 material and the dedicated records. Current rulers and immediate families are in `House_Rulers.md` (Stage 8). Imperial Council representatives, Crown officers, and court-faction leaders are in `Court_and_Council.md` (Stage 9). Religion and faith are in `Religion_and_Faith.md` (Stage 7). Unresolved matters are tracked in `Open_Questions_Register.md`.
+
+Canon hierarchy: (1) explicit GM decisions in conversation; (2) latest approved stage/decision record; (3) current dedicated lore reference; (4) `Current_World_State.md`; (5) older Campaign Bible/source material; (6) unapproved brainstorming. A later approved decision supersedes an earlier statement on the same subject. Do not resolve PC-specific mysteries or alter protected PC facts without explicit GM approval.
 
 
 PART I: WORLD FOUNDATIONS

@@ -9,7 +9,7 @@
 - Confirm the opening premise and why the two PCs are together.
 - Identify first-session-critical unknowns.
 - Keep the continuity records current.
-- The six Great Houses and their core political identities are now established. Do not attempt to finish the continent or assign every house its final territory before geography is developed.
+- The six Great Houses, their core identities, broad territorial arrangement, and principal seats are established. Do not reopen these decisions; continue with exact borders and cartographic details as needed.
 
 ### Nov 4 — Starting region and city
 - Establish the city name, location, government, and immediate political situation.
@@ -55,13 +55,13 @@
 - Develop the local roles of established noble houses, rulers, succession claims, resources, and alliances as they become relevant.
 - Establish how local events connect to wider politics.
 - Build ratfolk communities and underground connections where play makes them relevant.
-- Develop regional religions and institutions while preserving uncertainty about the gods.
+- Develop regional religions and institutions. The Pathfinder gods' existence is established; the means by which divine magic is granted remains unresolved.
 
 **Exit condition:** The party can travel beyond the starting city and encounter a coherent regional power structure.
 
 ## Milestone 3 — Wider world and historical foundations (ongoing)
-- Finalize detailed continent geography and political borders. Stage 5 foundations are approved: the continent is substantially larger than Westeros; the central inland sea remains; Dragonstone is an island connected by a narrow land bridge, with a GM-only secret dwarven underground route; Khar-Dum lies in the northeastern mountains; and each Great House controls a substantial, clearly defined territory.
-- The six Great Houses are established: Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen. Continue developing their territories, seats, rulers, branches, and histories as geography and play require.
+- Finalize detailed continent geography and political borders. Stage 5 geography foundations are approved: the continent is approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, smaller than Westeros; the central inland sea remains; Dragonstone is an island connected by a narrow land bridge, with a GM-only secret dwarven underground route; Khar-Dum lies in the northeastern mountains; and each Great House controls a substantial, clearly defined territory.
+- The six Great Houses are established: Vaelorian, Kharadorn, Edarth, Calderan, Veyr, and Merrowen. Their broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and court-faction leaders are also established. Continue with exact borders, wider family branches, detailed histories, and local consequences as geography and play require.
 - Develop the dwarven empire around Khar-Dum and its conquered possession of Dragonstone; do not treat the dwarves as fragmented successor territories.
 - Develop the elven political and economic power centered on House Vaelorian.
 - Establish the history of the fallen dragon-riding dynasty in layers: public history, disputed accounts, and GM truth.
@@ -101,7 +101,7 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Approved six original Great Houses and their core identities, words, sigils, political aims, rebellion motives, and relationships.
 - Established House Calderan as the current human ruling dynasty.
 - Established Khar-Dum as the Kharadorns' ancestral homeland and Dragonstone as the conquered former stronghold of the fallen dragon-riding dynasty.
-- Remaining work: precise geography, territories, seats, current house heads and heirs, and the Imperial Council and faction membership.
+- Remaining work: exact borders and cartography, wider family trees, detailed histories, Council procedures, faction membership and influence, and local political consequences. Stages 5, 8, and 9 have established territories/seats, current rulers/heirs, Council representatives, Crown officers, and faction leaders.
 
 
 ## Completed worldbuilding stage — Geography foundations and revised map direction (Nov 3, 2026)
@@ -112,5 +112,14 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Khar-Dum remains in the northeastern mountain system, separate from Dragonstone. The dwarven empire should appear comparatively limited on the surface, with its true reach primarily subterranean.
 - Keep the southern reaches politically fragmented.
 - Established minor houses as wealthy local lords and ladies with small territories and little continent-wide political significance. Their names, holdings, and allegiances remain open.
-- The specific proposed regional placements for the six Great Houses remain provisional until the revised map is reviewed.
+- The broad territorial arrangement and principal seats were approved in Stage 5 on 2026-11-04. Exact borders, coordinates, and local jurisdictions remain provisional until cartographic review.
 - Next: generate and review the revised continent map in a separate conversation; then settle exact terrain, regional names, borders, house seats, minor holdings, rivers, roads, and ports.
+
+
+## Completed worldbuilding stages — Government, religion, rulers, and court (Nov 4, 2026)
+- **Stage 6 — Government and Court:** Established the Crown's royal offices and forces, the six-seat Imperial Council, and five overlapping court factions. Exact Council procedures and full faction membership remain open.
+- **Stage 7 — Religion and Faith:** Established that the Pathfinder gods are real, the broad religious framework, the distinction between clergy and divine spellcasters, and the limits of religious political authority. The source of divine magic and detailed institutions remain open.
+- **Stage 8 — Great House Rulers:** Established current rulers, immediate families, designated heirs, succession tensions, and ruler-to-ruler dynamics in `House_Rulers.md`.
+- **Stage 9 — Imperial Council and Royal Court:** Established Council representatives, Crown officers, faction leaders, and key associates in `Court_and_Council.md`.
+
+These stages supersede earlier roadmap statements that treated these frameworks as future work or unresolved. They do not resolve the remaining details explicitly listed as open in the dedicated records.

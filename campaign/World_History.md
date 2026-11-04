@@ -1,9 +1,9 @@
 # World History
 
 **Status:** ESTABLISHED HISTORICAL FOUNDATION / CHRONOLOGY INCOMPLETE  
-**Last reviewed:** 2026-11-03
+**Last reviewed:** 2026-11-04
 
-This record separates confirmed historical facts from dates, names, and political details that remain undecided. Legacy names such as House Targaryen, House Kharadorn, and Dragonstone are working labels inherited from the source Campaign Bible; they are not necessarily the final names of the original setting.
+This record separates confirmed historical facts from dates, names, and political details that remain undecided. House Kharadorn is an approved original Great House name. The fallen dragon-riding dynasty's name and Dragonstone's name remain provisional working labels pending replacement. The Imperial Seat is an established institutional term, though its final in-world naming may still be refined.
 
 ## Established historical foundation
 
@@ -63,19 +63,19 @@ The relative sequence is established. The Great Rebellion occurred approximately
 8. The dwarven leader and the Kharadorn house hold power in the immediate aftermath of the fall.
 9. The same dwarven leader remains in power for more than a century, until his death.
 10. His successor inherits his authority, but a succession crisis follows.
-11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; the head of another of the original six rebel Great Houses is installed as a compromise candidate and becomes the current puppet monarch.
+11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; the head of another of the original six rebel Great Houses is installed as a compromise candidate and becomes the current monarch. Earlier summaries describe him as a puppet, but current canon establishes his legitimate hereditary claim and substantial formal authority; the practical constraints and sources of influence remain unresolved.
 12. The dwarven successor reluctantly accepts the arrangement, returns to Dragonstone, and continues ruling the dwarven clans.
 13. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.
 
 ## Still unresolved
 
-- The original names, heraldry, and distinct identities that will replace the inherited legacy labels.
+- The original name, heraldry, and distinct identity of the fallen dragon-riding dynasty; House Kharadorn is an approved original Great House name, while Dragonstone remains a provisional place-name.
 - The exact calendar year of the Great Rebellion, and the exact dates of the dynasty's rise and fall (the rebellion is approximately 200–300 years before the present campaign).
 - The individual roles of the six rebel Great Houses in specific campaigns and battles.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
 - The exact calendar dates of the dwarven leader's more-than-century-long rule and the subsequent succession crisis.
-- Who actually controls or influences the Calderan puppet monarch, and what were the precise political and military events surrounding the threatened war and installation of the compromise candidate.
-- The current ruling dynasty's name, its capital, and its relationship with the other major houses.
+- What forces, relationships, and political dependencies constrain or influence King Aldric Calderan, and what were the precise political and military events surrounding the threatened war and installation of the compromise candidate. Avoid assuming a single controller or that the dwarves control him.
+- The original name of the fallen dragon-riding dynasty; the current ruling dynasty is House Calderan and its capital is Valedorn.
 - The ultimate fate of dragons that escaped the rebellion.
 - Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified.
 
@@ -103,10 +103,10 @@ The houses shared enemies during the rebellion but did not share a single vision
 
 ## Remaining historical uncertainties
 
-The houses' precise territorial locations, seats, current heads and heirs, detailed roles in individual campaigns of the Great Rebellion, and the later development of their rivalries remain open. The final names of the fallen dragon-riding dynasty, Dragonstone, and the Imperial Seat are also still to be determined.
+Exact borders, coordinates, local jurisdictions, and geographic names remain open. Current Great House seats, broad territorial spheres, rulers, heirs, Imperial Council representatives, Crown officers, and court-faction leaders are established in the Stage 5, Stage 8, and Stage 9 records and their dedicated references. The detailed role of each house in individual Rebellion campaigns, the precise post-Rebellion succession chronology, and the later development of rivalries remain open. The fallen dragon-riding dynasty's original name and the final name of Dragonstone remain to be determined. The Imperial Seat is an established physical and political institution; its detailed appearance and construction history remain open.
 
 
 **Ruling-house clarification:** House Calderan is the established identity of the human Great House that took the Imperial Seat and supplied the compromise monarch. The monarch's controllers and the precise details of the settlement remain unresolved.
 
 
-**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously recorded under the legacy placeholder House Baratheon. Older references to House Baratheon are superseded. Dragonstone remains the provisional working name of the conquered former Targaryen stronghold; Khar-Dum is the Kharadorns' ancestral homeland.
+**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House; older references to House Baratheon are superseded. Dragonstone remains the provisional working name of the conquered former stronghold of the fallen dragon-riding dynasty; Khar-Dum is the Kharadorns' ancestral homeland.

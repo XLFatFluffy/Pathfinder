@@ -203,3 +203,7 @@ The document deliberately leaves exact dates, the earliest settlement name, spec
 **CURRENT STATUS: INITIAL REGIONAL SETTLEMENTS ESTABLISHED.** The first playable communities around Tallowmere, including their approximate populations, local authorities, trade roles, and current concerns, are recorded in [Regional Settlements and Landholders](Regional_Settlements_and_Landholders.md). The initial set includes Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge.
 
 This develops the regional framework beyond generic settlement types. Exact map positions, boundaries, and distances remain provisional pending the final regional map.
+
+## Regional Geography — 2026-11-04
+
+**CURRENT STATUS: WORKING REGIONAL GEOGRAPHY ESTABLISHED.** The River Vale's broad course and tributaries, Brackenwood, Greyback Ridges, Northfields, Eastern Shore, regional road connections, crossings, and named landmarks are recorded in [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md). This provides a consistent text-based travel region while exact coastline, coordinates, and boundaries remain provisional.

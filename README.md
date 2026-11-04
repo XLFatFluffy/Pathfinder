@@ -6,6 +6,11 @@ Pathfinder is a campaign management application for a custom Pathfinder First Ed
 
 Included so far:
 - Cloud foundation in `web/`: Next.js, Supabase Auth, GM/player route separation, and database-enforced campaign access
+- Cloud campaign journal with GM create/edit/delete and player-visible entries
+- Cloud locations with parent links, player descriptions, private GM notes, and guarded editing/deletion
+- NPC profiles with player-known visibility, linked locations, GM-only notes, and dated status history
+- Noble-house profiles with linked rulers and seats, player-facing descriptions, and isolated GM political details
+- Player campaign dashboard with shared journal, discoveries, atlas, maps, and private per-player notes
 - Cloud map library and interactive atlas with map hierarchy, linked locations, pan/zoom, GM-managed markers and regions/routes, resumable artwork uploads/replacement, and player-shared maps
 - Version-controlled Supabase migrations and RLS tests for journal, location, map, and marker access
 - Express server serving a local desktop web app
@@ -47,16 +52,27 @@ The cloud app runs on port 3001 so it can coexist with the existing local app on
 
 Email signup is disabled in local Supabase configuration. The GM account is created administratively; players cannot register themselves or assign their own roles. The browser only receives the Supabase anon/publishable key. Do not put a service-role key in `web/.env.local` or any `NEXT_PUBLIC_` variable.
 
+To add a player, create their account administratively in Supabase Auth, then assign it to the campaign as a player:
+
+```sql
+insert into public.campaign_members (campaign_id, user_id, role)
+select id, 'REPLACE-WITH-PLAYER-USER-UUID'::uuid, 'player'
+from public.campaigns
+where id = '00000000-0000-4000-8000-000000000001';
+```
+
+The player can then sign in with the email and password set for that account. The GM and player use the same sign-in page; Pathfinder routes each account to its role-specific workspace.
+
 Run the cloud type check and production build with `npm run cloud:typecheck` and `npm run cloud:build`. Run the database RLS tests with `npx supabase test db`.
 
-The cloud foundation now includes sign-in, GM/player route separation, journal visibility enforced by row-level security, linked location records, a private cloud map library, and an interactive atlas. The GM can create locations with parent links, player-facing descriptions, visibility settings, and private notes. Private location notes live in a separate table that players cannot read, even when the location itself is visible. The GM can upload and replace PNG, JPEG, WebP, or GIF maps up to 100 MB, connect them to locations, organize maps into a hierarchy, and control player visibility. The GM and players can explore accessible maps in the atlas with pan, zoom, fit-to-map, hierarchy navigation, and keyboard controls. GMs can place, edit, link, share, and remove normalized-coordinate map markers and draw, recolor, share, edit, and remove normalized-coordinate regions and routes. Row-level security keeps markers and overlays hidden when their map is hidden, and markers also respect linked location visibility. Artwork is kept in a private Supabase Storage bucket; shared maps use short-lived signed URLs and storage policies check campaign membership and map visibility. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
+The cloud foundation includes sign-in, GM/player route separation, journal visibility enforced by row-level security, linked location records, a private cloud map library, and an interactive atlas. GMs can create, edit, and delete journal entries and choose whether each entry is player-visible. Player accounts get their own campaign dashboard, shared journal, discoveries, known-NPC directory, known-house directory, atlas, map library, and private notes. Player notes can only be read or changed by their owner; neither the GM nor another player can read them. The NPC directory lets GMs record character details, link a location, decide when an NPC is known to players, keep private notes separate, and review dated status changes. Players can only read NPC profiles the GM has shared; private notes and status history are protected by database policies. Noble-house profiles store player-facing heraldry, motto, and descriptions separately from GM-only founding history, rulers, seats, holdings, succession, resources, objectives, and secrets. Rulers and ancestral seats use relational links to NPC and location records, and the player workspace can only access houses the GM has shared. GMs can create and edit locations with parent links, player-facing descriptions, visibility settings, and private notes; private location notes live in a separate table that players cannot read, even when the location itself is visible. Parent cycles are rejected, and locations with child, map, or NPC references cannot be deleted. The GM can upload and replace PNG, JPEG, WebP, or GIF maps up to 100 MB, connect them to locations, organize them into a hierarchy, and control player visibility. The GM and players can explore accessible maps in the atlas with pan, zoom, fit-to-map, hierarchy navigation, and keyboard controls. GMs can place, edit, link, share, and remove normalized-coordinate map markers and draw, recolor, share, edit, and remove normalized-coordinate regions and routes. Row-level security keeps markers and overlays hidden when their map is hidden, and markers also respect linked location visibility. Artwork is kept in a private Supabase Storage bucket; shared maps use short-lived signed URLs and storage policies check campaign membership and map visibility. The existing atlas and campaign records remain in SQLite until their cloud equivalents and an explicit migration path are implemented and verified.
 
 ### Production deployment status
 
 The cloud app is not yet deployed. When preparing a production project:
 
 1. Create a Supabase project, sign in with `npx supabase login`, link it with `npx supabase link --project-ref <project-ref>`, then apply the checked-in migrations with `npx supabase db push`. Confirm the linked project before pushing migrations.
-2. Disable public email signup in the production Supabase Auth settings. Create the initial GM account administratively, then add its UUID to `campaign_members` using the bootstrap SQL above. Do not expose a service-role key to the browser.
+2. Disable public email signup in the production Supabase Auth settings. Create the initial GM account administratively, then add its UUID to `campaign_members` using the bootstrap SQL above. Create your friend's account administratively and add it with role `player` using the player SQL above. Do not expose a service-role key to the browser.
 3. Create a Vercel project from this repository and set its root directory to `web`.
 4. Configure `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel for the appropriate deployment environments.
 5. Add the production domain and required preview URLs to Supabase Auth's allowed redirect URLs.

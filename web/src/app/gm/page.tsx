@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import JournalEntryForm from "./journal-entry-form";
@@ -43,6 +44,9 @@ export default async function GmPage() {
         Existing campaign records remain in the local SQLite app. They have not
         been copied to Supabase.
       </p>
+      <p className="muted">
+        <Link href="/gm/npcs">Manage campaign NPCs</Link>
+      </p>
       <JournalEntryForm />
       <section className="entry-list" aria-labelledby="journal-heading">
         <h3 id="journal-heading">Campaign journal</h3>
@@ -55,6 +59,10 @@ export default async function GmPage() {
               </p>
               <h4>{entry.title}</h4>
               <p className="entry-content">{entry.content}</p>
+              <details className="entry-edit">
+                <summary>Edit or delete this entry</summary>
+                <JournalEntryForm entry={entry} />
+              </details>
             </article>
           ))
         ) : (

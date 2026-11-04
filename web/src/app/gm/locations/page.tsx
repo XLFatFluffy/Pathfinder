@@ -72,6 +72,16 @@ export default async function GmLocationsPage() {
                     <strong>GM-only:</strong> {notesByLocationId.get(location.id)}
                   </p>
                 ) : null}
+                <details className="entry-edit">
+                  <summary>Edit or delete this location</summary>
+                  <LocationForm
+                    location={{
+                      ...location,
+                      gm_notes: notesByLocationId.get(location.id) ?? "",
+                    }}
+                    parents={locations.map(({ id, name }) => ({ id, name }))}
+                  />
+                </details>
               </article>
             );
           })

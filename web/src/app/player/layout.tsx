@@ -21,8 +21,8 @@ export default async function PlayerLayout({
   return (
     <main>
       <header className="card">
-        <p className="eyebrow">Player workspace</p>
-        <h1>The World Atlas</h1>
+        <p className="eyebrow">Player workspace · Field guide</p>
+        <h1>Your Campaign</h1>
         <WorkspaceNav role="player" />
         {children}
         <form action={signOut} className="sign-out">

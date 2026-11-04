@@ -3,7 +3,7 @@ begin;
 create extension if not exists pgtap with schema extensions;
 set local search_path = public, extensions;
 
-select plan(8);
+select plan(12);
 
 insert into auth.users (id, aud, role, email)
 values
@@ -26,11 +26,12 @@ values
 on conflict (campaign_id, user_id) do nothing;
 
 insert into public.campaign_locations
-  (id, campaign_id, name, location_type, description, player_visible, created_by)
+  (id, campaign_id, parent_id, name, location_type, description, player_visible, created_by)
 values
   (
     '20000000-0000-4000-8000-000000000001',
     '00000000-0000-4000-8000-000000000001',
+    null,
     'Greyhaven',
     'city',
     'A busy port city.',
@@ -40,6 +41,7 @@ values
   (
     '20000000-0000-4000-8000-000000000002',
     '00000000-0000-4000-8000-000000000001',
+    '20000000-0000-4000-8000-000000000001',
     'Hidden Catacombs',
     'dungeon',
     'A sealed entrance beneath the city.',
@@ -81,6 +83,54 @@ select is(
   (select count(*)::integer from public.campaign_location_gm_notes),
   2,
   'GM can read separate private location notes'
+);
+select lives_ok(
+  $$
+    select public.update_campaign_location(
+      '00000000-0000-4000-8000-000000000001',
+      '20000000-0000-4000-8000-000000000001',
+      null,
+      'Greyhaven Keep',
+      'city',
+      'A fortified port city.',
+      true,
+      'The harbor master remains a cultist.'
+    )
+  $$,
+  'GM can update a location and its private notes atomically'
+);
+select is(
+  (select count(*)::integer
+   from public.campaign_locations
+   where id = '20000000-0000-4000-8000-000000000001'
+     and name = 'Greyhaven Keep'
+     and description = 'A fortified port city.'),
+  1,
+  'location update changes the player-facing record'
+);
+select is(
+  (select notes
+   from public.campaign_location_gm_notes
+   where location_id = '20000000-0000-4000-8000-000000000001'),
+  'The harbor master remains a cultist.',
+  'location update replaces its GM-only notes'
+);
+select throws_ok(
+  $$
+    select public.update_campaign_location(
+      '00000000-0000-4000-8000-000000000001',
+      '20000000-0000-4000-8000-000000000001',
+      '20000000-0000-4000-8000-000000000002',
+      'Greyhaven Keep',
+      'city',
+      'A fortified port city.',
+      true,
+      ''
+    )
+  $$,
+  '23514',
+  'A location cannot be moved beneath itself or its descendants.',
+  'GM cannot create a parent cycle by moving a location beneath its child'
 );
 
 reset role;

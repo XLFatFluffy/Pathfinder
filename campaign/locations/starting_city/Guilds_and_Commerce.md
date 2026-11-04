@@ -32,3 +32,7 @@ Recurring pressures include harbor fees, guild privileges, labor wages, storage 
 
 ## PC Opportunities
 The city supports ordinary routes to a player-run business: renting or buying premises, hiring workers, negotiating supply contracts, finding customers, taking commissions, joining or bargaining with guilds, and establishing partnerships. The PCs may operate outside guild structures where lawful, accepting practical consequences. Success can create competitors, allies, debtors, and customers without automatically making every merchant hostile.
+
+## Supporting Commercial Records
+- `Commercial_Property_and_Premises.md`: district commercial character, typical rents, specific available premises, market stall allocation, lease considerations, and workshop safety.
+- `Guild_Membership_and_Trade_Rules.md`: membership categories, customary dues, guild services and limits, civic trade rules, and hiring principles.

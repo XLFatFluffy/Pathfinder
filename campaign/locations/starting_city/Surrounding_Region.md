@@ -54,3 +54,8 @@ The region's proper name, settlement names, distances, population, detailed land
 ## Established Local Settlements — 2026-11-04
 
 The initial settlements, landholders, working population estimates, approximate routes, and trade relationships are now recorded in [Regional Settlements and Landholders](Regional_Settlements_and_Landholders.md). This establishes Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge as the first playable regional communities. Their exact positions, boundaries, and travel distances remain approximate pending the final regional map.
+
+
+## Regional Geography and Points of Interest — 2026-11-04
+
+The broad terrain, River Vale watershed, tributaries, woodland and ridges, regional road connections, crossings, travel conditions, and first set of natural and built landmarks are documented in [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md). Relative positions are established for play; exact cartographic placement and property boundaries remain provisional.

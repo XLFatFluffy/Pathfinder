@@ -23,6 +23,7 @@ This file tracks major setting decisions and their status. It does not replace d
 | Gods | ESTABLISHED | The Pathfinder gods are real. |
 | Divine magic | ESTABLISHED | Divine spellcasters are uncommon and devote themselves to a god; deeper magic lore remains open. |
 | Arcane magic | ESTABLISHED | Arcane spellcasters are rare. Divine spellcasting is also uncommon; an average person may never witness a spell. |
+| Magic item creation | ESTABLISHED | Magic items are rare because both the specialized knowledge and talent required to create them are uncommon, and the necessary materials are difficult to obtain. The practical limits, materials, institutions, and market consequences remain to be developed. |
 | Ratfolk | ESTABLISHED | Naturally subterranean and decentralized; prejudice against them is widespread across surface societies, with a few tolerant or accepting communities. They are not inherently evil, criminal, diseased, or hostile. |
 | Elven great power | ESTABLISHED direction | Elves possess a major political power; one of the six Great Houses is an influential elven dynasty loosely inspired by the Lannister archetype. |
 | Dwarves | ESTABLISHED | The enduring, relatively compact dwarven empire consists of several independent clans united under the main branch. Khar-Dum is the Kharadorns' ancestral homeland; Dragonstone was the fallen dragon-riding dynasty's ancestral stronghold, captured by the dwarves through conquest during the Great Rebellion. The main branch is said to descend from Torag himself. Dwarves primarily live in mountains and underground, rarely in conventional surface stone-built settlements. Cultural pride leads them to reproduce only with other dwarves. |
@@ -49,6 +50,7 @@ This file tracks major setting decisions and their status. It does not replace d
 
 | Date | Change |
 |---|---|
+| 2026-11-04 | Established that magic items are rare for two reinforcing reasons: the knowledge and talent required to create them are uncommon, and necessary materials are difficult to obtain. Specific materials, methods, restrictions, and market structures remain unresolved. |
 | 2026-11-03 | Initial register created from the imported Campaign Bible and current project decisions. |
 | 2026-11-03 | Clarified elven great-house archetype, provisional map status, originality requirements, and high-medieval technology decision. |
 | 2026-11-03 | Recorded that the two player characters already know each other before Session One; their exact relationship history remains open. |

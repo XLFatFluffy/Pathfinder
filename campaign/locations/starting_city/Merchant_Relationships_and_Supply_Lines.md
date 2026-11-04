@@ -63,3 +63,10 @@ Existing businesses may compete, cooperate, imitate successful products, or igno
 ## Unresolved Details
 
 Specific wholesale price sheets, supplier names beyond those listed, delivery timetables, guild dues, property rents, wage scales, and the exact capacity of each business remain open. Establish these when the PCs pursue a transaction that needs them rather than inventing numbers in advance.
+
+
+## Selwick & Company — Opening Campaign Contact
+
+**Master Tavren Selwick** is a wealthy Tallowmere merchant and shipowner based near the Old Quays. His firm trades in finished cloth, household wares, lamp oil, metal fittings, and provisions. He has a reputation for paying obligations and keeping accurate cargo accounts. He is established as a useful commercial contact, not a guaranteed patron.
+
+A wagon belonging to Selwick & Company is the planned target of the troll attack on the PCs' approach to Tallowmere. If the PCs protect the crew or recover the consignment, Selwick offers 30 gp, a meal and one night's lodging at the Blue Heron, and a signed introduction to Meret Sorn of the Warehouse Guild. This recommendation provides modest credibility and a meeting opportunity, not guild membership, credit, legal privilege, or universal trust. Details are in `Selwick_Merchant_Contact.md`.

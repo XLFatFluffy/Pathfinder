@@ -15,7 +15,7 @@ The two PCs already know one another and have a history together before Session 
 
 The ratfolk PC was born into a family of travelling merchants. His family moved between settlements and trading communities, earning their living through buying, selling, and carrying goods.
 
-At some point during their travels, they were intercepted and extorted by a group of armed men associated with an as-yet-unnamed minor noble house. The men used their position and force to compel the family to surrender all of their wares for a fraction of their actual value: pennies on the gold piece. The family protested the extortion.
+Approximately ten years before Session One, while travelling through lands held under House Velleran, they were intercepted and extorted by armed men wearing the colors of House Relland, a minor noble family. The men used their position and force to compel the family to surrender all of their wares for a fraction of their actual value: pennies on the gold piece. The family protested the extortion.
 
 The confrontation turned violent. The men murdered the ratfolk's mother and father and were in the process of killing the child when the vampire intervened.
 
@@ -23,7 +23,7 @@ The confrontation turned violent. The men murdered the ratfolk's mother and fath
 
 The vampire PC arrived during the attack, killed the assailants, and saved the ratfolk child.
 
-The exact location, date, identity of the minor house, names of the attackers, surviving witnesses, and any evidence of the extortion remain undecided. Do not attach this event to House Denvor, House Kharadorn, or a named local family without a deliberate decision.
+The responsible house is House Relland, a minor family owing allegiance to House Velleran. The attack occurred approximately ten years before Session One. The attackers were led by Ser Deylan Marrick, an armsman supervising Relland road patrols who abused that authority to extort travellers. See House_Relland_and_the_Merchant_Incident.md for the household's cover-up and surviving avenues of evidence. The exact roadside location remains approximate.
 
 The ratfolk remembers the vampire as the person who saved his life. Their relationship is not merely one of obligation: the ratfolk regards the vampire as a friend as well as a mentor.
 
@@ -53,7 +53,7 @@ Keep the following open until the players complete their characters or wish to d
 - How long the vampire and ratfolk have travelled together.
 - The precise alchemical instruction already received and what the ratfolk has learned independently.
 
-Do not make the responsible house a current Tallowmere faction by default. The event may later connect to regional politics, but that connection should be earned through evidence and play.
+House Relland is a minor house in Velleran-chartered territory south of Tallowmere, not a Tallowmere faction. The house believes the travelling family died and does not know the ratfolk child survived. Any later confrontation or political consequences should arise through the PCs' choices and evidence.
 
 ## 2. Proposed Session One Opening: The Roadside Troll
 
@@ -61,11 +61,11 @@ The players want the PCs to kill a troll on their way to Tallowmere. This is a s
 
 ### Core Situation
 
-On the final approach to Tallowmere, the PCs encounter evidence that a troll has been attacking travellers and merchant traffic. The troll has been using a stretch of road, a nearby stream crossing, or an abandoned roadside structure as its hunting ground.
+On the final approach to Tallowmere, the PCs encounter a damaged wagon belonging to Selwick & Company, the trading concern of wealthy Tallowmere merchant Master Tavren Selwick. A troll has attacked the wagon and its crew. Its exact hunting ground is selected to fit the PCs' approach route.
 
 The PCs can track, confront, avoid, or otherwise deal with the threat. Their chosen approach should determine how the scene develops. The intended player-facing opportunity is to kill the troll, not to force a particular sequence of actions.
 
-The precise road and encounter site remain flexible until the PCs' approach direction is known. Suitable placements include a road or track within a half-day of Tallowmere, or one of the established abandoned sites in the surrounding region if its geography fits. Do not place the troll at a site in a way that establishes an otherwise undecided history for that location.
+The precise road and encounter site remain flexible until the PCs' approach direction is known. Place the wagon within a half-day of Tallowmere on a suitable established route. An abandoned site may be used only if its geography fits; do not invent a new history for the site merely to stage the fight. The wagon carries ordinary commercial goods bound for Selwick's Old Quays warehouses.
 
 ### Encounter Design and Rules
 
@@ -102,13 +102,14 @@ The troll encounter should lead into the city without making the PCs feel that t
 A simple connection is that the attacked travellers or cargo are bound for Tallowmere. If the PCs rescue a survivor, recover identifiable goods, or bring credible proof of the troll's death, they have a practical reason to enter the city and speak with someone.
 
 Possible introductions:
-- A surviving carter asks them to escort the remaining wagon to Tallowmere.
-- A merchant whose cargo was threatened offers a modest payment or introduction to a local factor.
-- The Town Watch or a road patrol hears of the killing and directs the PCs to the Reeve's Hall if they want to report the danger or claim an established reward.
+- A surviving carter asks them to escort the wagon and remaining cargo to Tallowmere.
+- Master Tavren Selwick, owner of the cargo, offers 30 gp if the PCs meaningfully protect his crew or help recover the consignment, a meal and one night's lodging at the Blue Heron, and a signed introduction to Meret Sorn of the Warehouse Guild.
+- If the PCs bring only proof of the troll's death without helping the crew or cargo, Selwick may offer a smaller payment after verifying the report.
+- The surviving crew can corroborate the PCs' actions. The Town Watch may record the incident, but no separate civic bounty is established.
 - A local trader recognizes the recovered goods and introduces the PCs to a relevant merchant.
 - If no one survives, the PCs can still arrive with evidence and decide whether to report the threat.
 
-No reward, bounty, legal entitlement, or payment is established yet. Decide whether one exists before play and record its amount and conditions. Do not promise a bounty retroactively just to make the encounter feel worthwhile.
+Selwick's payment and introduction are established in Selwick_Merchant_Contact.md. They are conditional on meaningful help to his people or cargo, not merely a claim that the troll was killed. No separate public bounty or legal entitlement is established.
 
 The introduction should expose the PCs to Tallowmere's ordinary civic and commercial life. It need not immediately involve Lord Denvor, the Kharadorn Charter Warden, or a Great House.
 
@@ -133,15 +134,18 @@ The PCs should decide how much of their history they disclose. NPCs do not know 
 4. Confirm the ratfolk's alchemist class, discoveries, formulae, extracts, bombs, equipment, and crafting choices.
 5. Reassess the troll encounter against the actual two-character party.
 6. Select the approach road and encounter site based on the PCs' travel direction.
-7. Decide whether there are survivors, whose cargo is involved, and whether any reward or introduction is available.
-8. Prepare the first Tallowmere contact, but leave the PCs free to choose where they go and whom they approach.
+7. Confirm which crew members survive and what condition the wagon and cargo are in.
+8. Select the road and troll site to match the PCs' approach.
+9. Prepare Selwick's letter and decide whether he is in the city to meet them personally or communicates through his factor.
+10. Leave the PCs free to choose where they go and whom they approach.
 
 ## GM Principles
 
 - The PCs already know and trust one another; do not stage a first meeting.
 - The vampire saved the ratfolk and taught him alchemy; the ratfolk is a friend and pupil, not a dependent NPC.
 - The ratfolk's aptitude is real, but do not pre-award mechanical abilities or crafting feats before character creation.
-- The minor house responsible for the family tragedy is unnamed and unassigned.
+- House Relland is responsible for the retainers' extortion and subsequent cover-up; the wider family did not formally order the murders.
 - The troll uses published Pathfinder rules. Its encounter suitability must be checked against the completed party.
 - The city introduction should arise from the encounter's consequences, not a forced cutscene.
-- No reward, bounty, NPC knowledge, or political connection exists until it is established.
+- Selwick's conditional payment and written introduction are established; no separate public bounty exists.
+- Selwick and House Relland are not connected to one another or to the ratfolk family's tragedy.

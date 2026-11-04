@@ -63,19 +63,19 @@ The relative sequence is established. The Great Rebellion occurred approximately
 8. The dwarven leader and the Kharadorn house hold power in the immediate aftermath of the fall.
 9. The same dwarven leader remains in power for more than a century, until his death.
 10. His successor inherits his authority, but a succession crisis follows.
-11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; the head of another of the original six rebel Great Houses is installed as a compromise candidate and becomes the current puppet monarch.
+11. The dwarven successor threatens war unless a human is placed on the Imperial Seat; the head of another of the original six rebel Great Houses is installed as a compromise candidate and becomes the current monarch. Earlier summaries describe him as a puppet, but current canon establishes his legitimate hereditary claim and substantial formal authority; the practical constraints and sources of influence remain unresolved.
 12. The dwarven successor reluctantly accepts the arrangement, returns to Dragonstone, and continues ruling the dwarven clans.
 13. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.
 
 ## Still unresolved
 
-- The original names, heraldry, and distinct identities that will replace the inherited legacy labels.
+- The original name, heraldry, and distinct identity of the fallen dragon-riding dynasty; House Kharadorn is an approved original Great House name, while Dragonstone remains a provisional place-name.
 - The exact calendar year of the Great Rebellion, and the exact dates of the dynasty's rise and fall (the rebellion is approximately 200–300 years before the present campaign).
 - The individual roles of the six rebel Great Houses in specific campaigns and battles.
 - The detailed military campaigns, battles, alliances, betrayals, and sequence of sieges.
 - The exact calendar dates of the dwarven leader's more-than-century-long rule and the subsequent succession crisis.
-- Who actually controls or influences the Calderan puppet monarch, and what were the precise political and military events surrounding the threatened war and installation of the compromise candidate.
-- The current ruling dynasty's name, its capital, and its relationship with the other major houses.
+- What forces, relationships, and political dependencies constrain or influence King Aldric Calderan, and what were the precise political and military events surrounding the threatened war and installation of the compromise candidate. Avoid assuming a single controller or that the dwarves control him.
+- The original name of the fallen dragon-riding dynasty; the current ruling dynasty is House Calderan and its capital is Valedorn.
 - The ultimate fate of dragons that escaped the rebellion.
 - Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified.
 

@@ -102,3 +102,13 @@ This file tracks major setting decisions and their status. It does not replace d
 - **ESTABLISHED CATEGORY:** Minor houses are wealthy lords and ladies with relatively small territories and local holdings. They possess local wealth and standing but are nearly politically insignificant in continent-wide affairs; they do not rival Great Houses or automatically participate in the Imperial Council. Names, number, allegiances, and individual territories remain unresolved.
 - **PROPOSED, NOT CANON:** The specific regional placements previously suggested for the six Great Houses remain proposals pending the revised map.
 - **UNRESOLVED:** Final exact cartographic dimensions and scale, names of major geographic features, exact house borders and seats, minor-house names and holdings, and precise locations of rivers, roads, ports, and settlements.
+
+
+## 2026-11-04 — Stage 5 territorial placements
+**Status:** ESTABLISHED broad territorial framework; exact borders and seats unresolved.
+- House Veyr controls the majority of the northern frontier and northern territories.
+- House Calderan's principal Crown territory lies farther inland, preferably near major river confluences and central routes; the exact capital location is unresolved.
+- House Merrowen's maritime territory extends along the eastern coast. This does not mean it controls every eastern port.
+- House Kharadorn controls Dragonstone, the central inland sea, and surrounding territory. Dragonstone remains distinct from Khar-Dum in the northeastern mountains.
+- The continent remains politically mixed; Great House territories do not absorb every lesser house, independent city, minor kingdom, or southern territory.
+- The dwarven underground route to Dragonstone remains a GM-only secret.

@@ -59,3 +59,8 @@ The initial settlements, landholders, working population estimates, approximate 
 ## Regional Geography and Points of Interest — 2026-11-04
 
 The broad terrain, River Vale watershed, tributaries, woodland and ridges, regional road connections, crossings, travel conditions, and first set of natural and built landmarks are documented in [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md). Relative positions are established for play; exact cartographic placement and property boundaries remain provisional.
+
+
+## Beyond the Immediate Hinterland — 2026-11-04
+
+The first wilderness belt beyond the settled region is documented in [Wilderness Beyond Tallowmere](Wilderness_Beyond_Tallowmere.md). It establishes the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore, along with several abandoned sites, plausible Pathfinder threats, and ordinary resource-gathering opportunities. It does not add crafting prerequisites or alter Pathfinder item creation rules.

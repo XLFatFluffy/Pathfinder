@@ -226,3 +226,12 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **ESTABLISHED WORKING GEOGRAPHY:** `locations/starting_city/Regional_Geography_and_Points_of_Interest.md` establishes the broad regional terrain, River Vale watershed and tributaries, Brackenwood, Greyback Ridges, Northfields, Eastern Shore, route connections, crossings, travel conditions, and initial landmarks. The relative layout is usable for play; exact coordinates, coastline, river bends, and jurisdictional boundaries remain open.
 
 **Still open:** final regional map scale and coastline; exact river course and tributary junctions; surveyed settlement positions; detailed minor tracks; property boundaries; and any additional major ruins or sites not yet established.
+
+
+## Tallowmere — Wilderness Beyond the Settled Region (2026-11-04)
+
+**ESTABLISHED INITIAL FRAMEWORK:** `locations/starting_city/Wilderness_Beyond_Tallowmere.md` establishes the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore, plus Rook's Watch, the Broken Mile, Alder Chapel, Shepherd's Fold, and the Drowned Storehouse. It outlines plausible Pathfinder First Edition threats and ordinary resource opportunities.
+
+**Rules protection:** The wilderness framework does not add mandatory crafting ingredients, special checks, costs, or prerequisites. Published Pathfinder First Edition item creation rules remain authoritative.
+
+**Still open:** exact wilderness boundaries; site histories and contents; specific creature lairs; local resource rights and buyers; seasonal availability; and any links to the Great Rebellion or older powers. Do not assume those connections without later approval.

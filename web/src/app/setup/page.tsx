@@ -20,6 +20,13 @@ export default function SetupPage() {
               public sign-up.
             </p>
             <p className="muted">
+              Supabase requires an email-shaped account identifier, but it does
+              not need to be a real mailbox. Use a unique reserved placeholder
+              such as <code>player-login-id@users.invalid</code> for each
+              account, set a password for the GM, and mark the account as
+              confirmed. These addresses cannot receive mail.
+            </p>
+            <p className="muted">
               Add the Supabase service-role key to Vercel as the server-only
               environment variable <code>SUPABASE_SERVICE_ROLE_KEY</code>. Never
               add it to a <code>NEXT_PUBLIC_</code> variable. Player IDs are
@@ -28,8 +35,9 @@ export default function SetupPage() {
             </p>
             <h2>Grant the GM account access</h2>
             <p className="muted">
-              Create the GM account with an email and password, copy its user
-              ID from Authentication → Users, and choose a unique login ID.
+              Create the GM account using a placeholder such as
+              <code> gm-login-id@users.invalid</code> and a password. Copy its
+              user ID from Authentication → Users and choose a unique login ID.
               Login IDs must be 3–32 lowercase letters, numbers, dots,
               underscores, or hyphens. The GM must use both the login ID and
               password.
@@ -62,6 +70,11 @@ values (
               Players enter only their login ID. The GM signs in with the GM
               login ID and account password. Keep the GM account limited to
               trusted administrators.
+            </p>
+            <p className="muted">
+              If the GM forgets the password, an administrator must set a new
+              one in Supabase Authentication → Users. Password recovery by
+              email is not available for placeholder addresses.
             </p>
           </>
         ) : (

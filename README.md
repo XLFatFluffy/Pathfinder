@@ -58,7 +58,7 @@ The cloud app runs on port 3001 so it can coexist with the existing local app on
 
 Email signup is disabled in local Supabase configuration. The GM account is created administratively; players cannot register themselves or assign their own roles. The browser only receives the Supabase anon/publishable key. Do not put a service-role key in `web/.env.local` or any `NEXT_PUBLIC_` variable.
 
-The GM can recover a forgotten password from the sign-in page. The reset email returns to `/auth/callback` and opens a secure password-update form. For local development, copy all values from `web/.env.example`; for production, set `NEXT_PUBLIC_SITE_URL` to the app's origin and add the exact `/auth/callback` URL to Supabase Auth's allowed redirect URLs. Email delivery must be enabled in the Supabase project.
+Supabase Auth requires an email-shaped identifier, but the campaign does not use real email addresses. Create each account with a unique, non-deliverable placeholder such as `player-login-id@users.invalid`, and mark it confirmed. Password recovery emails are not available; an administrator resets the GM password in Supabase Authentication → Users. For local development, copy all values from `web/.env.example`.
 
 Player accounts use a GM-assigned login ID without a password; the GM signs in with their assigned login ID and account password. Configure `SUPABASE_SERVICE_ROLE_KEY` as a server-only environment variable for the cloud app to issue player sessions. Never expose this key through a `NEXT_PUBLIC_` variable. Player login IDs are not secrets: anyone who knows a player's ID can impersonate that player and access that player's private sheets and notes. Keep the app URL and IDs limited to the intended group, and do not use player-private records for sensitive information.
 
@@ -92,8 +92,8 @@ The cloud app is deployed to Vercel; finish the following setup before using it:
 1. Confirm the linked Supabase project and migration history with `npx supabase migration list`. Apply any pending checked-in migrations only after verifying the target project.
 2. Disable public email signup in the production Supabase Auth settings. Create the GM and player accounts administratively, then assign each a unique `login_id` in `campaign_members` using the SQL examples on `/setup`. Do not expose a service-role key to the browser.
 3. Create a Vercel project from this repository and set its root directory to `web`.
-4. Configure `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, and `NEXT_PUBLIC_SITE_URL` in Vercel for the appropriate deployment environments. Set the site URL to the exact origin for each deployment. Add `SUPABASE_SERVICE_ROLE_KEY` as a server-only secret environment variable; never prefix it with `NEXT_PUBLIC_`.
-5. Add each deployment's `/auth/callback` URL to Supabase Auth's allowed redirect URLs and configure email delivery for password recovery.
+4. Configure `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel for the appropriate deployment environments. Add `SUPABASE_SERVICE_ROLE_KEY` as a server-only secret environment variable; never prefix it with `NEXT_PUBLIC_`.
+5. Disable public email signup in Supabase Auth. Email delivery and `/auth/callback` allowlisting are not required for the placeholder-address account flow.
 6. Before inviting players, verify private-record isolation using separate GM and player accounts. The local pgTAP tests are a baseline, not a substitute for checking each production role against the deployed policies.
 
 The Supabase database is hosted. No service-role key is stored in this repository.

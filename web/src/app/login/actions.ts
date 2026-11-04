@@ -130,60 +130,6 @@ export async function signIn(formData: FormData) {
   );
 }
 
-export async function requestPasswordReset(formData: FormData) {
-  const email = formData.get("email");
-  if (typeof email !== "string" || !email.trim()) {
-    redirect("/forgot-password?error=Enter%20your%20email%20address.");
-  }
-
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
-    (process.env.NODE_ENV === "development"
-      ? "http://localhost:3001"
-      : undefined);
-  if (!siteUrl) {
-    redirect(
-      "/forgot-password?error=Password%20recovery%20is%20not%20configured%20for%20this%20app.",
-    );
-  }
-
-  let appUrl: URL;
-  try {
-    appUrl = new URL(siteUrl);
-  } catch {
-    redirect(
-      "/forgot-password?error=Password%20recovery%20is%20not%20configured%20for%20this%20app.",
-    );
-  }
-  if (
-    !["http:", "https:"].includes(appUrl.protocol) ||
-    appUrl.username ||
-    appUrl.password ||
-    appUrl.pathname !== "/" ||
-    appUrl.search ||
-    appUrl.hash
-  ) {
-    redirect(
-      "/forgot-password?error=Password%20recovery%20is%20not%20configured%20for%20this%20app.",
-    );
-  }
-
-  const supabase = await createSupabaseServerClient();
-  const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), {
-    redirectTo: new URL(
-      "/auth/callback?next=/reset-password",
-      appUrl.origin,
-    ).toString(),
-  });
-  if (error) {
-    redirect(
-      "/forgot-password?error=Unable%20to%20send%20a%20password%20reset%20email.%20Try%20again%20later.",
-    );
-  }
-
-  redirect("/login?message=If%20that%20account%20exists%2C%20a%20reset%20link%20has%20been%20sent.");
-}
-
 export async function updatePassword(formData: FormData) {
   const password = formData.get("password");
   const confirmation = formData.get("confirmation");

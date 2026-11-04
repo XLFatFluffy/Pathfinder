@@ -62,8 +62,9 @@ export default async function LoginPage({
           Login IDs are not passwords. Anyone who knows a player ID can sign in
           as that player and access that player&apos;s sheets and notes.
         </p>
-        <p>
-          <Link href="/forgot-password">GM: forgot your password?</Link>
+        <p className="muted">
+          GM password reset requires an administrator in Supabase; accounts do
+          not use email.
         </p>
         <Link href="/setup">Setup instructions</Link>
       </section>

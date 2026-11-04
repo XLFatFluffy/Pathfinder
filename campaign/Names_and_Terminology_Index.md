@@ -384,3 +384,18 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Vampire rescued the ratfolk as a child after men associated with an unnamed minor house took his travelling-merchant family's wares through extortion and killed his parents. The vampire later taught him alchemy. See Player_Character_Concepts_and_Opening.md. |
 | Roadside troll opening | Session One encounter concept | PROVISIONAL | The PCs intend to confront a troll on their approach to Tallowmere; encounter balance depends on completed character sheets. |
 | Player Character Concepts and Opening | Campaign reference | PROVISIONAL | GM-facing record of the shared backstory, unresolved details, and proposed opening adventure. |
+
+
+## Player Background and Opening Contacts — 2026-11-04
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| House Relland | Minor noble house | ESTABLISHED | Human minor house owing allegiance to House Velleran; modest holding along the South Road south of Tallowmere. Its retainers extorted and murdered the ratfolk PC's travelling-merchant parents approximately ten years before Session One; the household concealed the misconduct. |
+| Lady Mereth Relland | Person / noble | ESTABLISHED | Current head of House Relland; inherited the house's official account of the old roadside incident. |
+| Ser Corren Relland | Person / noble | ESTABLISHED | Heir to House Relland; has incomplete knowledge of the old incident. |
+| Lord Edvar Relland | Person / noble | ESTABLISHED | Late head of House Relland at the time of the extortion and murders. |
+| Ser Deylan Marrick | Person / former armsman | ESTABLISHED | Led Relland retainers who abused road-patrol authority to extort the ratfolk family's travelling merchant caravan. |
+| Master Tavren Selwick | Person / merchant | ESTABLISHED | Wealthy Tallowmere merchant and shipowner; owner of Selwick & Company and the wagon used for the planned troll opening. |
+| Selwick & Company | Merchant concern | ESTABLISHED | Tallowmere trading firm dealing in cloth, household wares, lamp oil, metal fittings, and provisions. |
+| House Relland and the Merchant Incident | Campaign reference | ESTABLISHED | GM-facing history of the ratfolk PC's family tragedy and the Relland household's cover-up. |
+| Selwick Merchant Contact | Campaign reference | ESTABLISHED | Tavren Selwick, his wagon, the conditional reward, and the PCs' first commercial introduction to Tallowmere. |

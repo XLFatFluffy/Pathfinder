@@ -219,3 +219,10 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Local courts, reeves, and council customs beyond the named contacts.
 - Detailed yields, output, quotas, fishing seasons, and toll schedules.
 - Specific regional shrines, ruins, historical sites, and campaign-calendar events.
+
+
+## Tallowmere — Regional Geography and Points of Interest (2026-11-04)
+
+**ESTABLISHED WORKING GEOGRAPHY:** `locations/starting_city/Regional_Geography_and_Points_of_Interest.md` establishes the broad regional terrain, River Vale watershed and tributaries, Brackenwood, Greyback Ridges, Northfields, Eastern Shore, route connections, crossings, travel conditions, and initial landmarks. The relative layout is usable for play; exact coordinates, coastline, river bends, and jurisdictional boundaries remain open.
+
+**Still open:** final regional map scale and coastline; exact river course and tributary junctions; surveyed settlement positions; detailed minor tracks; property boundaries; and any additional major ruins or sites not yet established.

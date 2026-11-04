@@ -169,7 +169,7 @@ export async function deleteCampaignHouse(
 
   if (error) {
     return {
-      error: `Unable to delete the noble house. Remove its political relationships first. ${error.message}`,
+      error: `Unable to delete the noble house: ${error.message}`,
     };
   }
   if (!data) {

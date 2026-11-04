@@ -277,6 +277,18 @@ h2 {
   font-weight: 700;
 }
 
+.history-list {
+  color: var(--muted);
+  display: grid;
+  gap: 0.65rem;
+  line-height: 1.5;
+  padding-left: 1.25rem;
+}
+
+.history-list strong {
+  color: var(--text);
+}
+
 .delete-form {
   border-top: 1px solid var(--border);
   display: grid;

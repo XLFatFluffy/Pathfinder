@@ -2,6 +2,8 @@ import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import HouseForm from "./house-form";
+import HouseRelationshipForm from "./relationship-form";
+import { formatHouseRelationshipType } from "./relationship-types";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +19,9 @@ export default async function GmHousesPage() {
     { data: details, error: detailsError },
     { data: npcs, error: npcsError },
     { data: locations, error: locationsError },
+    { data: relationships, error: relationshipsError },
+    { data: relationshipNotes, error: relationshipNotesError },
+    { data: relationshipHistory, error: relationshipHistoryError },
   ] = await Promise.all([
     supabase
       .from("campaign_houses")
@@ -39,6 +44,24 @@ export default async function GmHousesPage() {
       .select("id, name")
       .eq("campaign_id", member.campaign_id)
       .order("name"),
+    supabase
+      .from("campaign_house_relationships")
+      .select(
+        "id, house_id, related_house_id, relationship_type, description, player_visible",
+      )
+      .eq("campaign_id", member.campaign_id)
+      .order("created_at", { ascending: false }),
+    supabase
+      .from("campaign_house_relationship_gm_notes")
+      .select("relationship_id, notes")
+      .eq("campaign_id", member.campaign_id),
+    supabase
+      .from("campaign_house_relationship_history")
+      .select(
+        "id, relationship_id, previous_type, new_type, campaign_date, reason, created_at",
+      )
+      .eq("campaign_id", member.campaign_id)
+      .order("created_at", { ascending: false }),
   ]);
 
   if (error) {
@@ -53,10 +76,33 @@ export default async function GmHousesPage() {
   if (locationsError) {
     throw new Error(`Unable to load ancestral seats: ${locationsError.message}`);
   }
+  if (relationshipsError) {
+    throw new Error(`Unable to load house relationships: ${relationshipsError.message}`);
+  }
+  if (relationshipNotesError) {
+    throw new Error(
+      `Unable to load private relationship notes: ${relationshipNotesError.message}`,
+    );
+  }
+  if (relationshipHistoryError) {
+    throw new Error(
+      `Unable to load relationship history: ${relationshipHistoryError.message}`,
+    );
+  }
 
   const detailsByHouseId = new Map(details.map((detail) => [detail.house_id, detail]));
   const npcsById = new Map(npcs.map((npc) => [npc.id, npc.name]));
   const locationsById = new Map(locations.map((location) => [location.id, location.name]));
+  const houseNamesById = new Map(houses.map((house) => [house.id, house.name]));
+  const notesByRelationshipId = new Map(
+    relationshipNotes.map((entry) => [entry.relationship_id, entry.notes]),
+  );
+  const historyByRelationshipId = new Map<string, typeof relationshipHistory>();
+  for (const entry of relationshipHistory) {
+    const history = historyByRelationshipId.get(entry.relationship_id) ?? [];
+    history.push(entry);
+    historyByRelationshipId.set(entry.relationship_id, history);
+  }
 
   return (
     <>
@@ -142,6 +188,70 @@ export default async function GmHousesPage() {
           })
         ) : (
           <p className="muted">No noble houses yet.</p>
+        )}
+      </section>
+      <section className="entry-list" aria-labelledby="relationships-heading">
+        <h3 id="relationships-heading">House relationships</h3>
+        <HouseRelationshipForm houses={houses.map(({ id, name }) => ({ id, name }))} />
+        {relationships.length ? (
+          relationships.map((relationship) => {
+            const history = historyByRelationshipId.get(relationship.id) ?? [];
+            return (
+              <article className="entry-card" key={relationship.id}>
+                <p className="eyebrow">
+                  {relationship.player_visible ? "Shared with players" : "GM-only"}
+                  {` · ${formatHouseRelationshipType(relationship.relationship_type)}`}
+                </p>
+                <h4>
+                  {houseNamesById.get(relationship.house_id) ?? "Unknown house"}
+                  {" → "}
+                  {houseNamesById.get(relationship.related_house_id) ?? "Unknown house"}
+                </h4>
+                {relationship.description ? (
+                  <p className="entry-content">{relationship.description}</p>
+                ) : null}
+                {notesByRelationshipId.get(relationship.id) ? (
+                  <p className="private-notes">
+                    <strong>GM-only:</strong>{" "}
+                    {notesByRelationshipId.get(relationship.id)}
+                  </p>
+                ) : null}
+                <details className="entry-edit">
+                  <summary>Edit or delete this relationship</summary>
+                  <HouseRelationshipForm
+                    houses={houses.map(({ id, name }) => ({ id, name }))}
+                    relationship={{
+                      ...relationship,
+                      gm_notes: notesByRelationshipId.get(relationship.id) ?? "",
+                    }}
+                  />
+                </details>
+                <details className="entry-edit">
+                  <summary>History ({history.length})</summary>
+                  {history.length ? (
+                    <ul className="history-list">
+                      {history.map((entry) => (
+                        <li key={entry.id}>
+                          {entry.previous_type
+                            ? `${formatHouseRelationshipType(entry.previous_type)} → `
+                            : "Established as "}
+                          <strong>
+                            {formatHouseRelationshipType(entry.new_type)}
+                          </strong>
+                          {entry.campaign_date ? ` · ${entry.campaign_date}` : ""}
+                          {entry.reason ? ` — ${entry.reason}` : ""}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="muted">No relationship history recorded.</p>
+                  )}
+                </details>
+              </article>
+            );
+          })
+        ) : (
+          <p className="muted">No house relationships recorded yet.</p>
         )}
       </section>
     </>

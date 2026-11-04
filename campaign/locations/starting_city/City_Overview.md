@@ -156,3 +156,24 @@ These records establish the initial framework. Names, relationships, statistics,
 - [Current Situation and Rumors](Current_Situation_and_Rumors.md): active civic pressures and rumors circulating before the PCs' arrival.
 
 - [Shopkeepers and Stock](Shopkeepers_and_Stock.md): named independent businesses, distinct opening inventories, asking prices, services, and stock-change standards.
+
+## Current Development Update — Tallowmere (2026-11-04)
+
+This overview contains older planning language that has since been superseded by dedicated Tallowmere records. The starting city is named **Tallowmere**, has an approximate population of **18,000**, lies on the northwestern shore of the central inland sea at the mouth of a navigable river, and is governed locally by **House Denvor** under a hereditary charter confirmed by **House Kharadorn**. Its districts, government, civic cast, guilds, merchants, commercial premises, workforce, and surrounding region are now documented in the linked records below. Where older statements in this overview say the city name, population, ruling house, or government remain undecided, the newer dedicated records take precedence.
+
+### Current Supporting Records
+- `City_Layout_and_Defenses.md`
+- `Surrounding_Region.md`
+- `Government_and_Law.md`
+- `Guilds_and_Commerce.md`
+- `Guild_Membership_and_Trade_Rules.md`
+- `Commercial_Property_and_Premises.md`
+- `Shopkeepers_and_Stock.md`
+- `Merchant_Relationships_and_Supply_Lines.md`
+- `Merchant_Personalities_and_Disputes.md`
+- `Ratfolk_Underways.md`
+- `Faith_and_Temples.md`
+- `Crime_and_Informal_Power.md`
+- `Civic_NPCs.md`
+- `Workforce_and_Daily_Life.md`
+- `Current_Situation_and_Rumors.md`

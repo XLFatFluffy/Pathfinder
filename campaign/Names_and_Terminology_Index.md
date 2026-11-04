@@ -167,3 +167,23 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Market Guild | Commercial association | ESTABLISHED | Established stallholders, produce dealers, moneychangers, brokers, and shopkeepers. |
 | Artificers' Hall | Craft association | ESTABLISHED | Recognized masters in a range of crafts. |
 | Shipwrights' Brotherhood | Craft association | ESTABLISHED | Shipwrights and specialist maritime crafts. |
+
+
+## Tallowmere — Regional and Current Situation (2026-11-04)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| River Vale | Regional feature | ESTABLISHED | Working name for the river feeding Tallowmere from the western uplands. |
+| Northfields | Regional area | ESTABLISHED | Working name for the agricultural patchwork north of the city. |
+| Western Uplands | Regional area | ESTABLISHED | Woodland, quarries, hills, and smaller mining operations west of Tallowmere. |
+| Eastern Shore | Regional area | ESTABLISHED | Fishing villages, small ports, salt and net-making communities along the inland sea. |
+| West Gate | City gate | ESTABLISHED | Principal approach toward the western uplands. |
+| North Gate | City gate | ESTABLISHED | Approach toward farms, villages, and the Northern Road. |
+| River Gate | City gate | ESTABLISHED | Controlled river and western-bank access. |
+| South Gate | City gate | ESTABLISHED | Approach toward southern shore settlements and the Southern Trade Road. |
+| Harbor Gates | City access | ESTABLISHED | Controlled openings between waterfront works, quays, and city. |
+| Harbor Allocation Dispute | Civic tension | ESTABLISHED | Competing claims over priority access to newer quays. |
+| Warehouse Fire Precautions | Civic tension | ESTABLISHED | Recent small fires and near-misses have raised questions about safety and possible negligence or sabotage. |
+| Northfield Harvest | Regional concern | ESTABLISHED | Expected to be adequate but uneven; final harvest outcome unresolved. |
+| Ratfolk Market Access | Civic tension | ESTABLISHED | Ratfolk traders seek regular stalls and recognized leases in the Market Ward. |
+| Kharadorn Strategic Review | Political tension | ESTABLISHED | House Kharadorn has requested updated accounts of harbor defenses and charter obligations. |

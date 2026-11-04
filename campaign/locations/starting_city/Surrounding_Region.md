@@ -49,3 +49,8 @@ The hinterland offers supply routes, contracts, local disputes, ruins, isolated 
 
 ## Open Details
 The region's proper name, settlement names, distances, population, detailed land tenure, local minor houses, exact road routes, and specific wilderness sites remain open.
+
+
+## Established Local Settlements — 2026-11-04
+
+The initial settlements, landholders, working population estimates, approximate routes, and trade relationships are now recorded in [Regional Settlements and Landholders](Regional_Settlements_and_Landholders.md). This establishes Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge as the first playable regional communities. Their exact positions, boundaries, and travel distances remain approximate pending the final regional map.

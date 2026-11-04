@@ -175,3 +175,20 @@ Valedorn is the principal arena for Crown administration, Great House diplomacy,
 The monarch seeks to strengthen royal authority without provoking another rebellion. The Great Houses publicly uphold the post-Rebellion settlement while privately competing for influence. Kharadorn remains independent and distrustful of the Crown. Vaelorian and Merrowen compete for commercial influence. Edarth and Veyr are wary of royal centralization for different reasons. The Religious Establishment is gaining influence in court affairs. The southern territories remain difficult for the Crown to control.
 
 **Still unresolved:** identities of the monarch and royal officeholders; exact composition of the royal forces; Council voting and legal procedures; representatives; faction leaders and membership; and the religious institutions and doctrines represented by the Religious Establishment.
+
+
+## Stage 7 — Religion and Religious Institutions (Established, 2026-11-04)
+
+The Pathfinder pantheon is broadly recognized across the continent, but worship varies by region, culture, community, and individual. No single god is established as universally dominant. There is no single supreme religious authority; major faiths maintain independent hierarchies and institutions.
+
+Religious life includes temples, monasteries, shrines, cathedrals, religious orders, and clerical courts. Their presence and influence vary. Clergy and divine spellcasters are distinct: priests may perform religious duties without magic, and not every temple worker is a spellcaster. Divine spellcasters are uncommon, devote themselves to a god, and are regarded as significant figures who may inspire respect, fear, or suspicion. Their ability does not automatically confer senior religious office.
+
+The Religious Establishment is a politically influential but divided court faction/network. Senior religious authorities may advise the monarch and maintain a recognized court presence, but they do not hold an automatic Imperial Council seat. Religious institutions can own land and wealth, provide charity and education, advise rulers, influence ceremonies and public expectations, and condemn rulers or teachings, but they do not universally govern secular territories or automatically overrule secular law.
+
+An independent scholarly tradition exists, distinct from religious hierarchies though able to cooperate with them. Its scholars may serve noble households, royal offices, temples, and wealthy cities; they need not be clergy or spellcasters.
+
+The Great Houses have broad religious tendencies, not exclusive patron deities or uniform doctrines. Vaelorian traditions emphasize temple patronage and scholarship; Kharadorn maintains strong Torag and clan traditions; Edarth values traditional worship, public ceremonies, and oaths; Calderan cultivates religious legitimacy; Veyr's faith is shaped by hardship and frontier danger; Merrowen's customs reflect sailors, travel, trade, and maritime dangers.
+
+Religious tensions include religious versus secular authority, competing interpretations, institutional wealth, accusations of heresy, and questions surrounding divine power. Religious life is varied, not uniformly fanatical or corrupt.
+
+**Still unresolved:** Divine magic's precise mediation; major religious institutions and leaders; regional prominence of gods; scholarly order's name and organization; religious courts' legal authority; and religion's precise influence over secular law and inheritance.

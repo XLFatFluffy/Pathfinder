@@ -107,3 +107,11 @@ The central inland sea supports substantial shipping, naval commerce, and import
 **Minor houses are an established category:** wealthy lords and ladies with relatively small territories and local holdings. They possess wealth and local standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold Imperial Council seats. Their names, number, allegiances, and holdings remain undecided.
 
 The previously suggested specific regional placements for the six Great Houses remain proposals until the revised map is reviewed.
+
+
+## Approved territorial framework — 2026-11-04
+- House Veyr controls the majority of the northern frontier and northern territories.
+- House Calderan's main Crown territory is farther inland, not directly on the inland sea; the precise capital site remains open.
+- House Merrowen extends along the eastern coast.
+- House Kharadorn controls Dragonstone, the central inland sea, and surrounding territory. Khar-Dum remains the separate ancestral homeland in the northeastern mountains.
+- Exact borders, seats, port jurisdictions, and the limits of Kharadorn's surrounding territory remain unresolved. Lesser political powers continue to occupy parts of the continent, particularly the south.

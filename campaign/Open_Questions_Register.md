@@ -97,3 +97,19 @@ Still to develop:
 - Specific temples, represented deities, clergy, holy days, and religious disagreements.
 - Named criminal operators, groups, safehouses, and particular illicit markets.
 - The city's current events and the PCs' opening situation.
+
+
+## Tallowmere — Updated Remaining Development (2026-11-04)
+
+The relative city layout, gates and defenses framework, surrounding regional structure, and initial campaign-era civic pressures are now established in dedicated Tallowmere records. The following remain open:
+- Exact coastline, river course, harbor engineering, wall geometry, street plan, and scaled city map.
+- Founding date, major local historical events, and detailed chronology.
+- Exact population breakdown, including seasonal residents and surrounding settlements.
+- Detailed charter wording, council membership and procedures, tax schedule, court practices, watch strength, and garrison numbers.
+- Named guild leaders beyond the initial cast, merchant families, and specific guild privileges.
+- Ratfolk neighborhood names, local meeting structure, population, and additional community figures.
+- Specific temples, represented deities, clergy, holy days, and religious disagreements.
+- Named criminal operators, groups, safehouses, and particular illicit markets.
+- The proper name of the surrounding region, settlement names, distances, population, land tenure, minor houses, and specific wilderness sites.
+- The truth behind current rumors, the exact identity of any merchant consortium, and the specific Kharadorn envoy.
+- The PCs' opening situation and the precise date of the campaign's first session.

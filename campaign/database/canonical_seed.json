@@ -1,0 +1,434 @@
+{
+  "format": "pathfinder-campaign",
+  "schemaVersion": 1,
+  "includedCategories": [
+    "world",
+    "people",
+    "campaign"
+  ],
+  "settings": {
+    "campaign_name": "Pathfinder Campaign"
+  },
+  "records": {
+    "locations": [
+      {
+        "id": "tallowmere",
+        "name": "Tallowmere",
+        "parent_id": null,
+        "type": "City / Walled Port",
+        "description": "Major walled port on the northwestern shore of the central inland sea, built around a sheltered natural harbor where a navigable river reaches the sea. Governed locally by House Denvor under a hereditary charter confirmed by House Kharadorn.",
+        "player_visible": 1
+      }
+    ],
+    "houses": [
+      {
+        "id": "house-calderan",
+        "name": "House Calderan",
+        "description": "The ruling dynasty and Crown. Its post-Rebellion authority is substantial but constrained by the political settlement and Imperial Council.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-vaelorian",
+        "name": "House Vaelorian",
+        "description": "Elven Great House of the western highlands. Maintains financial dominance and trade access through diplomacy and leverage.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-kharadorn",
+        "name": "House Kharadorn",
+        "description": "Dwarven Great House and empire. Seeks independence, control of the inland sea and Dragonstone, and freedom from surface interference in clan affairs.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-edarth",
+        "name": "House Edarth",
+        "description": "Human Great House of the western heartlands. Values traditional noble rights, military and agricultural strength, and resistance to excessive royal centralization.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-veyr",
+        "name": "House Veyr",
+        "description": "Human Great House of the northern marches. Focused on frontier security, resources for the Northern Watch, and preserving control of the north.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-merrowen",
+        "name": "House Merrowen",
+        "description": "Human Great House of the eastern coast. Protects eastern ports and shipping, commercial independence, and maritime influence.",
+        "player_visible": 1
+      },
+      {
+        "id": "house-denvor",
+        "name": "House Denvor",
+        "description": "Established minor human house ruling Tallowmere from Greywatch under a hereditary charter confirmed by House Kharadorn. Locally powerful but not a Great House.",
+        "heraldry_description": "A black heron standing in shallow silver water upon a deep green field.",
+        "motto": "Where Waters Gather.",
+        "player_visible": 1
+      }
+    ],
+    "npcs": [
+      {
+        "id": "npc-aldrich-calderan",
+        "name": "King Aldric Calderan",
+        "race": "Human",
+        "age": "Approximately 56",
+        "occupation": "Monarch",
+        "titles": "King",
+        "description": "Intelligent, educated, patient, politically cautious, and increasingly frustrated by the limits placed on the Crown.",
+        "status": "Alive",
+        "player_visible": 0
+      },
+      {
+        "id": "npc-theren-vaelorian",
+        "name": "Lord Theren Vaelorian",
+        "race": "Elf",
+        "age": "Approximately 240",
+        "occupation": "Great House ruler",
+        "titles": "Lord",
+        "description": "Cultured, patient, calculating, and difficult to surprise. Prefers financial and diplomatic leverage to direct threats.",
+        "status": "Alive",
+        "player_visible": 0,
+        "house_id": "house-vaelorian"
+      },
+      {
+        "id": "npc-durnak-kharadorn",
+        "name": "High King Durnak Kharadorn",
+        "race": "Dwarf",
+        "age": "Approximately 190",
+        "occupation": "Great House ruler",
+        "titles": "High King",
+        "description": "Stern, disciplined, traditional, and deeply conscious of his family history.",
+        "status": "Alive",
+        "player_visible": 0,
+        "house_id": "house-kharadorn"
+      },
+      {
+        "id": "npc-garrick-edarth",
+        "name": "Lord Garrick Edarth",
+        "race": "Human",
+        "age": "Approximately 62",
+        "occupation": "Great House ruler",
+        "titles": "Lord",
+        "description": "Traditional martial lord who values discipline, loyalty, and reputation.",
+        "status": "Alive",
+        "player_visible": 0,
+        "house_id": "house-edarth"
+      },
+      {
+        "id": "npc-edran-veyr",
+        "name": "Lord Edran Veyr",
+        "race": "Human",
+        "age": "Approximately 51",
+        "occupation": "Great House ruler",
+        "titles": "Lord",
+        "description": "Practical and reserved, accustomed to difficult decisions with limited resources.",
+        "status": "Alive",
+        "player_visible": 0,
+        "house_id": "house-veyr"
+      },
+      {
+        "id": "npc-maris-merrowen",
+        "name": "Lady Maris Merrowen",
+        "race": "Human",
+        "age": "Approximately 48",
+        "occupation": "Great House ruler",
+        "titles": "Lady",
+        "description": "Accomplished political operator with extensive commercial and diplomatic relationships.",
+        "status": "Alive",
+        "player_visible": 0,
+        "house_id": "house-merrowen"
+      },
+      {
+        "id": "npc-oswin-denvor",
+        "name": "Lord Oswin Denvor",
+        "race": "Human",
+        "age": "Early 50s",
+        "occupation": "Lord of Tallowmere",
+        "titles": "Lord",
+        "description": "Measured and observant, preferring negotiated solutions and predictable obligations.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere",
+        "house_id": "house-denvor"
+      },
+      {
+        "id": "npc-catrin-denvor",
+        "name": "Lady Catrin Denvor",
+        "race": "Human",
+        "occupation": "Noble household and civic patron",
+        "titles": "Lady",
+        "description": "Politically capable Denvor household member who maintains civic and charitable relationships.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere",
+        "house_id": "house-denvor"
+      },
+      {
+        "id": "npc-edwyn-denvor",
+        "name": "Ser Edwyn Denvor",
+        "race": "Human",
+        "age": "Mid-20s",
+        "occupation": "Heir and military administrator",
+        "titles": "Ser",
+        "description": "Recognized heir who favors greater investment in defenses and infrastructure.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere",
+        "house_id": "house-denvor"
+      },
+      {
+        "id": "npc-anwen-denvor",
+        "name": "Lady Anwen Denvor",
+        "race": "Human",
+        "age": "Early 20s",
+        "occupation": "Noble and civic networker",
+        "titles": "Lady",
+        "description": "Perceptive and socially skilled, with genuine relationships outside the nobility.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere",
+        "house_id": "house-denvor"
+      },
+      {
+        "id": "npc-marrec-holt",
+        "name": "Reeve Marrec Holt",
+        "race": "Human",
+        "occupation": "Town Reeve",
+        "titles": "Reeve",
+        "description": "Methodical and protective of administrative records; values dependable civic routines.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-ysella-vane",
+        "name": "Harbor Master Ysella Vane",
+        "race": "Human",
+        "occupation": "Harbor Master",
+        "titles": "Harbor Master",
+        "description": "Direct, experienced, and difficult to intimidate. Wants safe traffic and fair quay allocation.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-odran-pell",
+        "name": "Chief Magistrate Odran Pell",
+        "race": "Half-elf",
+        "occupation": "Chief Magistrate",
+        "titles": "Magistrate",
+        "description": "Patient, observant, and exacting about testimony.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-brinna-salk",
+        "name": "Captain Brinna Salk",
+        "race": "Human",
+        "occupation": "Captain of the Watch",
+        "titles": "Captain",
+        "description": "Practical and blunt, with strong responsibility toward her patrols.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-hadrik-voss",
+        "name": "Castellan Hadrik Voss",
+        "race": "Dwarf",
+        "occupation": "Castellan of Greywatch",
+        "titles": "Castellan",
+        "description": "Veteran professional who values preparation, stores, and clear command.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-meret-sorn",
+        "name": "Meret Sorn",
+        "race": "Human",
+        "occupation": "Warehouse Guild factor",
+        "titles": "Factor",
+        "description": "Polished and cautious. Values predictable trade, secure cargo, fire prevention, and reliable records.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-dagna-coppervein",
+        "name": "Dagna Coppervein",
+        "race": "Dwarf",
+        "occupation": "Shipwrights' Brotherhood master",
+        "titles": "Master",
+        "description": "Exacting craftswoman who protects apprentices, skilled labor, quality standards, and timber supply.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-pellan-reed",
+        "name": "Pellan Reed",
+        "race": "Halfling",
+        "occupation": "Bargemen's Company organizer",
+        "titles": "Organizer",
+        "description": "Sociable, sharp, and politically perceptive. Wants fair river tolls and safe landings.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-tavren-selwick",
+        "name": "Tavren Selwick",
+        "race": "Human",
+        "occupation": "Merchant and shipowner",
+        "titles": "Master",
+        "description": "Prosperous merchant known for paying obligations and keeping accurate cargo accounts.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-nix-cistern",
+        "name": "Nix-of-the-Cistern",
+        "race": "Ratfolk",
+        "age": "Elderly",
+        "occupation": "Underways neighborhood mediator",
+        "titles": "Mediator",
+        "description": "Patient and attentive to practical needs. A local contact, not a representative of all ratfolk.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-tikka-vell",
+        "name": "Tikka Vell",
+        "race": "Ratfolk",
+        "occupation": "Repairer and small-goods trader",
+        "titles": "Trader",
+        "description": "Resourceful and commercially ambitious. Wants ratfolk workshops to sell openly in the Market Ward.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-serren-coil",
+        "name": "Serren Coil",
+        "race": "Ratfolk",
+        "occupation": "Courier and route guide",
+        "titles": "Courier",
+        "description": "Quiet and observant, protective of route knowledge and family shelters.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-miraq-ashwhisk",
+        "name": "Miraq Ashwhisk",
+        "race": "Ratfolk",
+        "occupation": "Alchemist and proprietor",
+        "titles": "Proprietor",
+        "description": "Capable independent craftswoman with a respected surface business.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-sister-alwen",
+        "name": "Sister Alwen",
+        "race": "Human",
+        "occupation": "Hospice administrator",
+        "titles": "Sister",
+        "description": "Calm, stubborn, and practical. Wants food, shelter, care, burial assistance, and support for abandoned children.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      },
+      {
+        "id": "npc-brother-caldus",
+        "name": "Brother Caldus",
+        "race": "Half-orc",
+        "occupation": "Sailors' shrine keeper",
+        "titles": "Brother",
+        "description": "Thoughtful listener who records names of the missing and lost and values maritime rites.",
+        "status": "Alive",
+        "player_visible": 0,
+        "location_id": "tallowmere"
+      }
+    ],
+    "factions": [
+      {
+        "id": "faction-harbor-fellowship",
+        "name": "Harbor Fellowship",
+        "faction_type": "Maritime association",
+        "description": "Shipowners and maritime interests concerned with berth access, harbor operations, and commercial predictability.",
+        "leader_npc_id": "npc-ysella-vane",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 1
+      },
+      {
+        "id": "faction-warehouse-guild",
+        "name": "Warehouse Guild",
+        "faction_type": "Warehouse guild",
+        "description": "Recognized warehouse operators and factors concerned with secure cargo, records, fire prevention, and access.",
+        "leader_npc_id": "npc-meret-sorn",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 1
+      },
+      {
+        "id": "faction-market-guild",
+        "name": "Market Guild",
+        "faction_type": "Market guild",
+        "description": "Established market members and merchants concerned with stalls, commercial access, and trade privileges.",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 1
+      },
+      {
+        "id": "faction-river-bargemen",
+        "name": "River Carters' and Bargemen's Company",
+        "faction_type": "Transport company",
+        "description": "River operators seeking fair tolls, safe landings, and recognition for inland transport.",
+        "leader_npc_id": "npc-pellan-reed",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 1
+      },
+      {
+        "id": "faction-shipwrights",
+        "name": "Shipwrights' Brotherhood",
+        "faction_type": "Craft guild",
+        "description": "Skilled shipwright organization protecting apprentices, craft standards, labor, and timber supply.",
+        "leader_npc_id": "npc-dagna-coppervein",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 1
+      },
+      {
+        "id": "faction-underways",
+        "name": "Ratfolk Underways Community",
+        "faction_type": "Subterranean community network",
+        "description": "Decentralized ratfolk community beneath Tallowmere with families, workshops, routes, and limited coordination. It is not a unified criminal faction or single political bloc.",
+        "headquarters_location_id": "tallowmere",
+        "player_visible": 0
+      }
+    ],
+    "quests": [
+      {
+        "id": "quest-roadside-troll",
+        "name": "Roadside Troll Attack",
+        "status": "active",
+        "summary": "A Selwick & Company wagon carrying ordinary commercial cargo is attacked by a troll on the PCs' approach to Tallowmere. Protecting the crew or recovering the consignment can earn a modest reward and a written introduction to Meret Sorn.",
+        "giver": "Tavren Selwick",
+        "location_id": "tallowmere",
+        "player_visible": 0
+      },
+      {
+        "id": "quest-warehouse-introduction",
+        "name": "Warehouse Guild Introduction",
+        "status": "undiscovered",
+        "summary": "A signed recommendation from Tavren Selwick can provide the PCs a first commercial meeting with Meret Sorn. It grants credibility, not guild membership or universal trust.",
+        "giver": "Tavren Selwick",
+        "location_id": "tallowmere",
+        "player_visible": 0
+      }
+    ]
+  }
+}

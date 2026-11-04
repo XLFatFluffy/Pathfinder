@@ -57,6 +57,10 @@ The cloud app runs on port 3001 so it can coexist with the existing local app on
 
 Email signup is disabled in local Supabase configuration. The GM account is created administratively; players cannot register themselves or assign their own roles. The browser only receives the Supabase anon/publishable key. Do not put a service-role key in `web/.env.local` or any `NEXT_PUBLIC_` variable.
 
+When Supabase is configured, the app's `/setup` page provides the account-
+provisioning steps and SQL for assigning the first GM and players. An
+administrator must run that SQL from the Supabase Dashboard's SQL Editor.
+
 To add a player, create their account administratively in Supabase Auth, then assign it to the campaign as a player:
 
 ```sql

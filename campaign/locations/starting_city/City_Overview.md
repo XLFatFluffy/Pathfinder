@@ -154,3 +154,5 @@ These records establish the initial framework. Names, relationships, statistics,
 - [City Layout and Defenses](City_Layout_and_Defenses.md): relative district placement, gates, harbor, river, roads, and defensive framework.
 - [Surrounding Region](Surrounding_Region.md): hinterland, agricultural and trade dependencies, roads, and regional settlement types.
 - [Current Situation and Rumors](Current_Situation_and_Rumors.md): active civic pressures and rumors circulating before the PCs' arrival.
+
+- [Shopkeepers and Stock](Shopkeepers_and_Stock.md): named independent businesses, distinct opening inventories, asking prices, services, and stock-change standards.

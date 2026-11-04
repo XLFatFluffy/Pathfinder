@@ -184,3 +184,18 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Exact street entrances and routes through the Underways; no complete public map exists.
 - Market days, bell schedule, curfew customs, gate hours, and routine harbor-chain procedures.
 - Ownership, maintenance funding, legal status, tolls, and access rights for individual roads, bridges, and public spaces.
+
+
+## Tallowmere — faction relationships and local power
+
+**ESTABLISHED FRAMEWORK:** Tallowmere's sources of local influence and their current relationships are recorded in `locations/starting_city/Faction_Relationships_and_Local_Power.md` (2026-11-04). House Denvor retains local authority under its Kharadorn-confirmed charter; Kharadorn's role is strategic rather than routine administration; guilds, civic officers, ratfolk neighborhood contacts, religious institutions, and informal operators exert distinct forms of influence. No single faction controls the city, and the illicit economy is fragmented.
+
+**Still open:**
+- Exact membership, seats, and procedures of the Tallowmere chartered council.
+- Whether ratfolk neighborhoods have a recognized formal petition channel or representative arrangement.
+- Names and identities of Kharadorn envoys or inspectors assigned to the defense review.
+- Individual leaders and membership of informal criminal networks.
+- Which merchants support or oppose regular ratfolk market access.
+- Local temple leadership and political positions.
+- Which current merchant and civic disputes escalate, settle, or fade.
+- Precise resources, manpower, and readiness of the Denvor garrison and city watch.

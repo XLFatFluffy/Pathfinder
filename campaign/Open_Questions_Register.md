@@ -69,3 +69,10 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 **RESOLVED:** Current rulers and immediate families of all six Great Houses, including designated heirs and principal succession tensions, are established in `House_Rulers.md` (2026-11-04).
 
 **Still open:** Wider family trees and collateral branches; individual Imperial Council representatives; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded.
+
+
+## Player Character Information
+
+**ESTABLISHED:** The surviving dragon-dynasty heir seeks to rebuild the dynasty. The ratfolk alchemist seeks to end anti-ratfolk persecution and establish ratfolk as equals or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him.
+
+**Still open by player choice:** The vampire PC's personal ambition and the detailed personal backstories of the vampire and other PCs. The GM will provide those backstories when received. Do not invent missing PC details.

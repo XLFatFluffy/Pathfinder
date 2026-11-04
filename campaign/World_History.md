@@ -1,9 +1,9 @@
 # World History
 
 **Status:** ESTABLISHED HISTORICAL FOUNDATION / CHRONOLOGY INCOMPLETE  
-**Last reviewed:** 2026-11-03
+**Last reviewed:** 2026-11-04
 
-This record separates confirmed historical facts from dates, names, and political details that remain undecided. Legacy names such as House Targaryen, House Kharadorn, and Dragonstone are working labels inherited from the source Campaign Bible; they are not necessarily the final names of the original setting.
+This record separates confirmed historical facts from dates, names, and political details that remain undecided. House Kharadorn is an approved original Great House name. The fallen dragon-riding dynasty's name and Dragonstone's name remain provisional working labels pending replacement. The Imperial Seat is an established institutional term, though its final in-world naming may still be refined.
 
 ## Established historical foundation
 
@@ -103,10 +103,10 @@ The houses shared enemies during the rebellion but did not share a single vision
 
 ## Remaining historical uncertainties
 
-The houses' precise territorial locations, seats, current heads and heirs, detailed roles in individual campaigns of the Great Rebellion, and the later development of their rivalries remain open. The final names of the fallen dragon-riding dynasty, Dragonstone, and the Imperial Seat are also still to be determined.
+Exact borders, coordinates, local jurisdictions, and geographic names remain open. Current Great House seats, broad territorial spheres, rulers, heirs, Imperial Council representatives, Crown officers, and court-faction leaders are established in the Stage 5, Stage 8, and Stage 9 records and their dedicated references. The detailed role of each house in individual Rebellion campaigns, the precise post-Rebellion succession chronology, and the later development of rivalries remain open. The fallen dragon-riding dynasty's original name and the final name of Dragonstone remain to be determined. The Imperial Seat is an established physical and political institution; its detailed appearance and construction history remain open.
 
 
 **Ruling-house clarification:** House Calderan is the established identity of the human Great House that took the Imperial Seat and supplied the compromise monarch. The monarch's controllers and the precise details of the settlement remain unresolved.
 
 
-**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House previously recorded under the legacy placeholder House Baratheon. Older references to House Baratheon are superseded. Dragonstone remains the provisional working name of the conquered former Targaryen stronghold; Khar-Dum is the Kharadorns' ancestral homeland.
+**Historical naming update:** House Kharadorn is the approved original identity of the dwarven Great House; older references to House Baratheon are superseded. Dragonstone remains the provisional working name of the conquered former stronghold of the fallen dragon-riding dynasty; Khar-Dum is the Kharadorns' ancestral homeland.

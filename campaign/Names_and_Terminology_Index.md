@@ -201,9 +201,26 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Orsik Ironworks | Business | ESTABLISHED | Common ironwork, tools, repairs, and commissioned fittings. |
 | Fenna Wale | Person / herbalist | ESTABLISHED | Runs Fenna's Physic Garden near the Lantern Ward hospice. |
 | Fenna's Physic Garden | Business | ESTABLISHED | Herbs, poultices, and mundane remedies. |
-| Joric Pell | Person / alchemist | ESTABLISHED | Master alchemist and proprietor of Tallowmere Alchemical Supply. |
+| Miraq Ashwhisk | Person / ratfolk alchemist | ESTABLISHED | Ratfolk alchemist and proprietor of Tallowmere Alchemical Supply; potential professional contact and friend to the ratfolk PC, with relationship to develop through play. |
 | Tallowmere Alchemical Supply | Business | ESTABLISHED | Limited stock of alchemical goods and laboratory supplies. |
 | Elira Pell | Person / merchant | ESTABLISHED | Co-owner of Pell & Daughter with Odran Pell. |
 | Odran Pell | Person / civic officer and merchant | ESTABLISHED | Chief Magistrate; senior partner in Pell & Daughter with his daughter Elira. |
 | Pell & Daughter | Business | ESTABLISHED | Scribes, stationers, document copying, and map services in High Ward. |
 | The Brass Scale | Business | ESTABLISHED | Ilyne Marris's moneychanging and brokerage business in Market Ward. |
+
+
+| The Copper Ladle | Business | ESTABLISHED | Della Rusk's inexpensive cooked-food stall in Market Ward. |
+| Della Rusk | Person / food vendor | ESTABLISHED | Human widow who runs the Copper Ladle with her sons. |
+| Thread & Thimble | Business | ESTABLISHED | Sella Marr's tailor and practical clothing shop in Market Ward. |
+| Sella Marr | Person / tailor | ESTABLISHED | Halfling tailor and cloth merchant. |
+| The Split Hide | Business | ESTABLISHED | Hadran Voss's leatherwork, harness, and limited armor shop in Old Quays. |
+| Hadran Voss | Person / leatherworker | ESTABLISHED | Human leatherworker and harness-maker; distinct from Castellan Hadrik Voss. |
+| Gull & Anchor Chandlery | Business | ESTABLISHED | Nessa Tor's maritime supply shop in Old Quays. |
+| Nessa Tor | Person / merchant | ESTABLISHED | Human chandlery owner and former ship's purser. |
+| Brindle & Sons Stables | Business | ESTABLISHED | Toman Brindle's stable outside West Gate. |
+| Toman Brindle | Person / stablekeeper | ESTABLISHED | Human stable owner; daughter Ressa manages the books. |
+| Ressa Brindle | Person / merchant | ESTABLISHED | Manages the accounts at Brindle & Sons Stables. |
+| The Blue Heron | Business / inn | ESTABLISHED | Veyra Dane's respectable inn overlooking the Old Quays. |
+| Veyra Dane | Person / innkeeper | ESTABLISHED | Half-elf innkeeper and former ship's cook. |
+| The Crooked Oar | Business / tavern | ESTABLISHED | Pellik Sorn's inexpensive working tavern in New Quays. |
+| Pellik Sorn | Person / tavernkeeper | ESTABLISHED | Human former deckhand and owner of the Crooked Oar. |

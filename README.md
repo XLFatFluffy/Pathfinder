@@ -6,6 +6,7 @@ Pathfinder is a campaign management application for a custom Pathfinder First Ed
 
 Included so far:
 - Cloud foundation in `web/`: Next.js, Supabase Auth, GM/player route separation, and database-enforced campaign access
+- Email-based password recovery with a Supabase PKCE callback and role-aware password updates
 - Cloud campaign journal with GM create/edit/delete and player-visible entries
 - Cloud locations with parent links, player descriptions, private GM notes, and guarded editing/deletion
 - NPC profiles with player-known visibility, linked locations, GM-only notes, and dated status history
@@ -57,6 +58,8 @@ The cloud app runs on port 3001 so it can coexist with the existing local app on
 
 Email signup is disabled in local Supabase configuration. The GM account is created administratively; players cannot register themselves or assign their own roles. The browser only receives the Supabase anon/publishable key. Do not put a service-role key in `web/.env.local` or any `NEXT_PUBLIC_` variable.
 
+Players and the GM can recover a forgotten password from the sign-in page. The reset email returns to `/auth/callback` and opens a secure password-update form. For local development, copy all three values from `web/.env.example`; for production, set `NEXT_PUBLIC_SITE_URL` to the app's origin and add the exact `/auth/callback` URL to Supabase Auth's allowed redirect URLs. Email delivery must be enabled in the Supabase project.
+
 When Supabase is configured, the app's `/setup` page provides the account-
 provisioning steps and SQL for assigning the first GM and players. An
 administrator must run that SQL from the Supabase Dashboard's SQL Editor.
@@ -78,16 +81,16 @@ The cloud foundation includes sign-in, GM/player route separation, journal visib
 
 ### Production deployment status
 
-The cloud app is not yet deployed. When preparing a production project:
+The cloud app is not yet deployed. A hosted Supabase project is linked and the existing campaign migrations, including character sheets, have been applied. No GM/player accounts or campaign memberships had been provisioned at the last verification. Before using the project, check its current state and then finish deployment:
 
-1. Create a Supabase project, sign in with `npx supabase login`, link it with `npx supabase link --project-ref <project-ref>`, then apply the checked-in migrations with `npx supabase db push`. Confirm the linked project before pushing migrations.
+1. Confirm the linked Supabase project and migration history with `npx supabase migration list`. Apply any pending checked-in migrations only after verifying the target project.
 2. Disable public email signup in the production Supabase Auth settings. Create the initial GM account administratively, then add its UUID to `campaign_members` using the bootstrap SQL above. Create your friend's account administratively and add it with role `player` using the player SQL above. Do not expose a service-role key to the browser.
 3. Create a Vercel project from this repository and set its root directory to `web`.
-4. Configure `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel for the appropriate deployment environments.
-5. Add the production domain and required preview URLs to Supabase Auth's allowed redirect URLs.
+4. Configure `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, and `NEXT_PUBLIC_SITE_URL` in Vercel for the appropriate deployment environments. Set the site URL to the exact origin for each deployment.
+5. Add each deployment's `/auth/callback` URL to Supabase Auth's allowed redirect URLs and configure email delivery for password recovery.
 6. Before inviting players, verify private-record isolation using separate GM and player accounts. The local pgTAP tests are a baseline, not a substitute for checking each production role against the deployed policies.
 
-No Supabase or Vercel credentials are present in this repository, so no hosted project has been created or deployed.
+The Supabase database is hosted, but the web app has not been deployed to Vercel. No service-role key is stored in this repository.
 
 ### Existing local app
 

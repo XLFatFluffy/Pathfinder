@@ -8,11 +8,13 @@ export default async function LoginPage({
 }: {
   searchParams: Promise<{
     error?: string | string[];
+    message?: string | string[];
     next?: string | string[];
   }>;
 }) {
-  const { error, next } = await searchParams;
+  const { error, message, next } = await searchParams;
   const errorMessage = typeof error === "string" ? error : null;
+  const statusMessage = typeof message === "string" ? message : null;
 
   return (
     <main>
@@ -25,6 +27,11 @@ export default async function LoginPage({
         {errorMessage ? (
           <p className="error" role="alert">
             {errorMessage}
+          </p>
+        ) : null}
+        {statusMessage ? (
+          <p className="notice" role="status">
+            {statusMessage}
           </p>
         ) : null}
         <form action={signIn} className="form-stack">
@@ -53,6 +60,9 @@ export default async function LoginPage({
         </form>
         <p className="muted">
           Need help? Ask the campaign GM to set up your account.
+        </p>
+        <p>
+          <Link href="/forgot-password">Forgot your password?</Link>
         </p>
         <Link href="/setup">Setup instructions</Link>
       </section>

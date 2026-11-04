@@ -235,3 +235,11 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **Rules protection:** The wilderness framework does not add mandatory crafting ingredients, special checks, costs, or prerequisites. Published Pathfinder First Edition item creation rules remain authoritative.
 
 **Still open:** exact wilderness boundaries; site histories and contents; specific creature lairs; local resource rights and buyers; seasonal availability; and any links to the Great Rebellion or older powers. Do not assume those connections without later approval.
+
+## Tallowmere Regional Map Review — 2026-11-04
+
+**RESOLVED:** The GM-provided illustration *The Lands About Tallowmere* is accepted as the current visual reference for relative regional placement. The broad positions of Tallowmere, River Vale, Millhaven, Fordmere, Brackenholt, Brackenwood, Stonehollow, Greyback Ridges, Northfields, Ashcombe Manor, Saltwick, and Harthbridge agree with the written regional framework.
+
+**CARTOGRAPHIC LIMITATION:** The illustration's printed 0–100 mile scale bar conflicts with the written journey distances and is not a valid measurement reference. Keep the established written distances unchanged. Use the illustration for relative direction and terrain only until a properly scaled regional map is prepared.
+
+**STILL OPEN:** Correct or remove the scale bar; establish surveyed coordinates and exact road distances only when a measured map is created. The detailed city map remains separate future work.

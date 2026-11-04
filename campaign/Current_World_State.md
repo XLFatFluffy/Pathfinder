@@ -167,7 +167,7 @@ Veyr depends on southern grain and support; Vaelorian on food, labor, and mariti
 ### Imperial capital
 Valedorn is the established capital of the current monarchy. The Imperial Seat is both a physical throne and a political institution/symbol representing royal authority, dynastic legitimacy, and the post-Rebellion settlement. The palace grew around an older royal fortress and reflects successive dynastic building periods.
 
-**Remaining open:** exact borders, coordinates, river and road courses, travel times, population, individual minor houses, local port jurisdictions, and the precise appearance/history of the Imperial Seat. The map's scale bar remains uncalibrated and should not be used to calculate distances.
+**Remaining open:** exact borders, coordinates, river and road courses, travel times, population, individual minor houses, local port jurisdictions, and the precise appearance/history of the Imperial Seat. The original atlas's 0–1,000-mile scale bar is obsolete and must not be used to calculate distances. The authoritative atlas record is campaign/maps/continent_reference.md; approved working dimensions remain approximately 1,700 miles north-south by 1,300 miles east-west. Regional travel distances remain provisional until calibrated against a measured regional map.
 
 
 ## Stage 6 — Government and Court (Established, 2026-11-04)

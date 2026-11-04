@@ -221,3 +221,11 @@ The present political climate includes a monarch seeking greater authority witho
 
 **Still unresolved:** Council procedures and appointment/removal customs; faction membership and relative strength; royal army structure; intelligence network scale; and religious institutions' exact representation.
 **Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `Court_and_Council.md`.
+
+
+### 2026-11-04 — Player-character ambitions clarified
+**Status:** ESTABLISHED PLAYER-CHARACTER INFORMATION
+**Decision:** The GM clarified that the surviving dragon-dynasty heir's goal is to rebuild the dynasty. The ratfolk alchemist's goal is to end persecution and hatred of ratfolk and establish them as equals to or greater than other peoples. His family was killed by persecution; the vampire PC saved and raised him. The vampire's own ambition remains unknown.
+
+**Campaign principle:** The PCs are not assumed to be heroes. Do not impose a conventional heroic mission or invent personal histories, goals, identities, or methods for PCs. Tyler is the vampire player's real-world name, not the character's name.
+**Reference:** `Player_Character_Ambitions.md`.

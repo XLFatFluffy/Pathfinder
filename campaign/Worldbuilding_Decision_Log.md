@@ -207,3 +207,17 @@ The present political climate includes a monarch seeking greater authority witho
 **Reason:** Establish a usable political cast with distinct leadership styles and family pressures before developing the opening campaign region. Succession conflicts are intentionally varied rather than duplicated across all houses.
 **Still unresolved:** Wider family trees, Imperial Council representatives, household officers and commanders, and additional branch members.
 **Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `House_Rulers.md`.
+
+
+### 2026-11-04 — Stage 9: Imperial Council and Royal Court established
+**Status:** ESTABLISHED
+**Decision:** The GM instructed the assistant to continue and delegated creative development of the current Council representatives, Crown officers, and court faction leadership. Current names, roles, priorities, and principal political relationships are recorded in `Court_and_Council.md`.
+
+**Council:** Othmar Rusk (Calderan), Ilyra Vaelorian, Brokk Ironvein (Kharadorn), Ysabet Edarth, Merek Veyr, and Cassia Merrowen. Rusk also serves as Royal Chancellor.
+
+**Crown officers:** Rusk, Meredyth Sorn (Coin), Bastian Wycliffe (Laws), Garran Holt (War), Nerys Vale (Spymaster), and Perrin Ashcombe (Chamberlain).
+
+**Faction leadership:** Elowen Calderan (Royal Court); Garrick Edarth (Traditionalists); Maerelle Calderan (Royal Expansionists); Cassia Merrowen (Merchant Interests); Aveline Marr (Religious Establishment). Key associates are detailed in the reference. Factions remain overlapping networks, not formal parties.
+
+**Still unresolved:** Council procedures and appointment/removal customs; faction membership and relative strength; royal army structure; intelligence network scale; and religious institutions' exact representation.
+**Affected records:** Campaign Bible, Canon Register, Current World State, Names and Terminology Index, Open Questions Register, and `Court_and_Council.md`.

@@ -224,3 +224,21 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Veyra Dane | Person / innkeeper | ESTABLISHED | Half-elf innkeeper and former ship's cook. |
 | The Crooked Oar | Business / tavern | ESTABLISHED | Pellik Sorn's inexpensive working tavern in New Quays. |
 | Pellik Sorn | Person / tavernkeeper | ESTABLISHED | Human former deckhand and owner of the Crooked Oar. |
+
+
+## Tallowmere Commercial Additions (2026-11-04)
+
+| Name | Type | Status | Notes |
+|---|---|---|---|
+| Jorren Vale | Person / weaponsmith | ESTABLISHED | Human master weaponsmith and owner of Redoubt Arms. |
+| Tessa Vale | Person / merchant | ESTABLISHED | Handles sales and accounts at Redoubt Arms. |
+| Redoubt Arms | Business | ESTABLISHED | High Ward weaponsmith with limited stock and commissioned masterwork weapons. |
+| Brunna Keld | Person / armorer | ESTABLISHED | Dwarven armorer with a House Denvor garrison contract. |
+| Hearth & Hammer Armoury | Business | ESTABLISHED | Greywatch Rise armory; private work depends on garrison contract capacity. |
+| Hesta Pellor | Person / baker | ESTABLISHED | Human baker and proprietor of Three Grain Bakery. |
+| Three Grain Bakery | Business | ESTABLISHED | Market Ward bakery supplying households and selected inns. |
+| Ollo Venn | Person / provisioner | ESTABLISHED | Halfling bulk provisioner and owner of Salt & Root Provisioners. |
+| Merra Venn | Person / merchant | ESTABLISHED | Manages deliveries for Salt & Root Provisioners. |
+| Salt & Root Provisioners | Business | ESTABLISHED | New Quays bulk food and ship-provisioning business. |
+| Edrin Salk | Person / ferryman | ESTABLISHED | Human licensed ferryman operating local river crossings and cargo punts. |
+| The Ferryman's Steps | Business | ESTABLISHED | Rivergate passenger and small-cargo ferry operation. |

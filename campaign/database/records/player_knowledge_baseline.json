@@ -1,0 +1,241 @@
+{
+  "status": "WORKING_BASELINE",
+  "purpose": "Separates what newly arriving PCs can reasonably know before Session One from information that requires local contact, specialized knowledge, investigation, or GM disclosure.",
+  "rules": {
+    "starting_assumption": "PCs arrive in Session One as newcomers with no assumed Tallowmere contacts.",
+    "knowledge_layers": [
+      {
+        "id": "COMMON_KNOWLEDGE",
+        "meaning": "Information a reasonably informed person in the setting could know without having visited Tallowmere or having a special connection."
+      },
+      {
+        "id": "REGIONAL_KNOWLEDGE",
+        "meaning": "Information a person from the surrounding region, a traveler, merchant, noble household, soldier, scholar, or otherwise informed character could reasonably know. Do not assume every PC knows it."
+      },
+      {
+        "id": "LOCAL_PUBLIC",
+        "meaning": "Public information that exists openly in Tallowmere but that a newcomer does not automatically know by name. PCs can learn it through ordinary interaction."
+      },
+      {
+        "id": "SPECIALIZED",
+        "meaning": "Information normally requiring a relevant profession, class skill, background, faction connection, research, or substantial experience."
+      },
+      {
+        "id": "DISCOVERABLE",
+        "meaning": "Information that exists in the world but should not be presented to PCs at campaign start. It becomes known through play, testimony, investigation, documents, or other GM-approved discovery."
+      },
+      {
+        "id": "GM_ONLY",
+        "meaning": "Secret information, hidden motives, concealed history, unrevealed evidence, or information that the PCs should not possess unless the GM deliberately reveals it."
+      }
+    ],
+    "important_boundary": "Publicly existing does not mean personally known. A public official can be known by reputation while the PC does not know the person, their habits, motives, or private history.",
+    "character_backgrounds": "Background-specific knowledge is tracked separately. A PC may know something another PC does not because of race, upbringing, occupation, faction ties, travel history, or personal history.",
+    "discovery_rule": "DISCOVERABLE information remains undiscovered until the GM records or otherwise approves the discovery. It does not automatically become player knowledge merely because it is public in the world."
+  },
+  "locations": {
+    "COMMON_KNOWLEDGE": [
+      "tallowmere",
+      "river-vale",
+      "brackenwood",
+      "greyback-ridges",
+      "northfields",
+      "eastern-shore"
+    ],
+    "REGIONAL_KNOWLEDGE": [
+      "millhaven",
+      "brackenholt",
+      "stonehollow",
+      "ashcombe-manor",
+      "fordmere",
+      "saltwick",
+      "harthbridge",
+      "old-stone-bridge",
+      "bellwater-pool",
+      "saltwick-beacon"
+    ],
+    "LOCAL_PUBLIC": [
+      "district-greywatch-rise",
+      "district-high-ward",
+      "district-old-quays",
+      "district-new-quays",
+      "district-market-ward",
+      "district-rivergate",
+      "district-lantern-ward"
+    ],
+    "DISCOVERABLE": [
+      "district-underways"
+    ],
+    "location_notes": {
+      "tallowmere": "A major walled port and political center. PCs can reasonably know what Tallowmere is before arriving, but not its streets, officials, factions, or current problems.",
+      "district-underways": "The existence of subterranean spaces may be rumored or visible in local life, but the extent, routes, families, shelters, and internal organization are not starting knowledge for newcomers.",
+      "district-greywatch-rise": "The district and its association with House Denvor are public. Private residence layouts, guard routines, household access, and restricted areas remain GM-only unless learned.",
+      "district-lantern-ward": "Religious institutions are public. Private records, internal disputes, and confidential pastoral information are not."
+    }
+  },
+  "houses": {
+    "COMMON_KNOWLEDGE": [
+      "house-calderan"
+    ],
+    "REGIONAL_KNOWLEDGE": [
+      "house-vaelorian",
+      "house-kharadorn",
+      "house-edarth",
+      "house-veyr",
+      "house-merrowen"
+    ],
+    "LOCAL_PUBLIC": [
+      "house-denvor"
+    ],
+    "DISCOVERABLE": [
+      "house-relland"
+    ],
+    "house_notes": {
+      "house-calderan": "The ruling dynasty and Crown are common political knowledge. The monarch's private limitations, relationships, motives, and constraints are not.",
+      "house-vaelorian": "The Great House is publicly known. Specific financial strategies, private alliances, secrets, and internal plans are not.",
+      "house-kharadorn": "The Great House and its role in the post-Rebellion settlement are regional knowledge. Private clan politics and strategic objectives beyond established public description are not.",
+      "house-denvor": "A newcomer can learn that House Denvor rules Tallowmere, but should not begin with personal familiarity with the family.",
+      "house-relland": "The house exists and has a manor/holdings along the South Road, but the PCs do not automatically know its role in the South Road Merchant Incident."
+    }
+  },
+  "npcs": {
+    "REGIONAL_KNOWLEDGE": [
+      "npc-aldrich-calderan",
+      "npc-theren-vaelorian",
+      "npc-durnak-kharadorn",
+      "npc-garrick-edarth",
+      "npc-edran-veyr",
+      "npc-maris-merrowen"
+    ],
+    "LOCAL_PUBLIC": [
+      "npc-oswin-denvor",
+      "npc-catrin-denvor",
+      "npc-edwyn-denvor",
+      "npc-anwen-denvor",
+      "npc-marrec-holt",
+      "npc-ysella-vane",
+      "npc-odran-pell",
+      "npc-brinna-salk",
+      "npc-hadrik-voss",
+      "npc-meret-sorn",
+      "npc-dagna-coppervein",
+      "npc-pellan-reed",
+      "npc-tavren-selwick",
+      "npc-sister-alwen",
+      "npc-brother-caldus",
+      "npc-damas-orrel",
+      "npc-lethia-sorn",
+      "npc-othmar-rusk",
+      "npc-meredyth-sorn",
+      "npc-bastian-wycliffe",
+      "npc-garran-holt",
+      "npc-nerys-vale",
+      "npc-perrin-ashcombe"
+    ],
+    "DISCOVERABLE": [
+      "npc-nix-cistern",
+      "npc-tikka-vell",
+      "npc-serren-coil",
+      "npc-miraq-ashwhisk",
+      "npc-noll-tarrow",
+      "npc-edrik-vale",
+      "npc-hessa-quill",
+      "npc-sella-vane",
+      "npc-othric-pell",
+      "npc-dannel-rusk"
+    ],
+    "GM_ONLY": [
+      "npc-mereth-relland",
+      "npc-corren-relland",
+      "npc-edvar-relland",
+      "npc-deylan-marrick"
+    ],
+    "npc_notes": {
+      "local_public": "These people hold public offices, operate established businesses/guilds, or maintain visible civic/religious roles. PCs do not personally know them at campaign start.",
+      "ratfolk_npcs": "Surface PCs may know that ratfolk live and work beneath or around Tallowmere, but specific Underways residents, routes, family shelters, and internal relationships should be learned through play unless a PC background provides that knowledge.",
+      "criminal_npcs": "Their existence and crimes are not starting knowledge. PCs may encounter rumors, suspicious activity, or public accusations without knowing the true operators.",
+      "relland_npcs": "The Relland family and Marrick's role are not starting knowledge for ordinary newcomers. The GM should not expose the Merchant Incident through NPC metadata."
+    }
+  },
+  "factions": {
+    "COMMON_KNOWLEDGE": [
+      "faction-harbor-fellowship",
+      "faction-warehouse-guild",
+      "faction-market-guild",
+      "faction-river-bargemen",
+      "faction-shipwrights",
+      "faction-artificers-hall"
+    ],
+    "LOCAL_PUBLIC": [
+      "faction-underways"
+    ],
+    "DISCOVERABLE": [
+      "faction-grey-net",
+      "faction-bent-seal",
+      "faction-quiet-account"
+    ],
+    "faction_notes": {
+      "underways": "The existence of a ratfolk subterranean community can be known or rumored, but its internal structure is not a single unified political organization and its private routes and shelters are not starting knowledge.",
+      "criminal_networks": "The networks themselves should remain undiscovered. Public signs of crime, rumors, victims, and suspicious transactions can exist without revealing the organizations behind them."
+    }
+  },
+  "quests": {
+    "DISCOVERABLE": [
+      "quest-roadside-troll",
+      "quest-warehouse-introduction"
+    ],
+    "quest_notes": {
+      "quest-roadside-troll": "The encounter occurs as part of Session One. It is not pre-session player knowledge.",
+      "quest-warehouse-introduction": "This becomes available only if the PCs earn Tavren Selwick's recommendation."
+    }
+  },
+  "history": {
+    "COMMON_KNOWLEDGE": [
+      "event-great-rebellion",
+      "event-dragonstone-fall",
+      "event-dwarven-conquest-dragonstone"
+    ],
+    "REGIONAL_KNOWLEDGE": [
+      "event-kharadorn-century-rule",
+      "event-succession-crisis",
+      "event-calderan-compromise"
+    ],
+    "GM_ONLY_OR_UNRESOLVED": [
+      "The original name of the fallen dragon-riding dynasty.",
+      "The precise forces and relationships constraining King Aldric Calderan.",
+      "The ultimate fate of dragons that escaped the rebellion.",
+      "Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified."
+    ],
+    "history_note": "PCs can know the broad public version of major history without knowing disputed accounts, suppressed records, or the GM's unresolved truths."
+  },
+  "religion": {
+    "COMMON_KNOWLEDGE": [
+      "The Pathfinder pantheon is real.",
+      "Major faiths maintain their own institutions and hierarchies.",
+      "Religious institutions can provide charity, education, records, ceremonies, and political influence."
+    ],
+    "LOCAL_PUBLIC": [
+      "religious-open-ledger",
+      "religious-quiet-gate",
+      "religious-establishment"
+    ],
+    "SPECIALIZED": [
+      "The exact mechanism by which divine power is granted or mediated remains unresolved.",
+      "The exact legal relationship between religious courts and secular courts remains unresolved."
+    ]
+  },
+  "hidden_information": {
+    "GM_ONLY": [
+      "South Road Merchant Incident as actually occurred.",
+      "Relland Household Cover-Up.",
+      "The surviving ratfolk child and vampire rescuer connection, except where deliberately represented in the PCs' own backgrounds.",
+      "The specific evidence proving the Relland account false.",
+      "Private motives, secrets, and criminal-network leadership not established as public knowledge."
+    ]
+  },
+  "pc_specific_knowledge": {
+    "status": "SEPARATE_LAYER_REQUIRED",
+    "reason": "The vampire PC and ratfolk PC have personal history that creates knowledge neither a generic newcomer nor the other PCs should automatically possess.",
+    "rule": "Do not place personal backstory facts into COMMON_KNOWLEDGE or PLAYER_SHARED records. Track them as character-specific discoveries/background knowledge."
+  }
+}

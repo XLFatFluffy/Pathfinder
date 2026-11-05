@@ -117,3 +117,19 @@ test("enforces the import payload byte limit", () => {
   assert.equal(parsed.bundle, undefined);
   assert.match(parsed.issues[0].message, /500,000 bytes or smaller/);
 });
+
+test("the prepared campaign bundle passes the live import schema", () => {
+  const bundlePath = path.join(
+    __dirname,
+    "../../campaign/import/pathfinder_campaign_import.json",
+  );
+  const parsed = parseCampaignImport(fs.readFileSync(bundlePath, "utf8"));
+
+  assert.deepEqual(parsed.issues, []);
+  assert.equal(parsed.bundle?.title, "Pathfinder Campaign Canon Import");
+  assert.equal(parsed.bundle?.records.locations.length, 24);
+  assert.equal(parsed.bundle?.records.npcs.length, 43);
+  assert.equal(parsed.bundle?.records.houses.length, 8);
+  assert.equal(parsed.bundle?.records.factions.length, 11);
+  assert.equal(parsed.bundle?.records.quests.length, 2);
+});

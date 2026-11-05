@@ -11,11 +11,10 @@ campaign records without typing every field into an individual form.
 ## Source-of-truth and review
 
 The campaign Markdown records and preserved source documents remain the
-campaign/canon source. Supabase stores the live app state. The repository does
-not currently contain a checked-in SQLite campaign database file; the earlier
-local app's `data/` database path is ignored and is not present in this
-workspace snapshot. Treat the organized campaign records as the source for
-imports unless a separate database file is supplied.
+campaign/canon source. Supabase stores the live app state. The prepared
+[`pathfinder_campaign_import.json`](./pathfinder_campaign_import.json) bundle
+contains the initial supported campaign records and is intended for the GM
+workspace's preview-first importer.
 
 The importer does not call an AI service. Prepare JSON with a tool chosen by
 the GM, then validate the file in the cloud app. It rejects unsupported fields,

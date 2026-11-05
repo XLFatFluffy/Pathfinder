@@ -456,11 +456,6 @@ h2 {
   margin: 0.4rem 0;
 }
 
-.character-workspace {
-  display: grid;
-  gap: 1.25rem;
-}
-
 .canonical-pdf-card {
   margin: 1.25rem 0;
 }
@@ -512,35 +507,6 @@ h2 {
 
 .gm-dashboard-card strong {
   font-size: 1.45rem;
-}
-
-.character-workspace > .entry-edit {
-  margin-top: 0;
-}
-
-.character-stat-grid {
-  display: grid;
-  gap: 0.25rem 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
-}
-
-.character-stat-grid p {
-  margin: 0.25rem 0;
-}
-
-.character-fieldset {
-  border: 1px solid var(--border);
-  border-radius: 0.4rem;
-  display: grid;
-  gap: 0.65rem;
-  min-width: 0;
-  padding: 0.8rem;
-}
-
-.character-fieldset legend {
-  color: var(--accent);
-  font-weight: 700;
-  padding: 0 0.35rem;
 }
 
 .checkbox-label {

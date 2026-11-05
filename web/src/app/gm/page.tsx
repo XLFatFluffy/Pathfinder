@@ -119,10 +119,6 @@ export default async function GmPage() {
         This account is verified as the GM. Manage campaign journal entries
         here; player visibility is also enforced by database policy.
       </p>
-      <p className="notice">
-        Existing campaign records remain in the local SQLite app. They have not
-        been copied to Supabase.
-      </p>
       <p className="muted">
         <Link href="/gm/npcs">Manage campaign NPCs</Link>
         {" · "}

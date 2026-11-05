@@ -1,12 +1,11 @@
 "use client";
 
-import { useActionState, useState } from "react";
+import { useActionState } from "react";
 import {
   deletePlayerCharacter,
   savePlayerCharacter,
   type CharacterFormState,
 } from "./actions";
-import { formatAbilityModifier } from "./ability-scores";
 
 export type CharacterSheet = {
   id: string;
@@ -14,40 +13,15 @@ export type CharacterSheet = {
   ancestry: string;
   class_name: string;
   level: number;
-  alignment: string;
-  background: string;
-  strength: number | null;
-  dexterity: number | null;
-  constitution: number | null;
-  intelligence: number | null;
-  wisdom: number | null;
-  charisma: number | null;
-  current_hp: number;
-  max_hp: number;
-  armor_class: number;
-  speed: string;
-  saving_throws: string;
-  skills: string;
-  attacks: string;
-  features: string;
-  equipment: string;
-  spells: string;
-  appearance: string;
 };
 
 const initialState: CharacterFormState = {};
 
-export default function CharacterForm({ character }: { character?: CharacterSheet }) {
-  const [scores, setScores] = useState({
-    strength: character?.strength == null ? "" : String(character.strength),
-    dexterity: character?.dexterity == null ? "" : String(character.dexterity),
-    constitution:
-      character?.constitution == null ? "" : String(character.constitution),
-    intelligence:
-      character?.intelligence == null ? "" : String(character.intelligence),
-    wisdom: character?.wisdom == null ? "" : String(character.wisdom),
-    charisma: character?.charisma == null ? "" : String(character.charisma),
-  });
+export default function CharacterForm({
+  character,
+}: {
+  character?: CharacterSheet;
+}) {
   const [state, saveAction, isSaving] = useActionState(
     savePlayerCharacter,
     initialState,
@@ -102,171 +76,7 @@ export default function CharacterForm({ character }: { character?: CharacterShee
               type="number"
             />
           </label>
-          <label>
-            Alignment
-            <input
-              defaultValue={character?.alignment}
-              maxLength={40}
-              name="alignment"
-              placeholder="Optional"
-            />
-          </label>
-          <label>
-            Speed
-            <input
-              defaultValue={character?.speed}
-              maxLength={120}
-              name="speed"
-              placeholder="e.g. 30 ft."
-            />
-          </label>
         </div>
-        <div>
-          <p>Ability scores</p>
-          <div className="form-grid">
-            {(
-              [
-                ["strength", "STR"],
-                ["dexterity", "DEX"],
-                ["constitution", "CON"],
-                ["intelligence", "INT"],
-                ["wisdom", "WIS"],
-                ["charisma", "CHA"],
-              ] as const
-            ).map(([field, label]) => (
-              <label key={field}>
-                {label} (mod {formatAbilityModifier(
-                  scores[field] ? Number(scores[field]) : null,
-                )})
-                <input
-                  onChange={(event) =>
-                    setScores((current) => ({
-                      ...current,
-                      [field]: event.currentTarget.value,
-                    }))
-                  }
-                  value={scores[field]}
-                  max={100}
-                  min={1}
-                  name={field}
-                  type="number"
-                />
-              </label>
-            ))}
-          </div>
-        </div>
-        <div className="form-grid">
-          <label>
-            Current HP
-            <input
-              defaultValue={character?.current_hp ?? 0}
-              max={999999}
-              min={-9999}
-              name="current_hp"
-              required
-              type="number"
-            />
-          </label>
-          <label>
-            Maximum HP
-            <input
-              defaultValue={character?.max_hp ?? 0}
-              max={999999}
-              min={0}
-              name="max_hp"
-              required
-              type="number"
-            />
-          </label>
-          <label>
-            Armor Class
-            <input
-              defaultValue={character?.armor_class ?? 10}
-              max={999}
-              min={-100}
-              name="armor_class"
-              required
-              type="number"
-            />
-          </label>
-        </div>
-        <label>
-          Background and backstory
-          <textarea
-            defaultValue={character?.background}
-            maxLength={10000}
-            name="background"
-            rows={5}
-          />
-        </label>
-        <details className="entry-edit" open={!character}>
-          <summary>Skills, attacks, abilities, equipment, and spells</summary>
-          <div className="form-stack">
-            <label>
-              Saving throws
-              <textarea
-                defaultValue={character?.saving_throws}
-                maxLength={4000}
-                name="saving_throws"
-                rows={2}
-              />
-            </label>
-            <label>
-              Skills
-              <textarea
-                defaultValue={character?.skills}
-                maxLength={10000}
-                name="skills"
-                rows={4}
-              />
-            </label>
-            <label>
-              Attacks
-              <textarea
-                defaultValue={character?.attacks}
-                maxLength={10000}
-                name="attacks"
-                rows={4}
-              />
-            </label>
-            <label>
-              Class features and abilities
-              <textarea
-                defaultValue={character?.features}
-                maxLength={12000}
-                name="features"
-                rows={4}
-              />
-            </label>
-            <label>
-              Equipment
-              <textarea
-                defaultValue={character?.equipment}
-                maxLength={20000}
-                name="equipment"
-                rows={4}
-              />
-            </label>
-            <label>
-              Spells
-              <textarea
-                defaultValue={character?.spells}
-                maxLength={20000}
-                name="spells"
-                rows={4}
-              />
-            </label>
-            <label>
-              Appearance
-              <textarea
-                defaultValue={character?.appearance}
-                maxLength={4000}
-                name="appearance"
-                rows={3}
-              />
-            </label>
-          </div>
-        </details>
         {state.error ? (
           <p className="error" role="alert">
             {state.error}
@@ -288,7 +98,7 @@ export default function CharacterForm({ character }: { character?: CharacterShee
           onSubmit={(event) => {
             if (
               !window.confirm(
-                `Delete ${character.name}'s character sheet? This cannot be undone.`,
+                "Delete this character record? This cannot be undone.",
               )
             ) {
               event.preventDefault();

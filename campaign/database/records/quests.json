@@ -1,0 +1,24 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "quest-roadside-troll",
+      "name": "Roadside Troll Attack",
+      "status": "active",
+      "summary": "A Selwick & Company wagon carrying ordinary commercial cargo is attacked by a troll on the PCs' approach to Tallowmere. Protecting the crew or recovering the consignment can earn a modest reward and a written introduction to Meret Sorn.",
+      "giver": "Tavren Selwick",
+      "location_id": "tallowmere",
+      "player_visible": 0
+    },
+    {
+      "id": "quest-warehouse-introduction",
+      "name": "Warehouse Guild Introduction",
+      "status": "undiscovered",
+      "summary": "A signed recommendation from Tavren Selwick can provide the PCs a first commercial meeting with Meret Sorn. It grants credibility, not guild membership or universal trust.",
+      "giver": "Tavren Selwick",
+      "location_id": "tallowmere",
+      "player_visible": 0
+    }
+  ]
+}

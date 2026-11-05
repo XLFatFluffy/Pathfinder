@@ -1,0 +1,54 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "district-greywatch-rise",
+      "name": "Greywatch Rise",
+      "location_id": "tallowmere",
+      "description": "Elevated heart of noble authority containing House Denvor's fortified residence, principal garrison buildings, formal gardens, and senior household residences."
+    },
+    {
+      "id": "district-high-ward",
+      "name": "The High Ward",
+      "location_id": "tallowmere",
+      "description": "Older, wealthier residential quarter with townhouses, legal offices, established temples, private courtyards, and prosperous families."
+    },
+    {
+      "id": "district-old-quays",
+      "name": "The Old Quays",
+      "location_id": "tallowmere",
+      "description": "Old working waterfront with stone warehouses, chandlers, shipwrights, rope-makers, taverns, and established shipping offices."
+    },
+    {
+      "id": "district-new-quays",
+      "name": "The New Quays",
+      "location_id": "tallowmere",
+      "description": "Expanded wharves and storage yards serving larger vessels, bulk cargo, bonded warehouses, and newer merchant concerns."
+    },
+    {
+      "id": "district-market-ward",
+      "name": "Market Ward",
+      "location_id": "tallowmere",
+      "description": "Commercial center with principal market square, guildhalls, moneychangers, inns, public notices, and specialist shops."
+    },
+    {
+      "id": "district-rivergate",
+      "name": "Rivergate",
+      "location_id": "tallowmere",
+      "description": "River-facing district of bargemen, millers, fishmongers, carters, small foundries, tanners, and laborers."
+    },
+    {
+      "id": "district-lantern-ward",
+      "name": "Lantern Ward",
+      "location_id": "tallowmere",
+      "description": "District of shrines, temples, charitable houses, healers, burial grounds, and religious hostels."
+    },
+    {
+      "id": "district-underways",
+      "name": "The Underways",
+      "location_id": "tallowmere",
+      "description": "Umbrella surface term for accessible subterranean spaces and routes beneath Tallowmere where ratfolk communities live and work. Not one unified settlement or faction."
+    }
+  ]
+}

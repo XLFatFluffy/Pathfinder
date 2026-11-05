@@ -1,0 +1,430 @@
+{
+  "status": "ESTABLISHED",
+  "source": [
+    "campaign/database/canonical_seed.json",
+    "campaign/database/seed_batch_02.json",
+    "campaign/database/seed_batch_03_relland.json"
+  ],
+  "records": [
+    {
+      "id": "npc-aldrich-calderan",
+      "name": "King Aldric Calderan",
+      "race": "Human",
+      "age": "Approximately 56",
+      "occupation": "Monarch",
+      "titles": "King",
+      "description": "Intelligent, educated, patient, politically cautious, and increasingly frustrated by the limits placed on the Crown.",
+      "status": "Alive",
+      "player_visible": 0
+    },
+    {
+      "id": "npc-theren-vaelorian",
+      "name": "Lord Theren Vaelorian",
+      "race": "Elf",
+      "age": "Approximately 240",
+      "occupation": "Great House ruler",
+      "titles": "Lord",
+      "description": "Cultured, patient, calculating, and difficult to surprise. Prefers financial and diplomatic leverage to direct threats.",
+      "status": "Alive",
+      "player_visible": 0,
+      "house_id": "house-vaelorian"
+    },
+    {
+      "id": "npc-durnak-kharadorn",
+      "name": "High King Durnak Kharadorn",
+      "race": "Dwarf",
+      "age": "Approximately 190",
+      "occupation": "Great House ruler",
+      "titles": "High King",
+      "description": "Stern, disciplined, traditional, and deeply conscious of his family history.",
+      "status": "Alive",
+      "player_visible": 0,
+      "house_id": "house-kharadorn"
+    },
+    {
+      "id": "npc-garrick-edarth",
+      "name": "Lord Garrick Edarth",
+      "race": "Human",
+      "age": "Approximately 62",
+      "occupation": "Great House ruler",
+      "titles": "Lord",
+      "description": "Traditional martial lord who values discipline, loyalty, and reputation.",
+      "status": "Alive",
+      "player_visible": 0,
+      "house_id": "house-edarth"
+    },
+    {
+      "id": "npc-edran-veyr",
+      "name": "Lord Edran Veyr",
+      "race": "Human",
+      "age": "Approximately 51",
+      "occupation": "Great House ruler",
+      "titles": "Lord",
+      "description": "Practical and reserved, accustomed to difficult decisions with limited resources.",
+      "status": "Alive",
+      "player_visible": 0,
+      "house_id": "house-veyr"
+    },
+    {
+      "id": "npc-maris-merrowen",
+      "name": "Lady Maris Merrowen",
+      "race": "Human",
+      "age": "Approximately 48",
+      "occupation": "Great House ruler",
+      "titles": "Lady",
+      "description": "Accomplished political operator with extensive commercial and diplomatic relationships.",
+      "status": "Alive",
+      "player_visible": 0,
+      "house_id": "house-merrowen"
+    },
+    {
+      "id": "npc-oswin-denvor",
+      "name": "Lord Oswin Denvor",
+      "race": "Human",
+      "age": "Early 50s",
+      "occupation": "Lord of Tallowmere",
+      "titles": "Lord",
+      "description": "Measured and observant, preferring negotiated solutions and predictable obligations.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere",
+      "house_id": "house-denvor"
+    },
+    {
+      "id": "npc-catrin-denvor",
+      "name": "Lady Catrin Denvor",
+      "race": "Human",
+      "occupation": "Noble household and civic patron",
+      "titles": "Lady",
+      "description": "Politically capable Denvor household member who maintains civic and charitable relationships.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere",
+      "house_id": "house-denvor"
+    },
+    {
+      "id": "npc-edwyn-denvor",
+      "name": "Ser Edwyn Denvor",
+      "race": "Human",
+      "age": "Mid-20s",
+      "occupation": "Heir and military administrator",
+      "titles": "Ser",
+      "description": "Recognized heir who favors greater investment in defenses and infrastructure.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere",
+      "house_id": "house-denvor"
+    },
+    {
+      "id": "npc-anwen-denvor",
+      "name": "Lady Anwen Denvor",
+      "race": "Human",
+      "age": "Early 20s",
+      "occupation": "Noble and civic networker",
+      "titles": "Lady",
+      "description": "Perceptive and socially skilled, with genuine relationships outside the nobility.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere",
+      "house_id": "house-denvor"
+    },
+    {
+      "id": "npc-marrec-holt",
+      "name": "Reeve Marrec Holt",
+      "race": "Human",
+      "occupation": "Town Reeve",
+      "titles": "Reeve",
+      "description": "Methodical and protective of administrative records; values dependable civic routines.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-ysella-vane",
+      "name": "Harbor Master Ysella Vane",
+      "race": "Human",
+      "occupation": "Harbor Master",
+      "titles": "Harbor Master",
+      "description": "Direct, experienced, and difficult to intimidate. Wants safe traffic and fair quay allocation.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-odran-pell",
+      "name": "Chief Magistrate Odran Pell",
+      "race": "Half-elf",
+      "occupation": "Chief Magistrate",
+      "titles": "Magistrate",
+      "description": "Patient, observant, and exacting about testimony.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-brinna-salk",
+      "name": "Captain Brinna Salk",
+      "race": "Human",
+      "occupation": "Captain of the Watch",
+      "titles": "Captain",
+      "description": "Practical and blunt, with strong responsibility toward her patrols.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-hadrik-voss",
+      "name": "Castellan Hadrik Voss",
+      "race": "Dwarf",
+      "occupation": "Castellan of Greywatch",
+      "titles": "Castellan",
+      "description": "Veteran professional who values preparation, stores, and clear command.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-meret-sorn",
+      "name": "Meret Sorn",
+      "race": "Human",
+      "occupation": "Warehouse Guild factor",
+      "titles": "Factor",
+      "description": "Polished and cautious. Values predictable trade, secure cargo, fire prevention, and reliable records.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-dagna-coppervein",
+      "name": "Dagna Coppervein",
+      "race": "Dwarf",
+      "occupation": "Shipwrights' Brotherhood master",
+      "titles": "Master",
+      "description": "Exacting craftswoman who protects apprentices, skilled labor, quality standards, and timber supply.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-pellan-reed",
+      "name": "Pellan Reed",
+      "race": "Halfling",
+      "occupation": "Bargemen's Company organizer",
+      "titles": "Organizer",
+      "description": "Sociable, sharp, and politically perceptive. Wants fair river tolls and safe landings.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-tavren-selwick",
+      "name": "Tavren Selwick",
+      "race": "Human",
+      "occupation": "Merchant and shipowner",
+      "titles": "Master",
+      "description": "Prosperous merchant known for paying obligations and keeping accurate cargo accounts.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-nix-cistern",
+      "name": "Nix-of-the-Cistern",
+      "race": "Ratfolk",
+      "age": "Elderly",
+      "occupation": "Underways neighborhood mediator",
+      "titles": "Mediator",
+      "description": "Patient and attentive to practical needs. A local contact, not a representative of all ratfolk.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-tikka-vell",
+      "name": "Tikka Vell",
+      "race": "Ratfolk",
+      "occupation": "Repairer and small-goods trader",
+      "titles": "Trader",
+      "description": "Resourceful and commercially ambitious. Wants ratfolk workshops to sell openly in the Market Ward.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-serren-coil",
+      "name": "Serren Coil",
+      "race": "Ratfolk",
+      "occupation": "Courier and route guide",
+      "titles": "Courier",
+      "description": "Quiet and observant, protective of route knowledge and family shelters.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-miraq-ashwhisk",
+      "name": "Miraq Ashwhisk",
+      "race": "Ratfolk",
+      "occupation": "Alchemist and proprietor",
+      "titles": "Proprietor",
+      "description": "Capable independent craftswoman with a respected surface business.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-sister-alwen",
+      "name": "Sister Alwen",
+      "race": "Human",
+      "occupation": "Hospice administrator",
+      "titles": "Sister",
+      "description": "Calm, stubborn, and practical. Wants food, shelter, care, burial assistance, and support for abandoned children.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-brother-caldus",
+      "name": "Brother Caldus",
+      "race": "Half-orc",
+      "occupation": "Sailors' shrine keeper",
+      "titles": "Brother",
+      "description": "Thoughtful listener who records names of the missing and lost and values maritime rites.",
+      "status": "Alive",
+      "player_visible": 0,
+      "location_id": "tallowmere"
+    },
+    {
+      "id": "npc-noll-tarrow",
+      "name": "Noll Tarrow",
+      "race": "Human",
+      "occupation": "Criminal organizer",
+      "description": "Former tally clerk organizing the loose Grey Net cargo-diversion network in the Old Quays."
+    },
+    {
+      "id": "npc-edrik-vale",
+      "name": "Edrik Vale",
+      "race": "Human",
+      "occupation": "Copyist and forger",
+      "description": "Copyist and occasional contract clerk who produces altered commercial documents and false ownership papers."
+    },
+    {
+      "id": "npc-hessa-quill",
+      "name": "Hessa Quill",
+      "race": "Halfling",
+      "occupation": "Private lender and broker",
+      "description": "Former household steward who arranges private loans and coercive settlements."
+    },
+    {
+      "id": "npc-sella-vane",
+      "name": "Sella Vane",
+      "race": "Human",
+      "occupation": "Boat owner",
+      "description": "Independent boat owner who moves small quantities of undeclared goods through minor quays and river landings."
+    },
+    {
+      "id": "npc-othric-pell",
+      "name": "Othric Pell",
+      "race": "Half-elf",
+      "occupation": "Information broker",
+      "description": "Trades schedules, overheard conversations, debt rumors, and introductions. Not omniscient."
+    },
+    {
+      "id": "npc-dannel-rusk",
+      "name": "Dannel Rusk",
+      "race": "Human",
+      "occupation": "Debt enforcer",
+      "description": "Independent private debt enforcer who works for multiple creditors and sometimes pushes beyond lawful agreements."
+    },
+    {
+      "id": "npc-damas-orrel",
+      "name": "Prelate Damas Orrel",
+      "race": "Human",
+      "occupation": "Priest of Abadar",
+      "description": "Careful administrator of the Open Ledger who emphasizes lawful trade, contracts, civic order, and fair procedure."
+    },
+    {
+      "id": "npc-lethia-sorn",
+      "name": "Keeper Lethia Sorn",
+      "race": "Human",
+      "occupation": "Priest of Pharasma",
+      "description": "Reserved and compassionate priest of the Quiet Gate who insists the dead be treated with dignity."
+    },
+    {
+      "id": "npc-othmar-rusk",
+      "name": "Lord Chancellor Othmar Rusk",
+      "race": "Human",
+      "occupation": "Royal Chancellor",
+      "description": "Crown administrator and appointed Imperial Council representative with access to royal government and inter-house negotiation."
+    },
+    {
+      "id": "npc-meredyth-sorn",
+      "name": "Lady Meredyth Sorn",
+      "race": "Human",
+      "occupation": "Master of Coin",
+      "description": "Precise Crown financial administrator concerned about short-term borrowing and privileges granted to powerful houses."
+    },
+    {
+      "id": "npc-bastian-wycliffe",
+      "name": "Lord Bastian Wycliffe",
+      "race": "Human",
+      "occupation": "Master of Laws",
+      "description": "Learned jurist cautious about changing law by decree and attentive to royal precedent and noble privilege."
+    },
+    {
+      "id": "npc-garran-holt",
+      "name": "Marshal Garran Holt",
+      "race": "Human",
+      "occupation": "Master of War",
+      "description": "Career soldier who understands the Crown's military limitations and favors a more reliable royal force."
+    },
+    {
+      "id": "npc-nerys-vale",
+      "name": "Mistress Nerys Vale",
+      "race": "Human",
+      "occupation": "Royal Spymaster",
+      "description": "Discreet intelligence officer whose network relies on informants, servants, merchants, messengers, and intermediaries."
+    },
+    {
+      "id": "npc-perrin-ashcombe",
+      "name": "Lord Perrin Ashcombe",
+      "race": "Human",
+      "occupation": "Lord Chamberlain",
+      "description": "Courtier responsible for royal household operations, ceremony, schedules, palace staff, and access to the monarch."
+    },
+    {
+      "id": "npc-mereth-relland",
+      "name": "Lady Mereth Relland",
+      "race": "Human",
+      "occupation": "Head of House Relland",
+      "description": "Careful and proud head of the minor house, concerned with preserving family standing and its official account of the old South Road incident.",
+      "house_id": "house-relland"
+    },
+    {
+      "id": "npc-corren-relland",
+      "name": "Ser Corren Relland",
+      "race": "Human",
+      "occupation": "Heir to House Relland",
+      "description": "Adult heir focused on restoring House Relland's income and local reputation. His knowledge of the old incident is incomplete.",
+      "house_id": "house-relland"
+    },
+    {
+      "id": "npc-edvar-relland",
+      "name": "Lord Edvar Relland",
+      "race": "Human",
+      "occupation": "Former head of House Relland",
+      "description": "Deceased former head of House Relland who controlled the household response to the old South Road incident.",
+      "status": "Deceased",
+      "house_id": "house-relland"
+    },
+    {
+      "id": "npc-deylan-marrick",
+      "name": "Ser Deylan Marrick",
+      "race": "Human",
+      "occupation": "Former Relland household armsman",
+      "description": "Former road-patrol leader who abused his authority while operating under House Relland colors. He died during the South Road incident.",
+      "status": "Deceased",
+      "house_id": "house-relland"
+    }
+  ]
+}

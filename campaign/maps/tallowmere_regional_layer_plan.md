@@ -86,6 +86,14 @@ Do not add a permanent bridge where the geography record does not establish one.
 
 **GM-only:** concealed sites, secret routes, the House Relland crime and its connection to a player character, private intelligence, and any undiscovered adventure locations.
 
+## Stable source IDs and synchronization preparation
+
+The regional content registry at `campaign/maps/tallowmere_regional_content_spec.json` assigns stable source IDs to the eight public regional settlements, five major geographic features, six established road connections, and three public landmarks. These IDs are intended to survive later conversion into live atlas markers and overlays.
+
+Use the canonical campaign location source IDs for settlement markers: `tallowmere`, `harthbridge`, `fordmere`, `ashcombe-manor`, `millhaven`, `stonehollow`, `brackenholt`, and `saltwick`. This prevents duplicate campaign locations when the same settlement appears on multiple map layers.
+
+The regional registry deliberately does not contain fake x/y coordinates. The approved regional illustration is the relative-placement reference, but its printed scale is unreliable and its artwork is not currently stored under `campaign/maps/`. Once the artwork is available, calibrate the image, place the markers, trace established routes, and then create a live synchronization layer. Do not synchronize placeholder coordinates.
+
 ## Coordinate and import safeguards
 
 No marker coordinates are supplied in this plan. Place markers only after comparing the actual regional map artwork with the written geography. The regional geography document takes precedence over approximate printed scale bars. Preserve the stated relative arrangement and written journey distances; do not infer exact coordinates from prose alone.

@@ -11,7 +11,8 @@
       "y": 0.43,
       "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
       "player_visible": true,
-      "status": "APPROVED_APPROXIMATE_ANCHOR"
+      "status": "APPROVED_APPROXIMATE_ANCHOR",
+      "location_type": "city"
     },
     {
       "name": "Dragonstone",
@@ -20,7 +21,8 @@
       "y": 0.4,
       "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
       "player_visible": true,
-      "status": "ESTABLISHED_APPROXIMATE"
+      "status": "ESTABLISHED_APPROXIMATE",
+      "location_type": "fortress"
     },
     {
       "name": "Khar-Dum",
@@ -29,7 +31,8 @@
       "y": 0.27,
       "description": "Ancestral homeland of House Kharadorn in the northeastern mountain system.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Frosthold",
@@ -38,7 +41,8 @@
       "y": 0.13,
       "description": "Principal seat of House Veyr in the northern territories.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Aurelith",
@@ -47,7 +51,8 @@
       "y": 0.36,
       "description": "Principal seat of House Vaelorian in the Western Highlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "city"
     },
     {
       "name": "Stoneguard",
@@ -56,7 +61,8 @@
       "y": 0.55,
       "description": "Principal seat of House Edarth in the Western Heartlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Valedorn",
@@ -65,7 +71,8 @@
       "y": 0.61,
       "description": "Capital of the Crownlands and location of the Imperial Seat, inland at a major river confluence.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "city"
     },
     {
       "name": "Tidemark",
@@ -74,7 +81,8 @@
       "y": 0.45,
       "description": "Principal seat of House Merrowen on the eastern coast.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "port"
     },
     {
       "name": "Wintermere",
@@ -83,7 +91,8 @@
       "y": 0.23,
       "description": "Settlement in the northern territories of House Veyr.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Greywatch",
@@ -92,7 +101,8 @@
       "y": 0.27,
       "description": "Northern settlement associated with House Veyr.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Pinecross",
@@ -101,7 +111,8 @@
       "y": 0.3,
       "description": "Settlement in the northern territories of House Veyr.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Silverfall",
@@ -110,7 +121,8 @@
       "y": 0.39,
       "description": "Settlement in the Vaelorian Western Highlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Thornvale",
@@ -119,7 +131,8 @@
       "y": 0.43,
       "description": "Settlement in the Vaelorian western territories.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Goldmere",
@@ -128,7 +141,8 @@
       "y": 0.48,
       "description": "Settlement in the Vaelorian western territories.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Harveston",
@@ -137,7 +151,8 @@
       "y": 0.6,
       "description": "Settlement in the Edarth Western Heartlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Riverrun",
@@ -146,7 +161,8 @@
       "y": 0.64,
       "description": "Settlement in the Edarth Riverlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Westfield",
@@ -155,7 +171,8 @@
       "y": 0.65,
       "description": "Settlement in the Edarth Western Borderlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Kingsbridge",
@@ -164,7 +181,8 @@
       "y": 0.66,
       "description": "Settlement in the Crownlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Highmere",
@@ -173,7 +191,8 @@
       "y": 0.56,
       "description": "Settlement in the Crownlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Dunwall",
@@ -182,7 +201,8 @@
       "y": 0.68,
       "description": "Settlement in the Crownlands.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Ironharbor",
@@ -191,7 +211,8 @@
       "y": 0.36,
       "description": "Dwarven settlement associated with the central inland sea.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "port"
     },
     {
       "name": "Stonewake",
@@ -200,7 +221,8 @@
       "y": 0.34,
       "description": "Dwarven settlement associated with the central inland sea.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Deepwatch",
@@ -209,7 +231,8 @@
       "y": 0.31,
       "description": "Dwarven settlement associated with House Kharadorn.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Eastwatch",
@@ -218,7 +241,8 @@
       "y": 0.29,
       "description": "Settlement in House Merrowen's northern coastal territory.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "fortress"
     },
     {
       "name": "Saltmere",
@@ -227,7 +251,8 @@
       "y": 0.49,
       "description": "Settlement in House Merrowen's eastern maritime territory.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Deltaport",
@@ -236,7 +261,8 @@
       "y": 0.59,
       "description": "Port in the eastern river delta.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "port"
     },
     {
       "name": "Stormhaven",
@@ -245,7 +271,8 @@
       "y": 0.72,
       "description": "Port on the southern/eastern coast.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "port"
     },
     {
       "name": "Sablecross",
@@ -254,7 +281,8 @@
       "y": 0.72,
       "description": "Settlement in the fragmented Southern Reaches.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Brightwater",
@@ -263,7 +291,8 @@
       "y": 0.78,
       "description": "Settlement in the Southern Reaches.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Marrowgate",
@@ -272,7 +301,8 @@
       "y": 0.8,
       "description": "Settlement in the Southern Reaches.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "settlement"
     },
     {
       "name": "Duskport",
@@ -281,7 +311,8 @@
       "y": 0.82,
       "description": "Port in the Southern Islands / Southern Reaches.",
       "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY"
+      "status": "ESTABLISHED_REGION_ONLY",
+      "location_type": "port"
     }
   ],
   "overlays": [
@@ -612,5 +643,18 @@
         }
       ]
     }
-  ]
+  ],
+  "import_instructions": {
+    "target_map": {
+      "name": "The Continent",
+      "map_type": "continent",
+      "artwork": "campaign/maps/continent_atlas.png"
+    },
+    "create_location_for_each_marker": true,
+    "marker_location_link": "Set campaign_map_markers.location_id to the generated campaign_locations.id for the matching marker.",
+    "resolve_campaign_id": "Use the authenticated GM's active campaign_id; do not hard-code a campaign UUID.",
+    "upsert_key": "(campaign_id, map_id, name) for markers; (campaign_id, parent_id, name) for locations where feasible.",
+    "visibility": "Player-visible only after GM review. All listed markers and broad overlays are intended as public-facing atlas content.",
+    "caution": "Do not create or expose the GM-only dwarven underground route to Dragonstone."
+  }
 }

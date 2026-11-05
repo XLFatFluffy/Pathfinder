@@ -652,6 +652,100 @@
         "type": "Beacon",
         "description": "Modest shore beacon maintained by Saltwick boat-owning households as a navigation and storm-warning aid."
       }
+    ],
+    "districts": [
+      {
+        "id": "district-greywatch-rise",
+        "name": "Greywatch Rise",
+        "location_id": "tallowmere",
+        "description": "Elevated heart of noble authority containing House Denvor's fortified residence, principal garrison buildings, formal gardens, and senior household residences."
+      },
+      {
+        "id": "district-high-ward",
+        "name": "The High Ward",
+        "location_id": "tallowmere",
+        "description": "Older, wealthier residential quarter with townhouses, legal offices, established temples, private courtyards, and prosperous families."
+      },
+      {
+        "id": "district-old-quays",
+        "name": "The Old Quays",
+        "location_id": "tallowmere",
+        "description": "Old working waterfront with stone warehouses, chandlers, shipwrights, rope-makers, taverns, and established shipping offices."
+      },
+      {
+        "id": "district-new-quays",
+        "name": "The New Quays",
+        "location_id": "tallowmere",
+        "description": "Expanded wharves and storage yards serving larger vessels, bulk cargo, bonded warehouses, and newer merchant concerns."
+      },
+      {
+        "id": "district-market-ward",
+        "name": "Market Ward",
+        "location_id": "tallowmere",
+        "description": "Commercial center with principal market square, guildhalls, moneychangers, inns, public notices, and specialist shops."
+      },
+      {
+        "id": "district-rivergate",
+        "name": "Rivergate",
+        "location_id": "tallowmere",
+        "description": "River-facing district of bargemen, millers, fishmongers, carters, small foundries, tanners, and laborers."
+      },
+      {
+        "id": "district-lantern-ward",
+        "name": "Lantern Ward",
+        "location_id": "tallowmere",
+        "description": "District of shrines, temples, charitable houses, healers, burial grounds, and religious hostels."
+      },
+      {
+        "id": "district-underways",
+        "name": "The Underways",
+        "location_id": "tallowmere",
+        "description": "Umbrella surface term for accessible subterranean spaces and routes beneath Tallowmere where ratfolk communities live and work. Not one unified settlement or faction."
+      }
+    ],
+    "routes": [
+      {
+        "id": "route-north-road",
+        "name": "North Road",
+        "from": "tallowmere",
+        "to": "ashcombe-manor",
+        "description": "Route from Tallowmere's North Gate through outer farms toward Ashcombe Manor and the Northfields."
+      },
+      {
+        "id": "route-river-vale",
+        "name": "River Vale Road",
+        "from": "tallowmere",
+        "to": "fordmere",
+        "description": "Western route following the River Vale through Millhaven toward Fordmere."
+      },
+      {
+        "id": "route-western-track",
+        "name": "Western Track",
+        "from": "tallowmere",
+        "to": "brackenholt",
+        "description": "Rough branch toward Brackenholt and managed woodland, most reliable in dry conditions."
+      },
+      {
+        "id": "route-quarry-road",
+        "name": "Quarry Road",
+        "from": "tallowmere",
+        "to": "stonehollow",
+        "description": "Southwestern branch built for stone carts climbing toward Stonehollow and the Greyback Ridges."
+      },
+      {
+        "id": "route-eastern-shore",
+        "name": "Eastern Shore Road",
+        "from": "tallowmere",
+        "to": "saltwick",
+        "description": "Coastal route southeast to Saltwick and smaller shore landings."
+      },
+      {
+        "id": "route-south-road",
+        "name": "King's Road / South Road",
+        "from": "tallowmere",
+        "to": "harthbridge",
+        "description": "Southern route from Tallowmere toward Harthbridge and the fragmented southern jurisdictions."
+      }
     ]
   }
 }

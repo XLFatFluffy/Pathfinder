@@ -1,0 +1,616 @@
+{
+  "map": "continent_atlas",
+  "coordinate_system": "normalized 0-1; x from left, y from top; north up",
+  "status": "PROPOSED_PLAYER_LAYER",
+  "note": "Coordinates are approximate visual placements for a player-facing atlas. They are not surveyed coordinates. Region polygons depict broad spheres/geographic regions, not legally exact borders. GM approval required before treating any boundary as canon.",
+  "markers": [
+    {
+      "name": "Tallowmere",
+      "marker_type": "city",
+      "x": 0.44,
+      "y": 0.43,
+      "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
+      "player_visible": true,
+      "status": "APPROVED_APPROXIMATE_ANCHOR"
+    },
+    {
+      "name": "Dragonstone",
+      "marker_type": "fortress",
+      "x": 0.59,
+      "y": 0.4,
+      "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
+      "player_visible": true,
+      "status": "ESTABLISHED_APPROXIMATE"
+    },
+    {
+      "name": "Khar-Dum",
+      "marker_type": "fortress",
+      "x": 0.75,
+      "y": 0.27,
+      "description": "Ancestral homeland of House Kharadorn in the northeastern mountain system.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Frosthold",
+      "marker_type": "fortress",
+      "x": 0.51,
+      "y": 0.13,
+      "description": "Principal seat of House Veyr in the northern territories.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Aurelith",
+      "marker_type": "city",
+      "x": 0.29,
+      "y": 0.36,
+      "description": "Principal seat of House Vaelorian in the Western Highlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Stoneguard",
+      "marker_type": "fortress",
+      "x": 0.38,
+      "y": 0.55,
+      "description": "Principal seat of House Edarth in the Western Heartlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Valedorn",
+      "marker_type": "city",
+      "x": 0.53,
+      "y": 0.61,
+      "description": "Capital of the Crownlands and location of the Imperial Seat, inland at a major river confluence.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Tidemark",
+      "marker_type": "port",
+      "x": 0.88,
+      "y": 0.45,
+      "description": "Principal seat of House Merrowen on the eastern coast.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Wintermere",
+      "marker_type": "settlement",
+      "x": 0.43,
+      "y": 0.23,
+      "description": "Settlement in the northern territories of House Veyr.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Greywatch",
+      "marker_type": "fortress",
+      "x": 0.64,
+      "y": 0.27,
+      "description": "Northern settlement associated with House Veyr.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Pinecross",
+      "marker_type": "settlement",
+      "x": 0.72,
+      "y": 0.3,
+      "description": "Settlement in the northern territories of House Veyr.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Silverfall",
+      "marker_type": "settlement",
+      "x": 0.24,
+      "y": 0.39,
+      "description": "Settlement in the Vaelorian Western Highlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Thornvale",
+      "marker_type": "settlement",
+      "x": 0.32,
+      "y": 0.43,
+      "description": "Settlement in the Vaelorian western territories.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Goldmere",
+      "marker_type": "settlement",
+      "x": 0.35,
+      "y": 0.48,
+      "description": "Settlement in the Vaelorian western territories.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Harveston",
+      "marker_type": "settlement",
+      "x": 0.36,
+      "y": 0.6,
+      "description": "Settlement in the Edarth Western Heartlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Riverrun",
+      "marker_type": "settlement",
+      "x": 0.43,
+      "y": 0.64,
+      "description": "Settlement in the Edarth Riverlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Westfield",
+      "marker_type": "settlement",
+      "x": 0.31,
+      "y": 0.65,
+      "description": "Settlement in the Edarth Western Borderlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Kingsbridge",
+      "marker_type": "settlement",
+      "x": 0.57,
+      "y": 0.66,
+      "description": "Settlement in the Crownlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Highmere",
+      "marker_type": "settlement",
+      "x": 0.59,
+      "y": 0.56,
+      "description": "Settlement in the Crownlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Dunwall",
+      "marker_type": "settlement",
+      "x": 0.62,
+      "y": 0.68,
+      "description": "Settlement in the Crownlands.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Ironharbor",
+      "marker_type": "port",
+      "x": 0.55,
+      "y": 0.36,
+      "description": "Dwarven settlement associated with the central inland sea.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Stonewake",
+      "marker_type": "settlement",
+      "x": 0.67,
+      "y": 0.34,
+      "description": "Dwarven settlement associated with the central inland sea.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Deepwatch",
+      "marker_type": "fortress",
+      "x": 0.72,
+      "y": 0.31,
+      "description": "Dwarven settlement associated with House Kharadorn.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Eastwatch",
+      "marker_type": "fortress",
+      "x": 0.88,
+      "y": 0.29,
+      "description": "Settlement in House Merrowen's northern coastal territory.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Saltmere",
+      "marker_type": "settlement",
+      "x": 0.91,
+      "y": 0.49,
+      "description": "Settlement in House Merrowen's eastern maritime territory.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Deltaport",
+      "marker_type": "port",
+      "x": 0.87,
+      "y": 0.59,
+      "description": "Port in the eastern river delta.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Stormhaven",
+      "marker_type": "port",
+      "x": 0.9,
+      "y": 0.72,
+      "description": "Port on the southern/eastern coast.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Sablecross",
+      "marker_type": "settlement",
+      "x": 0.2,
+      "y": 0.72,
+      "description": "Settlement in the fragmented Southern Reaches.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Brightwater",
+      "marker_type": "settlement",
+      "x": 0.49,
+      "y": 0.78,
+      "description": "Settlement in the Southern Reaches.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Marrowgate",
+      "marker_type": "settlement",
+      "x": 0.68,
+      "y": 0.8,
+      "description": "Settlement in the Southern Reaches.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    },
+    {
+      "name": "Duskport",
+      "marker_type": "port",
+      "x": 0.86,
+      "y": 0.82,
+      "description": "Port in the Southern Islands / Southern Reaches.",
+      "player_visible": true,
+      "status": "ESTABLISHED_REGION_ONLY"
+    }
+  ],
+  "overlays": [
+    {
+      "name": "Northern Marches - House Veyr sphere",
+      "overlay_type": "region",
+      "color": "#7897b8",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.13,
+          "y": 0.18
+        },
+        {
+          "x": 0.28,
+          "y": 0.15
+        },
+        {
+          "x": 0.47,
+          "y": 0.13
+        },
+        {
+          "x": 0.65,
+          "y": 0.15
+        },
+        {
+          "x": 0.82,
+          "y": 0.19
+        },
+        {
+          "x": 0.9,
+          "y": 0.27
+        },
+        {
+          "x": 0.83,
+          "y": 0.34
+        },
+        {
+          "x": 0.68,
+          "y": 0.32
+        },
+        {
+          "x": 0.53,
+          "y": 0.3
+        },
+        {
+          "x": 0.38,
+          "y": 0.31
+        },
+        {
+          "x": 0.22,
+          "y": 0.28
+        },
+        {
+          "x": 0.13,
+          "y": 0.24
+        }
+      ]
+    },
+    {
+      "name": "Western Highlands - House Vaelorian sphere",
+      "overlay_type": "region",
+      "color": "#b28b56",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.1,
+          "y": 0.29
+        },
+        {
+          "x": 0.25,
+          "y": 0.28
+        },
+        {
+          "x": 0.37,
+          "y": 0.35
+        },
+        {
+          "x": 0.39,
+          "y": 0.44
+        },
+        {
+          "x": 0.34,
+          "y": 0.54
+        },
+        {
+          "x": 0.25,
+          "y": 0.58
+        },
+        {
+          "x": 0.14,
+          "y": 0.52
+        },
+        {
+          "x": 0.09,
+          "y": 0.42
+        }
+      ]
+    },
+    {
+      "name": "Western Heartlands - House Edarth sphere",
+      "overlay_type": "region",
+      "color": "#78966b",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.25,
+          "y": 0.46
+        },
+        {
+          "x": 0.38,
+          "y": 0.45
+        },
+        {
+          "x": 0.48,
+          "y": 0.49
+        },
+        {
+          "x": 0.52,
+          "y": 0.58
+        },
+        {
+          "x": 0.48,
+          "y": 0.69
+        },
+        {
+          "x": 0.38,
+          "y": 0.72
+        },
+        {
+          "x": 0.27,
+          "y": 0.67
+        },
+        {
+          "x": 0.22,
+          "y": 0.57
+        }
+      ]
+    },
+    {
+      "name": "Central Crownlands - House Calderan sphere",
+      "overlay_type": "region",
+      "color": "#8c83ad",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.43,
+          "y": 0.51
+        },
+        {
+          "x": 0.55,
+          "y": 0.49
+        },
+        {
+          "x": 0.67,
+          "y": 0.55
+        },
+        {
+          "x": 0.69,
+          "y": 0.67
+        },
+        {
+          "x": 0.63,
+          "y": 0.76
+        },
+        {
+          "x": 0.51,
+          "y": 0.77
+        },
+        {
+          "x": 0.43,
+          "y": 0.7
+        },
+        {
+          "x": 0.4,
+          "y": 0.6
+        }
+      ]
+    },
+    {
+      "name": "Eastern Maritime Territories - House Merrowen sphere",
+      "overlay_type": "region",
+      "color": "#6f9fa2",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.76,
+          "y": 0.27
+        },
+        {
+          "x": 0.88,
+          "y": 0.26
+        },
+        {
+          "x": 0.95,
+          "y": 0.34
+        },
+        {
+          "x": 0.95,
+          "y": 0.55
+        },
+        {
+          "x": 0.91,
+          "y": 0.72
+        },
+        {
+          "x": 0.84,
+          "y": 0.75
+        },
+        {
+          "x": 0.78,
+          "y": 0.64
+        },
+        {
+          "x": 0.8,
+          "y": 0.5
+        },
+        {
+          "x": 0.75,
+          "y": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Central Inland Sea - Kharadorn maritime dominion",
+      "overlay_type": "region",
+      "color": "#b66d65",
+      "player_visible": true,
+      "status": "APPROXIMATE_SPHERE_NOT_BORDER",
+      "points": [
+        {
+          "x": 0.42,
+          "y": 0.34
+        },
+        {
+          "x": 0.51,
+          "y": 0.31
+        },
+        {
+          "x": 0.63,
+          "y": 0.33
+        },
+        {
+          "x": 0.73,
+          "y": 0.41
+        },
+        {
+          "x": 0.73,
+          "y": 0.52
+        },
+        {
+          "x": 0.65,
+          "y": 0.59
+        },
+        {
+          "x": 0.53,
+          "y": 0.57
+        },
+        {
+          "x": 0.44,
+          "y": 0.51
+        },
+        {
+          "x": 0.4,
+          "y": 0.42
+        }
+      ]
+    },
+    {
+      "name": "Southern Reaches - fragmented polities",
+      "overlay_type": "region",
+      "color": "#b49b69",
+      "player_visible": true,
+      "status": "GEOGRAPHIC_POLITICAL_ZONE_NOT_SINGLE_REALM",
+      "points": [
+        {
+          "x": 0.16,
+          "y": 0.68
+        },
+        {
+          "x": 0.28,
+          "y": 0.69
+        },
+        {
+          "x": 0.41,
+          "y": 0.72
+        },
+        {
+          "x": 0.55,
+          "y": 0.75
+        },
+        {
+          "x": 0.7,
+          "y": 0.76
+        },
+        {
+          "x": 0.86,
+          "y": 0.75
+        },
+        {
+          "x": 0.94,
+          "y": 0.81
+        },
+        {
+          "x": 0.89,
+          "y": 0.91
+        },
+        {
+          "x": 0.69,
+          "y": 0.91
+        },
+        {
+          "x": 0.48,
+          "y": 0.89
+        },
+        {
+          "x": 0.29,
+          "y": 0.85
+        },
+        {
+          "x": 0.17,
+          "y": 0.78
+        }
+      ]
+    }
+  ]
+}

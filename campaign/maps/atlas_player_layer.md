@@ -1,0 +1,56 @@
+# Continent Atlas Player Layer
+
+**Status:** Proposed visual layer for GM review and app entry  
+**Parent map:** `campaign/maps/continent_atlas.png`  
+**Coordinate convention:** normalized image coordinates; X=0 at left, Y=0 at top; north is up.
+
+## Purpose
+
+This file prepares the first useful player-facing atlas layer: major seats, named settlements, and broad political/geographic regions. Coordinates are approximate visual placements on the authoritative atlas. They are not surveyed coordinates and must not be treated as final geographic canon.
+
+The app already supports these elements:
+- Marker types: city, settlement, fortress, ruins, landmark, port, hidden.
+- Region and route overlays, each stored as normalized points.
+- Independent player-visible flags for maps, markers, and overlays.
+- Map hierarchy through parent/child map records.
+
+## Player-facing content
+
+The companion JSON file `atlas_player_layer.json` contains:
+- Principal seats: Frosthold, Aurelith, Stoneguard, Valedorn, Dragonstone, Khar-Dum, and Tidemark.
+- Other established named settlements listed in the approved Stage 5 political geography.
+- Tallowmere, linked conceptually to the approved regional map.
+- Seven broad region overlays for the Great House spheres and the fragmented Southern Reaches.
+
+## Important canon safeguards
+
+1. **These are approximate placements.** The continent map establishes broad regions, not surveyed coordinates. The JSON's marker coordinates are cartographic starting points for the GM to adjust visually in the atlas editor.
+2. **Region overlays are not borders.** The exact borders of all Great House territories remain unresolved. The overlays are intentionally named as spheres or broad zones and must not be described as surveyed boundaries.
+3. **Kharadorn's central sea dominion is a sphere of influence**, not a claim that every shore settlement is directly administered by dwarves. The northeastern Khar-Dum homeland is distinct from Dragonstone.
+4. **The Southern Reaches are fragmented.** Their overlay is a broad geographic/political zone, not a unified state.
+5. **Do not add the dwarven underground route to Dragonstone.** It is a GM-only secret and must never appear in player-visible markers, overlays, notes, or map descriptions.
+6. The atlas artwork itself contains no GM-only annotations. It can be marked player-visible once the GM is satisfied with the public marker and overlay layer.
+7. Do not expose unconfirmed minor-house boundaries, local jurisdictions, or the exact location of Tallowmere's regional landmarks on the continent map.
+
+## Tallowmere
+
+The approved macro placement is the northwestern shore of the central inland sea, at the mouth of the River Vale. The current anchor is X=44%, Y=43%. The map editor should be used to verify the marker sits on land beside the river mouth, not in the sea. The regional map should later become a child map of Tallowmere's location; the city map should become a child map of the regional map.
+
+## Recommended order in the app
+
+1. Confirm the continent atlas map record has the atlas artwork attached.
+2. Add/adjust the principal-seat markers first.
+3. Add the other named settlement markers.
+4. Draw broad region overlays using the JSON polygons, then adjust their shapes against terrain.
+5. Keep overlays and markers player-visible only after review.
+6. Mark the continent map player-visible.
+7. Link the Tallowmere regional map as a child map of Tallowmere's location/continent context; then link the city map as a child of the regional map.
+
+## What is deliberately omitted
+
+- Exact political borders.
+- Minor-house holdings and borders.
+- Uncharted roads and trade-route lines.
+- The secret dwarven tunnel to Dragonstone.
+- Undocumented settlements, castles, ruins, and geographic names.
+- Any claim that the visible rivers are the finalized courses of every named regional river.

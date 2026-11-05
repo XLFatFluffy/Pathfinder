@@ -45,13 +45,17 @@ export default async function CharacterPdfPage({
       <p className="eyebrow">Editable Pathfinder 1e sheet</p>
       <h2>{character.name}</h2>
       <p className="muted">
-        Edit the original Pathfinder sheet here and save it to your campaign
-        account. Your changes will be available when you reopen this character.
+        Changes save automatically and are available the next time you open the
+        sheet.
       </p>
       <p className="muted">
         <Link href="/player/characters">Return to your characters</Link>
       </p>
-      <CharacterPdfEditor characterId={character.id} initialFormData={formData} />
+      <CharacterPdfEditor
+        characterId={character.id}
+        initialFormData={formData}
+        fullPage
+      />
     </>
   );
 }

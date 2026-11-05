@@ -16,28 +16,31 @@ type PdfEditorStatus = {
 };
 
 function getErrorMessage(error: unknown) {
-  return error instanceof Error
-    ? error.message
-    : "An unexpected error occurred.";
+  return error instanceof Error ? error.message : "An unexpected error occurred.";
 }
 
 export default function CharacterPdfEditor({
   characterId,
   initialFormData,
+  fullPage = false,
 }: {
   characterId: string;
   initialFormData: CharacterPdfFormData;
+  fullPage?: boolean;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const annotationStorageRef = useRef<{
     [Symbol.iterator](): IterableIterator<[string, object]>;
   } | null>(null);
   const initialFormDataRef = useRef(initialFormData);
+  const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const isDirtyRef = useRef(false);
+  const isSavingRef = useRef(false);
+  const retrySaveRef = useRef<() => void>(() => {});
   const [loadError, setLoadError] = useState("");
   const [status, setStatus] = useState<PdfEditorStatus>({
-    message: "Loading the Pathfinder sheet…",
+    message: "Loading character sheet…",
   });
-  const [isDirty, setIsDirty] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
 
   useEffect(() => {
@@ -58,18 +61,113 @@ export default function CharacterPdfEditor({
       | import("pdfjs-dist/web/pdf_viewer.mjs").PDFLinkService
       | undefined;
 
-    const markAsChanged = () => {
-      setIsDirty(true);
-      setStatus({ message: "Unsaved changes." });
+    async function saveChanges() {
+      if (saveTimerRef.current) {
+        clearTimeout(saveTimerRef.current);
+        saveTimerRef.current = null;
+      }
+
+      const annotationStorage = annotationStorageRef.current;
+      if (!annotationStorage || !isDirtyRef.current) {
+        return;
+      }
+      if (isSavingRef.current) {
+        saveTimerRef.current = setTimeout(() => {
+          void saveChanges();
+        }, 250);
+        return;
+      }
+
+      const formData = Object.fromEntries(annotationStorage);
+      if (!isCharacterPdfFormData(formData)) {
+        setStatus({
+          error: "The character sheet has invalid or oversized form data.",
+        });
+        return;
+      }
+
+      isSavingRef.current = true;
+      setIsSaving(true);
+      setStatus({ message: "Saving…" });
+
+      let result: CharacterPdfFormSaveState;
+      try {
+        result = await savePlayerCharacterPdfFormData(characterId, formData);
+      } catch (error) {
+        result = { error: `Unable to save character sheet: ${getErrorMessage(error)}` };
+      }
+
+      isSavingRef.current = false;
+      setIsSaving(false);
+      if (result.error) {
+        setStatus({ error: result.error });
+        return;
+      }
+
+      const latestFormData = Object.fromEntries(annotationStorage);
+      const hasNewerChanges =
+        JSON.stringify(latestFormData) !== JSON.stringify(formData);
+      isDirtyRef.current = hasNewerChanges;
+      if (hasNewerChanges) {
+        setStatus({ message: "Saving latest changes…" });
+        saveTimerRef.current = setTimeout(() => {
+          void saveChanges();
+        }, 0);
+      } else {
+        setStatus({ message: result.message ?? "All changes saved." });
+      }
+    }
+
+    function scheduleSave(delay = 700) {
+      if (saveTimerRef.current) {
+        clearTimeout(saveTimerRef.current);
+      }
+      saveTimerRef.current = setTimeout(() => {
+        void saveChanges();
+      }, delay);
+    }
+
+    function markChanged() {
+      markModified(700);
+    }
+
+    function markChangedImmediately() {
+      markModified(0);
+    }
+
+    function markModified(delay: number) {
+      if (!annotationStorageRef.current) {
+        return;
+      }
+      isDirtyRef.current = true;
+      setStatus({ message: "Unsaved changes…" });
+      scheduleSave(delay);
+    }
+
+    function saveOnPageHide() {
+      void saveChanges();
+    }
+
+    function saveOnFocusOut() {
+      if (isDirtyRef.current) {
+        scheduleSave(0);
+      }
+    }
+
+    retrySaveRef.current = () => {
+      void saveChanges();
     };
+
     const setPageWidth = () => {
       if (viewer) {
         viewer.currentScaleValue = "page-width";
       }
     };
 
-    container.addEventListener("input", markAsChanged);
-    container.addEventListener("change", markAsChanged);
+    container.addEventListener("input", markChanged);
+    container.addEventListener("change", markChangedImmediately);
+    container.addEventListener("focusout", saveOnFocusOut);
+    window.addEventListener("pagehide", saveOnPageHide);
 
     async function loadSheet() {
       try {
@@ -110,7 +208,7 @@ export default function CharacterPdfEditor({
         annotationStorageRef.current = pdfDocument.annotationStorage;
         linkService.setDocument(pdfDocument);
         viewer.setDocument(pdfDocument);
-        setStatus({ message: "Sheet ready. Changes are saved when you choose Save." });
+        setStatus({ message: "Changes save automatically." });
       } catch (error) {
         if (!cancelled) {
           setLoadError(
@@ -127,86 +225,47 @@ export default function CharacterPdfEditor({
 
     return () => {
       cancelled = true;
-      container.removeEventListener("input", markAsChanged);
-      container.removeEventListener("change", markAsChanged);
+      container.removeEventListener("input", markChanged);
+      container.removeEventListener("change", markChangedImmediately);
+      container.removeEventListener("focusout", saveOnFocusOut);
+      window.removeEventListener("pagehide", saveOnPageHide);
       eventBus?.off("pagesinit", setPageWidth);
       viewer?.cleanup();
+      if (saveTimerRef.current) {
+        clearTimeout(saveTimerRef.current);
+        saveTimerRef.current = null;
+      }
+      if (isDirtyRef.current && !isSavingRef.current) {
+        void saveChanges();
+      }
+      retrySaveRef.current = () => {};
       void loadingTask?.destroy();
-      annotationStorageRef.current = null;
     };
   }, [characterId]);
 
-  async function saveSheet() {
-    const annotationStorage = annotationStorageRef.current;
-    if (!annotationStorage || !isDirty || isSaving) {
-      return;
-    }
-
-    const formData = Object.fromEntries(annotationStorage);
-    if (!isCharacterPdfFormData(formData)) {
-      setStatus({
-        error: "The edited character sheet contains invalid or oversized form data.",
-      });
-      return;
-    }
-
-    setIsSaving(true);
-    setStatus({ message: "Saving character sheet…" });
-    let result: CharacterPdfFormSaveState;
-    try {
-      result = await savePlayerCharacterPdfFormData(characterId, formData);
-    } catch (error) {
-      setStatus({ error: `Unable to save the character sheet: ${getErrorMessage(error)}` });
-      setIsSaving(false);
-      return;
-    }
-    setIsSaving(false);
-
-    if (result.error) {
-      setStatus({ error: result.error });
-      return;
-    }
-
-    const latestFormData = Object.fromEntries(annotationStorage);
-    const changedDuringSave =
-      JSON.stringify(latestFormData) !== JSON.stringify(formData);
-    setIsDirty(changedDuringSave);
-    setStatus({
-      message: changedDuringSave
-        ? "Saved, but newer edits made during the save still need saving."
-        : result.message ?? "Character sheet saved.",
-    });
-  }
-
   return (
-    <section className="entry-card canonical-pdf-card">
-      <div className="character-sheet-controls">
-        <button
-          type="button"
-          onClick={saveSheet}
-          disabled={!isDirty || isSaving || Boolean(loadError)}
-        >
-          {isSaving ? "Saving…" : "Save character sheet"}
-        </button>
-        <a download href="/pathfinder-character-sheet.pdf">
-          Download a blank PDF
-        </a>
+    <section
+      className={`character-pdf-editor${fullPage ? " character-pdf-editor-full-page" : ""}`}
+    >
+      <div className="character-pdf-editor-status">
+        <p aria-live="polite" className={status.error ? "error" : "muted"}>
+          {status.error ?? (isSaving ? "Saving…" : status.message)}
+        </p>
         {status.error ? (
-          <p className="error" role="alert">
-            {status.error}
-          </p>
-        ) : status.message ? (
-          <p aria-live="polite" className="muted">
-            {status.message}
-          </p>
+          <button type="button" onClick={() => retrySaveRef.current()}>
+            Retry save
+          </button>
         ) : null}
+        <a download href="/pathfinder-character-sheet.pdf">
+          Download blank PDF
+        </a>
       </div>
       {loadError ? (
         <p className="error" role="alert">
           Unable to load the Pathfinder sheet: {loadError}
         </p>
       ) : null}
-      <div className="character-sheet-canvas">
+      <div className="character-pdf-editor-frame">
         <div
           aria-label="Editable Pathfinder character sheet"
           className="pdfjs-viewer-container"

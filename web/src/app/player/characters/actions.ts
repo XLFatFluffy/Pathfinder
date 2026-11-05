@@ -70,7 +70,7 @@ export async function savePlayerCharacterPdfFormData(
     return { error: "The character sheet was not found in your account." };
   }
 
-  return { message: "Character sheet saved to your campaign." };
+  return { message: "All changes saved." };
 }
 
 export async function savePlayerCharacter(

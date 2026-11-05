@@ -1,0 +1,48 @@
+{
+  "status": "established",
+  "source": "campaign/history/World_History.md",
+  "records": [
+    {
+      "id": "event-great-rebellion",
+      "name": "The Great Rebellion",
+      "date": "Approximately 200-300 years before present; exact year unresolved",
+      "type": "War / rebellion",
+      "description": "Six Great Houses united against the dragon-riding dynasty to restore Great House independence and destroy dragon-riding supremacy. The war lasted a few years and was devastating."
+    },
+    {
+      "id": "event-dragonstone-fall",
+      "name": "Fall of the Dragon-Riding Dynasty",
+      "date": "During the Great Rebellion",
+      "type": "Dynastic collapse",
+      "description": "The Imperial Seat fell and nearly the entire ruling family was killed. The dragon-riding dynasty lost approximately four centuries of rule."
+    },
+    {
+      "id": "event-dwarven-conquest-dragonstone",
+      "name": "Kharadorn Occupation of Dragonstone",
+      "date": "Immediate post-Rebellion period",
+      "type": "Conquest / settlement",
+      "description": "The dwarven main branch claimed and occupied Dragonstone, the former ancestral stronghold of the fallen dragon-riding dynasty. Khar-Dum remained the Kharadorns' ancestral homeland."
+    },
+    {
+      "id": "event-kharadorn-century-rule",
+      "name": "Post-Rebellion Kharadorn Rule",
+      "date": "Immediate aftermath through more than a century after the rebellion",
+      "type": "Political rule",
+      "description": "The same dwarven leader who directed the rebellion held power for more than a century and remained in authority until his death."
+    },
+    {
+      "id": "event-succession-crisis",
+      "name": "Kharadorn Succession Crisis",
+      "date": "After the death of the post-Rebellion dwarven leader; exact date unresolved",
+      "type": "Succession crisis",
+      "description": "The successor inherited dwarven authority, but a succession crisis led to a confrontation over the Imperial Seat."
+    },
+    {
+      "id": "event-calderan-compromise",
+      "name": "Installation of the Calderan Compromise Monarch",
+      "date": "After the succession crisis; exact date unresolved",
+      "type": "Settlement",
+      "description": "The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of House Calderan, one of the original six rebel houses, was installed as compromise monarch. His claim is legitimate and hereditary, while the precise sources of political constraint remain unresolved."
+    }
+  ]
+}

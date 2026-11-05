@@ -1,6 +1,6 @@
 # Tallowmere Regional Map: Public Places and Landholder Layer Plan
 
-**Status:** Canon-based content plan; marker coordinates pending placement against the approved regional artwork  
+**Status:** Canon-based regional map layer plan; **The Lands About Tallowmere** is the approved/canonical visual reference for broad placement. Marker coordinates remain pending calibration against the artwork.  
 **Parent location:** Tallowmere  
 **Map role:** The regional layer between the continental atlas and the city map
 

@@ -548,8 +548,10 @@ h2 {
   padding: 0;
 }
 
-.pdfjs-viewer-container .annotationLayer {
-  --annotation-unfocused-field-background: none;
+.pdfjs-viewer-container .annotationLayer
+  :is(.textWidgetAnnotation input, .textWidgetAnnotation textarea, .choiceWidgetAnnotation select) {
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 .character-pdf-editor-full-page .character-pdf-editor-frame {

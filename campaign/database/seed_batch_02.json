@@ -1,0 +1,31 @@
+{
+  "batch": "02",
+  "status": "established",
+  "npcs": [
+    {"id":"npc-noll-tarrow","name":"Noll Tarrow","race":"Human","occupation":"Criminal organizer","description":"Former tally clerk organizing the loose Grey Net cargo-diversion network in the Old Quays."},
+    {"id":"npc-edrik-vale","name":"Edrik Vale","race":"Human","occupation":"Copyist and forger","description":"Copyist and occasional contract clerk who produces altered commercial documents and false ownership papers."},
+    {"id":"npc-hessa-quill","name":"Hessa Quill","race":"Halfling","occupation":"Private lender and broker","description":"Former household steward who arranges private loans and coercive settlements."},
+    {"id":"npc-sella-vane","name":"Sella Vane","race":"Human","occupation":"Boat owner","description":"Independent boat owner who moves small quantities of undeclared goods through minor quays and river landings."},
+    {"id":"npc-othric-pell","name":"Othric Pell","race":"Half-elf","occupation":"Information broker","description":"Trades schedules, overheard conversations, debt rumors, and introductions. Not omniscient."},
+    {"id":"npc-dannel-rusk","name":"Dannel Rusk","race":"Human","occupation":"Debt enforcer","description":"Independent private debt enforcer who works for multiple creditors and sometimes pushes beyond lawful agreements."},
+    {"id":"npc-damas-orrel","name":"Prelate Damas Orrel","race":"Human","occupation":"Priest of Abadar","description":"Careful administrator of the Open Ledger who emphasizes lawful trade, contracts, civic order, and fair procedure."},
+    {"id":"npc-lethia-sorn","name":"Keeper Lethia Sorn","race":"Human","occupation":"Priest of Pharasma","description":"Reserved and compassionate priest of the Quiet Gate who insists the dead be treated with dignity."},
+    {"id":"npc-othmar-rusk","name":"Lord Chancellor Othmar Rusk","race":"Human","occupation":"Royal Chancellor","description":"Crown administrator and appointed Imperial Council representative with access to royal government and inter-house negotiation."},
+    {"id":"npc-meredyth-sorn","name":"Lady Meredyth Sorn","race":"Human","occupation":"Master of Coin","description":"Precise Crown financial administrator concerned about short-term borrowing and privileges granted to powerful houses."},
+    {"id":"npc-bastian-wycliffe","name":"Lord Bastian Wycliffe","race":"Human","occupation":"Master of Laws","description":"Learned jurist cautious about changing law by decree and attentive to royal precedent and noble privilege."},
+    {"id":"npc-garran-holt","name":"Marshal Garran Holt","race":"Human","occupation":"Master of War","description":"Career soldier who understands the Crown's military limitations and favors a more reliable royal force."},
+    {"id":"npc-nerys-vale","name":"Mistress Nerys Vale","race":"Human","occupation":"Royal Spymaster","description":"Discreet intelligence officer whose network relies on informants, servants, merchants, messengers, and intermediaries."},
+    {"id":"npc-perrin-ashcombe","name":"Lord Perrin Ashcombe","race":"Human","occupation":"Lord Chamberlain","description":"Courtier responsible for royal household operations, ceremony, schedules, palace staff, and access to the monarch."}
+  ],
+  "factions": [
+    {"id":"faction-grey-net","name":"The Grey Net","type":"Criminal network","description":"Loose arrangement of handlers, carters, lookouts, and buyers involved in cargo diversion, dockside theft, false handling claims, and resale.","leader":"npc-noll-tarrow"},
+    {"id":"faction-bent-seal","name":"The Bent Seal","type":"Criminal network","description":"Loose fraud network dealing in forged cargo marks, altered receipts, false ownership papers, and commercial fraud.","leader":"npc-edrik-vale"},
+    {"id":"faction-quiet-account","name":"The Quiet Account","type":"Criminal network","description":"Informal network arranging private lending, debt collection, coercion, and settlements.","leader":"npc-hessa-quill"},
+    {"id":"faction-artificers-hall","name":"Artificers' Hall","type":"Craft guild","description":"Recognized masters in metalwork, carpentry, leatherwork, pottery, textiles, and related crafts."}
+  ],
+  "criminal_networks": [
+    {"name":"The Grey Net","activity":"Cargo diversion, dockside theft, false handling claims, and resale","area":"Old Quays and older warehouse lanes","operator":"Noll Tarrow","limits":"Cannot control harbor operations or guarantee access to every warehouse."},
+    {"name":"The Bent Seal","activity":"Forged cargo marks, altered receipts, false ownership papers, and commercial fraud","area":"Market Ward and Harbor Office approaches","operator":"Edrik Vale","limits":"Cannot create genuine legal authority or survive careful examination of every document."},
+    {"name":"The Quiet Account","activity":"Debt collection, coercive lending, intimidation, and private settlements","area":"Market Ward, Old Quays lodging houses, and edges of the New Quays","operator":"Hessa Quill","limits":"Not a bank or monopoly; relies on reputation and intimidation."}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "route-north-road",
+      "name": "North Road",
+      "from": "tallowmere",
+      "to": "ashcombe-manor",
+      "description": "Route from Tallowmere's North Gate through outer farms toward Ashcombe Manor and the Northfields."
+    },
+    {
+      "id": "route-river-vale",
+      "name": "River Vale Road",
+      "from": "tallowmere",
+      "to": "fordmere",
+      "description": "Western route following the River Vale through Millhaven toward Fordmere."
+    },
+    {
+      "id": "route-western-track",
+      "name": "Western Track",
+      "from": "tallowmere",
+      "to": "brackenholt",
+      "description": "Rough branch toward Brackenholt and managed woodland, most reliable in dry conditions."
+    },
+    {
+      "id": "route-quarry-road",
+      "name": "Quarry Road",
+      "from": "tallowmere",
+      "to": "stonehollow",
+      "description": "Southwestern branch built for stone carts climbing toward Stonehollow and the Greyback Ridges."
+    },
+    {
+      "id": "route-eastern-shore",
+      "name": "Eastern Shore Road",
+      "from": "tallowmere",
+      "to": "saltwick",
+      "description": "Coastal route southeast to Saltwick and smaller shore landings."
+    },
+    {
+      "id": "route-south-road",
+      "name": "King's Road / South Road",
+      "from": "tallowmere",
+      "to": "harthbridge",
+      "description": "Southern route from Tallowmere toward Harthbridge and the fragmented southern jurisdictions."
+    }
+  ]
+}

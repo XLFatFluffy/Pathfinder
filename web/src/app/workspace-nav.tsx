@@ -1,10 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 type WorkspaceNavProps = {
   role: "gm" | "player";
 };
 
 export default function WorkspaceNav({ role }: WorkspaceNavProps) {
+  const pathname = usePathname();
   const locationsHref = role === "gm" ? "/gm/locations" : "/player/locations";
   const mapsHref = role === "gm" ? "/gm/maps" : "/player/maps";
   const atlasHref = role === "gm" ? "/gm/atlas" : "/player/atlas";
@@ -14,23 +18,36 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
   const questsHref = role === "gm" ? "/gm/quests" : "/player/quests";
   const sessionsHref = role === "gm" ? "/gm/sessions" : "/player/sessions";
   const charactersHref = role === "gm" ? "/gm/characters" : "/player/characters";
+  const dashboardHref = role === "gm" ? "/gm" : "/player";
+  const notesHref = "/player/notes";
+
+  const navItems = [
+    { href: dashboardHref, label: role === "gm" ? "Overview" : "My campaign" },
+    { href: locationsHref, label: role === "gm" ? "Locations" : "Discoveries" },
+    { href: npcsHref, label: role === "gm" ? "NPCs" : "Known people" },
+    { href: housesHref, label: role === "gm" ? "Noble houses" : "Known houses" },
+    { href: factionsHref, label: role === "gm" ? "Factions" : "Known factions" },
+    { href: questsHref, label: role === "gm" ? "Quests" : "Campaign quests" },
+    { href: sessionsHref, label: role === "gm" ? "Session logs" : "Session history" },
+    { href: charactersHref, label: role === "gm" ? "Player characters" : "My characters" },
+    ...(role === "gm" ? [{ href: "/gm/import", label: "AI data import" }] : []),
+    { href: atlasHref, label: role === "gm" ? "Atlas" : "Explore atlas" },
+    { href: mapsHref, label: role === "gm" ? "Map library" : "Shared maps" },
+    ...(role === "player" ? [{ href: notesHref, label: "My notes" }] : []),
+  ];
 
   return (
     <nav aria-label="Campaign navigation" className="workspace-nav">
-      <Link href={role === "gm" ? "/gm" : "/player"}>
-        {role === "gm" ? "Overview" : "My campaign"}
-      </Link>
-      <Link href={locationsHref}>{role === "gm" ? "Locations" : "Discoveries"}</Link>
-      <Link href={npcsHref}>{role === "gm" ? "NPCs" : "Known people"}</Link>
-      <Link href={housesHref}>{role === "gm" ? "Noble houses" : "Known houses"}</Link>
-      <Link href={factionsHref}>{role === "gm" ? "Factions" : "Known factions"}</Link>
-      <Link href={questsHref}>{role === "gm" ? "Quests" : "Campaign quests"}</Link>
-      <Link href={sessionsHref}>{role === "gm" ? "Session logs" : "Session history"}</Link>
-      <Link href={charactersHref}>{role === "gm" ? "Player characters" : "My characters"}</Link>
-      {role === "gm" ? <Link href="/gm/import">AI data import</Link> : null}
-      <Link href={atlasHref}>{role === "gm" ? "Atlas" : "Explore atlas"}</Link>
-      <Link href={mapsHref}>{role === "gm" ? "Map library" : "Shared maps"}</Link>
-      {role === "player" ? <Link href="/player/notes">My notes</Link> : null}
+      {navItems.map(({ href, label }) => (
+        <Link
+          key={href}
+          href={href}
+          className={`nav-link${pathname === href ? " is-active" : ""}`}
+          aria-current={pathname === href ? "page" : undefined}
+        >
+          {label}
+        </Link>
+      ))}
     </nav>
   );
 }

@@ -54,3 +54,17 @@ The approved macro placement is the northwestern shore of the central inland sea
 - The secret dwarven tunnel to Dragonstone.
 - Undocumented settlements, castles, ruins, and geographic names.
 - Any claim that the visible rivers are the finalized courses of every named regional river.
+
+
+## App behavior note for Copilot
+
+The current atlas viewer supports marker selection and a separate **Explore within** child-map navigation list. Marker clicks currently select a marker; they do not yet navigate to a child map. To implement the intended Tallowmere drill-down without adding an unnecessary schema field:
+
+- Give the Tallowmere marker a linked `campaign_locations` record.
+- Set the regional map's `parent_map_id` to the continent map and its `location_id` to the same Tallowmere location record.
+- Set the city map's `parent_map_id` to the regional map and its `location_id` to that same Tallowmere location record.
+- On marker activation, find a child map of the currently selected map whose `location_id` matches the marker's `location_id`; navigate to it when exactly one matching child with artwork exists. If none exists, retain normal marker selection/details behavior.
+- On the regional map, the city map appears as its child in the existing hierarchy navigation. A later extension can make the city drill-down clickable from the city marker on the regional map.
+- Preserve breadcrumbs so players can return from city → region → continent.
+
+The player-facing visibility chain must be valid at every level: continent map, regional map, city map, linked Tallowmere location, marker, and any player-visible overlays. The database already enforces that player-visible child maps require a player-visible parent map. A marker linked to a location is only visible if that location is also player-visible.

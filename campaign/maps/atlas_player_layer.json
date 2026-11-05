@@ -1,161 +1,184 @@
 {
-  "map": "continent_atlas",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "status": "PROPOSED_PLAYER_LAYER_MAJOR_PLACES_ONLY",
   "note": "Player-facing continental layer: established major cities, principal seats, major fortresses, and major ports only. Smaller settlements are intentionally reserved for regional maps or GM reference. Coordinates remain approximate and require visual review against the authoritative atlas. Political borders are deliberately omitted until non-overlapping boundaries are mapped and approved.",
-  "markers": [
+  "layers": [
     {
-      "name": "Tallowmere",
-      "marker_type": "city",
-      "x": 0.44,
-      "y": 0.43,
-      "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
-      "player_visible": true,
-      "status": "APPROVED_APPROXIMATE_ANCHOR",
-      "location_type": "city"
-    },
-    {
-      "name": "Dragonstone",
-      "marker_type": "fortress",
-      "x": 0.59,
-      "y": 0.4,
-      "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
-      "player_visible": true,
-      "status": "ESTABLISHED_APPROXIMATE",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Khar-Dum",
-      "marker_type": "fortress",
-      "x": 0.75,
-      "y": 0.27,
-      "description": "Ancestral homeland of House Kharadorn in the northeastern mountain system.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Frosthold",
-      "marker_type": "fortress",
-      "x": 0.51,
-      "y": 0.13,
-      "description": "Principal seat of House Veyr in the northern territories.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Aurelith",
-      "marker_type": "city",
-      "x": 0.29,
-      "y": 0.36,
-      "description": "Principal seat of House Vaelorian in the Western Highlands.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "city"
-    },
-    {
-      "name": "Stoneguard",
-      "marker_type": "fortress",
-      "x": 0.38,
-      "y": 0.55,
-      "description": "Principal seat of House Edarth in the Western Heartlands.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Valedorn",
-      "marker_type": "city",
-      "x": 0.53,
-      "y": 0.61,
-      "description": "Capital of the Crownlands and location of the Imperial Seat, inland at a major river confluence.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "city"
-    },
-    {
-      "name": "Tidemark",
-      "marker_type": "port",
-      "x": 0.88,
-      "y": 0.45,
-      "description": "Principal seat of House Merrowen on the eastern coast.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "port"
-    },
-    {
-      "name": "Greywatch",
-      "marker_type": "fortress",
-      "x": 0.64,
-      "y": 0.27,
-      "description": "Northern settlement associated with House Veyr.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Ironharbor",
-      "marker_type": "port",
-      "x": 0.55,
-      "y": 0.36,
-      "description": "Dwarven settlement associated with the central inland sea.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "port"
-    },
-    {
-      "name": "Deepwatch",
-      "marker_type": "fortress",
-      "x": 0.72,
-      "y": 0.31,
-      "description": "Dwarven settlement associated with House Kharadorn.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Eastwatch",
-      "marker_type": "fortress",
-      "x": 0.88,
-      "y": 0.29,
-      "description": "Settlement in House Merrowen's northern coastal territory.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "fortress"
-    },
-    {
-      "name": "Deltaport",
-      "marker_type": "port",
-      "x": 0.87,
-      "y": 0.59,
-      "description": "Port in the eastern river delta.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "port"
-    },
-    {
-      "name": "Stormhaven",
-      "marker_type": "port",
-      "x": 0.9,
-      "y": 0.72,
-      "description": "Port on the southern/eastern coast.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "port"
-    },
-    {
-      "name": "Duskport",
-      "marker_type": "port",
-      "x": 0.86,
-      "y": 0.82,
-      "description": "Port in the Southern Islands / Southern Reaches.",
-      "player_visible": true,
-      "status": "ESTABLISHED_REGION_ONLY",
-      "location_type": "port"
+      "map": "continent_atlas",
+      "map_source_id": "continent_atlas",
+      "map_name": "The Continent",
+      "map_type": "continent",
+      "parent_map_source_id": null,
+      "markers": [
+        {
+          "source_id": "continent_atlas/tallowmere",
+          "name": "Tallowmere",
+          "marker_type": "city",
+          "x": 0.44,
+          "y": 0.43,
+          "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
+          "player_visible": true,
+          "status": "APPROVED_APPROXIMATE_ANCHOR",
+          "location_type": "city"
+        },
+        {
+          "source_id": "continent_atlas/dragonstone",
+          "name": "Dragonstone",
+          "marker_type": "fortress",
+          "x": 0.59,
+          "y": 0.4,
+          "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
+          "player_visible": true,
+          "status": "ESTABLISHED_APPROXIMATE",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/khar-dum",
+          "name": "Khar-Dum",
+          "marker_type": "fortress",
+          "x": 0.75,
+          "y": 0.27,
+          "description": "Ancestral homeland of House Kharadorn in the northeastern mountain system.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/frosthold",
+          "name": "Frosthold",
+          "marker_type": "fortress",
+          "x": 0.51,
+          "y": 0.13,
+          "description": "Principal seat of House Veyr in the northern territories.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/aurelith",
+          "name": "Aurelith",
+          "marker_type": "city",
+          "x": 0.29,
+          "y": 0.36,
+          "description": "Principal seat of House Vaelorian in the Western Highlands.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "city"
+        },
+        {
+          "source_id": "continent_atlas/stoneguard",
+          "name": "Stoneguard",
+          "marker_type": "fortress",
+          "x": 0.38,
+          "y": 0.55,
+          "description": "Principal seat of House Edarth in the Western Heartlands.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/valedorn",
+          "name": "Valedorn",
+          "marker_type": "city",
+          "x": 0.53,
+          "y": 0.61,
+          "description": "Capital of the Crownlands and location of the Imperial Seat, inland at a major river confluence.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "city"
+        },
+        {
+          "source_id": "continent_atlas/tidemark",
+          "name": "Tidemark",
+          "marker_type": "port",
+          "x": 0.88,
+          "y": 0.45,
+          "description": "Principal seat of House Merrowen on the eastern coast.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "port"
+        },
+        {
+          "source_id": "continent_atlas/greywatch",
+          "name": "Greywatch",
+          "marker_type": "fortress",
+          "x": 0.64,
+          "y": 0.27,
+          "description": "Northern settlement associated with House Veyr.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/ironharbor",
+          "name": "Ironharbor",
+          "marker_type": "port",
+          "x": 0.55,
+          "y": 0.36,
+          "description": "Dwarven settlement associated with the central inland sea.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "port"
+        },
+        {
+          "source_id": "continent_atlas/deepwatch",
+          "name": "Deepwatch",
+          "marker_type": "fortress",
+          "x": 0.72,
+          "y": 0.31,
+          "description": "Dwarven settlement associated with House Kharadorn.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/eastwatch",
+          "name": "Eastwatch",
+          "marker_type": "fortress",
+          "x": 0.88,
+          "y": 0.29,
+          "description": "Settlement in House Merrowen's northern coastal territory.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "fortress"
+        },
+        {
+          "source_id": "continent_atlas/deltaport",
+          "name": "Deltaport",
+          "marker_type": "port",
+          "x": 0.87,
+          "y": 0.59,
+          "description": "Port in the eastern river delta.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "port"
+        },
+        {
+          "source_id": "continent_atlas/stormhaven",
+          "name": "Stormhaven",
+          "marker_type": "port",
+          "x": 0.9,
+          "y": 0.72,
+          "description": "Port on the southern/eastern coast.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "port"
+        },
+        {
+          "source_id": "continent_atlas/duskport",
+          "name": "Duskport",
+          "marker_type": "port",
+          "x": 0.86,
+          "y": 0.82,
+          "description": "Port in the Southern Islands / Southern Reaches.",
+          "player_visible": true,
+          "status": "ESTABLISHED_REGION_ONLY",
+          "location_type": "port"
+        }
+      ],
+      "overlays": []
     }
   ],
-  "overlays": [],
   "import_instructions": {
     "target_map": {
       "name": "The Continent",
@@ -163,10 +186,10 @@
       "artwork": "campaign/maps/continent_atlas.png"
     },
     "create_location_for_each_marker": true,
-    "marker_location_link": "Set campaign_map_markers.location_id to the generated campaign_locations.id for the matching marker.",
+    "marker_location_link": "Synchronize markers by source_id and preserve the linked campaign_locations.id when a marker is renamed.",
     "resolve_campaign_id": "Use the authenticated GM's active campaign_id; do not hard-code a campaign UUID.",
-    "upsert_key": "(campaign_id, map_id, name) for markers; (campaign_id, parent_id, name) for locations where feasible.",
-    "visibility": "Major place markers are intended to be public knowledge from campaign start, subject to GM review. No political or geographic overlays are included in this import because the current draft polygons are not reliable boundaries. Add overlays only after classifying and mapping them according to atlas_overlay_standards.md.",
+    "upsert_key": "Stable map_source_id and per-marker/per-overlay source_id, scoped to the authenticated campaign.",
+    "visibility": "Each marker explicitly declares player_visible. The 15 approved major places are public; GM notes remain private. No political or geographic overlays are included because the current draft polygons are not reliable boundaries. Add overlays only after classifying and mapping them according to atlas_overlay_standards.md.",
     "caution": "Do not create or expose the GM-only dwarven underground route to Dragonstone. Do not add minor settlement markers to the continental layer merely to populate empty space; place them on their appropriate regional maps.",
     "marker_navigation": {
       "current_behavior": "Atlas marker click currently selects marker only; it does not navigate to a map.",

@@ -18,6 +18,7 @@ const mapTypes = new Set([
   "kingdom",
   "city",
   "settlement",
+  "district",
   "interior",
   "dungeon",
 ]);

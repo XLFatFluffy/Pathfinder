@@ -90,6 +90,7 @@ export default function MapForm({
             <option value="kingdom">Kingdom</option>
             <option value="city">City</option>
             <option value="settlement">Settlement</option>
+            <option value="district">District</option>
             <option value="interior">Interior</option>
             <option value="dungeon">Dungeon</option>
           </select>

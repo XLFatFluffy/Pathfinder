@@ -61,11 +61,15 @@ Intended hierarchy:
 
 The regional map should be a child map of Tallowmere's linked location. The city map should be a child of the regional map. Preserve breadcrumbs back to the continent.
 
-## Import notes
+## Synchronization and ownership
 
-The GM atlas importer creates missing locations and markers but leaves existing same-name markers unchanged. It also creates imported records as GM-only until visibility is explicitly reviewed and changed in the app. Re-importing this JSON will therefore not update existing markers with the same names; review or edit existing records separately if an earlier draft was already imported.
+The GM atlas synchronization control reads the `layers` array in this repository file and previews the differences before applying them. `map_source_id` and each marker/overlay `source_id` are stable keys: retain them when names change, and do not reuse retired identifiers. A unique map name/type match is used only to register a layer the first time; later runs use the persisted map source ID. A unique legacy marker/overlay name can adopt an existing record, but ambiguous matches block synchronization for GM review.
 
-The importer currently takes one marker description and uses it as the location description. It does not yet provide separate player-facing descriptions and GM-only notes through this JSON format. Keep sensitive lore out of marker descriptions until that importer capability is added.
+The repository owns marker/overlay identity, names, types, coordinates, public location descriptions, and explicitly declared visibility. App-only GM notes, discoveries, and other linked campaign records are not synchronized. Removing a source marker removes only that map marker; its campaign location and lore remain. Removing an overlay removes only the overlay. Destructive map-object removals require explicit GM confirmation, and an applied synchronization can be rolled back.
+
+Only player-safe descriptions belong in this public layer. GM notes are kept in the application and are never inferred from or exposed through a public marker. `player_visible` is explicitly declared for each source marker and overlay; hidden marker types may not be marked public.
+
+For another map, add a corresponding layer object with a unique `map_source_id`, `map_name`, and `map_type`. Set `parent_map_source_id` to the stable source ID of its parent map (or `null` for a root). The parent must already exist in the campaign map library; synchronization validates player visibility and prevents hierarchy cycles, updating the association without deleting map records or changing app-only data.
 
 ## Authority
 

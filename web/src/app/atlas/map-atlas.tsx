@@ -19,11 +19,17 @@ import {
   getCampaignMapOverlays,
   saveCampaignMapOverlay,
 } from "./overlay-actions";
-import { importAtlasPlayerLayer } from "./import-layer-action";
+import {
+  applyCampaignAtlasSync,
+  getAvailableAtlasSyncRollback,
+  previewCampaignAtlasSync,
+  rollbackCampaignAtlasSync,
+} from "./synchronization-actions";
 import type {
   CampaignAtlasLocation,
   CampaignAtlasMap,
 } from "@/lib/campaign-atlas";
+import type { AtlasSyncPlan } from "@/lib/campaign-atlas-sync";
 import {
   campaignMarkerTypes,
   type CampaignMapMarker,
@@ -121,11 +127,15 @@ export default function MapAtlas({
   const [markerPending, setMarkerPending] = useState(false);
   const [overlays, setOverlays] = useState<CampaignMapOverlay[]>([]);
   const [overlaysStatus, setOverlaysStatus] = useState("");
-  const [layerImportPending, setLayerImportPending] = useState(false);
-  const [layerImportStatus, setLayerImportStatus] = useState("");
-  const [layerImportInputError, setLayerImportInputError] = useState("");
-  const [layerImportJson, setLayerImportJson] = useState("");
-  const [layerImportFileName, setLayerImportFileName] = useState("");
+  const [atlasSyncPending, setAtlasSyncPending] = useState(false);
+  const [atlasSyncError, setAtlasSyncError] = useState("");
+  const [atlasSyncStatus, setAtlasSyncStatus] = useState("");
+  const [atlasSyncPreview, setAtlasSyncPreview] = useState<{
+    signature: string;
+    plan: AtlasSyncPlan;
+  } | null>(null);
+  const [confirmAtlasRemovals, setConfirmAtlasRemovals] = useState(false);
+  const [atlasRollbackRunId, setAtlasRollbackRunId] = useState("");
   const [selectedOverlayId, setSelectedOverlayId] = useState("");
   const [overlayDraftPoints, setOverlayDraftPoints] = useState<
     CampaignMapPoint[] | null
@@ -284,15 +294,46 @@ export default function MapAtlas({
   }, [selectedId]);
 
   useEffect(() => {
+    let active = true;
     setSelectedMarkerId("");
     setPendingPoint(undefined);
     setIsPlacingMarker(false);
     setSelectedOverlayId("");
     setOverlayDraftPoints(null);
     setIsDrawingOverlay(false);
+    setAtlasSyncPreview(null);
+    setConfirmAtlasRemovals(false);
+    setAtlasRollbackRunId("");
+    setAtlasSyncError("");
+    setAtlasSyncStatus("");
     void refreshMarkers();
     void refreshOverlays();
-  }, [refreshMarkers, refreshOverlays]);
+    if (canEditMarkers && selectedId) {
+      void getAvailableAtlasSyncRollback(selectedId)
+        .then((result) => {
+          if (!active) {
+            return;
+          }
+          if (result.error) {
+            setAtlasSyncError(result.error);
+            return;
+          }
+          setAtlasRollbackRunId(result.runId ?? "");
+        })
+        .catch((error: unknown) => {
+          if (active) {
+            setAtlasSyncError(
+              error instanceof Error
+                ? `Unable to load rollback status: ${error.message}`
+                : "Unable to load rollback status.",
+            );
+          }
+        });
+    }
+    return () => {
+      active = false;
+    };
+  }, [canEditMarkers, refreshMarkers, refreshOverlays, selectedId]);
 
   useEffect(() => {
     if (!selectedMarker) {
@@ -552,68 +593,100 @@ export default function MapAtlas({
     }
   }
 
-  async function importPreparedLayer() {
-    if (
-      !selectedMap ||
-      !["world", "continent"].includes(selectedMap.map_type) ||
-      !layerImportJson.trim() ||
-      layerImportPending
-    ) {
+  async function previewAtlasSynchronization() {
+    if (!selectedMap || atlasSyncPending) {
       return;
     }
-    setLayerImportPending(true);
-    setLayerImportStatus("Importing prepared atlas layer…");
+    setAtlasSyncPending(true);
+    setAtlasSyncError("");
+    setAtlasSyncStatus("");
+    setAtlasSyncPreview(null);
+    setConfirmAtlasRemovals(false);
+    setAtlasRollbackRunId("");
     try {
-      const result = await importAtlasPlayerLayer(selectedMap.id, layerImportJson);
-      if (result.error) {
-        setLayerImportStatus(
-          `Unable to import atlas layer: ${result.error}${
-            result.markersImported || result.locationsCreated || result.overlaysImported
-              ? ` Partial progress: ${result.locationsCreated} locations, ${result.markersImported} markers, and ${result.overlaysImported} overlays were added. Retry to safely skip those records.`
-              : ""
-          }`,
-        );
+      const result = await previewCampaignAtlasSync(selectedMap.id);
+      if (result.error || !result.plan || !result.signature) {
+        setAtlasSyncError(result.error ?? "Unable to preview atlas synchronization.");
         return;
       }
-      setLayerImportStatus(
-        `Imported ${result.locationsCreated} locations, ${result.markersImported} markers, and ${result.overlaysImported} overlays. Skipped ${result.markersSkipped} existing markers and ${result.overlaysSkipped} existing overlays. All imported content is GM-only until you review and share it.`,
-      );
-      await Promise.all([refreshMarkers(), refreshOverlays()]);
-      router.refresh();
+      setAtlasSyncPreview({
+        signature: result.signature,
+        plan: result.plan,
+      });
     } catch (error) {
-      setLayerImportStatus(
+      setAtlasSyncError(
         error instanceof Error
-          ? `Unable to import atlas layer: ${error.message}`
-          : "Unable to import atlas layer.",
+          ? `Unable to preview atlas synchronization: ${error.message}`
+          : "Unable to preview atlas synchronization.",
       );
     } finally {
-      setLayerImportPending(false);
+      setAtlasSyncPending(false);
     }
   }
 
-  async function loadAtlasLayerFile(file: File | undefined) {
-    if (!file) {
+  async function applyAtlasSynchronization() {
+    if (!selectedMap || !atlasSyncPreview || atlasSyncPending) {
       return;
     }
-    setLayerImportStatus("");
-    setLayerImportInputError("");
-    if (file.size > 500_000) {
-      setLayerImportJson("");
-      setLayerImportFileName("");
-      setLayerImportInputError("Choose an atlas JSON file smaller than 500 KB.");
-      return;
-    }
+    setAtlasSyncPending(true);
+    setAtlasSyncError("");
+    setAtlasSyncStatus("");
     try {
-      setLayerImportJson(await file.text());
-      setLayerImportFileName(file.name);
-    } catch (error) {
-      setLayerImportJson("");
-      setLayerImportFileName("");
-      setLayerImportInputError(
-        error instanceof Error
-          ? `Unable to read the selected file: ${error.message}`
-          : "Unable to read the selected file.",
+      const result = await applyCampaignAtlasSync(
+        selectedMap.id,
+        atlasSyncPreview.signature,
+        confirmAtlasRemovals,
       );
+      if (result.runId) {
+        setAtlasRollbackRunId(result.runId);
+      }
+      if (result.error) {
+        setAtlasSyncError(result.error);
+        return;
+      }
+      setAtlasSyncStatus(
+        `Synchronization complete: ${result.added ?? 0} additions, ${result.updated ?? 0} updates, and ${result.removed ?? 0} removals.`,
+      );
+      setAtlasSyncPreview(null);
+      setConfirmAtlasRemovals(false);
+      await Promise.all([refreshMarkers(), refreshOverlays()]);
+      router.refresh();
+    } catch (error) {
+      setAtlasSyncError(
+        error instanceof Error
+          ? `Unable to apply atlas synchronization: ${error.message}`
+          : "Unable to apply atlas synchronization.",
+      );
+    } finally {
+      setAtlasSyncPending(false);
+    }
+  }
+
+  async function rollbackAtlasSynchronization() {
+    if (!atlasRollbackRunId || atlasSyncPending) {
+      return;
+    }
+    setAtlasSyncPending(true);
+    setAtlasSyncError("");
+    setAtlasSyncStatus("");
+    try {
+      const result = await rollbackCampaignAtlasSync(atlasRollbackRunId);
+      if (result.error) {
+        setAtlasSyncError(result.error);
+        return;
+      }
+      setAtlasRollbackRunId("");
+      setAtlasSyncStatus("The synchronization was rolled back.");
+      await Promise.all([refreshMarkers(), refreshOverlays()]);
+      router.refresh();
+    } catch (error) {
+      setAtlasSyncError(
+        error instanceof Error
+          ? `Unable to roll back atlas synchronization: ${error.message}`
+          : "Unable to roll back atlas synchronization.",
+      );
+    } finally {
+      setAtlasSyncPending(false);
     }
   }
 
@@ -1059,53 +1132,122 @@ export default function MapAtlas({
               Overlays use proportional artwork coordinates.
             </p>
           ) : null}
-          {canEditMarkers &&
-          selectedMap &&
-          ["world", "continent"].includes(selectedMap.map_type) ? (
+          {canEditMarkers && selectedMap ? (
             <div className="form-stack">
               <p className="muted">
-                Select <code>campaign/maps/atlas_player_layer.json</code> to add
-                its locations, markers, and region overlays. Existing same-name
-                markers and overlays are left unchanged; imported records remain
-                GM-only until reviewed.
+                Review the repository-controlled map layer before applying it.
+                GM notes and other app-only content are preserved. Previewing is
+                a dry run and makes no database changes.
               </p>
-              <label>
-                Atlas layer JSON
-                <input
-                  accept="application/json,.json"
-                  onChange={(event) =>
-                    void loadAtlasLayerFile(event.currentTarget.files?.[0])
-                  }
-                  type="file"
-                />
-              </label>
-              {layerImportFileName ? (
-                <p className="muted">Selected: {layerImportFileName}</p>
-              ) : null}
-              {layerImportInputError ? (
-                <p className="error" role="alert">
-                  {layerImportInputError}
-                </p>
-              ) : null}
               <button
-                disabled={layerImportPending || !layerImportJson.trim()}
-                onClick={importPreparedLayer}
+                disabled={atlasSyncPending}
+                onClick={previewAtlasSynchronization}
                 type="button"
               >
-                {layerImportPending ? "Importing…" : "Import prepared atlas layer"}
+                {atlasSyncPending
+                  ? "Preparing synchronization…"
+                  : "Synchronize with Campaign Repository"}
               </button>
+              {atlasSyncPreview ? (
+                <div className="form-stack" aria-live="polite">
+                  <h4>Synchronization preview</h4>
+                  {atlasSyncPreview.plan.changes.length ? (
+                    <>
+                      <p>
+                        {atlasSyncPreview.plan.changes.filter((change) => change.action === "add").length} additions,{" "}
+                        {atlasSyncPreview.plan.changes.filter((change) => change.action === "update").length} updates,{" "}
+                        {atlasSyncPreview.plan.changes.filter((change) => change.action === "remove").length} removals.
+                      </p>
+                      <ul className="atlas-overlay-list">
+                        {atlasSyncPreview.plan.changes.map((change, index) => (
+                          <li key={`${change.kind}-${change.name}-${index}`}>
+                            <span>
+                              <strong>{change.action}</strong> {change.kind}: {change.name}
+                              {change.details.length ? ` (${change.details.join(", ")})` : ""}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    <p className="muted">
+                      No changes. The database already matches the repository.
+                    </p>
+                  )}
+                  {atlasSyncPreview.plan.warnings.length ? (
+                    <div>
+                      <h4>Review notes</h4>
+                      <ul>
+                        {atlasSyncPreview.plan.warnings.map((warning) => (
+                          <li key={warning}>{warning}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                  {atlasSyncPreview.plan.conflicts.length ? (
+                    <div className="error" role="alert">
+                      <h4>Conflicts — changes are blocked</h4>
+                      <ul>
+                        {atlasSyncPreview.plan.conflicts.map((conflict) => (
+                          <li key={conflict}>{conflict}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                  {atlasSyncPreview.plan.markerRemovals.length +
+                    atlasSyncPreview.plan.overlayRemovals.length >
+                  0 ? (
+                    <label className="checkbox-label">
+                      <input
+                        checked={confirmAtlasRemovals}
+                        onChange={(event) =>
+                          setConfirmAtlasRemovals(event.target.checked)
+                        }
+                        type="checkbox"
+                      />
+                      I reviewed and confirm the listed removals. Linked
+                      campaign locations, lore, and notes will be preserved.
+                    </label>
+                  ) : null}
+                  <button
+                    disabled={
+                      atlasSyncPending ||
+                      atlasSyncPreview.plan.conflicts.length > 0 ||
+                      atlasSyncPreview.plan.changes.length === 0 ||
+                      (atlasSyncPreview.plan.markerRemovals.length +
+                        atlasSyncPreview.plan.overlayRemovals.length >
+                        0 &&
+                        !confirmAtlasRemovals)
+                    }
+                    onClick={applyAtlasSynchronization}
+                    type="button"
+                  >
+                    {atlasSyncPending
+                      ? "Applying synchronization…"
+                      : "Apply reviewed synchronization"}
+                  </button>
+                </div>
+              ) : null}
+              {atlasSyncError ? (
+                <p className="error" role="alert">
+                  {atlasSyncError}
+                </p>
+              ) : null}
+              {atlasSyncStatus ? (
+                <p className="notice" role="status" aria-live="polite">
+                  {atlasSyncStatus}
+                </p>
+              ) : null}
+              {atlasRollbackRunId ? (
+                <button
+                  disabled={atlasSyncPending}
+                  onClick={rollbackAtlasSynchronization}
+                  type="button"
+                >
+                  {atlasSyncPending ? "Rolling back…" : "Roll back last synchronization"}
+                </button>
+              ) : null}
             </div>
-          ) : null}
-          {layerImportStatus ? (
-            <p
-              className={
-                layerImportStatus.startsWith("Unable") ? "error" : "notice"
-              }
-              role="status"
-              aria-live="polite"
-            >
-              {layerImportStatus}
-            </p>
           ) : null}
           {overlays.length ? (
             <ul className="atlas-overlay-list">

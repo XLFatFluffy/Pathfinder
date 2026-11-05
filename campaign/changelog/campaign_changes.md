@@ -1,3 +1,10 @@
+## 2026-11-05 - Tallowmere regional artwork canonized
+
+- Promoted **The Lands About Tallowmere** from approved visual reference to the canonical visual reference for the broad relative geography around Tallowmere.
+- Canonized the artwork's relative arrangement of Tallowmere, River Vale, Millhaven, Fordmere, Brackenholt, Brackenwood, Stonehollow, Greyback Ridges, Northfields, Ashcombe Manor, Saltwick, Harthbridge, and surrounding terrain.
+- Preserved the established written travel distances as authoritative because the artwork's printed 0–100 mile scale bar conflicts with those distances and is not canon.
+- Kept the Tallowmere city map uncanonized pending correction/review of the previously identified walls, Underways, named landmarks and streets, coastline/river details, and Greywatch scale/presentation.
+
 ## 2026-11-05 - Atlas repository synchronization and regional map preparation
 
 - Refined `campaign/maps/atlas_player_layer.json` as the canonical continental player layer with stable source/location linkage and explicit coordinate safeguards.

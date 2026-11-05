@@ -171,10 +171,8 @@ export default function CharacterPdfEditor({
 
     async function loadSheet() {
       try {
-        const [pdfjs, pdfViewerModule] = await Promise.all([
-          import("pdfjs-dist"),
-          import("pdfjs-dist/web/pdf_viewer.mjs"),
-        ]);
+        const pdfjs = await import("pdfjs-dist");
+        const pdfViewerModule = await import("pdfjs-dist/web/pdf_viewer.mjs");
         if (cancelled || !container) {
           return;
         }

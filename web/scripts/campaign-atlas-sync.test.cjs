@@ -121,6 +121,7 @@ test("plans additions and then produces zero changes on a repeated sync", () => 
   const snapshot = makeSnapshot(source);
   source.markers.push({
     source_id: "continent_atlas/new-harbor",
+    location_source_id: "continent_atlas/new-harbor",
     name: "New Harbor",
     marker_type: "port",
     x: 0.2,
@@ -177,6 +178,41 @@ test("updates coordinates and renames by stable source ID without replacing IDs"
   assert.equal(locationUpdate.values.description, "Updated public description.");
   assert.equal("gm_notes" in locationUpdate.values, false);
   assert.equal(plan.markerUpserts.filter((item) => item.action === "add").length, 0);
+});
+
+test("reuses a shared location source ID across separate map layers", () => {
+  const source = structuredClone(parsedLayer.source);
+  const sharedLocation = source.markers[0].location_source_id;
+  const regionalSource = {
+    map_source_id: "tallowmere_region",
+    map_name: "Tallowmere Region",
+    map_type: "region",
+    parent_map_source_id: source.map_source_id,
+    markers: [{
+      ...source.markers[0],
+      source_id: "tallowmere_region/tallowmere-city",
+      location_source_id: sharedLocation,
+    }],
+    overlays: [],
+  };
+  const snapshot = makeSnapshot(source);
+  snapshot.maps.push({
+    id: "region-map",
+    source_id: regionalSource.map_source_id,
+    parent_map_id: null,
+    player_visible: true,
+  });
+  snapshot.markers = [];
+  snapshot.locations = [snapshot.locations[0]];
+
+  const plan = planAtlasSync(regionalSource, "region-map", snapshot);
+  assert.equal(plan.locationUpserts.length, 0);
+  assert.equal(plan.markerUpserts.length, 1);
+  assert.equal(
+    plan.markerUpserts[0].values.location_id,
+    snapshot.locations[0].id,
+  );
+  assert.equal(plan.parentMapId, "continent-map");
 });
 
 test("removes obsolete markers without planning location or lore deletion", () => {
@@ -278,4 +314,30 @@ test("rejects public visibility on hidden marker types", () => {
   const parsed = parseAtlasSyncLayers(unsafe);
   assert.equal(parsed.sources, undefined);
   assert.match(parsed.error, /unsafe/);
+});
+
+test("keeps GM-only marker and location visibility private", () => {
+  const source = structuredClone(parsedLayer.source);
+  source.markers[0].marker_type = "hidden";
+  source.markers[0].player_visible = false;
+  source.markers[0].description = "A concealed site.";
+  const plan = planAtlasSync(source, "continent-map", {
+    maps: [{
+      id: "continent-map",
+      source_id: source.map_source_id,
+      parent_map_id: null,
+      player_visible: true,
+    }],
+    markers: [],
+    overlays: [],
+    locations: [],
+  });
+
+  assert.equal(plan.markerUpserts[0].values.player_visible, false);
+  assert.equal(plan.locationUpserts[0].values.player_visible, false);
+  assert.equal(
+    plan.locationUpserts[0].values.description,
+    "A concealed site.",
+  );
+  assert.equal("gm_notes" in plan.locationUpserts[0].values, false);
 });

@@ -10,6 +10,7 @@ import {
 
 export type AtlasSyncSourceMarker = {
   source_id: string;
+  location_source_id: string;
   name: string;
   marker_type: CampaignMarkerType;
   x: number;
@@ -233,6 +234,8 @@ export function parseAtlasSyncSource(raw: unknown): {
       !isRecord(rawMarker) ||
       !isSourceId(rawMarker.source_id) ||
       markerIds.has(rawMarker.source_id) ||
+      (rawMarker.location_source_id !== undefined &&
+        !isSourceId(rawMarker.location_source_id)) ||
       typeof rawMarker.name !== "string" ||
       !rawMarker.name.trim() ||
       rawMarker.name.trim().length > 160 ||
@@ -259,6 +262,8 @@ export function parseAtlasSyncSource(raw: unknown): {
     markerIds.add(rawMarker.source_id);
     markers.push({
       source_id: rawMarker.source_id,
+      location_source_id:
+        rawMarker.location_source_id ?? rawMarker.source_id,
       name: rawMarker.name.trim(),
       marker_type: rawMarker.marker_type,
       x: rawMarker.x,
@@ -517,7 +522,7 @@ export function planAtlasSync(
         )
       : undefined;
     const sourceLocations = snapshot.locations.filter(
-      (location) => location.source_id === marker.source_id,
+      (location) => location.source_id === marker.location_source_id,
     );
     if (sourceLocations.length > 1) {
       plan.conflicts.push(
@@ -569,7 +574,7 @@ export function planAtlasSync(
     }
 
     const locationValues: AtlasSyncLocationValues = {
-      source_id: marker.source_id,
+      source_id: marker.location_source_id,
       name: marker.name,
       location_type: marker.location_type,
       description: marker.description,
@@ -624,7 +629,7 @@ export function planAtlasSync(
       map_id: mapId,
       source_id: marker.source_id,
       location_id: locationId || matchedLocation?.id || null,
-      location_source_id: marker.source_id,
+      location_source_id: marker.location_source_id,
       location_name: marker.name,
       location_type: marker.location_type,
       location_description: marker.description,

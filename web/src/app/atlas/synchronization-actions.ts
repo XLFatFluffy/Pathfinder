@@ -64,6 +64,7 @@ type SyncRun = {
   campaign_id: string;
   map_id: string;
   source_ids: string[];
+  location_source_ids: string[];
   before_state: {
     map: Pick<AtlasSyncMap, "id" | "source_id" | "parent_map_id">;
     markers: Record<string, unknown>[];
@@ -332,12 +333,18 @@ export async function applyCampaignAtlasSync(
       ...plan.overlayRemovals.map((item) => item.source_id),
     ]),
   ];
+  const locationSourceIds = [
+    ...new Set(
+      plan.locationUpserts.map((item) => item.values.source_id),
+    ),
+  ];
   const { data: run, error: runError } = await supabase
     .from("campaign_atlas_sync_runs")
     .insert({
       campaign_id: member.campaign_id,
       map_id: mapId,
       source_ids: sourceIds,
+      location_source_ids: locationSourceIds,
       before_state: {
         map: mapBefore,
         markers: markerRows,
@@ -579,7 +586,7 @@ export async function rollbackCampaignAtlasSync(
   const { data: run, error: runError } = await supabase
     .from("campaign_atlas_sync_runs")
     .select(
-      "id, campaign_id, map_id, source_ids, before_state, status, created_at",
+      "id, campaign_id, map_id, source_ids, location_source_ids, before_state, status, created_at",
     )
     .eq("campaign_id", member.campaign_id)
     .eq("id", runId)
@@ -612,6 +619,10 @@ export async function rollbackCampaignAtlasSync(
 
   const rollback = run as unknown as SyncRun;
   const sourceIds = rollback.source_ids;
+  const locationSourceIds =
+    rollback.location_source_ids.length > 0
+      ? rollback.location_source_ids
+      : sourceIds;
   const before = rollback.before_state;
   const { error: markerDeleteError } = sourceIds.length
     ? await supabase
@@ -659,12 +670,12 @@ export async function rollbackCampaignAtlasSync(
 
   const previousLocationIds = before.locations.map((location) => location.id);
   const { data: importedLocations, error: importedLocationsError } =
-    sourceIds.length
+    locationSourceIds.length
       ? await supabase
           .from("campaign_locations")
           .select("id")
           .eq("campaign_id", member.campaign_id)
-          .in("source_id", sourceIds)
+          .in("source_id", locationSourceIds)
       : { data: [], error: null };
   if (importedLocationsError) {
     return {

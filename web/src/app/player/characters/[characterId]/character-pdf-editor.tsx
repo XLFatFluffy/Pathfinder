@@ -29,6 +29,8 @@ export default function CharacterPdfEditor({
   fullPage?: boolean;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const pdfDocumentRef =
+    useRef<import("pdfjs-dist").PDFDocumentProxy | null>(null);
   const annotationStorageRef = useRef<{
     [Symbol.iterator](): IterableIterator<[string, object]>;
   } | null>(null);
@@ -38,10 +40,69 @@ export default function CharacterPdfEditor({
   const isSavingRef = useRef(false);
   const retrySaveRef = useRef<() => void>(() => {});
   const [loadError, setLoadError] = useState("");
+  const [printError, setPrintError] = useState("");
+  const [isPreparingPrint, setIsPreparingPrint] = useState(false);
+  const [isReady, setIsReady] = useState(false);
   const [status, setStatus] = useState<PdfEditorStatus>({
     message: "Loading character sheet…",
   });
   const [isSaving, setIsSaving] = useState(false);
+
+  async function printCharacterSheet() {
+    const pdfDocument = pdfDocumentRef.current;
+    if (!pdfDocument) {
+      return;
+    }
+
+    const printWindow = window.open("about:blank", "_blank");
+    if (!printWindow) {
+      setPrintError("Allow pop-ups to print your completed character sheet.");
+      return;
+    }
+
+    setPrintError("");
+    setIsPreparingPrint(true);
+    setStatus({ message: "Preparing the completed sheet for printing…" });
+
+    try {
+      const pdfData = await pdfDocument.saveDocument();
+      const pdfUrl = URL.createObjectURL(
+        new Blob([new Uint8Array(pdfData).buffer], {
+          type: "application/pdf",
+        }),
+      );
+      printWindow.addEventListener(
+        "load",
+        () => {
+          try {
+            printWindow.addEventListener(
+              "pagehide",
+              () => URL.revokeObjectURL(pdfUrl),
+              { once: true },
+            );
+            printWindow.focus();
+            printWindow.print();
+          } catch (error) {
+            setPrintError(
+              `The print dialog could not be opened: ${getErrorMessage(error)}. Use the PDF tab's print control instead.`,
+            );
+          }
+        },
+        { once: true },
+      );
+      printWindow.location.replace(pdfUrl);
+      setStatus({
+        message: "Your completed sheet is ready in the print dialog.",
+      });
+    } catch (error) {
+      printWindow.close();
+      setPrintError(
+        `Unable to prepare the character sheet for printing: ${getErrorMessage(error)}`,
+      );
+    } finally {
+      setIsPreparingPrint(false);
+    }
+  }
 
   useEffect(() => {
     const container = containerRef.current;
@@ -203,9 +264,11 @@ export default function CharacterPdfEditor({
         )) {
           pdfDocument.annotationStorage.setValue(fieldId, value);
         }
+        pdfDocumentRef.current = pdfDocument;
         annotationStorageRef.current = pdfDocument.annotationStorage;
         linkService.setDocument(pdfDocument);
         viewer.setDocument(pdfDocument);
+        setIsReady(true);
         setStatus({ message: "Changes save automatically." });
       } catch (error) {
         if (!cancelled) {
@@ -229,6 +292,7 @@ export default function CharacterPdfEditor({
       window.removeEventListener("pagehide", saveOnPageHide);
       eventBus?.off("pagesinit", setPageWidth);
       viewer?.cleanup();
+      pdfDocumentRef.current = null;
       if (saveTimerRef.current) {
         clearTimeout(saveTimerRef.current);
         saveTimerRef.current = null;
@@ -254,10 +318,22 @@ export default function CharacterPdfEditor({
             Retry save
           </button>
         ) : null}
+        <button
+          disabled={!isReady || isPreparingPrint}
+          type="button"
+          onClick={() => void printCharacterSheet()}
+        >
+          {isPreparingPrint ? "Preparing print…" : "Print character sheet"}
+        </button>
         <a download href="/pathfinder-character-sheet.pdf">
           Download blank PDF
         </a>
       </div>
+      {printError ? (
+        <p className="error" role="alert">
+          {printError}
+        </p>
+      ) : null}
       {loadError ? (
         <p className="error" role="alert">
           Unable to load the Pathfinder sheet: {loadError}

@@ -1,0 +1,35 @@
+{
+  "status": "UNRESOLVED",
+  "sources": [
+    "campaign/database/seed_batch_03_history.json",
+    "campaign/database/seed_batch_03_religion.json",
+    "campaign/database/seed_batch_03_relland.json",
+    "campaign/database/seed_batch_03_council.json"
+  ],
+  "records": {
+    "history": [
+      "The original name of the fallen dragon-riding dynasty remains unresolved.",
+      "Dragonstone remains a provisional working place-name; Khar-Dum is the Kharadorns' ancestral homeland.",
+      "The precise forces and relationships constraining King Aldric Calderan remain unresolved.",
+      "Do not assume a single power controls the monarch.",
+      "The ultimate fate of dragons that escaped the rebellion remains unknown.",
+      "Which accounts of the rebellion are documented, disputed, suppressed, or deliberately falsified remains unresolved."
+    ],
+    "religion": [
+      "The exact mechanism by which divine power is granted or mediated remains unresolved.",
+      "The exact legal relationship between religious courts and secular courts remains unresolved."
+    ],
+    "relland": [
+      "House Relland does not know the ratfolk child survived.",
+      "The incident does not implicate a Great House.",
+      "The incident does not create a continent-wide conspiracy.",
+      "House Relland bears institutional responsibility for its retainers' conduct and subsequent concealment, but the wider Relland family did not necessarily order the original misconduct."
+    ],
+    "council": [
+      "The Imperial Council has six permanent seats, one appointed by each Great House.",
+      "The monarch presides but does not hold an additional Great House seat.",
+      "The Council is an aristocratic institution of negotiation and privilege, not a modern parliament.",
+      "Voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved."
+    ]
+  }
+}

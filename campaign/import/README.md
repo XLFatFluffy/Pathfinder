@@ -7,6 +7,8 @@ campaign records without typing every field into an individual form.
   the reusable prompt and record-handling rules.
 - [Empty JSON template](../../web/public/campaign-import-template.json) is the
   starter package.
+- [Prepared campaign canon bundle](./pathfinder_campaign_import.json) is the current
+  import-ready package generated from the organized database records.
 
 ## Source-of-truth and review
 

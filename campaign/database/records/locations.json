@@ -1,0 +1,198 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "tallowmere",
+      "name": "Tallowmere",
+      "parent_id": null,
+      "type": "City / Walled Port",
+      "description": "Major walled port on the northwestern shore of the central inland sea, built around a sheltered natural harbor where a navigable river reaches the sea. Governed locally by House Denvor under a hereditary charter confirmed by House Kharadorn.",
+      "player_visible": 1
+    },
+    {
+      "id": "millhaven",
+      "name": "Millhaven",
+      "parent_id": "tallowmere",
+      "type": "Village / Mill Center",
+      "description": "Grain village and mill center on the River Vale, about 9 miles northwest of Tallowmere. Principal grain collection point supplying the city.",
+      "player_visible": 1
+    },
+    {
+      "id": "brackenholt",
+      "name": "Brackenholt",
+      "parent_id": "tallowmere",
+      "type": "Woodland Settlement",
+      "description": "Woodland and charcoal settlement west of Tallowmere within the Brackenwood, serving timber, charcoal, and managed woodland trades.",
+      "player_visible": 1
+    },
+    {
+      "id": "stonehollow",
+      "name": "Stonehollow",
+      "parent_id": "tallowmere",
+      "type": "Quarry Settlement",
+      "description": "Quarry settlement southwest of Tallowmere in the Greyback Ridges, supplying worked stone and quarry labor.",
+      "player_visible": 1
+    },
+    {
+      "id": "ashcombe-manor",
+      "name": "Ashcombe Manor",
+      "parent_id": "tallowmere",
+      "type": "Manor / Estate",
+      "description": "Agricultural estate on Ashcombe Rise overlooking the Northfields and northern road.",
+      "player_visible": 1
+    },
+    {
+      "id": "fordmere",
+      "name": "Fordmere",
+      "parent_id": "tallowmere",
+      "type": "River Crossing Settlement",
+      "description": "Upriver settlement at a dependable crossing of the River Vale, with a chartered crossing administered by House Merewick and a ferry supplement.",
+      "player_visible": 1
+    },
+    {
+      "id": "saltwick",
+      "name": "Saltwick",
+      "parent_id": "tallowmere",
+      "type": "Coastal Settlement",
+      "description": "Working shore settlement southeast of Tallowmere with fishing, salt-working, and a modest beacon.",
+      "player_visible": 1
+    },
+    {
+      "id": "harthbridge",
+      "name": "Harthbridge",
+      "parent_id": "tallowmere",
+      "type": "Town",
+      "description": "Town on the South Road, about 27 miles from Tallowmere, governed under House Velleran's town charter and outside direct Denvor administration.",
+      "player_visible": 1
+    },
+    {
+      "id": "river-vale",
+      "name": "River Vale",
+      "type": "River",
+      "description": "Principal inland route serving Tallowmere, descending from the western uplands through the farm country and into the harbor.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "brackenwood",
+      "name": "Brackenwood",
+      "type": "Managed Woodland",
+      "description": "Worked woodland west of Tallowmere supplying fuel, poles, timber, game, and gathered plants.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "greyback-ridges",
+      "name": "Greyback Ridges",
+      "type": "Low Hills",
+      "description": "Stony hills southwest of Tallowmere, with Stonehollow quarries on accessible eastern faces.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "northfields",
+      "name": "Northfields",
+      "type": "Agricultural Region",
+      "description": "Open agricultural country north and northeast of Tallowmere with farms, orchards, pasture, hedgerows, and drainage hollows.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "eastern-shore",
+      "name": "Eastern Shore",
+      "type": "Coast",
+      "description": "Irregular shore southeast of Tallowmere with low bluffs, coves, beaches, fishing landings, and salt-working places.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "old-stone-bridge",
+      "name": "Old Stone Bridge",
+      "type": "Bridge",
+      "description": "Principal permanent river crossing within Tallowmere.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "bellwater-pool",
+      "name": "Bellwater Pool",
+      "type": "River Landmark",
+      "description": "Deep, slow pool on the River Vale upstream of Millhaven, used by bargemen as a waiting and turning place.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "saltwick-beacon",
+      "name": "Saltwick Beacon",
+      "type": "Beacon",
+      "description": "Modest shore beacon maintained by Saltwick boat-owning households as a navigation and storm-warning aid.",
+      "parent_id": null,
+      "player_visible": 1
+    },
+    {
+      "id": "district-greywatch-rise",
+      "name": "Greywatch Rise",
+      "type": "District",
+      "description": "Elevated heart of noble authority containing House Denvor's fortified residence, principal garrison buildings, formal gardens, and senior household residences.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-high-ward",
+      "name": "The High Ward",
+      "type": "District",
+      "description": "Older, wealthier residential quarter with townhouses, legal offices, established temples, private courtyards, and prosperous families.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-old-quays",
+      "name": "The Old Quays",
+      "type": "District",
+      "description": "Old working waterfront with stone warehouses, chandlers, shipwrights, rope-makers, taverns, and established shipping offices.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-new-quays",
+      "name": "The New Quays",
+      "type": "District",
+      "description": "Expanded wharves and storage yards serving larger vessels, bulk cargo, bonded warehouses, and newer merchant concerns.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-market-ward",
+      "name": "Market Ward",
+      "type": "District",
+      "description": "Commercial center with principal market square, guildhalls, moneychangers, inns, public notices, and specialist shops.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-rivergate",
+      "name": "Rivergate",
+      "type": "District",
+      "description": "River-facing district of bargemen, millers, fishmongers, carters, small foundries, tanners, and laborers.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-lantern-ward",
+      "name": "Lantern Ward",
+      "type": "District",
+      "description": "District of shrines, temples, charitable houses, healers, burial grounds, and religious hostels.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "district-underways",
+      "name": "The Underways",
+      "type": "District",
+      "description": "Umbrella surface term for accessible subterranean spaces and routes beneath Tallowmere where ratfolk communities live and work. Not one unified settlement or faction.",
+      "parent_id": "tallowmere",
+      "player_visible": 1
+    }
+  ]
+}

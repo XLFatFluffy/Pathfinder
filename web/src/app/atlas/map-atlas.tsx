@@ -374,6 +374,21 @@ export default function MapAtlas({
     return () => observer.disconnect();
   }, [fitMap, naturalSize.width]);
 
+  useEffect(() => {
+    const viewport = viewportRef.current;
+    if (!viewport || !artworkUrl) {
+      return;
+    }
+
+    function handleWheel(event: WheelEvent) {
+      event.preventDefault();
+      zoomAt(event.deltaY < 0 ? 1.15 : 1 / 1.15, event.clientX, event.clientY);
+    }
+
+    viewport.addEventListener("wheel", handleWheel, { passive: false });
+    return () => viewport.removeEventListener("wheel", handleWheel);
+  }, [artworkUrl, zoomAt]);
+
   function handlePointerDown(event: React.PointerEvent<HTMLDivElement>) {
     if (event.button !== 0) {
       return;
@@ -694,14 +709,6 @@ export default function MapAtlas({
     }
   }
 
-  function handleWheel(event: React.WheelEvent<HTMLDivElement>) {
-    if (!artworkUrl) {
-      return;
-    }
-    event.preventDefault();
-    zoomAt(event.deltaY < 0 ? 1.15 : 1 / 1.15, event.clientX, event.clientY);
-  }
-
   function handleKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
     if (isDrawingOverlay && event.key === "Enter") {
       event.preventDefault();
@@ -894,7 +901,6 @@ export default function MapAtlas({
         onPointerCancel={() => {
           drag.current = null;
         }}
-        onWheel={handleWheel}
         ref={viewportRef}
         role="application"
         tabIndex={0}

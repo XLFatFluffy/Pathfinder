@@ -1,0 +1,342 @@
+{
+  "format": "pathfinder-atlas-layer-registry",
+  "schema_version": 1,
+  "status": "CARTOGRAPHIC_LAYER_FRAMEWORK_ESTABLISHED_GEOMETRY_PENDING",
+  "coordinate_system": "normalized 0-1; x from left, y from top; north up",
+  "authority": {
+    "master_map": "campaign/maps/continent_atlas.png",
+    "master_reference": "campaign/maps/continent_reference.md",
+    "overlay_standards": "campaign/maps/atlas_overlay_standards.md",
+    "rule": "All subordinate geometry must fit the authoritative continental artwork. Never infer sovereignty from terrain, trade, cultural identity, or maritime reach.",
+    "geometry_policy": "No polygon or line coordinates are supplied where boundaries or exact courses remain unresolved. Records in this registry are planning/canon records, not a live import layer."
+  },
+  "layer_categories": [
+    {
+      "id": "political",
+      "label": "Political territories",
+      "visual_rule": "Distinct restrained fills with non-overlapping boundaries; disputed areas require a separate dated status.",
+      "geometry_policy": "Only draw after exact boundaries are canonically approved."
+    },
+    {
+      "id": "geographic",
+      "label": "Geographic regions",
+      "visual_rule": "Neutral hatching, boundary strokes, or low-opacity shading distinct from political fills.",
+      "geometry_policy": "Broad illustrative extents may be mapped after visual calibration; regions may cross political borders."
+    },
+    {
+      "id": "maritime",
+      "label": "Maritime influence",
+      "visual_rule": "Sea-only tint, sea lanes, patrol reach, or naval influence marks.",
+      "geometry_policy": "Must not imply ownership of coastal settlements; exact reach remains unresolved unless specified."
+    },
+    {
+      "id": "routes",
+      "label": "Roads and trade routes",
+      "visual_rule": "Separate line styles for established, approximate, and proposed routes.",
+      "geometry_policy": "Only established routes may be shown as solid routes."
+    },
+    {
+      "id": "settlements",
+      "label": "Settlements and sites",
+      "visual_rule": "Stable source IDs and player-visibility flags; markers link to canonical location records.",
+      "geometry_policy": "Place against calibrated artwork; no invented coordinates."
+    }
+  ],
+  "political_regions": [
+    {
+      "source_id": "political/house-veyr",
+      "name": "House Veyr",
+      "authority": "Great House",
+      "broad_area": "Northern territories",
+      "seat": "Frosthold",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Northern dynasty. Exact borders are not established."
+    },
+    {
+      "source_id": "political/house-vaelorian",
+      "name": "House Vaelorian",
+      "authority": "Great House",
+      "broad_area": "Western Highlands",
+      "seat": "Aurelith",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Elven Great House. Exact borders are not established."
+    },
+    {
+      "source_id": "political/house-edarth",
+      "name": "House Edarth",
+      "authority": "Great House",
+      "broad_area": "Western Heartlands",
+      "seat": "Stoneguard",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Primarily human Great House. Exact borders are not established."
+    },
+    {
+      "source_id": "political/house-calderan",
+      "name": "House Calderan",
+      "authority": "Great House / ruling dynasty",
+      "broad_area": "Crownlands",
+      "seat": "Valedorn",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Human ruling dynasty associated with the Crownlands and Imperial Seat. Exact borders are not established."
+    },
+    {
+      "source_id": "political/house-kharadorn",
+      "name": "House Kharadorn",
+      "authority": "Great House",
+      "broad_area": "Northeastern dominion and central Inland Sea dominion",
+      "seat": "Khar-Dum",
+      "secondary_stronghold": "Dragonstone",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "The central Inland Sea dominion is a maritime sphere and must not be rendered as sovereignty over every shoreline settlement."
+    },
+    {
+      "source_id": "political/house-merrowen",
+      "name": "House Merrowen",
+      "authority": "Great House",
+      "broad_area": "Northern Coast, Eastern Shore, Great Delta, Southern Coast",
+      "seat": "Tidemark",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Extended maritime reach does not mean control of every eastern port or coastal settlement."
+    }
+  ],
+  "geographic_regions": [
+    {
+      "source_id": "geography/northern-wilderness",
+      "name": "Northern Wilderness",
+      "feature_type": "wilderness and cold northern terrain",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/northern-mountain-forest-systems",
+      "name": "Northern Mountain and Forest Systems",
+      "feature_type": "mountains and forests",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/western-highlands",
+      "name": "Western Highlands",
+      "feature_type": "highlands",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/western-forests",
+      "name": "Western Forests",
+      "feature_type": "woodland",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/western-heartlands",
+      "name": "Western Heartlands",
+      "feature_type": "cultural and geographic region",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/central-plains",
+      "name": "Central Plains",
+      "feature_type": "plains and river valleys",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/central-inland-sea",
+      "name": "Central Inland Sea",
+      "feature_type": "inland sea and basin",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "COASTLINE_FIXED_BY_MASTER_ARTWORK",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/northeastern-mountains",
+      "name": "Northeastern Mountain System",
+      "feature_type": "mountain system",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Includes the broad Khar-Dum region."
+    },
+    {
+      "source_id": "geography/eastern-forests",
+      "name": "Eastern Forests",
+      "feature_type": "woodland",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/eastern-river-delta",
+      "name": "Eastern River Delta",
+      "feature_type": "river delta",
+      "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "geography/southwestern-marches",
+      "name": "Southwestern Marches",
+      "feature_type": "arid highlands, dry valleys, plateaus and oases",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Geographic zone, not a unified kingdom."
+    },
+    {
+      "source_id": "geography/southern-principalities",
+      "name": "Southern Principalities",
+      "feature_type": "fertile lowlands, forests, rivers, small hereditary kingdoms and independent cities",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "ILLUSTRATIVE_EXTENT_PENDING_CALIBRATION",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "A broad geographic-cultural zone containing multiple polities, not one state."
+    },
+    {
+      "source_id": "geography/southern-islands",
+      "name": "Southern Islands",
+      "feature_type": "island chains, sheltered harbors, fishing settlements and maritime principalities",
+      "canon_status": "APPROVED_BROAD_FRAMEWORK",
+      "boundary_status": "COASTLINE_FIXED_BY_MASTER_ARTWORK",
+      "geometry": null,
+      "player_visible": true
+    }
+  ],
+  "maritime_regions": [
+    {
+      "source_id": "maritime/kharadorn-central-inland-sea",
+      "name": "Kharadorn Central Inland Sea Dominion",
+      "influence_type": "maritime sphere",
+      "canon_status": "ESTABLISHED_BROAD_FRAMEWORK",
+      "boundary_status": "EXACT_REACH_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Represent on water only. Does not automatically place every shoreline settlement under direct Kharadorn administration."
+    },
+    {
+      "source_id": "maritime/merrowen-reach",
+      "name": "Merrowen Maritime Reach",
+      "influence_type": "naval and commercial reach",
+      "canon_status": "ESTABLISHED_BROAD_FRAMEWORK",
+      "boundary_status": "EXACT_REACH_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Does not imply sovereignty over every eastern port."
+    }
+  ],
+  "route_layers": [
+    {
+      "source_id": "routes/major-overland-trade-routes",
+      "name": "Major Overland Trade Routes",
+      "route_names": [
+        "Northern Road",
+        "Western Mountain Road",
+        "King's Road",
+        "Eastern Coastal Road",
+        "Southern Trade Road"
+      ],
+      "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
+      "geometry_status": "COURSES_REQUIRE_VISUAL_REVIEW",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "routes/inland-sea-route",
+      "name": "Inland Sea Route",
+      "route_type": "navigable trade route",
+      "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
+      "geometry_status": "COURSE_REQUIRES_VISUAL_REVIEW",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "routes/tallowmere-regional-roads",
+      "name": "Tallowmere Regional Roads",
+      "route_names": [
+        "North Road",
+        "River Vale Road",
+        "Western Track",
+        "Quarry Road",
+        "Eastern Shore Road",
+        "King's Road / South Road"
+      ],
+      "canon_status": "ESTABLISHED_LOCAL_ROUTE_FRAMEWORK",
+      "geometry_status": "PENDING_REGIONAL_ARTWORK_CALIBRATION",
+      "geometry": null,
+      "player_visible": true
+    }
+  ],
+  "nested_maps": [
+    {
+      "map_source_id": "continent_atlas",
+      "map_name": "The Continent",
+      "map_type": "continent",
+      "parent_map_source_id": null,
+      "artwork_path": "campaign/maps/continent_atlas.png",
+      "status": "EXISTING_LIVE_LAYER"
+    },
+    {
+      "map_source_id": "tallowmere_regional",
+      "map_name": "Tallowmere Regional Map",
+      "map_type": "region",
+      "parent_map_source_id": "continent_atlas",
+      "parent_location_source_id": "tallowmere",
+      "artwork_path": null,
+      "status": "CONTENT_SPEC_READY_ARTWORK_FILE_AND_COORDINATES_PENDING"
+    },
+    {
+      "map_source_id": "tallowmere_city",
+      "map_name": "Tallowmere City",
+      "map_type": "city",
+      "parent_map_source_id": "tallowmere_regional",
+      "parent_location_source_id": "tallowmere",
+      "artwork_path": "campaign/maps/tallowmere_city.png",
+      "status": "ARTWORK_UPLOADED_AT_REPOSITORY_ROOT_PENDING_RELOCATION_AND_CARTOGRAPHIC_REVIEW"
+    }
+  ],
+  "next_steps": [
+    "Move the newly uploaded city map into campaign/maps/tallowmere_city.png and remove its root-level duplicate after confirming the file operation.",
+    "Locate and register the approved regional artwork in campaign/maps/ before creating live regional marker coordinates.",
+    "Calibrate the continental artwork and review all 15 existing major-place markers.",
+    "Trace broad geographic regions as neutral geographic overlays.",
+    "Do not create Great House political polygons until boundaries are explicitly approved.",
+    "Convert only calibrated, reviewed records into atlas_player_layer.json for live synchronization."
+  ]
+}

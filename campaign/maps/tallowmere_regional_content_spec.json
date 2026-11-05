@@ -1,0 +1,277 @@
+{
+  "format": "pathfinder-map-content-spec",
+  "schema_version": 1,
+  "status": "CONTENT_READY_COORDINATES_PENDING",
+  "map_source_id": "tallowmere_regional",
+  "map_name": "Tallowmere Regional Map",
+  "map_type": "region",
+  "parent_map_source_id": "continent_atlas",
+  "parent_location_source_id": "tallowmere",
+  "artwork_status": "Approved GM-provided illustration exists as the current relative-placement reference, but the artwork file is not currently stored in campaign/maps/. Do not fabricate normalized coordinates until the artwork is available to the app/repository.",
+  "coordinate_system": "normalized 0-1; x from left, y from top; north up",
+  "authority": {
+    "primary_content": [
+      "campaign/locations/starting_city/Regional_Settlements_and_Landholders.md",
+      "campaign/locations/starting_city/Regional_Geography_and_Points_of_Interest.md",
+      "campaign/locations/starting_city/Surrounding_Region.md",
+      "campaign/maps/tallowmere_regional_layer_plan.md"
+    ],
+    "visual_reference": "The Lands About Tallowmere",
+    "scale_warning": "The printed 0-100 mile scale bar on the approved illustration is not a valid measurement reference. Preserve the established written travel distances and use the artwork for relative direction and terrain only."
+  },
+  "player_visibility": {
+    "default": true,
+    "public_places": [
+      "tallowmere",
+      "harthbridge",
+      "fordmere",
+      "ashcombe-manor",
+      "millhaven",
+      "stonehollow",
+      "brackenholt",
+      "saltwick"
+    ],
+    "gm_only": [
+      "house-relland-crime",
+      "house-relland-family-connection",
+      "hidden-sites",
+      "secret-routes",
+      "undiscovered-adventure-sites",
+      "private-intelligence"
+    ]
+  },
+  "markers": [
+    {
+      "source_id": "tallowmere_regional/tallowmere",
+      "location_source_id": "tallowmere",
+      "name": "Tallowmere",
+      "marker_type": "city",
+      "location_type": "city",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Walled port on the northwestern shore of the Inland Sea, at the mouth of the River Vale. House Denvor rules locally under a hereditary charter confirmed by House Kharadorn."
+    },
+    {
+      "source_id": "tallowmere_regional/harthbridge",
+      "location_source_id": "harthbridge",
+      "name": "Harthbridge",
+      "marker_type": "town",
+      "location_type": "town",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Chartered market town and road junction on the South Road, governed under House Velleran's town charter and outside direct Denvor administration."
+    },
+    {
+      "source_id": "tallowmere_regional/fordmere",
+      "location_source_id": "fordmere",
+      "name": "Fordmere",
+      "marker_type": "crossing",
+      "location_type": "river crossing settlement",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Upriver settlement at a dependable River Vale crossing, with a chartered crossing administered by House Merewick and a ferry supplement."
+    },
+    {
+      "source_id": "tallowmere_regional/ashcombe-manor",
+      "location_source_id": "ashcombe-manor",
+      "name": "Ashcombe Manor",
+      "marker_type": "manor",
+      "location_type": "manor / estate",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Fortified agricultural estate on Ashcombe Rise overlooking the Northfields and northern road. Held by House Avenholt under House Denvor."
+    },
+    {
+      "source_id": "tallowmere_regional/millhaven",
+      "location_source_id": "millhaven",
+      "name": "Millhaven",
+      "marker_type": "settlement",
+      "location_type": "village / mill center",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Grain village and mill center on the River Vale, about 9 miles northwest of Tallowmere and a principal grain collection point for the city."
+    },
+    {
+      "source_id": "tallowmere_regional/stonehollow",
+      "location_source_id": "stonehollow",
+      "name": "Stonehollow",
+      "marker_type": "settlement",
+      "location_type": "quarry settlement",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Quarry settlement southwest of Tallowmere in the Greyback Ridges, supplying worked stone and quarry labor under established quarry charters."
+    },
+    {
+      "source_id": "tallowmere_regional/brackenholt",
+      "location_source_id": "brackenholt",
+      "name": "Brackenholt",
+      "marker_type": "settlement",
+      "location_type": "woodland settlement",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Woodland and charcoal settlement west of Tallowmere within the Brackenwood, supporting timber, charcoal, and managed woodland trades."
+    },
+    {
+      "source_id": "tallowmere_regional/saltwick",
+      "location_source_id": "saltwick",
+      "name": "Saltwick",
+      "marker_type": "shore",
+      "location_type": "coastal settlement",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Working shore settlement southeast of Tallowmere with fishing, salt-working, preserved fish, net-making, and a modest navigational beacon. Superior jurisdiction remains unresolved."
+    }
+  ],
+  "geography": [
+    {
+      "source_id": "tallowmere_regional/river-vale",
+      "name": "River Vale",
+      "feature_type": "river",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Principal inland route serving Tallowmere, descending from the western uplands through the farm country and into the harbor."
+    },
+    {
+      "source_id": "tallowmere_regional/brackenwood",
+      "name": "Brackenwood",
+      "feature_type": "woodland",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Worked woodland west of Tallowmere supplying fuel, poles, timber, game, and gathered plants."
+    },
+    {
+      "source_id": "tallowmere_regional/greyback-ridges",
+      "name": "Greyback Ridges",
+      "feature_type": "hills",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Stony hills southwest of Tallowmere, with Stonehollow quarries on accessible eastern faces."
+    },
+    {
+      "source_id": "tallowmere_regional/northfields",
+      "name": "Northfields",
+      "feature_type": "agricultural region",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Open agricultural country north and northeast of Tallowmere with farms, orchards, pasture, hedgerows, and drainage hollows."
+    },
+    {
+      "source_id": "tallowmere_regional/eastern-shore",
+      "name": "Eastern Shore",
+      "feature_type": "coast",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Irregular shore southeast of Tallowmere with low bluffs, coves, beaches, fishing landings, and salt-working places."
+    }
+  ],
+  "routes": [
+    {
+      "source_id": "tallowmere_regional/route-north-road",
+      "name": "North Road",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "ashcombe-manor",
+      "description": "Route from Tallowmere's North Gate through outer farms toward Ashcombe Manor and the Northfields."
+    },
+    {
+      "source_id": "tallowmere_regional/route-river-vale-road",
+      "name": "River Vale Road",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "fordmere",
+      "description": "Western route following the River Vale through Millhaven toward Fordmere."
+    },
+    {
+      "source_id": "tallowmere_regional/route-western-track",
+      "name": "Western Track",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "brackenholt",
+      "description": "Rough branch toward Brackenholt and the managed woodland, most reliable in dry conditions."
+    },
+    {
+      "source_id": "tallowmere_regional/route-quarry-road",
+      "name": "Quarry Road",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "stonehollow",
+      "description": "Southwestern branch built for stone carts climbing toward Stonehollow and the Greyback Ridges."
+    },
+    {
+      "source_id": "tallowmere_regional/route-eastern-shore-road",
+      "name": "Eastern Shore Road",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "saltwick",
+      "description": "Coastal route southeast to Saltwick and smaller shore landings."
+    },
+    {
+      "source_id": "tallowmere_regional/route-south-road",
+      "name": "King's Road / South Road",
+      "route_type": "road",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "from_location_source_id": "tallowmere",
+      "to_location_source_id": "harthbridge",
+      "description": "Southern route from Tallowmere toward Harthbridge and the fragmented southern jurisdictions."
+    }
+  ],
+  "landmarks": [
+    {
+      "source_id": "tallowmere_regional/old-stone-bridge",
+      "name": "Old Stone Bridge",
+      "feature_type": "bridge",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Principal permanent river crossing within Tallowmere."
+    },
+    {
+      "source_id": "tallowmere_regional/bellwater-pool",
+      "name": "Bellwater Pool",
+      "feature_type": "river landmark",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Deep, slow pool on the River Vale upstream of Millhaven, used by bargemen as a waiting and turning place."
+    },
+    {
+      "source_id": "tallowmere_regional/saltwick-beacon",
+      "name": "Saltwick Beacon",
+      "feature_type": "beacon",
+      "player_visible": true,
+      "coordinate_status": "pending_artwork",
+      "description": "Modest shore beacon maintained by Saltwick boat-owning households as a navigation and storm-warning aid."
+    }
+  ],
+  "known_travel_distances_miles": {
+    "tallowmere-millhaven": 9,
+    "tallowmere-ashcombe-manor": 11,
+    "tallowmere-saltwick": 12,
+    "tallowmere-brackenholt": 14,
+    "tallowmere-stonehollow": 17,
+    "tallowmere-fordmere_river_miles": 19,
+    "tallowmere-harthbridge": 27
+  },
+  "political_notes": {
+    "house-denvor": "Ruling house of Tallowmere and immediate lordship. Do not imply direct administration of every neighboring settlement.",
+    "house-velleran": "Holds Harthbridge under a town charter. Harthbridge is a commercial rival to Tallowmere, not automatically an enemy.",
+    "house-merewick": "Holds the hereditary charter for Fordmere crossing, ferry, and toll rights.",
+    "house-avenholt": "Holds Ashcombe Manor under House Denvor.",
+    "saltwick": "Local freeholders and shore charter; superior jurisdiction remains unresolved.",
+    "house-relland": "Minor house under House Velleran. Keep its historical crime and PC family connection GM-only."
+  },
+  "import_safety": {
+    "not_a_live_sync_layer": true,
+    "reason": "This specification intentionally contains no x/y or polygon points. It is a structured content registry for the regional map and must not be fed to the live synchronizer until coordinates are placed against the approved artwork.",
+    "next_cartographic_step": "Add the approved regional artwork to the repository, calibrate its normalized coordinate space, then convert these source records into a live atlas layer with reviewed marker and route coordinates."
+  }
+}

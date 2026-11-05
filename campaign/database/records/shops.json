@@ -1,0 +1,121 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "shop-harlowes",
+      "name": "Harlowe's General Stores",
+      "location_id": "tallowmere",
+      "owner": "Harlowe",
+      "category": "General goods"
+    },
+    {
+      "id": "shop-salted-tack",
+      "name": "The Salted Tack",
+      "location_id": "tallowmere",
+      "category": "Tavern / inn"
+    },
+    {
+      "id": "shop-orsik-ironworks",
+      "name": "Orsik Ironworks",
+      "location_id": "tallowmere",
+      "category": "Smithy / metalwork"
+    },
+    {
+      "id": "shop-fenna-physic",
+      "name": "Fenna's Physic Garden",
+      "location_id": "tallowmere",
+      "category": "Herbalist / healer"
+    },
+    {
+      "id": "shop-alchemical-supply",
+      "name": "Tallowmere Alchemical Supply",
+      "location_id": "tallowmere",
+      "category": "Alchemy supplies"
+    },
+    {
+      "id": "shop-pell-scribes",
+      "name": "Pell & Daughter, Scribes and Stationers",
+      "location_id": "tallowmere",
+      "category": "Scribes / stationery"
+    },
+    {
+      "id": "shop-brass-scale",
+      "name": "The Brass Scale",
+      "location_id": "tallowmere",
+      "category": "Moneychanging / commerce"
+    },
+    {
+      "id": "shop-copper-ladle",
+      "name": "The Copper Ladle",
+      "location_id": "tallowmere",
+      "category": "Food / tavern"
+    },
+    {
+      "id": "shop-thread-thimble",
+      "name": "Thread & Thimble",
+      "location_id": "tallowmere",
+      "category": "Tailor / textiles"
+    },
+    {
+      "id": "shop-split-hide",
+      "name": "The Split Hide",
+      "location_id": "tallowmere",
+      "category": "Leatherworker"
+    },
+    {
+      "id": "shop-gull-anchor",
+      "name": "Gull & Anchor Chandlery",
+      "location_id": "tallowmere",
+      "category": "Chandlery / ship supplies"
+    },
+    {
+      "id": "shop-brindle-sons",
+      "name": "Brindle & Sons Stables",
+      "location_id": "tallowmere",
+      "category": "Stables / transport"
+    },
+    {
+      "id": "shop-blue-heron",
+      "name": "The Blue Heron",
+      "location_id": "tallowmere",
+      "category": "Inn"
+    },
+    {
+      "id": "shop-crooked-oar",
+      "name": "The Crooked Oar",
+      "location_id": "tallowmere",
+      "category": "Tavern"
+    },
+    {
+      "id": "shop-redoubt-arms",
+      "name": "Redoubt Arms",
+      "location_id": "tallowmere",
+      "category": "Arms / equipment"
+    },
+    {
+      "id": "shop-hearth-hammer",
+      "name": "Hearth & Hammer Armoury",
+      "location_id": "tallowmere",
+      "category": "Armoury"
+    },
+    {
+      "id": "shop-three-grain",
+      "name": "Three Grain Bakery",
+      "location_id": "tallowmere",
+      "category": "Bakery"
+    },
+    {
+      "id": "shop-salt-root",
+      "name": "Salt & Root Provisioners",
+      "location_id": "tallowmere",
+      "category": "Provisions"
+    },
+    {
+      "id": "shop-ferrymans-steps",
+      "name": "The Ferryman's Steps",
+      "location_id": "tallowmere",
+      "category": "Ferry / river transport"
+    }
+  ]
+}

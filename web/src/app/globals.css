@@ -548,6 +548,11 @@ h2 {
   padding: 0;
 }
 
+.pdfjs-viewer-container .annotationLayer .textWidgetAnnotation input {
+  line-height: 1;
+  padding-bottom: 4px;
+}
+
 .pdfjs-viewer-container .annotationLayer
   :is(.textWidgetAnnotation input, .textWidgetAnnotation textarea, .choiceWidgetAnnotation select) {
   background-color: transparent !important;

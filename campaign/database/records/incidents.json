@@ -1,0 +1,22 @@
+{
+  "status": "established",
+  "source": "campaign/politics/House_Relland_and_the_Merchant_Incident.md",
+  "records": [
+    {
+      "id": "incident-relland-merchant",
+      "name": "South Road Merchant Incident",
+      "date": "Approximately ten years before Session One",
+      "location": "South Road within House Relland's claimed lands",
+      "description": "Relland retainers unlawfully demanded a road levy from a travelling ratfolk merchant family, took the family's goods at a tiny fraction of value, and killed both parents when they resisted. The child was attacked but survived after intervention by the vampire PC, who killed the attackers and rescued the child.",
+      "public_knowledge": "House Relland's official account describes an unlawful roadside dispute involving suspicious itinerant traders and states that the household handled the matter internally.",
+      "gm_knowledge": "House Relland does not know the ratfolk child survived or that the vampire PC was present."
+    },
+    {
+      "id": "incident-relland-coverup",
+      "name": "Relland Household Cover-Up",
+      "date": "Following the South Road Merchant Incident",
+      "location": "House Relland estate",
+      "description": "Lord Edvar Relland quietly dissolved Marrick's command, reassigned or discharged other retainers, recorded seized goods as abandoned or forfeited merchandise, and issued no public apology or compensation. No public inquiry followed."
+    }
+  ]
+}

@@ -71,6 +71,14 @@ export default async function PlayerCharactersPage() {
                 {character.charisma ?? "—"} (
                 {formatAbilityModifier(character.charisma)})
               </p>
+              <p>
+                <Link
+                  className="button-link"
+                  href={`/player/characters/${character.id}`}
+                >
+                  Open structured Pathfinder sheet
+                </Link>
+              </p>
               <details className="entry-edit">
                 <summary>View or edit character sheet</summary>
                 <CharacterForm character={character} />

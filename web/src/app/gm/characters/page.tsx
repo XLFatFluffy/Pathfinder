@@ -68,6 +68,14 @@ export default async function GmCharactersPage() {
                 {` · AC ${character.armor_class}`}
                 {character.alignment ? ` · ${character.alignment}` : ""}
               </p>
+              <p>
+                <Link
+                  className="button-link"
+                  href={`/gm/characters/${character.id}`}
+                >
+                  Review structured character record
+                </Link>
+              </p>
               <details className="entry-edit">
                 <summary>Review character details and GM notes</summary>
                 {character.background ? (

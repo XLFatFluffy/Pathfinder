@@ -27,6 +27,7 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
       <Link href={questsHref}>{role === "gm" ? "Quests" : "Campaign quests"}</Link>
       <Link href={sessionsHref}>{role === "gm" ? "Session logs" : "Session history"}</Link>
       <Link href={charactersHref}>{role === "gm" ? "Player characters" : "My characters"}</Link>
+      {role === "gm" ? <Link href="/gm/import">AI data import</Link> : null}
       <Link href={atlasHref}>{role === "gm" ? "Atlas" : "Explore atlas"}</Link>
       <Link href={mapsHref}>{role === "gm" ? "Map library" : "Shared maps"}</Link>
       {role === "player" ? <Link href="/player/notes">My notes</Link> : null}

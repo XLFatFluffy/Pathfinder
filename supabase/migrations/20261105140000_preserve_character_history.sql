@@ -1,0 +1,14 @@
+drop policy campaign_character_classes_owner_delete
+on public.campaign_character_classes;
+drop policy campaign_character_level_history_owner_update
+on public.campaign_character_level_history;
+drop policy campaign_character_level_history_owner_delete
+on public.campaign_character_level_history;
+drop policy campaign_character_history_owner_update
+on public.campaign_character_history;
+drop policy campaign_character_history_owner_delete
+on public.campaign_character_history;
+
+revoke delete on public.campaign_character_classes from authenticated;
+revoke update, delete on public.campaign_character_level_history from authenticated;
+revoke update, delete on public.campaign_character_history from authenticated;

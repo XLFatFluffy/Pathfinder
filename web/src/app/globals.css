@@ -260,6 +260,86 @@ h2 {
   margin: 0.4rem 0;
 }
 
+.character-workspace {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.gm-dashboard {
+  border-top: 1px solid var(--border);
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.gm-dashboard-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+  margin-top: 0.9rem;
+}
+
+.gm-dashboard-card {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 0.45rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.8rem;
+}
+
+.gm-dashboard-card strong {
+  font-size: 1.45rem;
+}
+
+.character-workspace > .entry-edit {
+  margin-top: 0;
+}
+
+.character-stat-grid {
+  display: grid;
+  gap: 0.25rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+}
+
+.character-stat-grid p {
+  margin: 0.25rem 0;
+}
+
+.character-fieldset {
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  display: grid;
+  gap: 0.65rem;
+  min-width: 0;
+  padding: 0.8rem;
+}
+
+.character-fieldset legend {
+  color: var(--accent);
+  font-weight: 700;
+  padding: 0 0.35rem;
+}
+
+.checkbox-label {
+  align-items: center;
+  display: flex !important;
+  gap: 0.55rem !important;
+}
+
+.checkbox-label input {
+  width: auto;
+}
+
+.inline-form {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.inline-form button {
+  padding: 0.35rem 0.65rem;
+}
+
 .entry-content {
   line-height: 1.55;
   white-space: pre-wrap;

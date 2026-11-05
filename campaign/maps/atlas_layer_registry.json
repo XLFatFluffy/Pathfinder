@@ -328,11 +328,11 @@
       "parent_map_source_id": "tallowmere_regional",
       "parent_location_source_id": "tallowmere",
       "artwork_path": "campaign/maps/tallowmere_city.png",
-      "status": "ARTWORK_UPLOADED_AT_REPOSITORY_ROOT_PENDING_RELOCATION_AND_CARTOGRAPHIC_REVIEW"
+      "status": "ARTWORK_RELOCATED_TO_MAP_LIBRARY_PENDING_CARTOGRAPHIC_REVIEW"
     }
   ],
   "next_steps": [
-    "Move the newly uploaded city map into campaign/maps/tallowmere_city.png and remove its root-level duplicate after confirming the file operation.",
+    "Review the relocated city artwork against City_Layout_and_Defenses.md and register only confirmed map features.",
     "Locate and register the approved regional artwork in campaign/maps/ before creating live regional marker coordinates.",
     "Calibrate the continental artwork and review all 15 existing major-place markers.",
     "Trace broad geographic regions as neutral geographic overlays.",

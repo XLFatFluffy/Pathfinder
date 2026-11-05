@@ -1,0 +1,9 @@
+{
+  "status": "UNRESOLVED",
+  "source": [
+    "campaign/politics/House_Rulers.md",
+    "campaign/politics/Court_and_Council.md"
+  ],
+  "records": [],
+  "note": "No complete structured political relationship set has been established. Do not infer alliances, rivalries, vassalage, or hostility from prose alone during import."
+}

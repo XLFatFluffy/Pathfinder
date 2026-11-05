@@ -1,5 +1,11 @@
 # Campaign Changes
 
+## 2026-11-05 - Continent atlas layer import
+- Added a GM atlas import for `campaign/maps/atlas_player_layer.json`.
+- Import creates missing campaign locations, links map markers to locations, and adds the prepared region overlays; existing same-name map markers and overlays are not overwritten.
+- New locations, markers, and overlays remain GM-only until the GM reviews and explicitly shares them, preserving the atlas's approximate placements and unresolved boundaries.
+- Updated the map library instructions and atlas layer review workflow. No player visibility or geographic canon was changed by adding the import.
+
 ## 2026-11-03 - Initial campaign repository organization
 - Preserved the uploaded Campaign Bible DOCX and continent atlas PNG in `campaign/`.
 - Added and retained the Markdown working copy of the Campaign Bible.

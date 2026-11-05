@@ -20,6 +20,15 @@ Continent → Kingdom → Region → City → District / Site → Interior map
 
 Tallowmere's provisional map anchor is X=44%, Y=43% of the full atlas canvas, measured from the upper-left corner. This represents the city/harbor area on the northwestern shore of the central inland sea. It is not a surveyed coordinate. See continent_reference.md.
 
+## Prepared continent layer
+
+- Data: `campaign/maps/atlas_player_layer.json`
+- Review notes: `campaign/maps/atlas_player_layer.md`
+- In the GM atlas, select the continent map with its artwork, choose `campaign/maps/atlas_player_layer.json`, and choose **Import prepared atlas layer**.
+- The import creates missing locations, links their markers, and adds the region overlays. Existing same-name markers and overlays are left unchanged; matching campaign locations are reused.
+- Imported locations, markers, and overlays are GM-only until reviewed and explicitly shared. Coordinates and broad region shapes remain approximate; review them against the atlas before treating them as canon.
+- The JSON intentionally omits the GM-only dwarven underground route.
+
 ## Map authority
 
 The continental artwork's coastline and broad geographic features are fixed unless the GM explicitly approves a revision. Regional and city maps must fit the master atlas, not the other way around. Keep labels, political borders, and GM-only secrets in separate overlays where practical.

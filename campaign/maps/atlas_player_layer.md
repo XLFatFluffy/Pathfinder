@@ -1,6 +1,6 @@
 # Continent Atlas Player Layer
 
-**Status:** Proposed visual layer for GM review and app entry  
+**Status:** Prepared visual layer; GM review required before sharing
 **Parent map:** `campaign/maps/continent_atlas.png`  
 **Coordinate convention:** normalized image coordinates; X=0 at left, Y=0 at top; north is up.
 
@@ -8,7 +8,15 @@
 
 This file prepares the first useful player-facing atlas layer: major seats, named settlements, and broad political/geographic regions. Coordinates are approximate visual placements on the authoritative atlas. They are not surveyed coordinates and must not be treated as final geographic canon.
 
-The app already supports these elements:
+The GM atlas can import this JSON into a continent map with artwork. Select
+`campaign/maps/atlas_player_layer.json` in the map overlay panel and start the
+import. The import
+creates missing locations, links markers to them, and adds the overlays. It
+reuses matching campaign locations and leaves existing same-name markers and
+overlays unchanged. All new records remain GM-only until reviewed and explicitly
+shared, regardless of the visibility flags in the JSON.
+
+The app supports these elements:
 - Marker types: city, settlement, fortress, ruins, landmark, port, hidden.
 - Region and route overlays, each stored as normalized points.
 - Independent player-visible flags for maps, markers, and overlays.
@@ -39,12 +47,10 @@ The approved macro placement is the northwestern shore of the central inland sea
 ## Recommended order in the app
 
 1. Confirm the continent atlas map record has the atlas artwork attached.
-2. Add/adjust the principal-seat markers first.
-3. Add the other named settlement markers.
-4. Draw broad region overlays using the JSON polygons, then adjust their shapes against terrain.
-5. Keep overlays and markers player-visible only after review.
-6. Mark the continent map player-visible.
-7. Link the Tallowmere regional map as a child map of Tallowmere's location/continent context; then link the city map as a child of the regional map.
+2. Select it in the GM atlas and choose **Import prepared atlas layer**.
+3. Review marker placements, location descriptions, and broad region overlays against the artwork; adjust as needed.
+4. Share only the records approved for players, then mark the continent map player-visible.
+5. Link the Tallowmere regional map as a child map of Tallowmere's location/continent context; then link the city map as a child of the regional map.
 
 ## What is deliberately omitted
 

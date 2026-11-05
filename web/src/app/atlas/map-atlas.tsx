@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import {
   useCallback,
   useEffect,
@@ -18,6 +19,7 @@ import {
   getCampaignMapOverlays,
   saveCampaignMapOverlay,
 } from "./overlay-actions";
+import { importAtlasPlayerLayer } from "./import-layer-action";
 import type {
   CampaignAtlasLocation,
   CampaignAtlasMap,
@@ -96,6 +98,7 @@ export default function MapAtlas({
   mapLibraryHref: string;
   canEditMarkers?: boolean;
 }) {
+  const router = useRouter();
   const availableMaps = maps.filter((map) => map.has_artwork);
   const mapsById = new Map(maps.map((map) => [map.id, map]));
   const initialMap =
@@ -118,6 +121,11 @@ export default function MapAtlas({
   const [markerPending, setMarkerPending] = useState(false);
   const [overlays, setOverlays] = useState<CampaignMapOverlay[]>([]);
   const [overlaysStatus, setOverlaysStatus] = useState("");
+  const [layerImportPending, setLayerImportPending] = useState(false);
+  const [layerImportStatus, setLayerImportStatus] = useState("");
+  const [layerImportInputError, setLayerImportInputError] = useState("");
+  const [layerImportJson, setLayerImportJson] = useState("");
+  const [layerImportFileName, setLayerImportFileName] = useState("");
   const [selectedOverlayId, setSelectedOverlayId] = useState("");
   const [overlayDraftPoints, setOverlayDraftPoints] = useState<
     CampaignMapPoint[] | null
@@ -526,6 +534,71 @@ export default function MapAtlas({
       );
     } finally {
       setOverlayPending(false);
+    }
+  }
+
+  async function importPreparedLayer() {
+    if (
+      !selectedMap ||
+      selectedMap.map_type !== "continent" ||
+      !layerImportJson.trim() ||
+      layerImportPending
+    ) {
+      return;
+    }
+    setLayerImportPending(true);
+    setLayerImportStatus("Importing prepared atlas layer…");
+    try {
+      const result = await importAtlasPlayerLayer(selectedMap.id, layerImportJson);
+      if (result.error) {
+        setLayerImportStatus(
+          `Unable to import atlas layer: ${result.error}${
+            result.markersImported || result.locationsCreated || result.overlaysImported
+              ? ` Partial progress: ${result.locationsCreated} locations, ${result.markersImported} markers, and ${result.overlaysImported} overlays were added. Retry to safely skip those records.`
+              : ""
+          }`,
+        );
+        return;
+      }
+      setLayerImportStatus(
+        `Imported ${result.locationsCreated} locations, ${result.markersImported} markers, and ${result.overlaysImported} overlays. Skipped ${result.markersSkipped} existing markers and ${result.overlaysSkipped} existing overlays. All imported content is GM-only until you review and share it.`,
+      );
+      await Promise.all([refreshMarkers(), refreshOverlays()]);
+      router.refresh();
+    } catch (error) {
+      setLayerImportStatus(
+        error instanceof Error
+          ? `Unable to import atlas layer: ${error.message}`
+          : "Unable to import atlas layer.",
+      );
+    } finally {
+      setLayerImportPending(false);
+    }
+  }
+
+  async function loadAtlasLayerFile(file: File | undefined) {
+    if (!file) {
+      return;
+    }
+    setLayerImportStatus("");
+    setLayerImportInputError("");
+    if (file.size > 500_000) {
+      setLayerImportJson("");
+      setLayerImportFileName("");
+      setLayerImportInputError("Choose an atlas JSON file smaller than 500 KB.");
+      return;
+    }
+    try {
+      setLayerImportJson(await file.text());
+      setLayerImportFileName(file.name);
+    } catch (error) {
+      setLayerImportJson("");
+      setLayerImportFileName("");
+      setLayerImportInputError(
+        error instanceof Error
+          ? `Unable to read the selected file: ${error.message}`
+          : "Unable to read the selected file.",
+      );
     }
   }
 
@@ -978,6 +1051,52 @@ export default function MapAtlas({
             <p className="muted">
               Draw regions by outlining an area or routes by tracing a path.
               Overlays use proportional artwork coordinates.
+            </p>
+          ) : null}
+          {canEditMarkers && selectedMap?.map_type === "continent" ? (
+            <div className="form-stack">
+              <p className="muted">
+                Select <code>campaign/maps/atlas_player_layer.json</code> to add
+                its locations, markers, and region overlays. Existing same-name
+                markers and overlays are left unchanged; imported records remain
+                GM-only until reviewed.
+              </p>
+              <label>
+                Atlas layer JSON
+                <input
+                  accept="application/json,.json"
+                  onChange={(event) =>
+                    void loadAtlasLayerFile(event.currentTarget.files?.[0])
+                  }
+                  type="file"
+                />
+              </label>
+              {layerImportFileName ? (
+                <p className="muted">Selected: {layerImportFileName}</p>
+              ) : null}
+              {layerImportInputError ? (
+                <p className="error" role="alert">
+                  {layerImportInputError}
+                </p>
+              ) : null}
+              <button
+                disabled={layerImportPending || !layerImportJson.trim()}
+                onClick={importPreparedLayer}
+                type="button"
+              >
+                {layerImportPending ? "Importing…" : "Import prepared atlas layer"}
+              </button>
+            </div>
+          ) : null}
+          {layerImportStatus ? (
+            <p
+              className={
+                layerImportStatus.startsWith("Unable") ? "error" : "notice"
+              }
+              role="status"
+              aria-live="polite"
+            >
+              {layerImportStatus}
             </p>
           ) : null}
           {overlays.length ? (

@@ -1,0 +1,27 @@
+{
+  "status": "established",
+  "source": "campaign/database/seed_batch_02.json",
+  "records": [
+    {
+      "name": "The Grey Net",
+      "activity": "Cargo diversion, dockside theft, false handling claims, and resale",
+      "area": "Old Quays and older warehouse lanes",
+      "operator": "Noll Tarrow",
+      "limits": "Cannot control harbor operations or guarantee access to every warehouse."
+    },
+    {
+      "name": "The Bent Seal",
+      "activity": "Forged cargo marks, altered receipts, false ownership papers, and commercial fraud",
+      "area": "Market Ward and Harbor Office approaches",
+      "operator": "Edrik Vale",
+      "limits": "Cannot create genuine legal authority or survive careful examination of every document."
+    },
+    {
+      "name": "The Quiet Account",
+      "activity": "Debt collection, coercive lending, intimidation, and private settlements",
+      "area": "Market Ward, Old Quays lodging houses, and edges of the New Quays",
+      "operator": "Hessa Quill",
+      "limits": "Not a bank or monopoly; relies on reputation and intimidation."
+    }
+  ]
+}

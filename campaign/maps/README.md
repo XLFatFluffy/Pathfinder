@@ -25,8 +25,11 @@ Tallowmere's provisional map anchor is X=44%, Y=43% of the full atlas canvas, me
 - Data: `campaign/maps/atlas_player_layer.json`
 - Review notes: `campaign/maps/atlas_player_layer.md`
 - In the GM atlas, select the world or continent map with the atlas artwork, choose `campaign/maps/atlas_player_layer.json`, and choose **Import prepared atlas layer**.
-- The import creates missing locations, links their markers, and adds the region overlays. Existing same-name markers and overlays are left unchanged; matching campaign locations are reused.
-- Imported locations, markers, and overlays are GM-only until reviewed and explicitly shared. Coordinates and broad region shapes remain approximate; review them against the atlas before treating them as canon.
+- The current import layer contains only 15 major public-knowledge places: Great House seats, the capital, major cities, ports, and prominent fortresses. Smaller settlements are reserved for regional maps.
+- The current JSON intentionally contains no polygon overlays. The previous seven drafts mixed political territories, geographic regions, maritime influence, and the fragmented Southern Reaches; several political-looking shapes overlapped. They were removed rather than presented as borders or silently explained as wars.
+- See `atlas_overlay_standards.md` for the required distinction between political, geographic, maritime, and route overlays. See `tallowmere_regional_layer_plan.md` for the public regional places and minor-house holdings around Tallowmere.
+- Imported locations and markers remain GM-only until reviewed and explicitly shared. Coordinates remain approximate; review them against the authoritative artwork before treating them as final.
+- Existing same-name markers and overlays are left unchanged by the importer. Re-importing this revised JSON will not update earlier imported records; adjust those records separately if an earlier draft was already imported.
 - The JSON intentionally omits the GM-only dwarven underground route.
 
 ## Map authority

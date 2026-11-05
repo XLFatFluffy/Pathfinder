@@ -246,10 +246,10 @@ export async function importAtlasPlayerLayer(
       error: `Unable to verify the selected map: ${mapError.message}`,
     };
   }
-  if (!map || map.map_type !== "continent" || !map.artwork_path) {
+  if (!map || !["world", "continent"].includes(map.map_type) || !map.artwork_path) {
     return {
       ...result,
-      error: "Select a continent map with artwork before importing this atlas layer.",
+      error: "Select a world or continent map with artwork before importing this atlas layer.",
     };
   }
 

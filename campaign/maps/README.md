@@ -24,7 +24,7 @@ Tallowmere's provisional map anchor is X=44%, Y=43% of the full atlas canvas, me
 
 - Data: `campaign/maps/atlas_player_layer.json`
 - Review notes: `campaign/maps/atlas_player_layer.md`
-- In the GM atlas, select the continent map with its artwork, choose `campaign/maps/atlas_player_layer.json`, and choose **Import prepared atlas layer**.
+- In the GM atlas, select the world or continent map with the atlas artwork, choose `campaign/maps/atlas_player_layer.json`, and choose **Import prepared atlas layer**.
 - The import creates missing locations, links their markers, and adds the region overlays. Existing same-name markers and overlays are left unchanged; matching campaign locations are reused.
 - Imported locations, markers, and overlays are GM-only until reviewed and explicitly shared. Coordinates and broad region shapes remain approximate; review them against the atlas before treating them as canon.
 - The JSON intentionally omits the GM-only dwarven underground route.

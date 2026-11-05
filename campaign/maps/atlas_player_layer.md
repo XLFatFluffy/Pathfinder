@@ -8,7 +8,7 @@
 
 This file prepares the first useful player-facing atlas layer: major seats, named settlements, and broad political/geographic regions. Coordinates are approximate visual placements on the authoritative atlas. They are not surveyed coordinates and must not be treated as final geographic canon.
 
-The GM atlas can import this JSON into a continent map with artwork. Select
+The GM atlas can import this JSON into a world or continent map with artwork. Select
 `campaign/maps/atlas_player_layer.json` in the map overlay panel and start the
 import. The import
 creates missing locations, links markers to them, and adds the overlays. It
@@ -46,7 +46,7 @@ The approved macro placement is the northwestern shore of the central inland sea
 
 ## Recommended order in the app
 
-1. Confirm the continent atlas map record has the atlas artwork attached.
+1. Confirm the world or continent atlas map record has the atlas artwork attached.
 2. Select it in the GM atlas and choose **Import prepared atlas layer**.
 3. Review marker placements, location descriptions, and broad region overlays against the artwork; adjust as needed.
 4. Share only the records approved for players, then mark the continent map player-visible.

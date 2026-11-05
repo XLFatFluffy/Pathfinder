@@ -540,7 +540,7 @@ export default function MapAtlas({
   async function importPreparedLayer() {
     if (
       !selectedMap ||
-      selectedMap.map_type !== "continent" ||
+      !["world", "continent"].includes(selectedMap.map_type) ||
       !layerImportJson.trim() ||
       layerImportPending
     ) {
@@ -1053,7 +1053,9 @@ export default function MapAtlas({
               Overlays use proportional artwork coordinates.
             </p>
           ) : null}
-          {canEditMarkers && selectedMap?.map_type === "continent" ? (
+          {canEditMarkers &&
+          selectedMap &&
+          ["world", "continent"].includes(selectedMap.map_type) ? (
             <div className="form-stack">
               <p className="muted">
                 Select <code>campaign/maps/atlas_player_layer.json</code> to add

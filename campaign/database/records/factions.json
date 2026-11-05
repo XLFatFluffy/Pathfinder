@@ -1,0 +1,88 @@
+{
+  "status": "ESTABLISHED",
+  "source": [
+    "campaign/database/canonical_seed.json",
+    "campaign/database/seed_batch_02.json"
+  ],
+  "records": [
+    {
+      "id": "faction-harbor-fellowship",
+      "name": "Harbor Fellowship",
+      "faction_type": "Maritime association",
+      "description": "Shipowners and maritime interests concerned with berth access, harbor operations, and commercial predictability.",
+      "leader_npc_id": "npc-ysella-vane",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "faction-warehouse-guild",
+      "name": "Warehouse Guild",
+      "faction_type": "Warehouse guild",
+      "description": "Recognized warehouse operators and factors concerned with secure cargo, records, fire prevention, and access.",
+      "leader_npc_id": "npc-meret-sorn",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "faction-market-guild",
+      "name": "Market Guild",
+      "faction_type": "Market guild",
+      "description": "Established market members and merchants concerned with stalls, commercial access, and trade privileges.",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "faction-river-bargemen",
+      "name": "River Carters' and Bargemen's Company",
+      "faction_type": "Transport company",
+      "description": "River operators seeking fair tolls, safe landings, and recognition for inland transport.",
+      "leader_npc_id": "npc-pellan-reed",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "faction-shipwrights",
+      "name": "Shipwrights' Brotherhood",
+      "faction_type": "Craft guild",
+      "description": "Skilled shipwright organization protecting apprentices, craft standards, labor, and timber supply.",
+      "leader_npc_id": "npc-dagna-coppervein",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 1
+    },
+    {
+      "id": "faction-underways",
+      "name": "Ratfolk Underways Community",
+      "faction_type": "Subterranean community network",
+      "description": "Decentralized ratfolk community beneath Tallowmere with families, workshops, routes, and limited coordination. It is not a unified criminal faction or single political bloc.",
+      "headquarters_location_id": "tallowmere",
+      "player_visible": 0
+    },
+    {
+      "id": "faction-grey-net",
+      "name": "The Grey Net",
+      "type": "Criminal network",
+      "description": "Loose arrangement of handlers, carters, lookouts, and buyers involved in cargo diversion, dockside theft, false handling claims, and resale.",
+      "leader": "npc-noll-tarrow"
+    },
+    {
+      "id": "faction-bent-seal",
+      "name": "The Bent Seal",
+      "type": "Criminal network",
+      "description": "Loose fraud network dealing in forged cargo marks, altered receipts, false ownership papers, and commercial fraud.",
+      "leader": "npc-edrik-vale"
+    },
+    {
+      "id": "faction-quiet-account",
+      "name": "The Quiet Account",
+      "type": "Criminal network",
+      "description": "Informal network arranging private lending, debt collection, coercion, and settlements.",
+      "leader": "npc-hessa-quill"
+    },
+    {
+      "id": "faction-artificers-hall",
+      "name": "Artificers' Hall",
+      "type": "Craft guild",
+      "description": "Recognized masters in metalwork, carpentry, leatherwork, pottery, textiles, and related crafts."
+    }
+  ]
+}

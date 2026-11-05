@@ -34,6 +34,16 @@ export default async function PlayerCharactersPage() {
         Other players cannot read or change them. GM notes are kept in a
         separate private record.
       </p>
+      <p>
+        <a
+          className="button-link"
+          href="/pathfinder-character-sheet.pdf"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Open the original editable PDF sheet
+        </a>
+      </p>
       <p className="muted">
         <Link href="/player">Return to your campaign</Link>
       </p>

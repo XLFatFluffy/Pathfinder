@@ -244,11 +244,45 @@ export default async function CharacterWorkspacePage({
       <p className="muted">
         <Link href="/player/characters">Return to your characters</Link>
       </p>
-      <CharacterWorkspace
-        character={character as Character}
-        data={data}
-        characterId={characterId}
-      />
+      <section className="entry-card canonical-pdf-card">
+        <p className="eyebrow">Original editable character sheet</p>
+        <h3>Pathfinder Deluxe Character Sheet</h3>
+        <p className="muted">
+          This is the supplied PDF itself, embedded unchanged. Fill its original
+          form fields in the viewer, then use the viewer’s download/save control
+          to keep your filled PDF. PDF edits are not yet synchronized with the
+          structured character data below.
+        </p>
+        <p className="canonical-pdf-actions">
+          <a
+            className="button-link"
+            href="/pathfinder-character-sheet.pdf"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Open PDF in a full-page viewer
+          </a>
+          <a download href="/pathfinder-character-sheet.pdf">
+            Download blank original PDF
+          </a>
+        </p>
+        <iframe
+          className="canonical-pdf-viewer"
+          src="/pathfinder-character-sheet.pdf#view=FitH"
+          title="Original editable Pathfinder Deluxe Character Sheet PDF"
+        />
+      </section>
+      <details className="entry-edit structured-data-details">
+        <summary>Optional structured campaign data (separate from the PDF)</summary>
+        <p className="muted">
+          This data is stored in the campaign and does not change the PDF form.
+        </p>
+        <CharacterWorkspace
+          character={character as Character}
+          data={data}
+          characterId={characterId}
+        />
+      </details>
     </>
   );
 }

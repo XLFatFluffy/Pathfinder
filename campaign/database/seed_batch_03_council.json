@@ -1,0 +1,18 @@
+{
+  "batch": "03C",
+  "status": "established",
+  "source": "campaign/politics/Court_and_Council.md",
+  "council_representatives": [
+    {"id":"npc-ilyra-vaelorian","name":"Lady Ilyra Vaelorian","race":"Elf","occupation":"Council representative","description":"Senior Vaelorian cousin and financial negotiator with knowledge of noble debts, trade agreements, and commercial obligations.","house_id":"house-vaelorian"},
+    {"id":"npc-brokk-ironvein","name":"Thane Brokk Ironvein","race":"Dwarf","occupation":"Council representative","description":"Senior Kharadorn clan leader appointed by High King Durnak to represent dwarven interests.","house_id":"house-kharadorn"},
+    {"id":"npc-ysabet-edarth","name":"Lady Ysabet Edarth","race":"Human","occupation":"Council representative","description":"Edarth cousin and representative of several landed families. More flexible than Lord Garrick while defending traditional noble rights.","house_id":"house-edarth"},
+    {"id":"npc-merek-veyr","name":"Ser Merek Veyr","race":"Human","occupation":"Council representative","description":"Veteran frontier officer from a collateral Veyr branch focused on Northern Watch resources.","house_id":"house-veyr"},
+    {"id":"npc-cassia-merrowen","name":"Lady Cassia Merrowen","race":"Human","occupation":"Council representative","description":"Member of a powerful Merrowen maritime branch with ties to shipowners and merchants.","house_id":"house-merrowen"}
+  ],
+  "council_notes": [
+    "The Imperial Council has six permanent seats, one appointed by each Great House.",
+    "The monarch presides but does not hold an additional Great House seat.",
+    "The Council is an aristocratic institution of negotiation and privilege, not a modern parliament.",
+    "Voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved."
+  ]
+}

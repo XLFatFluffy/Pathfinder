@@ -1,3 +1,11 @@
+## 2026-11-05 - Tallowmere city map library integration
+
+- Moved the GM-approved city artwork from the repository root to `campaign/maps/tallowmere_city.png`.
+- Removed the root-level copy from the current branch tree; the original upload remains in Git history.
+- Updated `campaign/maps/atlas_layer_registry.json` to record the canonical artwork path and pending cartographic review.
+- Updated map library documentation. No city markers, districts, roads, or overlays were invented or promoted into the live sync layer.
+- The approved regional illustration is still not present in the map library; regional geometry remains blocked pending artwork integration and calibration.
+
 ## 2026-11-05 - Tallowmere regional artwork canonized
 
 - Promoted **The Lands About Tallowmere** from approved visual reference to the canonical visual reference for the broad relative geography around Tallowmere.

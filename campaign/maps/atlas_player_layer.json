@@ -655,6 +655,16 @@
     "resolve_campaign_id": "Use the authenticated GM's active campaign_id; do not hard-code a campaign UUID.",
     "upsert_key": "(campaign_id, map_id, name) for markers; (campaign_id, parent_id, name) for locations where feasible.",
     "visibility": "Player-visible only after GM review. All listed markers and broad overlays are intended as public-facing atlas content.",
-    "caution": "Do not create or expose the GM-only dwarven underground route to Dragonstone."
+    "caution": "Do not create or expose the GM-only dwarven underground route to Dragonstone.",
+    "marker_navigation": {
+      "current_behavior": "Atlas marker click currently selects marker only; it does not navigate to a map.",
+      "recommended_behavior": "On marker activation, if exactly one child map of the selected map has the same location_id as the marker and has artwork, navigate to that child map. Otherwise show/select marker normally.",
+      "tallowmere_hierarchy": [
+        "Continent map: parent_map_id=null",
+        "Tallowmere regional map: parent_map_id=continent map; location_id=Tallowmere location id",
+        "Tallowmere city map: parent_map_id=regional map; location_id=Tallowmere location id"
+      ],
+      "breadcrumb_behavior": "Preserve navigation back from city to region to continent."
+    }
   }
 }

@@ -1,0 +1,59 @@
+{
+  "status": "ESTABLISHED",
+  "source": [
+    "campaign/database/canonical_seed.json",
+    "campaign/database/seed_batch_03_relland.json"
+  ],
+  "records": [
+    {
+      "id": "house-calderan",
+      "name": "House Calderan",
+      "description": "The ruling dynasty and Crown. Its post-Rebellion authority is substantial but constrained by the political settlement and Imperial Council.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-vaelorian",
+      "name": "House Vaelorian",
+      "description": "Elven Great House of the western highlands. Maintains financial dominance and trade access through diplomacy and leverage.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-kharadorn",
+      "name": "House Kharadorn",
+      "description": "Dwarven Great House and empire. Seeks independence, control of the inland sea and Dragonstone, and freedom from surface interference in clan affairs.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-edarth",
+      "name": "House Edarth",
+      "description": "Human Great House of the western heartlands. Values traditional noble rights, military and agricultural strength, and resistance to excessive royal centralization.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-veyr",
+      "name": "House Veyr",
+      "description": "Human Great House of the northern marches. Focused on frontier security, resources for the Northern Watch, and preserving control of the north.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-merrowen",
+      "name": "House Merrowen",
+      "description": "Human Great House of the eastern coast. Protects eastern ports and shipping, commercial independence, and maritime influence.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-denvor",
+      "name": "House Denvor",
+      "description": "Established minor human house ruling Tallowmere from Greywatch under a hereditary charter confirmed by House Kharadorn. Locally powerful but not a Great House.",
+      "heraldry_description": "A black heron standing in shallow silver water upon a deep green field.",
+      "motto": "Where Waters Gather.",
+      "player_visible": 1
+    },
+    {
+      "id": "house-relland",
+      "name": "House Relland",
+      "description": "Minor human noble house with a modest manor and tenant holdings along the South Road within broader House Velleran-chartered lands. House Relland bears institutional responsibility for the unlawful conduct of its retainers and subsequent cover-up in the South Road Merchant Incident.",
+      "player_visible": 0
+    }
+  ]
+}

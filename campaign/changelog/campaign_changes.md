@@ -1,3 +1,14 @@
+## 2026-11-05 - Atlas repository synchronization and regional map preparation
+
+- Refined `campaign/maps/atlas_player_layer.json` as the canonical continental player layer with stable source/location linkage and explicit coordinate safeguards.
+- Confirmed the continental source remains limited to 15 major public places and zero polygon overlays until political/geographic boundaries are properly classified and approved.
+- Added `campaign/maps/tallowmere_regional_content_spec.json` as a structured, non-live regional content registry for Tallowmere.
+- Registered stable source IDs for the eight established public regional settlements, five major geographic features, six established road connections, and three public landmarks.
+- Preserved the established written travel distances and political relationships.
+- Explicitly withheld regional x/y coordinates because the approved regional artwork is not currently stored in the repository and its printed scale bar is not authoritative.
+- Kept House Relland's historical crime and player-character connection GM-only.
+- Updated map documentation to distinguish repository content preparation from live atlas synchronization.
+
 # Campaign Changes
 
 ## 2026-11-05 - Continent atlas layer import

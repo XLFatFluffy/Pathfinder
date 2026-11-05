@@ -1,76 +1,72 @@
 # Continent Atlas Player Layer
 
-**Status:** Prepared visual layer; GM review required before sharing
+**Status:** Curated draft for GM review  
 **Parent map:** `campaign/maps/continent_atlas.png`  
 **Coordinate convention:** normalized image coordinates; X=0 at left, Y=0 at top; north is up.
 
 ## Purpose
 
-This file prepares the first useful player-facing atlas layer: major seats, named settlements, and broad political/geographic regions. Coordinates are approximate visual placements on the authoritative atlas. They are not surveyed coordinates and must not be treated as final geographic canon.
+This is the continental player-facing layer. It contains major places that would be common knowledge to reasonably informed inhabitants of the continent: Great House seats, the capital, major cities and ports, and prominent fortresses. Players do not need to discover that these places exist. Exploration can reveal details, routes, occupants, defenses, and local conditions, but not the basic existence of major landmarks.
 
-The GM atlas can import this JSON into a world or continent map with artwork. Select
-`campaign/maps/atlas_player_layer.json` in the map overlay panel and start the
-import. The import
-creates missing locations, links markers to them, and adds the overlays. It
-reuses matching campaign locations and leaves existing same-name markers and
-overlays unchanged. All new records remain GM-only until reviewed and explicitly
-shared, regardless of the visibility flags in the JSON.
+The JSON intentionally contains only 15 major-place markers. Smaller villages, minor keeps, manors, hamlets, and local landmarks belong on regional maps or in GM reference records. They have not been deleted from campaign canon; they have simply been removed from the continental overview to avoid turning the map into a settlement directory.
 
-The app supports these elements:
-- Marker types: city, settlement, fortress, ruins, landmark, port, hidden.
-- Region and route overlays, each stored as normalized points.
-- Independent player-visible flags for maps, markers, and overlays.
-- Map hierarchy through parent/child map records.
+## Current continental markers
 
-## Player-facing content
+- **Great House seats and principal strongholds:** Frosthold, Aurelith, Stoneguard, Valedorn, Khar-Dum, Dragonstone, and Tidemark.
+- **Other major fortified or strategic places:** Greywatch, Deepwatch, and Eastwatch.
+- **Major ports:** Tallowmere, Ironharbor, Deltaport, Stormhaven, and Duskport.
 
-The companion JSON file `atlas_player_layer.json` contains:
-- Principal seats: Frosthold, Aurelith, Stoneguard, Valedorn, Dragonstone, Khar-Dum, and Tidemark.
-- Other established named settlements listed in the approved Stage 5 political geography.
-- Tallowmere, linked conceptually to the approved regional map.
-- Seven broad region overlays for the Great House spheres and the fragmented Southern Reaches.
+All 15 are intended as public-knowledge locations, subject to GM review of placement and wording. The coordinates remain approximate and must be checked visually against the authoritative atlas before import or sharing.
 
-## Important canon safeguards
+## Overlay decision
 
-1. **These are approximate placements.** The continent map establishes broad regions, not surveyed coordinates. The JSON's marker coordinates are cartographic starting points for the GM to adjust visually in the atlas editor.
-2. **Region overlays are not borders.** The exact borders of all Great House territories remain unresolved. The overlays are intentionally named as spheres or broad zones and must not be described as surveyed boundaries.
-3. **Kharadorn's central sea dominion is a sphere of influence**, not a claim that every shore settlement is directly administered by dwarves. The northeastern Khar-Dum homeland is distinct from Dragonstone.
-4. **The Southern Reaches are fragmented.** Their overlay is a broad geographic/political zone, not a unified state.
-5. **Do not add the dwarven underground route to Dragonstone.** It is a GM-only secret and must never appear in player-visible markers, overlays, notes, or map descriptions.
-6. The atlas artwork itself contains no GM-only annotations. It can be marked player-visible once the GM is satisfied with the public marker and overlay layer.
-7. Do not expose unconfirmed minor-house boundaries, local jurisdictions, or the exact location of Tallowmere's regional landmarks on the continent map.
+The previous seven polygon drafts have been removed from the import layer. They mixed political spheres, geographic regions, maritime influence, and the fragmented Southern Reaches. Several Great House polygons overlap. Because exact borders are unresolved, those overlaps must not be presented as sovereign territorial claims or silently explained as wars.
 
-## Tallowmere
+No replacement polygons have been drawn yet. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
 
-The approved macro placement is the northwestern shore of the central inland sea, at the mouth of the River Vale. The current anchor is X=44%, Y=43%. The map editor should be used to verify the marker sits on land beside the river mouth, not in the sea. The regional map should later become a child map of Tallowmere's location; the city map should become a child map of the regional map.
+- Political territories: distinct, adjoining, and non-overlapping unless a specific disputed claim or war is approved as canon.
+- Geographic regions: may cross political borders and should use a separate visual treatment.
+- Maritime influence: a sea-based influence or naval sphere, not land sovereignty over every shore.
+- Southern Reaches: three distinct broad zones (Southwestern Marches, Southern Principalities, Southern Islands), with fragmented political authority rather than one unified realm.
 
-## Recommended order in the app
+The absence of overlays is deliberate. An honest unfinished map is better than a confident map that accidentally starts three wars.
 
-1. Confirm the world or continent atlas map record has the atlas artwork attached.
-2. Select it in the GM atlas and choose **Import prepared atlas layer**.
-3. Review marker placements, location descriptions, and broad region overlays against the artwork; adjust as needed.
-4. Share only the records approved for players, then mark the continent map player-visible.
-5. Link the Tallowmere regional map as a child map of Tallowmere's location/continent context; then link the city map as a child of the regional map.
+## Player knowledge and discovery
 
-## What is deliberately omitted
+### Public from campaign start
+- All Great House principal seats.
+- The capital and major cities.
+- Major ports, major fortresses, and strategically important crossings or landmarks once identified as such in canon.
+- The existence and broad location of major geographic features shown on the authoritative atlas.
 
-- Exact political borders.
-- Minor-house holdings and borders.
-- Uncharted roads and trade-route lines.
-- The secret dwarven tunnel to Dragonstone.
-- Undocumented settlements, castles, ruins, and geographic names.
-- Any claim that the visible rivers are the finalized courses of every named regional river.
+### Regional-map detail
+- Ordinary villages and smaller settlements.
+- Minor-house manors, keeps, estate villages, and local holdings.
+- Local roads, bridges, mills, quarries, beacons, and other points of interest.
+- Detailed jurisdictional boundaries and local political relationships where publicly known.
 
+### GM-only or discovery-gated
+- Secret routes, hidden sites, concealed identities, private holdings, and sensitive history.
+- The dwarven underground route to Dragonstone remains GM-only and must not appear in player-visible markers, overlays, notes, or map descriptions.
+- Secrets connected to House Relland's historical crime remain GM-only; do not expose the incident through a public map description.
 
-## App behavior note for Copilot
+## Tallowmere hierarchy
 
-The current atlas viewer supports marker selection and a separate **Explore within** child-map navigation list. Marker clicks currently select a marker; they do not yet navigate to a child map. To implement the intended Tallowmere drill-down without adding an unnecessary schema field:
+Tallowmere is on the northwestern shore of the central inland sea, at the mouth of the River Vale. Its current continental anchor is X=44%, Y=43%. This is a cartographic starting point, not a surveyed coordinate.
 
-- Give the Tallowmere marker a linked `campaign_locations` record.
-- Set the regional map's `parent_map_id` to the continent map and its `location_id` to the same Tallowmere location record.
-- Set the city map's `parent_map_id` to the regional map and its `location_id` to that same Tallowmere location record.
-- On marker activation, find a child map of the currently selected map whose `location_id` matches the marker's `location_id`; navigate to it when exactly one matching child with artwork exists. If none exists, retain normal marker selection/details behavior.
-- On the regional map, the city map appears as its child in the existing hierarchy navigation. A later extension can make the city drill-down clickable from the city marker on the regional map.
-- Preserve breadcrumbs so players can return from city → region → continent.
+Intended hierarchy:
+1. Continent map: major public places.
+2. Tallowmere regional map: nearby settlements, minor houses, roads, crossings, and natural landmarks.
+3. Tallowmere city map: districts, gates, streets, civic buildings, and local sites.
 
-The player-facing visibility chain must be valid at every level: continent map, regional map, city map, linked Tallowmere location, marker, and any player-visible overlays. The database already enforces that player-visible child maps require a player-visible parent map. A marker linked to a location is only visible if that location is also player-visible.
+The regional map should be a child map of Tallowmere's linked location. The city map should be a child of the regional map. Preserve breadcrumbs back to the continent.
+
+## Import notes
+
+The GM atlas importer creates missing locations and markers but leaves existing same-name markers unchanged. It also creates imported records as GM-only until visibility is explicitly reviewed and changed in the app. Re-importing this JSON will therefore not update existing markers with the same names; review or edit existing records separately if an earlier draft was already imported.
+
+The importer currently takes one marker description and uses it as the location description. It does not yet provide separate player-facing descriptions and GM-only notes through this JSON format. Keep sensitive lore out of marker descriptions until that importer capability is added.
+
+## Authority
+
+The continental artwork is the authoritative geographic reference. Its coastline and broad geographic features are fixed unless the GM explicitly approves a revision. Regional and city maps must fit the master atlas, not the other way around. See `continent_reference.md`.

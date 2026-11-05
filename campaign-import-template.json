@@ -1,0 +1,15 @@
+{
+  "format": "pathfinder-campaign-import",
+  "version": 1,
+  "title": "Campaign import",
+  "records": {
+    "locations": [],
+    "npcs": [],
+    "houses": [],
+    "house_relationships": [],
+    "factions": [],
+    "quests": [],
+    "sessions": [],
+    "journal_entries": []
+  }
+}

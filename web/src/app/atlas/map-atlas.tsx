@@ -602,7 +602,6 @@ export default function MapAtlas({
     setAtlasSyncStatus("");
     setAtlasSyncPreview(null);
     setConfirmAtlasRemovals(false);
-    setAtlasRollbackRunId("");
     try {
       const result = await previewCampaignAtlasSync(selectedMap.id);
       if (result.error || !result.plan || !result.signature) {

@@ -1,0 +1,19 @@
+{
+  "batch": "03R",
+  "status": "established",
+  "source": "campaign/religions/Religion_and_Faith.md",
+  "religious_institutions": [
+    {"id":"religious-open-ledger","name":"The Open Ledger","deity":"Abadar","type":"Temple / civic religious institution","description":"Local Abadaran institution emphasizing lawful trade, contracts, civic order, and fair procedure.","leader_npc_id":"npc-damas-orrel","location_id":"tallowmere"},
+    {"id":"religious-quiet-gate","name":"The Quiet Gate","deity":"Pharasma","type":"Temple / funerary religious institution","description":"Local Pharasmin institution emphasizing dignity for the dead, funerary rites, and care for the lost.","leader_npc_id":"npc-lethia-sorn","location_id":"tallowmere"},
+    {"id":"religious-establishment","name":"Religious Establishment","type":"Cross-faith political network","description":"Not a single church. Constituent faiths and institutions maintain separate hierarchies and can compete while cooperating on shared political interests."}
+  ],
+  "principles": [
+    "The Pathfinder pantheon is real within the setting.",
+    "Worship varies by region, culture, community, institution, and individual.",
+    "There is no single supreme religious authority governing all faiths across the continent.",
+    "Religious institutions can own land, receive donations, provide charity and education, preserve records, influence ceremonies, advise rulers, and shape public expectations.",
+    "Divine spellcasters are uncommon; religious authority does not automatically follow magical ability.",
+    "The exact mechanism by which divine power is granted or mediated remains unresolved.",
+    "The exact legal relationship between religious courts and secular courts remains unresolved."
+  ]
+}

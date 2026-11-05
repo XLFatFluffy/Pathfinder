@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import {
+  isCharacterPdfFormData,
+  type CharacterPdfFormData,
+} from "@/lib/character-pdf";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import CharacterPdfEditor from "./character-pdf-editor";
 
 export const dynamic = "force-dynamic";
 
@@ -19,7 +24,7 @@ export default async function CharacterPdfPage({
   const supabase = await createSupabaseServerClient();
   const { data: character, error } = await supabase
     .from("campaign_characters")
-    .select("id, name")
+    .select("id, name, character_pdf_form_data")
     .eq("campaign_id", member.campaign_id)
     .eq("id", characterId)
     .maybeSingle();
@@ -30,39 +35,23 @@ export default async function CharacterPdfPage({
   if (!character) {
     notFound();
   }
+  if (!isCharacterPdfFormData(character.character_pdf_form_data)) {
+    throw new Error("The saved character PDF form data is invalid.");
+  }
+  const formData: CharacterPdfFormData = character.character_pdf_form_data;
 
   return (
     <>
       <p className="eyebrow">Editable Pathfinder 1e sheet</p>
       <h2>{character.name}</h2>
       <p className="muted">
-        Fill in the PDF below. To keep your changes, use the PDF viewer&apos;s
-        save or download control; edits are saved to your device, not to this
-        campaign account.
+        Edit the original Pathfinder sheet here and save it to your campaign
+        account. Your changes will be available when you reopen this character.
       </p>
       <p className="muted">
         <Link href="/player/characters">Return to your characters</Link>
       </p>
-      <section className="entry-card canonical-pdf-card">
-        <p className="canonical-pdf-actions">
-          <a
-            className="button-link"
-            href="/pathfinder-character-sheet.pdf"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Open PDF in a full-page viewer
-          </a>
-          <a download href="/pathfinder-character-sheet.pdf">
-            Download a blank PDF
-          </a>
-        </p>
-        <iframe
-          className="canonical-pdf-viewer"
-          src="/pathfinder-character-sheet.pdf#view=FitH"
-          title={`Editable Pathfinder character sheet for ${character.name}`}
-        />
-      </section>
+      <CharacterPdfEditor characterId={character.id} initialFormData={formData} />
     </>
   );
 }

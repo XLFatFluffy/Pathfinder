@@ -2,9 +2,18 @@
 
 import { revalidatePath } from "next/cache";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import {
+  isCharacterPdfFormData,
+  type CharacterPdfFormData,
+} from "@/lib/character-pdf";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export type CharacterFormState = {
+  error?: string;
+  message?: string;
+};
+
+export type CharacterPdfFormSaveState = {
   error?: string;
   message?: string;
 };
@@ -13,6 +22,55 @@ function isUuid(value: string) {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(
     value,
   );
+}
+
+export async function savePlayerCharacterPdfFormData(
+  characterId: string,
+  formData: CharacterPdfFormData,
+): Promise<CharacterPdfFormSaveState> {
+  const member = await getCurrentCampaignMember();
+  if (!member || member.role !== "player") {
+    return { error: "Only a campaign player can edit their character sheet." };
+  }
+  if (!isUuid(characterId)) {
+    return { error: "Choose a valid character sheet." };
+  }
+  if (!isCharacterPdfFormData(formData)) {
+    return { error: "The character sheet contained invalid or oversized form data." };
+  }
+
+  const supabase = await createSupabaseServerClient();
+  const {
+    data: { user },
+    error: userError,
+  } = await supabase.auth.getUser();
+  if (userError) {
+    return { error: `Unable to verify your account: ${userError.message}` };
+  }
+  if (!user) {
+    return { error: "Sign in again before saving this character sheet." };
+  }
+
+  const { data, error } = await supabase
+    .from("campaign_characters")
+    .update({
+      character_pdf_form_data: formData,
+      updated_at: new Date().toISOString(),
+    })
+    .eq("campaign_id", member.campaign_id)
+    .eq("owner_user_id", user.id)
+    .eq("id", characterId)
+    .select("id")
+    .maybeSingle();
+
+  if (error) {
+    return { error: `Unable to save the character sheet: ${error.message}` };
+  }
+  if (!data) {
+    return { error: "The character sheet was not found in your account." };
+  }
+
+  return { message: "Character sheet saved to your campaign." };
 }
 
 export async function savePlayerCharacter(

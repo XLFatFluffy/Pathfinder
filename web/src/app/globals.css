@@ -464,21 +464,32 @@ h2 {
   margin-top: 0.25rem;
 }
 
-.canonical-pdf-actions {
+.character-sheet-controls {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem 1rem;
+  margin-bottom: 1rem;
 }
 
-.canonical-pdf-viewer {
-  background: #fff;
+.character-sheet-controls p {
+  margin: 0;
+}
+
+.character-sheet-canvas {
+  background: #ddd;
   border: 1px solid var(--border);
   border-radius: 0.45rem;
-  display: block;
   height: min(82vh, 68rem);
   min-height: 36rem;
-  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.pdfjs-viewer-container {
+  inset: 0;
+  overflow: auto;
+  position: absolute;
 }
 
 .gm-dashboard {

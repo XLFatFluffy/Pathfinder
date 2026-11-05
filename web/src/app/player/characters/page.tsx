@@ -27,10 +27,8 @@ export default async function PlayerCharactersPage() {
       <p className="eyebrow">Your player space</p>
       <h2>My characters</h2>
       <p className="muted">
-        Open the editable Pathfinder PDF for each character. Use the PDF
-        viewer&apos;s save or download control to keep a filled copy on your
-        device; filled PDFs are not stored in the campaign. Character records
-        and GM-only notes remain private to you and the GM.
+        Open a character to edit and save its Pathfinder sheet in the campaign.
+        Character records and GM-only notes remain private to you and the GM.
       </p>
       <p className="muted">
         <Link href="/player">Return to your campaign</Link>

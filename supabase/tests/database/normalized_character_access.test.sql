@@ -3,7 +3,7 @@ begin;
 create extension if not exists pgtap with schema extensions;
 set local search_path = public, extensions;
 
-select plan(14);
+select plan(17);
 
 insert into auth.users (id, aud, role, email)
 values
@@ -75,13 +75,21 @@ select is(
 update public.campaign_characters
 set
   background = 'Updated through the legacy sheet',
-  current_hp = 21
+  current_hp = 21,
+  character_pdf_form_data = '{"characterName":{"value":"Mira Ashford"}}'::jsonb
 where id = 'a0000000-0000-4000-8000-000000000001';
 select is(
   (select biography from public.campaign_character_identity
    where character_id = 'a0000000-0000-4000-8000-000000000001'),
   'Updated through the legacy sheet',
   'legacy biography updates continue to sync while the normalized record is legacy-sourced'
+);
+select is(
+  (select character_pdf_form_data->'characterName'->>'value'
+   from public.campaign_characters
+   where id = 'a0000000-0000-4000-8000-000000000001'),
+  'Mira Ashford',
+  'player can persist form values on their own character sheet'
 );
 select is(
   (select current_hp from public.campaign_character_combat
@@ -180,11 +188,32 @@ select throws_ok(
 
 reset role;
 set local role authenticated;
+select set_config('request.jwt.claim.sub', '10000000-0000-4000-8000-000000000003', true);
+update public.campaign_characters
+set character_pdf_form_data = '{"characterName":{"value":"Impersonated"}}'::jsonb
+where id = 'a0000000-0000-4000-8000-000000000001';
+select is(
+  (select count(*)::integer
+   from public.campaign_characters
+   where character_pdf_form_data <> '{}'::jsonb),
+  0,
+  'another player cannot read or overwrite a character PDF'
+);
+
+reset role;
+set local role authenticated;
 select set_config('request.jwt.claim.sub', '10000000-0000-4000-8000-000000000001', true);
 select is(
   (select count(*)::integer from public.campaign_character_skills),
   1,
   'GM can review a character skill from the campaign roster'
+);
+select is(
+  (select character_pdf_form_data->'characterName'->>'value'
+   from public.campaign_characters
+   where id = 'a0000000-0000-4000-8000-000000000001'),
+  'Mira Ashford',
+  'GM can review a player character PDF without exposing it to other players'
 );
 
 select * from finish();

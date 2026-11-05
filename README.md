@@ -51,13 +51,13 @@ changes through the GM workspace.
 ## Character sheets
 
 The player character list stores a character name, ancestry, class, and level
-for campaign organization. Open a character to use the editable Pathfinder
-character-sheet PDF. The app serves the supplied PDF unchanged, including its
-original licensing and copyright information. PDF form edits are not saved to
-Supabase; players must use the viewer's save/download control to keep a filled
-copy on their device. The old structured character fields and migrations remain
-stored for existing records, but are no longer part of the player or GM
-character UI. GM-only character notes remain available in the GM roster.
+for campaign organization. Open a character to edit the supplied Pathfinder
+character-sheet PDF in the app. Form values are saved to that character record
+and restored when it is reopened; the original PDF remains unchanged and is
+available as a blank download. The old structured character fields and
+migrations remain stored for existing records, but are no longer part of the
+player or GM character UI. GM-only character notes remain available in the GM
+roster.
 
 ## Development checks
 

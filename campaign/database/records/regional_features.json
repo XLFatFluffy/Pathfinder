@@ -1,0 +1,54 @@
+{
+  "status": "ESTABLISHED",
+  "source": "campaign/database/canonical_seed.json",
+  "records": [
+    {
+      "id": "river-vale",
+      "name": "River Vale",
+      "type": "River",
+      "description": "Principal inland route serving Tallowmere, descending from the western uplands through the farm country and into the harbor."
+    },
+    {
+      "id": "brackenwood",
+      "name": "Brackenwood",
+      "type": "Managed Woodland",
+      "description": "Worked woodland west of Tallowmere supplying fuel, poles, timber, game, and gathered plants."
+    },
+    {
+      "id": "greyback-ridges",
+      "name": "Greyback Ridges",
+      "type": "Low Hills",
+      "description": "Stony hills southwest of Tallowmere, with Stonehollow quarries on accessible eastern faces."
+    },
+    {
+      "id": "northfields",
+      "name": "Northfields",
+      "type": "Agricultural Region",
+      "description": "Open agricultural country north and northeast of Tallowmere with farms, orchards, pasture, hedgerows, and drainage hollows."
+    },
+    {
+      "id": "eastern-shore",
+      "name": "Eastern Shore",
+      "type": "Coast",
+      "description": "Irregular shore southeast of Tallowmere with low bluffs, coves, beaches, fishing landings, and salt-working places."
+    },
+    {
+      "id": "old-stone-bridge",
+      "name": "Old Stone Bridge",
+      "type": "Bridge",
+      "description": "Principal permanent river crossing within Tallowmere."
+    },
+    {
+      "id": "bellwater-pool",
+      "name": "Bellwater Pool",
+      "type": "River Landmark",
+      "description": "Deep, slow pool on the River Vale upstream of Millhaven, used by bargemen as a waiting and turning place."
+    },
+    {
+      "id": "saltwick-beacon",
+      "name": "Saltwick Beacon",
+      "type": "Beacon",
+      "description": "Modest shore beacon maintained by Saltwick boat-owning households as a navigation and storm-warning aid."
+    }
+  ]
+}

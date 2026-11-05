@@ -39,6 +39,13 @@ This file tracks major setting decisions and their status. It does not replace d
 | Legacy identities and names | APPROVED for reworking | The historical foundations are confirmed, but inherited labels such as Targaryen, Baratheon, Dragonstone, and Imperial Seat remain working names to be replaced with original identities. |
 | GM authority | ESTABLISHED | GM approves whether generated events become canon |
 
+
+## Tallowmere maps — 2026-11-05
+
+- **ESTABLISHED:** The GM-provided regional illustration **The Lands About Tallowmere** is the canonical visual reference for the broad relative geography immediately surrounding Tallowmere. Its placement of Tallowmere, River Vale, Millhaven, Fordmere, Brackenholt, Brackenwood, Stonehollow, Greyback Ridges, Northfields, Ashcombe Manor, Saltwick, Harthbridge, and the surrounding terrain is accepted as the campaign's working cartographic arrangement.
+- **ESTABLISHED:** The regional artwork is authoritative for relative direction, terrain arrangement, and settlement placement, but its printed 0–100 mile scale bar is **not** authoritative. The established written travel distances remain the source of truth until a properly scaled regional map is produced.
+- **UNRESOLVED:** The uploaded Tallowmere city map is not yet promoted to final visual canon. A prior audit found the broad city arrangement useful and largely consistent with established geography, but identified corrections needed to walls, the Underways, named landmarks and streets, coastline/river details, and the scale/presentation of Greywatch. Those corrections must be resolved before the city artwork becomes authoritative.
+
 ## Continuity rules
 
 1. **Originality:** The imported Bible retains names and historical scaffolding from Game of Thrones. New material must use original identities and substantially rework the underlying histories, not merely rename copied material.

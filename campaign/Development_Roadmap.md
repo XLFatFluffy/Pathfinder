@@ -52,6 +52,17 @@
 
 **Phase A exit condition:** calibrated major-place anchors, traced major roads, non-overlapping Great House border drafts, calibrated geographic overlays, and reviewed player-layer promotion.
 
+## Phase B — Political world operations (Nov 6)
+
+- Established the Imperial Council's operating rules, voting thresholds, quorum, protected settlement matters, emergency authority, and representative appointment/removal rules in `politics/Imperial_Governance_Operating_Framework.md`.
+- Established the operational distinction between Crown authority, Great House authority, vassal obligations, charter rights, and local jurisdiction.
+- Established a political escalation ladder for the Living World Engine.
+- Confirmed that the six Great Houses should be simulated as internal political networks rather than single undifferentiated actors.
+- Reconciled the Council record and open-question register so Council procedure is no longer an unresolved worldbuilding dependency.
+- The existing first continental minor-house network remains the canonical starting network; additional houses should be added only when they create a useful political or economic relationship.
+
+**Phase B status:** CORE POLITICAL OPERATING FRAMEWORK COMPLETE. Remaining detail is elective depth: wider family trees, additional retainers, historical precedents, and faction-network expansion as campaign relevance requires.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

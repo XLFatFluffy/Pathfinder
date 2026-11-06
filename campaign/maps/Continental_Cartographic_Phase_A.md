@@ -177,3 +177,8 @@ The GM-exported coordinate patch was merged by stable marker `source_id` into th
 ## GM route review decision — 2026-11-06
 
 The GM approved the six route overlays at their current cartographic level of detail. The Northern Road's final approach to Dragonstone visually misses the natural landbridge at this scale; interpret it as crossing the landbridge. Do not infer a sea crossing, redraw the authoritative geography, or treat the small visual offset as a canon contradiction. The route overlays are player-visible. Political and geographic polygon geometry remains pending.
+
+
+## Geographic overlay draft pass — 2026-11-06
+
+Added thirteen GM-only illustrative geographic polygons based on visible terrain and coastlines in `continent_atlas.png`. These are broad regional extents, not exact surveyed boundaries. They are intentionally independent of political ownership and may overlap one another. The Central Inland Sea overlay identifies the waterbody without modifying its authoritative coastline. All shapes remain player-hidden pending GM review. Political and maritime polygons remain unresolved and were not invented.

@@ -245,3 +245,20 @@ The party is not assumed to be heroic. The surviving heir of the fallen dragon-r
 The PCs arrive in Tallowmere at the start of Session One. Treat them as newcomers to the city unless later backstory material explicitly establishes a prior visit or connection. They already know one another; do not stage their first meeting as strangers. Their familiarity with the wider world should be based on ancestry, upbringing, education, and supplied backstories, not on assumed local knowledge of Tallowmere. The city's established public-facing framework is in the dedicated Tallowmere records. The exact first-session scene, arrival circumstances, campaign date, and immediate reason for coming to Tallowmere remain to be established.
 
 Player character sheets and detailed backstories are pending. Do not assign starting cash, equipment, magic items, heirlooms, or additional personal knowledge until the relevant character sheets and backstories are received and reviewed.
+
+
+## Continental minor houses and regional powers — 2026-11-06
+
+- Added `campaign/world_engine/Continental_Minor_Houses_and_Regional_Powers.md` under the GM's explicit delegation to create the NPCs, minor houses, and factions needed for a living setting.
+- Established two banner houses in the Northern Marches, one in the Western Highlands, two in the Western Heartlands, one Crown vassal, one dwarven clan actor, one Merrowen banner house, and four independent southern powers.
+- Created the Longmead boundary dispute between Houses Harrowden and Wrenford as a low-intensity customary grazing/woodland rights dispute. No violence, seizure, or exact border geometry is established.
+- Added the new actors to the Living World actor index and the Longmead dispute to the initial issue register.
+- Updated the current world-state and names index. No exact coordinates, troop counts, treasury figures, or political polygons were invented.
+- The campaign remains at 1 Harvestfall, 243 AC. The first world turn has not been run.
+
+
+## Continental Minor Houses and Regional Powers — 2026-11-06
+
+The first additional network of minor houses and independent regional powers is established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`. It includes banner houses in the Veyr, Vaelorian, Edarth, and Merrowen spheres; a Crown vassal; a dwarven clan within the Kharadorn union; and independent powers in the Southern Reaches. Exact holdings remain unmapped. The only new active dispute is the low-intensity Longmead customary boundary case between Houses Harrowden and Wrenford in the Western Heartlands. No armed conflict is underway.
+
+The campaign remains at **1 Harvestfall, 243 AC**. No first world turn has been run.

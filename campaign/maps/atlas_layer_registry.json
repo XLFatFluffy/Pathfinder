@@ -1,14 +1,14 @@
 {
   "format": "pathfinder-atlas-layer-registry",
   "schema_version": 1,
-  "status": "PHASE_A_ROUTES_APPROVED_GEOGRAPHIC_DRAFTS_PENDING_GM_REVIEW_POLITICAL_AND_MARITIME_GEOMETRY_PENDING",
+  "status": "ROUTES_APPROVED_GEOGRAPHIC_DRAFTS_PENDING_GM_REVIEW_POLITICAL_AND_MARITIME_GEOMETRY_UNRESOLVED",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "authority": {
     "master_map": "campaign/maps/continent_atlas.png",
     "master_reference": "campaign/maps/continent_reference.md",
     "overlay_standards": "campaign/maps/atlas_overlay_standards.md",
     "rule": "All subordinate geometry must fit the authoritative continental artwork. Never infer sovereignty from terrain, trade, cultural identity, or maritime reach.",
-    "geometry_policy": "No polygon or line coordinates are supplied where boundaries or exact courses remain unresolved. Records in this registry are planning/canon records, not a live import layer.",
+    "geometry_policy": "The live player layer contains approved public markers and six GM-approved routes. Thirteen illustrative geographic drafts are stored there with player_visible=false pending GM review. Political and maritime polygons remain null until supported by explicit canon; no borders may be inferred from broad territorial descriptions alone.",
     "political_authority_register": "campaign/maps/continental_political_authority_register.md"
   },
   "layer_categories": [

@@ -255,3 +255,11 @@
 - Added `campaign/Table_Side_GM_Support_Protocol.md`, documenting the assistant's role during live play, rules support, encounter construction, improvisation, state tracking, and post-session repository updates.
 - Added `campaign/creatures/Regional_Occurrence_Template.md` to track regional creature evidence without turning a single sighting into an unsupported population claim.
 - Updated campaign and creature indexes and the development roadmap. The GM remains final authority; proposed improvisations are not canon until approved.
+
+
+## 2026-11-06 - Living World Engine and Tallowmere ecology foundation
+
+- Added `campaign/Living_World_Engine.md`, a GM-reviewed framework for autonomous actors, ongoing issues, projects, events, time advancement, political and economic consequences, succession, border disputes, and player agency.
+- Added `campaign/world_engine/Actor_Register.md` and `Initial_Issue_Register.md`. The issue register records the seven existing Tallowmere pressures from the Session One GM Readiness Packet without inventing causes, secret connections, or outcomes.
+- Added `campaign/creatures/Tallowmere_Regional_Ecology.md`, documenting established habitats and ecological constraints while keeping unapproved species and populations unconfirmed.
+- Updated campaign and creature indexes and the development roadmap. No assassination, active border war, new political claim, or regional monster population has been established by this work.

@@ -1,6 +1,8 @@
 # Tallowmere — Session One GM Readiness Packet
 
-**Prepared:** 2026-11-04 | **Target session:** Sunday, 2026-11-08  
+**Prepared:** 2026-11-06 | **Target session:** Sunday, 2026-11-08  
+**In-world date:** 1 Harvestfall, 243 AC  
+**Player handout:** [Player Starting Handout](../../player_materials/Player_Starting_Handout.md)
 **System:** Pathfinder First Edition | **Format:** Sandbox after the introductory arrival  
 **Status:** GM running packet. Encounter mechanics remain provisional until character sheets and companion build are available.
 
@@ -153,6 +155,7 @@ When several days pass, update negotiations, deliveries, stock, and NPC activity
 
 ## 12. Final Pre-Session Checklist
 
+- [ ] Distribute and review the [Player Starting Handout](../../player_materials/Player_Starting_Handout.md). 
 - [ ] Obtain both completed PC sheets and confirm starting level.
 - [ ] Confirm companion identity, role, statistics, and equipment; do not rely on CR estimate alone.
 - [ ] Reassess or replace the troll encounter for the actual group.
@@ -162,6 +165,7 @@ When several days pass, update negotiations, deliveries, stock, and NPC activity
 - [ ] Confirm whether Selwick is personally available on arrival.
 - [ ] Use the city map if ready; otherwise rely on established relative geography, not invented precise distances.
 - [ ] Keep the first city scene open and ask what the PCs want to do after the introduction.
+- [ ] Record the in-world date as 1 Harvestfall, 243 AC; advance it consistently during play.
 - [ ] Track time, purchases, stock, injuries, wages, and promises consistently.
 
 ## 13. Detailed Reference Records

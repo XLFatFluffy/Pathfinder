@@ -1,6 +1,6 @@
 # Continent Atlas Player Layer
 
-**Status:** Curated draft with calibrated major-place coordinates and six route drafts for GM review  
+**Status:** Calibrated major-place coordinates and six GM-approved public routes; thirteen GM-only geographic drafts pending review  
 **Parent map:** `campaign/maps/continent_atlas.png`  
 **Coordinate convention:** normalized image coordinates; X=0 at left, Y=0 at top; north is up.
 
@@ -16,24 +16,24 @@ The JSON contains 15 major-place markers and six route overlays. The route lines
 - **Other major fortified or strategic places:** Greywatch, Deepwatch, and Eastwatch.
 - **Major ports:** Tallowmere, Ironharbor, Deltaport, Stormhaven, and Duskport.
 
-All 15 are intended as public-knowledge locations, subject to GM review of placement and wording. The 15 coordinates were merged from the GM atlas export dated 2026-11-06 and visually reviewed against the authoritative artwork. They remain normalized artwork positions, not surveyed geographic coordinates.
+All 15 major-place markers are approved as public-knowledge locations. Their coordinates are normalized artwork positions, not surveyed geographic coordinates. The 15 coordinates were merged from the GM atlas export dated 2026-11-06 and visually reviewed against the authoritative artwork. They remain normalized artwork positions, not surveyed geographic coordinates.
 
 ## Route overlays
 
-Six route overlays are now drafted in the live layer: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. The five overland lines connect major places through broad terrain corridors; the Inland Sea Route remains a maritime line. These are editable draft courses and should receive GM review in the app before final campaign use.
+Six route overlays are approved and player-visible: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. The five overland lines connect major places through broad terrain corridors; the Inland Sea Route remains a maritime line. They are cartographic shorthand, not surveyed road alignments. The Northern Road's approach to Dragonstone is understood to cross the natural landbridge despite the small visual offset.
 
 ## Overlay decision
 
 The previous seven polygon drafts have been removed from the import layer. They mixed political spheres, geographic regions, maritime influence, and the fragmented Southern Reaches. Several Great House polygons overlap. Because exact borders are unresolved, those overlaps must not be presented as sovereign territorial claims or silently explained as wars.
 
-No political or geographic polygons have been promoted. The route overlays are separate line features and do not imply territorial ownership. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
+No political polygons have been created. Thirteen broad geographic polygons are present as GM-only drafts and have not been promoted to player visibility. The route overlays are separate line features and do not imply territorial ownership. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
 
 - Political territories: distinct, adjoining, and non-overlapping unless a specific disputed claim or war is approved as canon.
 - Geographic regions: may cross political borders and should use a separate visual treatment.
 - Maritime influence: a sea-based influence or naval sphere, not land sovereignty over every shore.
 - Southern Reaches: three distinct broad zones (Southwestern Marches, Southern Principalities, Southern Islands), with fragmented political authority rather than one unified realm.
 
-The absence of overlays is deliberate. An honest unfinished map is better than a confident map that accidentally starts three wars.
+The absence of political and maritime overlays is deliberate. Thirteen geographic region drafts exist in the repository layer with `player_visible:false`; they are broad illustrative extents pending GM review, not approved boundaries. An honest unfinished map is better than a confident map that accidentally starts three wars.
 
 ## Player knowledge and discovery
 
@@ -56,7 +56,7 @@ The absence of overlays is deliberate. An honest unfinished map is better than a
 
 ## Tallowmere hierarchy
 
-Tallowmere is on the northwestern shore of the central inland sea, at the mouth of the River Vale. Its current GM-saved continental anchor is X=47.0993%, Y=29.3538%; Dragonstone's is X=58.4224%, Y=38.1772%. These normalized image positions were copied from Supabase on 2026-11-06 and remain pending visual review. They are cartographic positions, not surveyed coordinates.
+Tallowmere is on the northwestern shore of the central inland sea, at the mouth of the River Vale. Its current GM-saved continental anchor is X=47.0993%, Y=29.3538%; Dragonstone's is X=58.4224%, Y=38.1772%. These normalized image positions were copied from Supabase on 2026-11-06 and visually reviewed against the authoritative artwork. They are cartographic positions, not surveyed coordinates.
 
 Intended hierarchy:
 1. Continent map: major public places.

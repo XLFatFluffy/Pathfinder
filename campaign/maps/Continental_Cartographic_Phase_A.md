@@ -1,6 +1,6 @@
 # Phase A — Continental Cartographic Completion
 
-**Status:** MAJOR-PLACE COORDINATES CALIBRATED; SIX ROUTES DRAFTED; POLITICAL AND GEOGRAPHIC POLYGONS PENDING  
+**Status:** MAJOR-PLACE COORDINATES CALIBRATED; SIX ROUTES APPROVED; THIRTEEN GEOGRAPHIC DRAFTS PENDING GM REVIEW; POLITICAL AND MARITIME GEOMETRY UNRESOLVED  
 **Date:** 2026-11-06  
 **Authority:** GM-approved canon in the campaign repository
 
@@ -164,19 +164,19 @@ The repository now treats the continental map as a **calibration-and-tracing tas
 
 ## Overlay set created
 
-Phase A now has a dedicated GM-only overlay registry at `campaign/maps/continental_overlay_registry.json`. It classifies every continental overlay into political, geographic, maritime, and route categories and assigns stable source IDs. The registry retains null geometry for unresolved political, geographic, and maritime polygons. The six established route courses have now been drafted against the authoritative artwork and saved as editable polylines, pending GM review. This prevents the atlas from turning broad canon into invented borders or routes.
+Phase A now has a dedicated GM-only overlay registry at `campaign/maps/continental_overlay_registry.json`. It classifies every continental overlay into political, geographic, maritime, and route categories and assigns stable source IDs. The registry retains null geometry for unresolved political and maritime polygons. Thirteen broad geographic polygons are stored as GM-only illustrative drafts. The six established route courses are approved and player-visible as editable polylines. This prevents the atlas from turning broad canon into invented borders or routes.
 
 The overlay registry is not a player synchronization layer. Once geometry is traced and reviewed, approved records can be promoted into `atlas_player_layer.json` using the existing app-supported `region` and `route` overlay types.
 
 
 ## 2026-11-06 coordinate and route pass
 
-The GM-exported coordinate patch was merged by stable marker `source_id` into the 15 continental major-place records. The positions were visually reviewed against the 1,161 × 1,355 authoritative image. Six established route overlays were drafted as editable normalized polylines: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. These routes connect established major places and follow broad land/sea corridors, but are not surveyed road courses. They remain subject to GM review. No political borders, geographic region polygons, or maritime influence polygons were invented or promoted; their geometry remains unresolved.
+The GM-exported coordinate patch was merged by stable marker `source_id` into the 15 continental major-place records. The positions were visually reviewed against the 1,161 × 1,355 authoritative image. Six established route overlays were drafted as editable normalized polylines: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. The GM approved these routes for player visibility. They connect established major places and follow broad land/sea corridors, but are not surveyed road courses. Thirteen broad geographic overlays have been drafted and remain GM-only pending review. No political borders or maritime influence extents were invented.
 
 
 ## GM route review decision — 2026-11-06
 
-The GM approved the six route overlays at their current cartographic level of detail. The Northern Road's final approach to Dragonstone visually misses the natural landbridge at this scale; interpret it as crossing the landbridge. Do not infer a sea crossing, redraw the authoritative geography, or treat the small visual offset as a canon contradiction. The route overlays are player-visible. Political and geographic polygon geometry remains pending.
+The GM approved the six route overlays at their current cartographic level of detail. The Northern Road's final approach to Dragonstone visually misses the natural landbridge at this scale; interpret it as crossing the landbridge. Do not infer a sea crossing, redraw the authoritative geography, or treat the small visual offset as a canon contradiction. The route overlays are player-visible. Thirteen geographic polygons remain GM-only illustrative drafts pending GM review. Political and maritime polygon geometry remains unresolved.
 
 
 ## Geographic overlay draft pass — 2026-11-06
@@ -187,3 +187,8 @@ Added thirteen GM-only illustrative geographic polygons based on visible terrain
 ## Political authority register — 2026-11-06
 
 Created `continental_political_authority_register.md` from the approved territorial framework, current world state, continental minor-house network, and Tallowmere jurisdiction register. It distinguishes Great House broad territories, minor-house banner holdings, direct Crown vassalage, independent southern powers, local charters, customary rights, and maritime influence. It explicitly preserves unresolved borders and prevents rights or liege relationships from being mistaken for continuous sovereign territory. No political polygons were created in this pass.
+
+
+## Geographic overlay calibration update — 2026-11-06
+
+Reviewed the thirteen existing geographic drafts against the authoritative 1,161 × 1,355 artwork. They remain GM-only illustrative extents, not surveyed boundaries or exclusive zones. The Central Inland Sea outline was refined to follow the visible basin more closely; it does not alter or replace the authoritative coastline, island, or natural landbridge. Other regional extents remain broad draft outlines pending GM review. No political borders or maritime influence limits were inferred.

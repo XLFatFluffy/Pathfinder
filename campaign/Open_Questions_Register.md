@@ -60,7 +60,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 - What final cartographic dimensions and scale should be used after the revised map is generated? Working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west; the old scale bar is superseded.
 - What are the final original names for the continent, inland sea, Dragonstone, land bridge, mountain systems, rivers, and major regions?
 - What are the exact borders, coordinates, and local jurisdictions within the approved Stage 5 territorial framework? The six principal seats and broad territorial spheres are established.
-- How many minor houses exist, what are their names and holdings, and to whom does each owe allegiance? Minor houses are established as wealthy local lords and ladies with small territories but little continent-wide political significance.
+- What is the full number and distribution of minor houses? The first network is now established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`, including banner houses, a Crown vassal, a dwarven clan, and independent southern powers. Additional holdings and exact borders remain open.
 - What are the precise route, entrances, extent, and construction history of the dwarven underground tunnel system to Dragonstone? Which dwarves know of it? **GM-ONLY SECRET:** The system exists; the rest of the world does not know.
 - What are the final locations of major rivers, lakes, roads, ports, cities, and independent territories?
 
@@ -94,10 +94,10 @@ Still to develop:
 - Exact population breakdown, including seasonal residents and surrounding settlements.
 - Detailed charter wording, council membership and procedures, tax schedule, court practices, watch strength, and garrison numbers.
 - Named leaders and full membership of the guilds and merchant families.
-- Ratfolk neighborhood names, local meeting structure, population, and named community figures beyond the initial contacts.
+- Exact Underways neighborhood names, population, local meeting place, surface access points, and the precise extent of the wider ratfolk network. Four informal networks and seven named contacts are now established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`.
 - Specific temples, represented deities, clergy, holy days, and religious disagreements.
 - Named criminal operators, groups, safehouses, and particular illicit markets.
-- The city's current events and the PCs' opening situation.
+- The initial city pressures and rumor list are established in `Current_Situation_and_Rumors.md`; the GM truth behind the initial rumors is recorded in `world_engine/Tallowmere_Rumor_Truth_Register.md`. The PCs' opening is provisionally the troll attack on Selwick & Company; encounter balance remains pending character sheets and companion build.
 
 
 ## Tallowmere — Updated Remaining Development (2026-11-04)
@@ -108,11 +108,11 @@ The relative city layout, gates and defenses framework, surrounding regional str
 - Exact population breakdown, including seasonal residents and surrounding settlements.
 - Detailed charter wording, council membership and procedures, tax schedule, court practices, watch strength, and garrison numbers.
 - Named guild leaders beyond the initial cast, merchant families, and specific guild privileges.
-- Ratfolk neighborhood names, local meeting structure, population, and additional community figures.
+- Exact Underways neighborhood names, population, local meeting place, surface access points, and the precise extent of the wider ratfolk network. Four informal networks and seven named contacts are established in `Ratfolk_Community_Networks_and_NPCs.md`.
 - Specific temples, represented deities, clergy, holy days, and religious disagreements.
 - Named criminal operators, groups, safehouses, and particular illicit markets.
 - The proper name of the surrounding region, settlement names, distances, population, land tenure, minor houses, and specific wilderness sites.
-- The truth behind current rumors, the exact identity of any merchant consortium, and the specific Kharadorn envoy.
+- The identity behind the Rivergate property inquiries, the lost-ship sighting, warehouse-fire causes, and the noble magical-services rumor remain unresolved. The initial rumor truth register records established truth and protected unknowns; no additional Kharadorn envoy is currently scheduled.
 - The PCs' precise arrival point and the final NPCs they meet; the campaign date is now established in `history/Calendar.md`.
 
 

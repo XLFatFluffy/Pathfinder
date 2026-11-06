@@ -42,6 +42,9 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 
 - [Continental Project Register](Continental_Project_Register.md) records the first active and proposed projects beyond Tallowmere.
 
+### Crown intelligence and information operations
+- [Crown Intelligence and Information Operations](../politics/Crown_Intelligence_and_Information_Operations.md) defines a conservative information-handling model for Royal Spymaster Nerys Vale. It adds no agents, operations, or omniscient access.
+
 ### Seasonal conditions and agricultural cycles
 - [Seasonal Conditions and Agricultural Cycles](Seasonal_Conditions_and_Agricultural_Cycles.md) provides a cautious weather, agriculture, travel, trade, and logistics framework. It does not assign weather to calendar months or create current weather events.
 

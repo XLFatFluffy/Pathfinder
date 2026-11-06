@@ -1,11 +1,22 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import JournalEntryForm from "./journal-entry-form";
 
 export const dynamic = "force-dynamic";
 
-export default async function GmPage() {
+const JOURNAL_PAGE_SIZE = 50;
+
+export default async function GmPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string | string[] }>;
+}) {
+  const { page: pageParam } = await searchParams;
+  const parsedPage = typeof pageParam === "string" ? Number(pageParam) : 1;
+  const requestedPage =
+    Number.isSafeInteger(parsedPage) && parsedPage >= 1 ? parsedPage : 1;
   const member = await getCurrentCampaignMember();
   if (!member) {
     return null;
@@ -14,7 +25,7 @@ export default async function GmPage() {
   const supabase = await createSupabaseServerClient();
   const [
     { data: campaign, error },
-    { data: entries, error: entriesError },
+    { count: journalEntryCount, error: journalCountError },
     locationsResult,
     npcsResult,
     housesResult,
@@ -32,10 +43,8 @@ export default async function GmPage() {
       .single(),
     supabase
       .from("campaign_journal_entries")
-      .select("id, title, content, campaign_date, player_visible, created_at")
-      .eq("campaign_id", member.campaign_id)
-      .order("created_at", { ascending: false })
-      .limit(100),
+      .select("id", { count: "exact", head: true })
+      .eq("campaign_id", member.campaign_id),
     supabase
       .from("campaign_locations")
       .select("id", { count: "exact", head: true })
@@ -80,8 +89,10 @@ export default async function GmPage() {
   if (error) {
     throw new Error(`Unable to load the campaign: ${error.message}`);
   }
-  if (entriesError) {
-    throw new Error(`Unable to load campaign journal entries: ${entriesError.message}`);
+  if (journalCountError) {
+    throw new Error(
+      `Unable to count campaign journal entries: ${journalCountError.message}`,
+    );
   }
   if (latestSessionsError) {
     throw new Error(`Unable to load recent sessions: ${latestSessionsError.message}`);
@@ -100,6 +111,26 @@ export default async function GmPage() {
   if (failedCount?.[1].error) {
     throw new Error(
       `Unable to load campaign ${failedCount[0]} count: ${failedCount[1].error.message}`,
+    );
+  }
+  const pageCount = Math.max(
+    1,
+    Math.ceil((journalEntryCount ?? 0) / JOURNAL_PAGE_SIZE),
+  );
+  if (requestedPage > pageCount) {
+    redirect(pageCount === 1 ? "/gm" : `/gm?page=${pageCount}`);
+  }
+  const journalStart = (requestedPage - 1) * JOURNAL_PAGE_SIZE;
+  const { data: entries, error: entriesError } = await supabase
+    .from("campaign_journal_entries")
+    .select("id, title, content, campaign_date, player_visible, created_at")
+    .eq("campaign_id", member.campaign_id)
+    .order("created_at", { ascending: false })
+    .order("id", { ascending: false })
+    .range(journalStart, journalStart + JOURNAL_PAGE_SIZE - 1);
+  if (entriesError) {
+    throw new Error(
+      `Unable to load campaign journal entries: ${entriesError.message}`,
     );
   }
   const counts = [
@@ -168,7 +199,18 @@ export default async function GmPage() {
       </section>
       <JournalEntryForm />
       <section className="entry-list" aria-labelledby="journal-heading">
-        <h3 id="journal-heading">Campaign journal</h3>
+        <div className="section-heading">
+          <div>
+            <h3 id="journal-heading">Campaign journal</h3>
+            <p className="muted">{journalEntryCount ?? 0} entries</p>
+          </div>
+          {journalEntryCount ? (
+            <span className="muted">
+              Showing {journalStart + 1}-{journalStart + entries.length} of{" "}
+              {journalEntryCount}
+            </span>
+          ) : null}
+        </div>
         {entries.length ? (
           entries.map((entry) => (
             <article className="entry-card" key={entry.id}>
@@ -187,6 +229,27 @@ export default async function GmPage() {
         ) : (
           <p className="muted">No cloud journal entries yet.</p>
         )}
+        {pageCount > 1 ? (
+          <nav className="journal-pagination" aria-label="Campaign journal pages">
+            {requestedPage > 1 ? (
+              <Link
+                href={requestedPage === 2 ? "/gm" : `/gm?page=${requestedPage - 1}`}
+              >
+                Newer entries
+              </Link>
+            ) : (
+              <span aria-hidden="true" />
+            )}
+            <span className="muted">
+              Page {requestedPage} of {pageCount}
+            </span>
+            {requestedPage < pageCount ? (
+              <Link href={`/gm?page=${requestedPage + 1}`}>Older entries</Link>
+            ) : (
+              <span aria-hidden="true" />
+            )}
+          </nav>
+        ) : null}
       </section>
     </>
   );

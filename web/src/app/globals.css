@@ -435,6 +435,28 @@ h2 {
   margin-top: 0;
 }
 
+.journal-pagination {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.journal-pagination a {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  min-height: 2.5rem;
+  padding: 0.45rem 0.8rem;
+  text-decoration: none;
+}
+
+.journal-pagination a:hover {
+  background: var(--surface-strong);
+}
+
 .entry-card {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.32), rgba(244, 235, 223, 0.9));
   border: 1px solid var(--border);

@@ -53,3 +53,21 @@ These goals can intersect, reinforce one another, or eventually conflict. Do not
 - Do not determine how a PC pursues their ambition. The goal is established; the methods belong to the player.
 - The GM will provide the vampire PC's backstory and the other PC's backstory when received. Incorporate those details faithfully.
 - The setting may contain relevant factions, institutions, historical events, and social structures that create opportunities or obstacles for these ambitions, but do not predetermine the PCs' choices.
+
+
+## 6. Clarification: The Vampire's Restoration Programme
+
+**ESTABLISHED PLAYER INTENT:** The vampire PC does not merely possess a possible hereditary claim. He intends to take up the mantle of the fallen dragon-riding dynasty, restore his house, and rebuild it to its former glory, authority, and power.
+
+His strategic ambition includes:
+- Re-establishing the fallen dynasty and reclaiming the throne taken from his family.
+- Accumulating wealth, political influence, allies, and military strength as the immediate, practical work toward restoration.
+- Reclaiming Dragonstone, his dynasty's ancestral stronghold, which is now held by House Kharadorn.
+- Eventually confronting House Kharadorn, whose leadership was instrumental in the Great Rebellion and whose power is tied to the loss of the dynasty's ancestral seat.
+- Restoring the dynasty as a major ruling power, not merely preserving its name or securing a symbolic title.
+
+**Current approach:** For now, he is building wealth and power. This is preparation for the long-term restoration, not a change or abandonment of that goal. The player has not yet specified the exact methods, allies, timetable, or political and military strategy. Those remain player decisions.
+
+**Terminology:** “Targaryen” is the player's/legacy source label for the fallen dynasty. The final official in-world name remains unresolved in the campaign's naming records. Likewise, House Baratheon is a superseded legacy label; the current setting counterpart relevant to the rebellion and Dragonstone is House Kharadorn. Preserve the player's intended dynastic restoration while using current campaign canon names in setting-facing records.
+
+The character is not required to be heroic or benevolent in pursuit of this ambition. His vampire template and alignment do not dictate his personality, values, or chosen methods.

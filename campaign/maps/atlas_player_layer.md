@@ -90,3 +90,8 @@ For another map, add a corresponding layer object with a unique `map_source_id`,
 ## Authority
 
 The continental artwork is the authoritative geographic reference. Its coastline and broad geographic features are fixed unless the GM explicitly approves a revision. Regional and city maps must fit the master atlas, not the other way around. See `continent_reference.md`.
+
+
+## Geographic region draft overlays — 2026-11-06
+
+Thirteen geographic overlays have been added as GM-only illustrative polygons: Northern Wilderness; Northern Mountain and Forest Systems; Western Highlands; Western Forests; Western Heartlands; Central Plains; Central Inland Sea; Northeastern Mountain System; Eastern Forests; Eastern River Delta; Southwestern Marches; Southern Principalities; and Southern Islands. They are broad cartographic regions traced against the authoritative artwork, not surveyed boundaries. Geographic overlays may overlap one another and may cross future political borders. The Central Inland Sea polygon identifies the waterbody; it does not alter the authoritative coastline. All thirteen remain hidden from players pending GM review.

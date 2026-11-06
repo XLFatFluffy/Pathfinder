@@ -48,7 +48,7 @@
 - Established the continental road network as five major overland corridors plus the Inland Sea Route.
 - Established the Great House border-drafting order and non-overlap rules.
 - Kept exact road courses, political polygons, and unsurveyed coordinates out of the live player layer until calibrated against the authoritative artwork.
-- **Current blocker:** the repository connector can read the map asset's metadata and path but does not expose its raster pixels for visual tracing in this workflow. Do not fabricate geometry to compensate. When artwork pixels are available to the cartographic workflow, trace and review the established routes and border drafts, then promote only approved geometry.
+- **Current status:** major-place anchors are calibrated, six route overlays are GM-approved and player-visible, and thirteen broad geographic region polygons have been drafted against the authoritative artwork. The geographic polygons remain GM-only pending review. Exact Great House borders and maritime influence geometry remain outstanding; do not infer sovereignty from terrain alone.
 
 **Phase A exit condition:** calibrated major-place anchors, traced major roads, non-overlapping Great House border drafts, calibrated geographic overlays, and reviewed player-layer promotion.
 

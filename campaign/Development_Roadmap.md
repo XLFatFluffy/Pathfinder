@@ -181,3 +181,8 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Established four decentralized ratfolk networks and seven named contacts in Tallowmere.
 - **Next before first world turn:** finish any necessary starting-state details, verify the actor/issue/project indexes, and prepare a baseline opening snapshot for 1 Harvestfall, 243 AC. Do not advance the calendar for this first snapshot.
 - **Session-critical external dependencies:** completed character sheets, final companion approval/build, and route choice are still needed to finalize the troll encounter. These do not block the wider campaign's worldbuilding.
+
+
+## Campaign launch readiness checkpoint — 2026-11-06
+
+The core setting, starting region, political actors, first minor-house network, feudal framework, local and continental issues/projects, rumor truth register, ratfolk community networks, calendar, event ledger, and world-turn ledger are ready for the opening baseline turn. See `Worldbuilding_Readiness.md`. The campaign opens on 1 Harvestfall, 243 AC. The first world turn is an opening snapshot and must not advance the calendar. Session One combat balance remains pending the actual PC sheets and companion build.

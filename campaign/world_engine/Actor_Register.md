@@ -42,6 +42,9 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 
 - [Continental Project Register](Continental_Project_Register.md) records the first active and proposed projects beyond Tallowmere.
 
+### Military institutions and obligations
+- [Continental Military Institutions and Operational Doctrine](../military/Continental_Military_Institutions_and_Operational_Doctrine.md) consolidates established military facts and proposes a conservative Living World Engine procedure. It does not assign force totals, new commanders, or active mobilizations; treat it as a GM framework proposal until approved.
+
 ### Law and landed obligations
 - [Feudal Law, Land Tenure, and Noble Obligations](../politics/Feudal_Law_and_Landed_Obligations.md) provides the working framework for homage, inheritance, jurisdiction, courts, customary rights, and vassal consequences. Specific charters and local customs override general assumptions where documented.
 

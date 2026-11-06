@@ -272,3 +272,10 @@
 - Expanded Initial_Issue_Register.md with named established participants, known positions, unknowns, possible paths, and regional friction points. Confirmed no active territorial border war or named-house border dispute in the starting region.
 - Added Initial_Project_Register.md for the existing harbor-defense review, warehouse safety effort, ratfolk market-access advocacy, harbor allocation, harvest monitoring, and Denvor defense deliberations.
 - Updated actor, campaign, local-location, and roadmap indexes. No new houses, border geometry, troop counts, debts, secret conspiracies, or political outcomes were invented.
+
+
+## 2026-11-06 — Great House simulation and world-turn templates
+
+- Added campaign/world_engine/Great_House_Actor_Dossiers.md, consolidating established strategic agendas, internal tensions, relationships, leverage, and constraints for all six Great Houses.
+- Added World_Event_Record_Template.md and World_Turn_Report_Template.md for consistent event history and GM-reviewed time advancement.
+- Established that no world turn has yet been run; campaign date remains 1 Harvestfall, 243 AC. No assassination, new war, or new Great House project was introduced.

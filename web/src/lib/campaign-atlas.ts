@@ -2,6 +2,7 @@ import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export type CampaignAtlasMap = {
   id: string;
+  map_source_id: string | null;
   name: string;
   map_type: string;
   description: string;
@@ -31,7 +32,7 @@ export async function getCampaignAtlasData(
       supabase
         .from("campaign_maps")
         .select(
-          "id, name, map_type, description, parent_map_id, location_id, artwork_path, player_visible",
+          "id, source_id, name, map_type, description, parent_map_id, location_id, artwork_path, player_visible",
         )
         .eq("campaign_id", campaignId)
         .order("name"),
@@ -52,6 +53,7 @@ export async function getCampaignAtlasData(
   return {
     maps: maps.map((map) => ({
       id: map.id,
+      map_source_id: map.source_id,
       name: map.name,
       map_type: map.map_type,
       description: map.description,

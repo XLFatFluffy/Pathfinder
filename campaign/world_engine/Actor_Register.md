@@ -45,7 +45,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 - Do not infer undocumented liege chains, borders, armies, or political alliances.
 
 ### Communities and institutions
-- Decentralized ratfolk neighborhoods and households, including distinct mediators, traders, couriers, and other named NPCs.
+- [Tallowmere Ratfolk Community Networks and NPCs](../locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md) documents four informal networks and seven named contacts; no single leader represents all ratfolk.
 - Religious and civic institutions listed in the starting-city records.
 - Regional settlements and their local communities.
 - Guilds, companies, and the Chartered Council are actors only within their documented authority and membership.

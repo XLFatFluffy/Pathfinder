@@ -30,6 +30,8 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-017 | P1 | Greywatch naming | Are the Veyr-associated northern Greywatch and House Denvor's Greywatch within Tallowmere intentionally separate places sharing a name, or should one receive a distinct name? | UNRESOLVED: Both uses appear in current atlas and Tallowmere records; no rename made |
 | OQ-015 | P3 | Dragons | What is the ultimate fate of dragons that fled after losing their riders? Most dragons were killed during the rebellion; the survivors' fate is unknown. | PARTIALLY RESOLVED |
 
+| OQ-018 | P2 | Military institutions | What are the detailed force structures, recruitment systems, command hierarchies, service obligations, readiness levels, and logistics of the Crown, Great Houses, Kharadorn clans, and independent southern powers? | QUALITATIVE FRAMEWORK PROPOSED in `military/Continental_Military_Institutions_and_Operational_Doctrine.md`; exact composition, obligations, and strengths remain open |
+
 ## Rules
 1. Do not answer an open question by inference unless the GM approves the answer.
 2. Record competing in-world beliefs separately from objective GM truth.

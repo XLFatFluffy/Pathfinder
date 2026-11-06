@@ -239,3 +239,12 @@
 - Clarified the shared relationship as friendship and mentorship while preserving both PCs' independent ambitions and player agency.
 - Updated the player starting handout with the established public history of the Great Rebellion, the broad structure of hereditary and Great House power, and the campaign calendar/current date.
 - Kept the vampire PC's survival, royal identity, captivity, and personal history out of player-facing world material. No unresolved historical dates, dynasty names, or political outcomes were invented.
+
+
+## 2026-11-06 - Creature dossier and reusable record template
+
+- Added `campaign/creatures/Creature_Record_Template.md` to standardize creature, ecology, evidence, knowledge, and change-history records.
+- Added `campaign/creatures/Troll.md` as a GM-only dossier for the provisional Session One troll encounter. It preserves the standard Pathfinder First Edition troll baseline and makes clear that the planned encounter does not establish a local troll population.
+- Linked both records from the creature folder index and the campaign-wide creature registry.
+- No new creature distribution, local folklore, or regional ecology was established. The troll's exact encounter location and outcome remain pending play.
+- Confirmed that the current campaign JSON importer does not yet support creature records; no unsupported creature import package was created.

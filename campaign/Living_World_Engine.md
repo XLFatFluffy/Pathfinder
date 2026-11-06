@@ -268,3 +268,13 @@ The first local simulation layer is documented in these linked records:
 - [Initial Project Register](world_engine/Initial_Project_Register.md) — ongoing efforts and their current evidentiary status.
 
 The regional baseline does not establish an active territorial war or a specific border dispute between named houses. Exact borders remain uncalibrated. Do not run a world turn until in-world time advances or the GM explicitly requests a simulation snapshot.
+
+
+## 17. Great House simulation and reusable templates
+
+- [Great House Actor Dossiers](world_engine/Great_House_Actor_Dossiers.md) consolidate the established agendas, relationships, internal tensions, leverage, and constraints of the six Great Houses. A strategic agenda is not automatically an active project.
+- [World Event Record Template](world_engine/World_Event_Record_Template.md) provides the event-history structure.
+- [World Turn Report Template](world_engine/World_Turn_Report_Template.md) provides the recurring GM review format.
+- [Initial Project Register](world_engine/Initial_Project_Register.md) tracks the starting region's established efforts.
+
+No first world turn has been run. The campaign remains at 1 Harvestfall, 243 AC until in-world time advances at the table or the GM requests a specific simulation snapshot.

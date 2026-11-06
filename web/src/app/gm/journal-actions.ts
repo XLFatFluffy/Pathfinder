@@ -98,6 +98,7 @@ export async function saveCampaignJournalEntry(
 
   revalidatePath("/gm");
   revalidatePath("/player");
+  revalidatePath("/player/journal");
   return { message: entryId ? "Journal entry updated." : "Journal entry saved." };
 }
 
@@ -133,5 +134,6 @@ export async function deleteCampaignJournalEntry(
 
   revalidatePath("/gm");
   revalidatePath("/player");
+  revalidatePath("/player/journal");
   return { message: "Journal entry deleted." };
 }

@@ -803,6 +803,7 @@ export async function applyCampaignDataImport(
     "/gm/sessions",
     "/gm/characters",
     "/player",
+    "/player/journal",
     "/player/locations",
     "/player/npcs",
     "/player/houses",

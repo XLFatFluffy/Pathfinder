@@ -31,6 +31,9 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
     { href: sessionsHref, label: role === "gm" ? "Session logs" : "Session history" },
     { href: charactersHref, label: role === "gm" ? "Player characters" : "My characters" },
     ...(role === "gm" ? [{ href: "/gm/import", label: "AI data import" }] : []),
+    ...(role === "player"
+      ? [{ href: "/player/journal", label: "Campaign journal" }]
+      : []),
     { href: atlasHref, label: role === "gm" ? "Atlas" : "Explore atlas" },
     { href: mapsHref, label: role === "gm" ? "Map library" : "Shared maps" },
     ...(role === "player" ? [{ href: notesHref, label: "My notes" }] : []),

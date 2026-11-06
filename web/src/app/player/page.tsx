@@ -173,10 +173,13 @@ export default async function PlayerPage() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Stay up to date</p>
-            <h3 id="journal-heading">Campaign journal</h3>
+            <h3 id="journal-heading">Recent campaign journal</h3>
           </div>
           <span className="muted">{journalCount ?? 0} shared entries</span>
         </div>
+        <p>
+          <Link href="/player/journal">View all shared journal entries</Link>
+        </p>
         {entries.length ? (
           entries.map((entry) => (
             <article className="entry-card" key={entry.id}>

@@ -56,6 +56,8 @@ These are not forgotten; they are deliberately staged so the campaign does not b
 
 ## 4. Additional worldbuilding completed
 
+A Crown intelligence and information-operations framework has been drafted at `politics/Crown_Intelligence_and_Information_Operations.md`. It establishes cautious source-evaluation and compartmentalization procedures without inventing agents, operations, or network size.
+
 A seasonal conditions and agricultural-cycle framework has been drafted at `world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md`. It supports future world turns while preserving the rule that calendar month names do not determine weather and that no unrecorded weather event is added to the opening baseline.
 
 A qualitative continental military framework has been drafted at `military/Continental_Military_Institutions_and_Operational_Doctrine.md`. It distinguishes established formations from proposed simulation procedure and leaves exact force strengths, command structures, and service obligations unresolved.

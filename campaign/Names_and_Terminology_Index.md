@@ -73,7 +73,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 
 | Term | Category | Status | Notes |
 |---|---|---|---|
-| Minor house | Noble house category | ESTABLISHED CATEGORY | Wealthy lords and ladies with relatively small territories and local holdings; locally established but nearly politically insignificant continent-wide. They do not rival the six Great Houses or automatically hold Imperial Council seats. Individual house names, number, holdings, and allegiances remain unresolved. |
+| Minor house | Noble house category | ESTABLISHED CATEGORY | Wealthy lords and ladies with relatively small territories and local holdings; locally important but nearly politically insignificant continent-wide. The first named network is recorded in campaign/world_engine/Continental_Minor_Houses_and_Regional_Powers.md. |
 
 
 ## Stage 8 — Established Current Rulers and Immediate Family
@@ -406,3 +406,45 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
 | Session One GM Readiness Packet | GM reference | ESTABLISHED | Table-ready Tallowmere opening, city quick reference, key NPCs, active pressures, sandbox opportunities, world-state rhythm, and pre-session checklist. Troll balance remains pending final character sheets and companion build. |
+
+
+## Continental Minor Houses and Regional Powers — 2026-11-06
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| House Coldmere | Minor banner house | ESTABLISHED | Veyr banner house with grazing and winter-supply interests on the southern approaches to the Northern Holds. |
+| House Pineward | Minor banner house | ESTABLISHED | Veyr banner house with woodland, timber, and charcoal interests in the Pine Marches. |
+| House Aethwyn | Minor elven banner house | ESTABLISHED | Vaelorian banner house with an old woodland estate in the Green Valleys. |
+| House Harrowden | Minor banner house | ESTABLISHED | Edarth banner house holding grain farms and pasture in the Western Heartlands; party to the Longmead boundary dispute. |
+| House Wrenford | Minor banner house | ESTABLISHED | Edarth banner house holding mixed farms, pasture, and woodland in the Western Heartlands; party to the Longmead boundary dispute. |
+| House Rookwell | Crown vassal house | ESTABLISHED | Minor house holding a compact estate and road-service rights in the central Crownlands near the inland approaches to Kingsbridge. |
+| Clan Emberdelve | Dwarven clan | ESTABLISHED | Independent clan within the Kharadorn imperial union, with subterranean mining and metalworking interests in the northeastern mountain system. |
+| House Ternholt | Minor maritime banner house | ESTABLISHED | Merrowen banner house with a modest coastal estate and fishing harbors in the Northern Coast region. |
+| House Serrane | Independent minor lordship | ESTABLISHED | Independent well-town and dry-valley lordship associated with Sablecross in the Southwestern Marches. |
+| Brightwater Civic Compact | Independent city government | ESTABLISHED | Civic and merchant council governing Brightwater in the Southern Principalities. |
+| House Veylan | Independent island lordship | ESTABLISHED | Small island territory and harbor rights associated with Marrowgate in the Southern Islands. |
+| Duskport Shipmasters' Compact | Independent port association | ESTABLISHED | Shipmaster and harbor-trade association with civic influence in Duskport. |
+| Longmead Boundary Dispute | Regional political issue | ESTABLISHED / ACTIVE LOW-INTENSITY | Customary grazing and woodland rights dispute between Houses Harrowden and Wrenford; no violence or mapped boundary. |
+| Lady Ysra Coldmere | Person / noble | ESTABLISHED | Head of House Coldmere. |
+| Ser Toman Coldmere | Person / noble | ESTABLISHED | Heir to House Coldmere. |
+| Lord Edric Pineward | Person / noble | ESTABLISHED | Head of House Pineward. |
+| Lady Mara Pineward | Person / noble | ESTABLISHED | Heir to House Pineward. |
+| Lady Thalira Aethwyn | Person / noble | ESTABLISHED | Head of House Aethwyn. |
+| Lord Eryndor Aethwyn | Person / noble | ESTABLISHED | Heir to House Aethwyn. |
+| Lord Berold Harrowden | Person / noble | ESTABLISHED | Head of House Harrowden. |
+| Ser Alwyn Harrowden | Person / noble | ESTABLISHED | Heir to House Harrowden. |
+| Lady Cerys Wrenford | Person / noble | ESTABLISHED | Head of House Wrenford. |
+| Ser Merek Wrenford | Person / noble | ESTABLISHED | Heir to House Wrenford. |
+| Lord Mathen Rookwell | Person / noble | ESTABLISHED | Head of House Rookwell. |
+| Lady Elira Rookwell | Person / noble | ESTABLISHED | Heir to House Rookwell. |
+| Thane Orsik Emberdelve | Person / clan speaker | ESTABLISHED | Clan Speaker of Clan Emberdelve. |
+| Halla Emberdelve | Person / clan successor | ESTABLISHED | Designated successor of Clan Emberdelve. |
+| Lady Sabine Ternholt | Person / noble | ESTABLISHED | Head of House Ternholt. |
+| Ser Owyn Ternholt | Person / noble | ESTABLISHED | Heir to House Ternholt. |
+| Lady Amara Serrane | Person / noble | ESTABLISHED | Head of House Serrane. |
+| Ser Dario Serrane | Person / noble | ESTABLISHED | Heir to House Serrane. |
+| Ilyan Merrow | Person / civic leader | ESTABLISHED | Presiding First Speaker of the Brightwater Civic Compact. |
+| Lord Cassian Veylan | Person / noble | ESTABLISHED | Head of House Veylan. |
+| Lady Nerissa Veylan | Person / noble | ESTABLISHED | Heir to House Veylan. |
+| Captain Ysabet Korr | Person / shipmaster | ESTABLISHED | Principal Speaker of the Duskport Shipmasters' Compact. |
+| Continental Minor Houses and Regional Powers | Campaign reference | ESTABLISHED | First additional network of banner houses, Crown vassals, a dwarven clan, and independent southern powers. |

@@ -211,7 +211,8 @@ The campaign begins on **1 Harvestfall, 243 AC**. The Great Rebellion is current
 - How he killed the captor and whether the act had wider consequences.
 - Aldric Voss's identity, background, the conflict that led to his turning, and his current whereabouts/status.
 - How much of the vampire's royal history Aldric Voss and the ratfolk PC know.
-- The precise political and military methods by which he intends to restore the dynasty; his long-term goal itself is established.\n- Whether any surviving loyalists, allies, or supporters exist; none are currently established.
+- The precise political and military methods by which he intends to restore the dynasty; his long-term goal itself is established. 
+- Whether any surviving loyalists, allies, or supporters exist; none are currently established.
 
 
 

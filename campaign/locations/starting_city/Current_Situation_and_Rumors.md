@@ -45,7 +45,10 @@ Rumors have different sources and levels of reliability. Their presence does not
 These pressures continue whether the PCs intervene or not. They may resolve, worsen, change ownership, or be overtaken by new events. Do not force the PCs into them. Their actions can alter outcomes, create new opportunities, or cause consequences beyond their immediate intentions.
 
 ## GM Use
+
+The objective truth behind the initial rumors is recorded in the GM-only [Tallowmere Rumor Truth Register](../../world_engine/Tallowmere_Rumor_Truth_Register.md). Keep that record separate from what any NPC or PC has learned.
+
 Keep the truth behind each rumor separate from what people believe. A rumor may be true, false, distorted, planted, or accurate but misunderstood. Decide its truth before making it a clue. Avoid retroactively making every rumor about the PCs or one overarching conspiracy.
 
 ## Open Details
-The precise calendar date, recent fire locations, harvest figures, named merchant consortium, Kharadorn envoy, and truth behind each rumor remain to be established before play.
+The campaign date is 1 Harvestfall, 243 AC. Recent fire locations, harvest figures, identities behind the property inquiries, the eastern-shore sighting, and the noble-service rumor remain unresolved. GM truth assignments for the initial rumor list are recorded separately in `world_engine/Tallowmere_Rumor_Truth_Register.md`.

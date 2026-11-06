@@ -18,13 +18,14 @@ Continent → Kingdom → Region → City → District / Site → Interior map
 
 ## Tallowmere registration
 
-Tallowmere's provisional map anchor is X=44%, Y=43% of the full atlas canvas, measured from the upper-left corner. This represents the city/harbor area on the northwestern shore of the central inland sea. It is not a surveyed coordinate. See continent_reference.md.
+Tallowmere's current GM-calibrated atlas anchor is X=47.0993%, Y=29.3538% of the full atlas canvas, measured from the upper-left corner. Dragonstone is X=58.4224%, Y=38.1772%. These values were copied from the GM's saved Supabase atlas positions on 2026-11-06. They preserve the intended northwest relationship but remain normalized image positions, not surveyed geographic coordinates. Both are marked pending visual review against the authoritative artwork. See continent_reference.md.
 
 ## Prepared continent layer
 
 - Data: `campaign/maps/atlas_player_layer.json`
 - Review notes: `campaign/maps/atlas_player_layer.md`
 - In the GM atlas, select the continent map with the atlas artwork and choose **Synchronize with Campaign Repository**. The server reads this committed JSON file; it is not uploaded from a user's computer.
+- **Export calibrated coordinates** downloads a coordinate-only JSON patch for markers with stable repository `source_id` values. It deliberately skips unsourced app-only markers and is not a replacement for `atlas_player_layer.json`. Review the exported positions against authoritative artwork before merging them by `source_id` into the canonical layer.
 - The current import layer contains only 15 major public-knowledge places: Great House seats, the capital, major cities, ports, and prominent fortresses. Smaller settlements are reserved for regional maps.
 - `map_source_id` and each marker/overlay `source_id` are permanent identifiers. Keep them unchanged when renaming a map feature. Give new features unique identifiers; do not recycle IDs from removed features. A marker may optionally set `location_source_id` to associate markers on different map layers with one campaign location; when omitted, it defaults to the marker's `source_id`.
 - Synchronization previews additions, repository-controlled field updates, and removals. Removals require GM confirmation, delete only synchronized map markers or overlays, and preserve campaign location records and linked lore. A rollback is available after applying a sync.
@@ -44,7 +45,7 @@ Tallowmere's provisional map anchor is X=44%, Y=43% of the full atlas canvas, me
 - Geographic regions include the Northern Wilderness, Western Highlands, Western Heartlands, Central Plains, Central Inland Sea, Northeastern Mountain System, Eastern Forests and Delta, Southwestern Marches, Southern Principalities, and Southern Islands.
 - Kharadorn's Central Inland Sea dominion and Merrowen's maritime reach are recorded as maritime influence, not coastal sovereignty.
 - Major overland and sea routes are registered separately from political and geographic overlays.
-- The Tallowmere hierarchy is registered as Continent → Tallowmere Regional Map → Tallowmere City. The approved city artwork is now stored at `campaign/maps/tallowmere_city.png`. It still needs cartographic review against the canonical city layout. The regional layer still needs its approved artwork file and calibrated coordinates.
+- The Tallowmere hierarchy is registered as Continent → Tallowmere Regional Map → Tallowmere City. The approved regional artwork is stored at `campaign/maps/tallowmere_regional.png`; the approved city artwork is stored at `campaign/maps/tallowmere_city.png`. Both still require cartographic calibration before their geometry is promoted into the live synchronization layer.
 - The registry is a canon and cartography planning source, not a live synchronization file. Only reviewed geometry should be promoted into `atlas_player_layer.json`.
 
 ## Map authority

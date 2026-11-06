@@ -26,6 +26,8 @@ const mapTypes = new Set([
 export type MapFormState = {
   error?: string;
   message?: string;
+  warning?: string;
+  artworkPath?: string;
 };
 
 export type CreatedMap = {
@@ -113,6 +115,7 @@ export async function recordCampaignMapArtwork(
   mapId: string,
   mimeType: string,
   fileSize: number,
+  artworkPath: string,
 ): Promise<MapFormState> {
   const member = await getCurrentCampaignMember();
   if (!member || member.role !== "gm") {
@@ -131,7 +134,7 @@ export async function recordCampaignMapArtwork(
   const supabase = await createSupabaseServerClient();
   const { data: map, error: mapError } = await supabase
     .from("campaign_maps")
-    .select("id")
+    .select("id, artwork_path")
     .eq("campaign_id", member.campaign_id)
     .eq("id", mapId)
     .maybeSingle();
@@ -143,7 +146,18 @@ export async function recordCampaignMapArtwork(
     return { error: "The map record was not found in this campaign." };
   }
 
-  const artworkPath = `${member.campaign_id}/${map.id}/artwork`;
+  const artworkPathPrefix = `${member.campaign_id}/${map.id}/`;
+  const initialArtworkPath = `${artworkPathPrefix}artwork`;
+  const stagedArtworkPath = artworkPath.startsWith(`${artworkPathPrefix}artwork-`)
+    ? artworkPath.slice(`${artworkPathPrefix}artwork-`.length)
+    : "";
+  if (
+    (artworkPath !== initialArtworkPath || map.artwork_path !== null) &&
+    !isUuid(stagedArtworkPath)
+  ) {
+    return { error: "The uploaded artwork path is invalid for this map." };
+  }
+
   const { data: updatedMap, error } = await supabase
     .from("campaign_maps")
     .update({
@@ -158,21 +172,36 @@ export async function recordCampaignMapArtwork(
     .maybeSingle();
 
   if (error) {
-    return { error: `Unable to save map artwork metadata: ${error.message}` };
+    return {
+      error: `Unable to confirm the map artwork metadata update: ${error.message}. Refresh the map library before retrying.`,
+    };
   }
   if (!updatedMap) {
-    return { error: "The map record was removed before its artwork could be saved." };
+    return {
+      error: "The map record was removed before its artwork could be saved.",
+    };
+  }
+
+  let warning: string | undefined;
+  if (map.artwork_path && map.artwork_path !== artworkPath) {
+    const { error: removeError } = await supabase.storage
+      .from("campaign-maps")
+      .remove([map.artwork_path]);
+    if (removeError) {
+      warning = `The new artwork is saved, but the previous file could not be removed: ${removeError.message}`;
+    }
   }
 
   revalidatePath("/gm/maps");
   revalidatePath("/player/maps");
-  return { message: "Map artwork saved." };
+  return { message: "Map artwork saved.", warning };
 }
 
 export async function replaceCampaignMapArtwork(
   mapId: string,
   mimeType: string,
   fileSize: number,
+  artworkPath: string,
 ): Promise<MapFormState> {
   const member = await getCurrentCampaignMember();
   if (!member || member.role !== "gm") {
@@ -182,8 +211,17 @@ export async function replaceCampaignMapArtwork(
     return { error: "Choose a valid campaign map." };
   }
 
-  const result = await recordCampaignMapArtwork(mapId, mimeType, fileSize);
-  return result.error
-    ? result
-    : { message: "Map artwork replaced. The map and its links were preserved." };
+  const result = await recordCampaignMapArtwork(
+    mapId,
+    mimeType,
+    fileSize,
+    artworkPath,
+  );
+  if (result.error) {
+    return result;
+  }
+  return {
+    message: "Map artwork replaced. The map and its links were preserved.",
+    warning: result.warning,
+  };
 }

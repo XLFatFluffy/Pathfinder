@@ -20,11 +20,13 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
   const charactersHref = role === "gm" ? "/gm/characters" : "/player/characters";
   const dashboardHref = role === "gm" ? "/gm" : "/player";
   const calendarHref = role === "gm" ? "/gm/calendar" : "/player/calendar";
+  const timelineHref = role === "gm" ? "/gm/timeline" : "/player/timeline";
   const notesHref = "/player/notes";
 
   const navItems = [
     { href: dashboardHref, label: role === "gm" ? "Overview" : "My campaign" },
     { href: calendarHref, label: "Calendar" },
+    { href: timelineHref, label: "Timeline" },
     { href: locationsHref, label: role === "gm" ? "Locations" : "Discoveries" },
     { href: npcsHref, label: role === "gm" ? "NPCs" : "Known people" },
     { href: housesHref, label: role === "gm" ? "Noble houses" : "Known houses" },

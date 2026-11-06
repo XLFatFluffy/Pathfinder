@@ -12,6 +12,7 @@ export type CampaignMarkerType = (typeof campaignMarkerTypes)[number];
 
 export type CampaignMapMarker = {
   id: string;
+  source_id: string | null;
   map_id: string;
   location_id: string | null;
   location_name: string | null;

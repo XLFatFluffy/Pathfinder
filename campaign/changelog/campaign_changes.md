@@ -345,3 +345,13 @@
 - Added `campaign/locations/starting_city/Tallowmere_GM_Dossier.md`, a GM-only operational guide to Tallowmere's government, household, NPCs, districts, locations, shops, temples, hinterland, factions, rumors, criminal operators, current issues, and opening session.
 - Added navigation links to `campaign/README.md` and `campaign/locations/starting_city/README.md`.
 - The consolidated documents preserve unresolved details and defer to dedicated authoritative records; they do not invent map geometry, troop totals, PC statistics, or unapproved outcomes.
+
+
+## 2026-11-06 — NPC roleplaying dossier collection
+
+- Added `campaign/people/NPC_Roleplaying_Dossiers.md`, a GM-only table-facing collection for established named NPCs across Tallowmere and the wider setting.
+- Profiles include immediate and long-term goals, fears, contradictions, social methods, pressure responses, voice cues, sample lines, ways to influence them, suggested Pathfinder alignments, and explicit continuity boundaries.
+- Alignment suggestions and behavioral details not established by source canon are labeled as provisional portrayal guidance rather than immutable facts.
+- Added navigation from the people, campaign, and Tallowmere indexes.
+- Flagged an unresolved name collision: Chief Magistrate Odran Pell and Odran Pell, Elira Pell's father/business partner at Pell & Daughter. No retcon or identity merge was made.
+- The dossier collection excludes player characters and leaves the proposed companion and unnamed wagon guards unfinalized.

@@ -155,3 +155,11 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Established initial actor and issue registers under `campaign/world_engine/`, using only current canon and the seven pressures already listed in the Session One GM Readiness Packet.
 - Added a Tallowmere regional habitat baseline. The ordinary species catalogue remains intentionally incomplete; no unsupported monster populations or active border war were invented.
 - Next: flesh out relevant actor records, detail each local issue's known parties and evidence, create a holdings/vassalage register, then run a GM-reviewed world turn when in-world time advances.
+
+
+## Living World Engine — regional implementation (Nov 6, 2026)
+- Consolidated the existing Tallowmere political and territorial canon into `campaign/world_engine/Regional_Holdings_and_Jurisdictions.md` and `campaign/world_engine/Tallowmere_Political_Actor_Dossiers.md`.
+- Expanded the initial issue register with the actual named parties, recorded positions, unresolved evidence, and non-scripted possible paths for the seven established local pressures.
+- Added an initial project register for the harbor-defense review, warehouse safety effort, ratfolk market access, harbor allocation, harvest monitoring, and Denvor defense deliberations.
+- Confirmed that no active territorial border war or named-house border dispute is established in the Tallowmere region. Local resource-right and boundary complaints remain distinct from noble warfare.
+- Next: establish event and world-turn ledgers; expand only the actors and institutions that become relevant; later build the wider regional political network after map/border calibration.

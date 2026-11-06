@@ -1,7 +1,7 @@
 {
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_ONLY",
-  "note": "Player-facing continental layer containing only established major cities, Great House principal seats/strongholds, major ports, and prominent fortresses. Smaller settlements are intentionally reserved for regional maps. Coordinates for Tallowmere and Dragonstone reflect the GM's latest saved atlas placements; other coordinates remain approximate unless explicitly marked otherwise and must be visually reviewed against campaign/maps/continent_atlas.png before being treated as surveyed. Political overlays remain absent until exact non-overlapping boundaries are canonically approved.",
+  "note": "Player-facing continental layer containing only established major cities, Great House principal seats and strongholds, major ports, prominent fortresses, and continent-scale routes. Minor and regional settlements are intentionally excluded and belong on their relevant regional maps. Tallowmere and Dragonstone positions reflect the GM's latest saved atlas placements; other coordinates remain approximate unless explicitly marked otherwise and must be visually reviewed against campaign/maps/continent_atlas.png. Political overlays remain absent until non-overlapping boundaries are established and approved.",
   "layers": [
     {
       "map": "continent_atlas",

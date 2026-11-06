@@ -13,6 +13,7 @@ This directory contains the campaign's lore, canon records, GM materials, maps, 
 - [Names and Terminology Index](Names_and_Terminology_Index.md) — authoritative spellings and naming control.
 - [Continuity Checklist](Continuity_Checklist.md) — review process for new lore and post-session updates.
 - [Development Roadmap](Development_Roadmap.md) — staged campaign-development priorities.
+- [Worldbuilding Readiness](Worldbuilding_Readiness.md) — launch criteria, completed foundations, and remaining blockers.
 - [Rules and Table Standards](Rules_and_Table_Standards.md) — Pathfinder rules and table conventions.
 
 These governance records remain at the campaign root because they apply across all subjects. Detailed subject records belong in the folders below.

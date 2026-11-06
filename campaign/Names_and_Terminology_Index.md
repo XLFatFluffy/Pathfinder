@@ -466,3 +466,10 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Pellit Quickstep | Person / ratfolk courier | ESTABLISHED | Young courier favoring carefully expanded surface work. |
 | Dorrik Sootpaw | Person / ratfolk worker | ESTABLISHED | Outspoken young salvage worker advocating direct public pressure and organized labor refusal. |
 | Ratfolk Community Networks and NPCs | Campaign reference | ESTABLISHED | Initial informal networks, named contacts, competing strategies, and political opportunities in Tallowmere's Underways. |
+
+
+## Tallowmere Information and Rumors — 2026-11-06
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Tallowmere Rumor Truth Register | GM-only campaign reference | ESTABLISHED | Records objective truth and information boundaries behind the ten initial Tallowmere rumors; several remain deliberately unresolved. |

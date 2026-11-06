@@ -5,6 +5,7 @@ This directory contains the campaign's lore, canon records, GM materials, maps, 
 ## GM reference editions
 
 - [GM Campaign Bible](GM_Campaign_Bible.md) — consolidated GM-only reference for the entire setting, canon, history, Great Houses, politics, geography, and Living World Engine.
+- [NPC Roleplaying Dossier Collection](people/NPC_Roleplaying_Dossiers.md) — GM-only table reference for portraying established named NPCs across the campaign.
 
 ## Authority and canon control
 
@@ -52,7 +53,7 @@ Every substantial record should identify its subject, canon status, visibility, 
 ## Operating rules
 
 - Brainstorming is not canon until explicitly approved by the GM.
-- Preserve the distinction between established canon, proposals, rumors, public knowledge, player discoveries, and GM-only truth.
+- Preserve the distinction between established canon, proposed portrayal guidance, rumors, public knowledge, player discoveries, and GM-only truth.
 - Never silently reconcile contradictory source material or perform a retcon; flag conflicts for GM review.
 - Preserve unresolved mysteries. Unknown details remain unknown rather than being filled in for completeness.
 - Check the names index before introducing named entities.

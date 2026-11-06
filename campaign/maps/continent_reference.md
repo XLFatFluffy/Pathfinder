@@ -3,7 +3,7 @@
 **Status:** ESTABLISHED / AUTHORITATIVE MASTER MAP  
 **Visibility:** GM_ONLY unless a player-safe derivative is prepared  
 **Artwork:** continent_atlas.png  
-**Last updated:** 2026-11-04
+**Last updated:** 2026-11-06
 
 The GM has designated this atlas as the authoritative continental map. Its coastline, broad terrain layout, mountain systems, central inland sea, island chains, and visible river systems are the geographic reference for all subordinate maps. Do not redraw or relocate continental features to make a regional or city map fit.
 
@@ -25,7 +25,7 @@ The working continental extent is approximately **1,700 miles north to south** a
 
 Tallowmere is established on the **northwestern shore of the central inland sea**, at a sheltered inlet where the River Vale reaches the sea. Its harbor opens east and southeast toward the inland sea; the River Vale approaches from the western uplands through the inhabited basin.
 
-Provisional normalized map anchor on the full artwork canvas, measured from the upper-left corner: **X=44%, Y=43%**. This is a cartographic anchor for the city/harbor area, not a surveyed coordinate. The regional map must resolve the precise estuary, harbor outline, river bends, and surrounding settlements while preserving the continental relationship.
+Current GM-saved normalized map anchor on the full artwork canvas, measured from the upper-left corner: **X=47.0993%, Y=29.3538%**. Dragonstone's current GM-saved anchor is **X=58.4224%, Y=38.1772%**. These positions were read from the live Supabase atlas on 2026-11-06 and copied to `atlas_player_layer.json`. They represent GM placement on the artwork, not surveyed geographic coordinates, and remain pending visual review against the authoritative continent artwork. The regional map must resolve the precise estuary, harbor outline, river bends, and surrounding settlements while preserving the continental relationship.
 
 ## Map authority and restrictions
 

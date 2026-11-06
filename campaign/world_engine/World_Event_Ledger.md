@@ -24,4 +24,4 @@ This ledger is the chronological index of events that change the campaign world 
 
 ## Starting-state note
 
-The Longmead boundary dispute and Tallowmere's seven local pressures are conditions already present at the opening date. Their existence is not a world-turn event. The first world turn has not been run, and no time has advanced beyond 1 Harvestfall, 243 AC.
+The Longmead boundary dispute and Tallowmere's seven local pressures are conditions already present at the opening date. Their existence is not a world-turn event. The first world turn, WTR-001, was completed as a zero-time opening snapshot on 1 Harvestfall, 243 AC. It produced no world-changing event. No time has advanced beyond the campaign opening date.

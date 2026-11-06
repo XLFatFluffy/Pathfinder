@@ -1,6 +1,6 @@
 # Phase A — Continental Cartographic Completion
 
-**Status:** PHASE A OVERLAY SET CREATED; GEOMETRY CALIBRATION REMAINS ARTWORK-DEPENDENT  
+**Status:** MAJOR-PLACE COORDINATES CALIBRATED; SIX ROUTES DRAFTED; POLITICAL AND GEOGRAPHIC POLYGONS PENDING  
 **Date:** 2026-11-06  
 **Authority:** GM-approved canon in the campaign repository
 
@@ -164,6 +164,11 @@ The repository now treats the continental map as a **calibration-and-tracing tas
 
 ## Overlay set created
 
-Phase A now has a dedicated GM-only overlay registry at `campaign/maps/continental_overlay_registry.json`. It classifies every continental overlay into political, geographic, maritime, and route categories and assigns stable source IDs. The registry deliberately leaves geometry null until the authoritative artwork can be traced. This prevents the atlas from turning broad canon into invented borders or routes.
+Phase A now has a dedicated GM-only overlay registry at `campaign/maps/continental_overlay_registry.json`. It classifies every continental overlay into political, geographic, maritime, and route categories and assigns stable source IDs. The registry retains null geometry for unresolved political, geographic, and maritime polygons. The six established route courses have now been drafted against the authoritative artwork and saved as editable polylines, pending GM review. This prevents the atlas from turning broad canon into invented borders or routes.
 
 The overlay registry is not a player synchronization layer. Once geometry is traced and reviewed, approved records can be promoted into `atlas_player_layer.json` using the existing app-supported `region` and `route` overlay types.
+
+
+## 2026-11-06 coordinate and route pass
+
+The GM-exported coordinate patch was merged by stable marker `source_id` into the 15 continental major-place records. The positions were visually reviewed against the 1,161 × 1,355 authoritative image. Six established route overlays were drafted as editable normalized polylines: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. These routes connect established major places and follow broad land/sea corridors, but are not surveyed road courses. They remain subject to GM review. No political borders, geographic region polygons, or maritime influence polygons were invented or promoted; their geometry remains unresolved.

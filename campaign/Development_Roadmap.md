@@ -148,3 +148,10 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Added `campaign/Table_Side_GM_Support_Protocol.md` to define how the assistant supports live Pathfinder 1e play, improvisation, encounter design, table tracking, and post-session record updates while preserving GM authority and canon boundaries.
 - Added `campaign/creatures/Regional_Occurrence_Template.md` so creature presence can be recorded by region with evidence and frequency kept separate from the master creature identity.
 - The assistant may help during play using information shared by the GM, but cannot independently see the table, dice, character sheets, or live app state. The GM supplies rolls and outcomes; approved results can then be recorded in the campaign database.
+
+
+## Milestone — Living World Engine foundation (Nov 6, 2026)
+- Established `campaign/Living_World_Engine.md` with actor, issue, project, event, time-advance, consequence, information, and political-change procedures.
+- Established initial actor and issue registers under `campaign/world_engine/`, using only current canon and the seven pressures already listed in the Session One GM Readiness Packet.
+- Added a Tallowmere regional habitat baseline. The ordinary species catalogue remains intentionally incomplete; no unsupported monster populations or active border war were invented.
+- Next: flesh out relevant actor records, detail each local issue's known parties and evidence, create a holdings/vassalage register, then run a GM-reviewed world turn when in-world time advances.

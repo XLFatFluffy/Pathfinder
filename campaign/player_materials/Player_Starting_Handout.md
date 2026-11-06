@@ -9,7 +9,7 @@ This guide contains public information that a reasonably informed person could k
 
 ## The Setting
 
-The campaign takes place in a high-medieval fantasy world shaped by noble houses, hereditary claims, feudal obligations, warfare, trade, and political intrigue. Its political and dynastic framework draws inspiration from Westeros and *Game of Thrones*, while the campaign uses Pathfinder First Edition rules and its own established names, geography, and history.
+The campaign takes place in a high-medieval fantasy world based on the Westeros and *Game of Thrones* setting framework: noble houses, hereditary claims, feudal obligations, warfare, trade, and political intrigue. The campaign uses Pathfinder First Edition rules and its established names, geography, and history.
 
 Humans are the largest population across much of the continent. Elves and dwarves hold major political power, while many other ancestries live throughout the settled lands. Ratfolk communities are often subterranean. Prejudice against ratfolk is widespread in surface society, but it is not universal and reactions vary by place and individual.
 

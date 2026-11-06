@@ -450,8 +450,9 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Continental Minor Houses and Regional Powers | Campaign reference | ESTABLISHED | First additional network of banner houses, Crown vassals, a dwarven clan, and independent southern powers. |
 | Continental Project Register | Campaign reference | ESTABLISHED | Initial wider-world administrative, commercial, and seasonal projects; progress remains time- and evidence-dependent. |
 | Feudal Law, Land Tenure, and Noble Obligations | Campaign legal framework | ESTABLISHED FRAMEWORK | Working rules for homage, inheritance, courts, land tenure, customary rights, and political consequences; detailed regional customs remain open. |
-| World Event Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for GM-approved world events; no world-turn events recorded yet. |
-| World Turn Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for world simulation passes; first turn not run. |
+| World Event Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for GM-approved world events; WTR-001 generated no event. |
+| World Turn Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index for world simulation passes; WTR-001 opening baseline completed on 1 Harvestfall, 243 AC. |
+| World Turn 001 — Opening Baseline | GM-only world-turn report | ESTABLISHED | Zero-time opening snapshot; campaign date remains 1 Harvestfall, 243 AC. |
 
 
 ## Tallowmere Ratfolk Networks and NPCs — 2026-11-06

@@ -296,3 +296,12 @@
 - Added Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw as named NPCs while preserving the established roles of Nix-of-the-Cistern, Tikka Vell, Serren Coil, and Miraq Ashwhisk.
 - Established competing strategies around negotiation, market access, route safety, household protection, and public pressure. No network speaks for all ratfolk.
 - Updated the local Underways, faction, issue, actor, names, and Session One references. The ratfolk PC may build relationships and influence but is not the community's automatic leader.
+
+
+## 2026-11-06 — Tallowmere rumor truth and information control
+
+- Added `campaign/world_engine/Tallowmere_Rumor_Truth_Register.md` to separate objective GM truth from public rumors and NPC knowledge.
+- Assigned limited, non-conspiratorial truth to selected rumors: isolated cargo-tally alteration, property-lease inquiries, use of a small service passage, a modest ratfolk-crafted retort, and historical chart purchases tied to Seralyth Vaelorian's commercial review.
+- Kept the lost ship, warehouse-fire causes, and noble magical-services rumor unresolved.
+- Clarified that the Kharadorn envoy rumor exaggerates the existing legitimate charter review; no additional envoy or expanded demand is established.
+- Linked the register from the Tallowmere rumor record, world-engine index, actor register, and names index. The first world turn remains pending.

@@ -3,9 +3,10 @@
 **For:** Session One  
 **Campaign date:** 1 Harvestfall, 243 AC  
 **Ruleset:** Pathfinder First Edition  
-**Visibility:** PLAYER_SHARED
+**Visibility:** PLAYER_SHARED  
+**Last updated:** 2026-11-06
 
-This guide contains public information that a reasonably informed person could know. Your character's upbringing, education, travels, ancestry, class, and personal history may give them more specific knowledge. It does not include private motives, hidden histories, or secrets.
+This guide contains broad public information that a reasonably informed person could know. It is not an exhaustive gazetteer, and it does not mean every character knows every local detail. Your character's upbringing, education, travels, ancestry, class, and personal history may give them more specific knowledge. Major settlements and fortresses are widely known; small villages, minor estates, precise routes, local disputes, and detailed political arrangements may not be. This guide does not include private motives, hidden histories, or secrets.
 
 ## The Setting
 
@@ -29,6 +30,26 @@ The current monarch is **King Aldric Calderan**, of House Calderan. The capital 
 | **Merrowen** | Primarily human maritime and naval power along the eastern coast | Tidemark | Lady Maris Merrowen |
 
 The six houses united in the Great Rebellion, which overthrew the old dragon-riding dynasty roughly two to three centuries ago. The rebellion ended that dynasty's rule from the Imperial Seat. Most dragons were killed; those that survived the war disappeared from public view, and their ultimate fate is unknown. House Kharadorn was the rebellion's principal military and political architect. The victorious houses established the present post-Rebellion order, with House Calderan occupying the throne.
+
+## A Short History of the Realm
+
+The present political order was established after the **Great Rebellion**, fought roughly two to three centuries ago. Before the rebellion, a dragon-riding dynasty ruled from the Imperial Seat for approximately four centuries. At the height of its power, it possessed twelve dragons. Dragon-riding was tied to an exclusive royal bloodline, and the dragons gave the dynasty a military advantage no ordinary army could easily match.
+
+Over generations, the old dynasty increasingly sought to centralize authority and reduce the independence of the great houses. Six Great Houses eventually united against it. Their rebellion had two connected aims: to preserve their own political independence and to destroy dragon-riding as the foundation of the dynasty's supremacy.
+
+The war lasted several years. The dwarven Great House now known as **Kharadorn** was the principal architect of the rebellion and developed specialized weapons to kill dragons. Most dragons died during the conflict. Those that survived after losing their riders fled or disappeared; their fate is unknown.
+
+The old ruling family was nearly exterminated, and the dynasty lost the Imperial Seat. The victorious houses established the current post-Rebellion order. House Calderan now holds the throne. House Kharadorn took the old dynasty's stronghold of Dragonstone by conquest. Dragonstone is now a Kharadorn possession, while Khar-Dum remains the Kharadorns' ancestral homeland.
+
+The broad outline is established, but the exact dates, original name of the fallen dynasty, and many details of the war remain uncertain or unresolved. No living claimant to the old dynasty is publicly recognized.
+
+## How Power Is Organized
+
+The realm is built around hereditary rule, noble houses, landholding, sworn obligations, and negotiated privileges. The six Great Houses are the principal continental powers, but they are not the only political authorities. Minor houses hold local estates, castles, and territories; independent towns, smaller principalities, and other local powers also exist.
+
+The Imperial Council gives each Great House one seat. It is an aristocratic body for negotiation among the Crown and the major houses, not an elected assembly representing the population. A ruler's authority, local charters, noble obligations, and commercial privileges can all matter in daily life.
+
+Tallowmere illustrates how these layers work together: House Denvor governs the city under a hereditary charter confirmed by House Kharadorn. Denvor handles ordinary local administration, while Kharadorn retains strategic rights and harbor interests.
 
 ## Major Places Across the Continent
 
@@ -101,6 +122,16 @@ The immediate region contains several distinct communities. These are establishe
 Tallowmere connects to the wider realm through the River Vale, inland-sea shipping, and overland roads. Important continental trade corridors include the Northern Road, Western Mountain Road, King's Road, Inland Sea Route, Eastern Coastal Road, and Southern Trade Road.
 
 Local routes include River Vale Road, Western Track, Quarry Road, Eastern Shore Road, and South Road. Within the city, principal streets include Harbor Road, Market Street, King's Road, West Road, North Road, Lantern Way, Greywatch Stair, Rise Road, Quay Lane, New Wharf Road, and River Road. Exact courses and travel times remain approximate; use the GM's current map and guidance for actual journeys.
+
+## The Calendar and the Present Date
+
+The campaign uses the **After the Crowning (AC)** dating system. The current year is **243 AC**, and the campaign begins on **1 Harvestfall, 243 AC**. The Crowning marks the establishment of the post-Rebellion order and current monarchy.
+
+A standard year has twelve months of thirty days each, followed by five additional Yearturn days. Every fourth year includes one extra leap day. The months are Frostwane, Thawrise, Greenwake, Bloomtide, Suncrest, Highsun, Goldleaf, Harvestfall, Emberwane, Mistfall, Duskreach, and Longnight.
+
+The seven-day week runs Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, and Restday. Seasons are not fixed to particular months and can vary by region or last for extended periods. Month names are traditional and do not guarantee particular weather.
+
+Widely recognized observances include Winter's End, First Planting, Day of the Crown, Highsummer Feast, Harvest Home, Night of Remembrance, and Yearturn. Local customs differ.
 
 ## Starting Circumstances and Resources
 

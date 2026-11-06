@@ -173,3 +173,42 @@ The troll and Selwick wagon are intended as an opening introduction to Tallowmer
 The PCs may pursue commercial opportunities, personal goals, relationships, faction interests, exploration, political developments, or entirely unexpected plans. Tallowmere and the surrounding region continue to function independently of them. The GM should present opportunities, consequences, and information without assuming a required order of adventures or a single central plot.
 
 The opening establishes a foothold; it does not prescribe what the PCs must do next.
+
+
+## 7. Vampire PC — Royal Origin and Captivity
+
+**Status:** PLAYER-PROVIDED BACKSTORY; character name and exact dates not yet supplied. GM-facing.
+
+The vampire PC was the heir to the throne of the fallen dragon-riding dynasty. During the Great Rebellion, the revolt destroyed his family and overthrew the dynasty. He escaped the castle during the collapse of the royal household.
+
+After escaping, he was captured by a powerful vampire and held captive for approximately 100–150 years. He eventually found a way to kill the vampire who held him, thereby securing his freedom. The identity of this captor, the circumstances of the imprisonment, and the means by which the PC killed the captor remain undefined.
+
+After gaining his freedom, the vampire eventually met **Aldric Voss**. They became friends. At a later point, the vampire turned Aldric into a vampire so that Aldric could survive a conflict they faced together. The nature, date, and consequences of that conflict remain to be established.
+
+The vampire later encountered the ratfolk PC and his family during the attack by House Relland's retainers. He intervened, killed the attackers, and saved the ratfolk child. He subsequently became the ratfolk's mentor and friend, teaching him the fundamentals of alchemy as described above.
+
+### Chronology and continuity
+
+The campaign begins on **1 Harvestfall, 243 AC**. The Great Rebellion is currently placed approximately 200–300 years before the campaign, with its exact date unresolved. A captivity period of approximately 100–150 years can fit within that broad historical window. Do not assign exact years to the escape, capture, release, meeting with Aldric Voss, turning, or ratfolk rescue until the historical chronology and both characters' ages are reviewed together.
+
+### Terminology and canon safeguards
+
+- The player described the fallen dynasty as the **Targaryen** dynasty / throne. In current campaign records, “House Targaryen” is a legacy source label only; the dynasty's final in-world name remains undecided. Preserve the player's intended royal lineage, but do not silently promote the legacy label to the official setting name.
+- The vampire PC is a surviving heir and potential claimant by birth. This does not establish that the wider world knows he survived, that any surviving loyalists exist, or that he currently intends to claim the throne.
+- His royal identity, survival, captivity, and actions are GM-facing until the player decides what the character has disclosed and the GM determines who could know.
+- **Aldric Voss** is a distinct individual from **King Aldric Calderan**. Do not conflate them.
+- The vampire who held him captive is not automatically the progenitor of all vampires. The scope of that vampire's lineage or influence is not yet established.
+- The vampire PC's approved mechanical template is recorded separately in the character-creation decisions; this narrative record does not add or alter mechanics.
+
+### Details still to establish with the player
+
+- Character's name, age at the Great Rebellion, and apparent/current age.
+- Whether he was formally crowned, designated heir, or simply next in the line of succession.
+- Which castle or royal seat he escaped from; do not assume the current provisional name “Dragonstone” was its original name.
+- The exact circumstances of the family's deaths and whether any relatives might have survived.
+- The identity, motives, lineage, and lair of the vampire captor.
+- How he killed the captor and whether the act had wider consequences.
+- Aldric Voss's identity, background, the conflict that led to his turning, and his current whereabouts/status.
+- How much of the vampire's royal history Aldric Voss and the ratfolk PC know.
+- Whether the vampire PC has any surviving political ambitions, loyalties, enemies, or supporters.
+

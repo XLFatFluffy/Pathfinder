@@ -318,8 +318,8 @@
       "map_type": "region",
       "parent_map_source_id": "continent_atlas",
       "parent_location_source_id": "tallowmere",
-      "artwork_path": null,
-      "status": "CONTENT_SPEC_READY_ARTWORK_FILE_AND_COORDINATES_PENDING"
+      "artwork_path": "campaign/maps/tallowmere_regional.png",
+      "status": "ARTWORK_REGISTERED_COORDINATES_PENDING_CALIBRATION"
     },
     {
       "map_source_id": "tallowmere_city",
@@ -333,7 +333,7 @@
   ],
   "next_steps": [
     "Review the relocated city artwork against City_Layout_and_Defenses.md and register only confirmed map features.",
-    "Locate and register the approved regional artwork in campaign/maps/ before creating live regional marker coordinates.",
+    "Calibrate campaign/maps/tallowmere_regional.png against the established regional canon before creating live regional marker coordinates.",
     "Calibrate the continental artwork and review all 15 existing major-place markers.",
     "Trace broad geographic regions as neutral geographic overlays.",
     "Do not create Great House political polygons until boundaries are explicitly approved.",

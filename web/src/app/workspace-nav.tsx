@@ -32,6 +32,7 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
     { href: housesHref, label: role === "gm" ? "Noble houses" : "Known houses" },
     { href: factionsHref, label: role === "gm" ? "Factions" : "Known factions" },
     { href: questsHref, label: role === "gm" ? "Quests" : "Campaign quests" },
+    ...(role === "gm" ? [{ href: "/gm/notes", label: "Notes and journal" }] : []),
     { href: sessionsHref, label: role === "gm" ? "Session logs" : "Session history" },
     { href: charactersHref, label: role === "gm" ? "Player characters" : "My characters" },
     ...(role === "gm" ? [{ href: "/gm/import", label: "AI data import" }] : []),

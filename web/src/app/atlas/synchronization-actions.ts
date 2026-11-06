@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { revalidatePath } from "next/cache";
 import atlasLayer from "../../../../campaign/maps/atlas_player_layer.json";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import { getAllSupabaseRows } from "@/lib/supabase-pagination";
 import {
   parseAtlasSyncLayers,
   planAtlasSync,
@@ -150,67 +151,76 @@ async function getSyncContext(mapId: string) {
     } as const;
   }
 
-  const [
-    { data: maps, error: mapsError },
-    { data: markers, error: markersError },
-    { data: overlays, error: overlaysError },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_maps")
-      .select("id, source_id, parent_map_id, player_visible")
-      .eq("campaign_id", member.campaign_id)
-      .order("id")
-      .limit(5000)
-      .returns<AtlasSyncMap[]>(),
-    supabase
-      .from("campaign_map_markers")
-      .select(
-        "id, source_id, location_id, name, marker_type, x, y, player_visible",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .eq("map_id", mapId)
-      .order("id")
-      .limit(5000)
-      .returns<AtlasSyncMarker[]>(),
-    supabase
-      .from("campaign_map_overlays")
-      .select(
-        "id, source_id, name, overlay_type, points, color, player_visible",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .eq("map_id", mapId)
-      .order("id")
-      .limit(5000)
-      .returns<AtlasSyncOverlay[]>(),
-    supabase
-      .from("campaign_locations")
-      .select("id, source_id, name, location_type, description, player_visible")
-      .eq("campaign_id", member.campaign_id)
-      .order("id")
-      .limit(5000)
-      .returns<AtlasSyncLocation[]>(),
+  const [mapsResult, markersResult, overlaysResult, locationsResult] =
+    await Promise.all([
+      getAllSupabaseRows((from, to) =>
+        supabase
+          .from("campaign_maps")
+          .select("id, source_id, parent_map_id, player_visible")
+          .eq("campaign_id", member.campaign_id)
+          .order("id")
+          .range(from, to)
+          .returns<AtlasSyncMap[]>(),
+      ),
+      getAllSupabaseRows((from, to) =>
+        supabase
+          .from("campaign_map_markers")
+          .select(
+            "id, source_id, location_id, name, marker_type, x, y, player_visible",
+          )
+          .eq("campaign_id", member.campaign_id)
+          .eq("map_id", mapId)
+          .order("id")
+          .range(from, to)
+          .returns<AtlasSyncMarker[]>(),
+      ),
+      getAllSupabaseRows((from, to) =>
+        supabase
+          .from("campaign_map_overlays")
+          .select(
+            "id, source_id, name, overlay_type, points, color, player_visible",
+          )
+          .eq("campaign_id", member.campaign_id)
+          .eq("map_id", mapId)
+          .order("id")
+          .range(from, to)
+          .returns<AtlasSyncOverlay[]>(),
+      ),
+      getAllSupabaseRows((from, to) =>
+        supabase
+          .from("campaign_locations")
+          .select("id, source_id, name, location_type, description, player_visible")
+          .eq("campaign_id", member.campaign_id)
+          .order("id")
+          .range(from, to)
+          .returns<AtlasSyncLocation[]>(),
+      ),
   ]);
-  if (mapsError) {
-    return { error: `Unable to load campaign maps: ${mapsError.message}` } as const;
+  if (mapsResult.error) {
+    return { error: `Unable to load campaign maps: ${mapsResult.error}` } as const;
   }
-  if (markersError) {
+  if (markersResult.error) {
     return {
-      error: `Unable to load existing map markers: ${markersError.message}`,
+      error: `Unable to load existing map markers: ${markersResult.error}`,
     } as const;
   }
-  if (overlaysError) {
+  if (overlaysResult.error) {
     return {
-      error: `Unable to load existing map overlays: ${overlaysError.message}`,
+      error: `Unable to load existing map overlays: ${overlaysResult.error}`,
     } as const;
   }
-  if (locationsError) {
+  if (locationsResult.error) {
     return {
-      error: `Unable to load campaign locations: ${locationsError.message}`,
+      error: `Unable to load campaign locations: ${locationsResult.error}`,
     } as const;
   }
 
-  const snapshot: AtlasSyncSnapshot = { maps, markers, overlays, locations };
+  const snapshot: AtlasSyncSnapshot = {
+    maps: mapsResult.data ?? [],
+    markers: markersResult.data ?? [],
+    overlays: overlaysResult.data ?? [],
+    locations: locationsResult.data ?? [],
+  };
   const plan = planAtlasSync(source, mapId, snapshot);
   return { member, supabase, plan, snapshot } as const;
 }
@@ -259,26 +269,36 @@ export async function applyCampaignAtlasSync(
     return { added: 0, updated: 0, removed: 0 };
   }
 
-  const { data: allMarkers, error: allMarkersError } = await supabase
-    .from("campaign_map_markers")
-    .select("*")
-    .eq("campaign_id", member.campaign_id)
-    .eq("map_id", mapId);
-  if (allMarkersError) {
+  const allMarkersResult = await getAllSupabaseRows((from, to) =>
+    supabase
+      .from("campaign_map_markers")
+      .select("*")
+      .eq("campaign_id", member.campaign_id)
+      .eq("map_id", mapId)
+      .order("id")
+      .range(from, to),
+  );
+  if (allMarkersResult.error) {
     return {
-      error: `Unable to create the rollback snapshot: ${allMarkersError.message}`,
+      error: `Unable to create the rollback snapshot: ${allMarkersResult.error}`,
     };
   }
-  const { data: allOverlays, error: allOverlaysError } = await supabase
-    .from("campaign_map_overlays")
-    .select("*")
-    .eq("campaign_id", member.campaign_id)
-    .eq("map_id", mapId);
-  if (allOverlaysError) {
+  const allOverlaysResult = await getAllSupabaseRows((from, to) =>
+    supabase
+      .from("campaign_map_overlays")
+      .select("*")
+      .eq("campaign_id", member.campaign_id)
+      .eq("map_id", mapId)
+      .order("id")
+      .range(from, to),
+  );
+  if (allOverlaysResult.error) {
     return {
-      error: `Unable to create the rollback snapshot: ${allOverlaysError.message}`,
+      error: `Unable to create the rollback snapshot: ${allOverlaysResult.error}`,
     };
   }
+  const allMarkers = allMarkersResult.data ?? [];
+  const allOverlays = allOverlaysResult.data ?? [];
 
   const touchedMarkerIds = new Set([
     ...plan.markerUpserts.flatMap((item) => (item.id ? [item.id] : [])),

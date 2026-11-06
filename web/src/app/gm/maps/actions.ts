@@ -144,7 +144,7 @@ export async function recordCampaignMapArtwork(
   }
 
   const artworkPath = `${member.campaign_id}/${map.id}/artwork`;
-  const { error } = await supabase
+  const { data: updatedMap, error } = await supabase
     .from("campaign_maps")
     .update({
       artwork_path: artworkPath,
@@ -153,10 +153,15 @@ export async function recordCampaignMapArtwork(
       updated_at: new Date().toISOString(),
     })
     .eq("campaign_id", member.campaign_id)
-    .eq("id", map.id);
+    .eq("id", map.id)
+    .select("id")
+    .maybeSingle();
 
   if (error) {
     return { error: `Unable to save map artwork metadata: ${error.message}` };
+  }
+  if (!updatedMap) {
+    return { error: "The map record was removed before its artwork could be saved." };
   }
 
   revalidatePath("/gm/maps");

@@ -248,3 +248,10 @@
 - Linked both records from the creature folder index and the campaign-wide creature registry.
 - No new creature distribution, local folklore, or regional ecology was established. The troll's exact encounter location and outcome remain pending play.
 - Confirmed that the current campaign JSON importer does not yet support creature records; no unsupported creature import package was created.
+
+
+## 2026-11-06 - Table-side GM support and regional creature tracking
+
+- Added `campaign/Table_Side_GM_Support_Protocol.md`, documenting the assistant's role during live play, rules support, encounter construction, improvisation, state tracking, and post-session repository updates.
+- Added `campaign/creatures/Regional_Occurrence_Template.md` to track regional creature evidence without turning a single sighting into an unsupported population claim.
+- Updated campaign and creature indexes and the development roadmap. The GM remains final authority; proposed improvisations are not canon until approved.

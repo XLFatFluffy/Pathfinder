@@ -1,7 +1,7 @@
 {
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_AND_ESTABLISHED_ROUTE_DRAFTS",
-  "note": "Player-facing continental layer with 15 major public places and six GM-drafted established continental routes. Marker coordinates were merged from the 2026-11-06 GM atlas coordinate export and visually checked against the authoritative artwork. Route polylines are cartographic drafts connecting established major places, not surveyed road alignments; GM review remains required. Political borders, geographic region polygons, and maritime influence remain withheld until their geometry is supportable and approved.",
+  "note": "Player-facing continental layer with 15 major public places and six GM-only route drafts. Marker coordinates were merged from the 2026-11-06 GM atlas coordinate export and visually checked against the authoritative artwork. Route polylines are cartographic proposals connecting established major places, not surveyed road alignments; they remain hidden from players pending GM review. Political borders, geographic region polygons, and maritime influence remain withheld until their geometry is supportable and approved.",
   "layers": [
     {
       "map": "continent_atlas",
@@ -241,7 +241,7 @@
               "y": 0.61
             }
           ],
-          "player_visible": true
+          "player_visible": false
         },
         {
           "source_id": "continent_atlas/routes/western-mountain-road",
@@ -294,7 +294,7 @@
               "y": 0.61
             }
           ],
-          "player_visible": true
+          "player_visible": false
         },
         {
           "source_id": "continent_atlas/routes/kings-road",
@@ -351,7 +351,7 @@
               "y": 0.72
             }
           ],
-          "player_visible": true
+          "player_visible": false
         },
         {
           "source_id": "continent_atlas/routes/eastern-coastal-road",
@@ -408,7 +408,7 @@
               "y": 0.82
             }
           ],
-          "player_visible": true
+          "player_visible": false
         },
         {
           "source_id": "continent_atlas/routes/southern-trade-road",
@@ -465,7 +465,7 @@
               "y": 0.82
             }
           ],
-          "player_visible": true
+          "player_visible": false
         },
         {
           "source_id": "continent_atlas/routes/inland-sea-route",
@@ -534,7 +534,7 @@
               "y": 0.36
             }
           ],
-          "player_visible": true
+          "player_visible": false
         }
       ]
     }

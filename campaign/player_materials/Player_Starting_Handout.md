@@ -16,6 +16,19 @@ Humans are the largest population across much of the continent. Elves and dwarve
 
 Magic exists, but it is uncommon in everyday life. Many people will live their entire lives without seeing a spell cast. The gods of the Pathfinder pantheon are real and widely recognized, although worship and religious customs vary between communities. Divine spellcasters are uncommon; a temple or shrine does not necessarily have someone capable of magical healing.
 
+### Faith in everyday life
+
+There is no single church or supreme religious authority across the continent. Different communities honor different gods, and worship may be public, private, or tied to particular trades and local customs. A priest may lead ceremonies, teach, keep records, provide counsel, or conduct funerals without being able to cast spells.
+
+In Tallowmere, several faiths have visible public institutions:
+- **Abadar:** The Open Ledger, a temple associated with lawful trade, contracts, honest measures, civic order, and commerce.
+- **Pharasma:** The Quiet Gate, serving funerary rites, burial, remembrance, and care for the dying.
+- **Gozreh:** The Tideward Shrine, associated with sailors, riverfolk, weather observances, and safe voyages.
+- **Sarenrae:** The House of the Dawn, known for charity, refuge, reconciliation, and aid to the poor.
+
+Smaller or household observances include Desna among some travelers and couriers, Erastil among families with rural ties, and Torag among some dwarven residents. These are visible local traditions, not an exhaustive list of the gods worshipped in the city. No one faith is Tallowmere's official religion, and these institutions do not replace secular government.
+
+
 ## The Crown and the Six Great Houses
 
 The current monarch is **King Aldric Calderan**, of House Calderan. The capital is **Valedorn**, where the Imperial Seat stands. The monarch presides over a six-seat Imperial Council, with one seat appointed by each Great House. The Council is an aristocratic negotiating body concerned with matters affecting the realm and the privileges of the Great Houses; it is not a modern elected parliament.

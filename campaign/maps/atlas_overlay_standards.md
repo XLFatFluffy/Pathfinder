@@ -71,3 +71,12 @@ The current app's overlay schema stores only a generic region/route type, points
 ## 7. Current hold
 
 The seven original continental polygon drafts were removed from `atlas_player_layer.json` because they mixed categories and several political-looking polygons overlapped. They are not canon borders. No replacement political polygons should be imported until their non-overlapping boundaries have been mapped against the authoritative artwork and approved.
+
+## 8. Drawing workflow: roads before territory fills
+
+1. Trace established roads as editable route polylines using named settlements and known junctions as anchors. Route geometry is a cartographic interpretation of the written connection, not a surveyed road course.
+2. Keep minor settlements on regional maps. The continental map remains a major-place overview.
+3. Build a political authority register before drawing territory polygons. Record direct holdings, vassal holdings, charter rights, and strategic interests separately.
+4. Draft Great House borders as a distinct proposal set. Keep polygons non-overlapping and visibly provisional until the GM approves the actual boundaries.
+5. Do not fill surrounding countryside based only on one settlement's allegiance or a house's broad sphere of influence.
+6. Where a charter grants only a crossing, ferry, toll, harbor, or other specific right, represent that right as a site or annotation unless a broader landholding is established.

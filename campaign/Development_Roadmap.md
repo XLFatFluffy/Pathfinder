@@ -94,6 +94,17 @@
 
 **Phase E status:** CORE HISTORICAL FRAMEWORK COMPLETE. Exact rebellion chronology, original dynasty name, final Dragonstone name, surviving-dragon fate, and deeper post-Rebellion history remain intentional mysteries.
 
+## Phase F — Living World Engine operational baseline (Nov 6)
+
+- Reconciled the Living World Engine with the completed political, economic, cultural, religious, historical, and minor-house frameworks.
+- Confirmed the actor, issue, project, holdings, event, and world-turn records as the authoritative simulation layer.
+- Confirmed the first world turn, **WTR-001**, as the approved zero-time opening snapshot on 1 Harvestfall, 243 AC. It does not advance the calendar.
+- Reconciled the world-turn ledger so WTR-001 is recorded as completed.
+- Established that future turns advance only when actual in-world time passes or the GM explicitly requests a simulation.
+- Preserved the rule that generated consequences are proposals until GM approval and that actors act from their own information and incentives.
+
+**Phase F status:** OPERATIONAL BASELINE COMPLETE. The engine is ready for the first real time-advancing turn during campaign play.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

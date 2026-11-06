@@ -56,6 +56,8 @@ These are not forgotten; they are deliberately staged so the campaign does not b
 
 ## 4. Additional worldbuilding completed
 
+A qualitative continental military framework has been drafted at `military/Continental_Military_Institutions_and_Operational_Doctrine.md`. It distinguishes established formations from proposed simulation procedure and leaves exact force strengths, command structures, and service obligations unresolved.
+
 The opening support layer now includes a table-side sandbox reference, a plausible NPC information network, and a proposed ordinary wildlife catalogue. These records deliberately avoid adding new mandatory plots, secret organizations, unsupported monster populations, or map geometry.
 
 - `locations/starting_city/Session_One_Sandbox_Reference.md`

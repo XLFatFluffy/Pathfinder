@@ -81,7 +81,7 @@ export async function getCampaignMapMarkers(
   const { data: markers, error } = await supabase
     .from("campaign_map_markers")
     .select(
-      "id, map_id, location_id, name, marker_type, x, y, player_visible",
+      "id, source_id, map_id, location_id, name, marker_type, x, y, player_visible",
     )
     .eq("campaign_id", member.campaign_id)
     .eq("map_id", mapId)

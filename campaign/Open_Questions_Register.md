@@ -34,6 +34,8 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 | OQ-019 | P2 | Seasonal climate and agriculture | What are the regional seasonal patterns, crop calendars, typical weather hazards, and their effects on travel, trade, and military logistics? | WORKING FRAMEWORK PROPOSED in `world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md`; exact seasonal patterns and current weather remain GM-controlled |
 
+| OQ-020 | P2 | Crown intelligence | What is the size, funding, recruitment, reach, internal structure, and operating method of Royal Spymaster Nerys Vale's network? | FRAMEWORK PROPOSED in `politics/Crown_Intelligence_and_Information_Operations.md`; specific agents, operations, and network scale remain unresolved |
+
 ## Rules
 1. Do not answer an open question by inference unless the GM approves the answer.
 2. Record competing in-world beliefs separately from objective GM truth.

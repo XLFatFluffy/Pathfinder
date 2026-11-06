@@ -189,6 +189,8 @@ Clocks advance only when causes justify progress. They can stall, reverse, split
 
 ## 10. Information and rumor
 
+Use [Crown Intelligence and Information Operations](politics/Crown_Intelligence_and_Information_Operations.md) for Crown reporting, source evaluation, compartmentalization, and information-risk decisions. It does not give Nerys Vale or the Crown automatic access to Great House, clan, religious, merchant, or local information networks.
+
 Maintain separate fields for:
 - Objective GM truth.
 - What each actor knows.

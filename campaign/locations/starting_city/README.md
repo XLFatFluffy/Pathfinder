@@ -5,6 +5,7 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 ## Start here
 
 - [Tallowmere GM Dossier](Tallowmere_GM_Dossier.md) — consolidated GM-only operating reference for NPCs, districts, locations, factions, rumors, secrets, commerce, and the surrounding region.
+- [NPC Roleplaying Dossier Collection](../../people/NPC_Roleplaying_Dossiers.md) — the table-facing roleplaying reference for established named NPCs, including motivations, fears, social methods, voice cues, and provisional alignments.
 
 - [City Overview](City_Overview.md) — established premise, sandbox principles, and core city identity.
 - [Session One GM Readiness Packet](Session_One_GM_Readiness_Packet.md) — current session-preparation reference.

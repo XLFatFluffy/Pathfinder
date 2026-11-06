@@ -8,6 +8,7 @@ This folder contains the structured GM records used to track the world beyond th
 - [Actor Register](Actor_Register.md) — index and standards for tracked actors.
 - [Great House Actor Dossiers](Great_House_Actor_Dossiers.md) — established agendas, relationships, leverage, and constraints for the six Great Houses.
 - [Continental Strategic Pressure Register](Continental_Strategic_Pressure_Register.md) — established continent-wide political and economic tensions, explicitly distinguished from active crises.
+- [Continental Minor Houses and Regional Powers](Continental_Minor_Houses_and_Regional_Powers.md) — first network of additional banner houses, Crown vassals, a dwarven clan, and independent southern powers.
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) — local houses, charter office, and civic council.
 - [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) — established local authority, charter relationships, and unresolved borders.
 - [Initial Issue Register](Initial_Issue_Register.md) — seven starting pressures and regional friction points.
@@ -19,11 +20,11 @@ This folder contains the structured GM records used to track the world beyond th
 
 - Campaign date: **1 Harvestfall, 243 AC**.
 - Starting region: Tallowmere and its hinterland.
-- Seven local issues are active or under watch.
+- Seven Tallowmere issues are active or under watch; one low-intensity boundary dispute is active between two Edarth banner houses in the Western Heartlands.
 - Six initial efforts/projects are recorded.
 - Six continent-wide structural pressures are indexed for future review; none is a current war or crisis by itself.
 - No first world turn has been run.
-- No active territorial border war or specific named-house border dispute is established in the Tallowmere region.
+- No active territorial border war is established. The Longmead boundary dispute is a local customary-rights case, not a war; no named-house border dispute is established in Tallowmere itself.
 - Exact local borders, several superior jurisdictions, and resource/military figures remain unresolved.
 
 ## Operating standards

@@ -123,3 +123,22 @@ At each meaningful worldbuilding checkpoint and after each session:
 - **Stage 9 — Imperial Council and Royal Court:** Established Council representatives, Crown officers, faction leaders, and key associates in `politics/Court_and_Council.md`.
 
 These stages supersede earlier roadmap statements that treated these frameworks as future work or unresolved. They do not resolve the remaining details explicitly listed as open in the dedicated records.
+
+
+## Ongoing system — Creature bestiary and regional ecology (started Nov 6, 2026)
+
+### Campaign records
+- The creature registry and reusable creature-record template are established in `campaign/creatures/`.
+- Keep creature identity, regional occurrence, frequency, evidence, public knowledge, specialist knowledge, PC knowledge, and GM-only truth distinct.
+- Register prepared encounters without treating them as established regional populations.
+- After each session, update only what was observed, documented, or explicitly approved by the GM.
+- Expand the catalogue in response to locations the PCs visit, creatures they encounter, and explicit setting decisions. Do not bulk-import generic Pathfinder monsters as assumed setting canon.
+
+### Future app support
+- Add creature records as a first-class GM-managed entity, with stable source keys and provenance.
+- Support multiple regional occurrence records for one creature, plus separate sightings and encounter links.
+- Support GM-only and player-shared knowledge at the field or section level where feasible; enforce access in database policies, not only in the UI.
+- Add source references, evidence status, review history, and preview-first import/update behavior.
+- The current campaign importer does not accept creature records. Extend its schema, validation, persistence, and permissions deliberately before preparing creature JSON for import. Do not force creature records into unrelated collections.
+
+**Current blocker:** Creature records are documented in the repository but are not yet supported by the app's import template or importer. Until that changes, the Markdown registry remains authoritative.

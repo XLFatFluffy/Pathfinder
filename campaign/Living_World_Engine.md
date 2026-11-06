@@ -273,6 +273,7 @@ The regional baseline does not establish an active territorial war or a specific
 ## 17. Great House simulation and reusable templates
 
 - [Great House Actor Dossiers](world_engine/Great_House_Actor_Dossiers.md) consolidate the established agendas, relationships, internal tensions, leverage, and constraints of the six Great Houses. A strategic agenda is not automatically an active project.
+- [Continental Strategic Pressure Register](world_engine/Continental_Strategic_Pressure_Register.md) records the established structural tensions among the Crown, Great Houses, and Southern Reaches without turning them into invented active crises.
 - [World Event Record Template](world_engine/World_Event_Record_Template.md) provides the event-history structure.
 - [World Turn Report Template](world_engine/World_Turn_Report_Template.md) provides the recurring GM review format.
 - [Initial Project Register](world_engine/Initial_Project_Register.md) tracks the starting region's established efforts.

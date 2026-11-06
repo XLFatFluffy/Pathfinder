@@ -2,6 +2,10 @@
 
 This directory contains the campaign's lore, canon records, GM materials, maps, and session documentation. Application source code remains outside this directory.
 
+## GM reference editions
+
+- [GM Campaign Bible](GM_Campaign_Bible.md) — consolidated GM-only reference for the entire setting, canon, history, Great Houses, politics, geography, and Living World Engine.
+
 ## Authority and canon control
 
 - [Campaign Bible](Campaign_Bible.md) — living master reference and consolidated setting record.

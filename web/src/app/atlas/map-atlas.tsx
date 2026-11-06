@@ -114,6 +114,8 @@ export default function MapAtlas({
   const [artworkUrl, setArtworkUrl] = useState<string | null>(null);
   const [status, setStatus] = useState("");
   const [view, setView] = useState<View>({ scale: 1, x: 0, y: 0 });
+  const [showCoordinateGrid, setShowCoordinateGrid] = useState(false);
+  const [pointerCoordinate, setPointerCoordinate] = useState<{ x: number; y: number } | null>(null);
   const [naturalSize, setNaturalSize] = useState({ width: 0, height: 0 });
   const [markers, setMarkers] = useState<CampaignMapMarker[]>([]);
   const [markersStatus, setMarkersStatus] = useState("");
@@ -449,6 +451,27 @@ export default function MapAtlas({
     };
   }
 
+  function updatePointerCoordinate(event: React.PointerEvent<HTMLDivElement> | React.MouseEvent<HTMLDivElement>) {
+    if (!naturalSize.width || !viewportRef.current) {
+      setPointerCoordinate(null);
+      return;
+    }
+    const bounds = viewportRef.current.getBoundingClientRect();
+    const x =
+      (event.clientX - bounds.left - bounds.width / 2 - view.x) /
+        (naturalSize.width * view.scale) +
+      0.5;
+    const y =
+      (event.clientY - bounds.top - bounds.height / 2 - view.y) /
+        (naturalSize.height * view.scale) +
+      0.5;
+    if (x < 0 || x > 1 || y < 0 || y > 1) {
+      setPointerCoordinate(null);
+      return;
+    }
+    setPointerCoordinate({ x, y });
+  }
+
   function handlePointerMove(event: React.PointerEvent<HTMLDivElement>) {
     const currentDrag = drag.current;
     if (!currentDrag || currentDrag.pointerId !== event.pointerId) {
@@ -465,9 +488,11 @@ export default function MapAtlas({
       x: currentDrag.originX + event.clientX - currentDrag.startX,
       y: currentDrag.originY + event.clientY - currentDrag.startY,
     }));
+    updatePointerCoordinate(event);
   }
 
   function handleViewportClick(event: React.MouseEvent<HTMLDivElement>) {
+    updatePointerCoordinate(event);
     if (!canEditMarkers || dragged.current || !naturalSize.width) {
       return;
     }
@@ -866,6 +891,19 @@ export default function MapAtlas({
         <button disabled={!artworkUrl} onClick={fitMap} type="button">
           Fit map
         </button>
+        <button
+          aria-pressed={showCoordinateGrid}
+          disabled={!artworkUrl}
+          onClick={() => setShowCoordinateGrid((current) => !current)}
+          type="button"
+        >
+          {showCoordinateGrid ? "Hide coordinates" : "Show coordinates"}
+        </button>
+        {showCoordinateGrid && pointerCoordinate ? (
+          <output className="atlas-coordinate-readout" aria-label="Pointer coordinates">
+            X {Math.round(pointerCoordinate.x * 100)}% · Y {Math.round(pointerCoordinate.y * 100)}%
+          </output>
+        ) : null}
         <a className="button-link" href={mapLibraryHref}>
           Manage maps
         </a>
@@ -967,6 +1005,7 @@ export default function MapAtlas({
         onKeyDown={handleKeyDown}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
+        onPointerLeave={() => setPointerCoordinate(null)}
         onPointerUp={() => {
           drag.current = null;
         }}
@@ -1005,6 +1044,53 @@ export default function MapAtlas({
               }}
               src={artworkUrl}
             />
+            {showCoordinateGrid ? (
+              <svg
+                aria-hidden="true"
+                className="atlas-coordinate-grid"
+                preserveAspectRatio="none"
+                viewBox="0 0 1 1"
+              >
+                {Array.from({ length: 11 }, (_, index) => {
+                  const value = index / 10;
+                  const label = index * 10;
+                  return (
+                    <g key={index}>
+                      <line
+                        x1={value}
+                        y1="0"
+                        x2={value}
+                        y2="1"
+                        stroke="currentColor"
+                        strokeWidth="0.0015"
+                      />
+                      <line
+                        x1="0"
+                        y1={value}
+                        x2="1"
+                        y2={value}
+                        stroke="currentColor"
+                        strokeWidth="0.0015"
+                      />
+                      <text
+                        x={value}
+                        y="0.025"
+                        textAnchor={index === 0 ? "start" : index === 10 ? "end" : "middle"}
+                      >
+                        {label}
+                      </text>
+                      <text
+                        x="0.008"
+                        y={Math.min(0.995, Math.max(0.015, value - 0.008))}
+                        textAnchor="start"
+                      >
+                        {label}
+                      </text>
+                    </g>
+                  );
+                })}
+              </svg>
+            ) : null}
             <svg
               aria-hidden="true"
               className="atlas-overlay-layer"
@@ -1117,7 +1203,10 @@ export default function MapAtlas({
 
       <p className="muted atlas-help">
         Drag to pan. Scroll to zoom at the pointer. Keyboard: arrow keys to pan,
-        +/− to zoom, Home or 0 to fit the map.
+        +/− to zoom, Home or 0 to fit the map. Coordinates use normalized image
+        space: X=0% at the left edge, X=100% at the right; Y=0% at the top,
+        Y=100% at the bottom. The coordinate grid is a calibration aid and is
+        not a claim of surveyed geography.
       </p>
       {canEditMarkers || overlays.length || overlaysStatus ? (
         <section

@@ -10,7 +10,8 @@ The engine tracks people and institutions as actors. This register is an index, 
 ### Crown and central government
 - House Calderan and King Aldric Calderan.
 - Imperial Council, with one representative appointed by each Great House.
-- Crown officers and court factions documented in [Court and Council](politics/Court_and_Council.md).
+- Crown officers and court factions documented in [Court and Council](../politics/Court_and_Council.md).
+- Great House rulers and heirs in [House Rulers](../politics/House_Rulers.md).
 
 ### Great Houses
 - House Calderan.
@@ -20,25 +21,24 @@ The engine tracks people and institutions as actors. This register is an index, 
 - House Veyr.
 - House Merrowen.
 
-Use [House Rulers](politics/House_Rulers.md) and dedicated political records for approved identities, rulers, heirs, seats, and relationships. Do not invent new Great House goals or military strengths.
+Their established agendas, rulers, heirs, and ruler-to-ruler dynamics are recorded in the authoritative political records. Do not invent new Great House goals, exact military strengths, or secret plans.
 
-### Tallowmere and local powers
-- House Denvor, governing house of Tallowmere.
-- House Kharadorn, with established strategic rights and harbor interests under the charter.
-- Reeve's administration, harbor authority, magistracy, city watch, and other offices in the Session One GM Readiness Packet.
-- Warehouse Guild, merchants, shipowners, smaller traders, laborers, and ratfolk communities.
+### Tallowmere local political actors
+- [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) contains the initial profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, Kharadorn's Charter House, and the Chartered Council.
+- Civic officers and local NPCs are detailed in the starting-city Civic NPCs record.
+- The seven-seat Chartered Council and its procedure are detailed in the Chartered Council and Civic Procedure record.
+- Local guilds and companies are detailed in the Guilds and Commerce record.
 
-### Minor houses and territorial authorities
-- House Relland, subordinate to House Velleran; see [House Relland and the Merchant Incident](politics/House_Relland_and_the_Merchant_Incident.md).
-- House Velleran, associated with Harthbridge and the southern local framework.
-- House Merewick, administering the chartered Fordmere crossing.
-- House Avenholt, associated with Ashcombe Manor.
-- House Denvor, House Velleran, House Merewick, and House Avenholt should be treated according to their established local roles. Do not infer undocumented liege chains, borders, armies, or political alliances.
+### Regional authorities and holdings
+- [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) records established holdings, charter relationships, vassalage, and unresolved boundaries.
+- House Relland's established historical incident is in the political House Relland record.
+- Do not infer undocumented liege chains, borders, armies, or political alliances.
 
 ### Communities and institutions
 - Decentralized ratfolk neighborhoods and households, including distinct mediators, traders, couriers, and other named NPCs.
 - Religious and civic institutions listed in the starting-city records.
 - Regional settlements and their local communities.
+- Guilds, companies, and the Chartered Council are actors only within their documented authority and membership.
 
 ## Actor record minimum fields
 
@@ -58,6 +58,11 @@ Use [House Rulers](politics/House_Rulers.md) and dedicated political records for
 - **Public visibility and PC knowledge**
 - **Source records and last reviewed**
 
-## Important distinction
+## Important distinctions
 
-A named house is not automatically a fully simulated actor. Start with actors that can affect the current region or a PC goal. Expand the register when play makes them relevant. The existence of a title does not establish effective control, and control does not automatically establish lawful legitimacy.
+- A named house is not automatically a fully simulated actor.
+- A title does not establish effective control; control does not automatically establish lawful legitimacy.
+- A commercial rival is not automatically a political enemy.
+- A charter relationship is not automatically feudal vassalage.
+- A local customary right is not automatically territorial sovereignty.
+- Unknown values remain UNKNOWN. Do not invent numerical strength ratings.

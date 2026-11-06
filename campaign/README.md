@@ -28,6 +28,8 @@ These governance records remain at the campaign root because they apply across a
 - [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, and religious history.
 - [creatures/](creatures/) — creatures, supernatural phenomena, undead, dragons, monsters, and regional threats.
 - [Table-Side GM Support Protocol](Table_Side_GM_Support_Protocol.md) — workflow for live rules help, improvisation, encounter support, tracking, and post-session database updates.
+- [Living World Engine](Living_World_Engine.md) — operating model for independent actors, issues, projects, events, time advancement, political change, and consequences.
+- [world_engine/](world_engine/) — initial actor register and Tallowmere issue register.
 - [economy/](economy/) — merchants, shops, goods, services, markets, resources, production, and trade.
 - [maps/](maps/) — authoritative map artwork, map metadata, and geographic overlays.
 - [player_characters/](player_characters/) — player-character records and GM preparation. Treat contents as restricted GM material unless explicitly marked player-facing.

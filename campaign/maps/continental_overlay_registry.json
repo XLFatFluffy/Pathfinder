@@ -1,7 +1,7 @@
 {
   "format": "pathfinder-continental-overlay-registry",
   "schema_version": 1,
-  "status": "PHASE_A_ROUTES_DRAFTED_MARKER_COORDINATES_CALIBRATED_POLITICAL_AND_REGION_GEOMETRY_PENDING",
+  "status": "PHASE_A_ROUTES_GM_APPROVED_POLITICAL_AND_GEOGRAPHIC_GEOMETRY_PENDING",
   "map_source_id": "continent_atlas",
   "map_name": "The Continent",
   "artwork": "campaign/maps/continent_atlas.png",

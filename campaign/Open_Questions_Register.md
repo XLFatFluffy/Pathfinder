@@ -18,7 +18,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | RESOLVED AT REFERENCE LEVEL: Tallowmere districts and principal public destinations are indexed in the Session One GM Readiness Packet; precise map geometry remains provisional |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | RESOLVED: Calendar established in `history/Calendar.md`; Session One begins 1 Harvestfall, 243 AC |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
-| OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established. Exact borders, wider family trees, detailed histories, faction membership and influence, and Council procedure remain open. | CORE FRAMEWORK ESTABLISHED; DETAILS OPEN |
+| OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established. Exact borders, wider family trees, detailed histories, faction membership and influence remain open. Council procedure is established in `politics/Imperial_Governance_Operating_Framework.md`. | CORE FRAMEWORK ESTABLISHED; COUNCIL PROCEDURE RESOLVED; FAMILY/FACTION DETAIL OPEN |
 | OQ-008 | P1 | Ratfolk societies | What are the detailed names, population, customs, leadership, and local geography of the Underways and wider nearby ratfolk network? | PARTIALLY RESOLVED: four informal networks and seven named contacts are established in Ratfolk_Community_Networks_and_NPCs.md; neighborhood names, population, exact passages, and wider regional links remain open |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
 | OQ-010 | P2 | Continent geography | Approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at the widest point, making the continent smaller than Westeros. The central inland sea, Dragonstone island and narrow land bridge, secret dwarven underground route, Khar-Dum in the northeastern mountains, broad Great House territories, and first named minor-house network are established. Exact borders, coordinates, travel distances, routes, rivers, local jurisdictions, and final names remain open. | FRAMEWORK ESTABLISHED; CARTOGRAPHIC DETAILS OPEN |
@@ -41,14 +41,14 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 ## Imperial Settlement: Remaining Questions
 - What forces, relationships, debts, and political dependencies constrain or influence King Aldric Calderan? Do not assume a single controller or presume that Kharadorn controls him.
 - What specific genealogical records, marriages, hereditary titles, and historical events substantiate the Calderan family's legitimate claim?
-- What are the exact voting or approval procedures, quorum, vetoes, and customary practices of the established six-seat Imperial Council?
+- **RESOLVED:** The six-seat Imperial Council's operating procedures, quorum, voting thresholds, protected settlement matters, emergency rules, and representative appointment rules are established in `politics/Imperial_Governance_Operating_Framework.md`.
 - What are the full memberships, internal networks, and relative influence of the five established court factions?
 
 
 ## Great Houses — remaining questions
 - Where are the six houses' territories and principal seats located on the final continent map?
 - What wider family trees, collateral branches, and detailed house histories exist beyond the established rulers and immediate families in `politics/House_Rulers.md`?
-- The six Council representatives are established in `politics/Court_and_Council.md`; what exact procedures, voting rules, quorum, vetoes, and customary practices govern the Council?
+- The six Council representatives are established in `politics/Court_and_Council.md`; operating procedures, voting rules, quorum, vetoes, and protected settlement matters are established in `politics/Imperial_Governance_Operating_Framework.md`.
 - The five faction leaders are established in `politics/Court_and_Council.md`; who belongs to each network, how do their memberships overlap, and what is their relative influence?
 - What were each house's specific campaigns, commanders, alliances, and sacrifices during the Great Rebellion?
 - What is the final in-world name of Dragonstone, the conquered ancestral stronghold of the fallen dragon-riding dynasty?

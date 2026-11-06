@@ -117,3 +117,49 @@ This register captures structural tensions that already exist in the setting. Th
 ## Campaign-start guardrail
 
 At 1 Harvestfall, 243 AC, these pressures provide context for future simulation. They do **not** establish a current Great House war, active continental border dispute, assassination plot, succession emergency, naval blockade, or northern invasion. The Living World Engine should generate such developments only from a credible chain of causes and a GM-approved world-state change.
+
+
+### CSP-007 — Water rights and caravan access in the Southwestern Marches
+
+**Status:** STRUCTURAL  
+**Principal actors:** House Serrane of Sablecross; nearby communities and caravan operators where identified.
+
+**Established condition:** Sablecross is a fortified well-town associated with House Serrane's independent lordship. Its local importance rests on wells, cisterns, caravan access, and customary market and water dues. House Serrane seeks to preserve local autonomy while maintaining trade in grain, salt, wool, and metal goods.
+
+**Why it matters:** In an arid region, water access and the reliability of caravan stops can carry political and commercial weight. A change in water availability, dues, access rules, or local security could affect travelers and neighboring communities.
+
+**Plausible mechanisms if circumstances arise:** Negotiated access, revised dues, maintenance obligations, caravan agreements, local arbitration, or requests for outside protection.
+
+**Unknown:** Exact water capacity, the identities and claims of neighboring communities, formal water-sharing agreements, caravan schedules, and any current shortage.
+
+**Boundary:** No drought, water seizure, armed dispute, or formal treaty is established at campaign start.
+
+### CSP-008 — Brightwater's civic charter and river-market autonomy
+
+**Status:** STRUCTURAL  
+**Principal actors:** Brightwater Civic Compact; Presiding First Speaker Ilyan Cress; neighboring rural lords and commercial interests where identified.
+
+**Established condition:** Brightwater is an independent city government in the Southern Principalities. The Civic Compact protects its chartered independence, river and market commerce, public works, and local law. It is wary of any neighboring prince turning temporary protection or influence into permanent control. A routine river-market charter review is recorded as WATCH.
+
+**Why it matters:** Market rules, river use, tolls, maintenance, civic appointments, and external protection can affect the city's independence and trade. Civic factions may disagree over how much authority to delegate without creating a unified anti-noble bloc.
+
+**Plausible mechanisms if circumstances arise:** Charter interpretation, commercial negotiation, civic vote, arbitration with rural lords, market-rule revision, or a request for outside recognition.
+
+**Unknown:** The exact balance of the seven civic seats, the selection customs for each seat, specific rural counterparties, and any formal external guarantee of the city's charter.
+
+**Boundary:** No siege, succession crisis, external occupation, or active charter challenge is established.
+
+### CSP-009 — Southern Islands harbor privileges and local maritime autonomy
+
+**Status:** STRUCTURAL  
+**Principal actors:** House Veylan of Marrowgate; Duskport Shipmasters' Compact; other island ports where identified.
+
+**Established condition:** House Veylan is an independent island lordship with harbor rights associated with Marrowgate. The Duskport Shipmasters' Compact is an independent port association that protects open-port privileges and predictable dues. The two maintain practical commercial ties and are cooperative but competitive. Neither controls the entire island chain.
+
+**Why it matters:** Harbor dues, pilotage, fishing rights, ship access, local defense, and outside levies can create friction between hereditary authority and port communities. Their commercial interests may align on open navigation while diverging over who sets rules and receives revenue.
+
+**Plausible mechanisms if circumstances arise:** Harbor agreement, pilotage convention, shared defense arrangement, dues negotiation, arbitration, or commercial redirection to a competing port.
+
+**Unknown:** Formal treaties, exact island jurisdictions, vessel and fleet capabilities, the authority of shipmasters outside Duskport, and the position of other island powers.
+
+**Boundary:** No naval blockade, piracy campaign, port revolt, or island-wide alliance is established. Do not merge the Southern Islands into a unified political bloc.

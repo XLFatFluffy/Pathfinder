@@ -36,6 +36,8 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 | OQ-020 | P2 | Crown intelligence | What is the size, funding, recruitment, reach, internal structure, and operating method of Royal Spymaster Nerys Vale's network? | FRAMEWORK PROPOSED in `politics/Crown_Intelligence_and_Information_Operations.md`; specific agents, operations, and network scale remain unresolved |
 
+| OQ-021 | P2 | Southern diplomatic network | What formal treaties, guarantees, trade compacts, and succession relationships exist among the independent Southern Reaches powers? | INITIAL STRUCTURAL PRESSURES RECORDED in `world_engine/Continental_Strategic_Pressure_Register.md`; no formal treaty network is established |
+
 ## Rules
 1. Do not answer an open question by inference unless the GM approves the answer.
 2. Record competing in-world beliefs separately from objective GM truth.

@@ -1,7 +1,7 @@
 {
   "format": "pathfinder-atlas-layer-registry",
   "schema_version": 1,
-  "status": "PHASE_A_CARTOGRAPHIC_SPEC_ESTABLISHED_GEOMETRY_CALIBRATION_PENDING",
+  "status": "PHASE_A_OVERLAY_SET_ESTABLISHED_GEOMETRY_CALIBRATION_PENDING",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "authority": {
     "master_map": "campaign/maps/continent_atlas.png",
@@ -349,12 +349,13 @@
   ],
   "phase_a_specification": "campaign/maps/Continental_Cartographic_Phase_A.md",
   "next_steps": [
+    "Use campaign/maps/continental_overlay_registry.json as the GM-only Phase A overlay drafting set; do not promote null geometry to the player layer.",
     "Keep minor settlements on their appropriate regional maps, not the continental layer.",
     "Trace established continental major roads as editable route lines against the authoritative artwork and review before player publication.",
     "Calibrate the Tallowmere regional artwork, place its eight public settlement markers, and trace its six established road connections.",
     "Prepare non-overlapping Great House territory drafts from the approved broad framework; use the Phase A drafting order and keep exact borders provisional until GM approval.",
     "Resolve local jurisdiction extents, especially Saltwick's superior authority and the limits of the Merewick crossing charter, before drawing local political polygons.",
-    "Trace geographic regions as neutral overlays.",
+    "Trace the classified geographic, maritime, and route overlays from campaign/maps/continental_overlay_registry.json against the authoritative artwork.",
     "Promote only calibrated and reviewed geometry into the live player layer."
   ],
   "map_scale_policy": {
@@ -366,5 +367,6 @@
     "source_id": "political/regional-jurisdictions",
     "status": "AUTHORITY_AND_HOLDINGS_PARTIALLY_ESTABLISHED_BOUNDARIES_UNRESOLVED",
     "rule": "Distinguish direct holdings, vassalage, charter rights, and strategic interests. None automatically establishes sovereignty over all surrounding land."
-  }
+  },
+  "phase_a_overlay_registry": "campaign/maps/continental_overlay_registry.json"
 }

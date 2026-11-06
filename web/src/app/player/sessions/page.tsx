@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,15 +12,15 @@ export default async function PlayerSessionsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const { data: sessions, error } = await supabase
-    .from("campaign_sessions")
-    .select("id, session_number, campaign_date, summary")
-    .eq("campaign_id", member.campaign_id)
-    .order("session_number", { ascending: false });
-
-  if (error) {
-    throw new Error(`Unable to load shared session recaps: ${error.message}`);
-  }
+  const sessions = await getAllSupabaseRowsOrThrow((from, to) =>
+    supabase
+      .from("campaign_sessions")
+      .select("id, session_number, campaign_date, summary")
+      .eq("campaign_id", member.campaign_id)
+      .order("session_number", { ascending: false })
+      .order("id", { ascending: false })
+      .range(from, to),
+  );
 
   return (
     <>

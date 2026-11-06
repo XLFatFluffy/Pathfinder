@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import PlayerNoteForm from "./note-form";
 
 export const dynamic = "force-dynamic";
@@ -12,15 +13,15 @@ export default async function PlayerNotesPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const { data: notes, error } = await supabase
-    .from("campaign_player_notes")
-    .select("id, title, content")
-    .eq("campaign_id", member.campaign_id)
-    .order("updated_at", { ascending: false });
-
-  if (error) {
-    throw new Error(`Unable to load your personal notes: ${error.message}`);
-  }
+  const notes = await getAllSupabaseRowsOrThrow((from, to) =>
+    supabase
+      .from("campaign_player_notes")
+      .select("id, title, content")
+      .eq("campaign_id", member.campaign_id)
+      .order("updated_at", { ascending: false })
+      .order("id", { ascending: false })
+      .range(from, to),
+  );
 
   return (
     <>

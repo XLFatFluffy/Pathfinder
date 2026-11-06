@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import CharacterForm from "./character-form";
 import CharacterPdfDialog from "./character-pdf-dialog";
 import {
@@ -17,15 +18,15 @@ export default async function PlayerCharactersPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const { data: characters, error } = await supabase
-    .from("campaign_characters")
-    .select("id, name, ancestry, class_name, level, character_pdf_form_data")
-    .eq("campaign_id", member.campaign_id)
-    .order("name");
-
-  if (error) {
-    throw new Error(`Unable to load your character sheets: ${error.message}`);
-  }
+  const characters = await getAllSupabaseRowsOrThrow((from, to) =>
+    supabase
+      .from("campaign_characters")
+      .select("id, name, ancestry, class_name, level, character_pdf_form_data")
+      .eq("campaign_id", member.campaign_id)
+      .order("name")
+      .order("id")
+      .range(from, to),
+  );
 
   return (
     <>

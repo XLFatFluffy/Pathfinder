@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import NpcForm from "./npc-form";
 
 export const dynamic = "force-dynamic";
@@ -12,47 +13,45 @@ export default async function GmNpcsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: npcs, error },
-    { data: privateNotes, error: notesError },
-    { data: statusHistory, error: historyError },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_npcs")
-      .select(
-        "id, name, race, age, gender, occupation, titles, description, status, location_id, player_visible",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_npc_gm_notes")
-      .select("npc_id, notes")
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_npc_status_history")
-      .select("id, npc_id, status, campaign_date, reason, created_at")
-      .eq("campaign_id", member.campaign_id)
-      .order("created_at", { ascending: false }),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
+  const [npcs, privateNotes, statusHistory, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select(
+          "id, name, race, age, gender, occupation, titles, description, status, location_id, player_visible",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npc_gm_notes")
+        .select("npc_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("npc_id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npc_status_history")
+        .select("id, npc_id, status, campaign_date, reason, created_at")
+        .eq("campaign_id", member.campaign_id)
+        .order("created_at", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load campaign NPCs: ${error.message}`);
-  }
-  if (notesError) {
-    throw new Error(`Unable to load private NPC notes: ${notesError.message}`);
-  }
-  if (historyError) {
-    throw new Error(`Unable to load NPC status history: ${historyError.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load NPC locations: ${locationsError.message}`);
-  }
 
   const notesByNpcId = new Map(
     privateNotes.map((entry) => [entry.npc_id, entry.notes]),

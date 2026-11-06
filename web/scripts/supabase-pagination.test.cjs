@@ -17,7 +17,11 @@ paginationModule.filename = sourcePath;
 paginationModule.paths = Module._nodeModulePaths(path.dirname(sourcePath));
 paginationModule._compile(compiled.outputText, sourcePath);
 
-const { getAllSupabaseRows, supabaseReadPageSize } = paginationModule.exports;
+const {
+  getAllSupabaseRows,
+  getAllSupabaseRowsOrThrow,
+  supabaseReadPageSize,
+} = paginationModule.exports;
 
 test("reads every row across Supabase API page caps", async () => {
   const rows = Array.from({ length: 2305 }, (_, id) => ({ id }));
@@ -47,4 +51,14 @@ test("returns query errors instead of a partial result", async () => {
 
   assert.equal(result.data, undefined);
   assert.equal(result.error, "database unavailable");
+});
+
+test("throwing pagination helper surfaces the database error", async () => {
+  await assert.rejects(
+    getAllSupabaseRowsOrThrow(async () => ({
+      data: null,
+      error: { message: "database unavailable" },
+    })),
+    /database unavailable/,
+  );
 });

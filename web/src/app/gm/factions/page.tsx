@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import FactionForm from "./faction-form";
 
 export const dynamic = "force-dynamic";
@@ -12,49 +13,47 @@ export default async function GmFactionsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: factions, error },
-    { data: details, error: detailsError },
-    { data: npcs, error: npcsError },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_factions")
-      .select(
-        "id, name, faction_type, description, leader_npc_id, headquarters_location_id, player_visible",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_faction_gm_details")
-      .select(
-        "faction_id, objectives, resources, influence, membership, allies_and_rivals, current_activities, history, secrets",
-      )
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_npcs")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
+  const [factions, details, npcs, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_factions")
+        .select(
+          "id, name, faction_type, description, leader_npc_id, headquarters_location_id, player_visible",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_faction_gm_details")
+        .select(
+          "faction_id, objectives, resources, influence, membership, allies_and_rivals, current_activities, history, secrets",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("faction_id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load campaign factions: ${error.message}`);
-  }
-  if (detailsError) {
-    throw new Error(`Unable to load private faction details: ${detailsError.message}`);
-  }
-  if (npcsError) {
-    throw new Error(`Unable to load faction leaders: ${npcsError.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load faction headquarters: ${locationsError.message}`);
-  }
 
   const detailsByFactionId = new Map(
     details.map((detail) => [detail.faction_id, detail]),

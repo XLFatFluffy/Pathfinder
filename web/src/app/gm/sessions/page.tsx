@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import SessionForm from "./session-form";
 
 export const dynamic = "force-dynamic";
@@ -12,27 +13,25 @@ export default async function GmSessionsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: sessions, error },
-    { data: privateNotes, error: notesError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_sessions")
-      .select("id, session_number, campaign_date, summary, player_visible")
-      .eq("campaign_id", member.campaign_id)
-      .order("session_number", { ascending: false }),
-    supabase
-      .from("campaign_session_gm_notes")
-      .select("session_id, notes")
-      .eq("campaign_id", member.campaign_id),
+  const [sessions, privateNotes] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_sessions")
+        .select("id, session_number, campaign_date, summary, player_visible")
+        .eq("campaign_id", member.campaign_id)
+        .order("session_number", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_session_gm_notes")
+        .select("session_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("session_id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load session logs: ${error.message}`);
-  }
-  if (notesError) {
-    throw new Error(`Unable to load private session notes: ${notesError.message}`);
-  }
 
   const notesBySessionId = new Map(
     privateNotes.map((entry) => [entry.session_id, entry.notes]),

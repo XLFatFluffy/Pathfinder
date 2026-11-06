@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,27 +12,25 @@ export default async function PlayerNpcsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: npcs, error },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_npcs")
-      .select("id, name, race, occupation, titles, description, status, location_id")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id),
+  const [npcs, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name, race, occupation, titles, description, status, location_id")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load player-known NPCs: ${error.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load player-known NPC locations: ${locationsError.message}`);
-  }
 
   const locationsById = new Map(locations.map((location) => [location.id, location.name]));
 

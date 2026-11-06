@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,15 +12,15 @@ export default async function PlayerLocationsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const { data: locations, error } = await supabase
-    .from("campaign_locations")
-    .select("id, name, location_type, description")
-    .eq("campaign_id", member.campaign_id)
-    .order("name");
-
-  if (error) {
-    throw new Error(`Unable to load player-visible locations: ${error.message}`);
-  }
+  const locations = await getAllSupabaseRowsOrThrow((from, to) =>
+    supabase
+      .from("campaign_locations")
+      .select("id, name, location_type, description")
+      .eq("campaign_id", member.campaign_id)
+      .order("name")
+      .order("id")
+      .range(from, to),
+  );
 
   return (
     <>

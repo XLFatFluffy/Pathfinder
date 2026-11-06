@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,39 +12,35 @@ export default async function PlayerFactionsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: factions, error },
-    { data: npcs, error: npcsError },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_factions")
-      .select(
-        "id, name, faction_type, description, leader_npc_id, headquarters_location_id",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_npcs")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id),
+  const [factions, npcs, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_factions")
+        .select(
+          "id, name, faction_type, description, leader_npc_id, headquarters_location_id",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load known factions: ${error.message}`);
-  }
-  if (npcsError) {
-    throw new Error(`Unable to load known faction leaders: ${npcsError.message}`);
-  }
-  if (locationsError) {
-    throw new Error(
-      `Unable to load known faction headquarters: ${locationsError.message}`,
-    );
-  }
 
   const npcsById = new Map(npcs.map((npc) => [npc.id, npc.name]));
   const locationsById = new Map(

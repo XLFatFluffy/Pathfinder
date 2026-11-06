@@ -10,11 +10,13 @@ export async function getAllSupabaseRows<T>(
   }>,
 ): Promise<{ data?: T[]; error?: string }> {
   const rows: T[] = [];
+
   for (let from = 0; ; from += supabaseReadPageSize) {
     const { data, error } = await fetchPage(
       from,
       from + supabaseReadPageSize - 1,
     );
+
     if (error) {
       return { error: error.message };
     }
@@ -25,4 +27,20 @@ export async function getAllSupabaseRows<T>(
       return { data: rows };
     }
   }
+}
+
+export async function getAllSupabaseRowsOrThrow<T>(
+  fetchPage: (
+    from: number,
+    to: number,
+  ) => PromiseLike<{
+    data: T[] | null;
+    error: { message: string } | null;
+  }>,
+): Promise<T[]> {
+  const result = await getAllSupabaseRows(fetchPage);
+  if (result.error) {
+    throw new Error(result.error);
+  }
+  return result.data ?? [];
 }

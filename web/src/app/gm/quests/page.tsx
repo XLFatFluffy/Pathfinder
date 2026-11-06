@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import QuestForm from "./quest-form";
 
 export const dynamic = "force-dynamic";
@@ -12,36 +13,34 @@ export default async function GmQuestsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: quests, error },
-    { data: notes, error: notesError },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_quests")
-      .select("id, name, status, summary, giver, location_id, player_visible")
-      .eq("campaign_id", member.campaign_id)
-      .order("updated_at", { ascending: false }),
-    supabase
-      .from("campaign_quest_gm_notes")
-      .select("quest_id, notes")
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
+  const [quests, notes, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_quests")
+        .select("id, name, status, summary, giver, location_id, player_visible")
+        .eq("campaign_id", member.campaign_id)
+        .order("updated_at", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_quest_gm_notes")
+        .select("quest_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("quest_id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load campaign quests: ${error.message}`);
-  }
-  if (notesError) {
-    throw new Error(`Unable to load private quest notes: ${notesError.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load quest locations: ${locationsError.message}`);
-  }
 
   const notesByQuestId = new Map(
     notes.map((entry) => [entry.quest_id, entry.notes]),

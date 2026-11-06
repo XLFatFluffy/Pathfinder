@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import LocationForm from "./location-form";
 
 export const dynamic = "force-dynamic";
@@ -12,24 +13,25 @@ export default async function GmLocationsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const { data: locations, error } = await supabase
-    .from("campaign_locations")
-    .select("id, name, location_type, description, parent_id, player_visible")
-    .eq("campaign_id", member.campaign_id)
-    .order("name");
-
-  if (error) {
-    throw new Error(`Unable to load campaign locations: ${error.message}`);
-  }
-
-  const { data: privateNotes, error: notesError } = await supabase
-    .from("campaign_location_gm_notes")
-    .select("location_id, notes")
-    .eq("campaign_id", member.campaign_id);
-
-  if (notesError) {
-    throw new Error(`Unable to load private location notes: ${notesError.message}`);
-  }
+  const [locations, privateNotes] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name, location_type, description, parent_id, player_visible")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_location_gm_notes")
+        .select("location_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("location_id")
+        .range(from, to),
+    ),
+  ]);
 
   const locationsById = new Map(locations.map((location) => [location.id, location]));
   const notesByLocationId = new Map(

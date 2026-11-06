@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import HouseForm from "./house-form";
 import HouseRelationshipForm from "./relationship-form";
 import { formatHouseRelationshipType } from "./relationship-types";
@@ -15,80 +16,82 @@ export default async function GmHousesPage() {
 
   const supabase = await createSupabaseServerClient();
   const [
-    { data: houses, error },
-    { data: details, error: detailsError },
-    { data: npcs, error: npcsError },
-    { data: locations, error: locationsError },
-    { data: relationships, error: relationshipsError },
-    { data: relationshipNotes, error: relationshipNotesError },
-    { data: relationshipHistory, error: relationshipHistoryError },
+    houses,
+    details,
+    npcs,
+    locations,
+    relationships,
+    relationshipNotes,
+    relationshipHistory,
   ] = await Promise.all([
-    supabase
-      .from("campaign_houses")
-      .select("id, name, heraldry_description, motto, description, player_visible")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_house_gm_details")
-      .select(
-        "house_id, founding_history, current_ruler_id, ancestral_seat_location_id, holdings, succession, military_strength, wealth, resources, political_influence, religious_affiliations, objectives, secrets",
-      )
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_npcs")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_house_relationships")
-      .select(
-        "id, house_id, related_house_id, relationship_type, description, player_visible",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .order("created_at", { ascending: false }),
-    supabase
-      .from("campaign_house_relationship_gm_notes")
-      .select("relationship_id, notes")
-      .eq("campaign_id", member.campaign_id),
-    supabase
-      .from("campaign_house_relationship_history")
-      .select(
-        "id, relationship_id, previous_type, new_type, campaign_date, reason, created_at",
-      )
-      .eq("campaign_id", member.campaign_id)
-      .order("created_at", { ascending: false }),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_houses")
+        .select("id, name, heraldry_description, motto, description, player_visible")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_house_gm_details")
+        .select(
+          "house_id, founding_history, current_ruler_id, ancestral_seat_location_id, holdings, succession, military_strength, wealth, resources, political_influence, religious_affiliations, objectives, secrets",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("house_id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_house_relationships")
+        .select(
+          "id, house_id, related_house_id, relationship_type, description, player_visible",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("created_at", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_house_relationship_gm_notes")
+        .select("relationship_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("relationship_id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_house_relationship_history")
+        .select(
+          "id, relationship_id, previous_type, new_type, campaign_date, reason, created_at",
+        )
+        .eq("campaign_id", member.campaign_id)
+        .order("created_at", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load noble houses: ${error.message}`);
-  }
-  if (detailsError) {
-    throw new Error(`Unable to load private noble-house details: ${detailsError.message}`);
-  }
-  if (npcsError) {
-    throw new Error(`Unable to load house rulers: ${npcsError.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load ancestral seats: ${locationsError.message}`);
-  }
-  if (relationshipsError) {
-    throw new Error(`Unable to load house relationships: ${relationshipsError.message}`);
-  }
-  if (relationshipNotesError) {
-    throw new Error(
-      `Unable to load private relationship notes: ${relationshipNotesError.message}`,
-    );
-  }
-  if (relationshipHistoryError) {
-    throw new Error(
-      `Unable to load relationship history: ${relationshipHistoryError.message}`,
-    );
-  }
 
   const detailsByHouseId = new Map(details.map((detail) => [detail.house_id, detail]));
   const npcsById = new Map(npcs.map((npc) => [npc.id, npc.name]));

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,27 +12,25 @@ export default async function PlayerQuestsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: quests, error },
-    { data: locations, error: locationsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_quests")
-      .select("id, name, status, summary, giver, location_id")
-      .eq("campaign_id", member.campaign_id)
-      .order("updated_at", { ascending: false }),
-    supabase
-      .from("campaign_locations")
-      .select("id, name")
-      .eq("campaign_id", member.campaign_id),
+  const [quests, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_quests")
+        .select("id, name, status, summary, giver, location_id")
+        .eq("campaign_id", member.campaign_id)
+        .order("updated_at", { ascending: false })
+        .order("id", { ascending: false })
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load shared campaign quests: ${error.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load shared quest locations: ${locationsError.message}`);
-  }
 
   const locationsById = new Map(
     locations.map((location) => [location.id, location.name]),

@@ -1,4 +1,5 @@
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export type CampaignAtlasMap = {
   id: string;
@@ -27,27 +28,27 @@ export async function getCampaignAtlasData(
   campaignId: string,
 ): Promise<CampaignAtlasData> {
   const supabase = await createSupabaseServerClient();
-  const [{ data: maps, error }, { data: locations, error: locationsError }] =
-    await Promise.all([
+  const [maps, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
         .from("campaign_maps")
         .select(
           "id, source_id, name, map_type, description, parent_map_id, location_id, artwork_path, player_visible",
         )
         .eq("campaign_id", campaignId)
-        .order("name"),
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
         .from("campaign_locations")
         .select("id, name, player_visible")
-        .eq("campaign_id", campaignId),
-    ]);
-
-  if (error) {
-    throw new Error(`Unable to load atlas maps: ${error.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load map locations: ${locationsError.message}`);
-  }
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+  ]);
 
   const locationsById = new Map(locations.map((location) => [location.id, location]));
   return {

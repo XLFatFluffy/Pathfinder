@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { getCampaignMapArtwork } from "@/lib/campaign-map-artwork";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 import MapForm from "./map-form";
 import ReplaceArtworkForm from "./replace-artwork-form";
 
@@ -14,28 +15,28 @@ export default async function GmMapsPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [{ data: maps, error }, { data: locations, error: locationsError }] =
-    await Promise.all([
+  const [maps, locations] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
         .from("campaign_maps")
         .select(
           "id, name, map_type, description, parent_map_id, location_id, player_visible, artwork_path, updated_at",
         )
         .eq("campaign_id", member.campaign_id)
-        .order("name"),
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
         .from("campaign_locations")
         .select("id, name")
         .eq("campaign_id", member.campaign_id)
-        .order("name"),
-    ]);
-
-  if (error) {
-    throw new Error(`Unable to load campaign maps: ${error.message}`);
-  }
-  if (locationsError) {
-    throw new Error(`Unable to load linked campaign locations: ${locationsError.message}`);
-  }
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+  ]);
 
   const mapsById = new Map(maps.map((map) => [map.id, map]));
   const locationsById = new Map(locations.map((location) => [location.id, location]));

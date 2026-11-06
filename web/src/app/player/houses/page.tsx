@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -11,27 +12,25 @@ export default async function PlayerHousesPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [
-    { data: houses, error },
-    { data: relationships, error: relationshipsError },
-  ] = await Promise.all([
-    supabase
-      .from("campaign_houses")
-      .select("id, name, heraldry_description, motto, description")
-      .eq("campaign_id", member.campaign_id)
-      .order("name"),
-    supabase
-      .from("campaign_house_relationships")
-      .select("id, house_id, related_house_id, relationship_type, description")
-      .eq("campaign_id", member.campaign_id),
+  const [houses, relationships] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_houses")
+        .select("id, name, heraldry_description, motto, description")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_house_relationships")
+        .select("id, house_id, related_house_id, relationship_type, description")
+        .eq("campaign_id", member.campaign_id)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
-
-  if (error) {
-    throw new Error(`Unable to load known noble houses: ${error.message}`);
-  }
-  if (relationshipsError) {
-    throw new Error(`Unable to load shared house relationships: ${relationshipsError.message}`);
-  }
 
   const houseNamesById = new Map(houses.map((house) => [house.id, house.name]));
 

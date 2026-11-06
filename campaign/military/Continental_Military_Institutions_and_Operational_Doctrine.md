@@ -61,6 +61,7 @@ A single actor may control or call upon several categories, but the records must
 - The Northern Watch is a permanent frontier force responsible for the surviving portions of the Ancient Barrier.
 - Mobile Marcher Companies conduct patrols, escorts, and rapid response.
 - House Veyr maintains a separate Household Guard.
+- Lord Stellan Veyr is a veteran commander; Ser Halvar Veyr is a Northern Watch officer and is popular among frontier soldiers.
 - Sparse settlement and dependence on southern supplies constrain the house.
 - The Northern Watch is supported by seasonal provisioning and the wider Veyr political and landed network.
 
@@ -109,8 +110,9 @@ A single actor may control or call upon several categories, but the records must
 
 **Established**
 - The dwarven empire consists of independent clans united under the main branch.
-- Kharadorn military strengths include heavy infantry, disciplined clan forces, metalworking, weaponsmithing, siege engineering, underground fortifications, and specialized engineering traditions.
-- Dwarven military authorities maintain control of the Central Inland Sea.
+- Kharadorn military strengths include heavy infantry, elite armored troops, engineers, siege specialists, clan contingents, underground fortifications, and specialized engineering traditions.
+- Dwarven naval forces maintain military control of the Central Inland Sea. Established forces also include naval garrisons, coastal fortifications, marines, and vessels that may be requisitioned in wartime.
+- Khar-Dum and Dragonstone remain distinct military and political centers.
 - Dragonstone is a conquered stronghold and strategic possession; Khar-Dum is the separate ancestral homeland in the northeastern mountains.
 - Individual clan tribute, military, labor, and resource obligations are not quantified.
 
@@ -139,7 +141,19 @@ A single actor may control or call upon several categories, but the records must
 **Unresolved**
 - Fleet size, warship classes, command structure, port garrisons, naval readiness, and the legal relationship between the Great House and independent or chartered ports.
 
-## 4. Minor houses, local authorities, and military obligations
+## 4. Established senior military decision-makers
+
+The following individuals already have established military responsibilities or experience. Their presence does not establish a complete command hierarchy:
+
+| Person | Established role | Limit of current record |
+|---|---|---|
+| Marshal Garran Holt | Crown Master of War; coordinates royal army, readiness, fortifications, logistics, and defense planning | Royal force structure and subordinate command remain unresolved |
+| Lord Stellan Veyr | Veteran commander; Edran Veyr's uncle | Exact current command, unit, and authority are not specified |
+| Ser Halvar Veyr | Northern Watch officer; popular among frontier soldiers | Exact rank, post, and command authority are not specified |
+| Thane Brokk Ironvein | Kharadorn Imperial Council representative appointed by High King Durnak | Council representation does not establish a military command |
+| Other Great House commanders | No additional senior commanders are established in the current dedicated records | Do not assign command to a ruler, heir, or Council representative without supporting canon or a GM decision |
+
+## 5. Minor houses, local authorities, and military obligations
 
 - A minor house's household guard is not automatically a field contingent.
 - A banner house owes only the service established by its charter, custom, grant, or explicit GM decision.
@@ -150,7 +164,7 @@ A single actor may control or call upon several categories, but the records must
 
 When a specific vassal is called, record the authority issuing the summons, the legal basis, the requested service, the response, the cost, and the political consequence. Do not infer the response from allegiance alone.
 
-## 5. Mobilization and command: Living World Engine procedure
+## 6. Mobilization and command: Living World Engine procedure
 
 The following is a **working simulation procedure**, not a claim that every realm uses identical formal terminology.
 
@@ -172,7 +186,7 @@ Use this as a guide, not an automatic sequence:
 
 An actor may stop, negotiate, or withdraw at any stage. Skipping stages requires a credible urgent cause and a record of the political and logistical consequences.
 
-## 6. Logistics and campaign constraints
+## 7. Logistics and campaign constraints
 
 Before a force moves, evaluate:
 
@@ -187,7 +201,7 @@ Before a force moves, evaluate:
 
 Do not assign exact marching speeds, supply consumption, or campaign ranges until the map scale, route distances, and relevant Pathfinder rules have been calibrated for the specific situation.
 
-## 7. Campaign-start military baseline
+## 8. Campaign-start military baseline
 
 At 1 Harvestfall, 243 AC:
 
@@ -200,7 +214,7 @@ At 1 Harvestfall, 243 AC:
 - Brightwater's river-market charter review is a routine watch item, not a crisis.
 - Tallowmere's Kharadorn harbor-defense review remains a local charter review, not an occupation.
 
-## 8. Open decisions
+## 9. Open decisions
 
 - Exact composition, recruitment, funding, and command structure of the royal military.
 - Whether each Great House maintains standing field forces beyond the specific established formations above.

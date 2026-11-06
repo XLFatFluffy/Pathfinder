@@ -142,3 +142,9 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - The current campaign importer does not accept creature records. Extend its schema, validation, persistence, and permissions deliberately before preparing creature JSON for import. Do not force creature records into unrelated collections.
 
 **Current blocker:** Creature records are documented in the repository but are not yet supported by the app's import template or importer. Until that changes, the Markdown registry remains authoritative.
+
+
+## Table-side GM support (started Nov 6, 2026)
+- Added `campaign/Table_Side_GM_Support_Protocol.md` to define how the assistant supports live Pathfinder 1e play, improvisation, encounter design, table tracking, and post-session record updates while preserving GM authority and canon boundaries.
+- Added `campaign/creatures/Regional_Occurrence_Template.md` so creature presence can be recorded by region with evidence and frequency kept separate from the master creature identity.
+- The assistant may help during play using information shared by the GM, but cannot independently see the table, dice, character sheets, or live app state. The GM supplies rolls and outcomes; approved results can then be recorded in the campaign database.

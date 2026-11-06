@@ -223,3 +223,11 @@
 - Reconciled older references that called the current monarch a puppet with the 2026-11-04 GM-approved canon: King Aldric Calderan has a legitimate hereditary claim and substantial formal authority, while the Great Houses and court factions constrain his practical freedom.
 - Updated the Campaign Bible, World History, Canon Register, and Worldbuilding Decision Log. The decision log preserves the older wording as a superseded historical record rather than current canon.
 - No single controller of the monarch is established.
+
+
+## 2026-11-06 — Player backstories and world-knowledge handout updated
+
+- Recorded the vampire PC's promise that helping restore the fallen Targaryen dynasty could create substantial opportunities for the ratfolk PC to advance his own goal of ending persecution and improving ratfolk standing. The promise is potential, not a guaranteed outcome or predetermined political reward.
+- Clarified the shared relationship as friendship and mentorship while preserving both PCs' independent ambitions and player agency.
+- Updated the player starting handout with the established public history of the Great Rebellion, the broad structure of hereditary and Great House power, and the campaign calendar/current date.
+- Kept the vampire PC's survival, royal identity, captivity, and personal history out of player-facing world material. No unresolved historical dates, dynasty names, or political outcomes were invented.

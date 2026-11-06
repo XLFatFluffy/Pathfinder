@@ -74,6 +74,16 @@
 
 **Phase C status:** CORE ECONOMIC FRAMEWORK COMPLETE. Detailed regional production and market quantities can be added only where campaign relevance justifies them.
 
+## Phase D — Cultures, societies, and religion (Nov 6)
+
+- Established `campaign/Cultures_and_Societies.md` with regional social patterns, class structures, hospitality, death customs, festivals, ancestry-specific cultural foundations, and the Collegium of the Nine Lamps scholarly network.
+- Established `campaign/religions/Religious_Institutions_and_Regional_Practice.md` with major regional religious institutions, local faith practice, religious courts, and festival patterns.
+- Preserved the distinction between real gods and uncertain mortal interpretations.
+- Established broad regional religious emphasis without assigning exclusive patron gods to Great Houses or regions.
+- Kept the source of divine magic and deeper religious history intentionally unresolved.
+
+**Phase D status:** CORE CULTURAL AND RELIGIOUS FRAMEWORK COMPLETE. Detailed local customs and additional institutions should be added only when a region or faction becomes relevant.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

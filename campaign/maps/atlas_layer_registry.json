@@ -301,6 +301,22 @@
       "geometry_status": "PENDING_REGIONAL_ARTWORK_CALIBRATION",
       "geometry": null,
       "player_visible": true
+    },
+    {
+      "source_id": "routes/continental-major-road-network",
+      "name": "Continental Major Road Network",
+      "route_names": [
+        "Northern Road",
+        "Western Mountain Road",
+        "King's Road",
+        "Eastern Coastal Road",
+        "Southern Trade Road"
+      ],
+      "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
+      "geometry_status": "TRACE_AFTER_ARTWORK_REVIEW",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Draw established major corridors between major places. Exact courses remain subject to cartographic tracing and GM review."
     }
   ],
   "nested_maps": [
@@ -332,11 +348,22 @@
     }
   ],
   "next_steps": [
-    "Review the relocated city artwork against City_Layout_and_Defenses.md and register only confirmed map features.",
-    "Calibrate campaign/maps/tallowmere_regional.png against the established regional canon before creating live regional marker coordinates.",
-    "Calibrate the continental artwork and review all 15 existing major-place markers.",
-    "Trace broad geographic regions as neutral geographic overlays.",
-    "Do not create Great House political polygons until boundaries are explicitly approved.",
-    "Convert only calibrated, reviewed records into atlas_player_layer.json for live synchronization."
-  ]
+    "Keep minor settlements on their appropriate regional maps, not the continental layer.",
+    "Trace established continental major roads as editable route lines and review before player publication.",
+    "Calibrate the Tallowmere regional artwork, place its eight public settlement markers, and trace its six established road connections.",
+    "Prepare non-overlapping Great House territory drafts from the approved broad framework; keep exact borders provisional until GM approval.",
+    "Resolve local jurisdiction extents, especially Saltwick's superior authority and the limits of the Merewick crossing charter, before drawing local political polygons.",
+    "Trace geographic regions as neutral overlays.",
+    "Promote only calibrated and reviewed geometry into the live player layer."
+  ],
+  "map_scale_policy": {
+    "continental": "Major cities, Great House seats and strongholds, major ports, and continent-scale roads only. Minor regional settlements belong on regional maps.",
+    "regional": "Settlements, local landmarks, established roads, and local political jurisdictions belonging to that region.",
+    "nested_detail": "City maps contain districts, gates, streets, walls, and street-level features."
+  },
+  "regional_jurisdiction_policy": {
+    "source_id": "political/regional-jurisdictions",
+    "status": "AUTHORITY_AND_HOLDINGS_PARTIALLY_ESTABLISHED_BOUNDARIES_UNRESOLVED",
+    "rule": "Distinguish direct holdings, vassalage, charter rights, and strategic interests. None automatically establishes sovereignty over all surrounding land."
+  }
 }

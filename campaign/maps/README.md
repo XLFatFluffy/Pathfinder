@@ -52,3 +52,15 @@ Tallowmere's current GM-calibrated atlas anchor is X=47.0993%, Y=29.3538% of the
 ## Map authority
 
 The continental artwork's coastline and broad geographic features are fixed unless the GM explicitly approves a revision. Regional and city maps must fit the master atlas, not the other way around. Keep labels, political borders, and GM-only secrets in separate overlays where practical.
+
+## Map scale and content separation
+
+- **Continental map:** major cities, Great House seats and strongholds, major ports, and continent-scale roads only. Minor regional settlements belong on their relevant regional maps.
+- **Regional maps:** local settlements, landmarks, established roads, and local political jurisdictions.
+- **City maps:** districts, gates, streets, walls, and other street-level detail.
+
+## Roads and territory boundaries
+
+Established roads should be drawn as editable route polylines on the relevant map. On the Tallowmere regional map, the six established connections are: North Road (Tallowmere–Ashcombe Manor), River Vale Road (Tallowmere–Millhaven–Fordmere), Western Track (Tallowmere–Brackenholt), Quarry Road (Tallowmere–Stonehollow), Eastern Shore Road (Tallowmere–Saltwick), and King's Road / South Road (Tallowmere–Harthbridge). Use the artwork for the line trace and written canon for connectivity and travel distances; do not derive measurements from the invalid printed scale bar.
+
+Political borders are separate from roads and geographic regions. The six Great Houses have approved broad territories, but exact continental borders still require cartographic drafts and GM approval. At regional scale, record who controls each settlement or charter first, then draw a polygon only when its territorial extent is known. A crossing charter, vassal relationship, strategic interest, or harbor right is not automatically a surrounding land claim. Keep normal territory fills non-overlapping.

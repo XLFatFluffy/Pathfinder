@@ -30,6 +30,7 @@ These governance records remain at the campaign root because they apply across a
 - [economy/](economy/) — merchants, shops, goods, services, markets, resources, production, and trade.
 - [maps/](maps/) — authoritative map artwork, map metadata, and geographic overlays.
 - [player_characters/](player_characters/) — player-character records and GM preparation. Treat contents as restricted GM material unless explicitly marked player-facing.
+- [player_materials/](player_materials/) — handouts and other materials intentionally prepared for player distribution.
 - [world_events/](world_events/) — active, proposed, resolved, and historical events affecting the setting.
 - [source_material/](source_material/) — preserved original documents and reference files. Do not edit originals.
 - [changelog/](changelog/) — human-readable summaries of meaningful campaign-record changes.

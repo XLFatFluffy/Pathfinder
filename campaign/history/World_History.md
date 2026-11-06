@@ -1,5 +1,7 @@
 # World History
 
+> Layered public, noble, disputed, suppressed, and objective historical accounts are maintained in `Historical_Accounts_and_Uncertainty.md`. Use that record when separating what characters may know from GM truth.
+
 **Status:** ESTABLISHED HISTORICAL FOUNDATION / CHRONOLOGY INCOMPLETE  
 **Last reviewed:** 2026-11-06
 

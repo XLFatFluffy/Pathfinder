@@ -1790,19 +1790,19 @@ The following geographic foundations are **ESTABLISHED**. They do not yet establ
 - Each of the six Great Houses controls a substantial, clearly defined territory.
 - The continent is not divided exclusively among the six Great Houses. Smaller noble houses, independent settlements, lesser political powers, and other territories also exist.
 - **MINOR HOUSES — ESTABLISHED CATEGORY:** Minor houses are wealthy lords and ladies who hold relatively small territories, estates, castles, or local holdings. They possess money, property, household retainers, and local standing, but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses, hold seats on the Imperial Council by virtue of being minor houses, or ordinarily determine the balance of power between the major dynasties.
-- A minor house may owe allegiance to a Great House, the Crown, or another local authority; some may hold their lands under more unusual arrangements. Their exact number, names, ancestry, allegiances, seats, and individual fortunes remain to be developed.
+- A minor house may owe allegiance to a Great House, the Crown, or another local authority; some may hold their lands under more unusual arrangements. Their total number and full distribution remain unknown. The first named network of banner houses, Crown vassals, a dwarven clan, and independent southern powers is established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`; additional houses and individual fortunes can be developed as needed.
 - Minor houses can matter locally without becoming major political actors. Their wealth should not automatically translate into continental influence.
 - The southern reaches should remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses.
 
 ### Regional and house placement status
 - The broad physical features above are established design direction.
-- The previously suggested placement of Vaelorian in the western highlands, Edarth in the western heartlands, Calderan in the central river basin, Veyr in the north, Kharadorn in the northeastern mountains, and Merrowen along the eastern coast remains a **PROPOSAL**, not a final territorial map.
-- The exact distribution of regions, borders, house seats, minor holdings, rivers, roads, ports, and settlements will be settled through the revised map.
+- The broad territorial placement of all six Great Houses and their principal seats is ESTABLISHED in Stage 5 and the current atlas framework: Veyr in the Northern Marches, Vaelorian in the Western Highlands, Edarth in the Western Heartlands, Calderan in the central Crownlands, Kharadorn around Dragonstone and the Inland Sea with its separate northeastern Khar-Dum dominion, and Merrowen along the eastern coast.
+- Exact territorial borders, local holdings, river and road courses, port jurisdictions, and surveyed geometry remain unresolved and must be calibrated against authoritative artwork before atlas synchronization.
 
 ### Still unresolved
 - Final continental dimensions and exact cartographic scale after the revised map is generated.
 - Final names for the continent, inland sea, island, land bridge, mountain systems, rivers, and regions.
-- Exact placement and borders of all six Great House territories and the locations, names, and allegiances of minor houses.
+- Exact borders and local jurisdictions of the six Great House territories; additional minor-house names, holdings, and allegiances beyond the first network in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`.
 - The specific route, entrances, and construction history of the dwarven underground access to Dragonstone.
 
 

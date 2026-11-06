@@ -305,3 +305,10 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Final Session One encounter balance and companion build, pending completed PC sheets and the GM's companion decision.
 
 These are staged development items, not all prerequisites to begin play. Do not attempt to finish every continental border, family tree, or legal custom before Session One.
+
+
+## NPC roleplaying dossier audit — 2026-11-06
+
+- The GM-only [NPC Roleplaying Dossier Collection](people/NPC_Roleplaying_Dossiers.md) now consolidates established named NPCs and adds clearly marked portrayal guidance, provisional Pathfinder alignments, motivations, fears, methods, voice cues, and continuity limits.
+- **Continuity blocker requiring GM decision:** `Civic_NPCs.md` identifies Chief Magistrate Odran Pell, while `Shopkeepers_and_Stock.md` identifies Elira Pell's father and senior business partner as Odran Pell at Pell & Daughter. The current records do not establish whether these are the same person or two different people with a duplicate name. Do not silently merge them or invent a second identity. Resolve before either becomes prominent in play.
+- Additional individual shop proprietors and minor regional figures remain to be expanded when their source records establish their names or when the GM approves new NPCs. The wagon guards and proposed companion remain deliberately unfinalized.

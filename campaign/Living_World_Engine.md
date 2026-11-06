@@ -248,7 +248,7 @@ These are independent issues, not a single conspiracy or mandatory plot. Their c
 2. Convert the seven Tallowmere pressures into structured issue records with known actors, unknowns, and non-scripted paths.
 3. Establish a simple holdings and vassalage register without inventing borders.
 4. Establish project and event ledgers. **Completed:** local and continental project registers, event ledger, and world-turn ledger are now initialized.
-5. Run the first world turn only when the GM advances in-world time.
+5. **Completed:** Run WTR-001 as an opening snapshot on 1 Harvestfall, 243 AC without advancing the calendar. Later turns run only when in-world time advances or the GM requests a specific snapshot.
 6. After several sessions, expand to neighboring territories and Great House-level projects.
 7. Keep the engine manually reviewed until app support exists. The repository is authoritative; the app may later provide structured storage and interface.
 
@@ -268,7 +268,7 @@ The first local simulation layer is documented in these linked records:
 - [Initial Project Register](world_engine/Initial_Project_Register.md) — ongoing Tallowmere efforts and their current evidentiary status.
 - [Continental Project Register](world_engine/Continental_Project_Register.md) — wider political, administrative, and commercial efforts.
 
-The regional baseline does not establish an active territorial war or a specific border dispute between named houses. Exact borders remain uncalibrated. Do not run a world turn until in-world time advances or the GM explicitly requests a simulation snapshot.
+The regional baseline does not establish an active territorial war. The Longmead customary boundary dispute is recorded in the continental minor-house register. Exact borders remain uncalibrated. WTR-001 has been completed as an opening snapshot; subsequent turns require elapsed in-world time or an explicit GM request.
 
 
 ## 17. Great House simulation and reusable templates

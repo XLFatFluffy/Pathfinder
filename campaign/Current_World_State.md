@@ -268,6 +268,14 @@ The campaign remains at **1 Harvestfall, 243 AC**. WTR-001 has been completed as
 The Underways remain decentralized, with no single ratfolk leader or unified political faction. Four informal networks are established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`: the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their named contacts include Nix-of-the-Cistern, Tikka Vell, Serren Coil, Miraq Ashwhisk, Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw. Their strategies differ over negotiation, public advocacy, route security, and household protection. The ratfolk PC's ambition may intersect with these networks, but he is not their automatic leader or representative.
 
 
+## Supplemental regional factions — 1 Harvestfall, 243 AC
+
+The Tallowmere hinterland now has additional non-noble actors for the Living World Engine: the Millers' Guild of the River Vale, Brackenwood Charcoal Fellowship, Stonehollow Quarry Compact, Saltwick Shore Compact, and Tallowmere Warehouse Guild. Their interests and internal divisions are recorded in `world_engine/Regional_Factions_and_Minor_Houses.md`. These organizations do not possess automatic territorial sovereignty.
+
+Two supplemental minor houses are also established outside the calibrated Tallowmere map: House Corven, a coastal minor house with an unresolved liege relationship, and House Calderick, a southern minor house with a local succession uncertainty. Neither creates a current Great House dispute or mapped border.
+
+Existing continental minor houses remain recorded in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`; the supplemental register deliberately does not duplicate them.
+
 ## First world turn — 1 Harvestfall, 243 AC
 
 WTR-001 was completed as an approved opening-state snapshot with zero days elapsed. The campaign's initial local and continental issues/projects, minor-house dispute, rumor knowledge boundaries, and wider political context were reviewed. No new event, war, assassination, crisis, or issue escalation was introduced. The campaign begins on 1 Harvestfall, 243 AC; subsequent world turns advance only when in-world time passes or the GM explicitly requests a simulation.

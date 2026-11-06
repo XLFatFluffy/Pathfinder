@@ -179,7 +179,11 @@ Miraq Ashwhisk, Tikka Vell, repairers, couriers, water maintainers, craftspeople
 
 **Political limit:** Ratfolk residents have no guaranteed formal seat on the chartered council. They may petition through the Town Reeve, attend public portions where permitted, submit a written or witnessed statement, or seek sponsorship from a Council member. Access depends on procedure and sponsorship; this remains a structural disadvantage.
 
-## 7. Religious and Charitable Institutions
+## 7. Ratfolk community networks
+
+The Underways are decentralized. The initial informal networks and named contacts are documented in [Ratfolk Community Networks and NPCs](Ratfolk_Community_Networks_and_NPCs.md): the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their priorities overlap but they do not form a unified political faction. Nix-of-the-Cistern, Tikka Vell, Serren Coil, and Miraq Ashwhisk retain their distinct roles; Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw add further community perspectives.
+
+## 8. Religious and Charitable Institutions
 
 The city's temples, hospice, shrines, and charitable networks possess social trust and practical reach, but are not a single political bloc.
 

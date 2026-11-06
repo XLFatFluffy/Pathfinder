@@ -107,6 +107,8 @@ Principal streets include Harbor Road, Market Street, King's Road, West Road, No
 
 Walking times: one compact district 5–10 minutes; adjacent districts 5–15 minutes; cross-city 25–40 minutes. Carts are slower in the old city.
 
+The Underways' initial informal networks are the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. They have distinct priorities and no single leader. See `Ratfolk_Community_Networks_and_NPCs.md` before improvising ratfolk political responses.
+
 ## 8. Active City Situation
 
 These are independent pressures, not one central plot:

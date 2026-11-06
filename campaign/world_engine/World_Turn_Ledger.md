@@ -1,7 +1,7 @@
 # World Turn Ledger
 
 **Campaign opening date:** 1 Harvestfall, 243 AC  
-**Status:** Initialized; no world turns completed.  
+**Status:** WTR-001 opening baseline completed; subsequent time-advancing turns await actual in-world time.  
 **Purpose:** Record each GM-approved simulation pass, the time interval it covers, the issues reviewed, and the changes accepted into canon.
 
 ## Turn index

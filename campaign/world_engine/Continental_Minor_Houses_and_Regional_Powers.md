@@ -256,7 +256,7 @@ The following actors are deliberately independent of the six Great Houses. Their
 
 **Type:** Independent city government / merchant and civic council  
 **Location:** Brightwater, in the Southern Principalities.  
-**Presiding First Speaker:** Ilyan Merrow  
+**Presiding First Speaker:** Ilyan Cress  
 **Council:** Seven elected or guild-appointed civic seats; the precise selection balance is locally contested and not treated as a modern democracy.
 
 **Position and interests**

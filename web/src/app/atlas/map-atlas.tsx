@@ -162,6 +162,14 @@ export default function MapAtlas({
 
   const selectedMap = mapsById.get(selectedId);
   const selectedMarker = markers.find((marker) => marker.id === selectedMarkerId);
+  const selectedMarkerChildMap = selectedMarker
+    ? availableMaps.find(
+        (map) =>
+          map.parent_map_id === selectedMap?.id &&
+          Boolean(selectedMarker.location_name) &&
+          map.location_name === selectedMarker.location_name,
+      )
+    : undefined;
   const selectedOverlay = overlays.find(
     (overlay) => overlay.id === selectedOverlayId,
   );
@@ -1624,6 +1632,19 @@ export default function MapAtlas({
                 </button>
                 {selectedMarker ? (
                   <>
+                    {selectedMarkerChildMap ? (
+                      <button
+                        disabled={markerPending}
+                        onClick={() => {
+                          setSelectedMarkerId("");
+                          setSelectedOverlayId("");
+                          setSelectedId(selectedMarkerChildMap.id);
+                        }}
+                        type="button"
+                      >
+                        Open child map: {selectedMarkerChildMap.name}
+                      </button>
+                    ) : null}
                     <button
                       disabled={markerPending}
                       onClick={() => {

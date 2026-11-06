@@ -26,6 +26,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 
 ### Rumors and information
 - [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) records objective GM truth, unresolved facts, and plausible information channels for the starting city's initial rumors.
+- [Tallowmere NPC and Information Network](Tallowmere_NPC_Information_Network.md) maps plausible information channels among established civic, commercial, ratfolk, and informal actors without creating an omniscient network.
 
 ### Tallowmere local political actors
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) contains the initial profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, Kharadorn's Charter House, and the Chartered Council.

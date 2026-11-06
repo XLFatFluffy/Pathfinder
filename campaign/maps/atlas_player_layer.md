@@ -61,6 +61,18 @@ Intended hierarchy:
 
 The regional map should be a child map of Tallowmere's linked location. The city map should be a child of the regional map. Preserve breadcrumbs back to the continent.
 
+## Coordinate calibration aid
+
+The app atlas provides an optional **coordinate grid** for visual calibration. It uses the same normalized image-space convention as the campaign layer files:
+
+- X=0% at the left edge and X=100% at the right.
+- Y=0% at the top edge and Y=100% at the bottom.
+- The grid is a visual calibration aid, not surveyed latitude/longitude.
+- The app also reports the current pointer position while the grid is enabled.
+- Coordinates remain attached to the artwork canvas, so they stay aligned while the map is panned or zoomed.
+
+Use the grid when placing or reviewing markers and overlay points. Do not convert the grid into geographic mileage unless the artwork has been separately calibrated to an authoritative scale.
+
 ## Synchronization and ownership
 
 The GM atlas synchronization control reads the `layers` array in this repository file and previews the differences before applying them. `map_source_id` and each marker/overlay `source_id` are stable keys: retain them when names change, and do not reuse retired identifiers. A unique map name/type match is used only to register a layer the first time; later runs use the persisted map source ID. A unique legacy marker/overlay name can adopt an existing record, but ambiguous matches block synchronization for GM review.

@@ -34,6 +34,8 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 - [Continental Minor Houses and Regional Powers](Continental_Minor_Houses_and_Regional_Powers.md) records the first additional network of Veyr, Vaelorian, Edarth, Crown, Kharadorn, Merrowen, and independent southern actors.
 - Includes the active, low-intensity Longmead boundary dispute between Houses Harrowden and Wrenford. Its precise boundary remains unmapped.
 
+- [Continental Project Register](Continental_Project_Register.md) records the first active and proposed projects beyond Tallowmere.
+
 ### Law and landed obligations
 - [Feudal Law, Land Tenure, and Noble Obligations](../politics/Feudal_Law_and_Landed_Obligations.md) provides the working framework for homage, inheritance, jurisdiction, courts, customary rights, and vassal consequences. Specific charters and local customs override general assumptions where documented.
 

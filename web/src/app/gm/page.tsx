@@ -169,6 +169,7 @@ export default async function GmPage({
 
   const quickActions = [
     { label: "Create quest", href: "/gm/quests" },
+    { label: "Plan encounter", href: "/gm/encounters" },
     { label: "Create note", href: "/gm/notes" },
     { label: "Add NPC", href: "/gm/npcs" },
     { label: "Add location", href: "/gm/locations" },

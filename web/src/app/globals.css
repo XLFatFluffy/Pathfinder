@@ -736,6 +736,12 @@ h2 {
   width: auto;
 }
 
+.checkbox-grid {
+  display: grid;
+  gap: 0.55rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
 .inline-form {
   display: inline-flex;
   gap: 0.5rem;

@@ -1,3 +1,11 @@
+## 2026-11-06 - Campaign bestiary foundation
+
+- Added `campaign/creatures/Creature_Registry.md` as the campaign source index for creatures, supernatural beings, and regional ecology.
+- Established evidence/status and ecology vocabularies to distinguish canon, direct observation, documentation, reports, rumors, prepared encounters, and unresolved mysteries.
+- Added a reusable creature-record template and requirements for future in-app bestiary data, including stable IDs, regional occurrence, source references, and separate public/GM knowledge.
+- Registered only existing material: the prepared but not-yet-encountered troll, the established historical dragons of the fallen dynasty, and vampirism as an established condition with unresolved origins and ecology.
+- Did not add unapproved creature species, invent regional populations, assign unsupported rarity, or resolve the fate of dragons or origins of vampirism.
+
 ## 2026-11-06 - Atlas child-map navigation and map identity cleanup
 
 - Added a contextual **Open child map** action when a selected marker is linked to a child map under the current map and the child map points to the same campaign location.

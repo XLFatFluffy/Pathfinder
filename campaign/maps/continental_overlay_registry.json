@@ -1,7 +1,7 @@
 {
   "format": "pathfinder-continental-overlay-registry",
   "schema_version": 1,
-  "status": "PHASE_A_GEOGRAPHIC_DRAFTS_CREATED_GM_REVIEW_PENDING_POLITICAL_AND_MARITIME_GEOMETRY_PENDING",
+  "status": "PHASE_A_GEOGRAPHIC_DRAFTS_CREATED_POLITICAL_AUTHORITY_REGISTER_CREATED_POLITICAL_AND_MARITIME_GEOMETRY_PENDING",
   "map_source_id": "continent_atlas",
   "map_name": "The Continent",
   "artwork": "campaign/maps/continent_atlas.png",
@@ -10,7 +10,8 @@
     "master_reference": "campaign/maps/continent_reference.md",
     "standards": "campaign/maps/atlas_overlay_standards.md",
     "phase_spec": "campaign/maps/Continental_Cartographic_Phase_A.md",
-    "rule": "This file defines the overlays that Phase A requires. Geometry is intentionally withheld until each shape can be traced against the authoritative artwork. Do not convert null geometry into invented coordinates."
+    "rule": "This file defines the overlays that Phase A requires. Geometry is intentionally withheld until each shape can be traced against the authoritative artwork. Do not convert null geometry into invented coordinates.",
+    "political_authority_register": "campaign/maps/continental_political_authority_register.md"
   },
   "visibility_policy": {
     "draft_overlays": "GM_ONLY",

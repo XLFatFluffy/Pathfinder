@@ -1,14 +1,15 @@
 {
   "format": "pathfinder-atlas-layer-registry",
   "schema_version": 1,
-  "status": "PHASE_A_ROUTE_DRAFTS_ADDED_MARKERS_CALIBRATED_POLITICAL_AND_GEOGRAPHIC_GEOMETRY_PENDING",
+  "status": "PHASE_A_GEOGRAPHIC_DRAFTS_MERGED_POLITICAL_AUTHORITY_REGISTER_CREATED_EXACT_BORDERS_UNRESOLVED",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "authority": {
     "master_map": "campaign/maps/continent_atlas.png",
     "master_reference": "campaign/maps/continent_reference.md",
     "overlay_standards": "campaign/maps/atlas_overlay_standards.md",
     "rule": "All subordinate geometry must fit the authoritative continental artwork. Never infer sovereignty from terrain, trade, cultural identity, or maritime reach.",
-    "geometry_policy": "No polygon or line coordinates are supplied where boundaries or exact courses remain unresolved. Records in this registry are planning/canon records, not a live import layer."
+    "geometry_policy": "No polygon or line coordinates are supplied where boundaries or exact courses remain unresolved. Records in this registry are planning/canon records, not a live import layer.",
+    "political_authority_register": "campaign/maps/continental_political_authority_register.md"
   },
   "layer_categories": [
     {
@@ -349,13 +350,13 @@
   ],
   "phase_a_specification": "campaign/maps/Continental_Cartographic_Phase_A.md",
   "next_steps": [
-    "Review the six drafted continental route overlays in the GM atlas; approve or adjust their editable polylines before treating the courses as final.",
+    "Use campaign/maps/continental_political_authority_register.md as the prerequisite reference for any political boundary proposal; keep exact Great House borders unresolved until the GM approves a non-overlapping scheme.",
     "Use campaign/maps/continental_overlay_registry.json as the GM-only Phase A overlay drafting set; do not promote null geometry to the player layer.",
     "Keep minor settlements on their appropriate regional maps, not the continental layer.",
     "Calibrate the Tallowmere regional artwork, place its eight public settlement markers, and trace its six established road connections.",
     "Prepare non-overlapping Great House territory drafts from the approved broad framework; use the Phase A drafting order and keep exact borders provisional until GM approval.",
     "Resolve local jurisdiction extents, especially Saltwick's superior authority and the limits of the Merewick crossing charter, before drawing local political polygons.",
-    "Calibrate and trace the classified geographic overlays against the authoritative artwork; keep political and maritime extents provisional until supported by canon.",
+    "Review the 13 GM-only illustrative geographic region polygons in the continental atlas; approve or adjust their broad extents before making them player-visible.",
     "Promote only calibrated and reviewed geometry into the live player layer."
   ],
   "map_scale_policy": {

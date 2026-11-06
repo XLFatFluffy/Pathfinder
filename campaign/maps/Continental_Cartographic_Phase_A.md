@@ -182,3 +182,8 @@ The GM approved the six route overlays at their current cartographic level of de
 ## Geographic overlay draft pass — 2026-11-06
 
 Added thirteen GM-only illustrative geographic polygons based on visible terrain and coastlines in `continent_atlas.png`. These are broad regional extents, not exact surveyed boundaries. They are intentionally independent of political ownership and may overlap one another. The Central Inland Sea overlay identifies the waterbody without modifying its authoritative coastline. All shapes remain player-hidden pending GM review. Political and maritime polygons remain unresolved and were not invented.
+
+
+## Political authority register — 2026-11-06
+
+Created `continental_political_authority_register.md` from the approved territorial framework, current world state, continental minor-house network, and Tallowmere jurisdiction register. It distinguishes Great House broad territories, minor-house banner holdings, direct Crown vassalage, independent southern powers, local charters, customary rights, and maritime influence. It explicitly preserves unresolved borders and prevents rights or liege relationships from being mistaken for continuous sovereign territory. No political polygons were created in this pass.

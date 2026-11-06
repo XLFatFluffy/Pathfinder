@@ -305,3 +305,11 @@
 - Kept the lost ship, warehouse-fire causes, and noble magical-services rumor unresolved.
 - Clarified that the Kharadorn envoy rumor exaggerates the existing legitimate charter review; no additional envoy or expanded demand is established.
 - Linked the register from the Tallowmere rumor record, world-engine index, actor register, and names index. The first world turn remains pending.
+
+
+## 2026-11-06 — Campaign opening readiness checkpoint
+
+- Added `campaign/Worldbuilding_Readiness.md` to define launch-ready criteria and distinguish required foundations from long-term worldbuilding.
+- Confirmed the core world-engine foundation is ready for an opening baseline turn on 1 Harvestfall, 243 AC without advancing the calendar.
+- Recorded remaining non-blocking work: exact map borders, additional minor-house detail, full regional legal customs, complete ratfolk geography, ordinary wildlife catalogue, and deep historical mysteries.
+- Kept Session One combat balance pending completed PC sheets, final companion approval/build, and the actual approach route.

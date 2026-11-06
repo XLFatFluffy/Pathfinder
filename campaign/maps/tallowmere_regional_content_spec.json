@@ -333,16 +333,18 @@
       "jurisdiction_type": "local lordship",
       "canon_status": "ESTABLISHED_AUTHORITY",
       "established_holdings": [
-        "tallowmere",
-        "millhaven",
-        "brackenholt",
-        "stonehollow"
+        "tallowmere"
       ],
       "vassal_holding": "Ashcombe Manor is held by House Avenholt under Denvor.",
       "boundary_status": "EXTENT_UNRESOLVED",
       "geometry": null,
       "player_visible": true,
-      "notes": "Authority is strongest around the city and immediate lordship. Do not extend it automatically over Harthbridge, Fordmere, or Saltwick."
+      "notes": "Authority is strongest around the city and immediate lordship. Do not extend it automatically over Harthbridge, Fordmere, or Saltwick.",
+      "settlements_with_strong_denvor_authority": [
+        "millhaven",
+        "brackenholt",
+        "stonehollow"
+      ]
     },
     {
       "source_id": "political/tallowmere/house-avenholt",
@@ -362,29 +364,33 @@
       "authority": "House Velleran",
       "jurisdiction_type": "chartered town and compact local territory",
       "canon_status": "ESTABLISHED_AUTHORITY",
-      "established_holdings": [
-        "harthbridge"
-      ],
+      "established_holdings": [],
       "vassals": [
         "House Relland; manor and tenant lands along the South Road, exact site and extent unresolved."
       ],
       "boundary_status": "TOWN_CHARTER_KNOWN_TERRITORIAL_EXTENT_UNRESOLVED",
       "geometry": null,
       "player_visible": true,
-      "notes": "Harthbridge is outside direct Denvor administration."
+      "notes": "Harthbridge is outside direct Denvor administration.",
+      "chartered_authority_at": [
+        "harthbridge"
+      ]
     },
     {
       "source_id": "political/tallowmere/house-merewick",
       "authority": "House Merewick",
       "jurisdiction_type": "hereditary crossing, ferry, and toll charter",
       "canon_status": "ESTABLISHED_CHARTER_RIGHTS",
-      "established_holdings": [
-        "fordmere"
-      ],
       "boundary_status": "CHARTERED_SITE_KNOWN_SURROUNDING_LAND_RIGHTS_UNRESOLVED",
       "geometry": null,
       "player_visible": true,
-      "notes": "Do not color the surrounding countryside as Merewick land without further canon."
+      "notes": "Do not color the surrounding countryside as Merewick land without further canon.",
+      "charter_site": "fordmere",
+      "chartered_rights": [
+        "crossing",
+        "ferry",
+        "toll"
+      ]
     },
     {
       "source_id": "political/tallowmere/saltwick-freeholders",

@@ -1,13 +1,13 @@
 # Current World State
 
 **Status:** Current GM-approved baseline  
-**Last reviewed:** 2026-11-04
+**Last reviewed:** 2026-11-06
 
 This is a concise navigation and continuity document, not a replacement for the full Campaign Bible.
 
 ## Setting foundation
 
-- Original fantasy setting using Pathfinder First Edition as its mechanical foundation.
+- Original fantasy campaign based on the Westeros / Game of Thrones setting framework, using Pathfinder First Edition as its mechanical foundation.
 - Not Golarion and not a direct adaptation of another setting.
 - **High-medieval technological baseline.**
 - No industrial or steampunk technological culture.
@@ -53,7 +53,8 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 - Living sandbox; the world develops independently of the player characters.
 - Two level-5 player characters begin the campaign.
 - **Starting location: Tallowmere**, a walled port city on the northwestern shore of the central inland sea, with an approximate population of 18,000.
-- The PCs arrive in Tallowmere at the beginning of Session One. They are not established residents, and no prior local residence or accumulated local contacts should be assumed.
+- The PCs arrive in Tallowmere at the beginning of Session One. Tallowmere is the starting location, not the entirety of the campaign setting. They are not established residents, and no prior local residence or accumulated local contacts should be assumed.
+- **Campaign start date: 1 Harvestfall, 243 AC.** See `history/Calendar.md` and `history/Campaign_Timeline.md`.
 - The two PCs already know each other before Session One. Their first meeting is not staged during the opening session.
 - One PC is a human vampire mesmerist and the concealed surviving heir of the fallen dragon-riding dynasty.
 - The other PC is a male ratfolk alchemist, saved and raised by the vampire PC after his family was killed by anti-ratfolk persecution.
@@ -65,7 +66,6 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 ## Unresolved
 
 - Tallowmere's first-session opening scene, immediate situation, precise starting location within the city, and which NPCs the PCs encounter.
-- Campaign date and calendar conventions.
 - Final original names for the continent, inland sea, major geographic features, the fallen dragon-riding dynasty, and Dragonstone.
 - Exact borders, coordinates, travel times, route courses, river courses, and local port jurisdictions.
 - Minor-house names, holdings, allegiances, and individual southern polities.

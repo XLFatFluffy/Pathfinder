@@ -1118,7 +1118,256 @@ The shop register contains additional named premises and businesses. Do not assu
 
 ---
 
-# IX. Roleplaying and continuity standards
+
+# VIII. Additional regional and working-people NPCs
+
+These profiles extend the roster audit to the supporting cast and minor-house leaders already named in the Living World registers. Their roleplay details are deliberately modest where the source material is sparse. Suggested alignments remain provisional.
+
+## Tallowmere and its hinterland
+
+### Harlan Tebb
+**Role:** Reeve of Millhaven; senior mediator for the Millers' Guild. **Suggested alignment:** Lawful Neutral.
+Patient, practical, protective of local custom. Wants grain production, mill rights, water access, and river commerce to remain stable. Prefers mediation but becomes firm when outside authorities threaten Millhaven's customary rights. Play him as a calm problem-solver who remembers which families maintain which channels. **Voice:** “The river has its own schedule. We would do well not to pretend otherwise.”
+
+### Mara Bellwood
+**Role:** Senior charcoal burner and elected representative of Brackenwood Charcoal Fellowship. **Suggested alignment:** Neutral.
+Blunt and observant, locally influential but politically inexperienced. Wants customary woodland access and fair charcoal prices protected from outside monopolies. Organizes workers before appealing to nobles. **Voice:** “You can buy the charcoal. You cannot buy next year's trees.”
+
+### Dagna Vale
+**Role:** Senior quarry contractor and negotiator for Stonehollow Quarry Compact. **Suggested alignment:** Lawful Neutral.
+Hard-working, suspicious of outsiders, knowledgeable about stone and quarry operations. Wants family quarry shares protected, Quarry Road maintained, and contracts to remain predictable. Prefers collective bargaining and legal petitions. **Voice:** “The stone will be here longer than your contract. Make sure the terms are worth the trouble.”
+
+### Edda Rusk
+**Role:** Saltwick freeholder and shore-charter representative. **Suggested alignment:** Lawful Neutral.
+Calm, stubborn, experienced in merchant negotiations. Wants fishing grounds, landing rights, net-making, and household food supply protected. Resists unilateral outside control but accepts negotiated arrangements. **Voice:** “We have no objection to trade. We object to being told the shore is no longer ours.”
+
+### Jessa Rill
+**Role:** Quay labor forewoman, Old Quays. **Suggested alignment:** Neutral Good (provisional).
+Fair but unsentimental; knows which ships arrive short-handed. Wants safer lifting gear and wage disputes settled before workers lose a day's pay. Will not promise a crew she cannot assemble. **Voice:** “I can find you hands. I cannot promise they will work for promises.”
+
+### Dorrik Slatehand
+**Role:** Dwarf mason and repair contractor, Rivergate. **Suggested alignment:** Lawful Neutral (provisional).
+Patient, proud of sound work, currently short one reliable apprentice. Wants contracts that pay for proper repairs rather than patchwork. **Voice:** “If you want it to hold, let me fix what is holding it up.”
+
+### Lella Fen
+**Role:** Halfling market porter and delivery organizer. **Suggested alignment:** Neutral Good (provisional).
+Quick with names and debts; coordinates deliveries for stallholders without carts. Wants dependable routes and fair payment for small deliveries. Knows which shops are struggling, but is not automatically a source for private secrets. **Voice:** “I can get it there. Whether the merchant pays me before supper is a separate question.”
+
+### Tomas Wren
+**Role:** Human cooper's journeyman, New Quays. **Suggested alignment:** Neutral Good (provisional).
+Skilled, ambitious, frustrated by lack of capital and seasoned timber. Wants to open his own shop. May be interested in fair investment, but will not surrender the independence he hopes to earn. **Voice:** “One day the barrels will carry my mark. Until then, I make certain they don't leak.”
+
+### Neri
+**Role:** Half-elf tailoring apprentice at Thread & Thimble; apprentice of Sella Marr. **Suggested alignment:** Neutral Good (provisional).
+Diligent and ambitious, frustrated at being trusted with repairs but not customer fittings. Saving for better shears and measuring tools. Wants recognition through skill, not pity. **Voice:** “I know how to take a seam apart. I am trying to be trusted to make one.”
+
+### Varo Kett
+**Role:** Human river barge pilot. **Suggested alignment:** Lawful Neutral (provisional).
+Reliable, cautious, knows seasonal river moods and shallow reaches. Refuses dangerous night passages without extra hands and agreed risk terms. **Voice:** “The river is not safer because the cargo owner is impatient.”
+
+### Ansel Pike
+**Role:** Human Watch sergeant on North Gate patrol. **Suggested alignment:** Lawful Good (provisional).
+Steady, fair-minded, distinguishes suspicious behavior from ordinary hardship. Wants better patrol coverage and fewer merchant orders masquerading as civic authority. **Voice:** “Tell me what happened. Not what you decided it means.”
+
+### Rutha Bell
+**Role:** Half-orc laundress and lodging-house keeper, Old Quays. **Suggested alignment:** Neutral Good (provisional).
+Runs a clean but crowded lodging house, extends small credit to regulars, keeps strict records. Wants rooms respected and debts paid without making ordinary hardship worse. **Voice:** “You can pay tomorrow. You cannot break the bed tonight.”
+
+### Pellis Arno
+**Role:** Human glass factor and supplier; Miraq Ashwhisk's supplier contact. **Suggested alignment:** Unspecified.
+Claims the inconsistent glass thickness came from a bad batch rather than careless handling. Wants to preserve the supplier relationship and avoid absorbing the entire replacement cost. His honesty remains unresolved. Play him as defensive but not proven dishonest. **Voice:** “I sold you the batch I received. That does not tell us where the flaw began.”
+
+### Edda Moss
+**Role:** Human midwife and practical healer, Lantern Ward. **Suggested alignment:** Neutral Good (provisional).
+Respected for competence and discretion; works with the hospice when needed but maintains an independent practice. Wants patients treated safely and privately. Not a divine spellcaster. **Voice:** “You can tell me the truth now, or you can explain later why you did not.”
+
+### Kett-of-the-Low-Arch
+**Role:** Ratfolk masonry patcher and passage inspector in the Underways. **Suggested alignment:** Lawful Neutral (provisional).
+Practical, safety-minded, respected for checking old supports and warning residents away from unstable passages. Wants surface builders to stop dumping rubble into access shafts. Has no authority over all Underways neighborhoods. **Voice:** “That arch is older than your plan. It will win.”
+
+### Rillik Venn
+**Role:** Ratfolk courier and message runner. **Suggested alignment:** Neutral.
+Fast, cautious, good at finding alternate routes. Carries discreet commercial messages but refuses stolen goods and threats. Knows Serren Coil by reputation; their relationship is cordial but competitive. **Voice:** “I can take the long way. I won't take the dangerous way just because you are late.”
+
+### Mara Doss
+**Role:** Human grain tally clerk, Rivergate. **Suggested alignment:** Lawful Neutral (provisional).
+Notices discrepancies between declared grain loads and actual weights. Recently pressured to approve a ledger before checking it and has not decided whether to report the pressure. Wants to keep her work accurate without becoming the target of a dispute. **Voice:** “The number is wrong. I am not yet certain who wants it wrong.”
+
+### Brother Halen
+**Role:** Human hospice stores clerk. **Suggested alignment:** Lawful Good (provisional).
+Meticulous and overworked; tracks donations, food, blankets, and medicines for Sister Alwen. Wants transparent accounts because rumors of favoritism threaten donations. **Voice:** “If the stores are short, we should know before the sick arrive.”
+
+## Supplemental minor houses and regional powers
+
+### Lord Rennic Corven
+**Role:** Head of House Corven, Greywater Hall. **Suggested alignment:** Lawful Neutral (provisional).
+Suspicious, commercially minded, proud of local autonomy. Wants to increase the value of his modest harbor without surrendering control to larger maritime powers. Maintains existing arrangements; no expansion project is established. **Voice:** “Protection is welcome. Ownership is not.”
+
+### Lady Mira Corven
+**Role:** Heir to House Corven. **Suggested alignment:** Neutral (provisional).
+More commercially curious than Rennic but loyal to the family's independence. Wants to understand how larger maritime powers conduct trade without allowing them to dominate Corven interests. No formal project is established. **Voice:** “There is much to learn from a larger harbor. There is no need to become its servant.”
+
+### Ser Oren Calderick
+**Role:** Acting lord of House Calderick after his elder brother's death. **Suggested alignment:** Lawful Neutral (provisional).
+Defensive and politically cautious, increasingly concerned about legitimacy. Wants lawful succession confirmed before outsiders exploit uncertainty. He is seeking confirmation through lawful channels. The possible heir's identity and legitimacy remain unresolved. **Voice:** “I will not ask the realm to accept what my own house has not yet settled.”
+
+### Lady Ysra Coldmere
+**Role:** Head of House Coldmere, Veyr banner house. **Suggested alignment:** Lawful Neutral (provisional).
+Practical steward of pasture, winter stores, and horse-breeding income. Wants the southern supply road kept open and emergency requisitions compensated. Loyal to Veyr but wary of extraordinary demands becoming permanent. **Voice:** “We will send what the Watch needs. We must also be able to feed the estate afterward.”
+
+### Ser Toman Coldmere
+**Role:** Heir to House Coldmere. **Suggested alignment:** Neutral (provisional).
+His individual personality is not established. Portray him initially as a young estate heir learning supply obligations and winter logistics, with room to define his own approach through play. Do not assign a feud or private agenda.
+
+### Lord Edric Pineward
+**Role:** Head of House Pineward, Veyr banner house. **Suggested alignment:** Lawful Neutral (provisional).
+Protective of woodland yields, customary timber rights, and fuel contracts. Wants to supply the North without overcutting the estate. **Voice:** “A forest is not a storehouse. Take too much now and you have nothing to sell later.”
+
+### Lady Mara Pineward
+**Role:** Heir to House Pineward. **Suggested alignment:** Neutral (provisional).
+Individual personality remains open. Her established position is heir to a house balancing timber and fuel supply with customary woodland rights. Develop her distinct views when she becomes relevant; do not assume she agrees with every decision of Edric.
+
+### Lady Thalira Aethwyn
+**Role:** Head of House Aethwyn, Vaelorian banner house. **Suggested alignment:** Lawful Neutral (provisional).
+Traditionalist, protective of ancestral estate privileges and customary woodland management. Wants influence through scholarship, patronage, and local arbitration rather than military force. Views Seralyth's commercial reforms cautiously. **Voice:** “An old right is not an inefficiency merely because it resists a new ledger.”
+
+### Lord Eryndor Aethwyn
+**Role:** Heir to House Aethwyn. **Suggested alignment:** Unspecified.
+Individual personality is not established beyond his place in an old elven lineage. Portray as educated within the house's traditional estate culture until more is decided; do not assume he shares every view of Thalira.
+
+### Lord Berold Harrowden
+**Role:** Head of House Harrowden, Edarth banner house. **Suggested alignment:** Lawful Neutral.
+Wants to protect grain production, tenant obligations, pasture access, and reliable roads. Claims tenants have historically maintained and grazed the disputed Longmead pasture. Prefers favorable arbitration to disruption of harvest labor. **Voice:** “A boundary is not made by a single stone. It is made by generations of use.”
+
+### Ser Alwyn Harrowden
+**Role:** Heir to House Harrowden. **Suggested alignment:** Unspecified.
+Individual motives and temperament are not established. He is heir to a landed house whose current concern is the Longmead dispute and reliable harvest deliveries. Do not make him a hotheaded claimant without cause.
+
+### Lady Cerys Wrenford
+**Role:** Head of House Wrenford, Edarth banner house. **Suggested alignment:** Lawful Neutral.
+Wants to preserve customary grazing and woodland rights, avoid an unfavorable arbitration, and keep the dispute from disrupting harvest and trade. Claims the customary rights extend farther west than Harrowden accepts. **Voice:** “Custom does not vanish because a marker has rotted.”
+
+### Ser Merek Wrenford
+**Role:** Heir to House Wrenford. **Suggested alignment:** Unspecified.
+Individual personality remains open. His house is engaged in a low-intensity customary-rights dispute, not a feud or armed conflict. Do not assign him responsibility for escalation without events.
+
+### Lord Mathen Rookwell
+**Role:** Head of House Rookwell, direct Crown vassal. **Suggested alignment:** Lawful Neutral.
+Wants to preserve direct Crown-vassal status, maintain relay stables and road-service obligations, and secure predictable compensation for extraordinary duties. His influence depends on reliable service to the Crown. **Voice:** “A royal road is only as dependable as the house that keeps its horses.”
+
+### Lady Elira Rookwell
+**Role:** Heir to House Rookwell. **Suggested alignment:** Neutral (provisional).
+Individual personality is not established. Her place in the house gives her an interest in road-service rights and the family's direct relationship with the Crown. Do not assign court faction membership by default.
+
+### Thane Orsik Emberdelve
+**Role:** Clan Speaker of Clan Emberdelve, a Kharadorn clan. **Suggested alignment:** Lawful Neutral.
+Wants to preserve clan autonomy, profitable mining and metalworking, and control over restricted workings and skilled labor. Owes obligations within the Kharadorn imperial union but does not rule a separate empire. **Voice:** “The clan will meet its duty. The clan will decide how its craft is kept.”
+
+### Halla Emberdelve
+**Role:** Designated successor to Thane Orsik. **Suggested alignment:** Unspecified.
+Individual personality is not established. Her future role involves clan autonomy, mining, metalworking, and obligations within the Kharadorn union. Do not presume she is a rival or reformer.
+
+### Lady Sabine Ternholt
+**Role:** Head of House Ternholt, Merrowen banner house. **Suggested alignment:** Lawful Neutral.
+Wants to preserve fishing rights, small-harbor privileges, local pilotage, and adequate coastal defenses without surrendering local custom. Loyal to Merrowen but protective of the house's own harbor. **Voice:** “A great fleet may guard the coast. It does not know every shoal our fishers know.”
+
+### Ser Owyn Ternholt
+**Role:** Heir to House Ternholt. **Suggested alignment:** Unspecified.
+Individual personality remains open. He inherits a house balancing local harbor custom and loyalty to Merrowen; no separate agenda or feud is established.
+
+### Lady Amara Serrane
+**Role:** Head of independent House Serrane of Sablecross. **Suggested alignment:** Neutral.
+Wants to protect wells, cisterns, caravan access, and local autonomy while maintaining neutrality among larger southern powers. Water dues and caravan access are recurring matters of negotiation, not a declared conflict. **Voice:** “A guest may cross the valley. A guest may not empty the well.”
+
+### Ser Dario Serrane
+**Role:** Heir to House Serrane. **Suggested alignment:** Unspecified.
+Individual personality is not established. His likely responsibilities concern water rights, caravan access, and preserving an independent local lordship. Do not assign a treaty or feud.
+
+### Ilyan Cress
+**Role:** Presiding First Speaker of the Brightwater Civic Compact. **Suggested alignment:** Lawful Neutral (provisional).
+Wants to preserve Brightwater's chartered independence, river and market commerce, and civic works while preventing a neighboring prince from converting protection into control. The Compact is not a modern democracy and cannot field a major army. **Voice:** “We welcome protection that leaves the charter intact.”
+
+### Lord Cassian Veylan
+**Role:** Head of House Veylan of Marrowgate, independent island lordship. **Suggested alignment:** Neutral.
+Wants to protect harbor dues and fishing rights while keeping island shipping open and avoiding dependence on a single mainland patron. Balances hereditary rights against shipmasters' interests. **Voice:** “An island survives by trading with the mainland and remembering it is not the mainland.”
+
+### Lady Nerissa Veylan
+**Role:** Heir to House Veylan. **Suggested alignment:** Unspecified.
+Individual temperament remains open. Her house must balance harbor dues, fishing rights, and open shipping; no private alliance or rivalry is established.
+
+### Captain Ysabet Korr
+**Role:** Principal Speaker of the Duskport Shipmasters' Compact. **Suggested alignment:** Chaotic Neutral / Good (provisional).
+Wants predictable harbor dues, open-port privileges, and enough shared defense to discourage raiders without surrendering civic authority to a single lord. Cooperative but competitive with Marrowgate. **Voice:** “A port that charges every ship twice will soon have no ships to charge.”
+
+### King Aldric's wider family and named royal court figures
+
+### Lord Caelion Vaelorian
+**Role:** Named member of House Vaelorian in the current world-state record. **Suggested alignment:** Unspecified.
+The current world-state index names him but the detailed Great House actor dossier does not establish his office, relationship beyond family membership, personal motives, or political position. Keep him as a named family figure without assigning a secret agenda until the authoritative family record is reconciled.
+
+### Tessa Vale
+**Role:** Sister of Jorren Vale; handles first customer contact at Redoubt Arms. **Suggested alignment:** Neutral Good (provisional).
+More outgoing than Jorren and comfortable welcoming customers. Wants the shop to attract reliable business without promising work the smith cannot deliver. **Voice:** Friendly, quick, knows when to hand a technical question to her brother. **Boundary:** No additional family history or business ownership is established.
+
+### Sella Marr
+**Role:** Tailor and master at Thread & Thimble; Neri's mentor. **Suggested alignment:** Lawful Neutral (provisional).
+Insists that judgment and customer fitting require time; trusts Neri with repairs but not yet with all fittings. Wants the shop's reputation protected and apprentices properly trained. **Voice:** Exacting but not cruel. **Sample:** “A good stitch can be learned in a week. Knowing when not to cut takes longer.”
+
+---
+
+## IX. Roleplaying and continuity standards
+
+## Alignment policy
+- Alignment suggestions are provisional roleplaying aids.
+- Do not treat alignment as a complete personality or a prediction of every decision.
+- Update alignment only when a sustained pattern of conduct supports it.
+- A character can be lawful and exploitative, chaotic and compassionate, neutral and deeply principled.
+
+## Information boundaries
+- An NPC knows only what their experience, office, relationships, and credible information channels permit.
+- A rumor is not objective truth. Consult the Tallowmere Rumor Truth Register.
+- The House Relland incident is not known to every member of the house. Lady Mereth's knowledge is limited; Corren's is more limited; neither knows the ratfolk PC survived.
+- The vampire PC's royal identity is not automatically known to any NPC.
+- The secret underground route to Dragonstone is not known to ordinary actors.
+- No NPC automatically knows the PCs' class abilities, equipment, history, or intentions.
+
+## Relationship tracking
+After a meaningful interaction, record:
+- **Disposition:** hostile / wary / neutral / cordial / trusting / loyal (use judgment, not a numeric meter by default).
+- **Trust basis:** what the NPC actually witnessed or was told.
+- **Obligation:** favor, debt, promise, contract, or unresolved grievance.
+- **Knowledge gained:** exact fact learned and source.
+- **Changed motive:** what event changed their priorities, if anything.
+
+## At-table portrayal shortcut
+When unsure how an NPC responds, ask:
+1. What are they trying to protect?
+2. What do they know for certain?
+3. What would this request cost them?
+4. What would make them say yes?
+5. What would make them walk away?
+6. What would they do if the PCs never returned?
+
+Do not force a scene to produce a quest. A conversation can end with a refusal, a small favor, a useful fact, a new obligation, or nothing at all.
+
+## Source records
+This collection supplements, and does not replace:
+- `campaign/locations/starting_city/Civic_NPCs.md`
+- `campaign/locations/starting_city/House_Denvor.md`
+- `campaign/locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`
+- `campaign/locations/starting_city/Merchant_Personalities_and_Disputes.md`
+- `campaign/locations/starting_city/Criminal_Operators_and_Networks.md`
+- `campaign/locations/starting_city/Local_Religion_and_Institutions.md`
+- `campaign/world_engine/Tallowmere_Political_Actor_Dossiers.md`
+- `campaign/world_engine/Great_House_Actor_Dossiers.md`
+- `campaign/world_engine/Tallowmere_NPC_Information_Network.md`
+- `campaign/world_engine/Regional_Factions_and_Minor_Houses.md`
+- `campaign/world_engine/Continental_Minor_Houses_and_Regional_Powers.md`
+- `campaign/locations/starting_city/Workforce_and_Daily_Life.md`
+- `campaign/locations/starting_city/Shopkeepers_and_Stock.md`
+
+**Maintenance rule:** When a new named NPC is created, add a dossier or a roster entry here and update the relevant source document. When an NPC's personality changes through play, update the source record and note the event that caused the change. Do not retroactively rewrite a character's motives to make a later plot convenient.
+
 
 ## Alignment policy
 - Alignment suggestions are provisional roleplaying aids.

@@ -14,6 +14,9 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 
 ## Local institutions and power
 
+- [Living World regional holdings and jurisdiction register](../../world_engine/Regional_Holdings_and_Jurisdictions.md) and [Tallowmere political actor dossiers](../../world_engine/Tallowmere_Political_Actor_Dossiers.md) consolidate the established local political structure for simulation.
+- The current local pressures are indexed in [the Living World issue register](../../world_engine/Initial_Issue_Register.md).
+
 - [Government and Law](Government_and_Law.md), [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md), [Civic Calendar and Seasonal Routines](Civic_Calendar_and_Seasonal_Routines.md), and [Workforce and Daily Life](Workforce_and_Daily_Life.md).
 - [Faction Relationships and Local Power](Faction_Relationships_and_Local_Power.md), [Crime and Informal Power](Crime_and_Informal_Power.md), and [Criminal Operators and Networks](Criminal_Operators_and_Networks.md).
 - [Faith and Temples](Faith_and_Temples.md), [Local Religion and Institutions](Local_Religion_and_Institutions.md), and [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md).

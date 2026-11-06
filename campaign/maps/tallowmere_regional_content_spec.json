@@ -273,5 +273,154 @@
     "not_a_live_sync_layer": true,
     "reason": "This specification intentionally contains no x/y or polygon points. It is a structured content registry for the regional map and must not be fed to the live synchronizer until coordinates are placed against the approved artwork.",
     "next_cartographic_step": "Visually calibrate the approved regional artwork, then convert these source records into a live atlas layer with reviewed marker and route coordinates."
+  },
+  "route_drawing_plan": {
+    "status": "ESTABLISHED_CONNECTIONS_READY_FOR_ARTWORK_TRACE",
+    "drawing_rule": "Draw established route corridors as editable route polylines. Use settlement markers as anchors. Written canon determines connectivity and broad direction; the artwork determines the trace. The printed scale bar is not valid.",
+    "routes": [
+      {
+        "source_id": "tallowmere_regional/route-north-road",
+        "sequence": [
+          "tallowmere",
+          "ashcombe-manor"
+        ],
+        "also_serves": [
+          "northfields"
+        ]
+      },
+      {
+        "source_id": "tallowmere_regional/route-river-vale-road",
+        "sequence": [
+          "tallowmere",
+          "millhaven",
+          "fordmere"
+        ]
+      },
+      {
+        "source_id": "tallowmere_regional/route-western-track",
+        "sequence": [
+          "tallowmere",
+          "brackenholt"
+        ]
+      },
+      {
+        "source_id": "tallowmere_regional/route-quarry-road",
+        "sequence": [
+          "tallowmere",
+          "stonehollow"
+        ]
+      },
+      {
+        "source_id": "tallowmere_regional/route-eastern-shore-road",
+        "sequence": [
+          "tallowmere",
+          "saltwick"
+        ]
+      },
+      {
+        "source_id": "tallowmere_regional/route-south-road",
+        "sequence": [
+          "tallowmere",
+          "harthbridge"
+        ]
+      }
+    ]
+  },
+  "local_jurisdictions": [
+    {
+      "source_id": "political/tallowmere/house-denvor",
+      "authority": "House Denvor",
+      "jurisdiction_type": "local lordship",
+      "canon_status": "ESTABLISHED_AUTHORITY",
+      "established_holdings": [
+        "tallowmere",
+        "millhaven",
+        "brackenholt",
+        "stonehollow"
+      ],
+      "vassal_holding": "Ashcombe Manor is held by House Avenholt under Denvor.",
+      "boundary_status": "EXTENT_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Authority is strongest around the city and immediate lordship. Do not extend it automatically over Harthbridge, Fordmere, or Saltwick."
+    },
+    {
+      "source_id": "political/tallowmere/house-avenholt",
+      "authority": "House Avenholt",
+      "jurisdiction_type": "vassal manor and tenant lands",
+      "canon_status": "ESTABLISHED_AUTHORITY",
+      "established_holdings": [
+        "ashcombe-manor"
+      ],
+      "superior_authority": "House Denvor",
+      "boundary_status": "MANOR_AND_TENANT_LAND_EXTENT_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true
+    },
+    {
+      "source_id": "political/tallowmere/house-velleran",
+      "authority": "House Velleran",
+      "jurisdiction_type": "chartered town and compact local territory",
+      "canon_status": "ESTABLISHED_AUTHORITY",
+      "established_holdings": [
+        "harthbridge"
+      ],
+      "vassals": [
+        "House Relland; manor and tenant lands along the South Road, exact site and extent unresolved."
+      ],
+      "boundary_status": "TOWN_CHARTER_KNOWN_TERRITORIAL_EXTENT_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Harthbridge is outside direct Denvor administration."
+    },
+    {
+      "source_id": "political/tallowmere/house-merewick",
+      "authority": "House Merewick",
+      "jurisdiction_type": "hereditary crossing, ferry, and toll charter",
+      "canon_status": "ESTABLISHED_CHARTER_RIGHTS",
+      "established_holdings": [
+        "fordmere"
+      ],
+      "boundary_status": "CHARTERED_SITE_KNOWN_SURROUNDING_LAND_RIGHTS_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Do not color the surrounding countryside as Merewick land without further canon."
+    },
+    {
+      "source_id": "political/tallowmere/saltwick-freeholders",
+      "authority": "Saltwick freeholders and shore charter",
+      "jurisdiction_type": "local customary and charter authority",
+      "canon_status": "ESTABLISHED_LOCAL_AUTHORITY",
+      "established_holdings": [
+        "saltwick"
+      ],
+      "boundary_status": "SUPERIOR_JURISDICTION_AND_TERRITORIAL_EXTENT_UNRESOLVED",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Do not assign Saltwick to Denvor, Velleran, or Merrowen without a GM decision."
+    },
+    {
+      "source_id": "political/tallowmere/house-kharadorn",
+      "authority": "House Kharadorn",
+      "jurisdiction_type": "strategic rights and charter-confirming authority",
+      "canon_status": "ESTABLISHED_STRATEGIC_ROLE",
+      "established_holdings": [],
+      "boundary_status": "NOT_A_LOCAL_TERRITORIAL_POLYGON",
+      "geometry": null,
+      "player_visible": true,
+      "notes": "Kharadorn confirmed Denvor's hereditary charter and retains strategic rights and harbor interests; it does not administer ordinary city life."
+    }
+  ],
+  "territory_mapping_policy": {
+    "status": "AUTHORITY_RECORDS_READY_BOUNDARY_GEOMETRY_PENDING",
+    "rule": "Map recognized local jurisdictions as non-overlapping land polygons only where the actual extent is established. Keep charter rights, vassalage, strategic interests, and superior authority in metadata or separate symbols.",
+    "unresolved_before_polygon": [
+      "Denvor immediate lordship perimeter",
+      "Avenholt tenant-land extent",
+      "Velleran compact territory and Relland manor location/extent",
+      "Merewick land rights beyond the crossing charter",
+      "Saltwick superior jurisdiction and shore boundary"
+    ],
+    "player_layer": "Use public authority labels and approved boundaries only. GM-only political intelligence remains outside the player map."
   }
 }

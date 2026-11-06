@@ -77,7 +77,7 @@ function makeSnapshot(source = parsedLayer.source) {
     })),
     locations: source.markers.map((marker, index) => ({
       id: `location-${index}`,
-      source_id: marker.source_id,
+      source_id: marker.location_source_id,
       name: marker.name,
       location_type: marker.location_type,
       description: marker.description,

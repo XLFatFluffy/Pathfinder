@@ -443,7 +443,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Ser Owyn Ternholt | Person / noble | ESTABLISHED | Heir to House Ternholt. |
 | Lady Amara Serrane | Person / noble | ESTABLISHED | Head of House Serrane. |
 | Ser Dario Serrane | Person / noble | ESTABLISHED | Heir to House Serrane. |
-| Ilyan Merrow | Person / civic leader | ESTABLISHED | Presiding First Speaker of the Brightwater Civic Compact. |
+| Ilyan Cress | Person / civic leader | ESTABLISHED | Presiding First Speaker of the Brightwater Civic Compact. |
 | Lord Cassian Veylan | Person / noble | ESTABLISHED | Head of House Veylan. |
 | Lady Nerissa Veylan | Person / noble | ESTABLISHED | Heir to House Veylan. |
 | Captain Ysabet Korr | Person / shipmaster | ESTABLISHED | Principal Speaker of the Duskport Shipmasters' Compact. |

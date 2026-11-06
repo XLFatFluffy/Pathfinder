@@ -194,7 +194,7 @@ The campaign begins on **1 Harvestfall, 243 AC**. The Great Rebellion is current
 ### Terminology and canon safeguards
 
 - The player described the fallen dynasty as the **Targaryen** dynasty / throne. In current campaign records, “House Targaryen” is a legacy source label only; the dynasty's final in-world name remains undecided. Preserve the player's intended royal lineage, but do not silently promote the legacy label to the official setting name.
-- The vampire PC is a surviving heir and potential claimant by birth. This does not establish that the wider world knows he survived, that any surviving loyalists exist, or that he currently intends to claim the throne.
+- The vampire PC is the surviving Crown Prince and direct heir of the fallen dynasty. His claim was never formally surrendered. His explicit long-term ambition is to restore the dynasty to its former glory and power, reclaim the throne, and retake Dragonstone from House Kharadorn. His survival and identity remain concealed; the wider world and the six Great Houses believe the old dynasty extinct. No surviving loyalists are established.
 - His royal identity, survival, captivity, and actions are GM-facing until the player decides what the character has disclosed and the GM determines who could know.
 - **Aldric Voss** is a distinct individual from **King Aldric Calderan**. Do not conflate them.
 - The vampire who held him captive is not automatically the progenitor of all vampires. The scope of that vampire's lineage or influence is not yet established.
@@ -210,5 +210,14 @@ The campaign begins on **1 Harvestfall, 243 AC**. The Great Rebellion is current
 - How he killed the captor and whether the act had wider consequences.
 - Aldric Voss's identity, background, the conflict that led to his turning, and his current whereabouts/status.
 - How much of the vampire's royal history Aldric Voss and the ratfolk PC know.
-- Whether the vampire PC has any surviving political ambitions, loyalties, enemies, or supporters.
+- The precise political and military methods by which he intends to restore the dynasty; his long-term goal itself is established.\n- Whether any surviving loyalists, allies, or supporters exist; none are currently established.
 
+
+
+### Established long-term ambition and present strategy
+
+The vampire PC intends to take up the mantle of the fallen Targaryen dynasty and rebuild it into its former glory and power. He seeks to restore his family's rule, reclaim the throne, and retake Dragonstone, now held by House Kharadorn. The Great Rebellion was led by the dwarven power that is now represented in current canon by House Kharadorn; older source references to House Baratheon are superseded.
+
+His immediate strategy is to accumulate wealth and power. Wealth, political influence, allies, and eventual military strength are resources for the restoration project. This is an active long-term ambition, not merely a possible consequence of his ancestry. The exact methods, timetable, supporters, and sequence of political or military moves remain the player's decisions.
+
+The player has previously established that the PC was nine years old when the Great Rebellion began, escaped the siege of Dragonstone, and spent centuries hiding and abandoning his name. Coordinate this with the current account of his 100–150 years of captivity and the broader chronology before assigning exact dates. Do not turn the provisional historical label “Dragonstone” into the confirmed original name of the old dynasty's seat.

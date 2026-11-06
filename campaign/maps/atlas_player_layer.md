@@ -52,7 +52,7 @@ The absence of overlays is deliberate. An honest unfinished map is better than a
 
 ## Tallowmere hierarchy
 
-Tallowmere is on the northwestern shore of the central inland sea, at the mouth of the River Vale. Its current continental anchor is X=44%, Y=43%. This is a cartographic starting point, not a surveyed coordinate.
+Tallowmere is on the northwestern shore of the central inland sea, at the mouth of the River Vale. Its current GM-saved continental anchor is X=47.0993%, Y=29.3538%; Dragonstone's is X=58.4224%, Y=38.1772%. These normalized image positions were copied from Supabase on 2026-11-06 and remain pending visual review. They are cartographic positions, not surveyed coordinates.
 
 Intended hierarchy:
 1. Continent map: major public places.

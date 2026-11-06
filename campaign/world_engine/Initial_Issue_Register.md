@@ -17,6 +17,7 @@ These issues are active conditions, not countdowns or mandatory quests. They are
 | TLM-ISS-005 | Denvor household priorities | WATCH | Lord Oswin; Lady Catrin; Ser Edwyn; Lady Anwen | Household discussions concern future influence, defense investment, and the family's direction. Oswin favors caution; Edwyn presses for investment; Anwen builds civic/commercial relationships. No open succession crisis exists. |
 | TLM-ISS-006 | Kharadorn harbor-defense review | ACTIVE | Charter Warden Vardek Flintmark; Clerk Belda Ironmark; House Denvor; Castellan Hadrik Voss | Kharadorn has requested updated defense accounts and review of harbor defenses and charter obligations. It is legitimate oversight, not an established pretext for occupation. Findings and remedies are not yet known. |
 | TLM-ISS-007 | Skilled labor, credit, and supply | ACTIVE | Shipwrights' Brotherhood; Artificers' Hall; Warehouse Guild; independent merchants and lenders; Dagna Coppervein; Ilyne Marris | Skilled labor and merchant credit are under pressure; individual late deliveries, debts, quality concerns, and contracts create fragmented disputes. No common scheme or single cause is established. |
+| EDA-ISS-001 | Longmead boundary dispute | ACTIVE / LOW-INTENSITY | Lord Berold Harrowden; Lady Cerys Wrenford; House Edarth as liege authority | Two Edarth banner houses dispute customary grazing and woodland rights along an unclear boundary in the Western Heartlands. No violence or formal seizure has occurred. |
 
 ## Detailed issue records
 
@@ -62,6 +63,25 @@ These issues are active conditions, not countdowns or mandatory quests. They are
 **Unknown:** Named debtors/creditors beyond established contacts, exact sums, wage rates, material shortages, late contracts, and which disputes are current versus general conditions.  
 **Boundary:** Do not assign invented debts or shortages to named NPCs. Do not make separate disputes one conspiracy without evidence.
 
+### EDA-ISS-001 — Longmead boundary dispute
+
+**Status:** ACTIVE / LOW-INTENSITY  
+**Location:** Unmapped pasture-and-woodland boundary between House Harrowden and House Wrenford in the Western Heartlands.  
+**Parties:** Lord Berold Harrowden and Lady Cerys Wrenford.  
+**Liege authority:** Lord Garrick Edarth.
+
+A stream and old boundary markers define part of the customary division between the two holdings. Seasonal flooding and inconsistent maintenance have made the markers difficult to interpret. Both houses claim customary rights to a narrow strip of summer pasture and adjoining managed woodland. Tenants on both sides have used the area under different interpretations.
+
+No armed clash, killing, raid, eviction, or formal seizure has occurred. Neither side has submitted a complete formal claim with mutually accepted evidence. Both prefer a favorable ruling but have reasons to avoid disrupting harvest labor or losing Edarth's favor.
+
+**Unknown:** Original charter wording; age and provenance of the markers; exact extent of the disputed strip; whether any tenant deliberately moved a marker; and whether Edarth will hear the case directly or appoint an intermediary.
+
+**Possible paths:** Joint survey and restored markers; temporary shared-use agreement; Edarth arbitration; negotiated exchange of grazing or woodland rights; or continued low-level friction.
+
+**Escalation threshold:** Deliberate marker destruction, eviction, livestock seizure, or violence by retainers could elevate the matter. None has happened at campaign start.
+
+**Map safeguard:** This is a customary boundary dispute, not permission to draw overlapping territory polygons. Keep the exact area uncalibrated pending authoritative artwork and GM approval.
+
 ## Regional friction register (not all active issues)
 
 These documented friction points may become active if new events or player actions create a specific dispute. They are not all current disputes and none implies an established armed conflict.
@@ -80,8 +100,9 @@ These documented friction points may become active if new events or player actio
 ## Border and war status at campaign start
 
 - No active territorial border war is established in the Tallowmere region.
-- No specific live border dispute between named houses has been established.
-- Boundary and resource-right complaints exist at local scale, but should not be inflated into a noble war.
+- No specific live border dispute between named houses is established in the Tallowmere region.
+- The Longmead boundary dispute between two Edarth banner houses is active but low-intensity and is not an armed conflict.
+- Other boundary and resource-right complaints should not be inflated into noble wars.
 - The Great Houses' broad territories are established; exact borders and coordinates remain unresolved.
 - The southern reaches are politically fragmented, but no new war or succession crisis is established by this register.
 

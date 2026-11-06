@@ -2,7 +2,7 @@
 
 **Target campaign opening:** 1 Harvestfall, 243 AC  
 **Target first session:** 8 November 2026 (real-world scheduling note)  
-**Status:** Core world-engine foundation and WTR-001 opening baseline are complete. Session encounter mechanics remain pending player character sheets and final companion approval.
+**Status:** Core worldbuilding phases A–F are complete at the framework level. WTR-001 opening baseline is complete. Remaining non-player blocker: final artwork-dependent map geometry. Session encounter mechanics remain pending player character sheets and final companion approval.
 
 This checklist defines "complete enough to begin" rather than pretending an entire continent can be exhaustively written before play. The world remains expandable. The opening requires a coherent baseline, active actors, understandable pressures, and a way to record consequences.
 
@@ -12,16 +12,16 @@ This checklist defines "complete enough to begin" rather than pretending an enti
 |---|---|---|
 | Setting identity and tone | READY | Westeros-inspired high-medieval fantasy using Pathfinder First Edition; no industrial/steampunk direction. |
 | Great Houses and Crown | READY | Six Great Houses, rulers, heirs, Council representatives, Crown officers, court faction leaders, and strategic pressures established. |
-| Broad political geography | READY FOR PLAY | Great House spheres and principal seats established. Exact borders and atlas polygons remain blocked pending artwork calibration. |
+| Broad political geography | READY FOR PLAY / CARTOGRAPHIC CALIBRATION PENDING | Great House spheres, principal seats, road network, geographic overlays, and border-drafting rules established. Exact borders and atlas polygons remain blocked pending artwork calibration. |
 | Tallowmere and immediate region | READY FOR PLAY | City, districts, local government, settlements, roads, local houses, civic NPCs, guilds, commerce, and public destinations documented. Exact geometry remains provisional. |
-| Minor houses and regional powers | INITIAL NETWORK READY | First banner-house, Crown-vassal, dwarven-clan, and independent southern network established. More actors can be added when campaign relevance requires them. |
-| Feudal law and obligations | WORKING FRAMEWORK READY | Land tenure, homage, inheritance principles, jurisdiction, courts, customary rights, and vassal consequences documented. Detailed local charters remain open. |
+| Minor houses and regional powers | READY | First continental network plus Tallowmere local network established; legal relationships and political operating rules now support simulation. |
+| Feudal law and obligations | READY | Land tenure, homage, inheritance, jurisdiction, courts, customary rights, vassal consequences, and political escalation rules documented. Detailed local charters remain open where genuinely local. |
 | Local and continental issues | READY | Seven Tallowmere pressures, Longmead boundary dispute, and six structural continental pressures indexed. |
 | Local and continental projects | READY | Six Tallowmere projects and six wider projects recorded with statuses and unknowns. |
 | Rumors and information | READY | Tallowmere rumor list has a GM-only truth register and knowledge boundaries. |
 | Ratfolk community | INITIAL NETWORK READY | Four informal networks and seven named contacts established. Underways neighborhoods, population, and exact passages remain open. |
 | Calendar and timeline | READY | Campaign calendar established; campaign begins 1 Harvestfall, 243 AC. Historical dates remain approximate where appropriate. |
-| Event and world-turn records | READY | Event ledger and world-turn ledger initialized; no prior turn or event has been invented. |
+| Event and world-turn records | READY | WTR-001 opening baseline completed and reconciled in the world-turn ledger; future turns advance only with in-world time. |
 | Player-facing knowledge | READY | Starting handout distinguishes public facts from private history and minor/local knowledge; GM-only information remains separated. |
 | Session One structure | READY FOR FINAL MECHANICAL CHECK | Opening troll/wagon concept, Selwick reward, city reference, NPC information channels, and sandbox directions documented. |
 
@@ -44,7 +44,7 @@ Before recording Turn 001:
 These can be developed after the campaign begins:
 - Exact continental and local political borders, once artwork is calibrated.
 - Full minor-house census, family trees, retainers, and exact service obligations.
-- Detailed Council voting procedure and complete court-faction membership.
+- Complete court-faction membership and relative influence.
 - Complete legal codes for every region.
 - Full southern treaty network and every independent ruler.
 - Full ratfolk population, neighborhood map, and wider subterranean connections.

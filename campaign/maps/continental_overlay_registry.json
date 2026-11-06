@@ -10,12 +10,12 @@
     "master_reference": "campaign/maps/continent_reference.md",
     "standards": "campaign/maps/atlas_overlay_standards.md",
     "phase_spec": "campaign/maps/Continental_Cartographic_Phase_A.md",
-    "rule": "This file defines the overlays that Phase A requires. Geometry is intentionally withheld until each shape can be traced against the authoritative artwork. Do not convert null geometry into invented coordinates.",
+    "rule": "This file records established overlays and proposed geometry. Political and maritime geometry remains withheld until canonically established; geographic drafts may use broad illustrative extents traced against authoritative artwork. Do not convert null geometry into invented coordinates.",
     "political_authority_register": "campaign/maps/continental_political_authority_register.md"
   },
   "visibility_policy": {
     "draft_overlays": "GM_ONLY",
-    "player_layer": "Do not add these overlays to atlas_player_layer.json until geometry has been visually traced, reviewed, and approved."
+    "player_layer": "Only GM-approved routes and public markers are currently player-visible. Geographic polygons remain player-hidden until the GM reviews and approves their illustrative extents; political and maritime geometry remains withheld."
   },
   "overlays": [
     {
@@ -1094,7 +1094,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
@@ -1157,7 +1157,8 @@
         ]
       },
       "player_visible": true,
-      "source_document": "campaign/maps/Continental_Cartographic_Phase_A.md"
+      "source_document": "campaign/maps/Continental_Cartographic_Phase_A.md",
+      "notes": "The final approach to Dragonstone is understood to cross the natural landbridge; the small visual offset at continental scale is accepted."
     },
     {
       "source_id": "continent_atlas/routes/western-mountain-road",
@@ -1165,7 +1166,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
@@ -1224,7 +1225,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
@@ -1287,7 +1288,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
@@ -1350,7 +1351,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
@@ -1413,7 +1414,7 @@
       "overlay_type": "route",
       "category": "route",
       "canon_status": "ESTABLISHED_ROUTE_FRAMEWORK",
-      "boundary_status": "DRAFTED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "GM_APPROVED_CARTOGRAPHIC_ROUTE",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [

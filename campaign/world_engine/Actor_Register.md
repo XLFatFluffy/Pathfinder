@@ -30,6 +30,10 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 - The seven-seat Chartered Council and its procedure are detailed in the Chartered Council and Civic Procedure record.
 - Local guilds and companies are detailed in the Guilds and Commerce record.
 
+### Continental minor houses and regional powers
+- [Continental Minor Houses and Regional Powers](Continental_Minor_Houses_and_Regional_Powers.md) records the first additional network of Veyr, Vaelorian, Edarth, Crown, Kharadorn, Merrowen, and independent southern actors.
+- Includes the active, low-intensity Longmead boundary dispute between Houses Harrowden and Wrenford. Its precise boundary remains unmapped.
+
 ### Regional authorities and holdings
 - [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) records established holdings, charter relationships, vassalage, and unresolved boundaries.
 - House Relland's established historical incident is in the political House Relland record.

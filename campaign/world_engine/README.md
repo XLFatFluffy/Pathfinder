@@ -13,7 +13,8 @@ This folder contains the structured GM records used to track the world beyond th
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) — local houses, charter office, and civic council.
 - [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) — established local authority, charter relationships, and unresolved borders.
 - [Initial Issue Register](Initial_Issue_Register.md) — seven starting pressures and regional friction points.
-- [Initial Project Register](Initial_Project_Register.md) — current efforts and their evidence status.
+- [Initial Project Register](Initial_Project_Register.md) — Tallowmere efforts and their evidence status.
+- [Continental Project Register](Continental_Project_Register.md) — active and proposed administrative/commercial efforts across the wider continent.
 - [World Event Record Template](World_Event_Record_Template.md) — reusable event record.
 - [World Turn Report Template](World_Turn_Report_Template.md) — reusable GM-reviewed time-advance report.
 
@@ -22,7 +23,7 @@ This folder contains the structured GM records used to track the world beyond th
 - Campaign date: **1 Harvestfall, 243 AC**.
 - Starting region: Tallowmere and its hinterland.
 - Seven Tallowmere issues are active or under watch; one low-intensity boundary dispute is active between two Edarth banner houses in the Western Heartlands.
-- Six initial efforts/projects are recorded.
+- Six Tallowmere projects and six continental projects are recorded, with statuses and unknowns kept explicit.
 - Six continent-wide structural pressures are indexed for future review; none is a current war or crisis by itself.
 - Feudal law and landed obligations now have a consistent working framework; detailed local charters and court procedures remain open.
 - Event and world-turn ledgers are initialized; no first world turn has been run.

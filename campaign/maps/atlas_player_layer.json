@@ -1,7 +1,7 @@
 {
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
-  "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_AND_ESTABLISHED_ROUTE_DRAFTS",
-  "note": "Continental layer includes 15 public major-place markers and six GM-approved route overlays. Thirteen geographic region polygons are present as GM-only illustrative drafts for review; they are not final surveyed boundaries and are not visible to players. Political territory and maritime influence geometry remain withheld.",
+  "status": "CURATED_PLAYER_LAYER_WITH_PUBLIC_MARKERS_ROUTES_AND_GM_ONLY_GEOGRAPHIC_DRAFTS",
+  "note": "The 15 major-place markers and six GM-approved route overlays are player-visible. Thirteen broad geographic-region overlays are also stored as GM-only drafts (player_visible:false) pending final GM review. Their extents are illustrative and may overlap; they do not define political borders. No Great House political polygons or maritime influence extents have been invented.",
   "layers": [
     {
       "map": "continent_atlas",
@@ -953,36 +953,40 @@
           "color": "#6e9aa4",
           "points": [
             {
-              "x": 0.43,
-              "y": 0.31
+              "x": 0.47,
+              "y": 0.35
             },
             {
               "x": 0.51,
-              "y": 0.3
+              "y": 0.33
             },
             {
-              "x": 0.57,
-              "y": 0.32
+              "x": 0.56,
+              "y": 0.33
             },
             {
-              "x": 0.62,
-              "y": 0.34
+              "x": 0.61,
+              "y": 0.35
             },
             {
-              "x": 0.67,
-              "y": 0.37
+              "x": 0.66,
+              "y": 0.38
             },
             {
-              "x": 0.72,
-              "y": 0.4
+              "x": 0.7,
+              "y": 0.41
             },
             {
-              "x": 0.75,
-              "y": 0.46
+              "x": 0.73,
+              "y": 0.45
             },
             {
               "x": 0.74,
-              "y": 0.52
+              "y": 0.49
+            },
+            {
+              "x": 0.73,
+              "y": 0.53
             },
             {
               "x": 0.7,
@@ -993,28 +997,44 @@
               "y": 0.59
             },
             {
-              "x": 0.6,
+              "x": 0.62,
+              "y": 0.6
+            },
+            {
+              "x": 0.58,
+              "y": 0.6
+            },
+            {
+              "x": 0.54,
               "y": 0.58
             },
             {
-              "x": 0.55,
+              "x": 0.51,
               "y": 0.56
             },
             {
-              "x": 0.5,
-              "y": 0.53
+              "x": 0.48,
+              "y": 0.54
             },
             {
               "x": 0.45,
-              "y": 0.5
+              "y": 0.51
+            },
+            {
+              "x": 0.43,
+              "y": 0.48
             },
             {
               "x": 0.42,
               "y": 0.44
             },
             {
-              "x": 0.4,
-              "y": 0.38
+              "x": 0.44,
+              "y": 0.4
+            },
+            {
+              "x": 0.46,
+              "y": 0.37
             }
           ],
           "player_visible": false

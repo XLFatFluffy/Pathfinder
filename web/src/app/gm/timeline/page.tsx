@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { campaignDateSortValue } from "@/lib/campaign-calendar";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +17,7 @@ export default async function GmTimelinePage() {
     { data: journalEntries, error: journalError },
     { data: npcs, error: npcError },
     { data: factions, error: factionsError },
+    { data: events, error: eventsError },
   ] = await Promise.all([
     supabase
       .from("campaign_sessions")
@@ -41,12 +43,19 @@ export default async function GmTimelinePage() {
       .eq("campaign_id", member.campaign_id)
       .order("updated_at", { ascending: false })
       .limit(8),
+    supabase
+      .from("campaign_events")
+      .select("id, title, description, campaign_date, category, certainty, player_visible, updated_at")
+      .eq("campaign_id", member.campaign_id)
+      .order("updated_at", { ascending: false })
+      .limit(20),
   ]);
 
   if (sessionsError) throw new Error(`Unable to load session timeline: ${sessionsError.message}`);
   if (journalError) throw new Error(`Unable to load journal timeline: ${journalError.message}`);
   if (npcError) throw new Error(`Unable to load NPC timeline: ${npcError.message}`);
   if (factionsError) throw new Error(`Unable to load faction timeline: ${factionsError.message}`);
+  if (eventsError) throw new Error(`Unable to load campaign event timeline: ${eventsError.message}`);
 
   const timelineItems = [
     ...((sessions ?? []).map((session) => ({
@@ -81,7 +90,22 @@ export default async function GmTimelinePage() {
       summary: "Faction remains active in the current campaign ledger.",
       timestamp: new Date(faction.updated_at).getTime(),
     })) ?? []),
-  ].sort((a, b) => b.timestamp - a.timestamp);
+    ...((events ?? []).map((event) => ({
+      id: `event-${event.id}`,
+      type: `World event · ${event.category.replaceAll("_", " ")} · ${event.certainty}`,
+      label: event.title,
+      date: event.campaign_date,
+      summary: event.description || "No description recorded.",
+      timestamp: new Date(event.updated_at).getTime(),
+    })) ?? []),
+  ].sort((a, b) => {
+    const aDate = campaignDateSortValue(a.date);
+    const bDate = campaignDateSortValue(b.date);
+    if (aDate !== null && bDate !== null) return aDate - bDate;
+    if (aDate !== null) return -1;
+    if (bDate !== null) return 1;
+    return a.timestamp - b.timestamp;
+  });
 
   return (
     <>

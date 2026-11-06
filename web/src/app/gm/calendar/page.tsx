@@ -6,7 +6,10 @@ import {
   CAMPAIGN_WEEKDAYS,
   CURRENT_IN_WORLD_DATE,
   buildCampaignMonthView,
+  campaignDateSortValue,
 } from "@/lib/campaign-calendar";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
+import CampaignEventForm, { type CampaignEventValue } from "./event-form";
 
 export const dynamic = "force-dynamic";
 
@@ -17,35 +20,142 @@ export default async function GmCalendarPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [{ data: recentSessions, error: sessionsError }, { data: journalEntries, error: journalError }] =
-    await Promise.all([
+  const [
+    recentSessions,
+    { data: journalEntries, error: journalError },
+    events,
+    eventNotes,
+    { data: history, error: historyError },
+    locations,
+    npcs,
+    houses,
+    factions,
+    quests,
+  ] = await Promise.all([
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
         .from("campaign_sessions")
         .select("id, session_number, campaign_date, summary")
         .eq("campaign_id", member.campaign_id)
         .order("session_number", { ascending: false })
-        .limit(5),
+        .order("id")
+        .range(from, to),
+    ),
+    supabase
+      .from("campaign_journal_entries")
+      .select("id, title, campaign_date, created_at")
+      .eq("campaign_id", member.campaign_id)
+      .order("created_at", { ascending: false })
+      .limit(5),
+    getAllSupabaseRowsOrThrow((from, to) =>
       supabase
-        .from("campaign_journal_entries")
-        .select("id, title, campaign_date, created_at")
+        .from("campaign_events")
+        .select(
+          "id, title, description, campaign_date, end_date, date_is_approximate, category, status, certainty, source, location_id, npc_id, house_id, faction_id, quest_id, session_id, player_visible",
+        )
         .eq("campaign_id", member.campaign_id)
-        .order("created_at", { ascending: false })
-        .limit(5),
-    ]);
+        .order("campaign_date")
+        .order("title")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_event_gm_notes")
+        .select("event_id, notes")
+        .eq("campaign_id", member.campaign_id)
+        .order("event_id")
+        .range(from, to),
+    ),
+    supabase
+      .from("campaign_event_history")
+      .select("id, event_title, action, created_at")
+      .eq("campaign_id", member.campaign_id)
+      .order("created_at", { ascending: false })
+      .limit(12),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_houses")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_factions")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRowsOrThrow((from, to) =>
+      supabase
+        .from("campaign_quests")
+        .select("id, name")
+        .eq("campaign_id", member.campaign_id)
+        .order("name")
+        .order("id")
+        .range(from, to),
+    ),
+  ]);
 
-  if (sessionsError) {
-    throw new Error(`Unable to load campaign sessions: ${sessionsError.message}`);
-  }
   if (journalError) {
     throw new Error(`Unable to load journal entries: ${journalError.message}`);
   }
+  const queryErrors = [
+    ["campaign event history", historyError],
+  ] as const;
+  const failedQuery = queryErrors.find(([, error]) => error);
+  if (failedQuery?.[1]) {
+    throw new Error(`Unable to load ${failedQuery[0]}: ${failedQuery[1].message}`);
+  }
 
   const monthView = buildCampaignMonthView();
-  const nextSession = recentSessions?.find((session) => session.campaign_date) ?? null;
-  const upcomingNotes = [
-    "Calendar management remains intentionally lightweight: use it as a GM planning board and session tracker, not a replacement for detailed narrative records.",
-    "Use the campaign date field on sessions and journal entries to maintain in-world chronology without forcing a full historical database.",
-  ];
+  const latestDatedSession = recentSessions.find((session) => session.campaign_date) ?? null;
+  const notesByEventId = new Map(
+    eventNotes.map((entry) => [entry.event_id, entry.notes]),
+  );
+  const sessionsAsOptions = (recentSessions ?? []).map((session) => ({
+    id: session.id,
+    name: `Session ${session.session_number}`,
+  }));
+  const eventFormLinks = {
+    locations,
+    npcs,
+    houses,
+    factions,
+    quests,
+    sessions: sessionsAsOptions,
+  };
+  const chronologicallySortedEvents = [...events].sort((a, b) => {
+    const aDate = campaignDateSortValue(a.campaign_date);
+    const bDate = campaignDateSortValue(b.campaign_date);
+    if (aDate !== null && bDate !== null) return aDate - bDate;
+    if (aDate !== null) return -1;
+    if (bDate !== null) return 1;
+    return a.title.localeCompare(b.title);
+  });
 
   return (
     <>
@@ -71,8 +181,8 @@ export default async function GmCalendarPage() {
             <strong>{CURRENT_IN_WORLD_DATE}</strong>
           </article>
           <article className="gm-dashboard-card">
-            <span className="muted">Next session</span>
-            <strong>{nextSession?.campaign_date ?? "No date recorded"}</strong>
+            <span className="muted">Latest dated session</span>
+            <strong>{latestDatedSession?.campaign_date ?? "No date recorded"}</strong>
           </article>
           <article className="gm-dashboard-card">
             <span className="muted">Established festivals</span>
@@ -90,12 +200,10 @@ export default async function GmCalendarPage() {
           <h3 id="calendar-month-heading">Harvestfall month view</h3>
         </div>
         <article className="entry-card">
-          <div className="gm-dashboard-grid" style={{ gridTemplateColumns: "repeat(7, minmax(0, 1fr))" }}>
-            {CAMPAIGN_WEEKDAYS.map((day) => (
-              <div key={day} className="muted" style={{ textAlign: "center", fontWeight: 700 }}>
-                {day}
-              </div>
-            ))}
+          <p className="muted">
+            Weekday names are established, but the weekday for 1 Harvestfall has not been anchored. Dates are shown in sequence without assigning weekday columns.
+          </p>
+          <div className="gm-dashboard-grid" style={{ gridTemplateColumns: "repeat(6, minmax(0, 1fr))" }}>
             {monthView.map((date) => (
               <div
                 key={`${date.month}-${date.day}`}
@@ -132,18 +240,40 @@ export default async function GmCalendarPage() {
 
       <section className="entry-list" aria-labelledby="calendar-events-heading">
         <div className="section-heading">
-          <h3 id="calendar-events-heading">Upcoming and recent session dates</h3>
+          <div>
+            <h3 id="calendar-events-heading">Campaign events</h3>
+            <p className="muted">Events are kept separate from canon until explicitly recorded and can be marked approximate, rumored, or unresolved.</p>
+          </div>
         </div>
-        {recentSessions?.length ? (
-          recentSessions.map((session) => (
-            <article className="entry-card" key={session.id}>
-              <p className="eyebrow">Session {session.session_number}</p>
-              <h4>{session.campaign_date ?? "Undated session"}</h4>
-              <p className="entry-content">{session.summary || "No summary recorded."}</p>
-            </article>
-          ))
-        ) : (
-          <p className="muted">No campaign dates have been recorded yet.</p>
+        <CampaignEventForm {...eventFormLinks} />
+        {chronologicallySortedEvents.length ? chronologicallySortedEvents.map((event) => (
+          <article className="entry-card" key={event.id}>
+            <p className="eyebrow">
+              {event.player_visible ? "Player-visible" : "GM-only"} · {event.category.replaceAll("_", " ")} · {event.status} · {event.certainty}
+            </p>
+            <h4>{event.title}</h4>
+            <p className="muted">
+              <strong>{event.date_is_approximate ? "Approximately " : ""}{event.campaign_date}</strong>
+              {event.end_date ? ` – ${event.end_date}` : ""}
+            </p>
+            {event.description ? <p className="entry-content">{event.description}</p> : null}
+            {event.source ? <p className="muted"><strong>Source:</strong> {event.source}</p> : null}
+            {notesByEventId.get(event.id) ? (
+              <p className="private-notes"><strong>GM-only:</strong> {notesByEventId.get(event.id)}</p>
+            ) : null}
+            <details className="entry-edit">
+              <summary>Edit or delete this event</summary>
+              <CampaignEventForm
+                {...eventFormLinks}
+                event={{
+                  ...event,
+                  gm_notes: notesByEventId.get(event.id) ?? "",
+                } as CampaignEventValue}
+              />
+            </details>
+          </article>
+        )) : (
+          <p className="muted">No campaign events have been recorded yet.</p>
         )}
       </section>
 
@@ -163,17 +293,23 @@ export default async function GmCalendarPage() {
         )}
       </section>
 
-      <section className="entry-list" aria-labelledby="calendar-guidance-heading">
+      <section className="entry-list" aria-labelledby="calendar-history-heading">
         <div className="section-heading">
-          <h3 id="calendar-guidance-heading">GM notes</h3>
+          <h3 id="calendar-history-heading">Event change history</h3>
         </div>
-        <article className="entry-card">
-          <ul className="history-list">
-            {upcomingNotes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
-        </article>
+        {history?.length ? (
+          <article className="entry-card">
+            <ul className="history-list">
+              {history.map((item) => (
+                <li key={item.id}>
+                  <strong>{item.action}</strong> · {item.event_title} · {new Date(item.created_at).toLocaleString()}
+                </li>
+              ))}
+            </ul>
+          </article>
+        ) : (
+          <p className="muted">Changes to campaign events will be recorded here.</p>
+        )}
       </section>
     </>
   );

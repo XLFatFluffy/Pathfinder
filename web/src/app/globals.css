@@ -628,6 +628,21 @@ h2 {
   font-size: 1.45rem;
 }
 
+.event-links {
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.event-links legend {
+  color: var(--muted);
+  font-weight: 700;
+  padding: 0 0.35rem;
+}
+
 .checkbox-label {
   align-items: center;
   display: flex !important;

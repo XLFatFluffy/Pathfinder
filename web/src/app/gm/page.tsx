@@ -119,7 +119,8 @@ export default async function GmPage({
   if (notableFactionError) {
     throw new Error(`Unable to load notable factions: ${notableFactionError.message}`);
   }
-  const nextSession = latestSessions.find((session) => session.campaign_date) ?? null;
+  const latestDatedSession =
+    latestSessions.find((session) => session.campaign_date) ?? null;
   const countResults = [
     ["locations", locationsResult],
     ["NPCs", npcsResult],
@@ -171,7 +172,7 @@ export default async function GmPage({
     { label: "Add NPC", href: "/gm/npcs" },
     { label: "Add location", href: "/gm/locations" },
     { label: "Manage sessions", href: "/gm/sessions" },
-    { label: "Open calendar", href: "/gm/calendar" },
+    { label: "Record campaign event", href: "/gm/calendar" },
     { label: "Review atlas", href: "/gm/atlas" },
   ];
 
@@ -196,9 +197,9 @@ export default async function GmPage({
             <strong>1 Harvestfall, 243 AC</strong>
           </article>
           <article className="gm-dashboard-card">
-            <span className="muted">Next session</span>
+            <span className="muted">Latest session</span>
             <strong>
-              {nextSession?.campaign_date ?? "No date recorded"}
+              {latestDatedSession?.campaign_date ?? "No date recorded"}
             </strong>
           </article>
           <article className="gm-dashboard-card">

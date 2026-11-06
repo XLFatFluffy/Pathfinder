@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { campaignDateSortValue } from "@/lib/campaign-calendar";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +16,7 @@ export default async function PlayerTimelinePage() {
     { data: campaign, error: campaignError },
     { data: sessions, error: sessionsError },
     { data: journalEntries, error: journalError },
+    { data: events, error: eventsError },
   ] = await Promise.all([
     supabase
       .from("campaigns")
@@ -35,11 +37,19 @@ export default async function PlayerTimelinePage() {
       .eq("player_visible", true)
       .order("created_at", { ascending: false })
       .limit(10),
+    supabase
+      .from("campaign_events")
+      .select("id, title, description, campaign_date, category, certainty, created_at")
+      .eq("campaign_id", member.campaign_id)
+      .eq("player_visible", true)
+      .order("created_at", { ascending: false })
+      .limit(10),
   ]);
 
   if (campaignError) throw new Error(`Unable to load the campaign: ${campaignError.message}`);
   if (sessionsError) throw new Error(`Unable to load shared sessions: ${sessionsError.message}`);
   if (journalError) throw new Error(`Unable to load shared journal entries: ${journalError.message}`);
+  if (eventsError) throw new Error(`Unable to load shared campaign events: ${eventsError.message}`);
 
   const timelineItems = [
     ...((sessions ?? []).map((session) => ({
@@ -58,7 +68,22 @@ export default async function PlayerTimelinePage() {
       summary: entry.content || "No note content recorded.",
       timestamp: new Date(entry.created_at).getTime(),
     })) ?? []),
-  ].sort((a, b) => b.timestamp - a.timestamp);
+    ...((events ?? []).map((event) => ({
+      id: `event-${event.id}`,
+      type: `World event · ${event.category.replaceAll("_", " ")} · ${event.certainty}`,
+      label: event.title,
+      date: event.campaign_date,
+      summary: event.description || "No description recorded.",
+      timestamp: new Date(event.created_at).getTime(),
+    })) ?? []),
+  ].sort((a, b) => {
+    const aDate = campaignDateSortValue(a.date);
+    const bDate = campaignDateSortValue(b.date);
+    if (aDate !== null && bDate !== null) return aDate - bDate;
+    if (aDate !== null) return -1;
+    if (bDate !== null) return 1;
+    return a.timestamp - b.timestamp;
+  });
 
   return (
     <>

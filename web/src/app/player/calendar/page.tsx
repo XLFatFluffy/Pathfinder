@@ -7,6 +7,7 @@ import {
   CURRENT_IN_WORLD_DATE,
   buildCampaignMonthView,
 } from "@/lib/campaign-calendar";
+import { getAllSupabaseRowsOrThrow } from "@/lib/supabase-pagination";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +18,12 @@ export default async function PlayerCalendarPage() {
   }
 
   const supabase = await createSupabaseServerClient();
-  const [{ data: campaign, error: campaignError }, { data: recentSessions, error: sessionsError }, { data: journalEntries, error: journalError }] =
+  const [
+    { data: campaign, error: campaignError },
+    { data: recentSessions, error: sessionsError },
+    { data: journalEntries, error: journalError },
+    events,
+  ] =
     await Promise.all([
       supabase
         .from("campaigns")
@@ -38,6 +44,17 @@ export default async function PlayerCalendarPage() {
         .eq("player_visible", true)
         .order("created_at", { ascending: false })
         .limit(5),
+      getAllSupabaseRowsOrThrow((from, to) =>
+        supabase
+        .from("campaign_events")
+        .select("id, title, description, campaign_date, end_date, date_is_approximate, category, certainty")
+        .eq("campaign_id", member.campaign_id)
+        .eq("player_visible", true)
+        .order("campaign_date")
+        .order("title")
+        .order("id")
+        .range(from, to),
+      ),
     ]);
 
   if (campaignError) {
@@ -49,9 +66,9 @@ export default async function PlayerCalendarPage() {
   if (journalError) {
     throw new Error(`Unable to load shared journal entries: ${journalError.message}`);
   }
-
   const monthView = buildCampaignMonthView();
-  const nextSession = recentSessions?.find((session) => session.campaign_date) ?? null;
+  const latestDatedSession =
+    recentSessions?.find((session) => session.campaign_date) ?? null;
 
   return (
     <>
@@ -78,8 +95,8 @@ export default async function PlayerCalendarPage() {
             <strong>{CURRENT_IN_WORLD_DATE}</strong>
           </article>
           <article className="gm-dashboard-card">
-            <span className="muted">Published session</span>
-            <strong>{nextSession?.campaign_date ?? "No session date"}</strong>
+            <span className="muted">Latest shared session</span>
+            <strong>{latestDatedSession?.campaign_date ?? "No session date"}</strong>
           </article>
           <article className="gm-dashboard-card">
             <span className="muted">Shared updates</span>
@@ -98,12 +115,10 @@ export default async function PlayerCalendarPage() {
           <Link href="/player">Return to overview</Link>
         </div>
         <article className="entry-card">
-          <div className="gm-dashboard-grid" style={{ gridTemplateColumns: "repeat(7, minmax(0, 1fr))" }}>
-            {CAMPAIGN_WEEKDAYS.map((day) => (
-              <div key={day} className="muted" style={{ textAlign: "center", fontWeight: 700 }}>
-                {day}
-              </div>
-            ))}
+          <p className="muted">
+            Weekday names are established, but the weekday for 1 Harvestfall has not been anchored. Dates are shown in sequence without assigning weekday columns.
+          </p>
+          <div className="gm-dashboard-grid" style={{ gridTemplateColumns: "repeat(6, minmax(0, 1fr))" }}>
             {monthView.map((date) => (
               <div
                 key={`${date.month}-${date.day}`}
@@ -125,7 +140,26 @@ export default async function PlayerCalendarPage() {
 
       <section className="entry-list" aria-labelledby="player-calendar-events-heading">
         <div className="section-heading">
-          <h3 id="player-calendar-events-heading">Shared session dates</h3>
+          <h3 id="player-calendar-events-heading">Shared campaign events</h3>
+        </div>
+        {events.length ? events.map((event) => (
+          <article className="entry-card" key={event.id}>
+            <p className="eyebrow">{event.category.replaceAll("_", " ")} · {event.certainty}</p>
+            <h4>{event.title}</h4>
+            <p className="muted">
+              <strong>{event.date_is_approximate ? "Approximately " : ""}{event.campaign_date}</strong>
+              {event.end_date ? ` – ${event.end_date}` : ""}
+            </p>
+            {event.description ? <p className="entry-content">{event.description}</p> : null}
+          </article>
+        )) : (
+          <p className="muted">No player-visible campaign events have been shared yet.</p>
+        )}
+      </section>
+
+      <section className="entry-list" aria-labelledby="player-calendar-sessions-heading">
+        <div className="section-heading">
+          <h3 id="player-calendar-sessions-heading">Shared session dates</h3>
         </div>
         {recentSessions?.length ? (
           recentSessions.map((session) => (

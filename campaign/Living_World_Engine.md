@@ -247,7 +247,7 @@ These are independent issues, not a single conspiracy or mandatory plot. Their c
 1. Establish actor records for the Crown, six Great Houses, Tallowmere's governing house, relevant minor houses, guilds, and local institutions.
 2. Convert the seven Tallowmere pressures into structured issue records with known actors, unknowns, and non-scripted paths.
 3. Establish a simple holdings and vassalage register without inventing borders.
-4. Establish project and event ledgers.
+4. Establish project and event ledgers. **Completed:** local and continental project registers, event ledger, and world-turn ledger are now initialized.
 5. Run the first world turn only when the GM advances in-world time.
 6. After several sessions, expand to neighboring territories and Great House-level projects.
 7. Keep the engine manually reviewed until app support exists. The repository is authoritative; the app may later provide structured storage and interface.
@@ -265,7 +265,8 @@ The first local simulation layer is documented in these linked records:
 - [Tallowmere Political Actor Dossiers](world_engine/Tallowmere_Political_Actor_Dossiers.md) — established goals, authority, resources, relationships, and constraints for the principal local houses and institutions.
 - [Regional Holdings and Jurisdictions](world_engine/Regional_Holdings_and_Jurisdictions.md) — confirmed holdings, charters, vassalage, local rights, and unresolved boundaries.
 - [Initial Issue Register](world_engine/Initial_Issue_Register.md) — seven active/watch pressures and regional friction points.
-- [Initial Project Register](world_engine/Initial_Project_Register.md) — ongoing efforts and their current evidentiary status.
+- [Initial Project Register](world_engine/Initial_Project_Register.md) — ongoing Tallowmere efforts and their current evidentiary status.
+- [Continental Project Register](world_engine/Continental_Project_Register.md) — wider political, administrative, and commercial efforts.
 
 The regional baseline does not establish an active territorial war or a specific border dispute between named houses. Exact borders remain uncalibrated. Do not run a world turn until in-world time advances or the GM explicitly requests a simulation snapshot.
 

@@ -122,7 +122,7 @@ The central inland sea supports substantial shipping, naval commerce, and import
 
 **Minor houses are an established category:** wealthy lords and ladies with relatively small territories and local holdings. They possess wealth and local standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold Imperial Council seats. Their total number and full distribution remain open. The first named network of banner houses, Crown vassals, a dwarven clan, and independent southern powers is recorded in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`.
 
-The previously suggested specific regional placements for the six Great Houses remain proposals until the revised map is reviewed.
+The broad regional placements and principal seats of the six Great Houses are established. Exact border lines and political polygon geometry remain provisional pending calibrated map review.
 
 
 ## Approved territorial framework — 2026-11-04
@@ -254,7 +254,7 @@ Player character sheets and detailed backstories are pending. Do not assign star
 - Created the Longmead boundary dispute between Houses Harrowden and Wrenford as a low-intensity customary grazing/woodland rights dispute. No violence, seizure, or exact border geometry is established.
 - Added the new actors to the Living World actor index and the Longmead dispute to the initial issue register.
 - Updated the current world-state and names index. No exact coordinates, troop counts, treasury figures, or political polygons were invented.
-- The campaign remains at 1 Harvestfall, 243 AC. The first world turn has not been run.
+- At the time of this historical entry, WTR-001 had not yet been run. The completed opening snapshot is recorded in the later WTR-001 section below.
 
 
 ## Continental Minor Houses and Regional Powers — 2026-11-06

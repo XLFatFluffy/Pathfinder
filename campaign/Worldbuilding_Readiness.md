@@ -22,8 +22,8 @@ This checklist defines "complete enough to begin" rather than pretending an enti
 | Ratfolk community | INITIAL NETWORK READY | Four informal networks and seven named contacts established. Underways neighborhoods, population, and exact passages remain open. |
 | Calendar and timeline | READY | Campaign calendar established; campaign begins 1 Harvestfall, 243 AC. Historical dates remain approximate where appropriate. |
 | Event and world-turn records | READY | Event ledger and world-turn ledger initialized; no prior turn or event has been invented. |
-| Player-facing knowledge | READY FOR REVIEW | Starting handout distinguishes public facts from private history and minor/local knowledge. |
-| Session One structure | READY FOR FINAL MECHANICAL CHECK | Opening troll/wagon concept, Selwick reward, city reference, NPCs, and sandbox directions documented. |
+| Player-facing knowledge | READY | Starting handout distinguishes public facts from private history and minor/local knowledge; GM-only information remains separated. |
+| Session One structure | READY FOR FINAL MECHANICAL CHECK | Opening troll/wagon concept, Selwick reward, city reference, NPC information channels, and sandbox directions documented. |
 
 ## 2. First world-turn prerequisites
 
@@ -54,7 +54,15 @@ These can be developed after the campaign begins:
 
 These are not forgotten; they are deliberately staged so the campaign does not become an endless encyclopedia project.
 
-## 4. Session One mechanical blockers
+## 4. Additional worldbuilding completed
+
+The opening support layer now includes a table-side sandbox reference, a plausible NPC information network, and a proposed ordinary wildlife catalogue. These records deliberately avoid adding new mandatory plots, secret organizations, unsupported monster populations, or map geometry.
+
+- `locations/starting_city/Session_One_Sandbox_Reference.md`
+- `world_engine/Tallowmere_NPC_Information_Network.md`
+- `creatures/Regional_Wildlife_Catalogue.md`
+
+## 5. Session One mechanical blockers
 
 These are separate from worldbuilding and must be checked before the troll encounter is finalized:
 - Completed character sheets for both level-five PCs.
@@ -65,7 +73,7 @@ These are separate from worldbuilding and must be checked before the troll encou
 
 Do not invent the PCs' equipment, consumables, wealth, or exact capabilities before the sheets are available.
 
-## 5. Definition of launch-ready
+## 6. Definition of launch-ready
 
 The campaign is launch-ready when:
 1. The opening date and player-facing setting are established.

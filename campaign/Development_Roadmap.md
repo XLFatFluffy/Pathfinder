@@ -170,3 +170,14 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Added reusable world-event and world-turn report templates.
 - Added the initial project register and linked actor, holdings, issue, project, and event documentation.
 - First world turn remains pending actual in-world time advancement. The current baseline is 1 Harvestfall, 243 AC.
+
+
+## Living World Engine — pre-opening preparation (Nov 6, 2026)
+
+- Added the first continental minor-house and regional-power network, including an active low-intensity boundary dispute between two Edarth banner houses.
+- Established a working feudal law and landed-obligations framework that preserves local charters, gender-inclusive heir recognition, and distinctions between title, control, jurisdiction, and customary rights.
+- Added six continental projects to complement the six Tallowmere projects, giving the Crown, Great Houses, and independent southern actors ongoing administrative and commercial efforts.
+- Initialized the event and world-turn ledgers. Neither a world turn nor a campaign event has been simulated by these ledgers.
+- Established four decentralized ratfolk networks and seven named contacts in Tallowmere.
+- **Next before first world turn:** finish any necessary starting-state details, verify the actor/issue/project indexes, and prepare a baseline opening snapshot for 1 Harvestfall, 243 AC. Do not advance the calendar for this first snapshot.
+- **Session-critical external dependencies:** completed character sheets, final companion approval/build, and route choice are still needed to finalize the troll encounter. These do not block the wider campaign's worldbuilding.

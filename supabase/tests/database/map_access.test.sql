@@ -3,7 +3,7 @@ begin;
 create extension if not exists pgtap with schema extensions;
 set local search_path = public, extensions;
 
-select plan(11);
+select plan(14);
 
 insert into auth.users (id, aud, role, email)
 values
@@ -121,6 +121,28 @@ select lives_ok(
   $$,
   'GM can replace an existing map artwork object in place'
 );
+select lives_ok(
+  $$
+    insert into storage.objects (bucket_id, name, owner, metadata)
+    values (
+      'campaign-maps',
+      '00000000-0000-4000-8000-000000000001/40000000-0000-4000-8000-000000000001/artwork-50000000-0000-4000-8000-000000000001',
+      '10000000-0000-4000-8000-000000000001',
+      '{"mimetype":"image/webp","size":64}'::jsonb
+    )
+  $$,
+  'GM can upload staged map artwork before changing the map record'
+);
+select lives_ok(
+  $$
+    update public.campaign_maps
+    set artwork_path = '00000000-0000-4000-8000-000000000001/40000000-0000-4000-8000-000000000001/artwork-50000000-0000-4000-8000-000000000001',
+        mime_type = 'image/webp',
+        file_size = 64
+    where id = '40000000-0000-4000-8000-000000000001'
+  $$,
+  'GM can switch the map to staged artwork after upload'
+);
 select throws_ok(
   $$
     update public.campaign_maps
@@ -158,6 +180,14 @@ select is(
    where name = '00000000-0000-4000-8000-000000000001/40000000-0000-4000-8000-000000000002/artwork'),
   0,
   'player cannot read the stored artwork of a hidden map'
+);
+select is(
+  (select count(*)::integer
+   from storage.objects
+   where bucket_id = 'campaign-maps'
+     and name = '00000000-0000-4000-8000-000000000001/40000000-0000-4000-8000-000000000001/artwork-50000000-0000-4000-8000-000000000001'),
+  1,
+  'player can read staged artwork only after the map points to it'
 );
 select throws_ok(
   $$

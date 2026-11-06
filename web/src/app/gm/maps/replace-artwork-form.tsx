@@ -61,7 +61,7 @@ export default function ReplaceArtworkForm({
     startTransition(async () => {
       try {
         setUploadProgress(0);
-        let uploadResult: MapFormState;
+        let uploadResult: Awaited<ReturnType<typeof uploadMapArtworkToStorage>>;
         try {
           uploadResult = await uploadMapArtworkToStorage(
             campaignId,
@@ -86,6 +86,13 @@ export default function ReplaceArtworkForm({
           setState({ error: uploadResult.error });
           return;
         }
+        if (!uploadResult.artworkPath) {
+          setState({
+            error: "The artwork upload completed without a storage path. Refresh before retrying.",
+          });
+          router.refresh();
+          return;
+        }
 
         let result: MapFormState;
         try {
@@ -93,6 +100,7 @@ export default function ReplaceArtworkForm({
             mapId,
             artwork.type,
             artwork.size,
+            uploadResult.artworkPath,
           );
         } catch (error) {
           setState({
@@ -141,6 +149,11 @@ export default function ReplaceArtworkForm({
       {state.message ? (
         <p className="notice" role="status">
           {state.message}
+        </p>
+      ) : null}
+      {state.warning ? (
+        <p className="notice" role="status">
+          {state.warning}
         </p>
       ) : null}
       {uploadProgress !== null ? (

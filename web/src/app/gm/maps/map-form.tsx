@@ -195,6 +195,11 @@ export default function MapForm({
             {state.message}
           </p>
         ) : null}
+        {state.warning ? (
+          <p className="notice" role="status">
+            {state.warning}
+          </p>
+        ) : null}
         {uploadProgress !== null ? (
           <div aria-live="polite">
             <label htmlFor="map-upload-progress">Uploading artwork</label>

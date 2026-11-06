@@ -69,17 +69,29 @@ export async function uploadMapArtwork(
   if (uploadResult.error) {
     return { error: uploadResult.error };
   }
+  if (!uploadResult.artworkPath) {
+    return { error: "The map artwork upload completed without a storage path." };
+  }
 
-  return recordCampaignMapArtwork(mapId, file.type, file.size);
+  return recordCampaignMapArtwork(
+    mapId,
+    file.type,
+    file.size,
+    uploadResult.artworkPath,
+  );
 }
+
+type MapArtworkUploadResult = MapFormState & {
+  artworkPath?: string;
+};
 
 export async function uploadMapArtworkToStorage(
   campaignId: string,
   mapId: string,
   file: File,
   onProgress?: (percentage: number) => void,
-  upsert = false,
-): Promise<MapFormState> {
+  stageReplacement = false,
+): Promise<MapArtworkUploadResult> {
   const supabase = createSupabaseBrowserClient();
   const { url, anonKey } = requireSupabaseEnvironment();
   const { data, error: sessionError } = await supabase.auth.getSession();
@@ -90,7 +102,9 @@ export async function uploadMapArtworkToStorage(
     return { error: "Sign in again before uploading map artwork." };
   }
 
-  const artworkPath = `${campaignId}/${mapId}/artwork`;
+  const artworkPath = stageReplacement
+    ? `${campaignId}/${mapId}/artwork-${crypto.randomUUID()}`
+    : `${campaignId}/${mapId}/artwork`;
   const uploadError = await new Promise<Error | null>((resolve) => {
     new Upload(file, {
       endpoint: `${url.replace(/\/$/, "")}/storage/v1/upload/resumable`,
@@ -101,7 +115,6 @@ export async function uploadMapArtworkToStorage(
       headers: {
         authorization: `Bearer ${data.session.access_token}`,
         apikey: anonKey,
-        ...(upsert ? { "x-upsert": "true" } : {}),
       },
       metadata: {
         bucketName: "campaign-maps",
@@ -122,5 +135,5 @@ export async function uploadMapArtworkToStorage(
 
   return uploadError
     ? { error: `Unable to upload map artwork: ${uploadError.message}` }
-    : {};
+    : { artworkPath };
 }

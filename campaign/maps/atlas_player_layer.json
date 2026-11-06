@@ -1,7 +1,7 @@
 {
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_ONLY",
-  "note": "Player-facing continental layer containing only established major cities, Great House principal seats/strongholds, major ports, and prominent fortresses. Smaller settlements are intentionally reserved for regional maps. Coordinates are approximate unless explicitly marked otherwise and must be visually reviewed against campaign/maps/continent_atlas.png before being treated as surveyed. Political overlays remain absent until exact non-overlapping boundaries are canonically approved.",
+  "note": "Player-facing continental layer containing only established major cities, Great House principal seats/strongholds, major ports, and prominent fortresses. Smaller settlements are intentionally reserved for regional maps. Coordinates for Tallowmere and Dragonstone reflect the GM's latest saved atlas placements; other coordinates remain approximate unless explicitly marked otherwise and must be visually reviewed against campaign/maps/continent_atlas.png before being treated as surveyed. Political overlays remain absent until exact non-overlapping boundaries are canonically approved.",
   "layers": [
     {
       "map": "continent_atlas",
@@ -14,11 +14,11 @@
           "source_id": "continent_atlas/tallowmere",
           "name": "Tallowmere",
           "marker_type": "city",
-          "x": 0.44,
-          "y": 0.43,
+          "x": 0.470993,
+          "y": 0.293538,
           "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
           "player_visible": true,
-          "status": "APPROVED_APPROXIMATE_ANCHOR",
+          "status": "GM_CALIBRATED_ANCHOR_PENDING_VISUAL_REVIEW",
           "location_type": "city",
           "location_source_id": "tallowmere"
         },
@@ -26,11 +26,11 @@
           "source_id": "continent_atlas/dragonstone",
           "name": "Dragonstone",
           "marker_type": "fortress",
-          "x": 0.59,
-          "y": 0.4,
+          "x": 0.584224,
+          "y": 0.381772,
           "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
           "player_visible": true,
-          "status": "ESTABLISHED_APPROXIMATE",
+          "status": "GM_CALIBRATED_ANCHOR_PENDING_VISUAL_REVIEW",
           "location_type": "fortress"
         },
         {
@@ -203,7 +203,7 @@
       "breadcrumb_behavior": "Preserve navigation back from city to region to continent.",
       "child_map_match": "Use location_id/location_source_id association rather than name matching when linking a marker to a child map."
     },
-    "coordinate_policy": "Do not treat normalized coordinates as surveyed geography. When a coordinate is changed, review it against the authoritative artwork and preserve the marker's stable source_id. Regional and city layers must not be added here merely to fill space.",
-    "tallowmere_region": "The Tallowmere regional layer is prepared as a structured content specification but does not yet contain importable marker coordinates because the approved regional artwork is not stored in the repository. Do not fabricate coordinates."
+    "coordinate_policy": "Do not treat normalized coordinates as surveyed geography. The Tallowmere and Dragonstone anchors reflect the GM's latest saved positions in the live atlas and have been copied to this source file; other coordinates remain approximate. Visually review all positions against authoritative artwork before treating them as surveyed. Regional and city layers must not be added here merely to fill space.",
+    "tallowmere_region": "The Tallowmere regional layer is prepared as a structured content specification, and approved regional artwork is stored at campaign/maps/tallowmere_regional.png. Importable marker coordinates remain pending visual calibration against that artwork. Do not fabricate coordinates."
   }
 }

@@ -5,6 +5,7 @@ This folder contains the structured GM records used to track the world beyond th
 ## Start here
 
 - [Living World Engine](../Living_World_Engine.md) — rules for actor agency, time advancement, consequences, political change, and GM review.
+- [Worldbuilding Readiness](../Worldbuilding_Readiness.md) — launch criteria and remaining worldbuilding blockers.
 - [Actor Register](Actor_Register.md) — index and standards for tracked actors.
 - [Great House Actor Dossiers](Great_House_Actor_Dossiers.md) — established agendas, relationships, leverage, and constraints for the six Great Houses.
 - [Continental Strategic Pressure Register](Continental_Strategic_Pressure_Register.md) — established continent-wide political and economic tensions, explicitly distinguished from active crises.

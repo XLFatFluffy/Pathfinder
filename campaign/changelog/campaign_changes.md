@@ -1,3 +1,12 @@
+## 2026-11-06 - Tallowmere regional artwork integrated
+
+- Added the newly uploaded regional artwork as campaign/maps/tallowmere_regional.png using the original image blob without altering the artwork.
+- Removed the root-level upload copy Tallowmere_ City of the Vale Map.png after verifying the replacement path and exact blob.
+- Updated campaign/maps/tallowmere_regional_content_spec.json to record the artwork as present while keeping all coordinates pending visual calibration.
+- Updated campaign/maps/atlas_layer_registry.json to register the regional artwork path and retain the non-live calibration status.
+- Updated map documentation to distinguish artwork integration from coordinate calibration.
+- No regional markers, routes, polygons, political boundaries, or other geometry were invented or promoted into the live player layer.
+
 ## 2026-11-06 - Tallowmere city calibration plan
 
 - Added `campaign/maps/tallowmere_city_layer_plan.md` as the working cartographic plan for the city map.

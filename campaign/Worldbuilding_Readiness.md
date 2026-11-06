@@ -2,7 +2,7 @@
 
 **Target campaign opening:** 1 Harvestfall, 243 AC  
 **Target first session:** 8 November 2026 (real-world scheduling note)  
-**Status:** Core world-engine foundation ready for an opening baseline turn. Session encounter mechanics remain pending player character sheets and final companion approval.
+**Status:** Core world-engine foundation and WTR-001 opening baseline are complete. Session encounter mechanics remain pending player character sheets and final companion approval.
 
 This checklist defines "complete enough to begin" rather than pretending an entire continent can be exhaustively written before play. The world remains expandable. The opening requires a coherent baseline, active actors, understandable pressures, and a way to record consequences.
 
@@ -37,7 +37,7 @@ Before recording Turn 001:
 - Record that the Longmead dispute exists but remains low-intensity.
 - Record what is happening at the opening date, what is visible to the PCs, and what remains GM-only.
 
-**The repository now contains the required foundation for this baseline turn.**
+**WTR-001 is complete.** The report is stored at `world_engine/reports/World_Turn_001_Opening_Baseline.md`.
 
 ## 3. Items that do not block the first world turn
 

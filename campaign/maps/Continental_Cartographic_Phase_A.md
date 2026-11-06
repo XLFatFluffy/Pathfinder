@@ -1,6 +1,6 @@
 # Phase A — Continental Cartographic Completion
 
-**Status:** PHASE A CARTOGRAPHIC CANON PACKAGE ESTABLISHED; GEOMETRY CALIBRATION REMAINS ARTWORK-DEPENDENT  
+**Status:** PHASE A OVERLAY SET CREATED; GEOMETRY CALIBRATION REMAINS ARTWORK-DEPENDENT  
 **Date:** 2026-11-06  
 **Authority:** GM-approved canon in the campaign repository
 
@@ -160,3 +160,10 @@ Until those gates are met, the registry remains the planning/canon source and th
 ## Phase A decision
 
 The repository now treats the continental map as a **calibration-and-tracing task**, not an open-ended geography invention task. The geographic identity, major places, route network, Great House framework, and layer separation are established. Remaining work is to trace and approve geometry without inventing unsupported borders or coordinates.
+
+
+## Overlay set created
+
+Phase A now has a dedicated GM-only overlay registry at `campaign/maps/continental_overlay_registry.json`. It classifies every continental overlay into political, geographic, maritime, and route categories and assigns stable source IDs. The registry deliberately leaves geometry null until the authoritative artwork can be traced. This prevents the atlas from turning broad canon into invented borders or routes.
+
+The overlay registry is not a player synchronization layer. Once geometry is traced and reviewed, approved records can be promoted into `atlas_player_layer.json` using the existing app-supported `region` and `route` overlay types.

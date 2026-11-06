@@ -330,3 +330,10 @@
 - Confirmed the vampire PC's identity remains secret, the ratfolk PC's survival remains unknown to House Relland, and the Dragonstone underground route remains GM-only.
 - No new world-changing event, assassination, war, famine, coup, blockade, or escalation was introduced. No in-world time elapsed.
 - Updated the world-turn and event ledgers and current world state. Campaign opens on 1 Harvestfall, 243 AC.
+## 2026-11-06 — Opening sandbox and information audit
+
+- Added `campaign/locations/starting_city/Session_One_Sandbox_Reference.md` as a table-side reference for the post-wagon sandbox, immediate consequences, destinations, actor motivations, and no-railroading rules.
+- Added `campaign/world_engine/Tallowmere_NPC_Information_Network.md` to define plausible information channels among established civic, commercial, ratfolk, and informal actors without creating an omniscient network or secret master organization.
+- Added `campaign/creatures/Regional_Wildlife_Catalogue.md` as a proposed ordinary-fauna catalogue, explicitly separate from established monster populations.
+- Corrected duplicate supporting-NPC IDs in `campaign/world_engine/Regional_Factions_and_Minor_Houses.md`.
+- Updated the actor index and worldbuilding-readiness record. WTR-001 remains the approved zero-time opening baseline on 1 Harvestfall, 243 AC; no additional world turn was run.

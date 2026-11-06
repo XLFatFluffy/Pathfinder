@@ -354,15 +354,6 @@ h2 {
   gap: 0.45rem;
 }
 
-.workspace-nav {
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-}
-
 .error {
   background: #472420;
   border: 1px solid #a95042;

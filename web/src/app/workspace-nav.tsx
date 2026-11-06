@@ -38,16 +38,21 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
 
   return (
     <nav aria-label="Campaign navigation" className="workspace-nav">
-      {navItems.map(({ href, label }) => (
-        <Link
-          key={href}
-          href={href}
-          className={`nav-link${pathname === href ? " is-active" : ""}`}
-          aria-current={pathname === href ? "page" : undefined}
-        >
-          {label}
-        </Link>
-      ))}
+      {navItems.map(({ href, label }) => {
+        const isActive =
+          pathname === href ||
+          (href !== dashboardHref && pathname.startsWith(`${href}/`));
+        return (
+          <Link
+            key={href}
+            href={href}
+            className={`nav-link${isActive ? " is-active" : ""}`}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {label}
+          </Link>
+        );
+      })}
     </nav>
   );
 }

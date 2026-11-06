@@ -151,6 +151,8 @@ export default function MapAtlas({
   const [overlayPending, setOverlayPending] = useState(false);
   const viewportRef = useRef<HTMLDivElement>(null);
   const loadSequence = useRef(0);
+  const markerLoadSequence = useRef(0);
+  const overlayLoadSequence = useRef(0);
   const dragged = useRef(false);
   const drag = useRef<{
     pointerId: number;
@@ -176,6 +178,7 @@ export default function MapAtlas({
   const minimumOverlayPoints = overlayType === "region" ? 3 : 2;
 
   const refreshOverlays = useCallback(async () => {
+    const sequence = ++overlayLoadSequence.current;
     if (!selectedId) {
       setOverlays([]);
       setOverlaysStatus("");
@@ -186,6 +189,9 @@ export default function MapAtlas({
     setOverlaysStatus("Loading overlays…");
     try {
       const result = await getCampaignMapOverlays(selectedId);
+      if (sequence !== overlayLoadSequence.current) {
+        return;
+      }
       if (result.error || !result.overlays) {
         setOverlays([]);
         setOverlaysStatus(result.error ?? "Unable to load map overlays.");
@@ -194,6 +200,9 @@ export default function MapAtlas({
       setOverlays(result.overlays);
       setOverlaysStatus("");
     } catch (error) {
+      if (sequence !== overlayLoadSequence.current) {
+        return;
+      }
       setOverlays([]);
       setOverlaysStatus(
         error instanceof Error
@@ -234,6 +243,7 @@ export default function MapAtlas({
   }
 
   const refreshMarkers = useCallback(async () => {
+    const sequence = ++markerLoadSequence.current;
     if (!selectedId) {
       setMarkers([]);
       setMarkersStatus("");
@@ -244,6 +254,9 @@ export default function MapAtlas({
     setMarkersStatus("Loading markers…");
     try {
       const result = await getCampaignMapMarkers(selectedId);
+      if (sequence !== markerLoadSequence.current) {
+        return;
+      }
       if (result.error || !result.markers) {
         setMarkers([]);
         setMarkersStatus(result.error ?? "Unable to load map markers.");
@@ -252,6 +265,9 @@ export default function MapAtlas({
       setMarkers(result.markers);
       setMarkersStatus("");
     } catch (error) {
+      if (sequence !== markerLoadSequence.current) {
+        return;
+      }
       setMarkers([]);
       setMarkersStatus(
         error instanceof Error
@@ -743,6 +759,13 @@ export default function MapAtlas({
 
   async function rollbackAtlasSynchronization() {
     if (!atlasRollbackRunId || atlasSyncPending) {
+      return;
+    }
+    if (
+      !window.confirm(
+        "Roll back the last atlas synchronization? This restores the saved pre-sync data and may overwrite later edits to synchronized records.",
+      )
+    ) {
       return;
     }
     setAtlasSyncPending(true);

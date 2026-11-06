@@ -7,16 +7,27 @@ import {
   type CampaignImportPreview,
   type CampaignImportResult,
 } from "./actions";
+import { campaignImportMaxBytes } from "@/lib/campaign-import";
 
 export default function CampaignImportForm() {
   const [raw, setRaw] = useState("");
   const [preview, setPreview] = useState<CampaignImportPreview | null>(null);
-  const [result, setResult] = useState<CampaignImportResult | null>(null);
+  const [result, setResult] = useState<
+    (CampaignImportResult & { statusUnknown?: boolean }) | null
+  >(null);
   const [confirmed, setConfirmed] = useState(false);
   const [inputError, setInputError] = useState("");
   const [isPending, startTransition] = useTransition();
 
   function updateRaw(value: string) {
+    if (new TextEncoder().encode(value).byteLength > campaignImportMaxBytes) {
+      setRaw("");
+      setPreview(null);
+      setResult(null);
+      setConfirmed(false);
+      setInputError("Campaign import JSON cannot exceed 500 KB.");
+      return;
+    }
     setRaw(value);
     setPreview(null);
     setResult(null);
@@ -28,9 +39,25 @@ export default function CampaignImportForm() {
     setResult(null);
     setInputError("");
     startTransition(async () => {
-      const nextPreview = await previewCampaignDataImport(raw);
-      setPreview(nextPreview);
-      setConfirmed(false);
+      try {
+        const nextPreview = await previewCampaignDataImport(raw);
+        setPreview(nextPreview);
+        setConfirmed(false);
+      } catch (error) {
+        setPreview({
+          issues: [
+            {
+              path: "$",
+              message:
+                error instanceof Error
+                  ? `Unable to validate the import: ${error.message}`
+                  : "Unable to validate the import.",
+            },
+          ],
+          records: [],
+        });
+        setConfirmed(false);
+      }
     });
   }
 
@@ -40,7 +67,20 @@ export default function CampaignImportForm() {
     }
     setResult(null);
     startTransition(async () => {
-      setResult(await applyCampaignDataImport(raw));
+      try {
+        setResult(await applyCampaignDataImport(raw));
+      } catch (error) {
+        setResult({
+          title: preview.title,
+          imported: [],
+          skipped: [],
+          statusUnknown: true,
+          error:
+            error instanceof Error
+            ? `The import request failed: ${error.message}. Some records may already have been saved; validate the same file and review name conflicts in the campaign lists before retrying.`
+              : "The import request failed. Some records may already have been saved; validate the same file and review name conflicts in the campaign lists before retrying.",
+        });
+      }
     });
   }
 
@@ -48,8 +88,9 @@ export default function CampaignImportForm() {
     if (!file) {
       return;
     }
-    if (file.size > 500_000) {
-      setInputError("Choose a JSON file smaller than 500 KB.");
+    updateRaw("");
+    if (file.size > campaignImportMaxBytes) {
+      setInputError("Choose a JSON file no larger than 500 KB.");
       return;
     }
     try {
@@ -175,9 +216,17 @@ export default function CampaignImportForm() {
           <h3 id="import-result-heading">
             {result.error ? "Import stopped" : "Import complete"}
           </h3>
-          <p className="muted">
-            {result.imported.length} imported · {result.skipped.length} already imported
-          </p>
+          {result.statusUnknown ? (
+            <p className="muted">
+              The final import status could not be confirmed. Validate the same
+              file to see mapped records, and review any name conflicts in the
+              campaign lists before retrying.
+            </p>
+          ) : (
+            <p className="muted">
+              {result.imported.length} imported · {result.skipped.length} already imported
+            </p>
+          )}
           {result.error ? (
             <pre className="error" role="alert">
               {result.error}

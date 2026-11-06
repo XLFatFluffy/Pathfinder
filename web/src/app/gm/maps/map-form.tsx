@@ -36,28 +36,63 @@ export default function MapForm({
       return;
     }
 
-    const validationError = await validateMapArtwork(artwork);
-    if (validationError) {
-      setState({ error: validationError });
+    try {
+      const validationError = await validateMapArtwork(artwork);
+      if (validationError) {
+        setState({ error: validationError });
+        return;
+      }
+    } catch (error) {
+      setState({
+        error:
+          error instanceof Error
+            ? `Unable to validate map artwork: ${error.message}`
+            : "Unable to validate map artwork.",
+      });
       return;
     }
 
     formData.delete("artwork");
     startTransition(async () => {
-      setUploadProgress(0);
-      const created = await createCampaignMap(formData);
-      if (created.error) {
-        setUploadProgress(null);
-        setState({ error: created.error });
+      let mapId: string;
+      try {
+        const created = await createCampaignMap(formData);
+        if (created.error) {
+          setState({ error: created.error });
+          return;
+        }
+        mapId = created.mapId;
+      } catch (error) {
+        setState({
+          error:
+            error instanceof Error
+              ? `The map creation outcome could not be confirmed: ${error.message} Refresh the map library before retrying.`
+              : "The map creation outcome could not be confirmed. Refresh the map library before retrying.",
+        });
+        router.refresh();
         return;
       }
 
-      const result = await uploadMapArtwork(
-        campaignId,
-        created.mapId,
-        artwork,
-        setUploadProgress,
-      );
+      setUploadProgress(0);
+      let result: Awaited<ReturnType<typeof uploadMapArtwork>>;
+      try {
+        result = await uploadMapArtwork(
+          campaignId,
+          mapId,
+          artwork,
+          setUploadProgress,
+        );
+      } catch (error) {
+        setUploadProgress(null);
+        setState({
+          error:
+            error instanceof Error
+              ? `The map record was saved, but artwork upload or its metadata save could not be confirmed: ${error.message} Refresh the map library before retrying.`
+              : "The map record was saved, but artwork upload or its metadata save could not be confirmed. Refresh the map library before retrying.",
+        });
+        router.refresh();
+        return;
+      }
       setUploadProgress(null);
       if (result.error) {
         setState({

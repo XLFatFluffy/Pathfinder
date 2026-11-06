@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getAllSupabaseRows } from "@/lib/supabase-pagination";
 import {
   campaignImportTypes,
   parseCampaignImport,
@@ -93,17 +94,21 @@ async function getSourceMappings(
   campaignId: string,
 ): Promise<{ mappings?: SourceMapping[]; error?: string }> {
   const supabase = await createSupabaseServerClient();
-  const { data, error } = await supabase
-    .from("campaign_import_sources")
-    .select("record_type, source_key, entity_id")
-    .eq("campaign_id", campaignId)
-    .limit(5000);
-  if (error) {
+  const result = await getAllSupabaseRows((from, to) =>
+    supabase
+      .from("campaign_import_sources")
+      .select("record_type, source_key, entity_id")
+      .eq("campaign_id", campaignId)
+      .order("record_type")
+      .order("source_key")
+      .range(from, to),
+  );
+  if (result.error) {
     return {
-      error: `Unable to check previous campaign imports: ${error.message}`,
+      error: `Unable to check previous campaign imports: ${result.error}`,
     };
   }
-  return { mappings: (data ?? []) as SourceMapping[] };
+  return { mappings: (result.data ?? []) as SourceMapping[] };
 }
 
 async function getExistingNames(
@@ -119,13 +124,62 @@ async function getExistingNames(
     sessions,
     journalEntries,
   ] = await Promise.all([
-    supabase.from("campaign_locations").select("name").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_npcs").select("name").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_houses").select("name").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_factions").select("name").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_quests").select("name").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_sessions").select("session_number").eq("campaign_id", campaignId).limit(5000),
-    supabase.from("campaign_journal_entries").select("title").eq("campaign_id", campaignId).limit(5000),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_locations")
+        .select("id, name")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_npcs")
+        .select("id, name")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_houses")
+        .select("id, name")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_factions")
+        .select("id, name")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_quests")
+        .select("id, name")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_sessions")
+        .select("id, session_number")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
+    getAllSupabaseRows((from, to) =>
+      supabase
+        .from("campaign_journal_entries")
+        .select("id, title")
+        .eq("campaign_id", campaignId)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
   const errors = [
     ["locations", locations.error],
@@ -139,7 +193,7 @@ async function getExistingNames(
   const failed = errors.find(([, error]) => error);
   if (failed?.[1]) {
     return {
-      error: `Unable to check existing ${failed[0]} records: ${failed[1].message}`,
+      error: `Unable to check existing ${failed[0]} records: ${failed[1]}`,
     };
   }
   const normalize = (values: Array<string | number>) =>
@@ -542,7 +596,7 @@ export async function applyCampaignDataImport(
     title: parsed.bundle?.title,
     imported,
     skipped,
-    error: `${path}: ${message}\nThe import stopped here. Successfully imported records are recorded by source key; re-importing the same file will not overwrite them.`,
+    error: `${path}: ${message}\nThe import stopped here. Records reported as imported are recorded by source key. If this failure happened after a campaign record was saved but before its source key was recorded, that record may appear as a name conflict on retry; review the campaign list before retrying. Re-importing never overwrites existing records.`,
   });
   const saveRecord = async (
     type: CampaignImportType,

@@ -30,32 +30,63 @@ export default function ReplaceArtworkForm({
       return;
     }
 
-    const validationError = await validateMapArtwork(artwork);
-    if (validationError) {
-      setState({ error: validationError });
+    try {
+      const validationError = await validateMapArtwork(artwork);
+      if (validationError) {
+        setState({ error: validationError });
+        return;
+      }
+    } catch (error) {
+      setState({
+        error:
+          error instanceof Error
+            ? `Unable to validate map artwork: ${error.message}`
+            : "Unable to validate map artwork.",
+      });
       return;
     }
 
     startTransition(async () => {
       setUploadProgress(0);
-      const uploadResult = await uploadMapArtworkToStorage(
-        campaignId,
-        mapId,
-        artwork,
-        setUploadProgress,
-        true,
-      );
+      let uploadResult: MapFormState;
+      try {
+        uploadResult = await uploadMapArtworkToStorage(
+          campaignId,
+          mapId,
+          artwork,
+          setUploadProgress,
+          true,
+        );
+      } catch (error) {
+        setUploadProgress(null);
+        setState({
+          error:
+            error instanceof Error
+              ? `Unable to confirm artwork upload: ${error.message}. Refresh the map library before retrying.`
+              : "Unable to confirm artwork upload. Refresh the map library before retrying.",
+        });
+        router.refresh();
+        return;
+      }
       setUploadProgress(null);
       if (uploadResult.error) {
         setState({ error: uploadResult.error });
         return;
       }
 
-      const result = await replaceCampaignMapArtwork(
-        mapId,
-        artwork.type,
-        artwork.size,
-      );
+      let result: MapFormState;
+      try {
+        result = await replaceCampaignMapArtwork(mapId, artwork.type, artwork.size);
+      } catch (error) {
+        setState({
+          error:
+            error instanceof Error
+              ? `Artwork was uploaded, but its metadata update could not be confirmed: ${error.message}. Refresh the map library before retrying.`
+              : "Artwork was uploaded, but its metadata update could not be confirmed. Refresh the map library before retrying.",
+        });
+        router.refresh();
+        return;
+      }
       if (result.error) {
         setState({
           error: `Artwork uploaded, but its metadata could not be saved: ${result.error}`,

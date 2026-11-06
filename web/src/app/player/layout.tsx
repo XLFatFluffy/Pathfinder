@@ -52,8 +52,6 @@ export default async function PlayerLayout({
             <h1>Your Campaign</h1>
           </div>
           <div className="campaign-header-meta">
-            <span className="header-pill">17th Day of Autumn, 4726 AR</span>
-            <span className="header-pill">Current location: Tallowmere</span>
             <span className="header-pill">Role: Player</span>
           </div>
         </header>

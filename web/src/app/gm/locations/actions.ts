@@ -128,7 +128,7 @@ export async function deleteCampaignLocation(
 
   if (error) {
     return {
-      error: `Unable to delete the location. Remove its map, child-location, or NPC links first. ${error.message}`,
+      error: `Unable to delete the location while campaign records still link to it. Remove or update those links first. ${error.message}`,
     };
   }
   if (!data) {

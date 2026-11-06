@@ -177,13 +177,18 @@ export async function deleteCampaignMapOverlay(
   }
 
   const supabase = await createSupabaseServerClient();
-  const { error } = await supabase
+  const { data, error } = await supabase
     .from("campaign_map_overlays")
     .delete()
     .eq("campaign_id", member.campaign_id)
-    .eq("id", overlayId);
+    .eq("id", overlayId)
+    .select("id")
+    .maybeSingle();
   if (error) {
     return { error: `Unable to delete map overlay: ${error.message}` };
+  }
+  if (!data) {
+    return { error: "The map overlay was not found in this campaign." };
   }
   return {};
 }

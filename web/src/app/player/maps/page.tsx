@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCurrentCampaignMember } from "@/lib/campaign-member";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getCampaignMapArtwork } from "@/lib/campaign-map-artwork";
 
 export const dynamic = "force-dynamic";
 
@@ -35,20 +36,12 @@ export default async function PlayerMapsPage() {
   const locationsById = new Map(locations.map((location) => [location.id, location]));
   const mapsWithArtwork = await Promise.all(
     maps.map(async (map) => {
-      if (!map.artwork_path) {
-        return { ...map, artworkUrl: null };
-      }
-
-      const { data, error: artworkError } = await supabase.storage
-        .from("campaign-maps")
-        .createSignedUrl(map.artwork_path, 60);
-      if (artworkError) {
-        throw new Error(
-          `Unable to create a temporary view link for "${map.name}": ${artworkError.message}`,
-        );
-      }
-
-      return { ...map, artworkUrl: data.signedUrl };
+      const artwork = await getCampaignMapArtwork(supabase, map.artwork_path);
+      return {
+        ...map,
+        artworkUrl: artwork.url,
+        artworkError: artwork.error,
+      };
     }),
   );
 
@@ -89,6 +82,10 @@ export default async function PlayerMapsPage() {
                     className="map-preview"
                     src={map.artworkUrl}
                   />
+                ) : map.artworkError ? (
+                  <p className="error" role="status">
+                    Map artwork is unavailable: {map.artworkError}
+                  </p>
                 ) : (
                   <p className="muted">Map artwork is not available yet.</p>
                 )}

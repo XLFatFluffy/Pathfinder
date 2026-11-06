@@ -141,15 +141,19 @@ export default function CharacterPdfEditor({
 
       const formData = Object.fromEntries(annotationStorage);
       if (!isCharacterPdfFormData(formData)) {
-        setStatus({
-          error: "The character sheet has invalid or oversized form data.",
-        });
+        if (!cancelled) {
+          setStatus({
+            error: "The character sheet has invalid or oversized form data.",
+          });
+        }
         return;
       }
 
       isSavingRef.current = true;
-      setIsSaving(true);
-      setStatus({ message: "Saving…" });
+      if (!cancelled) {
+        setIsSaving(true);
+        setStatus({ message: "Saving…" });
+      }
 
       let result: CharacterPdfFormSaveState;
       try {
@@ -159,9 +163,13 @@ export default function CharacterPdfEditor({
       }
 
       isSavingRef.current = false;
-      setIsSaving(false);
+      if (!cancelled) {
+        setIsSaving(false);
+      }
       if (result.error) {
-        setStatus({ error: result.error });
+        if (!cancelled) {
+          setStatus({ error: result.error });
+        }
         return;
       }
 
@@ -170,11 +178,15 @@ export default function CharacterPdfEditor({
         JSON.stringify(latestFormData) !== JSON.stringify(formData);
       isDirtyRef.current = hasNewerChanges;
       if (hasNewerChanges) {
-        setStatus({ message: "Saving latest changes…" });
-        saveTimerRef.current = setTimeout(() => {
+        if (cancelled) {
           void saveChanges();
-        }, 0);
-      } else {
+        } else {
+          setStatus({ message: "Saving latest changes…" });
+          saveTimerRef.current = setTimeout(() => {
+            void saveChanges();
+          }, 0);
+        }
+      } else if (!cancelled) {
         setStatus({ message: result.message ?? "All changes saved." });
       }
     }
@@ -209,6 +221,13 @@ export default function CharacterPdfEditor({
       void saveChanges();
     }
 
+    function warnBeforeUnload(event: BeforeUnloadEvent) {
+      if (isDirtyRef.current || isSavingRef.current) {
+        event.preventDefault();
+        event.returnValue = "";
+      }
+    }
+
     function saveOnFocusOut() {
       if (isDirtyRef.current) {
         scheduleSave(0);
@@ -229,6 +248,7 @@ export default function CharacterPdfEditor({
     container.addEventListener("change", markChangedImmediately);
     container.addEventListener("focusout", saveOnFocusOut);
     window.addEventListener("pagehide", saveOnPageHide);
+    window.addEventListener("beforeunload", warnBeforeUnload);
 
     async function loadSheet() {
       try {
@@ -290,6 +310,7 @@ export default function CharacterPdfEditor({
       container.removeEventListener("change", markChangedImmediately);
       container.removeEventListener("focusout", saveOnFocusOut);
       window.removeEventListener("pagehide", saveOnPageHide);
+      window.removeEventListener("beforeunload", warnBeforeUnload);
       eventBus?.off("pagesinit", setPageWidth);
       viewer?.cleanup();
       pdfDocumentRef.current = null;

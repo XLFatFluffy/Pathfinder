@@ -208,13 +208,18 @@ export async function deleteCampaignMapMarker(
   }
 
   const supabase = await createSupabaseServerClient();
-  const { error } = await supabase
+  const { data, error } = await supabase
     .from("campaign_map_markers")
     .delete()
     .eq("campaign_id", member.campaign_id)
-    .eq("id", markerId);
+    .eq("id", markerId)
+    .select("id")
+    .maybeSingle();
   if (error) {
     return { error: `Unable to delete map marker: ${error.message}` };
+  }
+  if (!data) {
+    return { error: "The map marker was not found in this campaign." };
   }
   return {};
 }

@@ -84,6 +84,16 @@
 
 **Phase D status:** CORE CULTURAL AND RELIGIOUS FRAMEWORK COMPLETE. Detailed local customs and additional institutions should be added only when a region or faction becomes relevant.
 
+## Phase E — Layered history (Nov 6)
+
+- Established `campaign/history/Historical_Accounts_and_Uncertainty.md`.
+- Separated public history, educated/noble interpretations, competing Great House narratives, suppressed history, and objective GM truth.
+- Locked the established rebellion sequence without inventing exact battle names or dates.
+- Preserved the surviving Crown Prince as GM/player-protected information.
+- Established a historical evidence model so future discoveries can be classified as confirmed, probable, disputed, suppressed, false, or unknown.
+
+**Phase E status:** CORE HISTORICAL FRAMEWORK COMPLETE. Exact rebellion chronology, original dynasty name, final Dragonstone name, surviving-dragon fate, and deeper post-Rebellion history remain intentional mysteries.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

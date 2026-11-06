@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useTransition, type FormEvent } from "react";
+import { useRef, useState, useTransition, type FormEvent } from "react";
 import { createCampaignMap, type MapFormState } from "./actions";
 import { uploadMapArtwork, validateMapArtwork } from "./upload-artwork";
 
@@ -21,11 +21,16 @@ export default function MapForm({
 }) {
   const [state, setState] = useState<MapFormState>({});
   const [uploadProgress, setUploadProgress] = useState<number | null>(null);
+  const [isValidating, setIsValidating] = useState(false);
   const [isPending, startTransition] = useTransition();
+  const submissionInProgress = useRef(false);
   const router = useRouter();
 
   async function submitMap(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (submissionInProgress.current) {
+      return;
+    }
     setState({});
     const form = event.currentTarget;
     const formData = new FormData(form);
@@ -36,10 +41,14 @@ export default function MapForm({
       return;
     }
 
+    submissionInProgress.current = true;
+    setIsValidating(true);
     try {
       const validationError = await validateMapArtwork(artwork);
       if (validationError) {
         setState({ error: validationError });
+        submissionInProgress.current = false;
+        setIsValidating(false);
         return;
       }
     } catch (error) {
@@ -49,62 +58,69 @@ export default function MapForm({
             ? `Unable to validate map artwork: ${error.message}`
             : "Unable to validate map artwork.",
       });
+      submissionInProgress.current = false;
+      setIsValidating(false);
       return;
     }
 
+    setIsValidating(false);
     formData.delete("artwork");
     startTransition(async () => {
-      let mapId: string;
       try {
-        const created = await createCampaignMap(formData);
-        if (created.error) {
-          setState({ error: created.error });
+        let mapId: string;
+        try {
+          const created = await createCampaignMap(formData);
+          if (created.error) {
+            setState({ error: created.error });
+            return;
+          }
+          mapId = created.mapId;
+        } catch (error) {
+          setState({
+            error:
+              error instanceof Error
+                ? `The map creation outcome could not be confirmed: ${error.message} Refresh the map library before retrying.`
+                : "The map creation outcome could not be confirmed. Refresh the map library before retrying.",
+          });
+          router.refresh();
           return;
         }
-        mapId = created.mapId;
-      } catch (error) {
-        setState({
-          error:
-            error instanceof Error
-              ? `The map creation outcome could not be confirmed: ${error.message} Refresh the map library before retrying.`
-              : "The map creation outcome could not be confirmed. Refresh the map library before retrying.",
-        });
-        router.refresh();
-        return;
-      }
 
-      setUploadProgress(0);
-      let result: Awaited<ReturnType<typeof uploadMapArtwork>>;
-      try {
-        result = await uploadMapArtwork(
-          campaignId,
-          mapId,
-          artwork,
-          setUploadProgress,
-        );
-      } catch (error) {
+        setUploadProgress(0);
+        let result: Awaited<ReturnType<typeof uploadMapArtwork>>;
+        try {
+          result = await uploadMapArtwork(
+            campaignId,
+            mapId,
+            artwork,
+            setUploadProgress,
+          );
+        } catch (error) {
+          setUploadProgress(null);
+          setState({
+            error:
+              error instanceof Error
+                ? `The map record was saved, but artwork upload or its metadata save could not be confirmed: ${error.message} Refresh the map library before retrying.`
+                : "The map record was saved, but artwork upload or its metadata save could not be confirmed. Refresh the map library before retrying.",
+          });
+          router.refresh();
+          return;
+        }
         setUploadProgress(null);
-        setState({
-          error:
-            error instanceof Error
-              ? `The map record was saved, but artwork upload or its metadata save could not be confirmed: ${error.message} Refresh the map library before retrying.`
-              : "The map record was saved, but artwork upload or its metadata save could not be confirmed. Refresh the map library before retrying.",
-        });
-        router.refresh();
-        return;
-      }
-      setUploadProgress(null);
-      if (result.error) {
-        setState({
-          error: `The map record was saved, but its artwork was not. ${result.error} You can retry from the map library.`,
-        });
-        router.refresh();
-        return;
-      }
+        if (result.error) {
+          setState({
+            error: `The map record was saved, but its artwork was not. ${result.error} You can retry from the map library.`,
+          });
+          router.refresh();
+          return;
+        }
 
-      form.reset();
-      setState({ message: "Map and artwork saved." });
-      router.refresh();
+        form.reset();
+        setState({ message: "Map and artwork saved." });
+        router.refresh();
+      } finally {
+        submissionInProgress.current = false;
+      }
     });
   }
 
@@ -190,8 +206,12 @@ export default function MapForm({
             <span>{uploadProgress}%</span>
           </div>
         ) : null}
-        <button disabled={isPending} type="submit">
-          {isPending ? "Saving map…" : "Save map"}
+        <button disabled={isPending || isValidating} type="submit">
+          {isValidating
+            ? "Validating artwork…"
+            : isPending
+              ? "Saving map…"
+              : "Save map"}
         </button>
       </form>
     </section>

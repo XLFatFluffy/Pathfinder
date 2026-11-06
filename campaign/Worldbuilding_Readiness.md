@@ -56,6 +56,8 @@ These are not forgotten; they are deliberately staged so the campaign does not b
 
 ## 4. Additional worldbuilding completed
 
+A seasonal conditions and agricultural-cycle framework has been drafted at `world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md`. It supports future world turns while preserving the rule that calendar month names do not determine weather and that no unrecorded weather event is added to the opening baseline.
+
 A qualitative continental military framework has been drafted at `military/Continental_Military_Institutions_and_Operational_Doctrine.md`. It distinguishes established formations from proposed simulation procedure and leaves exact force strengths, command structures, and service obligations unresolved.
 
 The opening support layer now includes a table-side sandbox reference, a plausible NPC information network, and a proposed ordinary wildlife catalogue. These records deliberately avoid adding new mandatory plots, secret organizations, unsupported monster populations, or map geometry.

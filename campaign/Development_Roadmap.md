@@ -41,6 +41,17 @@
 - Record actual events, dates, NPC changes, player discoveries, decisions, unresolved questions, and consequences.
 - Do not treat unverified rumors as objective truth.
 
+## Phase A — Continental cartographic completion (Nov 6 onward)
+
+- Established `campaign/maps/Continental_Cartographic_Phase_A.md` as the working specification for the continental map.
+- Locked the distinction between canonically established road connections, political frameworks, geographic regions, maritime influence, and final geometry.
+- Established the continental road network as five major overland corridors plus the Inland Sea Route.
+- Established the Great House border-drafting order and non-overlap rules.
+- Kept exact road courses, political polygons, and unsurveyed coordinates out of the live player layer until calibrated against the authoritative artwork.
+- **Current blocker:** the repository connector can read the map asset's metadata and path but does not expose its raster pixels for visual tracing in this workflow. Do not fabricate geometry to compensate. When artwork pixels are available to the cartographic workflow, trace and review the established routes and border drafts, then promote only approved geometry.
+
+**Phase A exit condition:** calibrated major-place anchors, traced major roads, non-overlapping Great House border drafts, calibrated geographic overlays, and reviewed player-layer promotion.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

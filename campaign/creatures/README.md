@@ -4,6 +4,7 @@ Store setting-specific creature lore, supernatural phenomena, undead, vampires, 
 
 - [Creature Registry](Creature_Registry.md) — campaign-wide index, status vocabulary, ecology standards, and initial established/prepared references.
 - [Creature Record Template](Creature_Record_Template.md) — reusable structure for new creature and supernatural records.
+- [Regional Occurrence Template](Regional_Occurrence_Template.md) — tracks evidence for a creature's presence and frequency in a named region without duplicating its master record.
 - [Troll](Troll.md) — GM-only dossier for the provisional Session One troll encounter.
 
 Pathfinder First Edition mechanics remain the default. Distinguish objective setting facts from folklore, religious claims, rumors, and mistaken beliefs. Preserve unresolved origins and mysteries.

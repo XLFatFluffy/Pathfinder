@@ -1,6 +1,6 @@
 # Continent Atlas Player Layer
 
-**Status:** Curated draft for GM review  
+**Status:** Curated draft with calibrated major-place coordinates and six route drafts for GM review  
 **Parent map:** `campaign/maps/continent_atlas.png`  
 **Coordinate convention:** normalized image coordinates; X=0 at left, Y=0 at top; north is up.
 
@@ -8,7 +8,7 @@
 
 This is the continental player-facing layer. It contains major places that would be common knowledge to reasonably informed inhabitants of the continent: Great House seats, the capital, major cities and ports, and prominent fortresses. Players do not need to discover that these places exist. Exploration can reveal details, routes, occupants, defenses, and local conditions, but not the basic existence of major landmarks.
 
-The JSON intentionally contains only 15 major-place markers. Smaller villages, minor keeps, manors, hamlets, and local landmarks belong on regional maps or in GM reference records. They have not been deleted from campaign canon; they have simply been removed from the continental overview to avoid turning the map into a settlement directory.
+The JSON contains 15 major-place markers and six route overlays. The route lines are approved cartographic shorthand connecting established major places, not surveyed road alignments. The Northern Road's final approach to Dragonstone is understood to cross the natural landbridge; the line's small visual offset at this scale is intentional and does not imply a sea crossing. Smaller villages, minor keeps, manors, hamlets, and local landmarks belong on regional maps or in GM reference records. They have not been deleted from campaign canon; they have simply been removed from the continental overview to avoid turning the map into a settlement directory.
 
 ## Current continental markers
 
@@ -16,13 +16,17 @@ The JSON intentionally contains only 15 major-place markers. Smaller villages, m
 - **Other major fortified or strategic places:** Greywatch, Deepwatch, and Eastwatch.
 - **Major ports:** Tallowmere, Ironharbor, Deltaport, Stormhaven, and Duskport.
 
-All 15 are intended as public-knowledge locations, subject to GM review of placement and wording. The coordinates remain approximate and must be checked visually against the authoritative atlas before import or sharing.
+All 15 are intended as public-knowledge locations, subject to GM review of placement and wording. The 15 coordinates were merged from the GM atlas export dated 2026-11-06 and visually reviewed against the authoritative artwork. They remain normalized artwork positions, not surveyed geographic coordinates.
+
+## Route overlays
+
+Six route overlays are now drafted in the live layer: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. The five overland lines connect major places through broad terrain corridors; the Inland Sea Route remains a maritime line. These are editable draft courses and should receive GM review in the app before final campaign use.
 
 ## Overlay decision
 
 The previous seven polygon drafts have been removed from the import layer. They mixed political spheres, geographic regions, maritime influence, and the fragmented Southern Reaches. Several Great House polygons overlap. Because exact borders are unresolved, those overlaps must not be presented as sovereign territorial claims or silently explained as wars.
 
-No replacement polygons have been drawn yet. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
+No political or geographic polygons have been promoted. The route overlays are separate line features and do not imply territorial ownership. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
 
 - Political territories: distinct, adjoining, and non-overlapping unless a specific disputed claim or war is approved as canon.
 - Geographic regions: may cross political borders and should use a separate visual treatment.

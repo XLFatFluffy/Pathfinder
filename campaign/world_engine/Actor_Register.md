@@ -14,6 +14,7 @@ The engine tracks people and institutions as actors. This register is an index, 
 - Great House rulers and heirs in [House Rulers](../politics/House_Rulers.md).
 
 ### Great Houses
+- [Great House Actor Dossiers](Great_House_Actor_Dossiers.md) consolidates the established strategic agendas, rulers, heirs, leverage, constraints, and cross-house tensions for all six Great Houses.
 - House Calderan.
 - House Vaelorian.
 - House Kharadorn.
@@ -21,7 +22,7 @@ The engine tracks people and institutions as actors. This register is an index, 
 - House Veyr.
 - House Merrowen.
 
-Their established agendas, rulers, heirs, and ruler-to-ruler dynamics are recorded in the authoritative political records. Do not invent new Great House goals, exact military strengths, or secret plans.
+The dossiers distinguish established strategic agendas from active projects. Do not invent exact military strengths, treasury figures, or secret plans.
 
 ### Tallowmere local political actors
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) contains the initial profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, Kharadorn's Charter House, and the Chartered Council.

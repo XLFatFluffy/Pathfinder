@@ -7,7 +7,7 @@
   "map_type": "region",
   "parent_map_source_id": "continent_atlas",
   "parent_location_source_id": "tallowmere",
-  "artwork_status": "Approved GM-provided illustration exists as the current relative-placement reference, but the artwork file is not currently stored in campaign/maps/. Do not fabricate normalized coordinates until the artwork is available to the app/repository.",
+  "artwork_status": "Approved regional artwork is now stored at campaign/maps/tallowmere_regional.png. Exact normalized coordinates remain pending visual calibration against the artwork.",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "authority": {
     "primary_content": [
@@ -272,6 +272,6 @@
   "import_safety": {
     "not_a_live_sync_layer": true,
     "reason": "This specification intentionally contains no x/y or polygon points. It is a structured content registry for the regional map and must not be fed to the live synchronizer until coordinates are placed against the approved artwork.",
-    "next_cartographic_step": "Add the approved regional artwork to the repository, calibrate its normalized coordinate space, then convert these source records into a live atlas layer with reviewed marker and route coordinates."
+    "next_cartographic_step": "Visually calibrate the approved regional artwork, then convert these source records into a live atlas layer with reviewed marker and route coordinates."
   }
 }

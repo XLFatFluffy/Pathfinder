@@ -262,3 +262,7 @@ Player character sheets and detailed backstories are pending. Do not assign star
 The first additional network of minor houses and independent regional powers is established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`. It includes banner houses in the Veyr, Vaelorian, Edarth, and Merrowen spheres; a Crown vassal; a dwarven clan within the Kharadorn union; and independent powers in the Southern Reaches. Exact holdings remain unmapped. The only new active dispute is the low-intensity Longmead customary boundary case between Houses Harrowden and Wrenford in the Western Heartlands. No armed conflict is underway.
 
 The campaign remains at **1 Harvestfall, 243 AC**. No first world turn has been run.
+
+## Tallowmere Ratfolk Community Networks — 2026-11-06
+
+The Underways remain decentralized, with no single ratfolk leader or unified political faction. Four informal networks are established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`: the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their named contacts include Nix-of-the-Cistern, Tikka Vell, Serren Coil, Miraq Ashwhisk, Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw. Their strategies differ over negotiation, public advocacy, route security, and household protection. The ratfolk PC's ambition may intersect with these networks, but he is not their automatic leader or representative.

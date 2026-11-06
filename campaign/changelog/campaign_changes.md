@@ -1,3 +1,11 @@
+## 2026-11-06 - Atlas child-map navigation and map identity cleanup
+
+- Added a contextual **Open child map** action when a selected marker is linked to a child map under the current map and the child map points to the same campaign location.
+- This supports the intended Tallowmere path: continental Tallowmere marker → Tallowmere regional map → regional Tallowmere marker → Tallowmere city map.
+- Corrected the existing Supabase city map display name from the typo `Tallomere` to `Tallowmere City`; retained its UUID, stable source ID, artwork, parent, location association, and player visibility.
+- Verified the live map hierarchy remains Continent → Tallowmere Region → Tallowmere City.
+- No artwork, marker coordinates, routes, or political geometry were changed in this step.
+
 ## 2026-11-06 - Live atlas map identity and coordinate export
 
 - Added stable repository map source IDs to the existing Supabase regional and city map records: `tallowmere_regional` and `tallowmere_city`. Existing UUIDs, artwork paths, location links, visibility, and parent-child hierarchy were preserved.

@@ -1,6 +1,6 @@
 # Tallowmere: The Ratfolk and the Underways
 
-**Status:** Established community concept; names, leadership, and detailed settlement geography remain open.
+**Status:** Established decentralized community framework; initial networks and named contacts are documented in [Ratfolk Community Networks and NPCs](Ratfolk_Community_Networks_and_NPCs.md). Neighborhood names, population, and detailed settlement geography remain open.
 
 ## Foundational Principle
 The ratfolk beneath Tallowmere are a community, not a criminal trope, hidden army, or unified faction. They have families, elders, children, tradespeople, craftspeople, merchants, healers, religious practices, arguments, aspirations, and ordinary problems.
@@ -34,3 +34,8 @@ The ratfolk PC's goal of ending persecution can connect to local conditions with
 
 ## Open Details
 Neighborhood names, local representatives, population, shared meeting place, surface access points, customs, religious life, and connections to the wider network remain to be developed.
+
+
+## Community networks and named contacts
+
+The initial Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths are informal networks rather than formal factions. Their named contacts, differing strategies, and limits are documented in [Ratfolk Community Networks and NPCs](Ratfolk_Community_Networks_and_NPCs.md). No single leader speaks for all ratfolk.

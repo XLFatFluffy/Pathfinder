@@ -618,6 +618,53 @@ export default function MapAtlas({
     }
   }
 
+  function exportCalibratedCoordinates() {
+    if (!selectedMap?.map_source_id) {
+      setAtlasSyncError("This map has no stable repository map source ID, so its coordinates cannot be exported safely.");
+      return;
+    }
+
+    const exportableMarkers = markers.filter((marker) => marker.source_id);
+    const skippedMarkers = markers.length - exportableMarkers.length;
+    if (!exportableMarkers.length) {
+      setAtlasSyncError("No markers on this map have stable repository source IDs. Nothing was exported.");
+      return;
+    }
+
+    const payload = {
+      export_type: "pathfinder_atlas_coordinate_patch",
+      schema_version: 1,
+      generated_at: new Date().toISOString(),
+      map_source_id: selectedMap.map_source_id,
+      map_name: selectedMap.name,
+      coordinate_system: "normalized 0-1; x from left, y from top; north up",
+      markers: exportableMarkers.map((marker) => ({
+        source_id: marker.source_id,
+        name: marker.name,
+        x: marker.x,
+        y: marker.y,
+      })),
+      skipped_markers_without_source_id: skippedMarkers,
+      note: "Coordinate patch only. Merge by stable source_id into the canonical atlas layer after visual review. This file is not a replacement for atlas_player_layer.json.",
+    };
+
+    const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], {
+      type: "application/json",
+    });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = `${selectedMap.map_source_id.replace(/[^a-z0-9_-]/gi, "_")}-coordinate-patch.json`;
+    document.body.append(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+    setAtlasSyncError("");
+    setAtlasSyncStatus(
+      `Exported ${exportableMarkers.length} calibrated marker coordinates${skippedMarkers ? `; skipped ${skippedMarkers} marker(s) without stable source IDs` : ""}. Review before merging into the repository.`,
+    );
+  }
+
   async function previewAtlasSynchronization() {
     if (!selectedMap || atlasSyncPending) {
       return;
@@ -1227,6 +1274,12 @@ export default function MapAtlas({
                 GM notes and other app-only content are preserved. Previewing is
                 a dry run and makes no database changes.
               </p>
+              <button
+                onClick={exportCalibratedCoordinates}
+                type="button"
+              >
+                Export calibrated coordinates
+              </button>
               <button
                 disabled={atlasSyncPending}
                 onClick={previewAtlasSynchronization}

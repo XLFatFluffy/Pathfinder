@@ -197,7 +197,7 @@ These houses are outside the currently calibrated Tallowmere map. Their existenc
 **Goal:** Preserve woodland access and fair prices.  
 **Conflict tendency:** Organizes workers before immediately appealing to nobles.
 
-## NPC-002 — Dagna Vale
+## NPC-003 — Dagna Vale
 
 **Role:** Quarry contractor and negotiator  
 **Affiliation:** Stonehollow Quarry Compact  
@@ -205,7 +205,7 @@ These houses are outside the currently calibrated Tallowmere map. Their existenc
 **Goal:** Protect family quarry shares and secure profitable contracts.  
 **Conflict tendency:** Prefers collective bargaining and legal petitions.
 
-## NPC-003 — Edda Rusk
+## NPC-004 — Edda Rusk
 
 **Role:** Saltwick freeholder and shore-charter representative  
 **Affiliation:** Saltwick Shore Compact  
@@ -213,21 +213,21 @@ These houses are outside the currently calibrated Tallowmere map. Their existenc
 **Goal:** Preserve traditional fishing and landing rights.  
 **Conflict tendency:** Resists unilateral outside control but accepts negotiated arrangements.
 
-## NPC-004 — Rennic Corven
+## NPC-005 — Rennic Corven
 
 **Role:** Lord of House Corven  
 **Character:** Suspicious, commercially minded, proud of local autonomy.  
 **Goal:** Increase the value of his harbor without surrendering control.  
 **Current action:** Maintaining existing arrangements; no expansion project established.
 
-## NPC-005 — Mira Corven
+## NPC-006 — Mira Corven
 
 **Role:** Heir to House Corven  
 **Character:** More commercially curious than Rennic, but loyal to the family's independence.  
 **Goal:** Learn how larger maritime powers conduct trade without allowing them to dominate the house.  
 **Current action:** No formal project established.
 
-## NPC-006 — Ser Oren Calderick
+## NPC-007 — Ser Oren Calderick
 
 **Role:** Acting lord of House Calderick  
 **Character:** Defensive, politically cautious, increasingly concerned about legitimacy.  

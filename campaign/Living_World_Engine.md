@@ -255,3 +255,16 @@ These are independent issues, not a single conspiracy or mandatory plot. Their c
 ## 15. Canon and implementation boundary
 
 This document defines the intended operating model. It does not establish new political events, border disputes, assassinations, secret conspiracies, or numerical simulation values. Those require evidence, explicit GM decisions, or play. Suggested events must be labeled PROPOSED until approved.
+
+
+## 16. Initial Tallowmere implementation records
+
+The first local simulation layer is documented in these linked records:
+
+- [Actor Register](world_engine/Actor_Register.md) — actor index and data standards.
+- [Tallowmere Political Actor Dossiers](world_engine/Tallowmere_Political_Actor_Dossiers.md) — established goals, authority, resources, relationships, and constraints for the principal local houses and institutions.
+- [Regional Holdings and Jurisdictions](world_engine/Regional_Holdings_and_Jurisdictions.md) — confirmed holdings, charters, vassalage, local rights, and unresolved boundaries.
+- [Initial Issue Register](world_engine/Initial_Issue_Register.md) — seven active/watch pressures and regional friction points.
+- [Initial Project Register](world_engine/Initial_Project_Register.md) — ongoing efforts and their current evidentiary status.
+
+The regional baseline does not establish an active territorial war or a specific border dispute between named houses. Exact borders remain uncalibrated. Do not run a world turn until in-world time advances or the GM explicitly requests a simulation snapshot.

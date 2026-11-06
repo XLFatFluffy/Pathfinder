@@ -206,3 +206,14 @@
 - Distinguished direct territorial control, vassal holdings, charter rights, and strategic interests so they are not mistakenly rendered as identical political polygons.
 - Updated overlay standards to prioritize established road traces, then provisional Great House boundary drafts, with GM approval before player publication.
 - No route coordinates, territory polygons, or unsupported borders were invented or promoted to the live atlas. Exact regional and continental border geometry remains a cartographic decision requiring artwork review and GM approval.
+
+## 2026-11-06 - First-session player materials and calendar established
+
+- Added `campaign/player_materials/Player_Starting_Handout.md`, a player-facing guide based only on established public campaign canon. It covers the six Great Houses, the current monarchy, the 15 major continental places, Tallowmere, its immediate regional communities, roads, religion, magic, and starting circumstances.
+- Established the working calendar in `campaign/history/Calendar.md`: 12 thirty-day months, five Yearturn days, a leap day every fourth year, a seven-day week, variable seasons, and the AC/BC dating convention.
+- Set the campaign opening date to **1 Harvestfall, 243 AC**.
+- Added `campaign/history/Campaign_Timeline.md` as a chronological framework. Historical events remain approximate where exact dates are not established.
+- Updated the Session One GM packet, current world state, and open-questions register to reference the handout and campaign date.
+- Corrected the obsolete description of the current monarch as a puppet in `World_History.md`; current canon gives King Aldric a legitimate hereditary claim and substantial formal authority, constrained by the Great Houses and court factions.
+- Flagged the duplicate use of **Greywatch** for the northern Veyr-associated place and House Denvor's seat in Tallowmere. No rename or map change was made.
+- Character sheets, backstories, companion approval, encounter balancing, and end-to-end player-permission testing remain outstanding.

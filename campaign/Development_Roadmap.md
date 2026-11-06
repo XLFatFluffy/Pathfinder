@@ -169,7 +169,7 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Added `campaign/world_engine/Great_House_Actor_Dossiers.md` consolidating established agendas and constraints for all six Great Houses without inventing new plots or numerical resources.
 - Added reusable world-event and world-turn report templates.
 - Added the initial project register and linked actor, holdings, issue, project, and event documentation.
-- First world turn remains pending actual in-world time advancement. The current baseline is 1 Harvestfall, 243 AC.
+- WTR-001 has since been completed as a zero-time campaign-opening snapshot on 1 Harvestfall, 243 AC. Future turns advance only when in-world time passes or the GM requests a simulation.
 
 
 ## Living World Engine — pre-opening preparation (Nov 6, 2026)

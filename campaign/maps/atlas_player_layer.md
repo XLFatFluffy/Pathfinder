@@ -8,7 +8,7 @@
 
 This is the continental player-facing layer. It contains major places that would be common knowledge to reasonably informed inhabitants of the continent: Great House seats, the capital, major cities and ports, and prominent fortresses. Players do not need to discover that these places exist. Exploration can reveal details, routes, occupants, defenses, and local conditions, but not the basic existence of major landmarks.
 
-The JSON contains 15 major-place markers and six route overlays. The route lines are editable cartographic drafts connecting established major places, not surveyed road alignments. Smaller villages, minor keeps, manors, hamlets, and local landmarks belong on regional maps or in GM reference records. They have not been deleted from campaign canon; they have simply been removed from the continental overview to avoid turning the map into a settlement directory.
+The JSON contains 15 major-place markers and six route overlays. The route lines are approved cartographic shorthand connecting established major places, not surveyed road alignments. The Northern Road's final approach to Dragonstone is understood to cross the natural landbridge; the line's small visual offset at this scale is intentional and does not imply a sea crossing. Smaller villages, minor keeps, manors, hamlets, and local landmarks belong on regional maps or in GM reference records. They have not been deleted from campaign canon; they have simply been removed from the continental overview to avoid turning the map into a settlement directory.
 
 ## Current continental markers
 

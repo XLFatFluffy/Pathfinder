@@ -217,3 +217,9 @@
 - Corrected the obsolete description of the current monarch as a puppet in `World_History.md`; current canon gives King Aldric a legitimate hereditary claim and substantial formal authority, constrained by the Great Houses and court factions.
 - Flagged the duplicate use of **Greywatch** for the northern Veyr-associated place and House Denvor's seat in Tallowmere. No rename or map change was made.
 - Character sheets, backstories, companion approval, encounter balancing, and end-to-end player-permission testing remain outstanding.
+
+## 2026-11-06 - Superseded monarch characterization reconciled across lore
+
+- Reconciled older references that called the current monarch a puppet with the 2026-11-04 GM-approved canon: King Aldric Calderan has a legitimate hereditary claim and substantial formal authority, while the Great Houses and court factions constrain his practical freedom.
+- Updated the Campaign Bible, World History, Canon Register, and Worldbuilding Decision Log. The decision log preserves the older wording as a superseded historical record rather than current canon.
+- No single controller of the monarch is established.

@@ -1,3 +1,12 @@
+## 2026-11-06 - Live atlas map identity and coordinate export
+
+- Added stable repository map source IDs to the existing Supabase regional and city map records: `tallowmere_regional` and `tallowmere_city`. Existing UUIDs, artwork paths, location links, visibility, and parent-child hierarchy were preserved.
+- Added a stable source ID to the existing regional Tallowmere marker: `tallowmere_regional/tallowmere`; its saved coordinates and public visibility were unchanged.
+- Updated the atlas data model and marker loader to expose stable source IDs to the GM interface.
+- Added **Export calibrated coordinates**, which downloads a coordinate-only patch for source-identified markers and leaves canonical repository files untouched.
+- Documented the export safeguards and synchronized the continent reference/player-layer notes with the GM-saved Tallowmere and Dragonstone positions.
+- No regional coordinates, routes, borders, or unverified geometry were invented or promoted.
+
 ## 2026-11-06 - Tallowmere regional artwork integrated
 
 - Added the newly uploaded regional artwork as campaign/maps/tallowmere_regional.png using the original image blob without altering the artwork.

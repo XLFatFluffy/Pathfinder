@@ -293,7 +293,7 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Detailed regional inheritance customs and the exact legal procedures for challenging or confirming a succession.
 - Specific membership and relative influence of the five court factions.
 - Additional southern treaties, rulers, and jurisdictional boundaries beyond the initial independent powers.
-- The first opening world-turn snapshot. It must be run on 1 Harvestfall, 243 AC without advancing the calendar; no world turn has yet been run.
+- **RESOLVED:** WTR-001, the opening world-turn snapshot, was completed on 1 Harvestfall, 243 AC with zero days elapsed. Future turns advance only when in-world time passes or the GM requests a simulation.
 - Final Session One encounter balance and companion build, pending completed PC sheets and the GM's companion decision.
 
 These are staged development items, not all prerequisites to begin play. Do not attempt to finish every continental border, family tree, or legal custom before Session One.

@@ -12,16 +12,16 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 | ID | Priority | Topic | Question / missing detail | Status |
 |---|---|---|---|---|
-| OQ-001 | P0 | Starting city | What is the precise first-session opening situation, arrival location, and initial cast? | RESOLVED: Tallowmere is the starting city; its identity, location, ruling house, government framework, and supporting records are established. Opening scene, exact arrival point, and initial cast remain open |
-| OQ-002 | P0 | Opening situation | The PCs arrive in Tallowmere at the start of Session One and already know each other. What are the precise arrival circumstances, immediate situation, and opening scene? | PARTIALLY RESOLVED: arrival city and prior acquaintance established; opening details remain unresolved |
-| OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | UNRESOLVED |
-| OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
+| OQ-001 | P0 | Starting city | What is the precise first-session opening situation, arrival location, and initial cast? | PARTIALLY RESOLVED: Tallowmere is established; the provisional opening is the troll attack on Selwick & Company within roughly half a day's travel. Exact approach road, encounter site, companion build, and final encounter balance remain pending character sheets and route choice |
+| OQ-002 | P0 | Opening situation | The PCs arrive in Tallowmere at the start of Session One and already know each other. What are the precise arrival circumstances, immediate situation, and opening scene? | PARTIALLY RESOLVED: troll and merchant-wagon opening, conditional reward, Blue Heron hospitality, and Warehouse Guild introduction are established as the planned opening; exact encounter placement and final staging remain pending |
+| OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | CORE CAST ESTABLISHED in the Session One GM Readiness Packet; exact appearances and whether Selwick is personally available remain situational |
+| OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | RESOLVED AT REFERENCE LEVEL: Tallowmere districts and principal public destinations are indexed in the Session One GM Readiness Packet; precise map geometry remains provisional |
 | OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | RESOLVED: Calendar established in `history/Calendar.md`; Session One begins 1 Harvestfall, 243 AC |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
-| OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established in Stages 5, 8, and 9 and their dedicated records. Exact borders, wider family trees, detailed house histories, faction membership and influence, and Council procedure remain open. | CORE FRAMEWORK ESTABLISHED; DETAILS OPEN |
-| OQ-008 | P1 | Ratfolk societies | What are the detailed names, population, customs, leadership, and local geography of the Underways and wider nearby ratfolk network? | PARTIALLY ESTABLISHED: decentralized ratfolk community framework and Tallowmere Underways concept documented; detailed local particulars remain open |
+| OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established. Exact borders, wider family trees, detailed histories, faction membership and influence, and Council procedure remain open. | CORE FRAMEWORK ESTABLISHED; DETAILS OPEN |
+| OQ-008 | P1 | Ratfolk societies | What are the detailed names, population, customs, leadership, and local geography of the Underways and wider nearby ratfolk network? | PARTIALLY RESOLVED: four informal networks and seven named contacts are established in Ratfolk_Community_Networks_and_NPCs.md; neighborhood names, population, exact passages, and wider regional links remain open |
 | OQ-009 | P1 | PC family history | What happened on the battlefield where the ratfolk PC's mother died, and who else knows the truth? | UNRESOLVED |
-| OQ-010 | P2 | Continent geography | Approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at the widest point, making the continent smaller than Westeros. The central inland sea, Dragonstone island and narrow land bridge, secret dwarven underground route, Khar-Dum in the northeastern mountains, broad Great House territories, and Stage 5 territorial framework are established. Exact borders, coordinates, travel distances, routes, rivers, local jurisdictions, and final names remain open. | FRAMEWORK ESTABLISHED; CARTOGRAPHIC DETAILS OPEN |
+| OQ-010 | P2 | Continent geography | Approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at the widest point, making the continent smaller than Westeros. The central inland sea, Dragonstone island and narrow land bridge, secret dwarven underground route, Khar-Dum in the northeastern mountains, broad Great House territories, and first named minor-house network are established. Exact borders, coordinates, travel distances, routes, rivers, local jurisdictions, and final names remain open. | FRAMEWORK ESTABLISHED; CARTOGRAPHIC DETAILS OPEN |
 | OQ-011 | P2 | Northern Barrier | Who built the Ancient Barrier, why, and what lies beyond it? | UNRESOLVED |
 | OQ-012 | P2 | Arcane scarcity | Why are arcane spellcasters rare in everyday society? | UNRESOLVED |
 | OQ-013 | P3 | Divine magic | How do the real Pathfinder gods grant or mediate divine magic, and what forms of devotion are involved? | UNRESOLVED; gods' existence is ESTABLISHED |
@@ -279,3 +279,21 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **ESTABLISHED:** The planned troll encounter involves a wagon belonging to Master Tavren Selwick's Selwick & Company. Meaningful protection of the crew or recovery of the consignment earns 30 gp, a meal and one night's lodging at the Blue Heron, and a signed introduction to Meret Sorn of the Warehouse Guild. This provides modest commercial credibility, not automatic trust or guild privileges. See `locations/starting_city/Selwick_Merchant_Contact.md`.
 
 **STILL OPEN / SESSION PREPARATION:** The PCs' exact travel route and the troll's encounter site; the troll's suitability after both character sheets are complete; which wagon crew members survive and what cargo is lost or recovered; whether Selwick is personally present in Tallowmere when they arrive; and the exact first scene at the city gates or merchant's warehouse. The responsible house and basic merchant introduction are no longer open questions.
+
+
+## Living World Engine — remaining launch questions (2026-11-06)
+
+**ESTABLISHED:** The initial Tallowmere actors, seven local pressures, six local projects, continental strategic pressures, first minor-house network, six continental projects, feudal law framework, event ledger, and world-turn ledger are recorded under `world_engine/`.
+
+**ESTABLISHED:** The Longmead boundary dispute between Houses Harrowden and Wrenford is a low-intensity customary-rights dispute in the Western Heartlands. It has no violence or mapped boundary.
+
+**STILL OPEN:**
+- Exact borders, local charter text, superior jurisdictions, and service obligations for the newly established minor houses.
+- Wider family trees, household officers, and individual retainers for houses that become relevant in play.
+- Detailed regional inheritance customs and the exact legal procedures for challenging or confirming a succession.
+- Specific membership and relative influence of the five court factions.
+- Additional southern treaties, rulers, and jurisdictional boundaries beyond the initial independent powers.
+- The first opening world-turn snapshot. It must be run on 1 Harvestfall, 243 AC without advancing the calendar; no world turn has yet been run.
+- Final Session One encounter balance and companion build, pending completed PC sheets and the GM's companion decision.
+
+These are staged development items, not all prerequisites to begin play. Do not attempt to finish every continental border, family tree, or legal custom before Session One.

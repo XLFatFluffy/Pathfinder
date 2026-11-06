@@ -1,3 +1,11 @@
+## 2026-11-06 — Regional factions and supplemental minor actors
+
+- Added `campaign/world_engine/Regional_Factions_and_Minor_Houses.md` under the GM's explicit delegation to create whatever NPCs, minor factions, and supporting actors are needed for a living world.
+- Added five Tallowmere-hinterland organizations: the River Vale Millers, Brackenwood Charcoal Fellowship, Stonehollow Quarry Compact, Saltwick Shore Compact, and Tallowmere Warehouse Guild.
+- Added supplemental minor Houses Corven and Calderick outside the calibrated Tallowmere map. House Calderick has a deliberately local succession uncertainty; no wider succession crisis is established.
+- Reconciled existing NPC records so Harlan Tebb and Meret Sorn are referenced rather than duplicated.
+- Updated the Current World State and Actor Register. No exact borders, troop counts, treasury figures, or new armed conflicts were created.
+
 ## 2026-11-06 - Campaign bestiary foundation
 
 - Added `campaign/creatures/Creature_Registry.md` as the campaign source index for creatures, supernatural beings, and regional ecology.

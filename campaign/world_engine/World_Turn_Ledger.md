@@ -8,7 +8,11 @@
 
 | Turn ID | Start date | End date | Elapsed time | Scope | Status | Report |
 |---|---|---|---|---|---|---|
-| — | 1 Harvestfall, 243 AC | — | — | Campaign opening baseline | NOT RUN | — |
+| WTR-001 | 1 Harvestfall, 243 AC | 1 Harvestfall, 243 AC | 0 days | Campaign opening baseline | APPROVED BASELINE | [World Turn 001](reports/World_Turn_001_Opening_Baseline.md) |
+
+## Completed opening turn
+
+[WTR-001 — Campaign Opening Baseline](reports/World_Turn_001_Opening_Baseline.md) was completed as a zero-time snapshot on 1 Harvestfall, 243 AC. It records the active issues, projects, political context, rumor knowledge boundaries, and starting conditions. No event was generated and the campaign date did not advance.
 
 ## World-turn procedure
 

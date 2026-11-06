@@ -29,6 +29,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 
 ### Tallowmere local political actors
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) contains the initial profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, Kharadorn's Charter House, and the Chartered Council.
+- [Regional Factions and Supplemental Minor Actors](Regional_Factions_and_Minor_Houses.md) adds the River Vale Millers, Brackenwood Charcoal Fellowship, Stonehollow Quarry Compact, Saltwick Shore Compact, Tallowmere Warehouse Guild, and two supplemental minor houses.
 - Civic officers and local NPCs are detailed in the starting-city Civic NPCs record.
 - The seven-seat Chartered Council and its procedure are detailed in the Chartered Council and Civic Procedure record.
 - Local guilds and companies are detailed in the Guilds and Commerce record.
@@ -36,6 +37,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 ### Continental minor houses and regional powers
 - [Continental Minor Houses and Regional Powers](Continental_Minor_Houses_and_Regional_Powers.md) records the first additional network of Veyr, Vaelorian, Edarth, Crown, Kharadorn, Merrowen, and independent southern actors.
 - Includes the active, low-intensity Longmead boundary dispute between Houses Harrowden and Wrenford. Its precise boundary remains unmapped.
+- The supplemental actor register must not be used to duplicate houses already recorded in the continental register.
 
 - [Continental Project Register](Continental_Project_Register.md) records the first active and proposed projects beyond Tallowmere.
 

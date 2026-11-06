@@ -263,3 +263,12 @@
 - Added `campaign/world_engine/Actor_Register.md` and `Initial_Issue_Register.md`. The issue register records the seven existing Tallowmere pressures from the Session One GM Readiness Packet without inventing causes, secret connections, or outcomes.
 - Added `campaign/creatures/Tallowmere_Regional_Ecology.md`, documenting established habitats and ecological constraints while keeping unapproved species and populations unconfirmed.
 - Updated campaign and creature indexes and the development roadmap. No assassination, active border war, new political claim, or regional monster population has been established by this work.
+
+
+## 2026-11-06 — Tallowmere political simulation layer
+
+- Added campaign/world_engine/Regional_Holdings_and_Jurisdictions.md, consolidating the established jurisdiction and charter relationships for Tallowmere, Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, Harthbridge, and House Relland's holding. Exact borders and unresolved superior jurisdictions remain open.
+- Added campaign/world_engine/Tallowmere_Political_Actor_Dossiers.md, with source-grounded profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, the Kharadorn Charter House, and the Chartered Council.
+- Expanded Initial_Issue_Register.md with named established participants, known positions, unknowns, possible paths, and regional friction points. Confirmed no active territorial border war or named-house border dispute in the starting region.
+- Added Initial_Project_Register.md for the existing harbor-defense review, warehouse safety effort, ratfolk market-access advocacy, harbor allocation, harvest monitoring, and Denvor defense deliberations.
+- Updated actor, campaign, local-location, and roadmap indexes. No new houses, border geometry, troop counts, debts, secret conspiracies, or political outcomes were invented.

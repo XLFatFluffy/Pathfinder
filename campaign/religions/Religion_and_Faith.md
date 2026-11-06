@@ -99,7 +99,9 @@ Religious zealots and fanatics remain prominent in the setting, but religious li
 - What is the name, organization, training, and authority of the independent scholarly order?
 - What are the exact legal relationships between religious courts and secular courts?
 - How much influence do religious institutions exert over marriage, inheritance, coronation, and other matters of secular law?
-- Which religious orders are charitable, scholarly, martial, or politically active?
+- Which additional religious orders are charitable, scholarly, martial, or politically active?
 - What are the major historical religious disputes, schisms, persecutions, and reform movements?
+
+Regional institutional examples and the current religious framework are established in `Religious_Institutions_and_Regional_Practice.md`. The independent scholarly network is established in `../Cultures_and_Societies.md`.
 
 These questions remain open until deliberately developed and approved.

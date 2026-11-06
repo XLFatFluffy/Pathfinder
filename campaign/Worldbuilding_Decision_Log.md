@@ -71,12 +71,12 @@ This is the audit trail for deliberate setting decisions. It records why a decis
 **Still unresolved:** Exact dates, original names, individual roles of the six houses, battle chronology, new dynasty, capital, and postwar settlement.
 
 
-### 2026-11-03 — Post-rebellion ruling sequence and puppet monarch established
-**Status:** ESTABLISHED sequence; ruling house identity and monarch's controller unresolved  
-**Decision:** The same dwarven leader ruled for more than a century after the Targaryen fall, until his death. His successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch, but he is a puppet. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.  
-**Reason:** The GM confirmed the compromise nature of the human candidate, his status as a puppet, the dwarven successor's reluctant acceptance and return to Dragonstone, and the current relationship between the dwarven empire and human monarchy.  
+### 2026-11-03 — Post-rebellion ruling sequence established (earlier puppet characterization superseded)
+**Status:** Historical decision record; the original puppet characterization was superseded by the 2026-11-04 GM-approved clarification.  
+**Decision:** The same dwarven leader ruled for more than a century after the Targaryen fall, until his death. His successor inherited his authority, but a succession crisis followed. The dwarven successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch. The monarch has a legitimate hereditary claim and substantial formal authority, although the Great Houses and court factions constrain his practical freedom. Do not assume that he is a puppet or that any single power controls him. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of it.  
+**Reason:** The 2026-11-03 entry originally described the compromise monarch as a puppet. The 2026-11-04 GM-approved clarification superseded that characterization: the monarch has a legitimate hereditary claim and substantial formal authority, constrained by the Great Houses and court factions.  
 **Affected records:** `history/World_History.md`, `Campaign_Bible.md`, `Canon_Register.md`, `Current_World_State.md`, `Open_Questions_Register.md`, `changelog/campaign_changes.md`.
-**Still unresolved:** Which of the six rebel houses supplied the monarch, who actually controls or influences him, and the exact chronology and events of the succession crisis.
+**Still unresolved:** The monarch's precise relationships, political constraints, sources of influence, and the exact chronology and events of the succession crisis.
 
 
 ## 2026-11-03: Imperial Settlement

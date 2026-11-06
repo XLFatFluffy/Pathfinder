@@ -101,7 +101,7 @@ Suggested review cadence:
 These are review intervals, not automatic event deadlines. An actor may act sooner if an opportunity or emergency arises.
 
 At each update:
-1. Establish elapsed in-world time and season.
+1. Establish elapsed in-world time and the GM-recorded regional season/conditions. Month names do not determine weather. Consult [Seasonal Conditions and Agricultural Cycles](world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md); do not invent current weather or a seasonal event.
 2. Review active issues and projects whose conditions could have changed.
 3. Update relevant resources, constraints, relationships, and information.
 4. Identify actions each actor could plausibly take.
@@ -144,6 +144,8 @@ Review:
 Reactions should be differentiated. Some actors may welcome new rulers, some may wait, some may test them, and some may resist. Do not make every neighboring house hostile or every peasant loyal. Recognition and control are separate: a PC may hold a title without effective control, or control land without lawful recognition.
 
 ## 7. Border disputes and conflict
+
+Use the [Continental Political Authority Register](maps/continental_political_authority_register.md) and [Boundary Junction Worklist](maps/continental_boundary_junction_worklist.md) when assessing holdings and borders. Broad territorial frameworks do not establish exact borders or pairwise adjacency. Do not invent border coordinates or convert an unmapped local dispute into overlapping territorial polygons.
 
 Do not invent a live border dispute merely to make the world feel active. A dispute requires a claim, competing interest, location, and actors with something to gain or lose.
 
@@ -255,6 +257,11 @@ These are independent issues, not a single conspiracy or mandatory plot. Their c
 ## 15. Canon and implementation boundary
 
 This document defines the intended operating model. It does not establish new political events, border disputes, assassinations, secret conspiracies, or numerical simulation values. Those require evidence, explicit GM decisions, or play. Suggested events must be labeled PROPOSED until approved.
+
+Supporting operating references:
+- [Continental Military Institutions and Operational Doctrine](military/Continental_Military_Institutions_and_Operational_Doctrine.md) distinguishes established force facts from proposed mobilization/logistics procedures. It does not establish force totals or active mobilizations.
+- [Seasonal Conditions and Agricultural Cycles](world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md) provides regional working tendencies and a weather/season recording method. It does not assign weather to calendar months or create current weather events.
+- [Continental Political Authority Register](maps/continental_political_authority_register.md) and [Boundary Junction Worklist](maps/continental_boundary_junction_worklist.md) preserve the distinction between broad territorial frameworks and exact political borders.
 
 
 ## 16. Initial Tallowmere implementation records

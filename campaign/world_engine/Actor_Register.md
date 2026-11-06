@@ -24,6 +24,9 @@ The engine tracks people and institutions as actors. This register is an index, 
 
 The dossiers distinguish established strategic agendas from active projects. Do not invent exact military strengths, treasury figures, or secret plans.
 
+### Rumors and information
+- [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) records objective GM truth, unresolved facts, and plausible information channels for the starting city's initial rumors.
+
 ### Tallowmere local political actors
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) contains the initial profiles for House Denvor, Avenholt, Velleran, Merewick, Relland, Kharadorn's Charter House, and the Chartered Council.
 - Civic officers and local NPCs are detailed in the starting-city Civic NPCs record.

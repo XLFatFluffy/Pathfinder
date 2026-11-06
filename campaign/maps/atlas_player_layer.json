@@ -1,7 +1,7 @@
 {
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
-  "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_ONLY",
-  "note": "Player-facing continental layer containing only established major cities, Great House principal seats and strongholds, major ports, prominent fortresses, and continent-scale routes. Minor and regional settlements are intentionally excluded and belong on their relevant regional maps. Tallowmere and Dragonstone positions reflect the GM's latest saved atlas placements; other coordinates remain approximate unless explicitly marked otherwise and must be visually reviewed against campaign/maps/continent_atlas.png. Political overlays remain absent until non-overlapping boundaries are established and approved.",
+  "status": "CURATED_PLAYER_LAYER_MAJOR_PLACES_AND_ESTABLISHED_ROUTE_DRAFTS",
+  "note": "Player-facing continental layer with 15 major public places and six GM-drafted established continental routes. Marker coordinates were merged from the 2026-11-06 GM atlas coordinate export and visually checked against the authoritative artwork. Route polylines are cartographic drafts connecting established major places, not surveyed road alignments; GM review remains required. Political borders, geographic region polygons, and maritime influence remain withheld until their geometry is supportable and approved.",
   "layers": [
     {
       "map": "continent_atlas",
@@ -18,7 +18,7 @@
           "y": 0.293538,
           "description": "Starting city; northwestern shore of the central inland sea at the mouth of the River Vale.",
           "player_visible": true,
-          "status": "GM_CALIBRATED_ANCHOR_PENDING_VISUAL_REVIEW",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "city",
           "location_source_id": "tallowmere"
         },
@@ -30,7 +30,7 @@
           "y": 0.381772,
           "description": "Conquered island stronghold in the central inland sea; narrow natural land bridge.",
           "player_visible": true,
-          "status": "GM_CALIBRATED_ANCHOR_PENDING_VISUAL_REVIEW",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -41,7 +41,7 @@
           "y": 0.27,
           "description": "Ancestral homeland of House Kharadorn in the northeastern mountain system.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -52,7 +52,7 @@
           "y": 0.13,
           "description": "Principal seat of House Veyr in the northern territories.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -63,7 +63,7 @@
           "y": 0.36,
           "description": "Principal seat of House Vaelorian in the Western Highlands.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "city"
         },
         {
@@ -74,7 +74,7 @@
           "y": 0.55,
           "description": "Principal seat of House Edarth in the Western Heartlands.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -85,7 +85,7 @@
           "y": 0.61,
           "description": "Capital of the Crownlands and location of the Imperial Seat, inland at a major river confluence.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "city"
         },
         {
@@ -96,7 +96,7 @@
           "y": 0.45,
           "description": "Principal seat of House Merrowen on the eastern coast.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "port"
         },
         {
@@ -107,7 +107,7 @@
           "y": 0.27,
           "description": "Northern settlement associated with House Veyr.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -118,7 +118,7 @@
           "y": 0.36,
           "description": "Dwarven settlement associated with the central inland sea.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "port"
         },
         {
@@ -129,7 +129,7 @@
           "y": 0.31,
           "description": "Dwarven settlement associated with House Kharadorn.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -140,7 +140,7 @@
           "y": 0.29,
           "description": "Settlement in House Merrowen's northern coastal territory.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "fortress"
         },
         {
@@ -151,7 +151,7 @@
           "y": 0.59,
           "description": "Port in the eastern river delta.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "port"
         },
         {
@@ -162,7 +162,7 @@
           "y": 0.72,
           "description": "Port on the southern/eastern coast.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "port"
         },
         {
@@ -173,11 +173,370 @@
           "y": 0.82,
           "description": "Port in the Southern Islands / Southern Reaches.",
           "player_visible": true,
-          "status": "ESTABLISHED_REGION_ONLY",
+          "status": "GM_COORDINATE_PATCH_VISUALLY_REVIEWED_2026_11_06",
           "location_type": "port"
         }
       ],
-      "overlays": []
+      "overlays": [
+        {
+          "source_id": "continent_atlas/routes/northern-road",
+          "name": "Northern Road",
+          "overlay_type": "route",
+          "color": "#b58a45",
+          "points": [
+            {
+              "x": 0.51,
+              "y": 0.13
+            },
+            {
+              "x": 0.53,
+              "y": 0.19
+            },
+            {
+              "x": 0.58,
+              "y": 0.23
+            },
+            {
+              "x": 0.64,
+              "y": 0.27
+            },
+            {
+              "x": 0.68,
+              "y": 0.29
+            },
+            {
+              "x": 0.72,
+              "y": 0.31
+            },
+            {
+              "x": 0.7,
+              "y": 0.35
+            },
+            {
+              "x": 0.64,
+              "y": 0.37
+            },
+            {
+              "x": 0.59,
+              "y": 0.37
+            },
+            {
+              "x": 0.55,
+              "y": 0.36
+            },
+            {
+              "x": 0.53,
+              "y": 0.42
+            },
+            {
+              "x": 0.53,
+              "y": 0.49
+            },
+            {
+              "x": 0.53,
+              "y": 0.55
+            },
+            {
+              "x": 0.53,
+              "y": 0.61
+            }
+          ],
+          "player_visible": true
+        },
+        {
+          "source_id": "continent_atlas/routes/western-mountain-road",
+          "name": "Western Mountain Road",
+          "overlay_type": "route",
+          "color": "#9b7653",
+          "points": [
+            {
+              "x": 0.29,
+              "y": 0.36
+            },
+            {
+              "x": 0.31,
+              "y": 0.41
+            },
+            {
+              "x": 0.34,
+              "y": 0.46
+            },
+            {
+              "x": 0.36,
+              "y": 0.51
+            },
+            {
+              "x": 0.38,
+              "y": 0.55
+            },
+            {
+              "x": 0.42,
+              "y": 0.56
+            },
+            {
+              "x": 0.45,
+              "y": 0.55
+            },
+            {
+              "x": 0.48,
+              "y": 0.52
+            },
+            {
+              "x": 0.51,
+              "y": 0.51
+            },
+            {
+              "x": 0.53,
+              "y": 0.55
+            },
+            {
+              "x": 0.53,
+              "y": 0.61
+            }
+          ],
+          "player_visible": true
+        },
+        {
+          "source_id": "continent_atlas/routes/kings-road",
+          "name": "King's Road",
+          "overlay_type": "route",
+          "color": "#d6b35d",
+          "points": [
+            {
+              "x": 0.47,
+              "y": 0.294
+            },
+            {
+              "x": 0.48,
+              "y": 0.35
+            },
+            {
+              "x": 0.49,
+              "y": 0.41
+            },
+            {
+              "x": 0.5,
+              "y": 0.47
+            },
+            {
+              "x": 0.51,
+              "y": 0.53
+            },
+            {
+              "x": 0.53,
+              "y": 0.61
+            },
+            {
+              "x": 0.58,
+              "y": 0.64
+            },
+            {
+              "x": 0.64,
+              "y": 0.67
+            },
+            {
+              "x": 0.7,
+              "y": 0.69
+            },
+            {
+              "x": 0.77,
+              "y": 0.7
+            },
+            {
+              "x": 0.84,
+              "y": 0.71
+            },
+            {
+              "x": 0.9,
+              "y": 0.72
+            }
+          ],
+          "player_visible": true
+        },
+        {
+          "source_id": "continent_atlas/routes/eastern-coastal-road",
+          "name": "Eastern Coastal Road",
+          "overlay_type": "route",
+          "color": "#8b9caa",
+          "points": [
+            {
+              "x": 0.88,
+              "y": 0.29
+            },
+            {
+              "x": 0.89,
+              "y": 0.34
+            },
+            {
+              "x": 0.89,
+              "y": 0.4
+            },
+            {
+              "x": 0.88,
+              "y": 0.45
+            },
+            {
+              "x": 0.88,
+              "y": 0.5
+            },
+            {
+              "x": 0.87,
+              "y": 0.55
+            },
+            {
+              "x": 0.87,
+              "y": 0.59
+            },
+            {
+              "x": 0.88,
+              "y": 0.64
+            },
+            {
+              "x": 0.9,
+              "y": 0.68
+            },
+            {
+              "x": 0.9,
+              "y": 0.72
+            },
+            {
+              "x": 0.88,
+              "y": 0.77
+            },
+            {
+              "x": 0.86,
+              "y": 0.82
+            }
+          ],
+          "player_visible": true
+        },
+        {
+          "source_id": "continent_atlas/routes/southern-trade-road",
+          "name": "Southern Trade Road",
+          "overlay_type": "route",
+          "color": "#b18b65",
+          "points": [
+            {
+              "x": 0.38,
+              "y": 0.55
+            },
+            {
+              "x": 0.4,
+              "y": 0.61
+            },
+            {
+              "x": 0.43,
+              "y": 0.66
+            },
+            {
+              "x": 0.48,
+              "y": 0.7
+            },
+            {
+              "x": 0.54,
+              "y": 0.73
+            },
+            {
+              "x": 0.6,
+              "y": 0.75
+            },
+            {
+              "x": 0.67,
+              "y": 0.75
+            },
+            {
+              "x": 0.74,
+              "y": 0.74
+            },
+            {
+              "x": 0.82,
+              "y": 0.73
+            },
+            {
+              "x": 0.9,
+              "y": 0.72
+            },
+            {
+              "x": 0.88,
+              "y": 0.77
+            },
+            {
+              "x": 0.86,
+              "y": 0.82
+            }
+          ],
+          "player_visible": true
+        },
+        {
+          "source_id": "continent_atlas/routes/inland-sea-route",
+          "name": "Inland Sea Route",
+          "overlay_type": "route",
+          "color": "#5f9eb8",
+          "points": [
+            {
+              "x": 0.470993,
+              "y": 0.293538
+            },
+            {
+              "x": 0.51,
+              "y": 0.32
+            },
+            {
+              "x": 0.55,
+              "y": 0.35
+            },
+            {
+              "x": 0.584224,
+              "y": 0.381772
+            },
+            {
+              "x": 0.62,
+              "y": 0.4
+            },
+            {
+              "x": 0.66,
+              "y": 0.43
+            },
+            {
+              "x": 0.7,
+              "y": 0.48
+            },
+            {
+              "x": 0.72,
+              "y": 0.54
+            },
+            {
+              "x": 0.7,
+              "y": 0.59
+            },
+            {
+              "x": 0.66,
+              "y": 0.61
+            },
+            {
+              "x": 0.61,
+              "y": 0.59
+            },
+            {
+              "x": 0.58,
+              "y": 0.54
+            },
+            {
+              "x": 0.55,
+              "y": 0.48
+            },
+            {
+              "x": 0.55,
+              "y": 0.42
+            },
+            {
+              "x": 0.55,
+              "y": 0.36
+            }
+          ],
+          "player_visible": true
+        }
+      ]
     }
   ],
   "import_instructions": {

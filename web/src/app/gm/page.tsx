@@ -35,6 +35,8 @@ export default async function GmPage({
     charactersResult,
     activeQuestsResult,
     { data: latestSessions, error: latestSessionsError },
+    { data: notableNpcs, error: notableNpcError },
+    { data: notableFactions, error: notableFactionError },
   ] = await Promise.all([
     supabase
       .from("campaigns")
@@ -84,6 +86,20 @@ export default async function GmPage({
       .eq("campaign_id", member.campaign_id)
       .order("session_number", { ascending: false })
       .limit(3),
+    supabase
+      .from("campaign_npcs")
+      .select("id, name, status, occupation")
+      .eq("campaign_id", member.campaign_id)
+      .order("updated_at", { ascending: false })
+      .order("id", { ascending: false })
+      .limit(3),
+    supabase
+      .from("campaign_factions")
+      .select("id, name, faction_type")
+      .eq("campaign_id", member.campaign_id)
+      .order("updated_at", { ascending: false })
+      .order("id", { ascending: false })
+      .limit(3),
   ]);
 
   if (error) {
@@ -97,6 +113,13 @@ export default async function GmPage({
   if (latestSessionsError) {
     throw new Error(`Unable to load recent sessions: ${latestSessionsError.message}`);
   }
+  if (notableNpcError) {
+    throw new Error(`Unable to load notable NPCs: ${notableNpcError.message}`);
+  }
+  if (notableFactionError) {
+    throw new Error(`Unable to load notable factions: ${notableFactionError.message}`);
+  }
+  const nextSession = latestSessions.find((session) => session.campaign_date) ?? null;
   const countResults = [
     ["locations", locationsResult],
     ["NPCs", npcsResult],
@@ -143,29 +166,68 @@ export default async function GmPage({
     ["Characters", charactersResult.count],
   ] as const;
 
+  const quickActions = [
+    { label: "Create quest", href: "/gm/quests" },
+    { label: "Add NPC", href: "/gm/npcs" },
+    { label: "Add location", href: "/gm/locations" },
+    { label: "Manage sessions", href: "/gm/sessions" },
+    { label: "Open calendar", href: "/gm/calendar" },
+    { label: "Review atlas", href: "/gm/atlas" },
+  ];
+
   return (
     <>
       <h2>{campaign.name}</h2>
       <p className="muted">
-        This account is verified as the GM. Manage campaign journal entries
-        here; player visibility is also enforced by database policy.
+        This account is verified as the GM. Use the campaign control room to
+        track the world state, session momentum, and active story threads.
       </p>
-      <p className="muted">
-        <Link href="/gm/npcs">Manage campaign NPCs</Link>
-        {" · "}
-        <Link href="/gm/factions">Manage campaign factions</Link>
-        {" · "}
-        <Link href="/gm/quests">Manage campaign quests</Link>
-        {" · "}
-        <Link href="/gm/sessions">Manage session logs</Link>
-        {" · "}
-        <Link href="/gm/characters">Review player characters</Link>
-        {" · "}
-        <Link href="/gm/import">AI campaign-data import</Link>
-      </p>
-      <section className="gm-dashboard" aria-labelledby="campaign-state-heading">
+      <div className="gm-dashboard" aria-labelledby="campaign-state-heading">
         <div className="section-heading">
-          <h3 id="campaign-state-heading">Campaign state</h3>
+          <div>
+            <p className="eyebrow">Campaign overview</p>
+            <h3 id="campaign-state-heading">Current world state</h3>
+          </div>
+          <span className="header-pill">Today: 1 Harvestfall, 243 AC</span>
+        </div>
+        <div className="gm-dashboard-grid" style={{ marginTop: "1rem" }}>
+          <article className="gm-dashboard-card">
+            <span className="muted">Current in-world date</span>
+            <strong>1 Harvestfall, 243 AC</strong>
+          </article>
+          <article className="gm-dashboard-card">
+            <span className="muted">Next session</span>
+            <strong>
+              {nextSession?.campaign_date ?? "No date recorded"}
+            </strong>
+          </article>
+          <article className="gm-dashboard-card">
+            <span className="muted">Active quests</span>
+            <strong>{activeQuestsResult.count ?? 0}</strong>
+          </article>
+          <article className="gm-dashboard-card">
+            <span className="muted">Latest update</span>
+            <strong>{latestSessions[0]?.campaign_date ?? "No updates yet"}</strong>
+          </article>
+        </div>
+      </div>
+
+      <section className="entry-list" aria-labelledby="quick-actions-heading">
+        <div className="section-heading">
+          <h3 id="quick-actions-heading">Quick actions</h3>
+        </div>
+        <div className="gm-dashboard-grid">
+          {quickActions.map(({ label, href }) => (
+            <Link key={label} href={href} className="button-link" style={{ width: "100%" }}>
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="gm-dashboard" aria-labelledby="campaign-state-heading-2">
+        <div className="section-heading">
+          <h3 id="campaign-state-heading-2">Campaign state</h3>
           <p className="muted">
             {activeQuestsResult.count ?? 0} active quests
           </p>
@@ -195,6 +257,45 @@ export default async function GmPage({
           ) : (
             <p className="muted">No cloud session logs have been added.</p>
           )}
+        </div>
+      </section>
+
+      <section className="entry-list" aria-labelledby="signals-heading">
+        <div className="section-heading">
+          <h3 id="signals-heading">Notable signals</h3>
+        </div>
+        <div className="gm-dashboard-grid">
+          <article className="entry-card">
+            <p className="eyebrow">Important NPCs</p>
+            {notableNpcs.length ? (
+              <ul className="history-list">
+                {notableNpcs.map((npc) => (
+                  <li key={npc.id}>
+                    <strong>{npc.name}</strong>
+                    {npc.status ? ` · ${npc.status}` : ""}
+                    {npc.occupation ? ` · ${npc.occupation}` : ""}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="muted">No NPCs recorded yet.</p>
+            )}
+          </article>
+          <article className="entry-card">
+            <p className="eyebrow">Factions to watch</p>
+            {notableFactions.length ? (
+              <ul className="history-list">
+                {notableFactions.map((faction) => (
+                  <li key={faction.id}>
+                    <strong>{faction.name}</strong>
+                    {faction.faction_type ? ` · ${faction.faction_type}` : ""}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="muted">No factions recorded yet.</p>
+            )}
+          </article>
         </div>
       </section>
       <JournalEntryForm />

@@ -158,7 +158,7 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 
 **PENDING:** Exact arrival point and final first-session NPC encounters. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
 
-**Player handout readiness:** Shared world and Tallowmere guide drafted. Individual starting-inventory and character-specific knowledge supplements remain pending the character sheets and backstories.
+**Player handout readiness:** Shared world and Tallowmere guide updated with established public history and calendar; the PCs' supplied backstories and shared promise are recorded in `player_characters/`. Individual starting-inventory supplements and any additional character-specific knowledge beyond those backstories remain pending the completed character sheets and final player review.
 
 
 ## Tallowmere — Residential Life and Housing (2026-11-04)

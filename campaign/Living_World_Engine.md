@@ -277,6 +277,7 @@ The regional baseline does not establish an active territorial war or a specific
 - [Continental Strategic Pressure Register](world_engine/Continental_Strategic_Pressure_Register.md) records the established structural tensions among the Crown, Great Houses, and Southern Reaches without turning them into invented active crises.
 - [World Event Record Template](world_engine/World_Event_Record_Template.md) provides the event-history structure.
 - [World Turn Report Template](world_engine/World_Turn_Report_Template.md) provides the recurring GM review format.
+- [WTR-001 Opening Baseline](world_engine/reports/World_Turn_001_Opening_Baseline.md) records the first world-engine snapshot.
 - [Initial Project Register](world_engine/Initial_Project_Register.md) tracks the starting region's established efforts.
 
-No first world turn has been run. The campaign remains at 1 Harvestfall, 243 AC until in-world time advances at the table or the GM requests a specific simulation snapshot.
+WTR-001, the campaign-opening baseline snapshot, was completed on 1 Harvestfall, 243 AC with zero days elapsed. No event was generated and the calendar did not advance. Future world turns follow actual in-world time or an explicit GM request.

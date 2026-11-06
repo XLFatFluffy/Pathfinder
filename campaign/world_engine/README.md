@@ -29,7 +29,7 @@ This folder contains the structured GM records used to track the world beyond th
 - Six Tallowmere projects and six continental projects are recorded, with statuses and unknowns kept explicit.
 - Six continent-wide structural pressures are indexed for future review; none is a current war or crisis by itself.
 - Feudal law and landed obligations now have a consistent working framework; detailed local charters and court procedures remain open.
-- Event and world-turn ledgers are initialized; no first world turn has been run.
+- Event and world-turn ledgers are initialized; WTR-001 is complete as a zero-time opening snapshot.
 - No active territorial border war is established. The Longmead boundary dispute is a local customary-rights case, not a war; no named-house border dispute is established in Tallowmere itself.
 - Exact local borders, several superior jurisdictions, and resource/military figures remain unresolved.
 

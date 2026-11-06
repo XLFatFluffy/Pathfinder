@@ -197,3 +197,12 @@
 - Added navigation records for the history library, location dossiers, and Tallowmere's local reference collection.
 - Corrected geography and source-material instructions to point to the current authoritative atlas at `campaign/maps/continent_atlas.png`.
 - Updated the campaign directory index and subject-folder guidance. No lore was rewritten or promoted to canon as part of this organizational change.
+
+## 2026-11-06 - Atlas scale separation, regional roads, and territory framework
+
+- Confirmed the continental atlas is a major-place overview only; minor and regional settlements belong on their relevant regional maps.
+- Added a route-tracing plan for the six established Tallowmere regional roads, including the River Vale Road's intermediate connection through Millhaven to Fordmere.
+- Added structured local authority records for Houses Denvor, Avenholt, Velleran, Merewick, Saltwick's freeholders, and Kharadorn's strategic and charter role.
+- Distinguished direct territorial control, vassal holdings, charter rights, and strategic interests so they are not mistakenly rendered as identical political polygons.
+- Updated overlay standards to prioritize established road traces, then provisional Great House boundary drafts, with GM approval before player publication.
+- No route coordinates, territory polygons, or unsupported borders were invented or promoted to the live atlas. Exact regional and continental border geometry remains a cartographic decision requiring artwork review and GM approval.

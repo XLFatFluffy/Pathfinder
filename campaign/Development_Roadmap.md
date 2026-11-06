@@ -163,3 +163,10 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Added an initial project register for the harbor-defense review, warehouse safety effort, ratfolk market access, harbor allocation, harvest monitoring, and Denvor defense deliberations.
 - Confirmed that no active territorial border war or named-house border dispute is established in the Tallowmere region. Local resource-right and boundary complaints remain distinct from noble warfare.
 - Next: establish event and world-turn ledgers; expand only the actors and institutions that become relevant; later build the wider regional political network after map/border calibration.
+
+
+## Living World Engine — Great House and event framework (Nov 6, 2026)
+- Added `campaign/world_engine/Great_House_Actor_Dossiers.md` consolidating established agendas and constraints for all six Great Houses without inventing new plots or numerical resources.
+- Added reusable world-event and world-turn report templates.
+- Added the initial project register and linked actor, holdings, issue, project, and event documentation.
+- First world turn remains pending actual in-world time advancement. The current baseline is 1 Harvestfall, 243 AC.

@@ -7,7 +7,7 @@ The six Council representatives are not automatically the rulers of their Great 
 
 ## 1. The Imperial Council
 
-The Imperial Council has six permanent seats, one appointed by each Great House. The monarch presides but does not hold an additional Great House seat. The Council remains an aristocratic institution of negotiation and privilege, not a modern parliament. Its exact voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved.
+The Imperial Council has six permanent seats, one appointed by each Great House. The monarch presides but does not hold an additional Great House seat. The Council remains an aristocratic institution of negotiation and privilege, not a modern parliament. Its operating rules are established in `Imperial_Governance_Operating_Framework.md`.
 
 ### House Calderan — Lord Chancellor Othmar Rusk
 A senior Crown noble from an old Calderan vassal family, appointed as the Crown's representative to the Council. Rusk is an experienced administrator and negotiator, loyal to the dynasty but not blindly loyal to King Aldric's every decision. He believes the monarchy must preserve its legitimacy by observing the settlement's customs even while gradually expanding its practical authority.
@@ -158,8 +158,9 @@ Neither Aveline nor Odran is assumed to possess divine spellcasting ability. The
 
 ## 6. Unresolved Details
 
-- Exact Council voting rules, quorum, vetoes, formal powers, and customary procedures.
-- How each Great House appoints or removes its Council representative.
+- Wider family trees and collateral branches beyond the established rulers and immediate families.
+- Exact household officers, commanders, and senior retainers beyond those already established.
+- The detailed legal precedents behind some Great House privileges and the historical cases that shaped them.
 - The size, funding, recruitment, and actual reach of Nerys Vale's intelligence network.
 - The exact composition and command structure of the royal military.
 - The relative strength, membership, and wider networks of the five court factions.

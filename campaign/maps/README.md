@@ -45,7 +45,7 @@ Tallowmere's current GM-calibrated atlas anchor is X=47.0993%, Y=29.3538% of the
 - Geographic regions include the Northern Wilderness, Western Highlands, Western Heartlands, Central Plains, Central Inland Sea, Northeastern Mountain System, Eastern Forests and Delta, Southwestern Marches, Southern Principalities, and Southern Islands.
 - Kharadorn's Central Inland Sea dominion and Merrowen's maritime reach are recorded as maritime influence, not coastal sovereignty.
 - Major overland and sea routes are registered separately from political and geographic overlays.
-- The Tallowmere hierarchy is registered as Continent → Tallowmere Regional Map → Tallowmere City. The approved regional artwork is stored at `campaign/maps/tallowmere_regional.png`; the approved city artwork is stored at `campaign/maps/tallowmere_city.png`. Both still require cartographic calibration before their geometry is promoted into the live synchronization layer.
+- The Tallowmere hierarchy is registered as Continent → Tallowmere Regional Map → Tallowmere City. The approved regional artwork is stored at `campaign/maps/tallowmere_regional.png`; the approved city artwork is stored at `campaign/maps/tallowmere_city.png`. Both still require cartographic calibration before their geometry is promoted into the live synchronization layer. The corresponding Supabase map records now carry the stable IDs `tallowmere_regional` and `tallowmere_city`.
 - The registry is a canon and cartography planning source, not a live synchronization file. Only reviewed geometry should be promoted into `atlas_player_layer.json`.
 
 ## Map authority

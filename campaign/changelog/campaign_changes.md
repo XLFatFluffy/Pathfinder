@@ -1,3 +1,11 @@
+## 2026-11-06 - Tallowmere city calibration plan
+
+- Added `campaign/maps/tallowmere_city_layer_plan.md` as the working cartographic plan for the city map.
+- Enumerated only city features already established in campaign canon: Greywatch, named districts, gates, established routes, harbor/river geometry, and defensive context.
+- Explicitly withheld city coordinates, district polygons, road paths, wall geometry, and Underways access points until the artwork can be visually calibrated.
+- No new lore or map geometry was invented.
+- The city artwork remains in `campaign/maps/tallowmere_city.png`; the next live-layer step is artwork calibration followed by stable marker coordinates and reviewed synchronization.
+
 ## 2026-11-05 - Tallowmere city map library integration
 
 - Moved the GM-approved city artwork from the repository root to `campaign/maps/tallowmere_city.png`.

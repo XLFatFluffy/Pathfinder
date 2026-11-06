@@ -16,7 +16,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-002 | P0 | Opening situation | The PCs arrive in Tallowmere at the start of Session One and already know each other. What are the precise arrival circumstances, immediate situation, and opening scene? | PARTIALLY RESOLVED: arrival city and prior acquaintance established; opening details remain unresolved |
 | OQ-003 | P0 | First-session cast | Which NPCs will the PCs meet, and what do those NPCs want? | UNRESOLVED |
 | OQ-004 | P0 | First-session play space | What locations can the PCs visit during the opening session? | UNRESOLVED |
-| OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | UNRESOLVED |
+| OQ-005 | P0 | Campaign date | What is the current date and what calendar conventions apply? | RESOLVED: Calendar established in `history/Calendar.md`; Session One begins 1 Harvestfall, 243 AC |
 | OQ-006 | P1 | Fallen dragon-riding dynasty | What original name, identity, heraldry, and distinct political legacy will replace the inherited labels? The rebellion is established as occurring approximately 200–300 years before the present campaign, but its exact calendar year remains open. | PARTIALLY RESOLVED |
 | OQ-007 | P1 | Great houses and political leadership | Six houses, broad territories, principal seats, current rulers and heirs, Council representatives, Crown officers, and five court-faction leaders are established in Stages 5, 8, and 9 and their dedicated records. Exact borders, wider family trees, detailed house histories, faction membership and influence, and Council procedure remain open. | CORE FRAMEWORK ESTABLISHED; DETAILS OPEN |
 | OQ-008 | P1 | Ratfolk societies | What are the detailed names, population, customs, leadership, and local geography of the Underways and wider nearby ratfolk network? | PARTIALLY ESTABLISHED: decentralized ratfolk community framework and Tallowmere Underways concept documented; detailed local particulars remain open |
@@ -27,6 +27,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-013 | P3 | Divine magic | How do the real Pathfinder gods grant or mediate divine magic, and what forms of devotion are involved? | UNRESOLVED; gods' existence is ESTABLISHED |
 | OQ-014 | P3 | Vampirism | What are the origins, limits, and hidden history of vampirism in this world? | UNRESOLVED |
 | OQ-016 | P1 | Post-rebellion succession | What forces, relationships, and political dependencies constrain or influence King Aldric Calderan, and what were the precise events and dates of the succession crisis? He has a legitimate hereditary claim and substantial formal authority; do not assume a single controller or that Kharadorn controls him. The same dwarven leader ruled for more than a century; his successor inherited dwarven authority, threatened war unless a human was placed on the throne, then reluctantly accepted the compromise and returned to Dragonstone to continue ruling the clans. The dwarven empire and human monarchy maintain an uneasy peace and mutual distrust; war would not favor the dwarves, but they are not afraid of it. | PARTIALLY ESTABLISHED |
+| OQ-017 | P1 | Greywatch naming | Are the Veyr-associated northern Greywatch and House Denvor's Greywatch within Tallowmere intentionally separate places sharing a name, or should one receive a distinct name? | UNRESOLVED: Both uses appear in current atlas and Tallowmere records; no rename made |
 | OQ-015 | P3 | Dragons | What is the ultimate fate of dragons that fled after losing their riders? Most dragons were killed during the rebellion; the survivors' fate is unknown. | PARTIALLY RESOLVED |
 
 ## Rules
@@ -112,7 +113,7 @@ The relative city layout, gates and defenses framework, surrounding regional str
 - Named criminal operators, groups, safehouses, and particular illicit markets.
 - The proper name of the surrounding region, settlement names, distances, population, land tenure, minor houses, and specific wilderness sites.
 - The truth behind current rumors, the exact identity of any merchant consortium, and the specific Kharadorn envoy.
-- The PCs' opening situation and the precise date of the campaign's first session.
+- The PCs' precise arrival point and the final NPCs they meet; the campaign date is now established in `history/Calendar.md`.
 
 
 ## Tallowmere — Merchant Relationships and Disputes (2026-11-04)
@@ -153,9 +154,11 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 
 **ESTABLISHED:** The two level-5 PCs arrive in Tallowmere at the beginning of Session One. They already know each other. They should be treated as newcomers to the city; do not assume prior residence, established local contacts, or detailed local knowledge without support from their eventual backstories.
 
-**PENDING:** Exact campaign date and calendar, arrival circumstances, precise starting location, opening scene, and first-session cast. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
+**ESTABLISHED:** The campaign calendar and initial date are recorded in `history/Calendar.md`; Session One begins 1 Harvestfall, 243 AC. The shared player starting handout is drafted in `player_materials/Player_Starting_Handout.md` from established public canon.
 
-**Player handout readiness:** The shared world and Tallowmere guide can be drafted from established canon. Individual starting-inventory and character-specific knowledge supplements must wait for the character sheets and backstories.
+**PENDING:** Exact arrival point and final first-session NPC encounters. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
+
+**Player handout readiness:** Shared world and Tallowmere guide drafted. Individual starting-inventory and character-specific knowledge supplements remain pending the character sheets and backstories.
 
 
 ## Tallowmere — Residential Life and Housing (2026-11-04)

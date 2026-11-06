@@ -15,6 +15,7 @@ This folder contains the structured GM records used to track the world beyond th
 - [Initial Issue Register](Initial_Issue_Register.md) — seven starting pressures and regional friction points.
 - [Initial Project Register](Initial_Project_Register.md) — Tallowmere efforts and their evidence status.
 - [Continental Project Register](Continental_Project_Register.md) — active and proposed administrative/commercial efforts across the wider continent.
+- [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) — GM-only truth and knowledge boundaries behind the initial city rumors.
 - [World Event Record Template](World_Event_Record_Template.md) — reusable event record.
 - [World Turn Report Template](World_Turn_Report_Template.md) — reusable GM-reviewed time-advance report.
 

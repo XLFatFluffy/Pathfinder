@@ -1,7 +1,7 @@
 {
   "format": "pathfinder-continental-overlay-registry",
   "schema_version": 1,
-  "status": "PHASE_A_GEOGRAPHIC_DRAFTS_CREATED_POLITICAL_AUTHORITY_REGISTER_CREATED_POLITICAL_AND_MARITIME_GEOMETRY_PENDING",
+  "status": "PHASE_A_ROUTES_APPROVED_GEOGRAPHIC_DRAFTS_PENDING_GM_REVIEW_POLITICAL_AND_MARITIME_GEOMETRY_PENDING",
   "map_source_id": "continent_atlas",
   "map_name": "The Continent",
   "artwork": "campaign/maps/continent_atlas.png",
@@ -550,41 +550,45 @@
       "overlay_type": "region",
       "category": "geographic",
       "canon_status": "ESTABLISHED_GEOGRAPHIC_FRAMEWORK",
-      "boundary_status": "ILLUSTRATIVE_DRAFT_TRACED_FROM_AUTHORITATIVE_ARTWORK_PENDING_GM_REVIEW",
+      "boundary_status": "ILLUSTRATIVE_WATERBODY_EXTENT_TRACED_FROM_MASTER_ARTWORK_PENDING_GM_REVIEW",
       "geometry": {
         "coordinate_system": "normalized 0-1; x from left, y from top; north up",
         "points": [
           {
-            "x": 0.43,
-            "y": 0.31
+            "x": 0.47,
+            "y": 0.35
           },
           {
             "x": 0.51,
-            "y": 0.3
+            "y": 0.33
           },
           {
-            "x": 0.57,
-            "y": 0.32
+            "x": 0.56,
+            "y": 0.33
           },
           {
-            "x": 0.62,
-            "y": 0.34
+            "x": 0.61,
+            "y": 0.35
           },
           {
-            "x": 0.67,
-            "y": 0.37
+            "x": 0.66,
+            "y": 0.38
           },
           {
-            "x": 0.72,
-            "y": 0.4
+            "x": 0.7,
+            "y": 0.41
           },
           {
-            "x": 0.75,
-            "y": 0.46
+            "x": 0.73,
+            "y": 0.45
           },
           {
             "x": 0.74,
-            "y": 0.52
+            "y": 0.49
+          },
+          {
+            "x": 0.73,
+            "y": 0.53
           },
           {
             "x": 0.7,
@@ -595,34 +599,50 @@
             "y": 0.59
           },
           {
-            "x": 0.6,
+            "x": 0.62,
+            "y": 0.6
+          },
+          {
+            "x": 0.58,
+            "y": 0.6
+          },
+          {
+            "x": 0.54,
             "y": 0.58
           },
           {
-            "x": 0.55,
+            "x": 0.51,
             "y": 0.56
           },
           {
-            "x": 0.5,
-            "y": 0.53
+            "x": 0.48,
+            "y": 0.54
           },
           {
             "x": 0.45,
-            "y": 0.5
+            "y": 0.51
+          },
+          {
+            "x": 0.43,
+            "y": 0.48
           },
           {
             "x": 0.42,
             "y": 0.44
           },
           {
-            "x": 0.4,
-            "y": 0.38
+            "x": 0.44,
+            "y": 0.4
+          },
+          {
+            "x": 0.46,
+            "y": 0.37
           }
         ]
       },
       "player_visible": false,
       "source_document": "campaign/maps/Continental_Cartographic_Phase_A.md",
-      "notes": "The coastline itself is authoritative artwork. Do not redraw it. Illustrative geographic extent traced against authoritative continental artwork; broad regional overlay, not a surveyed or exclusive boundary."
+      "notes": "Broad basin/waterbody extent traced to the visible central inland sea. This is a geographic overlay, not a sovereignty claim; Dragonstone and its natural landbridge remain established geographic features. Coastline itself is controlled by the master artwork."
     },
     {
       "source_id": "continent_atlas/geographic/northeastern-mountains",

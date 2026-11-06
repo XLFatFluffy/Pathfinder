@@ -2,7 +2,7 @@
 
 **Target campaign opening:** 1 Harvestfall, 243 AC  
 **Target first session:** 8 November 2026 (real-world scheduling note)  
-**Status:** Core worldbuilding phases A–F are complete at the framework level. WTR-001 opening baseline is complete. Remaining non-player blocker: final artwork-dependent map geometry. Session encounter mechanics remain pending player character sheets and final companion approval.
+**Status:** Core worldbuilding phases A–F and WTR-001 are complete. The continental map now has 15 visually reviewed major-place anchors and six GM-approved public route overlays. Thirteen broad geographic overlays are drafted but remain GM-only pending review; exact Great House borders and maritime influence extents remain unresolved. Session encounter mechanics remain pending player character sheets and final companion approval.
 
 This checklist defines "complete enough to begin" rather than pretending an entire continent can be exhaustively written before play. The world remains expandable. The opening requires a coherent baseline, active actors, understandable pressures, and a way to record consequences.
 
@@ -12,7 +12,7 @@ This checklist defines "complete enough to begin" rather than pretending an enti
 |---|---|---|
 | Setting identity and tone | READY | Westeros-inspired high-medieval fantasy using Pathfinder First Edition; no industrial/steampunk direction. |
 | Great Houses and Crown | READY | Six Great Houses, rulers, heirs, Council representatives, Crown officers, court faction leaders, and strategic pressures established. |
-| Broad political geography | READY FOR PLAY / CARTOGRAPHIC CALIBRATION PENDING | Great House spheres, principal seats, road network, geographic overlays, and border-drafting rules established. Exact borders and atlas polygons remain blocked pending artwork calibration. |
+| Broad political geography | READY FOR PLAY / FINAL CARTOGRAPHIC REVIEW PENDING | Fifteen major-place anchors are visually reviewed; six routes are GM-approved and player-visible; thirteen geographic drafts remain GM-only pending review. Exact Great House borders and maritime extents remain unresolved. |
 | Tallowmere and immediate region | READY FOR PLAY | City, districts, local government, settlements, roads, local houses, civic NPCs, guilds, commerce, and public destinations documented. Exact geometry remains provisional. |
 | Minor houses and regional powers | READY | First continental network plus Tallowmere local network established; legal relationships and political operating rules now support simulation. |
 | Feudal law and obligations | READY | Land tenure, homage, inheritance, jurisdiction, courts, customary rights, vassal consequences, and political escalation rules documented. Detailed local charters remain open where genuinely local. |

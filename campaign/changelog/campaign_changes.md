@@ -337,3 +337,11 @@
 - Added `campaign/creatures/Regional_Wildlife_Catalogue.md` as a proposed ordinary-fauna catalogue, explicitly separate from established monster populations.
 - Corrected duplicate supporting-NPC IDs in `campaign/world_engine/Regional_Factions_and_Minor_Houses.md`.
 - Updated the actor index and worldbuilding-readiness record. WTR-001 remains the approved zero-time opening baseline on 1 Harvestfall, 243 AC; no additional world turn was run.
+
+
+## 2026-11-06 — Consolidated GM reference editions
+
+- Added `campaign/GM_Campaign_Bible.md`, a GM-only consolidated reference for current canon, protected PC truths, geography, Great Houses, Imperial government, history, minor powers, calendar, and Living World Engine procedures.
+- Added `campaign/locations/starting_city/Tallowmere_GM_Dossier.md`, a GM-only operational guide to Tallowmere's government, household, NPCs, districts, locations, shops, temples, hinterland, factions, rumors, criminal operators, current issues, and opening session.
+- Added navigation links to `campaign/README.md` and `campaign/locations/starting_city/README.md`.
+- The consolidated documents preserve unresolved details and defer to dedicated authoritative records; they do not invent map geometry, troop totals, PC statistics, or unapproved outcomes.

@@ -266,3 +266,8 @@ The campaign remains at **1 Harvestfall, 243 AC**. No first world turn has been 
 ## Tallowmere Ratfolk Community Networks — 2026-11-06
 
 The Underways remain decentralized, with no single ratfolk leader or unified political faction. Four informal networks are established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`: the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their named contacts include Nix-of-the-Cistern, Tikka Vell, Serren Coil, Miraq Ashwhisk, Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw. Their strategies differ over negotiation, public advocacy, route security, and household protection. The ratfolk PC's ambition may intersect with these networks, but he is not their automatic leader or representative.
+
+
+## First world turn — 1 Harvestfall, 243 AC
+
+WTR-001 was completed as an approved opening-state snapshot with zero days elapsed. The campaign's initial local and continental issues/projects, minor-house dispute, rumor knowledge boundaries, and wider political context were reviewed. No new event, war, assassination, crisis, or issue escalation was introduced. The campaign begins on 1 Harvestfall, 243 AC; subsequent world turns advance only when in-world time passes or the GM explicitly requests a simulation.

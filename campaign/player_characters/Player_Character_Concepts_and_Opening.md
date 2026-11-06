@@ -36,9 +36,10 @@ This creates a useful relationship dynamic:
 - The ratfolk has his own intelligence, talent, judgment, and developing expertise.
 - The vampire is a mentor, but not the owner of the ratfolk's choices.
 - The ratfolk is grateful and loyal, but should remain an independent character with his own ambitions and opinions.
+- The vampire has promised that helping him restore the fallen Targaryen dynasty could create substantial opportunities for the ratfolk to advance his goal of ending persecution and securing ratfolk acceptance and standing. The promise does not predetermine what reforms will occur, what position the ratfolk will hold, or whether the restoration will succeed.
 - Their friendship predates the campaign and should be portrayed as an established relationship, not repeatedly tested through artificial misunderstandings.
 
-The ratfolk PC's desire to improve the treatment and standing of ratfolk can be informed by the loss of his family and the injustice they suffered. Do not reduce his entire identity to that trauma.
+The ratfolk PC's desire to improve the treatment and standing of ratfolk can be informed by the loss of his family and the injustice they suffered. Do not reduce his entire identity to that trauma. The vampire has also promised that, if the ratfolk helps him reclaim the mantle of the fallen Targaryen dynasty and restore its power, that project will offer substantial potential and opportunities for advancing the ratfolk's own cause. This is an offer of potential, not a guarantee of equality, legal reform, political office, or any particular outcome.
 
 ### Unresolved Backstory Details
 
@@ -214,10 +215,14 @@ The campaign begins on **1 Harvestfall, 243 AC**. The Great Rebellion is current
 
 
 
-### Established long-term ambition and present strategy
+### Established long-term ambition, present strategy, and shared promise
 
 The vampire PC intends to take up the mantle of the fallen Targaryen dynasty and rebuild it into its former glory and power. He seeks to restore his family's rule, reclaim the throne, and retake Dragonstone, now held by House Kharadorn. The Great Rebellion was led by the dwarven power that is now represented in current canon by House Kharadorn; older source references to House Baratheon are superseded.
 
 His immediate strategy is to accumulate wealth and power. Wealth, political influence, allies, and eventual military strength are resources for the restoration project. This is an active long-term ambition, not merely a possible consequence of his ancestry. The exact methods, timetable, supporters, and sequence of political or military moves remain the player's decisions.
+
+### Promise to the Ratfolk PC
+
+The vampire has promised the ratfolk that helping him take up the mantle of the fallen Targaryen dynasty and restore its power offers substantial potential for advancing the ratfolk's own ambition: ending persecution and securing acceptance, safety, and standing for ratfolk. The restored dynasty's wealth, influence, and political reach could create opportunities for meaningful social change. This is a promise of potential, not a guarantee that ratfolk will achieve equality, that specific laws will change, or that the ratfolk will receive a particular title, office, or reward. The precise terms of their understanding and how the ratfolk intends to use those opportunities remain with the players.
 
 The player has previously established that the PC was nine years old when the Great Rebellion began, escaped the siege of Dragonstone, and spent centuries hiding and abandoning his name. Coordinate this with the current account of his 100–150 years of captivity and the broader chronology before assigning exact dates. Do not turn the provisional historical label “Dragonstone” into the confirmed original name of the old dynasty's seat.

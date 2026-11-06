@@ -81,6 +81,7 @@ These are the only entries registered in this first pass. The list is intentiona
 
 ### Troll
 
+- **Detailed record:** [Troll](Troll.md).
 - **Record ID:** `troll`
 - **Status:** PREPARED
 - **Category:** Giant

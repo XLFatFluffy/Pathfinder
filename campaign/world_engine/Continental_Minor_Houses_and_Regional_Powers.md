@@ -19,7 +19,7 @@ This document creates a manageable first network of lesser powers. These actors 
 
 ## 2. Banner Houses of the Northern Marches
 
-### House Coldmere — TLM? / VYR-ACT-001
+### House Coldmere — VYR-ACT-001
 
 **Type:** Minor noble banner house  
 **Liege:** House Veyr  

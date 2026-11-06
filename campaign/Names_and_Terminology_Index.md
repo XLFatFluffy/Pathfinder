@@ -448,3 +448,6 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Lady Nerissa Veylan | Person / noble | ESTABLISHED | Heir to House Veylan. |
 | Captain Ysabet Korr | Person / shipmaster | ESTABLISHED | Principal Speaker of the Duskport Shipmasters' Compact. |
 | Continental Minor Houses and Regional Powers | Campaign reference | ESTABLISHED | First additional network of banner houses, Crown vassals, a dwarven clan, and independent southern powers. |
+| Feudal Law, Land Tenure, and Noble Obligations | Campaign legal framework | ESTABLISHED FRAMEWORK | Working rules for homage, inheritance, courts, land tenure, customary rights, and political consequences; detailed regional customs remain open. |
+| World Event Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for GM-approved world events; no world-turn events recorded yet. |
+| World Turn Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for world simulation passes; first turn not run. |

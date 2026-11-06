@@ -63,6 +63,17 @@
 
 **Phase B status:** CORE POLITICAL OPERATING FRAMEWORK COMPLETE. Remaining detail is elective depth: wider family trees, additional retainers, historical precedents, and faction-network expansion as campaign relevance requires.
 
+## Phase C — Continental economic network (Nov 6)
+
+- Established `campaign/economy/Continental_Economic_Network.md`.
+- Converted the approved Great House economic dependencies into a coherent production, transport, market, credit, and maritime network.
+- Established major economic hubs and the six continent-scale trade corridors.
+- Added dependency propagation rules for grain, timber, metal, maritime trade, and credit.
+- Established economic-right distinctions so ownership, tenancy, custom, charter, toll, ferry, harbor, mineral, woodland, tax, and military rights are not conflated.
+- Kept numerical prices, production totals, and tax totals out of canon unless supported by existing records or future play.
+
+**Phase C status:** CORE ECONOMIC FRAMEWORK COMPLETE. Detailed regional production and market quantities can be added only where campaign relevance justifies them.
+
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
 - Establish recurring NPCs, local factions, allies, rivals, services, and threats.

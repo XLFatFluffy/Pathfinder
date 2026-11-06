@@ -1,7 +1,7 @@
 {
   "format": "pathfinder-atlas-layer-registry",
   "schema_version": 1,
-  "status": "CARTOGRAPHIC_LAYER_FRAMEWORK_ESTABLISHED_GEOMETRY_PENDING",
+  "status": "PHASE_A_CARTOGRAPHIC_SPEC_ESTABLISHED_GEOMETRY_CALIBRATION_PENDING",
   "coordinate_system": "normalized 0-1; x from left, y from top; north up",
   "authority": {
     "master_map": "campaign/maps/continent_atlas.png",
@@ -347,11 +347,12 @@
       "status": "ARTWORK_RELOCATED_TO_MAP_LIBRARY_PENDING_CARTOGRAPHIC_REVIEW"
     }
   ],
+  "phase_a_specification": "campaign/maps/Continental_Cartographic_Phase_A.md",
   "next_steps": [
     "Keep minor settlements on their appropriate regional maps, not the continental layer.",
-    "Trace established continental major roads as editable route lines and review before player publication.",
+    "Trace established continental major roads as editable route lines against the authoritative artwork and review before player publication.",
     "Calibrate the Tallowmere regional artwork, place its eight public settlement markers, and trace its six established road connections.",
-    "Prepare non-overlapping Great House territory drafts from the approved broad framework; keep exact borders provisional until GM approval.",
+    "Prepare non-overlapping Great House territory drafts from the approved broad framework; use the Phase A drafting order and keep exact borders provisional until GM approval.",
     "Resolve local jurisdiction extents, especially Saltwick's superior authority and the limits of the Merewick crossing charter, before drawing local political polygons.",
     "Trace geographic regions as neutral overlays.",
     "Promote only calibrated and reviewed geometry into the live player layer."

@@ -32,6 +32,8 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 | OQ-018 | P2 | Military institutions | What are the detailed force structures, recruitment systems, command hierarchies, service obligations, readiness levels, and logistics of the Crown, Great Houses, Kharadorn clans, and independent southern powers? | QUALITATIVE FRAMEWORK PROPOSED in `military/Continental_Military_Institutions_and_Operational_Doctrine.md`; exact composition, obligations, and strengths remain open |
 
+| OQ-019 | P2 | Seasonal climate and agriculture | What are the regional seasonal patterns, crop calendars, typical weather hazards, and their effects on travel, trade, and military logistics? | WORKING FRAMEWORK PROPOSED in `world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md`; exact seasonal patterns and current weather remain GM-controlled |
+
 ## Rules
 1. Do not answer an open question by inference unless the GM approves the answer.
 2. Record competing in-world beliefs separately from objective GM truth.

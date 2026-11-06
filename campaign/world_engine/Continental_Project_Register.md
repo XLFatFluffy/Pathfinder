@@ -15,7 +15,7 @@ A project is an actor's organized effort to change or preserve something. Routin
 | CNT-PRJ-003 | Crownland road and courier service review | Lord Chancellor Othmar Rusk; House Rookwell provides local records | UNDERWAY / administrative | Assess royal courier routes, relay services, road maintenance, and Crown vassal duties. |
 | CNT-PRJ-004 | Western Pass commercial terms review | Lady Seralyth Vaelorian | UNDERWAY / internal assessment | Review trade access, route reliability, and the terms under which Vaelorian commercial interests operate. |
 | CNT-PRJ-005 | Eastern Coast pilotage and harbor-practice review | Lady Selene Merrowen | PROPOSED / information gathering | Gather reports from smaller ports and pilot houses before considering any change to maritime practice. |
-| CNT-PRJ-006 | Brightwater river-market charter review | Ilyan Merrow and the Brightwater Civic Compact | WATCH / routine review | Reassess market and river-use rules as trade volume and neighboring interests change. |
+| CNT-PRJ-006 | Brightwater river-market charter review | Ilyan Cress and the Brightwater Civic Compact | WATCH / routine review | Reassess market and river-use rules as trade volume and neighboring interests change. |
 
 ## Detailed project records
 
@@ -96,7 +96,7 @@ A project is an actor's organized effort to change or preserve something. Routin
 ### CNT-PRJ-006 — Brightwater river-market charter review
 
 **Sponsor:** Brightwater Civic Compact  
-**Lead:** Ilyan Merrow  
+**Lead:** Ilyan Cress  
 **Status:** WATCH / routine review.
 
 **Objective:** Review market and river-use rules to ensure the city's charter remains workable as trade patterns change.

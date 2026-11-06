@@ -288,3 +288,11 @@
 - Initialized `World_Event_Ledger.md` and `World_Turn_Ledger.md`. Neither records a simulated event or completed world turn.
 - Added `Continental_Project_Register.md` with six ongoing, proposed, or watch-level efforts across the Crown, Vaelorian, Veyr, Edarth, Merrowen, and Brightwater.
 - Linked the legal framework and project/turn records from campaign indexes. The opening date remains 1 Harvestfall, 243 AC; the first world turn is still pending.
+
+
+## 2026-11-06 — Tallowmere ratfolk networks and community NPCs
+
+- Added `campaign/locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md` with four informal networks: Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths.
+- Added Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw as named NPCs while preserving the established roles of Nix-of-the-Cistern, Tikka Vell, Serren Coil, and Miraq Ashwhisk.
+- Established competing strategies around negotiation, market access, route safety, household protection, and public pressure. No network speaks for all ratfolk.
+- Updated the local Underways, faction, issue, actor, names, and Session One references. The ratfolk PC may build relationships and influence but is not the community's automatic leader.

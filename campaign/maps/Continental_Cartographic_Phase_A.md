@@ -172,3 +172,8 @@ The overlay registry is not a player synchronization layer. Once geometry is tra
 ## 2026-11-06 coordinate and route pass
 
 The GM-exported coordinate patch was merged by stable marker `source_id` into the 15 continental major-place records. The positions were visually reviewed against the 1,161 × 1,355 authoritative image. Six established route overlays were drafted as editable normalized polylines: Northern Road, Western Mountain Road, King's Road, Eastern Coastal Road, Southern Trade Road, and Inland Sea Route. These routes connect established major places and follow broad land/sea corridors, but are not surveyed road courses. They remain subject to GM review. No political borders, geographic region polygons, or maritime influence polygons were invented or promoted; their geometry remains unresolved.
+
+
+## GM route review decision — 2026-11-06
+
+The GM approved the six route overlays at their current cartographic level of detail. The Northern Road's final approach to Dragonstone visually misses the natural landbridge at this scale; interpret it as crossing the landbridge. Do not infer a sea crossing, redraw the authoritative geography, or treat the small visual offset as a canon contradiction. The route overlays are player-visible. Political and geographic polygon geometry remains pending.

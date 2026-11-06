@@ -120,7 +120,7 @@ The continent is deliberately smaller than Westeros. Approved working dimensions
 
 The central inland sea supports substantial shipping, naval commerce, and important ports. The southern reaches remain politically fragmented, with room for lesser kingdoms, independent city-states, minor houses, and territories beyond the direct control of the six Great Houses. Khar-Dum remains in the northeastern mountains. The dwarven empire's visible surface territory should appear comparatively limited; its true reach is primarily subterranean and poorly understood by outsiders. Dragonstone remains a separate conquered island, with its narrow land bridge and secret dwarven underground route.
 
-**Minor houses are an established category:** wealthy lords and ladies with relatively small territories and local holdings. They possess wealth and local standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold Imperial Council seats. Their names, number, allegiances, and holdings remain undecided.
+**Minor houses are an established category:** wealthy lords and ladies with relatively small territories and local holdings. They possess wealth and local standing but are nearly politically insignificant in continent-wide affairs. They do not rival the Great Houses or automatically hold Imperial Council seats. Their total number and full distribution remain open. The first named network of banner houses, Crown vassals, a dwarven clan, and independent southern powers is recorded in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`.
 
 The previously suggested specific regional placements for the six Great Houses remain proposals until the revised map is reviewed.
 
@@ -261,7 +261,7 @@ Player character sheets and detailed backstories are pending. Do not assign star
 
 The first additional network of minor houses and independent regional powers is established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`. It includes banner houses in the Veyr, Vaelorian, Edarth, and Merrowen spheres; a Crown vassal; a dwarven clan within the Kharadorn union; and independent powers in the Southern Reaches. Exact holdings remain unmapped. The only new active dispute is the low-intensity Longmead customary boundary case between Houses Harrowden and Wrenford in the Western Heartlands. No armed conflict is underway.
 
-The campaign remains at **1 Harvestfall, 243 AC**. No first world turn has been run.
+The campaign remains at **1 Harvestfall, 243 AC**. WTR-001 has been completed as a zero-time opening snapshot; no calendar time has advanced.
 
 ## Tallowmere Ratfolk Community Networks — 2026-11-06
 

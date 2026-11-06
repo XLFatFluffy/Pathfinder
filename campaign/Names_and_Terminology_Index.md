@@ -452,3 +452,17 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Feudal Law, Land Tenure, and Noble Obligations | Campaign legal framework | ESTABLISHED FRAMEWORK | Working rules for homage, inheritance, courts, land tenure, customary rights, and political consequences; detailed regional customs remain open. |
 | World Event Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for GM-approved world events; no world-turn events recorded yet. |
 | World Turn Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for world simulation passes; first turn not run. |
+
+
+## Tallowmere Ratfolk Networks and NPCs — 2026-11-06
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Cistern Keepers | Informal ratfolk network | ESTABLISHED | Water-access, maintenance, and safety network associated with Nix-of-the-Cistern and Vessa Reedtail. |
+| Open Stall Petition | Informal ratfolk network | ESTABLISHED | Merchant and workshop advocacy network associated with Tikka Vell and Miraq Ashwhisk. |
+| Underway Couriers | Informal ratfolk network | ESTABLISHED | Courier, guide, and route-safety network associated with Serren Coil and Pellit Quickstep. |
+| Quiet Hearths | Informal ratfolk network | ESTABLISHED | Household mutual-aid network associated with Vessa Reedtail and Dorrik Sootpaw. |
+| Vessa Reedtail | Person / ratfolk elder | ESTABLISHED | Household mediator and mutual-aid organizer; cautious about public exposure. |
+| Pellit Quickstep | Person / ratfolk courier | ESTABLISHED | Young courier favoring carefully expanded surface work. |
+| Dorrik Sootpaw | Person / ratfolk worker | ESTABLISHED | Outspoken young salvage worker advocating direct public pressure and organized labor refusal. |
+| Ratfolk Community Networks and NPCs | Campaign reference | ESTABLISHED | Initial informal networks, named contacts, competing strategies, and political opportunities in Tallowmere's Underways. |

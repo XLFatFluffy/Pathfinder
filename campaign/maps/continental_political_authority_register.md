@@ -75,7 +75,11 @@ These records are regional and must not be expanded into continental-scale polyg
 7. Keep Kharadorn's inland-sea maritime dominion and Merrowen's maritime reach on water-only overlays, separate from land sovereignty.
 8. Any proposed Great House boundary line must be labelled a GM proposal, identify the supporting canon, and remain hidden from players until approved.
 
-## 6. Outstanding decisions required before political polygons can be finalized
+## 6. Boundary junction worklist
+
+A non-canon planning aid identifies candidate Great House interfaces, established regional anchors, and unresolved adjacency questions without inventing borders: `campaign/maps/continental_boundary_junction_worklist.md`. It is a decision checklist only; it does not establish that every listed pair directly adjoins.
+
+## 7. Outstanding decisions required before political polygons can be finalized
 
 - Exact northern boundary between settled Veyr territory and the Northern Wilderness / Frozen Expanse.
 - Exact Veyr–Vaelorian and Veyr–eastern territorial junctions.

@@ -313,3 +313,12 @@
 - Confirmed the core world-engine foundation is ready for an opening baseline turn on 1 Harvestfall, 243 AC without advancing the calendar.
 - Recorded remaining non-blocking work: exact map borders, additional minor-house detail, full regional legal customs, complete ratfolk geography, ordinary wildlife catalogue, and deep historical mysteries.
 - Kept Session One combat balance pending completed PC sheets, final companion approval/build, and the actual approach route.
+
+
+## 2026-11-06 — First world turn completed: campaign opening baseline
+
+- Completed WTR-001 as an approved zero-time snapshot on 1 Harvestfall, 243 AC, recorded in `campaign/world_engine/reports/World_Turn_001_Opening_Baseline.md`.
+- Reviewed all seven Tallowmere pressures, the Longmead boundary dispute, six Tallowmere projects, six continental projects, Great House strategic pressures, and the GM-only rumor truth register.
+- Confirmed the vampire PC's identity remains secret, the ratfolk PC's survival remains unknown to House Relland, and the Dragonstone underground route remains GM-only.
+- No new world-changing event, assassination, war, famine, coup, blockade, or escalation was introduced. No in-world time elapsed.
+- Updated the world-turn and event ledgers and current world state. Campaign opens on 1 Harvestfall, 243 AC.

@@ -29,7 +29,8 @@ These governance records remain at the campaign root because they apply across a
 - [creatures/](creatures/) — creatures, supernatural phenomena, undead, dragons, monsters, and regional threats.
 - [Table-Side GM Support Protocol](Table_Side_GM_Support_Protocol.md) — workflow for live rules help, improvisation, encounter support, tracking, and post-session database updates.
 - [Living World Engine](Living_World_Engine.md) — operating model for independent actors, issues, projects, events, time advancement, political change, and consequences.
-- [world_engine/](world_engine/) — actor dossiers, issue and project registers, holdings and jurisdiction records, continental strategic pressures, and future event ledgers.
+- [world_engine/](world_engine/) — actor dossiers, issue and project registers, holdings and jurisdiction records, continental strategic pressures, and event/world-turn ledgers.
+- [politics/Feudal_Law_and_Landed_Obligations.md](politics/Feudal_Law_and_Landed_Obligations.md) — working legal framework for landholding, vassalage, inheritance, jurisdiction, and customary rights.
 - [economy/](economy/) — merchants, shops, goods, services, markets, resources, production, and trade.
 - [maps/](maps/) — authoritative map artwork, map metadata, and geographic overlays.
 - [player_characters/](player_characters/) — player-character records and GM preparation. Treat contents as restricted GM material unless explicitly marked player-facing.

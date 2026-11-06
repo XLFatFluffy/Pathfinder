@@ -13,6 +13,7 @@ This folder contains the structured GM records used to track the world beyond th
 - [World Event Ledger](World_Event_Ledger.md) and [World Turn Ledger](World_Turn_Ledger.md) — chronological records; WTR-001 opening baseline is complete.
 - [World Turn 001 — Opening Baseline](reports/World_Turn_001_Opening_Baseline.md) — first GM-approved snapshot on 1 Harvestfall, 243 AC.
 - [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) — local houses, charter office, and civic council.
+- [Tallowmere NPC and Information Network](Tallowmere_NPC_Information_Network.md) — plausible information channels among established actors.
 - [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) — established local authority, charter relationships, and unresolved borders.
 - [Initial Issue Register](Initial_Issue_Register.md) — seven starting pressures and regional friction points.
 - [Initial Project Register](Initial_Project_Register.md) — Tallowmere efforts and their evidence status.

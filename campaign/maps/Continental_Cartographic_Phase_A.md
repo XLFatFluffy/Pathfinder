@@ -187,3 +187,8 @@ Added thirteen GM-only illustrative geographic polygons based on visible terrain
 ## Political authority register — 2026-11-06
 
 Created `continental_political_authority_register.md` from the approved territorial framework, current world state, continental minor-house network, and Tallowmere jurisdiction register. It distinguishes Great House broad territories, minor-house banner holdings, direct Crown vassalage, independent southern powers, local charters, customary rights, and maritime influence. It explicitly preserves unresolved borders and prevents rights or liege relationships from being mistaken for continuous sovereign territory. No political polygons were created in this pass.
+
+
+## Geographic overlay calibration update — 2026-11-06
+
+Reviewed the thirteen existing geographic drafts against the authoritative 1,161 × 1,355 artwork. They remain GM-only illustrative extents, not surveyed boundaries or exclusive zones. The Central Inland Sea outline was refined to follow the visible basin more closely; it does not alter or replace the authoritative coastline, island, or natural landbridge. Other regional extents remain broad draft outlines pending GM review. No political borders or maritime influence limits were inferred.

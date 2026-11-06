@@ -279,3 +279,12 @@
 - Added campaign/world_engine/Great_House_Actor_Dossiers.md, consolidating established strategic agendas, internal tensions, relationships, leverage, and constraints for all six Great Houses.
 - Added World_Event_Record_Template.md and World_Turn_Report_Template.md for consistent event history and GM-reviewed time advancement.
 - Established that no world turn has yet been run; campaign date remains 1 Harvestfall, 243 AC. No assassination, new war, or new Great House project was introduced.
+
+
+## 2026-11-06 — Feudal law and continental project foundations
+
+- Added `campaign/politics/Feudal_Law_and_Landed_Obligations.md` to establish a consistent working framework for Crown authority, Great House territories, banner houses, Crown vassals, independent lords, charter rights, inheritance, courts, customary rights, and political consequences.
+- Preserved gender-inclusive inheritance eligibility because established Great House rulers and designated heirs include women; detailed succession customs remain house- and charter-specific.
+- Initialized `World_Event_Ledger.md` and `World_Turn_Ledger.md`. Neither records a simulated event or completed world turn.
+- Added `Continental_Project_Register.md` with six ongoing, proposed, or watch-level efforts across the Crown, Vaelorian, Veyr, Edarth, Merrowen, and Brightwater.
+- Linked the legal framework and project/turn records from campaign indexes. The opening date remains 1 Harvestfall, 243 AC; the first world turn is still pending.

@@ -26,14 +26,14 @@ Six route overlays are now drafted in the live layer: Northern Road, Western Mou
 
 The previous seven polygon drafts have been removed from the import layer. They mixed political spheres, geographic regions, maritime influence, and the fragmented Southern Reaches. Several Great House polygons overlap. Because exact borders are unresolved, those overlaps must not be presented as sovereign territorial claims or silently explained as wars.
 
-No political or geographic polygons have been promoted. The route overlays are separate line features and do not imply territorial ownership. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
+No political polygons have been created. Thirteen broad geographic polygons are present as GM-only drafts and have not been promoted to player visibility. The route overlays are separate line features and do not imply territorial ownership. The new classification and drawing rules are in `atlas_overlay_standards.md`. In brief:
 
 - Political territories: distinct, adjoining, and non-overlapping unless a specific disputed claim or war is approved as canon.
 - Geographic regions: may cross political borders and should use a separate visual treatment.
 - Maritime influence: a sea-based influence or naval sphere, not land sovereignty over every shore.
 - Southern Reaches: three distinct broad zones (Southwestern Marches, Southern Principalities, Southern Islands), with fragmented political authority rather than one unified realm.
 
-The absence of overlays is deliberate. An honest unfinished map is better than a confident map that accidentally starts three wars.
+The absence of political and maritime overlays is deliberate. Thirteen geographic region drafts exist in the repository layer with `player_visible:false`; they are broad illustrative extents pending GM review, not approved boundaries. An honest unfinished map is better than a confident map that accidentally starts three wars.
 
 ## Player knowledge and discovery
 

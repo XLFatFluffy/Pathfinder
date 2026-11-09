@@ -1,6 +1,6 @@
 # Tallowmere Ratfolk Community Networks and NPCs
 
-**Status:** Initial community networks and named contacts established for campaign play.  
+**Status:** Established Tallowmere community networks and named contacts; no player-character relationships are established.  
 **Visibility:** GM reference. Publicly visible activities may be shared with players; private routes, household details, and personal beliefs are not automatically public.  
 **Authority:** Builds on the established decentralized Underways framework. This document does not create a ratfolk government or a single leader.
 
@@ -173,26 +173,24 @@ The groups below are informal networks, not formal guilds or political parties. 
 
 No network controls the others. A public ratfolk victory may be welcomed by some residents and feared by others if it increases exposure or retaliation.
 
-## 8. Ratfolk political opportunities for the PCs
+## 8. Existing community priorities and political opportunities
 
-The ratfolk PC's ambition can create several meaningful routes without making him the automatic leader of his people:
+The networks already have distinct goals and possible avenues for civic change:
 
-- Support existing traders seeking leases and market access.
-- Help negotiate enforceable agreements with the Reeve, Market Guild, landlords, or House Denvor.
-- Improve practical safety through water repairs, route access, housing, and protection against exploitation.
-- Build an independent commercial network that gives ratfolk leverage.
-- Support household mutual aid and education.
-- Challenge discriminatory rules through evidence, petitions, patronage, or public action.
-- Pursue broader legal or political reform if the PC gains the resources and allies to do so.
+- Traders seek regular leases, market access, and consistent treatment in inspections and contract enforcement.
+- Community maintainers seek safe water, repair access, and protection for shared infrastructure.
+- Couriers seek to preserve safe routes while considering carefully limited paid work for trusted clients.
+- Mutual-aid households seek reliable support, consent in public campaigns, and protection from retaliation.
+- Residents may pursue reform through petitions, negotiated agreements, commercial leverage, public action, mutual aid, or legal challenges. No single strategy represents the whole community.
 
-The vampire PC's promise of future opportunity may support these goals, but ratfolk NPCs will judge the actual treatment and outcomes they experience. They are not guaranteed supporters of a restored dynasty.
+Outside patrons or allies may offer resources, but residents judge them by actual conduct and outcomes. No allegiance to a noble house, political movement, or individual is guaranteed.
 
 ## 9. Knowledge boundaries
 
 - Surface officials may know individual ratfolk traders, repairers, and couriers without understanding the networks behind them.
 - Nix, Tikka, Serren, Miraq, Vessa, Pellit, and Dorrik do not share identical knowledge.
-- No named NPC in this document knows the vampire PC's royal identity unless a later event establishes it.
-- No named NPC is assumed to know the ratfolk PC's complete family history.
+- No named NPC is assumed to know a player's private identity or history without a plausible source and an established in-play discovery.
+- No named NPC is assumed to know a PC's complete family history.
 - Sensitive passages, household locations, and private relationships remain GM-only until disclosed in play.
 
 ## 10. Open details

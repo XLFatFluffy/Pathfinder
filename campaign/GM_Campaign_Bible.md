@@ -390,7 +390,7 @@ Tallowmere's established habitats extend from the settled Northfields, Brackenwo
 
 The regional wildlife and flora catalogues are substantial GM references but remain proposed species lists. The separate wilderness framework includes possible Pathfinder threats and ordinary resource opportunities; its lists do not establish every creature as a confirmed local population or place a lair at any specific site. Do not assign exact abundance, invent migrations, or create a monster population from a plausible habitat alone. No unique magical plant or supernatural ecology is established by the botanical catalogue.
 
-See `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, `creatures/Tallowmere_Flora_and_Fungi.md`, and `locations/starting_city/Wilderness_Beyond_Tallowmere.md`.
+See `creatures/Continental_Ecology_and_Biogeography.md` for the continent-wide environmental framework; `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, and `creatures/Tallowmere_Flora_and_Fungi.md` for the starting region; and `locations/starting_city/Wilderness_Beyond_Tallowmere.md` for its frontier belt.
 
 ## 10. Running a responsive world through GM judgment
 

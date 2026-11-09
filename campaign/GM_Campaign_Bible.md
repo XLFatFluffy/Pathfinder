@@ -267,7 +267,7 @@ The economy is medieval and regional: land rents, agricultural production, craft
 
 Military power is based on noble obligations, household forces, local garrisons, levies, professional soldiers, ships, fortifications, and conventional siegecraft. Exact Great House force totals and readiness are not established. Do not invent army sizes or naval tonnage. The royal military is distinct from household guards and Great House forces; its exact organization and strength remain unresolved.
 
-Feudal law is governed by homage, land tenure, inheritance, jurisdiction, charters, customary rights, courts, and service obligations. Specific charters and local customs override broad assumptions. Use `politics/Feudal_Law_and_Landed_Obligations.md` for legal consequences and escalation.
+Feudal law is governed by homage, land tenure, inheritance, jurisdiction, charters, customary rights, courts, and service obligations. Specific charters and local customs override broad assumptions. Use `politics/Feudal_Law_and_Landed_Obligations.md` for landholding and vassalage, and `world/Law_Justice_and_Crime.md` for ordinary justice, evidence, punishment, and enforcement.\n\nAgricultural production, food supply, livestock, storage, and seasonal work are described in `world/Agriculture_Food_and_Seasonal_Work.md`. Everyday material life, medicine, education, literacy, and travel/communication are covered in the corresponding records under `world/`. These references supply practical context; they do not establish exact prices, yields, literacy rates, weather events, or travel times where those remain unresolved.
 
 ## 10. Running a responsive world through GM judgment
 
@@ -351,7 +351,7 @@ For full detail, consult:
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references.
-- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.
+- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.\n- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.
 

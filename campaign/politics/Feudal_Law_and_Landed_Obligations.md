@@ -2,7 +2,7 @@
 
 **Status:** Initial campaign-wide legal framework established for play; detailed regional law and charter texts remain open.  
 **Authority:** GM-approved worldbuilding framework, consistent with the existing Crown, Great House, minor-house, and Tallowmere records.  
-**Purpose:** Give the Living World Engine a consistent way to adjudicate inheritance, landholding, vassalage, jurisdiction, and political consequences without pretending every territory follows one modern legal code.
+**Purpose:** Give the GM a consistent reference for inheritance, landholding, vassalage, jurisdiction, and political consequences without pretending every territory follows one modern legal code.
 
 ## 1. Governing principle
 
@@ -44,7 +44,7 @@ A liege may have duties in return, including protection, recognition of tenure, 
 
 The setting has recognized female rulers and designated female heirs, including within the Great Houses. Therefore, a universal rule that excludes women from inheritance is not compatible with current canon.
 
-For ordinary simulation, use the following baseline unless a specific house charter or regional custom says otherwise:
+For GM adjudication, use the following baseline unless a specific house charter or regional custom says otherwise:
 
 1. A recognized heir has the strongest presumptive claim.
 2. The house's established succession custom, charter, and prior recognition determine who is eligible.

@@ -266,9 +266,11 @@ A priest may perform religious duties, teach doctrine, maintain a shrine, and le
 
 Common institutions include temples, monasteries, shrines, cathedrals, religious orders, and clerical courts. Their organization and authority vary by faith and region.
 
+Each established, permanent temple maintains or designates a dedicated defender, commonly called its Temple Champion or the temple's paladin. The Champion protects the temple, its clergy, worshippers under its care, sacred property, and investigates threats relevant to the deity. The title is an institutional office, not a guarantee that the holder uses the Pathfinder paladin class; all class, alignment, deity, and ability requirements remain in force. Clergy primarily maintain the temple and serve the faithful. Clerics may assist in exceptional danger but are not automatically defenders. Small shrines and caretaker sites are not automatically staffed by a resident Champion. Larger religious mobilizations or crusades require appropriate religious authorization and resources; an individual Champion cannot declare one alone.
+
 The Religious Establishment is an established court faction or network seeking to preserve and expand organized religious authority. Senior religious authorities have recognized access to the royal court and may advise the monarch. They do not hold an automatic Imperial Council seat, since its six permanent seats represent the Great Houses. Religious authorities instead exert influence through relationships, advice, patronage, negotiation, and public pressure. The Religious Establishment is politically influential but not a single unified church; its constituent institutions may disagree and compete.
 
-A scholarly tradition exists that is institutionally distinct from religious hierarchies, though it may cooperate with temples. Its scholars may study history, genealogy, mathematics, accounting, medicine, astronomy, calendars, law, administration, languages, natural philosophy, theology, and religious history. Scholars may serve noble households, royal offices, major temples, and wealthy cities. Some may also be clergy, but scholarship does not require ordination, and theologians need not be spellcasters. The order's name, ranks, training, and governing structure remain unresolved.
+A scholarly tradition exists that is institutionally distinct from religious hierarchies, though it may cooperate with temples. The Collegium of the Nine Lamps is a loose network of scholars, archives, tutors, translators, genealogists, mathematicians, physicians, legal historians, and natural philosophers. It is not a single university, a magical academy, or a formal wizard-training institution. Scholars may serve noble households, royal offices, major temples, and wealthy cities. Some may also be clergy, but scholarship does not require ordination, and theologians need not be spellcasters.
 
 Divine spellcasters are uncommon and devote themselves to a god. Divine spellcasting is regarded as significant rather than routine. Those who demonstrate it may be respected as blessed servants, but reactions can include fear, suspicion, or distrust. A village priest may serve for decades without casting spells; a cleric capable of extraordinary healing or other powerful magic may attract considerable attention. Magical ability does not automatically confer senior religious office, and religious leaders may possess authority without spellcasting.
 
@@ -279,34 +281,17 @@ Religious tensions may arise between religious and secular authority, competing 
 The gods' deeper history, relationships with mortals, methods of influence, and the precise ways divine power is granted or mediated remain unresolved. The scholarly order's name and organization, major religious leaders, regional prominence of particular gods, religious courts' legal authority, and the exact influence of religious institutions over secular law also remain open.
 
 6. MAGIC & THE SUPERNATURAL
-Magic is uncommon in everyday civilization. Arcane spellcasters are rare, and divine
-spellcasters are also uncommon. The average person may live their entire life without witnessing
-a spell being cast.
+Magic is real but almost absent from ordinary experience. Most commoners have never witnessed a spell being cast or knowingly encountered a genuine magic item. Arcane spellcasters are exceptionally rare; divine spellcasters are uncommon. A person may live an entire life without seeing a spell.
 
-Much arcane knowledge has been lost, forgotten, suppressed, or misunderstood.
+Most recognized wizards and other arcane practitioners are wealthy, learned specialists employed by Great Houses or similarly powerful patrons. Their two principal duties are to provide arcane counsel and services to their patron and to produce a limited number of magical items for house use or carefully controlled sale. They are strategic household assets, not automatically battlefield combatants. A Great House may retain one or more practitioners, but the number at each house must be established rather than assumed.
 
-Wizards may be regarded as:
+There are no magical academies, public schools of wizardry, or standardized arcane curricula. The most reliable route into arcane practice is private apprenticeship under an established wizard. A small number of people attempt self-directed study from rare spellbooks, manuscripts, and private collections. The Collegium of the Nine Lamps is an independent scholarly network, not a magical academy or formal wizard-training institution.
 
-   ·   Dangerous scholars.
-   ·   Heretics.
-   ·   Legends.
-   ·   Remnants of an ancient age.
-   ·   Individuals possessing knowledge that ordinary people cannot comprehend.
+Magic items are exceptionally scarce and expensive in ordinary commerce. The market is constrained by the small number of qualified makers, the time and knowledge involved, difficult access to suitable materials, and the commercial and strategic interests of patrons who restrict output and access. There is no universal enchanters' guild or central licensing authority. A +1 sword or suit of armor can exist, but is a notable possession rather than ordinary equipment. Published Pathfinder First Edition item, spellcasting, and crafting rules remain unchanged; this lore adds no mandatory ingredients, costs, checks, or prerequisites.
 
-Possible features of the world's magical history include:
+Much arcane knowledge has been lost, forgotten, suppressed, fragmented, or misunderstood. Ancient books and items may preserve techniques that modern practitioners cannot reproduce. The reason arcane knowledge became rare has not been established. Whether magical academies existed in distant history is also unresolved; none exist in the present setting.
 
-   ·   Ancient spellbooks and magical texts are extremely valuable.
-   ·   Magical academies may have disappeared.
-   ·   Arcane knowledge may survive in isolated individuals.
-   ·   Hidden collections and ancient ruins may preserve forgotten knowledge.
-   ·   Certain forms of arcane practice may be forbidden or heavily restricted.
-   ·   Alchemists may be mistaken for practitioners of other forms of magic.
-
-The scarcity of magic is a feature of society, population, institutions, and history.
-
-It does not arbitrarily weaken player character spellcasting or change Pathfinder mechanics.
-
-The reason arcane knowledge became rare has not been established.
+The scarcity of magic is a feature of society, population, institutions, and history. It does not arbitrarily weaken player-character spellcasting or change Pathfinder mechanics.
 
 6.1 Supernatural Threats
 Monsters, undead, vampires, cults, and other supernatural dangers are real possibilities.

@@ -377,11 +377,11 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Criminal Operators and Networks | Campaign reference | ESTABLISHED | Named independent operators and fragmented illicit networks; no citywide syndicate. |
 
 
-## Player Character Concepts and Opening (2026-11-04)
+## Provisional Legacy Player Character Concepts and Opening (2026-11-04)
 
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
-| Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Vampire rescued the ratfolk as a child after men associated with an unnamed minor house took his travelling-merchant family's wares through extortion and killed his parents. The vampire later taught him alchemy. See player_characters/Player_Character_Concepts_and_Opening.md. |
+| Vampire PC and Ratfolk PC shared backstory | Player character background | PROVISIONAL | Earlier shared-backstory draft; the players are revising their concepts. Do not treat as current until confirmed. See player_characters/Player_Character_Concepts_and_Opening.md. |
 | Roadside troll opening | Session One encounter concept | PROVISIONAL | The PCs intend to confront a troll on their approach to Tallowmere; encounter balance depends on completed character sheets. |
 | Player Character Concepts and Opening | Campaign reference | PROVISIONAL | GM-facing record of the shared backstory, unresolved details, and proposed opening adventure. |
 
@@ -390,22 +390,22 @@ Use this index before naming a new person, place, house, faction, title, religio
 
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
-| House Relland | Minor noble house | ESTABLISHED | Human minor house owing allegiance to House Velleran; modest holding along the South Road south of Tallowmere. Its retainers extorted and murdered the ratfolk PC's travelling-merchant parents approximately ten years before Session One; the household concealed the misconduct. |
-| Lady Mereth Relland | Person / noble | ESTABLISHED | Current head of House Relland; inherited the house's official account of the old roadside incident. |
-| Ser Corren Relland | Person / noble | ESTABLISHED | Heir to House Relland; has incomplete knowledge of the old incident. |
-| Lord Edvar Relland | Person / noble | ESTABLISHED | Late head of House Relland at the time of the extortion and murders. |
-| Ser Deylan Marrick | Person / former armsman | ESTABLISHED | Led Relland retainers who abused road-patrol authority to extort the ratfolk family's travelling merchant caravan. |
+| House Relland | Minor noble house | ESTABLISHED | Human minor house owing allegiance to House Velleran; modest holding along the South Road south of Tallowmere. Its connection to the earlier PC-specific merchant incident is provisional. |
+| Lady Mereth Relland | Person / noble | PROVISIONAL DOSSIER | Previously drafted as current head of House Relland; detailed portrayal and knowledge of the old incident are provisional pending PC-concept confirmation. |
+| Ser Corren Relland | Person / noble | PROVISIONAL DOSSIER | Previously drafted as heir to House Relland; detailed portrayal and knowledge of the old incident are provisional pending PC-concept confirmation. |
+| Lord Edvar Relland | Person / noble | PROVISIONAL LEGACY NAME | Previously drafted as a former head of House Relland in the unconfirmed incident. |
+| Ser Deylan Marrick | Person / former armsman | PROVISIONAL LEGACY NAME | Previously drafted as leader of the retainers in the unconfirmed House Relland incident. |
 | Master Tavren Selwick | Person / merchant | ESTABLISHED | Wealthy Tallowmere merchant and shipowner; owner of Selwick & Company and the wagon used for the planned troll opening. |
 | Selwick & Company | Merchant concern | ESTABLISHED | Tallowmere trading firm dealing in cloth, household wares, lamp oil, metal fittings, and provisions. |
-| House Relland and the Merchant Incident | Campaign reference | ESTABLISHED | GM-facing history of the ratfolk PC's family tragedy and the Relland household's cover-up. |
-| Selwick Merchant Contact | Campaign reference | ESTABLISHED | Tavren Selwick, his wagon, the conditional reward, and the PCs' first commercial introduction to Tallowmere. |
+| House Relland and the Merchant Incident | Campaign reference | PROVISIONAL | Earlier PC-specific backstory draft; not current campaign history unless confirmed. |
+| Selwick Merchant Contact | Campaign reference | PROVISIONAL OPENING OPTION | Prepared wagon encounter, conditional reward, and possible commercial introduction; use only if the GM selects the opening after reviewing the final party. |
 
 
 ## Session Readiness (2026-11-04)
 
 | Name / term | Category | Status | Notes |
 |---|---|---|---|
-| Session One GM Readiness Packet | GM reference | ESTABLISHED | Table-ready Tallowmere opening, city quick reference, key NPCs, active pressures, sandbox opportunities, world-state rhythm, and pre-session checklist. Troll balance remains pending final character sheets and companion build. |
+| Session One GM Readiness Packet | GM reference | PROVISIONAL LEGACY PREPARATION | Earlier packet assumes previous PC concepts and a specific troll opening; update before use. |
 
 
 ## Continental Minor Houses and Regional Powers — 2026-11-06

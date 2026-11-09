@@ -106,7 +106,7 @@ Tallowmere does not have one universal religious festival. Individual temples se
 
 Established recurring customs include:
 - **First Safe Passage:** At the opening of the main sailing season, sailors and families gather at the Tideward Shrine for prayers and remembrance. The date follows local conditions, not a fixed calendar day.
-- **The Weighing of Measures:** A public inspection and reaffirmation of market weights and measures organized by the Reeve and Weigh House. Merchants may sponsor food or small prizes; disputes over standards are heard separately.
+- **The Weighing of Measures:** A public inspection and reaffirmation of market weights and measures organized through the Reeve's office, with official weighing at the Weigh House. Merchants may sponsor food or small prizes; disputes over standards are heard separately.
 - **The River Thanks:** After the main harvest movement, river carriers and mill communities make offerings and hold a shared meal. It is a custom rather than a compulsory religious rite.
 - **Names of the Drowned:** A memorial service held by the Tideward Shrine when seasonal weather turns and families remember those lost on the water. Families may add names throughout the year.
 - **The Common Table:** A charitable meal coordinated by Lantern Hospice and willing temples during the cold season. Its scale depends on donations and available stores.
@@ -115,7 +115,7 @@ The formal calendar is established, but no fixed dates have been assigned to the
 
 ## Public order and weekly routine
 
-There is no universal curfew. Gates close according to posted schedules and seasonal daylight, with controlled exceptions for authorized travelers, urgent medical need, official business, and recognized emergencies. The exact gate hours, schedules, and local exceptions remain unresolved and may vary by gate or season.
+There is no universal curfew. Gates close according to local operating practice and seasonal daylight; controlled entry may be allowed for authorized travelers, urgent medical need, official business, and recognized emergencies. The exact gate hours and local exceptions remain unresolved and may vary by gate or season.
 
 The Watch posts additional patrols during large market gatherings, major funerals, visiting noble events, and periods of heavy harbor traffic. These are staffing decisions, not proof that a riot or crime is expected.
 

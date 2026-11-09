@@ -127,7 +127,7 @@ Clergy are not automatically spellcasters. The gods are real, but divine magic r
 
 ## 7. The Collegium of the Nine Lamps
 
-The **Collegium of the Nine Lamps** is the established name of an independent scholarly tradition. It is a loose network of scholars, archives, tutors, translators, genealogists, mathematicians, physicians, legal historians, and natural philosophers. It is not a single university that controls all scholarship.
+The **Collegium of the Nine Lamps** is the established name of an independent scholarly tradition. It is not a magical academy and does not provide a standardized education in wizardry or arcane spellcasting. Its scholars may preserve, copy, translate, or study old magical texts as part of broader scholarship, but access to such texts does not make the Collegium a formal school for spellcasters. Arcane instruction remains private and uncommon, usually passed through apprenticeship or pursued independently from rare manuscripts. It is a loose network of scholars, archives, tutors, translators, genealogists, mathematicians, physicians, legal historians, and natural philosophers. It is not a single university that controls all scholarship.
 
 Its stated principles include:
 - preserving records;

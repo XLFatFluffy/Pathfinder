@@ -414,6 +414,7 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - `Government_and_Law.md` and `Chartered_Council_and_Civic_Procedure.md`: law and procedure. `Law_in_Practice_and_Local_Justice.md` applies the established offices to everyday complaints, evidence, hearings, and enforcement. `Emergency_Response_and_Civic_Resilience.md` explains the city's established response capacity and limits during fires, harbor accidents, floods, and civilian relief needs.
 - `Streets_Landmarks_and_Routes.md`, `City_Layout_and_Defenses.md`, `Residential_Life_and_Housing.md`: city layout.
 - `Shopkeepers_and_Stock.md`, `Commercial_Property_and_Premises.md`, `Merchant_Personalities_and_Disputes.md`, `Merchant_Relationships_and_Supply_Lines.md`: commerce.
+- `../../world/Animal_Husbandry_and_Working_Animals.md`: domestic animal care and the local stable, breeding, and traveler-service baseline.
 - `Public_Life_Neighborhoods_and_Entertainment.md`: gathering places, information routes, childhood, leisure, and neighborhood belonging.
 - `Civic_Calendar_and_Seasonal_Routines.md`: local daily rhythms, notices, market cycles, seasonal pressures, and Tallowmere's public observances.
 - `Faith_and_Temples.md` and `Local_Religion_and_Institutions.md`: local faith.

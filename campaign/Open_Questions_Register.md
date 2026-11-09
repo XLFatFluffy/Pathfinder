@@ -80,11 +80,11 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 **Still open:** Wider family trees and collateral branches; individual Imperial Council representatives; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded.
 
 
-## Player Character Information
+## Provisional Legacy Player Character Information
 
-**ESTABLISHED:** The surviving dragon-dynasty heir seeks to rebuild the dynasty. The ratfolk alchemist seeks to end anti-ratfolk persecution and establish ratfolk as equals or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him.
+**PROVISIONAL LEGACY CONCEPTS:** An earlier draft associated the surviving dragon-dynasty heir with rebuilding the dynasty and a ratfolk alchemist with ending anti-ratfolk persecution. Their shared history and ambitions are not current until the players confirm their revised concepts.
 
-**Still open by player choice:** Detailed personal backstories, further personal motives, and methods beyond the established ambitions. The GM will provide those backstories when received. Do not invent missing PC details. Completed character sheets are also pending and will establish actual statistics, equipment, and carried wealth.
+**Pending player confirmation:** Final character concepts, personal histories, motives, relationships, methods, character sheets, statistics, equipment, and carried wealth. Do not treat the previous ambitions as established or invent missing PC details.
 
 
 ## Documentation status correction — 2026-11-04
@@ -160,13 +160,13 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 
 ## Session One Arrival and Player Materials — 2026-11-04
 
-**ESTABLISHED:** The two level-5 PCs arrive in Tallowmere at the beginning of Session One. They already know each other. They should be treated as newcomers to the city; do not assume prior residence, established local contacts, or detailed local knowledge without support from their eventual backstories.
+**PROVISIONAL LEGACY PREPARATION:** An earlier draft assumed two level-five PCs who already knew one another and arrived as newcomers. Party size, level, relationship, arrival circumstances, and prior local knowledge are all pending confirmation.
 
 **ESTABLISHED:** The campaign calendar and initial date are recorded in `history/Calendar.md`; Session One begins 1 Harvestfall, 243 AC. The shared player starting handout is drafted in `player_materials/Player_Starting_Handout.md` from established public canon.
 
 **PENDING:** Exact arrival point and final first-session NPC encounters. Player character-sheet PDFs are expected; use them to audit equipment, magic items, consumables, carried currency, and total wealth before assigning or changing anything. Detailed backstories will follow and should be incorporated without inventing missing personal details.
 
-**Player handout readiness:** Shared world and Tallowmere guide updated with established public history and calendar; the PCs' supplied backstories and shared promise are recorded in `player_characters/`. Individual starting-inventory supplements and any additional character-specific knowledge beyond those backstories remain pending the completed character sheets and final player review.
+**Player handout readiness:** The shared world and Tallowmere guide contain established public history and calendar information. Individual backstory material, any shared promise, starting-inventory supplements, and character-specific knowledge remain provisional until the players confirm their concepts and provide final sheets.
 
 
 ## Tallowmere — Residential Life and Housing (2026-11-04)
@@ -286,7 +286,7 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 
 **PROVISIONAL OPENING OPTION:** The planned troll encounter involving a Selwick & Company wagon, its reward, and the introduction to Meret Sorn remain prepared options. Final staging and suitability await the players' final concepts and sheets. See `locations/starting_city/Selwick_Merchant_Contact.md`.
 
-**STILL OPEN / SESSION PREPARATION:** The PCs' exact travel route and the troll's encounter site; the troll's suitability after both character sheets are complete; which wagon crew members survive and what cargo is lost or recovered; whether Selwick is personally present in Tallowmere when they arrive; and the exact first scene at the city gates or merchant's warehouse. The responsible house and basic merchant introduction are no longer open questions.
+**STILL OPEN / SESSION PREPARATION:** The PCs' exact travel route and the troll's encounter site; the troll's suitability after both character sheets are complete; which wagon crew members survive and what cargo is lost or recovered; whether Selwick is personally present in Tallowmere when they arrive; and the exact first scene at the city gates or merchant's warehouse. The House Relland incident remains provisional with the earlier PC concept; the Selwick contact and reward remain optional opening material until the GM selects the encounter.
 
 
 ## Legacy opening-state records and remaining regional questions

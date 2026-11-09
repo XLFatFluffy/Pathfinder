@@ -118,7 +118,7 @@ The Reeve's office can record a petition or administrative complaint. The Chief 
 
 The Watch handles arrests and enforcement of lawful orders. The Chief Magistrate oversees warrants, hearings, fines, civil disputes, and criminal proceedings delegated by the lord. The lord retains ultimate local authority.
 
-The setting has not established the precise location or capacity of local holding cells, routine custody periods, bail or surety rules, rights of counsel, formal charging documents, or a fixed sequence of hearings. Do not improvise these as universal legal rights or procedures. Decide what is necessary for the specific scene and keep the ruling consistent thereafter.
+The Watch House, near the junction of Market Street and the road toward North Gate, contains holding cells for short-term detention, duty rooms, and a small records office. It is not a prison for long sentences. Its exact cell capacity, staffing, custody periods, bail or surety rules, rights of counsel, formal charging documents, and fixed sequence of hearings remain unresolved. Do not improvise these as universal legal rights or procedures. Decide what is necessary for the specific scene and keep the ruling consistent thereafter.
 
 Possible outcomes across the legal framework include warning, reprimand, apology, public correction, restitution, repayment, fines, forfeiture, guild discipline, restrictions on market or harbor access, temporary detention, imprisonment, corporal punishment, banishment, or capital punishment where the relevant law permits it.
 
@@ -178,7 +178,7 @@ Do not turn every minor offense into a full courtroom scene. A warning, repaymen
 The following remain open and should be decided only when play requires them:
 - Full text and precise wording of the Denvor charter.
 - Exact local court calendar, hearing sequence, and appeal procedure.
-- Location, capacity, and staffing of any holding cells or prison.
+- Capacity and staffing of the Watch House holding cells, and any arrangements for longer imprisonment.
 - Custody periods, bail or surety practice, and formal charging procedure.
 - Exact local penalties for named offenses.
 - Watch staffing, patrol rota, equipment, and response times.

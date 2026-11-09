@@ -748,3 +748,11 @@
 - Reconciled the law guide with the Watch House's established short-term holding cells and the emergency guide with the Denvor Granary's public-provisioning role and the separate Master of Stores office.
 - Corrected escaped Markdown paragraph breaks in `Residential_Life_and_Housing.md` and `Workforce_and_Daily_Life.md`. Removed unsupported gender assumptions from newly expanded NPC profiles where source records do not establish gender.
 - No coordinates, street alignments, gate schedules, or new geographic features were added.
+
+
+## 9 November 2026 — GM Campaign Bible consolidation checkpoint
+
+- Updated the GM Campaign Bible's consolidation date, clarified that the responsive setting is advanced through GM judgment rather than automated simulation, and linked Tallowmere's established medical network.
+- Rebuilt the authoritative reference index to include the recent Tallowmere local records, the expanded NPC roleplaying dossier collection, the travel/communication framework, ecology references, and the filtered player handout. Removed a duplicated generic `world/` index entry.
+- Updated Worldbuilding Readiness to reflect the established Tallowmere medical network, named shopkeeper/service NPC profiles, and expanded local practical references.
+- Updated the Development Roadmap: the next major task is a section-by-section GM Campaign Bible consistency and usability pass. The structured subject records remain authoritative.

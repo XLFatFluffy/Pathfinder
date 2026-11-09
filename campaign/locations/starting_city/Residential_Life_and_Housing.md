@@ -76,7 +76,7 @@ Public wells, pumps, cisterns, drains, privies, and waste collection are unevenl
 
 Fire is a serious risk in dense districts. Kitchens, braziers, workshops, warehouses, and upper floors built close together create danger. Residents keep buckets, ladders, and basic tools where they can; civic officers enforce some fire rules, with varying consistency. Recent warehouse fires and near-misses have increased concern, but do not establish that residential fires are part of a conspiracy.
 
-## Household Pressures and Social Life
+## Water, Waste, and Street Cleanliness\n\nThe city's established water and waste infrastructure, district differences, flood risks, and unresolved civic responsibilities are detailed in [Water, Waste, and Street Cleanliness in Tallowmere](Water_Waste_and_Street_Cleanliness.md). The city has public wells, pumps, the Old Cistern, drains, privies, and uneven refuse arrangements; do not assume a universal sewer or collection service.\n\n## Household Pressures and Social Life
 
 - Rent and wages: a missed week of work can threaten a laborer's ability to pay. Landlords may accept delay from reliable tenants, but not all can afford to.
 - Seasonal work: sailors, carriers, and casual dockworkers may take short leases or share rooms while work is available.

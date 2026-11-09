@@ -700,7 +700,7 @@ The following people are named in the established shop, medical, and local-servi
 - **Voice:** Dry humor, exact language, little patience for sloppy measurements.
 - **Sample:** “If you wanted an approximate result, you should have bought approximate glass.”
 - **Move her with:** Professional respect, clear terms, repeat business, and useful technical exchange.
-- **Avoid:** Making her the PC's automatic mentor, sidekick, or political ally. Relationship develops through play.
+- **Avoid:** Making her any PC's automatic mentor, sidekick, or political ally. A relationship develops through play.
 
 ## Serren Coil
 **Role:** Courier and guide; Underway Couriers.  

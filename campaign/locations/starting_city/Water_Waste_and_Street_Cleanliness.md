@@ -101,7 +101,7 @@ Water and waste involve several kinds of labor:
 - Property owners maintain private facilities and arrange household refuse handling.
 - Civic labor and neighborhood arrangements maintain the Old Cistern.
 - Drains require clearing and repair.
-- Stables and workshops manage animal and craft waste.
+- Stables and workshops manage animal and craft waste. Brindle & Sons Stables operates outside the West Gate beside the caravan yards; its manure, bedding, and other stable waste are a local management concern, but no disposal ground, collection contract, or specific arrangement is established. See [Animal Husbandry and Working Animals](../../world/Animal_Husbandry_and_Working_Animals.md) for its services and limits.
 - Markets and quays must keep working surfaces usable.
 - Residents may complain when upstream or neighboring activity makes their own water or property unsafe.
 

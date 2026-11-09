@@ -727,3 +727,13 @@
 - Updated the NPC continuity roster: regional figures with existing profiles are marked complete, Tessa Vale is no longer incorrectly listed as unfinished, and the duplicate Odran Pell roster row was removed.
 - Kept all new personality details as GM portrayal guidance, with provisional alignments or unspecified alignments where appropriate. No new family members, criminal ties, business stock, prices, or hidden histories were invented.
 - Updated the Open Questions Register to reflect completion of the currently named Tallowmere proprietor and recurring service-contact profiles. The Selwick wagon guards and proposed companion remain unfinalized.
+
+
+## 9 November 2026 — Tallowmere civic calendar and local justice reconciled
+
+- Reconciled `Civic_Calendar_and_Seasonal_Routines.md` with the formal calendar established in `history/Calendar.md`. Removed obsolete statements that month names, weekdays, year length, era, and campaign date were unresolved.
+- Preserved open local details: market-day frequency, bell times and signal patterns, gate hours, and exact dates of local observances. Clarified that local customs complement the wider holidays and that no standardized citywide alarm code is established.
+- Corrected the Weighing of Measures description to place official weighing at the established Weigh House and organize the observance through the Reeve's office.
+- Reconciled `Law_in_Practice_and_Local_Justice.md` with `Streets_Landmarks_and_Routes.md`: the Watch House near Market Street and the North Gate contains short-term holding cells and is not a long-term prison. Capacity, staffing, and custody procedures remain unresolved.
+- Added Tallowmere's local civic observances to the player handout and linked the civic calendar from the Tallowmere GM dossier.
+- Updated the Development Roadmap. No new festival dates, market schedule, bell code, gate hours, or legal procedure were invented.

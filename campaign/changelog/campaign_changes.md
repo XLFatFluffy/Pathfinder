@@ -492,3 +492,12 @@
 - Updated the Names and Terminology Index so PC-specific relationships, the old world-turn ledger, and the former simulation snapshot are not presented as active systems or current character facts.
 - Updated NPC information boundaries to keep prior PC secrets and the House Relland incident inactive until confirmed.
 - Corrected the historical dynasty reference in Current World State to avoid using the inherited Westeros source name as an in-world canon name.
+
+
+## 2026-11-09 — Session and PC-dependent open questions corrected
+
+- Updated P0 session questions to reflect that Tallowmere is established but the prior two-PC relationship and troll opening are not current assumptions.
+- Reclassified the earlier ratfolk family-history question as a provisional legacy concept.
+- Updated the military, agriculture, and Crown intelligence question statuses to point to the current GM references rather than retired proposal worksheets.
+- Corrected the GM Bible's historical-survivor wording so the secret remains established without assuming the survivor is a current PC.
+- Repeated NPC information-boundary sections now consistently treat prior PC secrets and the House Relland incident as provisional.

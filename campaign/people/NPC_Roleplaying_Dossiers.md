@@ -17,7 +17,9 @@ For each NPC, prioritize:
 6. **What changes their mind:** evidence, leverage, trust, risk, or a concrete offer.
 7. **What they know:** only information available through their role and credible sources.
 
-**Provisional legacy dossiers:** Lady Mereth Relland and Ser Corren Relland are tied to the unconfirmed House Relland PC incident; Hobb Tern and Lysa Fen are tied to the provisional Selwick wagon opening. Their specific incident knowledge, opening-scene roles, and related motives are not current campaign facts until the relevant PC concepts and encounter are confirmed.\n\nA suggested alignment should never force an NPC to behave irrationally. Lawful does not mean kind; chaotic does not mean foolish; evil does not mean constantly cruel. Most NPCs are primarily concerned with their own obligations, livelihood, relationships, safety, pride, and ambitions.
+**Provisional legacy dossiers:** Lady Mereth Relland and Ser Corren Relland are tied to the unconfirmed House Relland PC incident; Hobb Tern and Lysa Fen are tied to the provisional Selwick wagon opening. Their specific incident knowledge, opening-scene roles, and related motives are not current campaign facts until the relevant PC concepts and encounter are confirmed.
+
+A suggested alignment should never force an NPC to behave irrationally. Lawful does not mean kind; chaotic does not mean foolish; evil does not mean constantly cruel. Most NPCs are primarily concerned with their own obligations, livelihood, relationships, safety, pride, and ambitions.
 
 ---
 
@@ -1326,8 +1328,8 @@ Insists that judgment and customer fitting require time; trusts Neri with repair
 ## Information boundaries
 - An NPC knows only what their experience, office, relationships, and credible information channels permit.
 - A rumor is not objective truth. Consult the Tallowmere Rumor Truth Register.
-- The House Relland incident is not known to every member of the house. Lady Mereth's knowledge is limited; Corren's is more limited; neither knows the ratfolk PC survived.
-- The vampire PC's royal identity is not automatically known to any NPC.
+- The House Relland incident is provisional legacy PC material. If the GM confirms it, the previously drafted knowledge limits for Lady Mereth and Corren apply; do not use them as current facts beforehand.
+- No NPC automatically knows a player's secret identity or personal history; any earlier vampire-heir association remains provisional until the revised concept is confirmed.
 - The secret underground route to Dragonstone is not known to ordinary actors.
 - No NPC automatically knows the PCs' class abilities, equipment, history, or intentions.
 

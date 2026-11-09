@@ -36,7 +36,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 - The opening campaign date: **1 Harvestfall, 243 AC**.
 - A player starting handout and a separate GM Tallowmere dossier.
 - NPC roleplaying dossiers with motivations, fears, contradictions, voice guidance, and continuity boundaries.
-- Regional culture records, everyday life, holidays, ordinary faith, proposed wildlife and flora catalogues, agriculture and food supply, medicine, law and justice, military institutions and soldier life, markets and commercial practice, currency and moneychanging, education, literacy, and travel/communication references.
+- Regional culture records, everyday life, holidays, ordinary faith, proposed wildlife and flora catalogues, established River Vale/Siltfen resource use and working-water guidance, agriculture and food supply, medicine, law and justice, military institutions and soldier life, markets and commercial practice, currency and moneychanging, education, literacy, and travel/communication references.
 - A historical opening-state snapshot, WTR-001. It is retained as a dated reference only; it is not a recurring simulation system.
 
 ## 3. Session-specific dependencies
@@ -53,7 +53,7 @@ The wider setting work should not assume the PCs' future choices or build around
 
 ## 4. Current worldbuilding priorities
 
-1. Continue reviewing Tallowmere fauna and flora candidates by habitat. The five common Deep Bracken animals are already established; approve other species and occurrences only when they add meaningful play value. Keep frequency and distribution conservative.
+1. Continue reviewing Tallowmere fauna and flora candidates by habitat. The five common Deep Bracken animals are established, and the River Vale/Siltfen resource framework now distinguishes established uses from proposed species. Approve additional species and occurrences only when they add meaningful play value. Keep frequency and distribution conservative.
 2. Use the new continental ecology framework as a guide when distant regions become relevant; develop specific species and habitats only where they add meaningful play value.
 3. Review high-value continuity issues and institutional details when relevant, without inventing universal rules for every region.
 4. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.

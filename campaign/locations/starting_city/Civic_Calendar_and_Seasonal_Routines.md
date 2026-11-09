@@ -56,7 +56,7 @@ Routine agenda notices of the Chartered Council are posted at Reeve's Hall and t
 
 ## Market and trade cycles
 
-Bellmarket operates on ordinary working days, with a larger gathering on recurring market days announced locally. The formal seven-day week is Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, and Restday. The exact frequency and named day of Tallowmere's larger market gathering remain unresolved.
+Bellmarket operates on ordinary working days, with a larger gathering on recurring market days announced locally. The formal seven-day week is Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, and Restday. The exact frequency and named day of Tallowmere's larger market gathering remain unresolved. This describes Tallowmere's own Bellmarket cycle; Harthbridge's separate weekly livestock and produce market is established in the regional settlement record.
 
 Seasonal trade affects what appears:
 - Grain and orchard produce follow harvest and storage cycles.

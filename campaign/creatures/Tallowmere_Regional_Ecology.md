@@ -47,7 +47,8 @@ Harbor, warehouses, streets, walls, refuse, cellars, gardens, granaries, stables
 - The Eastern Shore supports fishing households and boat landings.
 - The region experiences seasonal flooding, autumn rain, and sudden inland-sea storms.
 - The wilderness framework explicitly identifies deer, boar, foxes, badgers, and wolves as common animals in the Deep Bracken. This establishes ordinary regional occurrence there, but not population size, pack territories, attack frequency, or presence in other habitats.
-- No specific monster population, monster lair, migration route, or supernatural ecology has been established for the region. The Session One troll remains a prepared encounter, not evidence of a native troll population.
+- Localized dangerous-creature occurrences are established in the dedicated Tallowmere Regional Bestiary: uncommon giant spiders associated with the Deep Bracken and isolated wooded frontier areas; uncommon giant frogs in localized wetland pools including portions of the Siltfen; rare stirges in suitable wet woodland, caves, marsh margins, and abandoned structures; and rare occasional dire-animal individuals. These are limited occurrences, not broad infestations or evenly distributed populations. The prepared Selwick troll remains a prepared encounter; no local troll population is confirmed.
+- No other specific monster population, lair, migration route, or supernatural ecology is established for the region. See Regional Creature Ecology and Field Guide for the evidence distinctions and regional boundaries.
 
 ## 4. Catalogue status
 
@@ -55,7 +56,7 @@ Do not treat generic Pathfinder Bestiary entries as confirmed setting fauna. Add
 
 For ordinary background life, the GM may describe plausible common animals as low-impact scene dressing, but recurring or consequential species records should be marked PROPOSED until approved. Do not assign exact population sizes or regional frequency without evidence.
 
-The [Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) records the established Deep Bracken fauna separately from proposed candidates in other habitats. The proposed [Flora and Foraging reference](Tallowmere_Flora_and_Fungi.md) develops plant life, gathering, useful materials, and household practices. Neither document independently confirms species occurrence or harvest rights.
+The [Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) records established Deep Bracken fauna separately from proposed candidates in other habitats. The [Tallowmere Regional Bestiary](Tallowmere_Regional_Bestiary.md) records the limited established dangerous-creature occurrences. The [Regional Creature Ecology and Field Guide](Regional_Creature_Ecology_and_Field_Guide.md) reconciles local and continental occurrence status. The proposed [Flora and Foraging reference](Tallowmere_Flora_and_Fungi.md) develops plant life, gathering, useful materials, and household practices. These records distinguish confirmed occurrence from plausible habitat.
 
 Suggested catalogue groups to develop when useful:
 - Farm and household animals.

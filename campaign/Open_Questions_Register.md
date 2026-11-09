@@ -37,6 +37,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 | OQ-020 | P2 | Crown intelligence | What is the size, funding, recruitment, reach, internal structure, and operating method of Royal Spymaster Nerys Vale's network? | GM REFERENCE ESTABLISHED in `politics/Crown_Intelligence_and_Information_Operations.md`; specific agents, operations, and network scale remain unresolved |
 
 | OQ-021 | P2 | Southern diplomatic network | What formal treaties, guarantees, trade compacts, and succession relationships exist among the independent Southern Reaches powers? | INITIAL STRUCTURAL PRESSURES RECORDED in `world_engine/Continental_Strategic_Pressure_Register.md`; no formal treaty network is established |
+| OQ-022 | P3 | Necromantic materials | What are the precise necromantic effects, uses, sources, and production methods of obsydian (ordinary black onyx) and dragonglass (dragon-made material)? | DISTINCTION ESTABLISHED; both have necromantic properties, but specific effects, dragonglass production, and market values remain unresolved in `magic/Obsydian_and_Dragonglass.md` |
 
 ## Rules
 1. Do not answer an open question by inference unless the GM approves the answer.

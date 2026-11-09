@@ -17,7 +17,7 @@ For each NPC, prioritize:
 6. **What changes their mind:** evidence, leverage, trust, risk, or a concrete offer.
 7. **What they know:** only information available through their role and credible sources.
 
-A suggested alignment should never force an NPC to behave irrationally. Lawful does not mean kind; chaotic does not mean foolish; evil does not mean constantly cruel. Most NPCs are primarily concerned with their own obligations, livelihood, relationships, safety, pride, and ambitions.
+**Provisional legacy dossiers:** Lady Mereth Relland and Ser Corren Relland are tied to the unconfirmed House Relland PC incident; Hobb Tern and Lysa Fen are tied to the provisional Selwick wagon opening. Their specific incident knowledge, opening-scene roles, and related motives are not current campaign facts until the relevant PC concepts and encounter are confirmed.\n\nA suggested alignment should never force an NPC to behave irrationally. Lawful does not mean kind; chaotic does not mean foolish; evil does not mean constantly cruel. Most NPCs are primarily concerned with their own obligations, livelihood, relationships, safety, pride, and ambitions.
 
 ---
 

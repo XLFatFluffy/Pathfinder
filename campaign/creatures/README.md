@@ -7,6 +7,7 @@ Store setting-specific creature lore, supernatural phenomena, undead, vampires, 
 - [Regional Occurrence Template](Regional_Occurrence_Template.md) — tracks evidence for a creature's presence and frequency in a named region without duplicating its master record.
 - [Troll](Troll.md) — GM-only dossier for the provisional Session One troll encounter.
 - [Tallowmere Regional Ecology](Tallowmere_Regional_Ecology.md) — established habitat baseline and ecology development rules.
+- [Tallowmere Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) — expanded proposed ordinary fauna, food webs, seasonal expectations, field signs, human relationships, and supernatural boundaries.
 
 Pathfinder First Edition mechanics remain the default. Distinguish objective setting facts from folklore, religious claims, rumors, and mistaken beliefs. Preserve unresolved origins and mysteries.
 

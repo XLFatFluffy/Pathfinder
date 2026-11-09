@@ -226,6 +226,20 @@ The Brackenholt record establishes small-scale hunting, trapping, and woodland g
 
 Saltwick's established role centers on fishing and shore trade; do not assume it is a major livestock center without further evidence.
 
+### Local feed, water, and animal movement
+
+Tallowmere's animal economy depends on several established routes and services, but the exact suppliers and arrangements are not fully recorded.
+
+- **Feed:** Nearby farms and estates supply livestock and dairy. Millhaven and the Northfields collect grain, flour, oats, and seasonal legumes. The wider agricultural framework establishes haymaking and stored fodder as essential to keeping animals through difficult months, but no named hay supplier, dedicated fodder market, or central city hay store is established. Brindle & Sons sells a limited number of daily feed portions; their exact composition and source are not recorded.
+- **Regional sales:** Harthbridge has an established weekly livestock and produce market at the South Market, which includes a covered livestock ring and weigh house. This is a regional market, not evidence of a dedicated livestock market inside Tallowmere. The exact animals sold, sale rules, inspection practices, fees, and prices remain unresolved.
+- **Water:** Tallowmere has public wells and pumps, the Old Cistern, river access, and private household sources. No public animal-trough network or universal watering point is established. Stables and handlers must arrange water for their animals, but the specific source and any charge are local details not yet recorded.
+- **Manure and bedding:** Animal waste is an ordinary concern around stables, yards, markets, quays, and cart routes. Manure has agricultural value, but no citywide collection service, stable-waste contractor, composting site, or regular route from urban stables to nearby farms is established. Brindle & Sons' manure and bedding are specifically identified as a local management concern, with the disposal arrangement unresolved.
+- **Carcasses:** The location and management of animal carcass disposal remain unresolved. Do not assume a municipal carcass crew, public knackery, fixed rendering site, or universal rule. If an animal dies in a street, stable, or yard, the immediate owner, handler, property holder, or relevant civic officer may have to arrange a practical response; the exact responsibility depends on the situation and is not a codified citywide procedure.
+- **Gates and streets:** The West Gate and West Road are the main established approach for timber, stone, charcoal, grain, and livestock, and Brindle & Sons stands outside the West Gate beside the caravan yards. The North Road is used by farmers and drovers, with an informal cart waiting space outside North Gate. Market Street is heavily pedestrian, the quay lanes are congested during loading, and lower Rivergate streets become difficult after heavy rain. These conditions make animal movement a practical traffic issue.
+- **Traffic rules:** No dedicated drovers' gate, fixed animal-only route, citywide animal movement schedule, or universal livestock regulation is established. Gate and quay procedures vary by location and security conditions. Officials may manage congestion or access case by case, but do not invent a permanent rule or timetable without a specific local decision.
+
+These facts establish the main pressures and points of access, not a complete municipal animal-services system. Owners, stable operators, farmers, merchants, and civic officers have practical responsibilities, but their exact division of duties remains open.
+
 ## 10. GM portrayal and adjudication
 
 When an animal matters in a scene, consider:
@@ -246,7 +260,7 @@ Do not turn every animal into a hazard or every livestock problem into a quest. 
 The following remain unresolved until a specific location or campaign event requires them:
 - regional breeds, sizes, and animal populations;
 - exact herd sizes and ownership patterns;
-- local animal markets, fairs, and sale customs;
+- full sale rules, inspection, fees, and species availability at Harthbridge's established weekly livestock market; whether Tallowmere holds a dedicated livestock market; other local fairs and sale customs;
 - veterinary specialists, farriers, and animal healers by name;
 - common disease prevalence and recognized animal epidemics;
 - exact fodder prices, feed rations, and winter stores;

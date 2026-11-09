@@ -476,7 +476,7 @@ For full detail, consult:
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references, including `economy/Markets_Merchants_Guilds_and_Contracts.md` and `economy/Currency_Coinage_and_Moneychanging.md`.
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
 - `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
-- `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.
+- `creatures/` for the Tallowmere habitat baseline, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.
 - `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.

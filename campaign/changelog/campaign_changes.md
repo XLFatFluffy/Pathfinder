@@ -596,3 +596,13 @@
 - Incorporated the existing menus of the Copper Ladle, Crooked Oar, Blue Heron, Three Grain Bakery, and Salt & Root Provisioners without changing their stock or prices.
 - Distinguished established businesses, goods, and menus from illustrative household patterns. No new recipes, named foods, suppliers, prices, religious fasting rules, shortages, or regional culinary customs were made canon.
 - Linked the reference from agriculture, everyday life, GM Bible, readiness, and roadmap records.
+
+
+## 2026-11-09 — Tallowmere medical care network clarified
+
+- Added `campaign/locations/starting_city/Medical_Care_in_Tallowmere.md` as a GM-facing local guide to the city's established care network and sanitation context.
+- Integrated established roles for Lantern Hospice, Sister Alwen, Brother Halen, Edda Moss, Fenna Wale, Miraq Ashwhisk, and the House of the Dawn without inventing new practitioners or facilities.
+- Distinguished charitable care, midwifery, practical healing, herbalism, alchemical craft, religious care, and Pathfinder spellcasting.
+- Documented practical patient pathways, hospice limitations, childbirth and household care, sanitation vulnerabilities, occupational knowledge, and GM portrayal guidance.
+- Reconciled `campaign/world/Medicine_Disease_and_Healing.md` so the established hospice and named providers are no longer left as entirely unresolved. Exact capacity, staffing, visiting physicians, endemic diseases, and public magical-healing services remain open.
+- Linked the local guide from the world index, GM Bible, readiness record, and roadmap.

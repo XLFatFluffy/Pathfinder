@@ -66,7 +66,19 @@ Major temples may have only a small number of divine spellcasters. Noble houses 
 
 These social expectations do not alter Pathfinder First Edition class mechanics or arbitrarily weaken player-character spellcasting.
 
-## 7. Faith and the Great Houses
+## 7. Temple Champions and the Defense of the Faith
+
+Every established, permanent temple maintains or designates a dedicated defender, commonly called its Temple Champion or, in ordinary speech, the temple's paladin. This is a religious office and responsibility, not a promise that every Champion uses the Pathfinder paladin class. The Champion's actual class and abilities must obey Pathfinder First Edition requirements, including alignment and deity restrictions; depending on the faith and individual, an appropriate inquisitor, warpriest, fighter, ranger, or other suitable character may hold the office where a paladin cannot.
+
+The Champion's primary duties are to defend the temple and its grounds, protect clergy and worshippers under its care, safeguard sacred property and relics, and investigate or confront threats that fall within the deity's concerns. A report of an undead presence near a Pharasma temple, for example, may prompt the clergy to assess the report and send the Champion to investigate. The Champion does not treat every rumor as proof or automatically assume jurisdiction over every local problem.
+
+Temple clergy primarily maintain the institution and serve its congregation through worship, rites, counsel, charity, records, education, and care. Clerics may be present, but they are not automatically the temple's defenders and are not expected to abandon their ordinary duties for routine patrols. They may accompany or aid the Champion when danger is exceptional or when their particular abilities are necessary. A temple's senior priest and its Champion are separate offices unless a specific individual is established to hold both.
+
+The office is not a standing army and does not grant general authority over secular law, noble forces, or neighboring communities. A Champion may request aid, cooperate with local authorities, hire assistance, or call upon the relevant religious order or hierarchy. Because the faiths have independent structures and no single supreme religious authority, responses beyond one temple depend on the relevant institution, regional relationships, and the scale of the threat.
+
+A larger religious mobilization or crusade is exceptional. It requires a serious threat, appropriate religious authorization, resources, and often negotiation with secular powers. A Temple Champion cannot unilaterally declare a continent-wide holy war. Smaller temples may share a Champion or rely on a nearby institution; modest shrines and caretaker sites are not automatically expected to maintain a resident defender.
+
+## 8. Faith and the Great Houses
 
 The Great Houses do not each have a single exclusive patron deity or uniform religious identity. Their members may hold differing beliefs, and religious practices vary within each house.
 
@@ -79,7 +91,7 @@ The following are broad cultural tendencies for future development, not exclusiv
 - **Veyr:** Practical faith shaped by hardship, duty, death, endurance, and dangers along the frontier.
 - **Merrowen:** Religious customs shaped by travel, sailors, trade, foreign contact, and maritime dangers.
 
-## 8. Religious Tensions
+## 9. Religious Tensions
 
 Religious conflict may arise from several established fault lines:
 
@@ -91,7 +103,7 @@ Religious conflict may arise from several established fault lines:
 
 Religious zealots and fanatics remain prominent in the setting, but religious life is not uniformly fanatical, corrupt, or conspiratorial. Faith may be sincere, compassionate, political, coercive, contradictory, or deeply personal.
 
-## 9. Unresolved Questions
+## 10. Unresolved Questions
 
 - How do the gods grant or mediate divine magic?
 - What are the names, leaders, internal structures, and relative influence of major religious institutions?
@@ -100,6 +112,9 @@ Religious zealots and fanatics remain prominent in the setting, but religious li
 - What are the exact legal relationships between religious courts and secular courts?
 - How much influence do religious institutions exert over marriage, inheritance, coronation, and other matters of secular law?
 - Which additional religious orders are charitable, scholarly, martial, or politically active?
+- Which established temples have resident Champions, and who currently holds each office?
+- What are the formal titles, training traditions, and regional chains of responsibility for Champions within each faith?
+- Which religious authorities can authorize a broader mobilization or crusade?
 - What are the major historical religious disputes, schisms, persecutions, and reform movements?
 
 Regional institutional examples and the current religious framework are established in `Religious_Institutions_and_Regional_Practice.md`. The independent scholarly network is established in `../Cultures_and_Societies.md`.

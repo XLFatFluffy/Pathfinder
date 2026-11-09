@@ -41,7 +41,7 @@ The Copper Ladle's fish stew and the Crooked Oar's onion and fish pie are exampl
 
 Nearby farms and estates supply livestock and dairy. Meat may be eaten fresh after slaughter or preserved by salting, smoking, drying, or other suitable methods. Cheese travels and stores more readily than fresh milk. Sausage and meat pies can use cuts or trimmings that are less convenient to sell as premium fresh meat.
 
-Do not assume every household eats meat daily. Animals are wealth, labor, breeding stock, and sources of milk, wool, hides, and manure. Slaughtering a productive animal has a cost beyond the immediate meal.
+Do not assume every household eats meat daily. Animals are wealth, labor, breeding stock, and sources of milk, wool, hides, and manure. Slaughtering a productive animal has a cost beyond the immediate meal. For the wider household, transport, and labor value of domestic animals, see [Animal Husbandry and Working Animals](Animal_Husbandry_and_Working_Animals.md).
 
 ### Vegetables, fruit, and legumes
 

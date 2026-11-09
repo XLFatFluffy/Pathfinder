@@ -280,11 +280,11 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **SESSION-CRITICAL:** The players have concepts, not completed character sheets. Confirm classes, levels, feats, spells, equipment, defenses, and abilities before finalizing the encounter. A standard Pathfinder First Edition troll is CR 5 and its regeneration requires appropriate fire or acid. Evaluate the threat for a two-PC party; do not assume the alchemist has a particular formula or item before character creation.
 
 
-## House Relland and the Tallowmere Arrival — 2026-11-04
+## Provisional legacy PC concept: House Relland and the Tallowmere arrival
 
-**ESTABLISHED:** The ratfolk PC's family tragedy occurred approximately ten years before Session One. The responsible retainers served House Relland, a minor house under House Velleran. Their leader was Ser Deylan Marrick. The retainers extorted the travelling-merchant family and murdered the parents; the vampire PC killed the attackers and rescued the child. House Relland concealed the misconduct and believes the family died. See `House_Relland_and_the_Merchant_Incident.md`.
+**PROVISIONAL LEGACY BACKSTORY:** An earlier PC concept tied a travelling-merchant family tragedy to House Relland and Ser Deylan Marrick. The players are revising their concepts. Do not treat the incident, participants, cover-up, or evidence trail as current campaign truth unless confirmed. See `House_Relland_and_the_Merchant_Incident.md`.
 
-**ESTABLISHED:** The planned troll encounter involves a wagon belonging to Master Tavren Selwick's Selwick & Company. Meaningful protection of the crew or recovery of the consignment earns 30 gp, a meal and one night's lodging at the Blue Heron, and a signed introduction to Meret Sorn of the Warehouse Guild. This provides modest commercial credibility, not automatic trust or guild privileges. See `locations/starting_city/Selwick_Merchant_Contact.md`.
+**PROVISIONAL OPENING OPTION:** The planned troll encounter involving a Selwick & Company wagon, its reward, and the introduction to Meret Sorn remain prepared options. Final staging and suitability await the players' final concepts and sheets. See `locations/starting_city/Selwick_Merchant_Contact.md`.
 
 **STILL OPEN / SESSION PREPARATION:** The PCs' exact travel route and the troll's encounter site; the troll's suitability after both character sheets are complete; which wagon crew members survive and what cargo is lost or recovered; whether Selwick is personally present in Tallowmere when they arrive; and the exact first scene at the city gates or merchant's warehouse. The responsible house and basic merchant introduction are no longer open questions.
 

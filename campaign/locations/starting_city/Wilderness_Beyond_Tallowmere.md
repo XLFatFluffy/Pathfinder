@@ -26,7 +26,9 @@ The Eastern Shore also becomes less settled beyond Saltwick, with exposed coves 
 **Access:** Western Track and lesser woodland paths beyond Brackenholt.  
 **Authority:** Denvor customary woodland rights weaken toward the outer forest; exact boundary is not surveyed.
 
-The Deep Bracken is the less-managed continuation of the Brackenwood. Its trees are older, the canopy denser, and the paths less reliable. Some clearings show signs of earlier cutting or settlement. Seasonal workers know a few dependable routes, but no single map covers the whole wood.
+The Deep Bracken is the older, less-managed woodland beyond the managed Brackenwood. Its trees are older, the canopy denser, and the paths less reliable. Some clearings show signs of earlier cutting or settlement. Seasonal workers know a few dependable routes, but no single map covers the whole wood. Older unmanaged pockets also exist inside Brackenwood; these do not erase the practical distinction between the managed working woodland and the outer frontier forest.
+
+Brackenholt's established charcoal, firewood, pole, and timber supply is associated with the managed Brackenwood and its customary work areas. Intermittent charcoal camps and limited charcoal production in the Deep Bracken establish occasional use of the outer woodland, not a guaranteed supply for Tallowmere or an automatic extension of Brackenholt households' customary rights. The operators, permissions, cutting limits, and ownership of particular outer-forest sites remain unresolved.
 
 **Ordinary uses**
 - Hunting and trapping.

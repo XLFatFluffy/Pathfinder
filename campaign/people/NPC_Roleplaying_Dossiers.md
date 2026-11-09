@@ -260,7 +260,7 @@ Odran is the same person named as Elira Pell's father and senior partner in the 
 - **Voice:** Earnest, formal, occasionally overexplains.
 - **Sample:** “I cannot answer for every man who wore our colors. I can answer for what I choose to do now.”
 - **Move him with:** Evidence, a chance to demonstrate responsibility, and a credible alternative to reflexive denial.
-- **Secret boundary:** His knowledge of the old road incident is incomplete; he does not know the ratfolk child survived.
+- **Secret boundary:** Under the provisional incident draft, his knowledge of the road incident is incomplete. Do not treat the child's survival or his knowledge as current campaign fact until the attached backstory is confirmed.
 
 ## Vardek Flintmark
 **Role:** Kharadorn Charter Warden in Tallowmere.  

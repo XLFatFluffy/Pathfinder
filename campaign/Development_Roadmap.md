@@ -283,3 +283,10 @@ Added `campaign/creatures/River_Vale_and_Siltfen_Aquatic_Ecology.md` as a GM-onl
 Added `campaign/world/Foodways_of_Tallowmere_and_the_Hinterland.md` to synthesize established local food production, trade, named food businesses, opening inventories, and household food patterns. It connects Millhaven grain and milling, Saltwick fresh and preserved fish, nearby farms and estates, Brackenholt fuel, and Tallowmere's bakeries, food stalls, taverns, inns, and provisioning trade. The record distinguishes documented menus and supply relationships from illustrative household patterns, and avoids creating new recipes, prices, shortages, or culinary customs as canon.
 
 **Next work:** examine ordinary health and household sanitation as people actually experience them: safe water, waste, food spoilage, childbirth, injury, common illness, access to healers, and the limits of mundane medicine. Existing medicine and disease records should be deepened rather than duplicated.
+
+
+## Current development checkpoint — 9 November 2026 (Tallowmere medical care)
+
+Added `campaign/locations/starting_city/Medical_Care_in_Tallowmere.md` to connect the general medicine framework to the actual established local network: Lantern Hospice, Sister Alwen, Brother Halen, Edda Moss, Fenna Wale, Miraq Ashwhisk, and the House of the Dawn. Clarified how ordinary patients might seek care, what each provider can reasonably do, sanitation vulnerabilities, childbirth, medical access, and the limits of magical healing. Reconciled the general medicine file so the already-established hospice and practitioners are no longer described as wholly unresolved. Exact hospice capacity and layout, named physicians, endemic diseases, and public magical services remain open.
+
+**Next work:** deepen the ordinary life of Tallowmere through work, household labor, and the social rhythm of its districts. In particular, examine how dock, mill, market, domestic, and seasonal workers organize their days, depend on one another, and experience the city differently. Avoid duplicating existing NPC or workforce records.

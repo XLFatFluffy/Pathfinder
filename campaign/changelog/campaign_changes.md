@@ -587,3 +587,12 @@
 - Added practical guidance on fishing as household and commercial work, reed harvesting, food handling and preservation, river transport, flooding, water hazards, occupational knowledge, and sensory portrayal.
 - Kept exact fish and bird species, fishing methods, catch volumes, prices, rights boundaries, migration and spawning schedules, and unusual aquatic animals unresolved. No new guild, named fisher, active dispute, disease event, or monster population was created.
 - Linked the new reference from the wildlife catalogue, ecology baseline, creature index, GM Bible, readiness record, and roadmap.
+
+
+## 2026-11-09 — Tallowmere foodways reference added
+
+- Added `campaign/world/Foodways_of_Tallowmere_and_the_Hinterland.md` as a GM-only synthesis of local food supply, household meals, public eating, cooking, preservation, seasonality, and food as social information.
+- Grounded the local account in established supply relationships: Millhaven grain and milling, nearby farms and estates, Saltwick fresh and preserved fish, Brackenholt fuel, and Tallowmere's named food businesses and their listed opening inventories.
+- Incorporated the existing menus of the Copper Ladle, Crooked Oar, Blue Heron, Three Grain Bakery, and Salt & Root Provisioners without changing their stock or prices.
+- Distinguished established businesses, goods, and menus from illustrative household patterns. No new recipes, named foods, suppliers, prices, religious fasting rules, shortages, or regional culinary customs were made canon.
+- Linked the reference from agriculture, everyday life, GM Bible, readiness, and roadmap records.

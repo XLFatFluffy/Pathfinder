@@ -843,3 +843,11 @@
 - Clarified in `Current_World_State.md` that the earlier Stage 6 list of unresolved government details predates the later Stage 8 and Stage 9 decisions.
 - Clarified the roadmap's retired Phase F: WTR-001 is historical provenance, and former turn/proposal procedures are no longer active.
 - No new rulers, council members, political rights, borders, historical dates, or PC-specific connections were invented.
+
+
+## 9 November 2026 — Final GM Campaign Bible continuity audit
+
+- Cross-checked the consolidated Bible against the GM-judgment workflow, campaign calendar, historical timeline and uncertainty register, Great House rulers, Imperial Council, governance framework, Tallowmere civic calendar, and current magic-material distinctions.
+- Confirmed that the Bible's account of GM-led consequences, calendar structure, historical uncertainty, current rulers, six Council seats, and Tallowmere's local observances matches the dedicated source records.
+- Added a direct reference to the River Vale/Siltfen aquatic ecology dossier and explicitly retained unresolved local observance dates, larger market-day frequency, bell patterns, and gate hours.
+- No canon contradiction requiring a retcon was found in this audit. The dedicated subject records remain authoritative over the consolidated Bible.

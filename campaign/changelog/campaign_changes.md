@@ -530,3 +530,9 @@
 - Added `campaign/economy/Markets_Merchants_Guilds_and_Contracts.md` covering commercial roles, markets, guilds and craft associations, quality and measures, contracts, credit, transport risk, ports, merchant reputation, fraud, and commercial influence.
 - Distinguished established continental trade relationships from proposed local commercial practices. No universal guild structure, weights and measures, contract code, market schedule, tariff, price, or insurance system was established.
 - Linked the new GM reference from the economy index. No new merchant factions, guilds, charters, prices, or trade routes were created.
+
+## 2026-11-09 — Currency and moneychanging clarified
+
+- Added `campaign/economy/Currency_Coinage_and_Moneychanging.md` to establish Pathfinder First Edition coin denominations and practical guidance for cash, large payments, moneychanging, credit, price variation, and monetary disputes.
+- Kept regional coin designs, mints, historical reforms, universal exchange fees, and formal banking institutions unresolved.
+- Linked the reference from the economy index. No new currency names, mints, exchange rates, or monetary institutions were invented.

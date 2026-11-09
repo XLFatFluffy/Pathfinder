@@ -30,7 +30,7 @@ The principal approaches are:
 - **South Gate:** Road toward the southern shore settlements and Southern Trade Road.
 - **Harbor Gates:** Controlled openings in the waterfront defenses, used for access between quays, yards, and the city proper.
 
-Gate names are working names. Exact number, construction, and opening procedures remain to be mapped. Harbor traffic is also regulated through quay controls, booms or chains where appropriate, pilotage, and watch patrols.
+Gate names are working names. Exact number, construction, and opening procedures remain to be mapped. **River Gate** is a controlled river-access point; **Rivergate** is the name of the lower-river district, and the terms are not interchangeable. Harbor traffic is also regulated through quay controls, booms or chains where appropriate, pilotage, and watch patrols.
 
 ## Harbor and River
 The harbor has several functional zones:

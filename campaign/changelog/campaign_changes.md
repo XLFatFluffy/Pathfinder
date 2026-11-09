@@ -883,3 +883,12 @@
 - Explicitly distinguished managed Brackenwood from the less-managed Deep Bracken. The five established common Deep Bracken animals were not promoted to Brackenwood occurrences.
 - Linked the dossier from the regional settlement record, Tallowmere index and GM dossier, GM Campaign Bible, and readiness record. Updated the Development Roadmap.
 - No new NPCs, woodland boundaries, cutting quotas, species occurrences, prices, or rights were invented.
+
+
+## 9 November 2026 — Animal husbandry and working animals reference
+
+- Added `campaign/world/Animal_Husbandry_and_Working_Animals.md` as a practical framework for horses, cattle and oxen, sheep, goats, pigs, poultry, donkeys and mules, dogs, and cats.
+- Covered feed, fodder, seasonal care, stables and handlers, animal health, slaughter and household wealth, transport, military logistics, class, and ownership rights.
+- Reconciled the reference with established everyday-life, foodways, regional wildlife, medicine, travel, and soldier-life records. It distinguishes broad portrayal guidance from local canon.
+- Linked the reference from the world index, everyday-life, Tallowmere foodways, medicine and disease, GM Campaign Bible, and Worldbuilding Readiness.
+- Exact breeds, herd sizes, prices, disease prevalence, veterinary providers, slaughter rules, and local husbandry customs remain unresolved. No local animal population or epidemic was invented.

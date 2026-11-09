@@ -390,7 +390,7 @@ Tallowmere's established habitats extend from the settled Northfields, Brackenwo
 
 The Tallowmere wildlife catalogue contains one established ordinary-fauna occurrence inherited from the wilderness canon: deer, boar, foxes, badgers, and wolves are common animals in the Deep Bracken. This does not establish population sizes, pack territories, or their occurrence in every other habitat. Other listed wildlife and plant species remain proposals unless separately approved or observed. The wilderness framework's possible Pathfinder threats do not establish monster populations or lairs at any specific site. Do not assign exact abundance, invent migrations, or create a monster population from a plausible habitat alone. No unique magical plant or supernatural ecology is established by the botanical catalogue.
 
-See `creatures/Continental_Ecology_and_Biogeography.md` for the continent-wide environmental framework; `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, and `creatures/Tallowmere_Flora_and_Fungi.md` for the starting region; and `locations/starting_city/Wilderness_Beyond_Tallowmere.md` for its frontier belt.
+See `creatures/Continental_Ecology_and_Biogeography.md` for the continent-wide environmental framework; `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, `creatures/Tallowmere_Flora_and_Fungi.md`, and `creatures/Deep_Bracken_Common_Fauna.md` for the starting region; and `locations/starting_city/Wilderness_Beyond_Tallowmere.md` for its frontier belt.
 
 ## 10. Running a responsive world through GM judgment
 

@@ -424,3 +424,12 @@
 - Replaced the automated mobilization sequence and escalation ladder with descriptive guidance on authority, information, readiness, and the non-automatic nature of military action.
 - Added a military folder index and linked the reference from the campaign directory and GM Campaign Bible.
 - No troop totals, fleet sizes, readiness figures, new commanders, mobilizations, or wars were invented.
+
+
+## 2026-11-09 — Political and legal references aligned with GM judgment
+
+- Removed remaining active Living World Engine language from the Imperial Governance, Crown Intelligence, and Feudal Law references.
+- Preserved the Council's established voting and authority rules, political knowledge boundaries, Crown information practices, and feudal legal framework.
+- Reframed political escalation and information assessment as GM reference guidance rather than automated simulation procedures.
+- Reclassified the former engine launch questions in the Open Questions Register as legacy opening-state context; WTR-001 remains a historical snapshot only.
+- No legal rights, Council thresholds, intelligence operations, political events, or military obligations were changed.

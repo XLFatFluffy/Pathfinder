@@ -1,11 +1,11 @@
 # Player Character Concepts and Opening Adventure
 
-**Status:** PROVISIONAL PLAYER CONCEPTS / GM PREPARATION — 2026-11-04  
+**Status:** PROVISIONAL LEGACY PLAYER CONCEPTS / GM PREPARATION — review required 2026-11-09  
 **Ruleset:** Pathfinder First Edition  
 **Starting location:** Tallowmere  
 **Important:** The players have described character concepts, not completed character sheets. Do not treat unchosen names, ages, classes, feats, equipment, alignments, or mechanical details as established.
 
-This document records the shared backstory and a proposed opening encounter. It is not a substitute for final character backgrounds or character sheets.
+This document preserves an earlier shared-backstory draft and a proposed opening encounter. The players are revising their concepts; treat every PC-specific element below as provisional legacy material, not a current campaign assumption, until the players confirm what they are keeping. It is not a substitute for final character backgrounds or character sheets.
 
 ## 1. Shared Backstory: The Vampire and the Ratfolk
 

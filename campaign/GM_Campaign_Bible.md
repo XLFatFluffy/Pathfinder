@@ -1,116 +1,36 @@
-# GM Campaign Bible — Master Reference
+### Broad regional character
 
-**Visibility:** GM-ONLY  
-**Snapshot:** 1 Harvestfall, 243 AC  
-**Ruleset:** Pathfinder First Edition  
-**Status:** Consolidated GM reference; dedicated source records remain authoritative for detailed mechanics and canon.  
-**Prepared:** 6 November 2026
+These descriptions are geographic and cultural orientation, not surveyed borders or exact climate classifications.
 
-> This is the working GM-facing guide to the campaign's current world. It consolidates the setting's operating assumptions and points to the detailed records. It does not replace those records. When a detail conflicts, apply the canon hierarchy below.
+- **Northern Wilderness and Frozen Expanse:** severe, exposed frontier country beyond the settled northern territories. The Ancient Barrier divides the known frontier from the largely unexplored Frozen Expanse. Its builders, original purpose, and any threat beyond it remain unresolved.
+- **Northern Holds and Pine Marches:** cold uplands, forests, valleys, and sparse settlements associated with House Veyr. Timber, livestock, frontier service, and imported grain are important. Supply lines matter as much as military courage.
+- **Western Highlands and High Peaks:** mountain and forest country associated with Vaelorian influence, mines, passes, and old estates. Elevation creates local variation; Vaelorian does not control every route through the ranges.
+- **Green Valleys and Western Forests:** sheltered valleys, woodland, managed estates, and resource communities. Customary woodland and estate rights may overlap without being identical.
+- **Western Heartlands, Golden Fields, and Riverlands:** productive plains and river valleys associated with Edarth's agricultural and martial strength. Grain, livestock, landed obligations, and inland roads shape the region.
+- **Central Crownlands and Royal Basin:** the inland political and administrative heart of the realm. Valedorn combines royal government, courts, markets, river transport, military administration, and scholarship.
+- **Central Inland Sea:** a major shipping and naval system under Kharadorn influence. Dragonstone's position gives the dwarven empire strategic control, but the sea is not a blanket grant of sovereignty over every shoreline or port.
+- **Northeastern Mountains and Khar-Dum:** the ancestral homeland of House Kharadorn and the dwarven main branch. Surface settlements, mines, underground communities, and clan territories have distinct relationships.
+- **Eastern Forests and Eastern Shore:** coastal and river country with woodland resources, ports, fishing communities, and maritime trade. Merrowen's influence is substantial but does not mean every port is directly governed by the Great House.
+- **Great Delta:** branching waterways, wetlands, river traffic, fishing, and coastal trade. Channel conditions and local authority vary.
+- **Southwestern Marches:** arid highlands, dry valleys, plateaus, and oases. Water access, wells, cisterns, and caravan movement are structural concerns.
+- **Southern Principalities and Southern Islands:** fertile lowlands, forests, rivers, independent cities, hereditary rulers, and maritime principalities. The south is politically fragmented, not one unified kingdom.
 
-## 1. Canon control and how to use this bible
-
-### Canon hierarchy
-
-1. Explicit GM decisions in conversation.
-2. Latest approved stage, decision log, and current GM-approved change.
-3. Latest dedicated lore or rules reference for the subject.
-4. `campaign/Current_World_State.md`.
-5. This consolidated guide and the older imported `Campaign_Bible.md`.
-6. Unapproved proposals and brainstorming.
-
-A later approved decision supersedes an earlier statement. The imported 40-page `Campaign_Bible.md` contains legacy wording and unresolved-topic lists that have since been superseded. It is preserved source material, not the sole authority. Do not reintroduce discarded names, old descriptions, or old claims that the setting is unrelated to Westeros.
-
-### Status labels
-
-- **ESTABLISHED:** Approved campaign fact.
-- **APPROVED FRAMEWORK:** Direction and operating structure accepted; some details remain open.
-- **PROVISIONAL:** Prepared for possible use, but not locked.
-- **UNRESOLVED:** Do not fill in without evidence or a GM decision.
-- **GM-ONLY:** Not player-facing unless deliberately revealed.
-
-### Campaign premise
-
-The setting is an original fantasy world built around the political and dynastic framework of Westeros / *Game of Thrones*, using Pathfinder First Edition for its rules, gods, ancestries, classes, monsters, spells, and equipment. It is not Golarion and is not a direct copy of Westeros. Tallowmere is the campaign's starting city, not the entire setting. The campaign is intended to support noble politics, feudal obligations, personal ambitions, exploration, trade, military conflict, and a living world that responds to player choices.
-
-The central tone is grounded high-medieval fantasy. Supernatural horror and dangerous wilderness exist, but they support rather than replace the political and social campaign.
-
-## 2. Current campaign state
-
-- **Date:** 1 Harvestfall, 243 AC.
-- **Starting location:** Tallowmere, on the northwestern shore of the central inland sea.
-- **Campaign focus:** The setting is being developed independently of the player characters. The first region is prepared, but the wider world is not built around assumed PC choices.
-- **Player concepts:** The players are revising their character concepts. Do not assume the previous vampire/ratfolk pairing, ancestries, classes, levels, relationships, private histories, or personal ambitions are current until the players confirm their final concepts and supply authoritative sheets and backstories.
-- **Opening structure:** A roadside encounter involving a troll and a Selwick & Company wagon has been prepared as a possible opening. Its route, location, composition, reward, and encounter balance remain subject to the final party and GM approval.
-- **Companion:** A companion concept has been discussed, but identity, statistics, equipment, role, and approval remain undecided.
-- **Historical opening snapshot:** WTR-001 is retained as a dated zero-time reference on 1 Harvestfall, 243 AC. It is not a recurring simulation procedure.
-
-### Player-character preparation boundary
-
-Earlier player-character concepts, personal secrets, family incidents, and related hooks remain preserved in the GM-only `player_characters/` records and any linked supporting files. Treat those materials as provisional legacy concepts, not current campaign facts, until the players confirm what they are keeping.
-
-Until the concepts are locked:
-- Do not build new NPCs, factions, conspiracies, political claims, or setting history around an assumed PC backstory.
-- Do not expose or use old PC secrets as active campaign facts.
-- Do not assign character-specific knowledge, allies, enemies, or obligations.
-- Do not finalize encounter balance, treasure, companion mechanics, or personal hooks.
-- Continue developing the setting, its institutions, cultures, geography, and ordinary people independently.
-
-When the final character sheets and backstories arrive, reconcile them against the preserved material. Keep what the players confirm, revise what they change, and leave the rest archived rather than forcing the characters into old plans.
-
-## 3. World foundations
-
-### Technology and everyday life
-
-The technological baseline is high medieval: fortified stone keeps, walled towns, hereditary nobility, knights, sworn retainers, household guards, levies, conventional armies, sailing vessels, horse transport, agriculture, guilds, and skilled craft production. There is no industrial or steampunk technological culture. Alchemy exists as specialized Pathfinder-based knowledge and craft; it does not imply industrialization.
-
-Magic is real but uncommon in everyday life. Arcane spellcasters are rare, divine spellcasters are also uncommon, and the average person may live their entire life without seeing a spell cast. Magic item creation is rare because the required talent, knowledge, and materials are uncommon. Player-character spellcasting still follows Pathfinder rules; social rarity does not rewrite mechanics.
-
-### Ancestries and societies
-
-- Humans dominate much of the continent.
-- Elves possess a major political power through House Vaelorian.
-- Dwarves maintain an enduring, relatively compact empire composed of independent clans united under the main branch. It has never collapsed. The main branch is said to descend from Torag himself. Dwarves primarily inhabit mountains and underground settlements; they rarely live in conventional surface stone-built settlements. Their cultural pride favors reproduction only with other dwarves, a cultural choice rather than biological incompatibility.
-- Ratfolk are naturally subterranean and live in decentralized networks rather than one unified people or government. Prejudice against them is widespread across surface societies, but it is not universal. Ratfolk are not inherently criminal, evil, diseased, or hostile.
-- Other Pathfinder ancestries may exist. None is automatically designated rare or uncommon by default.
-
-### Religion
-
-The Pathfinder gods are real. The continent broadly recognizes the Pathfinder pantheon, but worship varies by region, culture, institution, and individual. There is no single supreme religious authority over all faiths. Major faiths maintain independent hierarchies. Clergy and divine spellcasters are not interchangeable; a priest may conduct rites, education, charity, records, or mediation without casting spells.
-
-The Religious Establishment has a recognized and growing presence at the royal court but no automatic Imperial Council seat. An independent scholarly tradition exists outside religious hierarchies, though it may cooperate with them. The exact mediation of divine magic, major institutional hierarchies, religious courts, and the legal role of religion in marriage, inheritance, coronation, and secular law remain open.
-
-## 4. Geography and the wider world
-
-### Continental scale and major features
-
-The continent's approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, making it smaller than Westeros. It contains a central inland sea that shapes trade, naval power, and the strategic importance of Dragonstone.
-
-Established geographic foundations:
-- A large central inland sea.
-- Dragonstone, an island stronghold connected to the mainland by a narrow natural land bridge.
-- A GM-only dwarven underground route to Dragonstone. It is not known to ordinary actors and must not be inferred by player-facing map content.
-- Khar-Dum, the Kharadorns' ancestral homeland in the northeastern mountains.
-- Broad Great House territorial regions and the major seats listed below.
-- A harsh, sparsely populated northern wilderness beyond settled territories.
-- The Frozen Expanse beyond the Ancient Barrier. Its builders and original purpose are unknown; House Veyr maintains surviving portions.
-
-**Map discipline:** Do not invent exact borders, coordinates, route alignments, travel times, or political polygons. The authoritative artwork and calibrated atlas layers govern visual placement. Regional descriptions are not surveyed geometry. Political regions should not overlap unless a specific condition such as occupation or war justifies it. General geographic regions may overlap.
-
-### Major places and seats
-
-| Power | Principal seat / center | Broad role |
-|---|---|---|
-| House Calderan | Valedorn | Inland capital and Imperial Seat |
-| House Vaelorian | Aurelith | Western Highlands; finance and commerce |
-| House Kharadorn | Dragonstone; ancestral Khar-Dum | Dwarven empire, central inland sea, strategic maritime position |
-| House Edarth | Stoneguard | Western Heartlands; landed and martial power |
-| House Veyr | Frosthold | Northern Marches and frontier defense |
-| House Merrowen | Tidemark | Eastern coast and maritime power |
-
-Other established major places include Tallowmere, Ironharbor, Deepwatch, Greywatch (the northern Veyr-associated settlement, distinct from Tallowmere's castle), Eastwatch, Deltaport, Stormhaven, and Duskport. The Southern Reaches are politically fragmented, not one unified kingdom.
+Use the geographic and regional records for finer detail. Do not infer political borders from these broad descriptions.
 
 ## 5. The six Great Houses
+
+### House words and defining character
+
+| House | Words | Defining character |
+|---|---|---|
+| Calderan | “By Right, We Remain.” | Human ruling dynasty; hereditary legitimacy, Crown administration, and the effort to strengthen royal authority without provoking a united opposition. |
+| Vaelorian | “Wealth Endures. Power Remembers.” | Elven commercial and financial dynasty; long memory, scholarship, mining, trade, credit, and careful political leverage. |
+| Kharadorn | “Stone Remembers. Blood Endures.” | Dwarven Great House and main branch of an enduring clan empire; engineering, heavy forces, metalwork, Dragonstone, and control of the Central Inland Sea. |
+| Edarth | “Stand When Others Fall.” | Primarily human landed and martial dynasty; agricultural wealth, duty, traditional noble rights, experienced commanders, and vassal networks. |
+| Veyr | “Beyond the Wall, We Stand.” | Human northern dynasty; frontier defense, the Northern Watch, surviving portions of the Ancient Barrier, and dependence on southern supply. |
+| Merrowen | “All Roads Reach the Sea.” | Primarily human maritime dynasty; ports, shipping, naval tradition, coastal trade, and commercial independence. |
+
+The approved words are canon. Use the dedicated Great House records for heraldry and any detailed armorial descriptions; do not invent missing sigil elements.
 
 ### House Calderan — the Crown
 - **Ruler:** King Aldric Calderan, human, approximately 56; ruled 18 years.
@@ -171,6 +91,16 @@ Other established major places include Tallowmere, Ironharbor, Deepwatch, Greywa
 - **Internal tension:** Corvin favors naval strength and secure routes; Selene prioritizes commercial power; Aeric believes merchant families have too much influence.
 - **Constraint:** Merrowen's interests overlap with Vaelorian commerce but conflict with Kharadorn's control of inland-sea navigation. No blockade or imminent war is established.
 
+### Established inter-house relationship baseline
+
+- **Calderan and Kharadorn:** uneasy peace and mutual distrust after the post-Rebellion succession settlement. Both understand that war would be costly; Kharadorn is not afraid of war, but its position would not favor a prolonged conflict.
+- **Vaelorian:** commercial and financial influence can shape the choices of other houses through credit, trade, expertise, and long-term relationships. This is influence, not automatic control over debtors.
+- **Edarth:** agricultural production and landed military networks make the house important to the stability and defense of the realm. Its traditional authority and obligations can place it at odds with centralizing reforms.
+- **Veyr:** the northern frontier and Ancient Barrier create a continuing duty that depends on southern supplies, replacement personnel, transport, and political attention.
+- **Merrowen:** maritime reach and port relationships make the house important to trade and naval affairs. Its interests do not automatically align with Kharadorn's inland-sea authority or give it sovereignty over every coastal settlement.
+
+These are structural relationships, not fixed alliances or active disputes. Individual rulers, heirs, council representatives, and factions may disagree with their house's broader interests.
+
 ## 6. Imperial government and court
 
 ### Imperial Council
@@ -201,6 +131,20 @@ Five overlapping court movements, not formal parties:
 5. **Religious Establishment:** High Prelate Aveline Marr. Institutional independence and religious influence at court.
 
 Faction membership is fluid. A person may cooperate with one movement on one question and oppose it on another. Do not assume every member of a house shares the same faction.
+
+### Constitutional balance in practice
+
+The Council's approved operating framework establishes:
+- Four of six representatives for an ordinary Council resolution.
+- Five of six for protected settlement matters, including permanent changes to Great House hereditary privileges, extraordinary realm-wide levies, permanent expansion of military obligations, transfer of Great House territory or hereditary rights without consent or lawful forfeiture, fundamental alteration of the Council, or change to the succession settlement.
+- A quorum of four representatives.
+- The monarch may postpone a vote once for negotiation; a second postponement requires agreement from at least three representatives.
+- The Council cannot command armies directly. Its leverage lies in political legitimacy, funding, cooperation, and the post-Rebellion settlement.
+- The monarch retains authority for immediate defensive action in a direct attack. A prolonged offensive war against a recognized major power normally requires Council assent unless a demonstrable immediate threat makes delay unreasonable.
+
+The Crown's officers serve the monarch rather than representing the Great Houses. The monarch appoints them where law permits, but powerful houses and court factions seek influence over appointments. Royal authority is substantial, but the Crown cannot simply administer Great House lands, command their armies at will, or impose extraordinary levies without political consequences.
+
+For the full framework, consult `politics/Imperial_Governance_Operating_Framework.md` and `politics/Court_and_Council.md`.
 
 ### Political operating rules
 

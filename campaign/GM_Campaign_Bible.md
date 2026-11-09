@@ -521,7 +521,7 @@ The former world-engine folder contains useful descriptive dossiers and opening-
 - `world_engine/Tallowmere_NPC_Information_Network.md`: plausible information channels and knowledge limits.
 - `locations/starting_city/Public_Life_Neighborhoods_and_Entertainment.md`: where ordinary social contact and local news exchange occur.
 - `world_engine/Tallowmere_Rumor_Truth_Register.md`: rumor truth and information boundaries.
-- `world_engine/Initial_Issue_Register.md` and `Initial_Project_Register.md`: opening-state notes; use as background, not as clocks or mandatory ongoing processes.
+- `world_engine/Initial_Issue_Register.md` and `world_engine/Initial_Project_Register.md`: opening-state notes; use as background, not as clocks or mandatory ongoing processes.
 - `world_engine/reports/World_Turn_001_Opening_Baseline.md`: historical opening snapshot on 1 Harvestfall, 243 AC. It did not advance the campaign calendar.
 
 The GM may consult, revise, or disregard these records as the campaign develops. A record is not an instruction to make its subject act.

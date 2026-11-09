@@ -97,10 +97,11 @@ This file separates objective GM truth from what people say. A rumor's reliabili
 | RUM-TLM-009 | No one; cause unresolved | Dockside gossip, warehouse owners, guild |
 | RUM-TLM-010 | No one; underlying event unresolved | Moneychangers, visiting factors |
 
-## Use in the first world turn
+## GM use and information boundaries
 
-- Rumors may circulate at different speeds and in different forms.
-- The first world turn may change who hears a rumor, but must not automatically reveal objective truth to the PCs.
-- Do not make every rumor relevant to the PCs or connect them into one conspiracy.
-- If the PCs investigate, use evidence and actor knowledge to determine what they can learn.
-- Update this register only when a new fact is established or an actor's knowledge changes.
+This is a reference for the objective truth, uncertainty, and information boundaries behind the opening rumors. It does not determine who has heard a rumor automatically.
+
+- Keep the truth of a rumor separate from what a particular NPC or PC has heard or believes.
+- When a character investigates, use available evidence, source reliability, access, and the character's plausible contacts to determine what they learn.
+- Do not connect unrelated rumors into one conspiracy merely because they appear in the same register.
+- Revise an entry only when play or an explicit GM decision establishes new facts or changes who knows them.

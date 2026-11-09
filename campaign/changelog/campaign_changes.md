@@ -398,3 +398,11 @@
 - Rewrote `campaign/Worldbuilding_Readiness.md` to reflect current campaign readiness, the dependency on final PC materials, and the actual worldbuilding priorities.
 - Updated the development roadmap, current world state, and campaign indexes to remove active simulation instructions.
 - WTR-001 remains a historical zero-time opening snapshot on 1 Harvestfall, 243 AC. No further automated world turns are planned or required. No lore, NPC, faction, or map assets were deleted.
+
+
+## 2026-11-09 — Medicine, disease, and healing framework added
+
+- Added `campaign/world/Medicine_Disease_and_Healing.md` as a GM reference covering household care, midwives, barber-surgeons, physicians, herbalists, temples, injury, disease categories, sanitation, childbirth, disability, Pathfinder healing, class access, and medical belief.
+- Distinguished practical care, learned medicine, folk practice, religious care, and supernatural healing. Confirmed that clergy are not automatically spellcasters and that no temple or healer can provide unestablished magical services on demand.
+- Kept named practitioners, local facilities, specific endemic diseases, medical guilds, and epidemic events unresolved. No new disease outbreak or magical cure was established.
+- Linked the reference from Everyday Life and Material Culture and the campaign directory index.

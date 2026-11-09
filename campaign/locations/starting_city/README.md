@@ -22,6 +22,7 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 
 - [Public Life, Neighborhoods, and Entertainment](Public_Life_Neighborhoods_and_Entertainment.md) — established gathering places, local information networks, childhood, leisure, and social belonging.
 - [Government and Law](Government_and_Law.md), [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md), [Civic Calendar and Seasonal Routines](Civic_Calendar_and_Seasonal_Routines.md), and [Workforce and Daily Life](Workforce_and_Daily_Life.md).
+- [Law in Practice and Local Justice](Law_in_Practice_and_Local_Justice.md) — local roles, complaint pathways, evidence, civil disputes, enforcement limits, and illustrative cases.
 - [Faction Relationships and Local Power](Faction_Relationships_and_Local_Power.md), [Crime and Informal Power](Crime_and_Informal_Power.md), and [Criminal Operators and Networks](Criminal_Operators_and_Networks.md).
 - [Faith and Temples](Faith_and_Temples.md), [Local Religion and Institutions](Local_Religion_and_Institutions.md), and [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md).
 - [Ratfolk Underways](Ratfolk_Underways.md) and [Ratfolk Community Networks and NPCs](Ratfolk_Community_Networks_and_NPCs.md) — local subterranean ratfolk community and infrastructure.

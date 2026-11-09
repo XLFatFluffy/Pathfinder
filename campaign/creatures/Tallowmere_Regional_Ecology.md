@@ -46,7 +46,8 @@ Harbor, warehouses, streets, walls, refuse, cellars, gardens, granaries, stables
 - The River Vale supports barge traffic, mills, local fishing, and wetland/flood-meadow habitats.
 - The Eastern Shore supports fishing households and boat landings.
 - The region experiences seasonal flooding, autumn rain, and sudden inland-sea storms.
-- No specific dangerous animal population, monster lair, migration, or supernatural ecology has yet been established for the region beyond the provisional Session One troll encounter.
+- The wilderness framework explicitly identifies deer, boar, foxes, badgers, and wolves as common animals in the Deep Bracken. This establishes ordinary regional occurrence there, but not population size, pack territories, attack frequency, or presence in other habitats.
+- No specific monster population, monster lair, migration route, or supernatural ecology has been established for the region. The Session One troll remains a prepared encounter, not evidence of a native troll population.
 
 ## 4. Catalogue status
 
@@ -54,7 +55,7 @@ Do not treat generic Pathfinder Bestiary entries as confirmed setting fauna. Add
 
 For ordinary background life, the GM may describe plausible common animals as low-impact scene dressing, but recurring or consequential species records should be marked PROPOSED until approved. Do not assign exact population sizes or regional frequency without evidence.
 
-The proposed [Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) develops ordinary animal candidates. The proposed [Flora and Foraging reference](Tallowmere_Flora_and_Fungi.md) develops plant life, gathering, useful materials, and household practices. Neither document independently confirms species occurrence or harvest rights.
+The [Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) records the established Deep Bracken fauna separately from proposed candidates in other habitats. The proposed [Flora and Foraging reference](Tallowmere_Flora_and_Fungi.md) develops plant life, gathering, useful materials, and household practices. Neither document independently confirms species occurrence or harvest rights.
 
 Suggested catalogue groups to develop when useful:
 - Farm and household animals.

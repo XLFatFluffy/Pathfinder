@@ -1,10 +1,10 @@
 # House Relland and the Merchant Incident
 
-**Status:** ESTABLISHED CAMPAIGN BACKGROUND — 2026-11-04  
+**Status:** PROVISIONAL LEGACY PC-BACKSTORY MATERIAL — pending player confirmation (2026-11-09)  
 **Classification:** GM-facing; the PCs' knowledge is limited to what they remember and what they may later discover.  
 **Approximate date of incident:** Ten years before Session One.
 
-This record establishes the minor house responsible for the ratfolk PC's family tragedy and the house's response. It does not establish that the wider Relland family personally ordered the murders, nor does it absolve the household of responsibility for what its retainers did.
+This record preserves an earlier PC-specific backstory draft involving House Relland. The players are revising their character concepts, so the extortion, murders, named participants, cover-up, and evidence trail are not current campaign facts unless the players confirm that this backstory remains in use. House Relland's separate existence as a minor house is recorded in the regional settlement and minor-house references. Do not build new campaign hooks around this incident while it remains provisional.
 
 ## 1. House Relland
 

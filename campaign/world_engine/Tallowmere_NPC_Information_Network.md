@@ -169,7 +169,7 @@ They do not automatically know:
 - Every crime in the city.
 - Every Underways route.
 - Noble secrets.
-- The vampire PC's identity.
+- A player character's private identity or history without a plausible source.
 
 ## 5. Rumor movement
 

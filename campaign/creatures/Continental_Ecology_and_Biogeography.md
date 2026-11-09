@@ -17,6 +17,8 @@ This document translates established continental geography, climate tendencies, 
 6. **Ordinary life dominates most landscapes.** Most people encounter crops, livestock, working animals, birds, rodents, fish, and familiar wild animals far more often than monsters.
 7. **Supernatural ecology is exceptional.** A monster, undead presence, magical plant, or unusual migration needs a specific canon basis. Do not infer one from atmosphere alone.
 
+The approved localized Tallowmere exceptions are recorded in [Tallowmere Regional Bestiary](Tallowmere_Regional_Bestiary.md) and [Regional Creature Ecology and Field Guide](Regional_Creature_Ecology_and_Field_Guide.md): uncommon giant spiders in the Deep Bracken/isolated wooded frontier, uncommon giant frogs in localized wetland pools, rare stirges in suitable shelter, and occasional rare dire-animal individuals. These do not establish a wider continental distribution.
+
 ## 2. Northern Wilderness and Frozen Expanse
 
 **Established environmental tendency:** severe cold, snow, ice, exposed terrain, and difficult travel beyond the northern settled territories. The Northern Holds and Pine Marches include cold uplands, forests, valleys, and frontier settlements.

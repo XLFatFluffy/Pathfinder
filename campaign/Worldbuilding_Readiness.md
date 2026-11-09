@@ -33,7 +33,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 ## 2. What is already usable
 
 - The six Great Houses, current monarchy, Imperial Council, and principal court factions.
-- Tallowmere's government, civic institutions, NPCs, districts, shops, temples, local factions, rumors, immediate hinterland, public life, communication channels, local justice, emergency response, medical care, water and sanitation, and household material life.
+- Tallowmere's government, civic institutions, NPCs, districts, shops, temples, local factions, rumors, immediate hinterland, public life, communication channels, local justice, emergency response, medical care, water and sanitation, household material life, and Brackenholt's woodland work and charcoal industry.
 - The regional road and river framework, with cartographic limits clearly identified.
 - The opening campaign date: **1 Harvestfall, 243 AC**.
 - A player starting handout and a separate GM Tallowmere dossier.

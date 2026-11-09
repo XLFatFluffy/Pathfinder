@@ -1380,8 +1380,8 @@ This collection supplements, and does not replace:
 ## Information boundaries
 - An NPC knows only what their experience, office, relationships, and credible information channels permit.
 - A rumor is not objective truth. Consult the Tallowmere Rumor Truth Register.
-- The House Relland incident is not known to every member of the house. Lady Mereth's knowledge is limited; Corren's is more limited; neither knows the ratfolk PC survived.
-- The vampire PC's royal identity is not automatically known to any NPC.
+- The House Relland incident is provisional legacy PC material. If the GM confirms it, the previously drafted knowledge limits for Lady Mereth and Corren apply; do not use them as current facts beforehand.
+- No NPC automatically knows a player's secret identity or personal history; any earlier vampire-heir association remains provisional until the revised concept is confirmed.
 - The secret underground route to Dragonstone is not known to ordinary actors.
 - No NPC automatically knows the PCs' class abilities, equipment, history, or intentions.
 

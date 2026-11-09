@@ -70,10 +70,10 @@ A woodland path can be familiar to charcoal burners and nearly invisible to a ci
 
 - **Carp and other hardy freshwater fish:** plausible in slower pools, backwaters, and lower reaches. They may be caught by net, line, trap, or managed pond systems.
 - **Pike or comparable predatory fish:** possible in weedy margins and slower water. They are valued as food but can make shallow fishing places less pleasant for children and livestock.
-- **Eels:** plausible in the river system, though migration and life cycle details should be set consistently if they become important to trade or local lore.
+- **Eels:** a possible River Vale occurrence, but not an established river catch. Eels are specifically established as a Siltfen resource; their species, abundance, migration, and capture practices remain unresolved.
 - **Small fish and invertebrates:** support larger fish, birds, and mammals. Most are not individually named in local records.
-- **Frogs and other amphibians:** likely candidates around ditches, ponds, flood meadows, and quiet tributaries.
-- **Ducks, geese, herons, and kingfisher-like birds:** may use quiet reaches, banks, and shallows. Herons hunt patiently in shallow water; diving birds favor fish-rich reaches.
+- **Frogs:** an established Siltfen resource category, though species, abundance, and regularity of use are unresolved. Other amphibians remain candidates around ditches, ponds, flood meadows, and quiet tributaries.
+- **Waterfowl:** an established Siltfen harvest resource category, but no particular species is confirmed. Ducks, geese, herons, and kingfisher-like birds are candidate examples for suitable quiet reaches, banks, and shallows; wading and fish-eating birds should not be treated as confirmed species.
 - **Otters:** possible along quieter banks and less disturbed tributaries. Their tracks, slides, and feeding remains can be mistaken for signs of other animals by inexperienced observers.
 - **Beavers or similar water-engineering mammals:** possible in quieter, less managed reaches, but remain an optional and potentially consequential addition. If established, their dams would affect drainage, land use, mills, and local disputes. Do not casually introduce them without considering those consequences.
 
@@ -168,9 +168,9 @@ Quarrying and prospecting disturb habitat. Abandoned cuts can provide shelter or
 
 The Siltfen is a working wetland of shallow pools, muddy channels, reed beds, alder stands, wet meadows, and firmer ridges. Its ordinary ecology should be built around water level, vegetation, insects, fish, and waterfowl.
 
-- **Frogs and other amphibians** are strong candidates around pools and wet meadows.
-- **Waterfowl and wading birds** may use shallow channels and open pools; fish-eating birds follow suitable water.
-- **Eels and other freshwater fish** are candidates in connected channels, though exact species and seasonal movements remain open.
+- **Frogs** are an established Siltfen resource category. Their species, abundance, and whether they are eaten regularly or gathered opportunistically remain unresolved; other amphibians are candidates around pools and wet meadows.
+- **Waterfowl** are an established harvested resource category, but no particular species is confirmed. Wading birds and other wetland birds remain plausible candidates.
+- **Eels** are an established Siltfen resource category. Other freshwater fish remain candidates in connected channels; exact eel species, abundance, and seasonal movements are unresolved.
 - **Snakes, small mammals, and wetland insects** may occupy reed margins and drier hummocks.
 - **Otters** are possible along quieter connected waterways, but are not confirmed.
 - The wilderness framework mentions giant frogs, giant insects, stirges, and crocodiles only in suitable warmer waters as possible Pathfinder threats. These are not ordinary fauna or confirmed populations. Do not assume crocodiles inhabit the Siltfen without a deliberate climate and canon decision.

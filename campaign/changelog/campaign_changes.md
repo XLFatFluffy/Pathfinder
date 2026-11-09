@@ -644,3 +644,12 @@
 **Canon discipline:** Existing venues and established facts remain canon. General social patterns are labeled as portrayal guidance. No school system, named performers, clubs, new entertainment venues, legal restrictions, or formal associations were invented. Exact venue schedules, named local games, and other low-value details remain unresolved.
 
 **Approval status:** GM-directed development; portrayal guidance is not a new binding rule or institutional canon.
+
+
+## 9 November 2026 — Tallowmere education pathways reconciled
+
+- Reviewed the continental education and literacy framework against the latest local religion, workforce, commerce, and public-life records.
+- Clarified that the Open Ledger teaches basic numeracy to a limited number of pupils, without establishing a public school or broad curriculum.
+- Connected existing local apprenticeship examples and practical instruction through workshops, commercial houses, scribes, and private tutors.
+- Reaffirmed that Pell & Daughter is a scribal/stationer service, not a school, and that other temples are not automatically educational institutions.
+- Updated the Development Roadmap. No school system, academy, literacy rate, or new named tutor was invented.

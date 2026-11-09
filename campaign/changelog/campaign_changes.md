@@ -737,3 +737,14 @@
 - Reconciled `Law_in_Practice_and_Local_Justice.md` with `Streets_Landmarks_and_Routes.md`: the Watch House near Market Street and the North Gate contains short-term holding cells and is not a long-term prison. Capacity, staffing, and custody procedures remain unresolved.
 - Added Tallowmere's local civic observances to the player handout and linked the civic calendar from the Tallowmere GM dossier.
 - Updated the Development Roadmap. No new festival dates, market schedule, bell code, gate hours, or legal procedure were invented.
+
+
+## 9 November 2026 — Tallowmere landmark and service terminology audit
+
+- Clarified the distinction between the Rivergate district and River Gate access point in the city layout reference.
+- Clarified that The Ferry Steps is the managed crossing operated by the business The Ferryman's Steps. The River Steps public landing remains a separately named feature; its exact relationship to the ferry crossing is unresolved and no map placement was inferred.
+- Added the Watch House, Weigh House, Weighers' Court, Denvor Granary, Old Cistern, and local crossing terminology to the Names and Terminology Index.
+- Reconciled the index's Civic Calendar status with the established formal calendar.
+- Reconciled the law guide with the Watch House's established short-term holding cells and the emergency guide with the Denvor Granary's public-provisioning role and the separate Master of Stores office.
+- Corrected escaped Markdown paragraph breaks in `Residential_Life_and_Housing.md` and `Workforce_and_Daily_Life.md`. Removed unsupported gender assumptions from newly expanded NPC profiles where source records do not establish gender.
+- No coordinates, street alignments, gate schedules, or new geographic features were added.

@@ -6,7 +6,7 @@
 **Status:** Consolidated table reference; detailed source records remain authoritative.  
 **Prepared:** 6 November 2026
 
-> This is the operational guide to the campaign's starting city and immediate hinterland. It is deliberately separate from the continental Campaign Bible. Use it at the table; consult the linked source files for full shop inventories, legal text, NPC biographies, maps, and encounter mechanics.
+> This is the operational guide to the campaign's starting city and immediate hinterland. It is deliberately separate from the continental Campaign Bible. Use it at the table; consult the linked source files for full shop inventories, legal text, NPC biographies, maps, and encounter mechanics.\n\n**PC-concept boundary:** Sections concerning the earlier vampire/ratfolk pairing, House Relland incident, and Selwick troll opening preserve previous preparation. They are provisional legacy material until the players confirm their revised concepts and the GM approves the opening.
 
 ## 1. Tallowmere at a glance
 
@@ -114,7 +114,7 @@ Relative street connections are established; exact lengths, surveyed bearings, b
 | Beren Harlowe | Harlowe's General Stores | Practical, careful with money, values repeat customers |
 | Mara Venn | The Salted Tack | Former caravan quartermaster; tests gear, blunt but useful |
 | Orsik Feld | Orsik Ironworks | Independent dwarf smith; durable work, honest repairs |
-| Miraq Ashwhisk | Tallowmere Alchemical Supply | Observant, technically curious, precise; does not want to be treated as the ratfolk PC's automatic ally or representative |
+| Miraq Ashwhisk | Tallowmere Alchemical Supply | Observant, technically curious, precise; does not want to be treated as any PC's automatic ally or representative |
 | Harlan Tebb | Millhaven reeve / millers' contact | Practical, protects mill privileges, careful with Greywatch |
 | Mara Bellwood | Brackenwood Charcoal Fellowship | Senior burner and spokesman for working families |
 | Dagna Vale | Stonehollow Quarry Compact | Senior quarry contractor and negotiator |
@@ -153,7 +153,7 @@ This is lawful strategic oversight, not an established occupation plan or proof 
 - **House Avenholt:** Denvor vassal; Lady Ysabet Avenholt, heir Ser Corvin; agricultural estate at Ashcombe Hall. Ysabet is cautious with expenditure; Corvin favors defense and status.
 - **House Velleran:** Lord Beric Velleran, heir Lady Maud; seat Harthbridge. Protects market and toll privileges; commercial rival and practical counterpart to Denvor, not an established enemy.
 - **House Merewick:** Holds separate Fordmere crossing/ferry/toll charter. Its precise charter boundaries and relationship details remain in the regional holdings register.
-- **House Relland:** Minor human house under Velleran; Lady Mereth Relland, heir Ser Corren; South Road manor. Connected to the ratfolk PC's family tragedy. Do not expand the family's culpability beyond established facts.
+- **House Relland:** Minor human house under Velleran; Lady Mereth Relland, heir Ser Corren; South Road manor. Its separate existence and holding remain part of the regional reference; its connection to the earlier PC-specific incident is provisional. See the legacy incident record and do not use it as current campaign history until confirmed.
 - **Kharadorn Charter House:** Strategic charter presence and oversight; not daily city administration.
 - **Chartered Council:** Advisory and negotiating body, not sovereign government.
 
@@ -292,7 +292,7 @@ Tallowmere has no unified thieves' guild, citywide criminal boss, or secret coun
 
 Crime is specific. The Watch has honest officers, opportunists, and overwhelmed people. Corruption may occur, but it is not universal. Ratfolk are not collectively criminal and do not control all tunnels.
 
-## 13. Player-character connections and protected local secrets
+## 13. Provisional legacy PC connections and protected local secrets\n\n**Status:** Inactive legacy preparation pending confirmation of the revised player concepts. The details below are preserved for continuity only; do not build on them or present them as current campaign facts unless confirmed.
 
 ### House Relland and the ratfolk PC
 
@@ -319,7 +319,7 @@ The vampire PC is the concealed surviving Crown Prince of the fallen dragon-ridi
 - No actor automatically knows a PC's identity, personal history, or secret.
 - Do not assign every rumor to the PCs or connect unrelated local pressures.
 
-## 14. Opening session and sandbox
+## 14. Provisional opening encounter and sandbox\n\n**Status:** The city sandbox remains usable, but the Selwick wagon/troll encounter and its rewards are a prepared option only. Reassess them after final character sheets and the GM's decision on the opening.
 
 ### Opening setup
 

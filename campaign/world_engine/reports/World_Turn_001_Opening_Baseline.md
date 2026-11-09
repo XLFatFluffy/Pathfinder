@@ -1,33 +1,26 @@
-# World Turn 001 — Campaign Opening Baseline
+# Historical Opening-State Snapshot — 1 Harvestfall, 243 AC
 
-**Turn ID:** WTR-001  
+**Former identifier:** WTR-001  
 **In-world date:** 1 Harvestfall, 243 AC  
 **Time advanced:** 0 days  
 **Scope:** Opening-state snapshot immediately before Session One begins  
-**Status:** APPROVED BASELINE  
+**Status:** HISTORICAL BASELINE — RETIRED PROCESS  
 **Visibility:** GM-ONLY  
 **Campaign start:** 1 Harvestfall, 243 AC
 
-## 1. Purpose and result
+## 1. Purpose and historical status
 
-This is the first world-engine pass. It establishes the world state at the moment the campaign opens; it does not simulate time before the PCs arrive or advance the calendar.
+This record was originally created as a zero-time opening snapshot under the former Living World Engine. That process has been retired. The snapshot is retained for historical continuity and to preserve the campaign conditions recorded on 1 Harvestfall, 243 AC; it is not an active simulation result or an instruction to run future turns.
 
-**Result:** The established pressures and projects are active at their recorded starting statuses. No new event, war, assassination, succession crisis, famine, coup, blockade, or territorial seizure is introduced. No issue advances because zero in-world time has passed.
+**Recorded result:** The listed pressures and projects were documented at their opening statuses. No new event, war, assassination, succession crisis, famine, coup, blockade, or territorial seizure was introduced in this zero-time record. No calendar time elapsed.
 
-The world is already in motion. The point of later turns is to let those efforts change when actors gain time, information, resources, or opportunity.
+The entries below describe the dated opening situation. They are not forecasts, automatic event triggers, or assumptions about what must happen next.
 
-## 2. Near the PCs
+## 2. Player-character preparation boundary
 
-At the opening moment:
-- The two PCs are newcomers approaching Tallowmere and already know one another.
-- No local contact or personal relationship in Tallowmere is assumed.
-- The planned opening encounter is the troll attack on Selwick & Company's wagon, placed on the approach road that matches the PCs' actual route.
-- The encounter has not yet occurred. No crew casualty, cargo loss, troll injury, payment, or reward has been recorded.
-- The PCs' exact approach route and time of arrival are not yet fixed.
-- The vampire PC's identity and survival remain concealed. No local or continental actor is aware of them.
-- The ratfolk PC's survival of the Relland incident remains unknown to House Relland and its liege.
+No player-character number, identity, ancestry, class, relationship, personal history, arrival route, starting knowledge, or opening encounter is established by this historical snapshot. Earlier assumptions about a shared vampire/ratfolk backstory and a Selwick wagon/troll encounter are provisional legacy preparation only and are not current campaign facts unless separately confirmed by the players and GM.
 
-The PCs can plausibly encounter the local pressures and public rumors after reaching Tallowmere, but they do not automatically know every issue or rumor.
+The established campaign opening date and starting city remain 1 Harvestfall, 243 AC, and Tallowmere. The GM determines the actual first scene after final character concepts and materials are available.
 
 ## 3. Tallowmere issues at opening
 
@@ -93,20 +86,15 @@ The GM-only [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md
 
 These truths are not automatically known to the PCs. The source, reliability, and travel of each rumor remain local.
 
-## 7. GM-only developments
+## 7. GM-only facts and unresolved matters
 
-No new hidden operation or secret event is introduced by this turn.
+No hidden operation or secret event was introduced by this zero-time snapshot.
 
-Existing GM-only facts remain:
-- The vampire PC is the surviving heir of the fallen dragon-riding dynasty; this is unknown to the six Great Houses and the wider world.
-- House Relland does not know the ratfolk PC survived the roadside murders.
-- The dwarven underground route to Dragonstone exists and remains secret.
-- The cause of the warehouse fires, the lost ship's fate, and the noble magical-services rumor remain unknown.
-- The truth of the Longmead boundary dispute's original charter and markers remains unresolved.
+The dwarven underground route to Dragonstone exists and remains secret. The cause of the warehouse fires, the lost ship's fate, and the noble magical-services rumor remain unknown. The truth of the Longmead boundary dispute's original charter and markers remains unresolved. PC-dependent secrets and histories are deliberately excluded from this baseline and remain subject to player confirmation.
 
-## 8. Consequences and review triggers
+## 8. Conditions that may become relevant in play
 
-The following conditions may justify future updates when time passes or new information arrives:
+The following are examples of developments that could matter if they actually occur. They are not automatic triggers, deadlines, or a required review schedule:
 - Harbor allocation negotiations produce a formal schedule, delay, or Council recommendation.
 - Warehouse owners agree to repairs, refuse them, or a new fire incident occurs.
 - Harvest yields and deliveries become measurable.
@@ -116,25 +104,14 @@ The following conditions may justify future updates when time passes or new info
 - Harrowden or Wrenford submits evidence, alters the disputed area, or seeks Edarth arbitration.
 - Any continental project receives resources, faces an obstacle, or produces a decision.
 
-No deadline or automatic escalation is assigned. Review timing follows the campaign calendar and actual opportunities.
+No deadline or automatic escalation is assigned. The GM decides what deserves attention based on play, actual events, and the passage of in-world time.
 
-## 9. Decisions requiring GM input
+## 9. Unresolved Session One preparation
 
-None are required to establish this opening snapshot.
+This historical baseline does not settle the party's composition, opening encounter, companion, route, or first scene. Those decisions remain outside this reference and should be made from the players' final character concepts and the GM's chosen opening.
 
-Session One still requires:
-- Completed PC sheets.
-- Final companion approval and statistics.
-- A route-based encounter location.
-- A mechanical review of the troll against the actual party.
+## 10. Record status
 
-These are encounter-preparation matters, not world-engine blockers.
+WTR-001 remains a historical zero-time snapshot dated 1 Harvestfall, 243 AC. It records no world-changing event and advances no time. It is retained for provenance, not as a parallel campaign state. Actual events and approved changes belong in the campaign timeline and relevant subject records.
 
-## 10. Database updates
-
-- Turn ledger: record WTR-001 as the approved opening baseline.
-- Event ledger: no event entry; no world-changing event occurred during this zero-time snapshot.
-- Current world state: opening baseline remains 1 Harvestfall, 243 AC.
-- Issue, actor, project, and rumor registers remain unchanged except for links to this report.
-
-**End state:** Campaign ready to begin on **1 Harvestfall, 243 AC**. The world is in motion, but the first actual time advance will occur only when the GM advances the campaign clock.
+**Opening baseline:** The world reference date is **1 Harvestfall, 243 AC**. Player-character details and the exact Session One opening remain intentionally unset pending final player materials and GM approval.

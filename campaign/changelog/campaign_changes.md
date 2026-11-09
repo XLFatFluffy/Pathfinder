@@ -484,3 +484,11 @@
 - Clarified that the prepared Selwick wagon/troll opening remains an option pending final character sheets and encounter review.
 - Updated the GM Campaign Bible's campaign-state section to prevent new worldbuilding from assuming unconfirmed PC ancestries, histories, secrets, relationships, or personal hooks.
 - No established Great House, regional geography, or independent minor-house identity was changed.
+
+
+## 2026-11-09 — Legacy PC references and historical ledgers clarified
+
+- Reclassified the remaining player-character ambition and arrival entries in the Open Questions Register as provisional legacy concepts.
+- Updated the Names and Terminology Index so PC-specific relationships, the old world-turn ledger, and the former simulation snapshot are not presented as active systems or current character facts.
+- Updated NPC information boundaries to keep prior PC secrets and the House Relland incident inactive until confirmed.
+- Corrected the historical dynasty reference in Current World State to avoid using the inherited Westeros source name as an in-world canon name.

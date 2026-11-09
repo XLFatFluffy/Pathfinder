@@ -3,7 +3,7 @@
 **Status:** RETIRED — no active world-engine event process  
 **Campaign opening date:** 1 Harvestfall, 243 AC
 
-This file is retained to document that no world-engine event had been recorded before the campaign opening. It is not an active event database, and no automated or recurring review is required.
+This file is retained to document that no campaign event had been recorded before the campaign opening. It is not an active event database, and no automated or recurring review is required.
 
 ## Historical opening note
 

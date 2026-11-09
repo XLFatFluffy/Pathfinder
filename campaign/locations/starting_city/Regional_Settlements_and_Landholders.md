@@ -1,7 +1,7 @@
 # Tallowmere: Surrounding Settlements and Landholders
 
 **Status:** Initial regional settlements and local landholders established; exact map positions, boundaries, and travel times remain approximate.  
-**Last updated:** 2026-11-04
+**Last updated:** 2026-11-09
 
 This document gives Tallowmere a usable hinterland. The settlements are distinct communities with their own livelihoods and local concerns, not interchangeable dots placed around the city. Their populations are working estimates, not census figures.
 
@@ -296,8 +296,12 @@ The PCs can trade with, work for, compete against, assist, or ignore any of thes
 Do not invent exact tax rates, toll amounts, or military obligations until those systems are established consistently with the wider campaign.
 
 
-## 5. House Relland's Holding
+## 10. House Relland's Holding
 
-House Relland is a minor human noble family owing allegiance to House Velleran. Its modest manor and tenant lands lie along the South Road within the broader Velleran-chartered territory south of Tallowmere. The exact surveyed location and boundary are deliberately provisional pending the finished regional map. The house is locally established but has no continent-wide influence and no Imperial Council seat.
+**Status:** The house's existence, minor-house standing, general holding, and allegiance are established. The specific merchant incident is quarantined provisional PC-backstory material.
 
-House Relland's history includes a serious abuse of authority approximately ten years before the campaign: armed retainers used the house's livery and road-patrol authority to extort a travelling merchant family, then murdered the parents when they resisted. The household later concealed the misconduct. Full details, current family members, and possible evidence are recorded in `../../House_Relland_and_the_Merchant_Incident.md`. This event does not make House Relland a Tallowmere faction or imply that House Velleran ordered or approved the crime.
+House Relland is a minor human noble family owing allegiance to House Velleran. Its modest manor and tenant lands lie along the South Road within the broader Velleran-chartered territory south of Tallowmere. The exact surveyed location and boundary remain provisional pending the finished regional map. The house is locally established but has no continent-wide influence and no Imperial Council seat.
+
+An earlier PC-specific backstory draft connected House Relland to an extortion and murder incident involving a travelling merchant family. That incident, its participants, concealment, evidence trail, and PC connections are **not current campaign facts unless the players confirm the relevant character concepts**. Do not introduce the incident as a rumor, clue, established scandal, or current grievance while it remains quarantined.
+
+The GM-only legacy draft is preserved in [House Relland and the Merchant Incident](../../politics/House_Relland_and_the_Merchant_Incident.md). Its status does not invalidate House Relland's separate existence as a minor house or its established general allegiance to House Velleran.

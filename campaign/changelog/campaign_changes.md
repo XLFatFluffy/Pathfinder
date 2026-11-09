@@ -815,3 +815,9 @@
 
 - Added a readiness entry for the established player-knowledge baseline: major settlements and fortresses are broadly known, while minor settlements, private holdings, local routes, and specialist information depend on character background.
 - Confirmed that the player starting handout is a filtered derivative of GM canon.
+
+
+## 9 November 2026 — World and creature reference formatting cleanup
+
+- Fixed literal escaped paragraph breaks in `world/Everyday_Life_and_Material_Culture.md` and `creatures/Regional_Wildlife_Catalogue.md` so their headings and sections render as normal Markdown.
+- No creature occurrence, species proposal, or everyday-life canon changed.

@@ -531,8 +531,8 @@ The following people are named in the established shop, medical, and local-servi
 
 - **Wants now:** Complete repair work to a dependable standard and keep hides, straps, and fittings moving through the shop.
 - **Wants long-term:** Maintain a reputation for durable work among carters, sailors, horse owners, guards, and travelers.
-- **Fears / avoids:** Poor materials being blamed on his workmanship, rushed repairs failing in use, and customers demanding fine work at patchwork prices.
-- **Contradiction:** He values durable goods but must sometimes accept modest repairs for customers who cannot afford replacement.
+- **Fears / avoids:** Poor materials being blamed on Hadran's workmanship, rushed repairs failing in use, and customers demanding fine work at patchwork prices.
+- **Contradiction:** Hadran values durable goods but must sometimes accept modest repairs for customers who cannot afford replacement.
 - **Social method:** Functional, unsentimental, prefers to inspect an item before promising a price or deadline.
 - **Pressure response:** Explains exactly what can be repaired and refuses to guarantee work beyond the material's condition.
 - **Voice cue:** Plain, measured, focused on wear, fit, and use.
@@ -541,13 +541,13 @@ The following people are named in the established shop, medical, and local-servi
 - **Do not play as:** The Castellan Hadrik Voss. Hadran is a separate human leatherworker; the similar surname is established and intentional.
 
 ### Toman Brindle
-**Role:** Human stable owner; proprietor of Brindle & Sons Stables outside the West Gate. His daughter Ressa manages the books.  
+**Role:** Human stable owner; proprietor of Brindle & Sons Stables outside the West Gate. Toman's daughter Ressa manages the books.  
 **Suggested alignment:** Neutral (provisional).
 
 - **Wants now:** Keep the stalls occupied, the animals fed, and the stable's reputation for practical, dependable care intact.
 - **Wants long-term:** Maintain a stable business through market seasons without taking on animals or clients the yard cannot safely manage.
 - **Fears / avoids:** Sick or mistreated animals, unpaid boarding, and customers who treat a horse as interchangeable cargo.
-- **Contradiction:** He wants to accommodate travelers, but crowding during market weeks can make one more booking a risk to every animal already in the yard.
+- **Contradiction:** Toman wants to accommodate travelers, but crowding during market weeks can make one more booking a risk to every animal already in the yard.
 - **Social method:** Practical and observant; asks about an animal's condition, temperament, training, and intended use before discussing price.
 - **Pressure response:** Refuses unsafe arrangements and may turn away a customer rather than overfill the stable.
 - **Voice cue:** Calm, plainspoken, more interested in the animal than the owner's status.
@@ -577,7 +577,7 @@ The following people are named in the established shop, medical, and local-servi
 - **Wants now:** Keep rooms clean, meals dependable, the guest ledger accurate, and the inn's quieter reputation intact.
 - **Wants long-term:** Attract established sailors, small merchants, visiting factors, and travelers who value a clean bed and predictable service.
 - **Fears / avoids:** Damage to the inn, unpaid accounts, and guests whose conduct makes other customers feel unsafe.
-- **Contradiction:** She wants the Blue Heron to be welcoming, but its limited rooms and higher prices mean she cannot serve every traveler.
+- **Contradiction:** Veyra wants the Blue Heron to be welcoming, but its limited rooms and higher prices mean the inn cannot serve every traveler.
 - **Social method:** Observant and courteous; remembers guests, routines, and troublesome behavior without making a show of it.
 - **Pressure response:** Becomes formal, consults the guest ledger, and sets clear limits on what the inn will tolerate.
 - **Voice cue:** Calm, economical, hospitable without false familiarity.
@@ -592,9 +592,9 @@ The following people are named in the established shop, medical, and local-servi
 - **Wants now:** Keep drink and food moving, benches occupied, and the Watch from having reason to close the place.
 - **Wants long-term:** Make the Crooked Oar a dependable stop for dock laborers, sailors between voyages, and casual crews.
 - **Fears / avoids:** Serious violence, unpaid credit, and a disturbance that drives away the regulars who keep the business alive.
-- **Contradiction:** He accepts a loud, rough atmosphere as part of the tavern's appeal, but must intervene when an argument threatens to become costly violence.
+- **Contradiction:** Pellik accepts a loud, rough atmosphere as part of the tavern's appeal, but must intervene when an argument threatens to become costly violence.
 - **Social method:** Blunt, familiar with working crews, judges people by how they behave toward staff and other patrons.
-- **Pressure response:** Tries to settle a quarrel before it becomes a Watch matter; does not promise protection he cannot provide.
+- **Pressure response:** Pellik tries to settle a quarrel before it becomes a Watch matter and does not promise protection beyond the tavern's means.
 - **Voice cue:** Loud enough to be heard over the room, plain and unsentimental.
 - **Sample line:** “You can finish the argument outside, or you can finish your drink and go home.”
 - **Can be moved by:** Prompt payment, respect for the staff, and customers who do not turn a cheap meal into a public brawl.
@@ -606,8 +606,8 @@ The following people are named in the established shop, medical, and local-servi
 
 - **Wants now:** Move passengers and small cargo safely across the local river reach and keep his boats in serviceable condition.
 - **Wants long-term:** Preserve the family's crossing business and its standing with regular users.
-- **Fears / avoids:** Unsafe crossings, damaged boats, unpaid fares, and customers who expect him to risk lives for an urgent schedule.
-- **Contradiction:** He earns his living by taking people across the water, but his judgment sometimes requires telling a paying customer to wait.
+- **Fears / avoids:** Unsafe crossings, damaged boats, unpaid fares, and customers who expect Edrin to risk lives for an urgent schedule.
+- **Contradiction:** Edrin earns a living by taking people across the water, but sound judgment sometimes requires telling a paying customer to wait.
 - **Social method:** Practical and familiar with local users; asks where a passenger is going, what they carry, and how quickly they need to cross.
 - **Pressure response:** Refuses a crossing when river or weather conditions make it unsafe.
 - **Voice cue:** Matter-of-fact, attentive to current, depth, load, and timing.
@@ -622,13 +622,13 @@ The following people are named in the established shop, medical, and local-servi
 - **Wants now:** Coordinate deliveries so bulk orders arrive in the right quantity and condition.
 - **Wants long-term:** Make the provisioner's service dependable enough that shipmasters and caravan leaders return.
 - **Fears / avoids:** Spoiled cargo, missed delivery windows, and customers who change an order after the goods are already in transit.
-- **Contradiction:** She values flexibility for customers but knows that every last-minute change costs time, labor, and money.
+- **Contradiction:** Merra values flexibility for customers but knows that every last-minute change costs time, labor, and money.
 - **Social method:** Organized and brisk; asks for quantities, destinations, deadlines, and who will receive the goods.
 - **Pressure response:** Rechecks the order and offers only what the business can actually deliver.
 - **Voice cue:** Efficient, practical, focused on lists and timing.
 - **Sample line:** “I can change the order. I cannot pretend the first cart has not already left.”
 - **Can be moved by:** Clear orders, reliable payment, and advance notice.
-- **Do not play as:** A second owner or a political figure. Her established work is delivery management. Her ancestry remains unspecified.
+- **Do not play as:** A second owner or a political figure. The established work is delivery management. Merra's ancestry remains unspecified.
 
 ### Fenna Wale
 **Role:** Human herbalist and trained healer; proprietor of Fenna's Physic Garden near the Lantern Hospice.  
@@ -637,13 +637,13 @@ The following people are named in the established shop, medical, and local-servi
 - **Wants now:** Provide useful mundane remedies, poultices, clean bandages, and carefully prepared supplies without making claims beyond what they can do.
 - **Wants long-term:** Maintain a trustworthy practice serving households, sailors, hospice staff, midwives, and cautious travelers.
 - **Fears / avoids:** A customer delaying necessary care because they expect an herb to cure a serious injury, curse, or magical disease.
-- **Contradiction:** She wants people to have access to practical remedies, but her careful warnings can disappoint customers seeking certainty.
+- **Contradiction:** Fenna wants people to have access to practical remedies, but careful warnings can disappoint customers seeking certainty.
 - **Social method:** Attentive and exact; asks what symptoms were observed, how long they have lasted, and what has already been tried.
 - **Pressure response:** Refuses to promise a cure and directs serious cases toward more appropriate care.
 - **Voice cue:** Calm, specific, gently corrective.
 - **Sample line:** “This may ease the swelling. It will not mend the bone.”
 - **Can be moved by:** Honest descriptions, clean preparation, and customers who follow instructions.
-- **Do not play as:** A spellcaster or a substitute for a physician, midwife, or alchemist. Her remedies do not automatically restore hit points or cure magical conditions.
+- **Do not play as:** A spellcaster or a substitute for a physician, midwife, or alchemist. Fenna's remedies do not automatically restore hit points or cure magical conditions.
 
 ---
 
@@ -1334,13 +1334,13 @@ Claims the inconsistent glass thickness came from a bad batch rather than carele
 - **Wants now:** Provide competent, discreet care to patients who may have few other options, and work with Lantern Hospice when a need exceeds her own practice.
 - **Wants long-term:** Preserve trust with the households she serves and keep practical care accessible without promising what she cannot provide.
 - **Fears / avoids:** A patient withholding important information, unsafe childbirth conditions, and being mistaken for a divine spellcaster or a substitute for every kind of physician.
-- **Contradiction:** She values privacy, but sometimes must persuade a patient or family to seek help beyond what she can safely manage alone.
+- **Contradiction:** Edda values privacy, but sometimes must persuade a patient or family to seek help beyond what can safely be managed in her practice.
 - **Social method:** Direct but discreet; asks necessary questions without humiliating people.
 - **Pressure response:** Focuses on immediate safety and gives clear instructions, even when they are unwelcome.
 - **Voice cue:** Firm, calm, practical.
 - **Sample line:** “You can tell me the truth now, or you can explain later why you did not.”
 - **Can be moved by:** Trust, honest information, clean supplies, and practical support for a patient.
-- **Do not play as:** A cleric or a guaranteed source of magical healing. Her exact training beyond midwifery and practical healing is not specified.
+- **Do not play as:** A cleric or a guaranteed source of magical healing. Edda's exact training beyond midwifery and practical healing is not specified.
 
 ### Kett-of-the-Low-Arch
 **Role:** Ratfolk masonry patcher and passage inspector in the Underways. **Suggested alignment:** Lawful Neutral (provisional).

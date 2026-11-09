@@ -26,7 +26,7 @@ These are setting NPCs. They do not establish or alter any player character's id
 - **Princess Brynja Kharadorn:** Younger daughter, skilled in clan negotiations. Believes unity depends on preserving ancient agreements and clan privileges.
 - **Lord Kazrik Kharadorn:** Durnak's younger brother, respected by older clans; believes the main branch has become too accommodating toward surface powers.
 - **Tension:** Vorgun's militarism concerns those favoring clan consensus and careful diplomacy. Brynja may become important if clans resist his approach.
-- **Agenda:** Preserve dwarven independence, control of the inland sea and Dragonstone, and freedom from surface interference in clan affairs.
+- **Agenda:** Preserve dwarven independence, control of Dragonstone, and a dominant strategic position over key central inland-sea routes and naval approaches, while protecting clan affairs from surface interference. This does not mean blanket sovereignty over every shore.
 - **Historical distinction:** Durnak is a later ruler, not the dwarven leader who directed the immediate post-Rebellion settlement.
 
 ## House Edarth — The Western Heartlands
@@ -64,7 +64,7 @@ These are setting NPCs. They do not establish or alter any player character's id
 - **Durnak Kharadorn and Edran Veyr:** Mutual respect, limited direct political interaction.
 - **Garrick Edarth and Edran Veyr:** Natural military and political understanding.
 - **Theren Vaelorian and Garrick Edarth:** Theren considers Garrick predictable; Garrick considers Theren dangerous.
-- **Maris Merrowen and Durnak Kharadorn:** Maris wants freer navigation; Durnak preserves dwarven control of the inland sea.
+- **Maris Merrowen and Durnak Kharadorn:** Maris wants freer navigation; Durnak preserves Kharadorn's dominant strategic position over key routes and naval approaches.
 
 ## Still Unresolved
 Wider family trees and collateral branches; individual Imperial Council representatives; household officers and commanders; exact formal titles and styles; and further relatives or retainers. Expand these when relevant to play.

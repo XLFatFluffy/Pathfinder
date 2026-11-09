@@ -710,3 +710,11 @@
 - Renamed the legacy `WTR-001` section in `Current_World_State.md` as a historical opening-state review. It records a zero-day continuity snapshot only; it is not a recurring world-turn procedure or permission to run simulations.
 - Updated the Development Roadmap's current milestone. The former 8 November Session One target is historical; party concepts and the troll/Selwick opening remain provisional pending player confirmation and GM approval.
 - This is a scope and status clarification only. No in-world time, event, or campaign outcome changed.
+
+
+## 9 November 2026 — Player starting handout refreshed
+
+- Updated `player_materials/Player_Starting_Handout.md` to reflect the recent arcane scarcity and magic-item market lore, more precise Kharadorn maritime influence, Tallowmere's established public gathering places and charitable institutions, and the meaning of the major calendar observances.
+- Clarified that the nearby settlement list is not exhaustive and that familiarity with minor places depends on a character's background.
+- Removed legacy assumptions that the party consists of two level-five characters who already know one another. Party size, levels, relationships, starting resources, and opening circumstances now await confirmed character sheets and GM approval.
+- Kept GM-only history, rumor truth, hidden routes, private motives, and other secrets out of the player handout.

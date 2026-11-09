@@ -101,3 +101,8 @@ These are current positions and pressures, not a coordinated conspiracy.
 ## Open details
 
 The precise number of resident clergy, individual divine spellcasters, temple finances, landholdings, service schedules, and regional religious superiors remain open. No local institution is given an unrecorded spellcasting service, legal privilege, or political power.
+
+
+## Temple defense and local Champions
+
+The continental rule is that each established, permanent temple maintains or designates a Temple Champion responsible for defense and appropriate investigation. This is separate from the temple's senior clergy and ordinary keepers. The small shrines and household worship spaces described here are not automatically required to maintain a resident defender. Tallowmere's named senior clergy and shrine keepers are not automatically Champions; no individual local Champion, class, level, or appointment is established by this note. Their identities and availability remain to be developed without changing the existing NPCs by assumption.

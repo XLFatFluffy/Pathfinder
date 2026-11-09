@@ -298,7 +298,7 @@ Crime is specific. The Watch has honest officers, opportunists, and overwhelmed 
 
 **Status:** Inactive legacy preparation pending confirmation of the revised player concepts. The details below are preserved for continuity only; do not build on them or present them as current campaign facts unless confirmed.
 
-### House Relland and the ratfolk PC
+### Earlier ratfolk-PC concept: House Relland incident
 
 House Relland is a minor human house under House Velleran, holding a modest manor and tenant holdings along the South Road. Current head: Lady Mereth Relland. Heir: Ser Corren Relland. Former head at the time of the incident: Lord Edvar Relland, deceased.
 

@@ -604,7 +604,7 @@ The following people are named in the established shop, medical, and local-servi
 **Role:** Human licensed ferryman; operates the Ferryman's Steps in Rivergate.  
 **Suggested alignment:** Lawful Neutral (provisional).
 
-- **Wants now:** Move passengers and small cargo safely across the local river reach and keep his boats in serviceable condition.
+- **Wants now:** Move passengers and small cargo safely across the local river reach and keep Edrin's boats in serviceable condition.
 - **Wants long-term:** Preserve the family's crossing business and its standing with regular users.
 - **Fears / avoids:** Unsafe crossings, damaged boats, unpaid fares, and customers who expect Edrin to risk lives for an urgent schedule.
 - **Contradiction:** Edrin earns a living by taking people across the water, but sound judgment sometimes requires telling a paying customer to wait.
@@ -613,7 +613,7 @@ The following people are named in the established shop, medical, and local-servi
 - **Voice cue:** Matter-of-fact, attentive to current, depth, load, and timing.
 - **Sample line:** “The river is not late. You're early for a crossing it won't give you.”
 - **Can be moved by:** Fair payment, clear cargo information, and customers who respect safety decisions.
-- **Do not play as:** A long-distance river captain or a universal guide to every reach of the River Vale. His operation is local.
+- **Do not play as:** A long-distance river captain or a universal guide to every reach of the River Vale. The established operation is local.
 
 ### Merra Venn
 **Role:** Delivery manager and cousin of Ollo Venn at Salt & Root Provisioners. **Ancestry:** Unspecified.  

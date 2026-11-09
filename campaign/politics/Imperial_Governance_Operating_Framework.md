@@ -4,7 +4,7 @@
 **Effective date:** 1 Harvestfall, 243 AC  
 **Scope:** Imperial Council procedure, Crown authority, Great House representation, and political escalation rules
 
-This document converts the established Crown/Council framework into usable operating rules for the Living World Engine. It does not turn the Imperial Council into a modern legislature.
+This document records the established Crown/Council framework as a usable GM reference. It does not turn the Imperial Council into a modern legislature.
 
 ## 1. The Imperial Council
 
@@ -150,7 +150,7 @@ Every house has:
 - internal factions;
 - long-term strategic objectives.
 
-The ruler is the primary decision-maker, but the Living World Engine should distinguish the ruler's wishes from the interests of the wider house.
+The ruler is the primary decision-maker, but the GM should distinguish the ruler's wishes from the interests of the wider house.
 
 A ruler may be pressured by:
 
@@ -190,7 +190,7 @@ Political disputes should normally escalate through:
 
 Skipping several stages requires a specific cause.
 
-The Living World Engine should record the stage of escalation rather than simply labeling an issue "conflict."
+These are possible avenues, not a mandatory sequence. The GM should distinguish a private complaint, legal petition, arbitration, coercion, and open warfare rather than treating them all as the same kind of conflict.
 
 ## 9. Consequences for vassals
 
@@ -220,7 +220,7 @@ They do not automatically know:
 - the contents of sealed records;
 - every action of their own vassals.
 
-The Living World Engine must model information separately from objective truth.
+The GM must keep information available to each representative separate from objective truth.
 
 ## 11. Current constitutional balance
 
@@ -238,22 +238,7 @@ The current political equilibrium is intentionally unstable but functional:
 
 This balance is the baseline against which future political changes are measured.
 
-## 12. Living World Engine rule
+## 12. GM adjudication guidance
 
-When a PC changes a political fact, evaluate the legal mechanism first.
-
-Examples:
-
-- inheriting a holding;
-- receiving a royal grant;
-- becoming a vassal;
-- defeating a lord;
-- marrying into a house;
-- exposing a crime;
-- winning an arbitration;
-- breaking a charter;
-- seizing a fort;
-- becoming recognized as heir.
-
-The political consequences should follow the mechanism rather than being improvised as generic "reputation."
+When a player character or NPC changes a political fact, begin with the legal mechanism and the people whose rights are affected. Inheritance, royal grants, vassalage, marriage, criminal exposure, arbitration, charter breach, seizure of a fort, and recognition of an heir create different rights and obligations. Consequences should follow the specific mechanism, evidence, jurisdiction, and political circumstances rather than being reduced to a generic reputation score.
 

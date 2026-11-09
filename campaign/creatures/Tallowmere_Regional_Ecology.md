@@ -16,7 +16,7 @@ The region is a settled, worked landscape. Farms, managed woodland, river traffi
 Open farmland, pasture, orchards, hedgerows, drainage hollows, ditches, and small copses. Human land use is intensive near roads and settlements, becoming less regular farther from them.
 
 ### Brackenwood
-Managed woodland west of Tallowmere and around Brackenholt. Coppice, mature stands, clearings, charcoal burns, gathering areas, and older unmanaged pockets coexist. Woodland rights and seasonal work shape access.
+Managed woodland west of Tallowmere and around Brackenholt. Coppice, mature stands, clearings, charcoal burns, gathering areas, and older unmanaged pockets coexist. Woodland rights and seasonal work shape access. Brackenwood is the managed working woodland; the Deep Bracken is the older, less-managed frontier woodland beyond it. Older pockets within Brackenwood do not make the two names interchangeable. This is a land-use distinction, not a surveyed boundary, and Denvor customary rights weaken toward the outer forest.
 
 ### River Vale and tributaries
 A navigable lower river, slower pools, gravel bars, mill reaches, seasonal streams, flood meadows, and drainage channels. Barges, mills, ferries, fishing, and riverbank settlements create regular human activity.

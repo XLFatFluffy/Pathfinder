@@ -53,42 +53,71 @@ The family is not a unified bloc. Oswin and Edwyn differ over pace and spending;
 
 ## 4. Districts and city character
 
-- **Greywatch Rise:** Castle, Denvor household, garrison, and local authority on the high ground.
-- **The High Ward:** Wealthier homes, legal offices, established temples, and professional services.
-- **The Old Quays:** Historic waterfront, shipwrights, chandlers, inns, older warehouses, and maritime housing. Irregular, crowded, damp, and exposed to fire and flood.
-- **The New Quays:** Expanded docks, bulk cargo, larger warehouses, provisioning yards, and newer merchant concerns.
-- **Market Ward:** Bellmarket, guildhalls, shops, moneychangers, scribes, and public notices. Higher rents and established traders influence stall allocation.
-- **Rivergate:** Bargemen, mills, smiths, workshops, cart yards, laborers, and river commerce. Noise, smoke, and heavy traffic are normal.
-- **Lantern Ward:** Temples, hospice, healers, burial grounds, and quiet residential streets.
-- **The Underways:** Varied subterranean spaces: cellars, storage, wells, drainage, ratfolk homes, workshops, and routes. Not a single city beneath the city, not a unified faction, and not automatically accessible. A surface lease does not grant rights to underground passages.
+The districts are working neighborhoods, not rigid class or ancestry zones. Wealth, occupation, ancestry, and status overlap. A prosperous ratfolk trader may keep a surface shop and an Underways home; a human dockworker may rent in the Old Quays; a wealthy merchant may live in the High Ward while keeping a warehouse at the New Quays.
 
-### Street and landmark index
+### Greywatch Rise
 
-Principal streets: Harbor Road, Market Street, King's Road, West Road, North Road, Lantern Way, Greywatch Stair, Rise Road, Quay Lane, New Wharf Road, River Road.
+The elevated heart of House Denvor's authority. Greywatch, the garrison buildings, formal gardens, household offices, stables, and the homes of senior officers occupy the highest and most defensible ground. The district is deliberately visible from the harbor. Visitors approach by Greywatch Stair or the broader Rise Road, and access may be questioned near the castle precinct.
 
-Public spaces and landmarks include:
-- **Bellmarket:** Principal public market.
-- **Weighers' Court:** Commercial weighing and dispute space.
-- **Ropewalk Green:** Open working and gathering space.
-- **River Steps:** River access and landing.
-- **Lantern Close:** Religious and charitable precinct.
-- **Heron Court:** Civic gathering space.
-- **Old Stone Bridge** and **Mill Bridge:** Important crossings.
-- **Ferry Steps:** River crossing/landing.
-- **Harbor Chain and Boom:** Harbor control and defense.
-- **Quay Gates:** Controlled waterfront access.
-- **Greywatch:** Denvor seat and defensive command.
-- **Reeve's Hall:** Civic administration and records.
-- **Harbor Office:** Shipping declarations, berths, and harbor procedure.
-- **Weigh House:** Commercial measures and records.
-- **Watch House:** City watch administration.
-- **Garrison Yard:** Military stores and training.
-- **Lantern Hospice:** Charity and basic care.
-- **Sailors' Shrine:** Maritime vows and memorials.
-- **Old Cistern:** Water infrastructure and an important subterranean reference point.
-- **Denvor Granary:** Publicly significant grain storage.
+The district's daily life revolves around the household and its obligations: servants, clerks, guards, grooms, cooks, armorers, messengers, contractors, and officials move between the castle and the lower city. Security is visible and streets are better maintained than in most working quarters. Ordinary rooms are uncommon, and access is controlled by reputation, appointment, or service.
 
-Relative street connections are established; exact lengths, surveyed bearings, building frontages, and final map geometry remain provisional. Do not invent map coordinates or underground passages.
+### The High Ward
+
+The older, wealthier residential quarter below Greywatch Rise. It contains substantial townhouses, legal offices, established temples, private courtyards, prosperous craft households, professional services, and smaller dwellings tucked behind main streets. The best houses have courtyards, storage, and servants' rooms; more modest homes may occupy two or three rooms above a shop.
+
+The High Ward is quiet by port standards, not silent. Carts, bells, household deliveries, legal business, and temple activity continue through the day. Respectability matters here, as does who is invited through which door. A private conversation in a courtyard can carry more political weight than a loud argument in the market.
+
+### The Old Quays
+
+The oldest working waterfront. Stone warehouses, chandlers, shipwrights, rope-makers, taverns, shipping offices, and maritime housing crowd the inner harbor. Sailors rent beds or rooms between voyages; workers often live above or behind the businesses where they work. Some old merchant families retain substantial waterfront homes, but many ground floors have become commercial space.
+
+The district is prosperous but crowded, damp, noisy, and vulnerable to fire. Loading hours can make Quay Lane difficult to cross. Cargo tallies are argued over in counting houses, crews gather near taverns and the Sailors' Shrine, and the smell of tar, wet rope, fish, bilge water, smoke, and salt is part of ordinary life.
+
+### The New Quays
+
+Expanded wharves and storage yards built as trade grew. Larger vessels, bulk cargo, bonded warehouses, provisioning yards, newer merchant concerns, and more regular cart access are concentrated here. The streets are wider and straighter than the older quay lanes, with space for wagons to turn and cargo to be staged.
+
+The New Quays have newer merchant properties beside rough lodging yards and unfinished rows of workers' housing. Some residents are seasonal sailors and laborers whose work depends on ship arrivals and repair schedules. Disputes over leases, labor, fees, quay priority, and fire precautions are recurring pressures. The district has more room than the Old Quays, but not necessarily more security or social stability.
+
+### Market Ward
+
+The city's commercial center. Bellmarket, guildhalls, moneychangers, scribes, inns, public notices, specialist shops, food sellers, and small workshops cluster around Market Street. Country produce, imported goods, and port services meet here. It is where a traveler can buy ordinary equipment, hire a porter, exchange money, seek a scribe, or hear the latest public argument.
+
+Shopkeepers often live above their premises. Apprentices and servants sleep in attic rooms or shared quarters; visiting merchants and carriers use lodging houses. Rents are high relative to the size of the dwellings, and stall allocation is influenced by established traders and local privilege. The busiest streets are noisy from dawn, while quieter residential lanes sit behind the market frontage.
+
+### Rivergate
+
+The river-facing district of bargemen, millers, fishmongers, carters, smiths, carpenters, wheelwrights, small foundries, tanners, and laborers. It connects the harbor to inland traffic. Workshops often employ relatives and apprentices, and family households may share rooms with boarders or workers.
+
+Rivergate is practical rather than genteel. It smells of wet timber, smoke, grain dust, animal waste, river mud, hot metal, and food being cooked for workers. Lower streets are vulnerable to flooding and become muddy after heavy rain. Mill and cart traffic can make crossings difficult, while water access and drainage are constant matters of local concern.
+
+### Lantern Ward
+
+A district of shrines, temples, hospice grounds, charitable houses, healers, burial access, religious hostels, and quiet residential streets. Several faiths maintain a public presence, but no single temple governs the city's conscience. Prominent clergy can exert influence through charity, education, burial, and public trust.
+
+The district includes modest family homes, religious hostels, healers' residences, and small properties held by temple or hospice institutions. Some residents receive temporary shelter, but charitable capacity is limited and assistance is not guaranteed. Funerals, processions, alms distribution, and visits to the hospice can make its quieter streets busy at particular times.
+
+### The Underways
+
+A patchwork of inhabited chambers, converted cellars, old foundations, service passages, natural cavities, water chambers, and connected routes beneath parts of Tallowmere. Ratfolk households occupy some spaces; others are used for storage, workshops, access, or remain uninhabited. It is not a single settlement, unified faction, or fully mapped tunnel network.
+
+Some homes are dry, carefully maintained, and passed between generations. Others are cramped, damp, poorly ventilated, or vulnerable to seepage. Shared passages and water infrastructure are maintained where local residents can organize the labor and materials, but the ratfolk community does not control every tunnel beneath the city. Ratfolk also live on the surface in rented rooms, shops, workshops, and mixed-ancestry households. No single representative speaks for all Underways residents.
+
+### Daily rhythm and working life
+
+Tallowmere's day begins before sunrise. Bakers light ovens; fishers and river crews prepare; quay foremen gather laborers; porters and cart drivers move goods before the streets fill. In the morning, shops open, carts enter through the gates, clerks and officials begin their rounds, workshops start noisy work, and the market grows crowded.
+
+At midday the market and quays remain active. Laborers eat at stalls and taverns; magistrates hear scheduled matters; guild representatives meet when business requires it. In the afternoon, cargo handling continues, workshops complete deliveries, household errands peak, and merchants settle accounts before closing.
+
+In the evening, shops shutter, taverns and inns fill, sailors seek food and company, and watch patrols become more visible near gates and waterfront streets. The harbor does not stop entirely at night. Night crews, guards, ferrymen, inn staff, healers, and people with reasons to avoid attention remain active. The city is quieter, not asleep.
+
+### Housing and household life
+
+Most residents rent rooms, share family dwellings, live above shops or workshops, occupy small houses in narrow lanes, or reside in employer-provided rooms. Households may include relatives, apprentices, servants, and boarders who are not all related. Multi-generational households are common among craftspeople and long-established residents.
+
+Housing quality varies sharply by street. Wealthier homes may have enclosed courtyards, private wells or cisterns, storage, and servants' rooms. Poorer households rely on shared wells, public pumps, communal privies, and neighborhood arrangements. Seasonal sailors and casual dockworkers may take short leases or share rooms while work is available. New arrivals rely on inns, lodging houses, relatives, employers, or charitable institutions until they find stable work.
+
+A missed week of work can threaten a laborer's ability to pay rent. Neighbors share childcare, tools, meals, repairs, and information, but mutual aid creates obligations and disagreements. Ratfolk and other marginalized residents may face unequal rents, refusals, harassment, or pressure to use less desirable entrances. These are individual and institutional behaviors, not universal rules.
 
 ## 5. NPC directory
 
@@ -371,7 +400,7 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - Keep GM truth separate from rumor and player knowledge.
 - If PCs acquire property, a minor house, guild, or political office, model the obligations and reactions proportionately rather than instantly escalating to continental war.
 
-## 16. Living World links and authoritative Tallowmere records
+## 16. Authoritative Tallowmere records and legacy references
 
 - `Session_One_GM_Readiness_Packet.md`: running packet and pre-session checklist.
 - `Session_One_Sandbox_Reference.md`: concise table-side sandbox.
@@ -388,6 +417,6 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - `Current_Situation_and_Rumors.md` and `world_engine/Tallowmere_Rumor_Truth_Register.md`: rumor and objective truth.
 - `Regional_Settlements_and_Landholders.md`, `Regional_Geography_and_Points_of_Interest.md`, `Surrounding_Region.md`, `Wilderness_Beyond_Tallowmere.md`: hinterland and travel.
 - `world_engine/Tallowmere_NPC_Information_Network.md`: information flow.
-- `world_engine/Initial_Issue_Register.md` and `Initial_Project_Register.md`: living-world state.
+- `world_engine/Initial_Issue_Register.md` and `Initial_Project_Register.md`: historical opening-state records, not active simulation procedures.
 
 **Final operating principle:** Tallowmere is a functioning city with many people who have lives beyond the PCs. It should offer opportunities, resistance, allies, rivals, work, and consequences without forcing any single story on the party.

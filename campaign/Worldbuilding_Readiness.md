@@ -15,6 +15,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 | Great Houses and Crown | ESTABLISHED | Six Great Houses, rulers, heirs, Council representatives, Crown officers, and broad political tensions documented. |
 | Continental geography | ESTABLISHED FRAMEWORK | Major geography and places are established. Exact borders and some cartographic geometry remain provisional. |
 | Tallowmere and hinterland | ESTABLISHED / PRACTICAL REFERENCES EXPANDED | City, districts, government, NPCs, named shopkeepers and service contacts, public life, calendar, local justice, emergency response, health, sanitation, settlements, routes, and regional geography documented. Exact procedures and selected local schedules remain open. |
+| Player-facing knowledge | ESTABLISHED BASELINE | Major settlements and fortresses are broadly known; minor settlements, private holdings, local routes, and specialist information depend on character background. Player handout is filtered from GM-only canon. |
 | History and calendar | ESTABLISHED FRAMEWORK | Great Rebellion foundations and campaign calendar established; exact dates and selected mysteries remain open. |
 | Cultures and ordinary life | EXPANDED / ONGOING | Regional cultural dossiers, everyday life, holidays, education, literacy, and knowledge access are documented; deeper local distinctions remain elective. |
 | Religion | ESTABLISHED FRAMEWORK | Pathfinder gods are real. Regional institutions and ordinary religious life are documented; divine magic's precise mechanism remains unresolved. |

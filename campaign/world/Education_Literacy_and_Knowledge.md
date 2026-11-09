@@ -178,6 +178,12 @@ The capital's administrative, legal, commercial, and scholarly institutions crea
 
 Tallowmere's shops, legal offices, temples, guilds, and merchant houses create practical demand for literacy and numeracy. Pell & Daughter provides scribal and stationer services; it is not a school. The city has tutors and skilled tradespeople in its social fabric, but no named public school, formal academy, or comprehensive local education system is established.
 
+The Open Ledger, Tallowmere's temple of Abadar, teaches basic numeracy to a limited number of pupils. This is a modest temple activity, not a public school system or a general guarantee of instruction. Prelate Damas Orrel oversees an institution whose wider work concerns lawful trade, contracts, measured weights, and civic order; do not assume he personally teaches every lesson or that the temple provides a full curriculum.
+
+Local workshops and commercial houses provide other routes into practical learning. Apprenticeship arrangements are negotiated between a master and household, with duties, training, term, lodging, and any stipend subject to the agreement. The existing examples include Orsik Ironworks and Thread & Thimble; their apprenticeships are occupational relationships, not branches of a citywide school. Scribes, clerks, merchants, and experienced workers may teach specific skills through employment or private instruction.
+
+The House of the Dawn and other religious institutions may offer instruction as part of their charitable or devotional work, but no general school program is established for them. The Quiet Gate's burial records and other temple records are institutional records, not open public libraries.
+
 ## 9. Books, records, and the cost of knowledge
 
 Books are labor-intensive objects. A manuscript requires materials, a trained hand, time, copying, correction, and storage. A wealthy institution may own a library, but that does not mean its books are available for public borrowing.

@@ -8,3 +8,4 @@ When recording shop inventories, track item, quantity, price, availability, rest
 
 - [Continental Economic Network](Continental_Economic_Network.md) — production, dependencies, trade corridors, major hubs, and regional economic relationships.
 - [Markets, Merchants, Guilds, and Contracts](Markets_Merchants_Guilds_and_Contracts.md) — commercial roles, markets, guilds, quality, contracts, credit, transport risk, port operations, fraud, and commercial influence.
+- [Currency, Coinage, and Moneychanging](Currency_Coinage_and_Moneychanging.md) — Pathfinder coin denominations, everyday cash use, large payments, moneychanging, credit, price variation, and monetary fraud.

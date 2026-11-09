@@ -22,7 +22,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 | Ecology and wildlife | EXPANDED / MIXED | Continental environmental tendencies and Tallowmere/frontier habitats are documented. Deer, boar, foxes, badgers, and wolves are established as common Deep Bracken fauna; other Tallowmere wildlife and flora candidates remain proposed unless separately approved or observed. |
 | NPCs and factions | ESTABLISHED / EXPANDING | GM roleplaying dossiers and political/civic reference records exist. Some identity and continuity questions remain open. |
 | Medicine and healing | ESTABLISHED FRAMEWORK | Practical care, disease, injury, childbirth, animal care boundaries, temple healing, and Pathfinder magic are documented; specific local practitioners and outbreaks remain open. |
-| Law and justice | ESTABLISHED FRAMEWORK | Feudal law, Crown/Council authority, Tallowmere law, jurisdiction, crime, evidence, punishment, and enforcement are documented; regional procedures remain open. |
+| Law and justice | ESTABLISHED FRAMEWORK / LOCAL GUIDE EXPANDED | Feudal law, Crown/Council authority, Tallowmere's local offices, complaint pathways, evidence, civil disputes, enforcement limits, and unequal access are documented; custody, appeals, exact penalties, and regional procedures remain open. |
 | Military and warfare | EXPANDED / ESTABLISHED FRAMEWORK | Crown and Great House force categories, command authority, vassal obligations, logistics, recruitment, training, garrison life, campaigning, discipline, and veterans are documented without unsupported force totals or universal service rules. |
 | Travel and communication | ESTABLISHED FRAMEWORK | Major corridors, Tallowmere routes, transport modes, shipping, messengers, information delays, and cartographic safeguards are documented; surveyed times remain unresolved. |
 | Player-facing knowledge | ESTABLISHED BASELINE | Major settlements and fortresses are known; not every minor settlement is common knowledge. GM-only truths remain separated. |
@@ -31,7 +31,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 ## 2. What is already usable
 
 - The six Great Houses, current monarchy, Imperial Council, and principal court factions.
-- Tallowmere's government, civic institutions, NPCs, districts, shops, temples, local factions, rumors, and immediate hinterland.
+- Tallowmere's government, civic institutions, NPCs, districts, shops, temples, local factions, rumors, immediate hinterland, public life, communication channels, local justice, emergency response, medical care, water and sanitation, and household material life.
 - The regional road and river framework, with cartographic limits clearly identified.
 - The opening campaign date: **1 Harvestfall, 243 AC**.
 - A player starting handout and a separate GM Tallowmere dossier.

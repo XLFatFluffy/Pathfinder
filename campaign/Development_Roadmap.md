@@ -269,3 +269,10 @@ The following practical world references have now been added or expanded:
 These references distinguish continental working guidance from established local practice. Tallowmere's named guilds, dues, commercial rents, shop prices, and merchant relationships remain governed by their specific city records. No universal guild code, tariff, price schedule, regional mint, or monetary reform was created.
 
 **Next work:** the Tallowmere habitat baseline has been reconciled with the settled hinterland and frontier framework. A continent-wide ecology and biogeography reference now summarizes established environmental tendencies without inventing species inventories. The wilderness record's five common Deep Bracken animals (deer, boar, foxes, badgers, wolves) have been reconciled as established occurrences and given a practical GM natural-history dossier. Other Tallowmere wildlife and flora candidates remain proposals. Continue selective habitat-by-habitat review, then deepen the GM Campaign Bible after subject references are stable enough to teach from.
+
+
+## Current development checkpoint — 9 November 2026 (aquatic ecology)
+
+Added `campaign/creatures/River_Vale_and_Siltfen_Aquatic_Ecology.md` as a GM-only practical reference for the two connected but distinct working-water environments. It records established fishing, reed cutting, waterfowl gathering, Siltfen eels and frogs, overlapping wetland rights, river transport, flood and water hazards, food handling, and the occupational knowledge of people who work around water. Exact species, methods, prices, catch volumes, rights boundaries, and seasonal patterns remain unresolved or proposed. The wildlife catalogue, ecology baseline, creature index, GM Bible, and readiness priorities now point to the new reference.
+
+**Next work:** develop the ordinary food chain and household food supply beyond the water itself: how grain, livestock, dairy, fruit, fish, preserved food, market access, and seasonal labor shape meals and shortages in Tallowmere and its hinterland. Keep established local practice separate from general medieval working assumptions.

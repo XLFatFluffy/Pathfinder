@@ -8,7 +8,7 @@ Tallowmere's housing reflects a working port of approximately 18,000 people, not
 
 Most residents rent rooms, share family dwellings, live above shops or workshops, occupy small houses in narrow lanes, or reside in employer-provided rooms. A household may include relatives, apprentices, servants, and boarders who are not all related.
 
-Buildings are commonly built in stages. Older stone or timber ground floors may support upper stories of timber framing, plaster, tile, or slate. Wealthier homes have enclosed courtyards, private wells or cisterns, storage, and servants' rooms. Poorer homes rely on shared wells, public pumps, communal privies, and neighborhood arrangements.
+Buildings are commonly built in stages. Older stone or timber ground floors may support upper stories of timber framing, plaster, tile, or slate. Wealthier homes have enclosed courtyards, private wells or cisterns, storage, and servants' rooms. Poorer homes rely on shared wells, public pumps, communal privies, and neighborhood arrangements. The wider construction, materials, and maintenance framework is covered in [Building, Construction, and Maintenance](../../world/Building_Construction_and_Maintenance.md).
 
 A room's price depends on size, condition, location, furnishings, water access, lease length, and whether meals or services are included. There is no single citywide rent schedule. Landlords and tenants negotiate within local custom and the realities of supply.
 

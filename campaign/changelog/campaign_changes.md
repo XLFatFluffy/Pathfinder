@@ -787,3 +787,10 @@
 - Expanded the Imperial Government and Court chapter to include all six established Crown officeholders: Royal Chancellor Othmar Rusk, Master of Coin Meredyth Sorn, Master of Laws Bastian Wycliffe, Master of War Garran Holt, Royal Spymaster Nerys Vale, and Lord Chamberlain Perrin Ashcombe.
 - Distinguished Crown officers from the High Prelate and Prior-General, who are influential religious advisers rather than Crown officers or representatives of all faiths.
 - Added direct reference links to the current House Rulers, Court and Council, and Imperial Governance framework records.
+
+
+## 9 November 2026 — Arcane scarcity explanation reconciled
+
+- Updated `Arcane_Arts_and_Wizardry.md` to state the established commercial role of patronage: powerful households commission selected magic items for sale or favored buyers while controlling production volume so the market is not flooded and scarcity, value, and strategic usefulness are preserved.
+- Updated OQ-012 in the Open Questions Register. The core explanation for arcane scarcity is established; exact practitioner counts, distribution, and patron-by-patron production limits remain open.
+- This does not establish a centralized licensing authority or a continent-wide conspiracy, and it does not change Pathfinder First Edition item prices or crafting rules.

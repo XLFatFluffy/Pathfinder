@@ -1,91 +1,81 @@
-# Campaign Opening and Living World Readiness
+# Campaign and Worldbuilding Readiness
 
-**Target campaign opening:** 1 Harvestfall, 243 AC  
-**Target first session:** 8 November 2026 (real-world scheduling note)  
-**Status:** Core worldbuilding phases A–F and WTR-001 are complete. The continental map now has 15 visually reviewed major-place anchors and six GM-approved public route overlays. Thirteen broad geographic overlays are drafted but remain GM-only pending review; exact Great House borders and maritime influence extents remain unresolved. Session encounter mechanics remain pending player character sheets and final companion approval.
+**Campaign date:** 1 Harvestfall, 243 AC  
+**Setting:** Westeros-inspired original high-medieval fantasy using Pathfinder First Edition  
+**Starting location:** Tallowmere  
+**Last reviewed:** 2026-11-09
 
-This checklist defines "complete enough to begin" rather than pretending an entire continent can be exhaustively written before play. The world remains expandable. The opening requires a coherent baseline, active actors, understandable pressures, and a way to record consequences.
+This document tracks what is established, what remains useful to prepare, and what can safely wait. It is not a demand to finish an encyclopedia before play. The setting is developed independently of the PCs; player-specific material will be integrated after their concepts and sheets are settled.
 
-## 1. Core opening requirements
+## 1. Core foundations
 
-| Area | Status | Evidence / remaining work |
+| Area | Status | Notes |
 |---|---|---|
-| Setting identity and tone | READY | Westeros-inspired high-medieval fantasy using Pathfinder First Edition; no industrial/steampunk direction. |
-| Great Houses and Crown | READY | Six Great Houses, rulers, heirs, Council representatives, Crown officers, court faction leaders, and strategic pressures established. |
-| Broad political geography | READY FOR PLAY / FINAL CARTOGRAPHIC REVIEW PENDING | Fifteen major-place anchors are visually reviewed; six routes are GM-approved and player-visible; thirteen geographic drafts remain GM-only pending review. Exact Great House borders and maritime extents remain unresolved. |
-| Tallowmere and immediate region | READY FOR PLAY | City, districts, local government, settlements, roads, local houses, civic NPCs, guilds, commerce, and public destinations documented. Exact geometry remains provisional. |
-| Minor houses and regional powers | READY | First continental network plus Tallowmere local network established; legal relationships and political operating rules now support simulation. |
-| Feudal law and obligations | READY | Land tenure, homage, inheritance, jurisdiction, courts, customary rights, vassal consequences, and political escalation rules documented. Detailed local charters remain open where genuinely local. |
-| Local and continental issues | READY | Seven Tallowmere pressures, Longmead boundary dispute, and six structural continental pressures indexed. |
-| Local and continental projects | READY | Six Tallowmere projects and six wider projects recorded with statuses and unknowns. |
-| Rumors and information | READY | Tallowmere rumor list has a GM-only truth register and knowledge boundaries. |
-| Ratfolk community | INITIAL NETWORK READY | Four informal networks and seven named contacts established. Underways neighborhoods, population, and exact passages remain open. |
-| Calendar and timeline | READY | Campaign calendar established; campaign begins 1 Harvestfall, 243 AC. Historical dates remain approximate where appropriate. |
-| Event and world-turn records | READY | WTR-001 opening baseline completed and reconciled in the world-turn ledger; future turns advance only with in-world time. |
-| Player-facing knowledge | READY | Starting handout distinguishes public facts from private history and minor/local knowledge; GM-only information remains separated. |
-| Session One structure | READY FOR FINAL MECHANICAL CHECK | Opening troll/wagon concept, Selwick reward, city reference, NPC information channels, and sandbox directions documented. |
+| Setting identity and tone | ESTABLISHED | Original Westeros-inspired setting; Pathfinder First Edition rules. Tallowmere is the starting location, not the whole world. |
+| Great Houses and Crown | ESTABLISHED | Six Great Houses, rulers, heirs, Council representatives, Crown officers, and broad political tensions documented. |
+| Continental geography | ESTABLISHED FRAMEWORK | Major geography and places are established. Exact borders and some cartographic geometry remain provisional. |
+| Tallowmere and hinterland | ESTABLISHED | City, districts, government, NPCs, services, shops, temples, local factions, settlements, routes, and regional geography documented. |
+| History and calendar | ESTABLISHED FRAMEWORK | Great Rebellion foundations and campaign calendar established; exact dates and selected mysteries remain open. |
+| Cultures and ordinary life | EXPANDED / ONGOING | Regional cultural dossiers, everyday life, and holidays are being developed. |
+| Religion | ESTABLISHED FRAMEWORK | Pathfinder gods are real. Regional institutions and ordinary religious life are documented; divine magic's precise mechanism remains unresolved. |
+| Economy and trade | ESTABLISHED FRAMEWORK | Continental economic relationships and Tallowmere's local economy are documented; detailed prices and quantities remain selective. |
+| Ecology and wildlife | IN DEVELOPMENT | Tallowmere habitats are established. Ordinary fauna and flora references are proposed, not confirmed species lists. |
+| NPCs and factions | ESTABLISHED / EXPANDING | GM roleplaying dossiers and political/civic reference records exist. Some identity and continuity questions remain open. |
+| Player-facing knowledge | ESTABLISHED BASELINE | Major settlements and fortresses are known; not every minor settlement is common knowledge. GM-only truths remain separated. |
+| GM Campaign Bible | CONSOLIDATION REQUIRED | Existing Bible is a starting reference, not yet the complete, deeply developed teaching/reference document desired. |
 
-## 2. First world-turn prerequisites
+## 2. What is already usable
 
-The first turn is an opening-state snapshot on **1 Harvestfall, 243 AC**. It does not advance the calendar or simulate a week of events before the PCs arrive.
+- The six Great Houses, current monarchy, Imperial Council, and principal court factions.
+- Tallowmere's government, civic institutions, NPCs, districts, shops, temples, local factions, rumors, and immediate hinterland.
+- The regional road and river framework, with cartographic limits clearly identified.
+- The opening campaign date: **1 Harvestfall, 243 AC**.
+- A player starting handout and a separate GM Tallowmere dossier.
+- NPC roleplaying dossiers with motivations, fears, contradictions, voice guidance, and continuity boundaries.
+- Regional culture records, everyday life, holidays, ordinary faith, and the initial ecology framework.
+- A historical opening-state snapshot, WTR-001. It is retained as a dated reference only; it is not a recurring simulation system.
 
-Before recording Turn 001:
-- Confirm the current actor, issue, project, and rumor registers are linked and internally consistent.
-- Identify which projects are underway, proposed, or merely under watch.
-- Keep all rumors separate from objective truth and from PC knowledge.
-- Do not create an assassination, war, coup, famine, or new crisis merely to make the report dramatic.
-- Record that the Longmead dispute exists but remains low-intensity.
-- Record what is happening at the opening date, what is visible to the PCs, and what remains GM-only.
+## 3. Session-specific dependencies
 
-**WTR-001 is complete.** The report is stored at `world_engine/reports/World_Turn_001_Opening_Baseline.md`.
+The following depend on the players' final character material and should not be guessed:
 
-## 3. Items that do not block the first world turn
+- Final character concepts, sheets, statistics, equipment, and wealth.
+- Backstories and the knowledge each character reasonably possesses.
+- Final companion approval and build.
+- Encounter balance and the precise opening route/location.
+- Personal hooks that depend on the final character concepts.
 
-These can be developed after the campaign begins:
-- Exact continental and local political borders, once artwork is calibrated.
-- Full minor-house census, family trees, retainers, and exact service obligations.
-- Complete court-faction membership and relative influence.
-- Complete legal codes for every region.
-- Full southern treaty network and every independent ruler.
-- Full ratfolk population, neighborhood map, and wider subterranean connections.
-- Ordinary wildlife catalogue and additional creature distributions.
-- Exact Great House troop strengths, treasury values, fleet sizes, and resource quantities.
-- Deep historical dates, the fallen dynasty's original name, dragon fate, Ancient Barrier origins, and vampirism's origin.
+The wider setting work should not assume the PCs' future choices or build around provisional character concepts.
 
-These are not forgotten; they are deliberately staged so the campaign does not become an endless encyclopedia project.
+## 4. Current worldbuilding priorities
 
-## 4. Additional worldbuilding completed
+1. Complete ordinary natural history for Tallowmere and establish how local people use and understand the land.
+2. Expand regional economies, trade, food supply, crafts, and ordinary work without inventing unsupported prices or production totals.
+3. Develop medicine, disease, injury, animal care, and practical healing, distinguishing folk practice from reliable treatment and magic.
+4. Deepen law, justice, crime, punishment, military service, warfare, and the daily experience of people living under feudal authority.
+5. Expand education, literacy, communication, travel, and access to information.
+6. Continue regional culture and history where it adds meaningful differences between societies.
+7. Rebuild the GM Campaign Bible as a substantial, coherent, printable guide derived from authoritative records.
 
-A Crown intelligence and information-operations framework has been drafted at `politics/Crown_Intelligence_and_Information_Operations.md`. It establishes cautious source-evaluation and compartmentalization procedures without inventing agents, operations, or network size.
+## 5. Cartographic limits
 
-A seasonal conditions and agricultural-cycle framework has been drafted at `world_engine/Seasonal_Conditions_and_Agricultural_Cycles.md`. It supports future world turns while preserving the rule that calendar month names do not determine weather and that no unrecorded weather event is added to the opening baseline.
+- Major-place anchors and approved route overlays have been reviewed.
+- Thirteen broad geographic overlays remain GM-only pending review.
+- Exact Great House borders and maritime influence extents remain unresolved.
+- Do not invent coordinates, borders, routes, or political polygons.
+- Do not promote draft geometry to player-facing layers until calibrated against authoritative artwork.
+- Do not delete map assets unless the exact obsolete path and verified replacement are known.
 
-A qualitative continental military framework has been drafted at `military/Continental_Military_Institutions_and_Operational_Doctrine.md`. It distinguishes established formations from proposed simulation procedure and leaves exact force strengths, command structures, and service obligations unresolved.
+## 6. Scope and canon rules
 
-The opening support layer now includes a table-side sandbox reference, a plausible NPC information network, and a proposed ordinary wildlife catalogue. These records deliberately avoid adding new mandatory plots, secret organizations, unsupported monster populations, or map geometry.
+- The former Living World Engine and automated world-turn procedures are retired. There is no required simulation, turn cycle, or automated consequence system.
+- The world remains independent of the PCs. The GM determines what happens through motives, knowledge, resources, geography, time, custom, and circumstance.
+- Legacy records under `world_engine/` remain available as descriptive GM reference material, not as an operating procedure.
+- Distinguish established canon, provisional material, rumor, public belief, GM-only truth, and unresolved questions.
+- Do not turn a plausible proposal into canon without approval.
+- Do not invent filler simply to complete a template.
+- Keep the structured campaign database authoritative; the GM Bible is its consolidated human-readable reference, and player materials are filtered derivatives.
 
-- `locations/starting_city/Session_One_Sandbox_Reference.md`
-- `world_engine/Tallowmere_NPC_Information_Network.md`
-- `creatures/Regional_Wildlife_Catalogue.md`
+## 7. Readiness judgment
 
-## 5. Session One mechanical blockers
-
-These are separate from worldbuilding and must be checked before the troll encounter is finalized:
-- Completed character sheets for both level-five PCs.
-- Final companion approval, stat block, role, and equipment.
-- Reassessment of the standard CR 5 troll against the actual party capabilities.
-- The PCs' approach road and suitable encounter placement.
-- Final crew placement and reward staging.
-
-Do not invent the PCs' equipment, consumables, wealth, or exact capabilities before the sheets are available.
-
-## 6. Definition of launch-ready
-
-The campaign is launch-ready when:
-1. The opening date and player-facing setting are established.
-2. The starting location has usable people, places, institutions, and pressures.
-3. The world engine has actors, issues, projects, information boundaries, and recordkeeping.
-4. The first world turn can be run without inventing unsupported borders or arbitrary catastrophes.
-5. Session-critical mechanics are checked against the actual character sheets before the encounter.
-
-The first four conditions are now met. The fifth remains pending player materials. The world can begin on 1 Harvestfall while the troll encounter receives its final mechanical audit.
+The setting has enough established material to support campaign play in Tallowmere. The remaining work is depth and usability, not a prerequisite to invent a complete continent before the players act. Session-specific mechanical preparation must wait for the final character sheets and companion decision. The GM Bible still needs substantial expansion before it can serve as a comprehensive standalone study guide.

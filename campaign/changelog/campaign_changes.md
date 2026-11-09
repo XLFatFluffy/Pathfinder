@@ -873,3 +873,13 @@
 - Reclassified the old vampire DR 5 adjustment as provisional character-specific material, not a universal vampire rule.
 - Updated `Worldbuilding_Decision_Log.md` to mark earlier PC ambitions and attached hooks as superseded current assumptions while preserving their history.
 - No new PC identities, relationships, histories, ambitions, or encounter details were established.
+
+
+## 9 November 2026 — Brackenholt woodland work and charcoal reference
+
+- Added `campaign/locations/starting_city/Brackenholt_Woodland_Work_and_Charcoal.md` as a practical GM dossier for Brackenholt's established settlement pattern, woodland labor, charcoal trade, customary access, Burners' Green, and the Brackenwood Charcoal Fellowship.
+- Grounded the record in the established 300–400 population, scattered clearings, Denvor authority, shared customary rights, Denvor forester, Mara Bellwood, Deren Holt's limited role as one charcoal factor, and supply relationships with Tallowmere.
+- Added clearly labeled portrayal guidance for traditional charcoal production, work stages, products, hazards, seasonal pressures, and occupational knowledge. Local production details remain illustrative, not fixed canon.
+- Explicitly distinguished managed Brackenwood from the less-managed Deep Bracken. The five established common Deep Bracken animals were not promoted to Brackenwood occurrences.
+- Linked the dossier from the regional settlement record, Tallowmere index and GM dossier, GM Campaign Bible, and readiness record. Updated the Development Roadmap.
+- No new NPCs, woodland boundaries, cutting quotas, species occurrences, prices, or rights were invented.

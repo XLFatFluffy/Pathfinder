@@ -50,7 +50,7 @@ A paved commercial court off Market Street, near the principal market weighing f
 A long, narrow open strip near the Old Quays, used for rope work when weather permits and as a place for crews to gather. It is not a manicured park. At busy times, coils of rope, drying lines, carts, and temporary work benches occupy much of the space.
 
 ### River Steps
-A stepped landing on the Rivergate waterfront where people can reach small boats and ferries. Bargemen, children, fish sellers, and laborers use it throughout the day. The steps become slippery in wet weather and may be partly submerged when the river rises.
+A stepped landing on the Rivergate waterfront where people can reach small boats and ferries. Bargemen, children, fish sellers, and laborers use it throughout the day. The steps become slippery in wet weather and may be partly submerged when the river rises. Its exact spatial relationship to the managed Ferry Steps crossing is not established; do not assume they are the same landing.
 
 ### Lantern Close
 A modest open court near the hospice and principal temple grounds. It provides space for public alms distribution, religious observances, and gatherings connected with the charitable institutions. It is not exclusively religious property; residents also use it as a quiet meeting place.
@@ -67,7 +67,7 @@ The principal permanent crossing over the river within the city approaches. It c
 A smaller crossing upstream from the main bridge, near the working mills. It is used by mill workers, local residents, and carts serving the western riverbank. Its capacity is limited and it is not a preferred route for large commercial caravans.
 
 ### The Ferry Steps
-A managed ferry crossing serves people and small loads where the river channel widens. The Ferryman's Steps business operates local crossings and small-cargo punt services; schedules depend on weather, river level, and demand. This is a service, not a second permanent bridge.
+A managed ferry crossing serves people and small loads where the river channel widens. The Ferryman's Steps is the family business operating the crossing and small-cargo punt services; 'The Ferry Steps' names the crossing, while 'The Ferryman's Steps' names the business. Schedules depend on weather, river level, and demand. This is a service, not a second permanent bridge.
 
 ### Harbor Chain and Boom
 The harbor entrance can be restricted by a chain, boom, or other barrier operated from fortified waterfront positions. Its use is an emergency measure, not a routine toll gate. Closing the harbor disrupts trade and requires coordination between harbor officials and the garrison.
@@ -129,6 +129,8 @@ For play at the table, use the following broad travel assumptions until a scaled
 - Travel through the Underways depends on local route knowledge, access, water levels, obstructions, and permission; it is not automatically faster or safer than surface travel.
 
 These are practical table estimates, not measured distances. Change them when the final map establishes actual geometry or when a scene introduces unusual crowding, weather, injury, pursuit, or obstruction.
+
+**Naming clarification:** Rivergate is the district; River Gate is the controlled river-access point. The River Steps public landing and the managed Ferry Steps crossing are separately named features, but their precise relative positions remain unestablished. Do not merge them or place them on a map without supporting artwork or a later GM decision.
 
 ## Open Geographic Details
 

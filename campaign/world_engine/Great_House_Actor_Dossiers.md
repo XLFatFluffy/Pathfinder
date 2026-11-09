@@ -1,4 +1,4 @@
-# Great House Actor Dossiers — Living World
+# Great House Strategic and Roleplaying Dossiers — Legacy Reference
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** Consolidation of established Great House canon. This file does not create new active plots, secret plans, or military ratings.
@@ -20,7 +20,7 @@
 
 **Known relationships:** Needs Vaelorian financial support; maintains an uneasy but formal relationship with Kharadorn; faces Edarth suspicion of centralization; Veyr seeks northern resources; Merrowen cooperates when maritime commerce benefits.
 
-**Simulation boundary:** No assassination plot, succession crisis, or hidden controller is established. The king is neither guaranteed safety nor destined death.
+**GM portrayal boundary:** No assassination plot, succession crisis, or hidden controller is established. The king is neither guaranteed safety nor destined death.
 
 ## House Vaelorian — Western Highlands
 
@@ -37,7 +37,7 @@
 
 **Known relationships:** The Crown needs financial support and Theren expects influence in return. Vaelorian and Merrowen cooperate commercially while competing for trade influence. Theren regards Garrick Edarth as predictable; Garrick regards Theren as dangerous.
 
-**Simulation boundary:** Financial influence is substantial but does not mean Vaelorian controls the Crown, every lender, or all continental commerce.
+**GM portrayal boundary:** Financial influence is substantial but does not mean Vaelorian controls the Crown, every lender, or all continental commerce.
 
 ## House Kharadorn — Dwarven Empire / Dragonstone and Inland Sea
 
@@ -55,7 +55,7 @@
 
 **Known relationships:** Durnak respects the post-Rebellion settlement but does not consider himself subject to the Crown. Kharadorn's charter rights in Tallowmere are strategic, not ordinary city government. Maris Merrowen seeks freer navigation; Durnak preserves dwarven control.
 
-**Simulation boundary:** Do not turn every local Kharadorn inspection into occupation. The secret underground route to Dragonstone remains GM-only and is not known to ordinary actors.
+**GM portrayal boundary:** Do not turn every local Kharadorn inspection into occupation. The secret underground route to Dragonstone remains GM-only and is not known to ordinary actors.
 
 ## House Edarth — Western Heartlands
 
@@ -73,7 +73,7 @@
 
 **Known relationships:** Garrick suspects the king is weakening Great House authority. Edarth shares a natural military understanding with Veyr and mutual respect with Kharadorn, while Garrick regards Theren Vaelorian warily.
 
-**Simulation boundary:** Traditionalist does not mean automatic rebellion. Edarth may negotiate or cooperate where its rights and interests are protected.
+**GM portrayal boundary:** Traditionalist does not mean automatic rebellion. Edarth may negotiate or cooperate where its rights and interests are protected.
 
 ## House Veyr — Northern Marches
 
@@ -91,7 +91,7 @@
 
 **Known relationships:** Edran regards southern court politics as a distraction. He wants practical support from the Crown. Veyr shares military understanding with Edarth and mutual respect with Kharadorn.
 
-**Simulation boundary:** The northern threat and the Ancient Barrier's purpose remain unresolved. Do not invent a new invasion or a collapse of the Barrier without a supported event.
+**GM portrayal boundary:** The northern threat and the Ancient Barrier's purpose remain unresolved. Do not invent a new invasion or a collapse of the Barrier without a supported event.
 
 ## House Merrowen — Eastern Maritime Territory
 
@@ -109,7 +109,7 @@
 
 **Known relationships:** Maris supports Crown policy when it benefits maritime commerce. Merrowen and Vaelorian cooperate and compete in trade. Maris seeks freer navigation than Kharadorn is inclined to allow.
 
-**Simulation boundary:** Merrowen does not control every eastern port. Commercial interests are influential but are not a single unified faction.
+**GM portrayal boundary:** Merrowen does not control every eastern port. Commercial interests are influential but are not a single unified faction.
 
 ## Cross-house strategic tensions
 

@@ -501,3 +501,12 @@
 - Updated the military, agriculture, and Crown intelligence question statuses to point to the current GM references rather than retired proposal worksheets.
 - Corrected the GM Bible's historical-survivor wording so the secret remains established without assuming the survivor is a current PC.
 - Repeated NPC information-boundary sections now consistently treat prior PC secrets and the House Relland incident as provisional.
+
+
+## 2026-11-09 — Canon register and legacy master bible corrected
+
+- Reclassified the previous vampire/ratfolk player-character concepts and their relationship as provisional legacy material in the Canon Register.
+- Reclassified Tallowmere as the established starting city while making PC arrival details and the prepared troll encounter provisional pending final player concepts.
+- Corrected the Canon Register's Collegium of the Nine Lamps entry and removed the contradiction that its name remained unresolved.
+- Marked the older 40-page `Campaign_Bible.md` as a legacy source archive, explicitly retired its world-simulator concept, and marked its old PC profiles as provisional.
+- Reframed Great House actor dossiers as legacy GM roleplaying references rather than simulation actors.

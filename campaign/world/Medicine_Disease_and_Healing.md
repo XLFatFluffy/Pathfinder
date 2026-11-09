@@ -111,7 +111,7 @@ Relevant conditions include:
 - drainage, standing water, and refuse collection;
 - burial or disposal of carcasses.
 
-Tallowmere's established urban infrastructure includes drains, wells, refuse, cellars, granaries, stables, and a working harbor. Do not assume that every district is equally clean or equally supplied. Wealthier households can afford space, servants, better food, and cleaner water sources; crowded households have fewer options.
+Tallowmere's established urban infrastructure includes public wells, pumps, the Old Cistern, drains, privies, uneven refuse arrangements, cellars, granaries, stables, and a working harbor. District differences, unresolved maintenance responsibilities, and practical household behavior are detailed in [Water, Waste, and Street Cleanliness in Tallowmere](../locations/starting_city/Water_Waste_and_Street_Cleanliness.md). Do not assume that every district is equally clean or equally supplied. Wealthier households can afford space, servants, better food, and sometimes private water sources; crowded households have fewer options.
 
 Sanitation failures should have mundane causes and identifiable consequences. A blocked drain, contaminated well, leaking grain store, or overcrowded lodging is more useful than an unexplained plague.
 

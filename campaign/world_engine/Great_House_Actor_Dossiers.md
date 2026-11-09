@@ -53,7 +53,7 @@
 
 **Leverage and constraints:** Dwarven imperial institutions, Dragonstone, control of important inland-sea interests, specialized military tradition, and strategic charter rights. Exact force size, fleet strength, treasury, and readiness are not quantified. The empire is not a collection of collapsed successor states.
 
-**Known relationships:** Durnak respects the post-Rebellion settlement but does not consider himself subject to the Crown. Kharadorn's charter rights in Tallowmere are strategic, not ordinary city government. Maris Merrowen seeks freer navigation; Durnak preserves dwarven control.
+**Known relationships:** Durnak respects the post-Rebellion settlement but does not consider himself subject to the Crown. Kharadorn's charter rights in Tallowmere are strategic, not ordinary city government. Maris Merrowen seeks freer navigation; Durnak preserves Kharadorn's dominant strategic position over key inland-sea routes and naval approaches.
 
 **GM portrayal boundary:** Do not turn every local Kharadorn inspection into occupation. The secret underground route to Dragonstone remains GM-only and is not known to ordinary actors.
 

@@ -12,7 +12,7 @@ Obsydian is ordinary, naturally occurring black onyx. It is a gemstone and can b
 
 Its necromantic properties are established. The precise nature, strength, and practical applications of those properties have not yet been defined. A piece of obsydian does not automatically cast a spell, animate the dead, contain a soul, or grant a bearer a class ability.
 
-Obsydian is not inherently a rare dragon relic. Its value depends on quality, size, workmanship, provenance, local supply, and the buyer. No universal campaign price or fixed magical premium is established.
+Obsydian is an ordinary gemstone rather than a rare dragon relic and can be replenished through normal gemstone trade. Its value depends on quality, size, workmanship, provenance, local supply, and the buyer. No universal campaign price or fixed magical premium is established.
 
 ## 2. Dragonglass — dragon-made material
 

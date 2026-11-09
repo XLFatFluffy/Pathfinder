@@ -1,6 +1,6 @@
 # Tallowmere: Government and Law
 
-**Status:** Established framework; detailed procedures remain expandable.
+**Status:** Established framework; detailed procedures remain expandable.\n\n**Related campaign-wide reference:** [Law, Justice, and Crime](../../world/Law_Justice_and_Crime.md) explains the wider legal structure and the limits of jurisdiction.
 
 ## Lordship and Charter
 Tallowmere is governed by House Denvor under a hereditary charter confirmed by House Kharadorn after the Great Rebellion. Lord Oswin Denvor rules the walled city and modest surrounding territory. The charter requires annual tribute, maintenance of harbor defenses, and provision of ships, supplies, or transport when lawfully called upon. Kharadorn retains strategic rights concerning the harbor and inland-sea defense but does not administer ordinary city life.

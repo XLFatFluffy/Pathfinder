@@ -1,7 +1,7 @@
 # Tallowmere Political Actor Dossiers
 
 **Snapshot:** 1 Harvestfall, 243 AC  
-**Status:** Consolidated GM reference based on established records.  
+**Status:** Descriptive GM reference; established actor profiles are distinguished from provisional legacy PC-incident material.  
 **Use:** Legacy GM reference profiles for political actors. Unknown resources, secrets, and future actions remain unknown.
 
 ## House Denvor — TLM-ACT-HOUSE-DENVOR
@@ -66,7 +66,7 @@ Productive estate, tenant farms, pasture, small managed woodlot, household retai
 - Tenants: local obligations and unresolved drainage/boundary complaints.
 - Other houses: no special alliance or feud established.
 
-### Engine note
+### GM adjudication note
 The difference between Ysabet's caution and Corvin's ambition is a documented internal policy tension, not a succession crisis. Tenant complaints may become an issue if evidence, neglect, or a costly decision causes them to worsen.
 
 ---
@@ -98,7 +98,7 @@ Town charter, market yard, toll privileges, compact territory, local watch, hous
 - Denvor: commercial rival and practical regional counterpart, not an established feud.
 - Superior charter authority: within Kharadorn's wider sphere; precise chain and obligations remain unresolved.
 
-### Engine note
+### GM adjudication note
 Harthbridge's rivalry with Tallowmere is commercial and jurisdictional. It does not justify hostility, sabotage, or military escalation without a new cause.
 
 ---
@@ -125,7 +125,7 @@ Crossing and ferry income, toll office, inn/stables/market-yard economy, and a s
 - Merchants and carters: customers and recurring critics of tolls during delays.
 - Competing bridge interests: none currently established.
 
-### Engine note
+### GM adjudication note
 A flood, bridge repair, toll complaint, or proposed competing route can change the family's position. Do not create a bridge project or legal challenge unless an actor actually proposes it.
 
 ---
@@ -147,18 +147,15 @@ A flood, bridge repair, toll complaint, or proposed competing route can change t
 Modest estate and limited retainers; enough for local security and estate administration, not a military power. Exact wealth, debts, troop count, and current estate condition are unknown.
 
 ### Established history and knowledge
-Approximately ten years before campaign start, Ser Deylan Marrick and retainers abused road-patrol authority to extort a travelling merchant family, then murdered the parents. Lord Edvar Relland's household concealed the misconduct. Lady Mereth knows that retainers were accused privately and quietly removed but does not know the full circumstances. Corren knows only that several retainers were dismissed after an incident.
-
-House Relland does not know the ratfolk PC survived or that the vampire PC rescued him. It is not currently hunting the PCs.
+House Relland's existence, leadership, allegiance to House Velleran, and general holding along the South Road are established. The extortion, murders, household cover-up, named retainers, and survivor account belong to the provisional legacy incident recorded in `politics/House_Relland_and_the_Merchant_Incident.md`. They are not current campaign facts unless the players confirm the attached backstory and the GM approves its use.
 
 ### Relationships
 - Velleran: liege house.
 - Denvor: no established direct relationship beyond regional geography.
-- Ratfolk PC: concealed personal history; PC knowledge is distinct from house knowledge.
+- No player-character relationship, surviving child, rescue, or private knowledge is established.
 
-### Engine note
-The past incident is an unresolved accountability matter, not an active investigation. If revealed, responses may include denial, inquiry, legal action, political protection, or internal reform, depending on evidence and incentives. Do not assume Lady Mereth ordered the original crimes.
-
+### GM adjudication note
+If the GM later confirms the provisional incident and it becomes relevant in play, possible responses may include denial, inquiry, legal action, political protection, or internal reform, depending on evidence and incentives. Do not assume Lady Mereth ordered any crime or that the house is already pursuing a player character.
 ---
 
 ## House Kharadorn's Tallowmere Charter Office — TLM-ACT-KHARADORN-CHARTER
@@ -180,7 +177,7 @@ Vardek cannot rewrite the charter, command the city watch, seize private propert
 ### Position
 Vardek prefers verifiable accounts and predictable exercise of Kharadorn rights. He respects Denvor's local authority and believes a prosperous, cooperative city is more useful than one damaged by overreach. He will not conceal a genuine charter failure.
 
-### Engine note
+### GM adjudication note
 The current harbor-defense review is legitimate strategic oversight, not an established pretext for occupation. Findings, demands, costs, and any disagreement must arise from actual inspection.
 
 ---
@@ -207,7 +204,7 @@ Quorum is four of seven; recommendations are recorded by majority of those prese
 ### Current divisions
 Members differ on harbor capacity, fire-safety costs, market access, river traffic, skilled labor, property levies, and civic representation. Their positions are documented in the Chartered Council record and should not be flattened into a single merchant faction.
 
-### Engine note
+### GM adjudication note
 The Council can delay, negotiate, or withdraw cooperation, but its members have different constituencies and cannot be assumed to act as a unified bloc.
 
 ---

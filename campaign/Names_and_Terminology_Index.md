@@ -69,6 +69,14 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Dwarven underground route to Dragonstone | GM-only geographic secret | ESTABLISHED SECRET | Underground tunnel system built by the dwarves; existence unknown to the rest of the world. Exact route and entrances unresolved. |
 | Northeastern mountain system | Geographic region | APPROVED PLACEMENT / PROVISIONAL LABEL | Contains Khar-Dum, the Kharadorns' ancestral homeland. Final name undecided. |
 
+## Magical Materials — 9 November 2026
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| Obsydian | Material / gemstone | ESTABLISHED | Ordinary black onyx; has necromantic properties. Not dragon-made and distinct from dragonglass. |
+| Black onyx | Common material name / alias | ESTABLISHED | Ordinary black onyx referred to as obsydian in campaign lore. |
+| Dragonglass | Dragon-made material | ESTABLISHED | Separate substance made by dragons; also has necromantic properties. Exact process and specific uses remain unresolved. |
+
 ## Minor Houses
 
 | Term | Category | Status | Notes |

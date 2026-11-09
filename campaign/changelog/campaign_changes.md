@@ -965,3 +965,14 @@
 **What changed:** Applied the established continental travel and communication framework to Tallowmere. Documented local information sources, occupational and institutional knowledge, written letters, civic records, public announcements, rumor transmission, competing accounts, social access to information, and a practical GM method for deciding whether an NPC would know something.
 
 **Canon discipline:** No universal postal service, intelligence organization, censorship office, new courier network, or secret communication system was invented. Existing world-engine information-network material remains a supporting source-review record rather than an automated operating procedure.
+
+
+## 9 November 2026 — Minor-house and regional-power audit
+
+**Added:** `campaign/politics/Minor_Houses_and_Regional_Powers.md` as the active GM reference.
+
+**Reviewed against:** Great House rulers, Imperial Governance, Feudal Law and Landed Obligations, Tallowmere Regional Holdings and Jurisdictions, and geography safeguards.
+
+**Resolved:** Confirmed lesser-house liege relationships and regional placement at the descriptive level for Coldmere, Pineward, Aethwyn, Harrowden, Wrenford, Rookwell, Emberdelve, Ternholt, Serrane, Veylan, and the established Tallowmere houses. Kept Tallowmere's Denvor/Avenholt/Merewick/Velleran/Relland relationships distinct. House Relland's player-character incident remains quarantined. Supplemental Corven and Calderick material remains supporting/provisional.
+
+**Canon discipline:** No exact borders, coordinates, armies, treasuries, new houses, or unsupported political conflicts were created. The legacy world-engine minor-house files remain source-review material; simulation procedures are not required to run the campaign.

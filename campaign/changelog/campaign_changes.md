@@ -544,3 +544,11 @@
 - Clarified that the frontier is less continuously worked and protected, not uniformly hostile, and that possible creature lists in the wilderness framework do not establish confirmed populations or lairs.
 - Updated the GM Campaign Bible's natural-world overview and the creature index cross-reference.
 - No species occurrence, frequency, migration, lair, coordinates, jurisdiction, or new geographic feature was canonized.
+
+
+## 2026-11-09 — Continental ecology and biogeography framework added
+
+- Added `campaign/creatures/Continental_Ecology_and_Biogeography.md` to synthesize established environmental tendencies across the Northern Wilderness, western highlands and heartlands, Crownlands, Inland Sea, Kharadorn mountains, eastern forests and shore, Great Delta, Southwestern Marches, Southern Principalities, and Southern Islands.
+- Grounded the framework in the existing geography and agriculture records. It distinguishes environmental tendencies from detailed climate classifications, species inventories, migrations, and supernatural ecology.
+- Linked the reference from the creature index and GM Campaign Bible; updated readiness and roadmap notes.
+- No species ranges, population counts, migration routes, climate normals, disease events, or new geographic features were established.

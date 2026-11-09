@@ -44,24 +44,20 @@ This is a concise navigation and continuity document, not a replacement for the 
 - Six Great Houses rebelled both to preserve their political independence against increasing centralization and to eliminate dragon-riding as the source of Targaryen supremacy. These were connected objectives: without dragons, the dynasty could no longer enforce its overwhelming power.
 - The rebellion lasted a few years and occurred approximately 200–300 years before the present campaign; its exact calendar year remains unresolved. The dwarven Great House was its principal mastermind and developed specialized dragon-slaying ballistas. Most dragons were killed; surviving dragons fled after losing their riders, and their fate remains unknown.
 - The Targaryen ruling family was nearly exterminated and the Imperial Seat fell. The dwarven leader and the Kharadorn house held power in the immediate aftermath. The same dwarven leader ruled for more than a century, until his death. His successor inherited his authority, but a succession crisis followed. The successor threatened war unless a human was placed on the Imperial Seat. The head of another of the original six rebel Great Houses was installed as a compromise candidate and became the current monarch. Earlier summaries call him a puppet, but current canon establishes that he has a legitimate hereditary claim and substantial formal authority; the extent of his practical constraints and sources of influence remains unresolved. The dwarven successor reluctantly accepted the arrangement, returned to Dragonstone, and continued ruling the dwarven clans. The dwarven empire and human monarchy maintain an uneasy peace marked by mutual distrust. War would not favor the dwarves, but they are not afraid of that prospect. House Calderan is the established ruling house and supplied the compromise monarch. The monarch's practical constraints and sources of influence remain unresolved; do not assume a single controller or that the dwarves control him. The victorious dwarves claimed Dragonstone, now occupied by the main branch of the dwarven clans, which is said to descend from Torag himself.
-- One nine-year-old Crown Prince survived the destruction of Dragonstone. His survival is concealed; he is a player character.
+- One nine-year-old Crown Prince survived the destruction of Dragonstone. His survival is concealed. Earlier campaign planning associated this survivor with a player character, but that association is provisional pending confirmation of the revised character concepts.
 
 The fallen dragon-riding dynasty's original name and the final name of its former stronghold remain unresolved; House Kharadorn is an approved original Great House name, not a placeholder. The six established Great Houses are Vaelorian (elven), Kharadorn (dwarven), Edarth (primarily human), Calderan (human ruling dynasty), Veyr (human northern dynasty), and Merrowen (primarily human maritime dynasty). Their words, sigils, identities, political aims, rulers, seats, representatives, and court-faction leadership are established in the Campaign Bible and dedicated records. The continent's approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, making it smaller than Westeros. The central inland sea, Dragonstone island and its narrow natural land bridge, the GM-only dwarven underground route, Khar-Dum in the northeastern mountains, and broad Great House territories are established. Exact borders, coordinates, routes, local jurisdictions, and final geographic names remain open.
 
 ## Campaign start
 
-- Living sandbox; the world develops independently of the player characters.
-- Two level-5 player characters begin the campaign.
-- **Starting location: Tallowmere**, a walled port city on the northwestern shore of the central inland sea, with an approximate population of 18,000.
-- The PCs arrive in Tallowmere at the beginning of Session One. Tallowmere is the starting location, not the entirety of the campaign setting. They are not established residents, and no prior local residence or accumulated local contacts should be assumed.
+- The campaign remains planned to begin in Tallowmere, a walled port city on the northwestern shore of the central inland sea, with an approximate population of 18,000.
 - **Campaign start date: 1 Harvestfall, 243 AC.** See `history/Calendar.md` and `history/Campaign_Timeline.md`.
-- The two PCs already know each other before Session One. Their first meeting is not staged during the opening session.
-- One PC is a human vampire mesmerist and the concealed surviving heir of the fallen dragon-riding dynasty.
-- The other PC is a male ratfolk alchemist, saved and raised by the vampire PC after his family was killed by anti-ratfolk persecution.
-- Their established ambitions are recorded in player_characters/Player_Character_Ambitions.md. Do not invent further personal history or motives.
-- Character-sheet details, equipment, carried wealth, and specific personal possessions are pending receipt of the completed player PDFs.
-- The players' detailed backstories are pending. Incorporate them only when supplied by the GM/players.
+- Player character concepts are under revision. Earlier drafts described two level-five characters who already knew one another, including a human vampire mesmerist and a male ratfolk alchemist. These are provisional legacy concepts, not current assumptions.
+- Final ancestries, classes, levels, party size, relationships, arrival circumstances, backstories, equipment, and personal ambitions must come from the players' confirmed concepts and sheets.
+- A roadside encounter involving a troll and a Selwick & Company wagon remains a prepared option. Its suitability, route, staging, reward, and encounter balance must be reviewed against the actual party before use.
+- A companion concept has been discussed previously, but no companion identity, role, statistics, or approval is current until confirmed.
 
+The wider setting, its politics, cultures, geography, institutions, and NPCs are being developed independently of the player characters. Do not build new setting facts around the earlier concepts while they remain unconfirmed.
 
 ## Unresolved
 
@@ -70,11 +66,11 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 - Exact borders, coordinates, travel times, route courses, river courses, and local port jurisdictions.
 - Minor-house names, holdings, allegiances, and individual southern polities.
 - The forces, relationships, and political dependencies that constrain or influence King Aldric Calderan; the exact post-Rebellion succession chronology and dwarven succession chain also need clarification.
-- Detailed names, population, customs, leadership, and local geography of Tallowmere's Underways and the wider ratfolk network. The battlefield circumstances of the ratfolk PC's mother's death remain PC-backstory territory and must not be invented.
+- Detailed names, population, customs, leadership, and local geography of Tallowmere's Underways and the wider ratfolk network. The earlier PC-specific family tragedy remains provisional legacy backstory and must not be treated as current campaign history unless confirmed.
 - The Ancient Barrier's builders, purpose, and what lies beyond it.
 - The reasons arcane spellcasters are rare; how the real Pathfinder gods grant or mediate divine magic.
 - The origins and limits of vampirism.
-- The fate of dragons that fled after the Great Rebellion. The vampire PC's interaction with dragon bonding remains unresolved and player-character-specific.
+- The fate of dragons that fled after the Great Rebellion. Any player-character-specific interaction with dragon bonding remains undefined until the revised concepts are confirmed.
 
 For current rulers, Great House seats and territories, Council representatives, Crown officers, and court-faction leaders, consult the approved Stage 5, Stage 8, and Stage 9 records. Those subjects are not open questions.
 
@@ -235,17 +231,15 @@ The five court factions have identifiable current leaders: Queen Elowen Calderan
 The Council's exact voting rules, quorum, vetoes, formal powers, and customary procedures remain unresolved. The intelligence network's size and the royal military's precise composition also remain unresolved.
 
 
-## Player Character Ambitions (Established, 2026-11-04)
+## Provisional legacy player-character ambitions
 
-The party is not assumed to be heroic. The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, accumulate the wealth, influence, and military strength to do so, confront House Kharadorn, retake Dragonstone, and restore his family's rule. The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish ratfolk as equals to or greater than other peoples; his family was killed by persecution, and the vampire PC saved and raised him. The vampire's own ambition is not yet established. Tyler is the vampire player's real-world name, not the character's name. See `player_characters/Player_Character_Ambitions.md`.
+An earlier planning draft associated the concealed surviving Crown Prince with ambitions to rebuild the fallen dynasty, recover Dragonstone, and confront House Kharadorn. It associated an earlier ratfolk alchemist concept with improving the standing and safety of ratfolk. These ambitions are preserved in `player_characters/Player_Character_Ambitions.md` as legacy material only. Do not treat them as current player-character goals until the players confirm the revised concepts.
 
+## Tallowmere Starting-Location Baseline
 
-## Tallowmere Arrival Baseline — 2026-11-04
+Tallowmere remains the planned starting location. The exact arrival circumstances, first scene, party composition, prior familiarity with the city, and personal reasons for coming remain open until the players confirm their concepts and backstories. Do not assume that the PCs already know one another, are newcomers, or have any particular local contacts based solely on the earlier draft.
 
-The PCs arrive in Tallowmere at the start of Session One. Treat them as newcomers to the city unless later backstory material explicitly establishes a prior visit or connection. They already know one another; do not stage their first meeting as strangers. Their familiarity with the wider world should be based on ancestry, upbringing, education, and supplied backstories, not on assumed local knowledge of Tallowmere. The city's established public-facing framework is in the dedicated Tallowmere records. The exact first-session scene, arrival circumstances, campaign date, and immediate reason for coming to Tallowmere remain to be established.
-
-Player character sheets and detailed backstories are pending. Do not assign starting cash, equipment, magic items, heirlooms, or additional personal knowledge until the relevant character sheets and backstories are received and reviewed.
-
+The player starting handout should be filtered from the confirmed character concepts and the established public setting. Do not assign starting cash, equipment, magic items, heirlooms, or additional personal knowledge until final character sheets and backstories are received and reviewed.
 
 ## Continental minor houses and regional powers — 2026-11-06
 
@@ -265,7 +259,7 @@ The campaign remains at **1 Harvestfall, 243 AC**. WTR-001 is retained as a hist
 
 ## Tallowmere Ratfolk Community Networks — 2026-11-06
 
-The Underways remain decentralized, with no single ratfolk leader or unified political faction. Four informal networks are established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`: the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their named contacts include Nix-of-the-Cistern, Tikka Vell, Serren Coil, Miraq Ashwhisk, Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw. Their strategies differ over negotiation, public advocacy, route security, and household protection. The ratfolk PC's ambition may intersect with these networks, but he is not their automatic leader or representative.
+The Underways remain decentralized, with no single ratfolk leader or unified political faction. Four informal networks are established in `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`: the Cistern Keepers, Open Stall Petition, Underway Couriers, and Quiet Hearths. Their named contacts include Nix-of-the-Cistern, Tikka Vell, Serren Coil, Miraq Ashwhisk, Vessa Reedtail, Pellit Quickstep, and Dorrik Sootpaw. Their strategies differ over negotiation, public advocacy, route security, and household protection. A future ratfolk PC may intersect with these networks if the final concept supports it, but no character is their automatic leader or representative.
 
 
 ## Supplemental regional factions — 1 Harvestfall, 243 AC

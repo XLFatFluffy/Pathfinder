@@ -45,7 +45,15 @@ A future ritual or item may use one material, the other, or neither. The fact th
 
 **Player-character knowledge:** A character's familiarity depends on upbringing, profession, training, prior study, and the specific information the GM has made available. Possessing obsydian does not automatically mean a character understands dragonglass or the deeper properties of either material.
 
-## 5. Boundaries and unresolved details
+## 5. Player-facing summary
+
+Use this only for a character whose background, training, or relevant experience justifies knowing the distinction:
+
+> Obsydian is ordinary black onyx, a gemstone that can be obtained through normal trade. It is not made by dragons. Dragonglass is a separate material created by dragons. Both have necromantic properties, but they are not the same substance and cannot be assumed to have the same effects. Possessing either material does not, by itself, grant magical abilities or cause a spell to occur. The precise uses of each depend on specialist knowledge and specific established rituals or magic items.
+
+This is a concise statement of the established distinction, not proof that every commoner or merchant knows the materials' necromantic properties.
+
+## 6. Boundaries and unresolved details
 
 Established:
 - Obsydian is ordinary black onyx.

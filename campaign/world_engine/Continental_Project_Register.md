@@ -1,7 +1,7 @@
 # Continental Project Register
 
 **Snapshot:** 1 Harvestfall, 243 AC  
-**Status:** Initial projects established under the GM's delegation to build an active political world.  
+**Status:** Dated GM reference for established, proposed, and watch-level efforts. These entries are not an automated schedule or prediction.  
 **Scope:** Projects outside the Tallowmere local register. No project below establishes a war, emergency, or secret conspiracy.
 
 A project is an actor's organized effort to change or preserve something. Routine duties are not automatically projects; entries below are included because they create identifiable decisions, costs, or future consequences.
@@ -119,4 +119,4 @@ The Tallowmere [Initial Project Register](Initial_Project_Register.md) remains t
 - Do not invent project budgets, deadlines, completion percentages, troop movements, or resource shortages.
 - Record who knows about a project and whether it is public, private, or routine administration.
 - A project may create a new issue, but only if an actual conflict or consequence emerges.
-- The first world turn may review these projects but must not force every one to advance.
+- These descriptions do not cause a project to advance. The GM determines any change from established events, resources, information, and decisions.

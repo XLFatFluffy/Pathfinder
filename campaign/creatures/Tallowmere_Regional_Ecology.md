@@ -27,6 +27,15 @@ Low stony hills, exposed ridges, worked quarry faces, prospecting cuts, caves, a
 ### Eastern Shore
 Low bluffs, narrow beaches, shingle coves, small landing places, salt-working sites, fishing huts, and exposed water subject to sudden storms.
 
+### Siltfen
+Low wet ground south and southeast of the lower River Vale, with wet meadows, reed beds, shallow pools, muddy channels, alder stands, and seasonally flooded ground. It is a working wetland used for reed cutting, fishing, waterfowl, gathering, and limited grazing on firmer ground. Local rights overlap and exact jurisdiction remains unresolved.
+
+### Outer Eastern Shore
+Beyond Saltwick, the shore becomes more exposed and less continuously settled, with isolated coves, shingle beaches, low cliffs, and temporary fishing camps. Sudden squalls, rough water, unstable cliffs, and limited fresh water shape human use.
+
+### Wilderness beyond the settled hinterland
+The first frontier belt consists of the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore. These environments are described in [Wilderness Beyond Tallowmere](../locations/starting_city/Wilderness_Beyond_Tallowmere.md). They are less continuously worked and protected than the immediate hinterland, but are not uniformly hostile. The wilderness document's creature lists describe possible threats and inhabitants; they do not establish every listed creature as a confirmed local population.
+
 ### Settled city and outskirts
 Harbor, warehouses, streets, walls, refuse, cellars, gardens, granaries, stables, and the decentralized Underways. Human food stores and infrastructure influence pests and commensal animals.
 

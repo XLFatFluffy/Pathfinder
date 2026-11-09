@@ -28,7 +28,7 @@ The following era labels provide a usable historical framework. Some are descrip
 | Post-Rebellion settlement | Dragonstone and the Imperial Seat | House Kharadorn took Dragonstone by conquest. House Calderan came to occupy the Imperial Seat under the post-Rebellion settlement. The exact date and detailed succession sequence remain unresolved. |
 | Year 1 AC | The Crowning | The first full year after the Crowning that established the post-Rebellion order. |
 | 225 AC (approximate) | Beginning of King Aldric's reign | King Aldric Calderan has ruled for approximately 18 years as of the campaign's opening date. This is a derived approximate year, not a separately established coronation date. |
-| 1 Harvestfall, 243 AC | Campaign begins | The two level-five PCs arrive in Tallowmere and begin Session One. |
+| 1 Harvestfall, 243 AC | Campaign begins | The campaign's starting date and location are established: Session One begins in Tallowmere. Party composition, character levels, arrival circumstances, and the opening scene remain pending final player materials and GM approval. |
 
 ## Current Political Baseline
 

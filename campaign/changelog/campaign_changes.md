@@ -851,3 +851,12 @@
 - Confirmed that the Bible's account of GM-led consequences, calendar structure, historical uncertainty, current rulers, six Council seats, and Tallowmere's local observances matches the dedicated source records.
 - Added a direct reference to the River Vale/Siltfen aquatic ecology dossier and explicitly retained unresolved local observance dates, larger market-day frequency, bell patterns, and gate hours.
 - No canon contradiction requiring a retcon was found in this audit. The dedicated subject records remain authoritative over the consolidated Bible.
+
+
+## 9 November 2026 — Tallowmere aquatic ecology status reconciliation
+
+- Reconciled the wildlife catalogue with the established River Vale/Siltfen resource dossier. Eels, frogs, and harvested waterfowl are now correctly identified as established Siltfen resource categories; specific species remain unresolved. Other amphibians, fish, and bird species remain candidates. Eels in the River Vale remain a possible occurrence, not an established catch.
+- Clarified that Siltfen reed beds and reed cutting are established, with thatch, mats, and basketry as recorded uses. Other wetland plants remain candidates unless separately confirmed.
+- Added a cross-reference noting that Fenna Wale's dried yarrow stock is established, without inferring local wild distribution, cultivation source, or guaranteed curative effect.
+- Fixed a malformed literal line break in the creature index and updated the readiness and development roadmap records.
+- No new species occurrence, remedy, gathering right, or ecological population was made canon.

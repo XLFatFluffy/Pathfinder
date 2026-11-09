@@ -772,3 +772,11 @@
 - Clarified that the materials are not interchangeable and have no automatic spell effect. Specific necromantic applications, dragonglass production, sources, and market values remain unresolved.
 - Integrated the reference into the Magic index, Magic Items and Enchantment, GM Campaign Bible, Names and Terminology Index, Open Questions Register, and Worldbuilding Readiness.
 - Kept any particular character's quantity or value of obsydian as a character-specific equipment decision, not a universal market price or starting allocation.
+
+
+## 9 November 2026 — Great House and historical summaries reconciled
+
+- Updated the GM Campaign Bible to identify Dragonstone explicitly as the ancestral island stronghold of the fallen dragon-riding dynasty and to record that the surviving Crown Prince was nine at the beginning of the rebellion. His personal name remains intentionally absent; any PC association remains provisional.
+- Reconciled the current House Rulers dossier and legacy Great House actor reference: Kharadorn controls Dragonstone and maintains a dominant strategic position over key inland-sea routes and naval approaches, not blanket sovereignty over every shoreline.
+- Retitled the legacy Great House actor section as GM portrayal and adjudication guidance rather than an active world-engine procedure.
+- Added the player-facing obsydian/dragonglass summary to the material reference. The character-specific 100 gp quantity was not generalized into a market price or starting rule.

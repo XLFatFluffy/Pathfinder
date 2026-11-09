@@ -2,7 +2,7 @@
 PATHFINDER CAMPAIGN BIBLE
 MASTER EDITION
 Campaign Setting: Original Pathfinder First Edition Fantasy World
-Document Status: Living Master Reference
+Document Status: LEGACY SOURCE ARCHIVE — superseded by `GM_Campaign_Bible.md` (2026-11-09)
 Last Updated: November 4, 2026
 
 
@@ -10,7 +10,7 @@ DOCUMENT CONTROL — CANON PRECEDENCE (UPDATED NOVEMBER 4, 2026)
 
 This master document contains imported source material and later approved additions. Some older paragraphs and unresolved-topic lists have not yet been fully consolidated. Do not treat every statement in this file as equally current. Later GM-approved stages and dedicated current records supersede earlier brainstorming, imported text, and older statements that describe already-settled subjects as undecided.
 
-For current continuity, use `Current_World_State.md`. For approved Great House identities and political foundations, use the latest approved Stage 5 material and the dedicated records. Current rulers and immediate families are in `politics/House_Rulers.md` (Stage 8). Imperial Council representatives, Crown officers, and court-faction leaders are in `politics/Court_and_Council.md` (Stage 9). Religion and faith are in `Religion_and_Faith.md` (Stage 7). Unresolved matters are tracked in `Open_Questions_Register.md`.
+This 40-page document is retained as source material only. It contains superseded drafts, a retired world-simulator concept, and earlier player-character assumptions. For current continuity, use `GM_Campaign_Bible.md` and `Current_World_State.md`. For approved Great House identities and political foundations, use the latest approved Stage 5 material and the dedicated records. Current rulers and immediate families are in `politics/House_Rulers.md` (Stage 8). Imperial Council representatives, Crown officers, and court-faction leaders are in `politics/Court_and_Council.md` (Stage 9). Religion and faith are in `Religion_and_Faith.md` (Stage 7). Unresolved matters are tracked in `Open_Questions_Register.md`.
 
 Canon hierarchy: (1) explicit GM decisions in conversation; (2) latest approved stage/decision record; (3) current dedicated lore reference; (4) `Current_World_State.md`; (5) older Campaign Bible/source material; (6) unapproved brainstorming. A later approved decision supersedes an earlier statement on the same subject. Do not resolve PC-specific mysteries or alter protected PC facts without explicit GM approval.
 
@@ -1323,8 +1323,8 @@ Useful campaign tools will include:
 
 The world should reward curiosity, initiative, alliances, ambition, caution, and experimentation.
 
-18. THE WORLD SIMULATOR
-The campaign will use a living World Simulator concept to help manage the world
+18. RETIRED WORLD SIMULATOR CONCEPT — ARCHIVE ONLY
+**RETIRED — DO NOT USE AS AN ACTIVE SYSTEM.** The campaign no longer uses a living World Simulator. The following text is preserved as historical source material only. Current world developments are determined by GM judgment, not automated simulation.\n\nThe earlier campaign draft proposed a living World Simulator concept to help manage the world
 independently of the player characters.
 
 The purpose is to create a setting that continues to develop even when the players are focused on

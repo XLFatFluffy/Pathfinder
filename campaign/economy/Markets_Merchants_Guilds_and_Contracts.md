@@ -208,7 +208,7 @@ A port can be wealthy while many dockworkers remain poor. Commercial success is 
 
 Tallowmere's established economic role is that of a regional port and River Vale trade hub. Its importance comes from river access, the Central Inland Sea, local agriculture, quarrying, timber and charcoal, fishing, shore trade, and its chartered relationship with House Kharadorn.
 
-Tallowmere's harbor-defense review is a local charter review, not an occupation or naval mobilization. Do not infer new Kharadorn rights from the existence of the review. The exact fees, cargo inspections, harbor offices, and division of authority should follow the established Tallowmere civic and charter records.
+Tallowmere's harbor-defense review is a local charter review, not an occupation or naval mobilization. Do not infer new Kharadorn rights from the existence of the review. For Tallowmere-specific practice, use [Commercial Property and Premises](../locations/starting_city/Commercial_Property_and_Premises.md) for local rents, stall allocation, and premises; [Guild Membership and Trade Rules](../locations/starting_city/Guild_Membership_and_Trade_Rules.md) for the named guilds, dues, membership, and civic trade rules; and [Merchant Relationships and Supply Lines](../locations/starting_city/Merchant_Relationships_and_Supply_Lines.md) for established local commercial relationships. These local records take precedence over the general working examples in this document. Do not generalize Tallowmere's rates or guild arrangements to the rest of the continent.
 
 ## 9. Merchant reputation and information
 

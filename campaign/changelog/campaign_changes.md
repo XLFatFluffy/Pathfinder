@@ -355,3 +355,12 @@
 - Added navigation from the people, campaign, and Tallowmere indexes.
 - Flagged an unresolved name collision: Chief Magistrate Odran Pell and Odran Pell, Elira Pell's father/business partner at Pell & Daughter. No retcon or identity merge was made.
 - The dossier collection excludes player characters and leaves the proposed companion and unnamed wagon guards unfinalized.
+
+## 2026-11-09 - Worldbuilding expansion: culture, ordinary life, and holidays
+
+- Added `campaign/cultures/Vaelorian_Culture_and_Homelands.md` with detailed Vaelorian settlement, architecture, homes, family life, clothing, food, commerce, education, religion, death, art, military culture, human relations, and internal cultural tensions.
+- Added `campaign/world/Everyday_Life_and_Material_Culture.md` covering ordinary food, preservation, childhood, marriage, death, medicine, illness, clothing, work, money, communication, law, crime, fire, animals, sanitation, entertainment, class, and hospitality.
+- Added `campaign/history/Holidays_and_Observances.md` explaining the origins, social meaning, customs, political uses, and regional/class differences of major civil observances.
+- Updated `campaign/Cultures_and_Societies.md` to link the detailed records and replace the former simulation-oriented cultural behavior section with GM judgment guidance.
+- Updated `campaign/README.md` so the GM reference is no longer described as containing a Living World Engine and the legacy `world_engine/` material is explicitly treated as source material rather than an operating simulation.
+- No PC-specific assumptions were added.

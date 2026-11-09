@@ -32,7 +32,7 @@ These actors exist because established locations and world pressures need people
 
 **Constraints:** Economically important but does not control the River Vale or Denvor policy.
 
-**Engine hooks:** Flooding, drought, upstream maintenance, road disruption, grain shortages, or a dispute over water access.
+**Potential relevance in play:** Flooding, drought, upstream maintenance, road disruption, grain shortages, or a dispute over water access.
 
 ---
 
@@ -55,7 +55,7 @@ These actors exist because established locations and world pressures need people
 
 **Constraints:** Does not own the woodland as a unified body and remains subject to Denvor authority and individual customary rights.
 
-**Engine hooks:** Timber shortage, charcoal price spike, woodland boundary dispute, merchant contract, or major construction project.
+**Potential relevance in play:** Timber shortage, charcoal price spike, woodland boundary dispute, merchant contract, or major construction project.
 
 ---
 
@@ -78,7 +78,7 @@ These actors exist because established locations and world pressures need people
 
 **Constraints:** No unified territorial sovereignty. Subject to the Denvor charter and local law.
 
-**Engine hooks:** Tallowmere construction, road repairs, quarry accidents, competing claims, or a large external buyer.
+**Potential relevance in play:** Tallowmere construction, road repairs, quarry accidents, competing claims, or a large external buyer.
 
 ---
 
@@ -102,7 +102,7 @@ These actors exist because established locations and world pressures need people
 
 **Constraints:** The Compact lacks a single superior political authority of its own, and its precise charter relationship remains unresolved.
 
-**Engine hooks:** Fishing-ground dispute, storm damage, new harbor regulation, outside crews, or Tallowmere demand for fish.
+**Potential relevance in play:** Fishing-ground dispute, storm damage, new harbor regulation, outside crews, or Tallowmere demand for fish.
 
 ---
 
@@ -124,7 +124,7 @@ These actors exist because established locations and world pressures need people
 
 **Constraints:** Depends on the city's roads, harbor, labor supply, and political stability.
 
-**Engine hooks:** Existing warehouse-fire issue, insurance/credit disputes, labor shortages, or harbor allocation.
+**Potential relevance in play:** Existing warehouse-fire issue, insurance/credit disputes, labor shortages, or harbor allocation.
 
 ---
 
@@ -236,7 +236,7 @@ These houses are outside the currently calibrated Tallowmere map. Their existenc
 
 ---
 
-# IV. Engine Safeguards
+# IV. GM Reference Safeguards
 
 1. These actors do not automatically know about one another.
 2. Their existence does not establish communication, alliances, rivalries, or intelligence networks.
@@ -245,7 +245,7 @@ These houses are outside the currently calibrated Tallowmere map. Their existenc
 5. House Corven's coastal position does not create a dispute with Merrowen.
 6. The Tallowmere factions do not constitute independent governments.
 7. No new border polygons should be drawn from this register.
-8. The Living World Engine may use these actors when a plausible event, request, opportunity, or piece of information connects them to the active world state.
+8. The GM may bring these actors into play when a plausible event, request, opportunity, or piece of information connects them to the situation at hand.
 9. Player characters can create entirely new factions or destroy existing ones through play.
 
 # V. Deferred Questions

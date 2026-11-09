@@ -681,3 +681,11 @@
 - Distinguished established capacities and current pressures from practical GM portrayal guidance. Preserved the fact that the warehouse fires are small incidents/near-misses, no major warehouse has burned, and their cause is unknown.
 - Cross-referenced the guide from the Tallowmere index, GM dossier, and GM Campaign Bible; updated the Development Roadmap.
 - Did not create a professional fire brigade, rescue flotilla, public emergency department, standardized alarm code, citywide evacuation plan, relief fund, or active disaster. Cistern capacity, stores inventory, response tools, and local procedures remain unresolved.
+
+
+## 9 November 2026 — Odran Pell identity continuity resolved
+
+- Reconciled the NPC roleplaying dossier and open-questions register against the established Names and Terminology Index and Shopkeepers and Stock record.
+- Confirmed that Chief Magistrate Odran Pell is the same person who is Elira Pell's father and senior partner at Pell & Daughter. The name collision is not a second NPC.
+- Updated the Civic NPC record and consolidated the NPC dossier roster into one entry.
+- The dual civic/commercial role is established. No formal recusal rule, conflict-of-interest procedure, or additional legal restriction has been invented.

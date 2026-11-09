@@ -184,7 +184,7 @@ Superstition and useful practice may coexist in the same household.
 
 ## 10. Clothing
 
-Clothing communicates occupation and status.
+Clothing communicates occupation and status. The wider material and regional framework, including textiles, repair, laundry, and local clothing services, is covered in [Clothing, Textiles, and Personal Adornment](Clothing_Textiles_and_Personal_Adornment.md).
 
 Common people favor durable wool, linen, leather, and locally produced textiles.
 

@@ -2,9 +2,9 @@
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** GM operational framework proposal; no force totals or new wars established  
-**Purpose:** Give the Living World Engine a consistent way to reason about military authority, readiness, mobilization, logistics, and consequences without inventing troop counts or turning every disagreement into a war.
+**Purpose:** Provide a GM reference for military authority, force types, readiness, mobilization, logistics, and the political limits of armed power without inventing troop counts or turning every disagreement into a war.
 
-This document consolidates established military facts and proposes conservative operating rules for simulation. Statements are marked **Established** when directly supported by current canon and **Working model** when they are a proposed way to adjudicate future events. A working model is not a dated event, secret plan, or claim that a force is currently mobilized.
+This document consolidates established military facts and offers conservative GM guidance where the setting's detailed military institutions remain open. Statements are marked **Established** when directly supported by current canon and **Working model** when they are useful portrayal or adjudication guidance rather than settled institutional fact. A working model is not a dated event, secret plan, or claim that a force is currently mobilized.
 
 ## 1. Core principles
 
@@ -164,27 +164,15 @@ The following individuals already have established military responsibilities or 
 
 When a specific vassal is called, record the authority issuing the summons, the legal basis, the requested service, the response, the cost, and the political consequence. Do not infer the response from allegiance alone.
 
-## 6. Mobilization and command: Living World Engine procedure
+## 6. Mobilization, command, and the use of force
 
-The following is a **working simulation procedure**, not a claim that every realm uses identical formal terminology.
+Military action begins with authority and purpose, not simply with the existence of armed personnel. The Crown, a Great House, a dwarven clan, a vassal, a chartered town, and a local lord may each possess different rights to raise, command, or employ forces. The relevant charter, custom, oath, grant, or political agreement determines what may lawfully be demanded.
 
-1. **Trigger:** Identify the concrete threat, obligation, request, or political decision that could justify military action.
-2. **Authority:** Determine who may lawfully order the force to act. Separate Crown, Great House, clan, vassal, city, and charter authority.
-3. **Information:** Determine what the decision-maker knows, what is rumor, and how quickly reliable information can arrive.
-4. **Readiness:** Identify which forces are already maintained, which are committed to garrisons or patrols, and which require assembly.
-5. **Obligation:** Identify the specific charter, custom, treaty, or decision governing any vassal or clan contribution.
-6. **Logistics:** Check food, fodder, transport, roads, weather, stores, repair, pay, shipping, and time.
-7. **Political cost:** Check Council scrutiny, noble resistance, local rights, merchant disruption, and the risk of provoking other powers.
-8. **Action:** Record the actual order, response, delay, refusal, negotiation, or deployment. A proposed action is not an accomplished event.
-9. **Outcome:** Resolve only what follows from the available forces, terrain, information, logistics, and opposition. Record losses and consequences only when supported by the event.
+A maintained garrison, inspection, patrol, seasonal provisioning effort, or training exercise is not the same as mobilization. A force committed to a wall, pass, port, or frontier post cannot be treated as freely deployable without considering what is left undefended. A summons may be delayed, negotiated, refused, or answered only in part where law, custom, distance, or competing obligations permit.
 
-### Escalation ladder
+Information also constrains command. A lord may act on a mistaken report; a commander may know a road is impassable before the court does; a vassal may hear a summons late; a merchant may know that a supply contract has failed before the local garrison does. Do not give any authority knowledge it has not plausibly received.
 
-Use this as a guide, not an automatic sequence:
-
-**warning or request → intelligence and reconnaissance → local readiness → lawful summons or requisition → limited muster → concentrated deployment → engagement → occupation or settlement**
-
-An actor may stop, negotiate, or withdraw at any stage. Skipping stages requires a credible urgent cause and a record of the political and logistical consequences.
+Military escalation is not automatic. A warning, patrol, reconnaissance, readiness inspection, lawful summons, limited muster, deployment, engagement, and occupation are different acts with different costs. An actor may negotiate, wait, withdraw, or choose not to act. The GM decides what occurs based on the actual threat, available information, legal authority, resources, and interests of the people involved.
 
 ## 7. Logistics and campaign constraints
 

@@ -164,6 +164,9 @@ A wealthy noble may employ a physician. A village may rely on an experienced mid
 
 ## 9. Illness
 
+For the fuller GM treatment of caregivers, learned medicine, injury, disease, sanitation, childbirth, disability, class access, and Pathfinder healing, see [Medicine, Disease, and Healing](Medicine_Disease_and_Healing.md). The details in that reference distinguish proposed practice from established local institutions.
+
+
 People understand disease through a mixture of observation, tradition, religion, and incorrect theories.
 
 Common responses include:

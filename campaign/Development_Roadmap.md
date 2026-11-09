@@ -290,3 +290,10 @@ Added `campaign/world/Foodways_of_Tallowmere_and_the_Hinterland.md` to synthesiz
 Added `campaign/locations/starting_city/Medical_Care_in_Tallowmere.md` to connect the general medicine framework to the actual established local network: Lantern Hospice, Sister Alwen, Brother Halen, Edda Moss, Fenna Wale, Miraq Ashwhisk, and the House of the Dawn. Clarified how ordinary patients might seek care, what each provider can reasonably do, sanitation vulnerabilities, childbirth, medical access, and the limits of magical healing. Reconciled the general medicine file so the already-established hospice and practitioners are no longer described as wholly unresolved. Exact hospice capacity and layout, named physicians, endemic diseases, and public magical services remain open.
 
 **Next work:** deepen the ordinary life of Tallowmere through work, household labor, and the social rhythm of its districts. In particular, examine how dock, mill, market, domestic, and seasonal workers organize their days, depend on one another, and experience the city differently. Avoid duplicating existing NPC or workforce records.
+
+
+## Current development checkpoint — 9 November 2026 (Tallowmere water and sanitation)
+
+Added `campaign/locations/starting_city/Water_Waste_and_Street_Cleanliness.md` as a city-specific reference to public wells and pumps, the Old Cistern, privies, drains, refuse arrangements, district differences, flood and dry-period pressures, household practices, and likely civic disputes. It distinguishes established infrastructure from plausible daily practices and unresolved municipal responsibilities. No sewer network, citywide refuse service, public-health department, contamination event, or disease outbreak was invented.
+
+**Next work:** review the local civic and household records for contradictions around public services, maintenance obligations, and district responsibilities. Then develop the ordinary seasonal experience of Tallowmere's households beyond food supply: fuel, heating, lighting, clothing repair, and winter preparation.

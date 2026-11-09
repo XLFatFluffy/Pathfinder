@@ -1,5 +1,7 @@
 # Canon Register
 
+**PC concept boundary (2026-11-09):** Earlier player-character concepts, relationships, ambitions, family histories, and attached hooks are provisional legacy material pending player confirmation. The world and its institutions are being developed independently of the PCs.
+
 This file tracks major setting decisions and their status. It does not replace detailed records in the Campaign Bible.
 
 ## Status definitions
@@ -213,16 +215,13 @@ The factions are overlapping political networks, not formal parties. House affil
 **Reference:** `politics/Court_and_Council.md`.
 
 
-## Player Character Ambitions (2026-11-04)
+## Provisional Legacy Player Character Concepts (2026-11-04)
 
-**Status: ESTABLISHED PLAYER-CHARACTER INFORMATION.** The GM supplied the following goals and backstory facts. The PCs are not assumed to be heroes.
+**Status: PROVISIONAL LEGACY MATERIAL — pending player confirmation (2026-11-09).** Earlier drafts described a human vampire mesmerist as the surviving heir of the fallen dragon-riding dynasty and a ratfolk alchemist seeking to improve the standing and safety of ratfolk. The draft also connected them through a shared history and mentorship.
 
-- The surviving heir of the fallen dragon-riding dynasty seeks to rebuild the dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule.
-- The ratfolk alchemist seeks to end persecution and hatred of ratfolk and establish them as equals to, or greater than, other peoples. His family was killed by persecution; the vampire PC saved and raised him.
-- The vampire mesmerist is the surviving heir and seeks to rebuild the fallen dynasty, gather wealth, influence, and military strength, confront House Kharadorn, retake Dragonstone, and restore his family's rule. His further personal motives and methods remain for the player to establish. Tyler is the player's real-world name, not the vampire character's name.
+The players are revising their concepts. These identities, ambitions, family histories, relationships, and attached secrets are not current campaign facts until the players confirm them. Preserve the earlier drafts in `player_characters/` for continuity, but do not build new setting hooks around them.
 
-Do not invent PC identities, personal histories, motives, or methods. Full record: `player_characters/Player_Character_Ambitions.md`.
-
+**Reference:** `player_characters/Player_Character_Concepts_and_Opening.md` and `player_characters/Player_Character_Ambitions.md`.
 
 ## Table and Rules Philosophy (2026-11-04)
 
@@ -235,12 +234,15 @@ Do not invent PC identities, personal histories, motives, or methods. Full recor
 - Consequences should arise from established rules, the setting, and the choices of the PCs—not arbitrary permission gates or plot protection.
 
 
-## Tallowmere Starting Location and PC Arrival (2026-11-04)
+## Tallowmere Starting Location and Provisional PC Arrival (2026-11-04)
 
-**Status: ESTABLISHED.** Tallowmere is the campaign's starting city. The two level-5 PCs arrive in Tallowmere at the beginning of Session One. They already know one another; they are not established residents, and no prior local contacts should be assumed unless later-supplied backstories establish them. The city identity, approximate population, House Denvor, Greywatch, local government, districts, commercial framework, Underways community concept, and civic records are established in the dedicated Tallowmere documents.
+**Status: ESTABLISHED STARTING LOCATION; PC ARRIVAL DETAILS PROVISIONAL (2026-11-09).** Tallowmere is established as the campaign's starting city. The campaign date is established as **1 Harvestfall, 243 AC**.
 
-**Still unresolved:** Exact campaign date; the precise circumstances and location of the PCs' arrival; the opening scene and immediate situation; first-session NPC encounters; the PCs' actual equipment, carried currency, special possessions, and detailed personal knowledge pending completed character sheets and backstories.
+Earlier drafts assumed two level-five PCs who already knew one another and arrived as newcomers. Those assumptions are no longer current until the players confirm their revised concepts and backstories. Party size, levels, ancestries, classes, relationships, arrival circumstances, starting equipment, carried wealth, and personal knowledge must come from final player materials.
 
-The ratfolk community framework beneath Tallowmere is established in campaign/locations/starting_city/Ratfolk_Underways.md; its detailed neighborhood names, population, named leadership, customs, and precise settlement geography remain open. Do not treat the community itself as wholly undeveloped.
+A troll attack on a Selwick & Company wagon remains a prepared opening option only. The GM must review the route, encounter site, reward, companion, and encounter balance against the final party before selecting it.
 
-| 2026-11-04 | Corrected the post-Rebellion monarch description, continental scale, vampire PC ambition, and established Tallowmere as the PCs' Session One arrival city. |
+**Still unresolved:** Exact arrival circumstances, first scene, which NPCs appear, whether the prepared troll encounter is used, and all PC-specific starting details.
+
+The ratfolk community framework beneath Tallowmere is established independently of any player character. Its detailed neighborhood names, population, customs, and precise settlement geography remain open.
+

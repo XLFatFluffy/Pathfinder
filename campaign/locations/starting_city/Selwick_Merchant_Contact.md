@@ -1,6 +1,6 @@
 # Master Tavren Selwick and the Roadside Wagon
 
-**Status:** ESTABLISHED CAMPAIGN NPC AND OPENING CONNECTION — 2026-11-04  
+**Status:** ESTABLISHED NPC AND BUSINESS; WAGON/CREW/REWARD SCENARIO PROVISIONAL — 2026-11-09  
 **Role:** Wealthy Tallowmere merchant, shipowner, and commercial patron  
 **Business:** Selwick & Company  
 **District:** Old Quays, Tallowmere
@@ -45,7 +45,7 @@ His initial response is deliberately meaningful but not extravagant:
 
 The exact payment may be adjusted if the wagon is destroyed, the crew are harmed, cargo is lost, or the PCs choose not to escort or recover anything. The reward is for real assistance, not simply for claiming a kill.
 
-## 4. What This Introduction Does for the PCs
+## 4. If This Opening Option Is Selected
 
 Selwick's recommendation gives the PCs a modest foothold in Tallowmere:
 - Meret Sorn is more likely to grant them a brief meeting and hear a commercial proposal.
@@ -55,18 +55,17 @@ Selwick's recommendation gives the PCs a modest foothold in Tallowmere:
 
 This is limited social credibility, not fame. Some people will still be cautious, prejudiced, busy, or uninterested. The letter does not grant guild membership, legal privilege, automatic access to restricted warehouses, or universal trust.
 
-The ratfolk PC may find that some merchants respect his competence while others remain prejudiced. Selwick judges the work done and does not treat one ratfolk as representative of all ratfolk.
-
-The vampire PC's identity, ancestry, and history are not automatically known to Selwick. The PCs control what they disclose.
+Selwick judges people by their conduct and reliability. Ancestry prejudice may affect how other merchants respond to a newcomer, but Selwick does not treat one person as representative of an entire ancestry. No PC identity, ancestry, or private history is assumed to be known to him; disclosure and any resulting relationship belong to play.
 
 ## 5. Selwick's Limits and Future Use
 
 Selwick is a useful contact, not a patron who solves problems for the PCs. He may later offer paid work, introductions, or information if their interests align. He has existing obligations and competing concerns, including cargo contracts, shipping schedules, warehouse costs, and the need to protect his reputation.
 
-He is not secretly connected to House Relland or the ratfolk family's tragedy. The troll attack and the old extortion incident are separate events.
+No connection between the proposed wagon encounter and any unconfirmed player-character backstory is established.
 
 ## GM Continuity
 
+- The wagon, crew, cargo, route, reward, and introduction are provisional encounter details; use them only if the GM selects this opening.
 - The wagon belongs to Selwick & Company.
 - It is carrying ordinary commercial cargo to Tallowmere.
 - Its route is selected to fit the PCs' actual approach.

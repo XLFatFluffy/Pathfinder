@@ -801,3 +801,11 @@
 - Completed another GM Bible navigation pass: removed a duplicate politics reference, added the holidays index, detailed culture dossiers, and explicit magic references, and expanded the Tallowmere local reference list.
 - Added Tallowmere's education pathways to the starting-city chapter: limited numeracy instruction at the Open Ledger, household and workshop learning, negotiated apprenticeships, private tutors, and the distinction between Pell & Daughter's scribal services and a school.
 - The Bible remains a consolidated study guide; detailed source records remain authoritative.
+
+
+## 9 November 2026 — GM Bible player-knowledge framework
+
+- Added a knowledge-layer framework to the GM Campaign Bible: common, educated, local, specialist, rumor/belief, and GM-only truth.
+- Clarified that major settlements and fortresses are broadly known, while minor settlements, private holdings, local routes, and specialist details depend on character background and experience.
+- Reaffirmed that ancestry alone does not grant complete cultural knowledge and that ordinary facts do not require unnecessary skill checks.
+- Clarified that the player handout is a filtered derivative of public knowledge, not a source of GM canon.

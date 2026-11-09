@@ -18,12 +18,12 @@ This document tracks what is established, what remains useful to prepare, and wh
 | History and calendar | ESTABLISHED FRAMEWORK | Great Rebellion foundations and campaign calendar established; exact dates and selected mysteries remain open. |
 | Cultures and ordinary life | EXPANDED / ONGOING | Regional cultural dossiers, everyday life, holidays, education, literacy, and knowledge access are documented; deeper local distinctions remain elective. |
 | Religion | ESTABLISHED FRAMEWORK | Pathfinder gods are real. Regional institutions and ordinary religious life are documented; divine magic's precise mechanism remains unresolved. |
-| Economy and trade | ESTABLISHED FRAMEWORK | Continental economic relationships, Tallowmere's local economy, agriculture, food supply, livestock, storage, and seasonal work are documented; detailed prices and quantities remain selective. |
+| Economy and trade | EXPANDED / ESTABLISHED FRAMEWORK | Continental dependencies, local supply, agriculture, markets, merchants, guilds, contracts, credit, currency, and moneychanging are documented. Local Tallowmere rents, dues, guild rules, shops, and supply relationships have their own authoritative records; detailed prices and quantities remain selective. |
 | Ecology and wildlife | EXPANDED / PROPOSED | Tallowmere habitats are established; ordinary fauna and flora have substantial GM reference catalogues, but individual species occurrences and frequencies remain proposed unless confirmed in play or by GM decision. |
 | NPCs and factions | ESTABLISHED / EXPANDING | GM roleplaying dossiers and political/civic reference records exist. Some identity and continuity questions remain open. |
 | Medicine and healing | ESTABLISHED FRAMEWORK | Practical care, disease, injury, childbirth, animal care boundaries, temple healing, and Pathfinder magic are documented; specific local practitioners and outbreaks remain open. |
 | Law and justice | ESTABLISHED FRAMEWORK | Feudal law, Crown/Council authority, Tallowmere law, jurisdiction, crime, evidence, punishment, and enforcement are documented; regional procedures remain open. |
-| Military and warfare | ESTABLISHED FRAMEWORK | Crown and Great House force categories, command authority, vassal obligations, logistics, and unresolved force structures are documented without numerical totals. |
+| Military and warfare | EXPANDED / ESTABLISHED FRAMEWORK | Crown and Great House force categories, command authority, vassal obligations, logistics, recruitment, training, garrison life, campaigning, discipline, and veterans are documented without unsupported force totals or universal service rules. |
 | Travel and communication | ESTABLISHED FRAMEWORK | Major corridors, Tallowmere routes, transport modes, shipping, messengers, information delays, and cartographic safeguards are documented; surveyed times remain unresolved. |
 | Player-facing knowledge | ESTABLISHED BASELINE | Major settlements and fortresses are known; not every minor settlement is common knowledge. GM-only truths remain separated. |
 | GM Campaign Bible | CONSOLIDATION REQUIRED | Existing Bible is a starting reference, not yet the complete, deeply developed teaching/reference document desired. |
@@ -36,7 +36,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 - The opening campaign date: **1 Harvestfall, 243 AC**.
 - A player starting handout and a separate GM Tallowmere dossier.
 - NPC roleplaying dossiers with motivations, fears, contradictions, voice guidance, and continuity boundaries.
-- Regional culture records, everyday life, holidays, ordinary faith, proposed wildlife and flora catalogues, agriculture and food supply, medicine, law and justice, military institutions, education, literacy, and travel/communication references.
+- Regional culture records, everyday life, holidays, ordinary faith, proposed wildlife and flora catalogues, agriculture and food supply, medicine, law and justice, military institutions and soldier life, markets and commercial practice, currency and moneychanging, education, literacy, and travel/communication references.
 - A historical opening-state snapshot, WTR-001. It is retained as a dated reference only; it is not a recurring simulation system.
 
 ## 3. Session-specific dependencies
@@ -54,10 +54,11 @@ The wider setting work should not assume the PCs' future choices or build around
 ## 4. Current worldbuilding priorities
 
 1. Review the proposed Tallowmere fauna and flora catalogues and approve only the species and occurrences that should become setting canon. Keep frequency and distribution conservative.
-2. Add local ecological, agricultural, and commercial detail only where it creates useful differences between settlements or matters to play.
-3. Expand continental natural history by major geographic region when the party is likely to travel there; do not populate every biome simply to complete a catalogue.
-4. Resolve remaining high-value continuity issues and specific institutional details when they become relevant, without inventing universal rules for every region.
-5. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.
+2. Review the new continental commercial references against Tallowmere's specific guild, property, merchant, and shop records; preserve the distinction between local established practice and continental working guidance.
+3. Review the proposed Tallowmere fauna and flora catalogues and approve only the species and occurrences that should become setting canon. Keep frequency and distribution conservative.
+4. Expand continental natural history by major geographic region when the party is likely to travel there; do not populate every biome simply to complete a catalogue.
+5. Resolve remaining high-value continuity issues and specific institutional details when they become relevant, without inventing universal rules for every region.
+6. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.
 
 ## 5. Cartographic limits
 

@@ -276,3 +276,10 @@ These references distinguish continental working guidance from established local
 Added `campaign/creatures/River_Vale_and_Siltfen_Aquatic_Ecology.md` as a GM-only practical reference for the two connected but distinct working-water environments. It records established fishing, reed cutting, waterfowl gathering, Siltfen eels and frogs, overlapping wetland rights, river transport, flood and water hazards, food handling, and the occupational knowledge of people who work around water. Exact species, methods, prices, catch volumes, rights boundaries, and seasonal patterns remain unresolved or proposed. The wildlife catalogue, ecology baseline, creature index, GM Bible, and readiness priorities now point to the new reference.
 
 **Next work:** develop the ordinary food chain and household food supply beyond the water itself: how grain, livestock, dairy, fruit, fish, preserved food, market access, and seasonal labor shape meals and shortages in Tallowmere and its hinterland. Keep established local practice separate from general medieval working assumptions.
+
+
+## Current development checkpoint — 9 November 2026 (Tallowmere foodways)
+
+Added `campaign/world/Foodways_of_Tallowmere_and_the_Hinterland.md` to synthesize established local food production, trade, named food businesses, opening inventories, and household food patterns. It connects Millhaven grain and milling, Saltwick fresh and preserved fish, nearby farms and estates, Brackenholt fuel, and Tallowmere's bakeries, food stalls, taverns, inns, and provisioning trade. The record distinguishes documented menus and supply relationships from illustrative household patterns, and avoids creating new recipes, prices, shortages, or culinary customs as canon.
+
+**Next work:** examine ordinary health and household sanitation as people actually experience them: safe water, waste, food spoilage, childbirth, injury, common illness, access to healers, and the limits of mundane medicine. Existing medicine and disease records should be deepened rather than duplicated.

@@ -92,7 +92,7 @@ A lord's demesne may prioritize rents and market sales; tenant households may pr
 
 ## 4. Livestock and animal husbandry
 
-Livestock provide food, materials, labor, transport, wealth, and status. Established everyday-life and regional records support cattle, sheep, goats, pigs, horses, donkeys or mules, chickens, geese, and dogs as familiar domestic animals, with local variation.
+Livestock provide food, materials, labor, transport, wealth, and status. Established everyday-life and regional records support cattle, sheep, goats, pigs, horses, donkeys or mules, chickens, geese, and dogs as familiar domestic animals, with local variation. Their practical husbandry, care, feed, working roles, and economic value are developed in [Animal Husbandry and Working Animals](Animal_Husbandry_and_Working_Animals.md).
 
 ### Cattle
 

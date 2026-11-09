@@ -1,4 +1,4 @@
-# Tallowmere Region — Proposed Ordinary Wildlife and Natural History
+# Tallowmere Region — Ordinary Wildlife and Natural History
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** MIXED / GM reference; Deep Bracken ordinary fauna are established by the wilderness record, while other species and occurrences remain proposed  

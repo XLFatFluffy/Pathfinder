@@ -1,7 +1,7 @@
 # Tallowmere Region — Wildlife and Ecology Baseline
 
 **Status:** Habitat baseline established; species catalogue intentionally incomplete  
-**Last reviewed:** 2026-11-06  
+**Last reviewed:** 2026-11-09  
 **Geographic authority:** Regional Geography and Points of Interest
 
 ## 1. Purpose
@@ -45,6 +45,8 @@ Do not treat generic Pathfinder Bestiary entries as confirmed setting fauna. Add
 
 For ordinary background life, the GM may describe plausible common animals as low-impact scene dressing, but recurring or consequential species records should be marked PROPOSED until approved. Do not assign exact population sizes or regional frequency without evidence.
 
+The proposed [Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) develops ordinary animal candidates. The proposed [Flora and Foraging reference](Tallowmere_Flora_and_Foraging.md) develops plant life, gathering, useful materials, and household practices. Neither document independently confirms species occurrence or harvest rights.
+
 Suggested catalogue groups to develop when useful:
 - Farm and household animals.
 - Common woodland game and birds.
@@ -71,11 +73,14 @@ A creature encounter should leave evidence appropriate to the creature and circu
 - [Creature Registry](../creatures/Creature_Registry.md)
 - [Regional Occurrence Template](../creatures/Regional_Occurrence_Template.md)
 - [Troll dossier](../creatures/Troll.md)
+- [Regional Wildlife Catalogue](../creatures/Regional_Wildlife_Catalogue.md)
+- [Flora and Foraging](../creatures/Tallowmere_Flora_and_Foraging.md)
 
 ## 7. Open work
 
 - Approve a modest catalogue of ordinary wildlife by habitat.
 - Establish fishing and river food resources where relevant to play.
 - Define seasonal changes and migration only where useful.
+- Record useful plant species and gathering customs only when approved or observed.
 - Add dangerous species based on campaign tone, terrain, and actual play.
 - Keep all supernatural origins and unexplained phenomena unresolved until supported by campaign decisions.

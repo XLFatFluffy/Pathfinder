@@ -718,3 +718,12 @@
 - Clarified that the nearby settlement list is not exhaustive and that familiarity with minor places depends on a character's background.
 - Removed legacy assumptions that the party consists of two level-five characters who already know one another. Party size, levels, relationships, starting resources, and opening circumstances now await confirmed character sheets and GM approval.
 - Kept GM-only history, rumor truth, hidden routes, private motives, and other secrets out of the player handout.
+
+
+## 9 November 2026 — Tallowmere shopkeeper and service NPC dossiers expanded
+
+- Expanded the NPC roleplaying collection with profiles for Della Rusk, Hadran Voss, Toman Brindle, Ressa Brindle, Veyra Dane, Pellik Sorn, Edrin Salk, Merra Venn, and Fenna Wale.
+- Expanded the existing entries for Edda Moss and Brother Halen to provide table-ready motivations, fears, social methods, voice cues, and clear role boundaries.
+- Updated the NPC continuity roster: regional figures with existing profiles are marked complete, Tessa Vale is no longer incorrectly listed as unfinished, and the duplicate Odran Pell roster row was removed.
+- Kept all new personality details as GM portrayal guidance, with provisional alignments or unspecified alignments where appropriate. No new family members, criminal ties, business stock, prices, or hidden histories were invented.
+- Updated the Open Questions Register to reflect completion of the currently named Tallowmere proprietor and recurring service-contact profiles. The Selwick wagon guards and proposed companion remain unfinalized.

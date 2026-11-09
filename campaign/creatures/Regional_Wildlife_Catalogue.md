@@ -1,18 +1,19 @@
 # Tallowmere Region — Proposed Ordinary Wildlife and Natural History
 
 **Snapshot:** 1 Harvestfall, 243 AC  
-**Status:** PROPOSED / GM reference; not yet a canon species register  
+**Status:** MIXED / GM reference; Deep Bracken ordinary fauna are established by the wilderness record, while other species and occurrences remain proposed  
 **Visibility:** GM-ONLY  
 **Geographic authority:** [Regional Geography, Routes, and Points of Interest](../locations/starting_city/Regional_Geography_and_Points_of_Interest.md)  
 **Ecological baseline:** [Tallowmere Regional Ecology](Tallowmere_Regional_Ecology.md)
 
-This catalogue develops plausible ordinary wildlife for the established Tallowmere landscape. It does **not** change the established habitat baseline or confirm that every listed species occurs locally. Entries are candidate natural-history details for GM approval. A species can be used as inconsequential background description without becoming a consequential canon fact; repeated appearances, economic importance, unusual behavior, or plot relevance should be recorded and approved.
+This catalogue develops ordinary wildlife for the established Tallowmere landscape. It does **not** confirm that every listed species occurs locally. One limited exception is already established in the wilderness record: deer, boar, foxes, badgers, and wolves are described as common animals in the Deep Bracken. That statement establishes their ordinary regional occurrence there, but does not establish population size, pack territories, attack frequency, or occurrence in every other habitat. All other unconfirmed species and occurrences remain candidates for GM approval. A species can be used as inconsequential background description without becoming a consequential canon fact; repeated appearances, economic importance, unusual behavior, or plot relevance should be recorded and approved.
 
 The region is not untouched wilderness. It is a productive, heavily used basin of farms, managed woodland, river traffic, quarries, shore settlements, and a walled city. Wildlife distribution should reflect that human footprint.
 
 ## 1. How to use this catalogue
 
-- **Candidate:** a plausible species or ecological relationship, not yet confirmed.
+- **Established Deep Bracken occurrence:** deer, boar, foxes, badgers, and wolves, as stated in the wilderness framework. This does not imply a measured abundance or distribution beyond that named habitat.
+- **Candidate:** a plausible species or ecological relationship, not yet confirmed elsewhere.
 - **Ordinary scene dressing:** low-impact description that does not establish a population, rare behavior, or plot fact.
 - **Canon occurrence:** requires direct observation in play, reliable documentation, or explicit GM approval.
 - **Frequency:** remains UNKNOWN until evidence supports COMMON, UNCOMMON, RARE, or SEASONAL.
@@ -137,8 +138,7 @@ The frontier environments are established in [Wilderness Beyond Tallowmere](../l
 
 The Deep Bracken continues beyond the managed Brackenwood. Older stands, denser cover, abandoned clearings, and fewer maintained paths allow wildlife to use larger and quieter territories.
 
-- **Deer, wild boar, foxes, and badgers** are the ordinary mammals already identified as plausible or common in the wider woodland framework. Their signs may be easier to find than the animals themselves.
-- **Wolves** are identified in the wilderness framework as common animals in the deeper woodland. They should be treated as wary predators with territory, prey needs, and reasons to avoid people, not as creatures that automatically attack every traveler.
+- **Deer, wild boar, foxes, badgers, and wolves are established as common Deep Bracken animals** by the wilderness framework. This is a regional occurrence statement, not a census. Their signs may be easier to find than the animals themselves. Wolves are wary predators with territory and prey needs; their presence does not mean they automatically attack travelers.
 - **Owls, hawks, ravens, woodpeckers, bats, and small woodland birds** remain plausible, with local variation by tree cover and disturbance.
 - **Mature-tree fungi, deadwood insects, and cavity-nesting animals** may be more evident in older stands than in regularly coppiced woodland.
 

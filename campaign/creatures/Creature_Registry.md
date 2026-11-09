@@ -144,6 +144,7 @@ These are the only entries registered in this first pass. The list is intentiona
 - **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; specialist behavior and tracking depend on background and skills.
 - **GM-only truth:** Exact species, population, range, herd structure, and seasonal movement remain unresolved.
 - **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+- **Last reviewed:** 2026-11-09, cross-checked against Deep Bracken Common Fauna.
 
 ### Wild boar
 
@@ -159,6 +160,7 @@ These are the only entries registered in this first pass. The list is intentiona
 - **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; hunting and tracking expertise depends on background and skills.
 - **GM-only truth:** Exact population, range, breeding sites, and seasonal movement remain unresolved.
 - **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+- **Last reviewed:** 2026-11-09, cross-checked against Deep Bracken Common Fauna.
 
 ### Fox
 
@@ -174,6 +176,7 @@ These are the only entries registered in this first pass. The list is intentiona
 - **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; detailed tracking depends on background and skills.
 - **GM-only truth:** Exact population, den sites, range, and seasonal movement remain unresolved.
 - **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+- **Last reviewed:** 2026-11-09, cross-checked against Deep Bracken Common Fauna.
 
 ### Badger
 
@@ -189,6 +192,7 @@ These are the only entries registered in this first pass. The list is intentiona
 - **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; field signs require relevant experience.
 - **GM-only truth:** Exact population, sett distribution, range, and seasonal behavior remain unresolved.
 - **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+- **Last reviewed:** 2026-11-09, cross-checked against Deep Bracken Common Fauna.
 
 ### Wolf
 
@@ -226,3 +230,4 @@ Do not create or publish player-facing entries merely because a creature exists 
 - After Session One, update the troll entry with what actually happened; do not assume the planned encounter occurred as written.
 - Build regional ecology from observed and documented evidence, not from generic fantasy expectations.
 - Keep dragon survival and vampirism origins unresolved until the campaign gives a reason to decide them.
+- **Last reviewed:** 2026-11-09, cross-checked against Deep Bracken Common Fauna.

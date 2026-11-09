@@ -510,3 +510,11 @@
 - Corrected the Canon Register's Collegium of the Nine Lamps entry and removed the contradiction that its name remained unresolved.
 - Marked the older 40-page `Campaign_Bible.md` as a legacy source archive, explicitly retired its world-simulator concept, and marked its old PC profiles as provisional.
 - Reframed Great House actor dossiers as legacy GM roleplaying references rather than simulation actors.
+
+
+## 2026-11-09 — Canon Register player sections and legacy simulator archive fixed
+
+- Replaced the remaining Canon Register entries that treated the earlier PC relationship and ambitions as established with provisional legacy status.
+- Clarified that Tallowmere and the campaign date are established while party composition, arrival circumstances, and the Selwick/troll opening await confirmation and approval.
+- Replaced the outdated unresolved Collegium name in the Canon Register with the established Collegium of the Nine Lamps.
+- Removed the retired simulator procedure from the old Campaign Bible section, retaining only an archive notice; marked the old PC profiles and starting-point assumptions as provisional.

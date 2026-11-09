@@ -351,7 +351,8 @@ For full detail, consult:
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references.
-- `world_engine/` for actors, factions, issues, projects, information networks, and world turns.
+- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.
+- `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.
 
 **GM operating principle:** The world is larger than the PCs, but it is not a machine for punishing them. It should respond intelligently, proportionately, and consistently to what they do, what they ignore, and how much time passes.

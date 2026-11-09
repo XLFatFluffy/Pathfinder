@@ -44,6 +44,8 @@ A Collegium archive or scholar might know that a manuscript exists without posse
 
 Great Houses employ wizards because the combination of rare learning, magical ability, and access to specialized services is strategically valuable. Employment may provide a stipend, residence, materials, library access, assistants, protection, and status. In return, the patron expects service, discretion, loyalty as defined by contract or relationship, and often control over research and finished work.
 
+Their commercial role is deliberately limited as well. A patron may commission selected magic items for sale or for favored external buyers, while controlling the volume and timing of production so the market is not flooded. Preserving scarcity protects the value, exclusivity, and strategic usefulness of finished items. This is not a single continent-wide conspiracy or licensing authority; each patron and maker acts according to their own interests.
+
 Established wizards can be very wealthy and socially influential. Their wealth is not simply a reward for casting spells; it reflects scarcity, years of learning, patronage, commissions, and the value of specialist services. Their position is still dependent on relationships and political circumstances. A dismissed, independent, or itinerant practitioner may have far less security.
 
 A wizard's knowledge may be a house asset. Research, spellbooks, notes, and commissioned items may be claimed by a patron under contract, inheritance, or household custom. The death, defection, or disappearance of a house wizard can therefore mean the loss of expertise that cannot quickly be replaced. Do not assume every house owns a wizard, every wizard is loyal, or every patron has equal access to arcane services.

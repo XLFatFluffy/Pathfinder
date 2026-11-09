@@ -477,7 +477,7 @@ For full detail, consult:
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
 - `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
 - `creatures/` for the Tallowmere habitat baseline, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.
-- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
+- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life, including [Foodways of Tallowmere and Its Hinterland](world/Foodways_of_Tallowmere_and_the_Hinterland.md).
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.
 

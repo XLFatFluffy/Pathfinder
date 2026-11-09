@@ -475,3 +475,12 @@
 - Updated `campaign/Worldbuilding_Readiness.md` to reflect the new agriculture, medicine, law, military, education, and travel/communication references and to focus remaining natural-history work on reviewing proposed Tallowmere species rather than creating unsupported populations.
 - Added navigation from the GM Campaign Bible to the new practical world references, including food supply, education, law, and everyday systems.
 - The GM Bible remains marked for substantial consolidation and expansion; these links do not represent the final printable edition.
+
+
+## 2026-11-09 — Previous PC concepts reclassified as provisional
+
+- Reclassified the earlier vampire/ratfolk shared-backstory draft and the House Relland merchant incident as provisional legacy PC material pending player confirmation.
+- Preserved the source records for continuity, but clarified that the incident, its named participants, concealment, and evidence trail are not current campaign facts unless the players confirm the concept.
+- Clarified that the prepared Selwick wagon/troll opening remains an option pending final character sheets and encounter review.
+- Updated the GM Campaign Bible's campaign-state section to prevent new worldbuilding from assuming unconfirmed PC ancestries, histories, secrets, relationships, or personal hooks.
+- No established Great House, regional geography, or independent minor-house identity was changed.

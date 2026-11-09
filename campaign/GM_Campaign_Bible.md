@@ -4,7 +4,7 @@
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Ruleset:** Pathfinder First Edition  
 **Status:** Consolidated GM reference; dedicated source records remain authoritative for detailed mechanics and canon.  
-**Prepared:** 6 November 2026
+**Last consolidated:** 9 November 2026
 
 > This is the working GM-facing guide to the campaign's current world. It consolidates the setting's operating assumptions and points to the detailed records. It does not replace those records. When a detail conflicts, apply the canon hierarchy below.
 
@@ -31,7 +31,7 @@ A later approved decision supersedes an earlier statement. The imported 40-page 
 
 ### Campaign premise
 
-The setting is an original fantasy world built around the political and dynastic framework of Westeros / *Game of Thrones*, using Pathfinder First Edition for its rules, gods, ancestries, classes, monsters, spells, and equipment. It is not Golarion and is not a direct copy of Westeros. Tallowmere is the campaign's starting city, not the entire setting. The campaign is intended to support noble politics, feudal obligations, personal ambitions, exploration, trade, military conflict, and a living world that responds to player choices.
+The setting is an original fantasy world built around the political and dynastic framework of Westeros / *Game of Thrones*, using Pathfinder First Edition for its rules, gods, ancestries, classes, monsters, spells, and equipment. It is not Golarion and is not a direct copy of Westeros. Tallowmere is the campaign's starting city, not the entire setting. The campaign is intended to support noble politics, feudal obligations, personal ambitions, exploration, trade, and military conflict in a responsive world whose changes and consequences are adjudicated through GM judgment rather than automated simulation.
 
 The central tone is grounded high-medieval fantasy. Supernatural horror and dangerous wilderness exist, but they support rather than replace the political and social campaign.
 
@@ -374,7 +374,7 @@ Status and wealth affect access to justice. Available remedies may include resti
 
 ### Medicine, education, and knowledge
 
-Practical medicine is provided through household care, midwives, barber-surgeons, physicians, herbalists, and religious charity. These roles are not interchangeable. Magic is not routine medical infrastructure; clergy are not automatically spellcasters, and a temple cannot be assumed to provide magical healing on demand. Specific local practitioners, endemic diseases, and outbreaks remain open unless recorded.
+Practical medicine is provided through household care, midwives, barber-surgeons, physicians, herbalists, and religious charity. These roles are not interchangeable. Magic is not routine medical infrastructure; clergy are not automatically spellcasters, and a temple cannot be assumed to provide magical healing on demand. Tallowmere's established care network is detailed in `locations/starting_city/Medical_Care_in_Tallowmere.md`; specific endemic diseases, outbreak histories, and local practitioners elsewhere remain open unless recorded.
 
 Literacy is valuable but not universal. Household instruction, apprenticeship, noble tutors, temple learning, commercial numeracy, military training, and specialist scholarship coexist. The Collegium of the Nine Lamps is an established independent scholarly network, not a single university. Its internal ranks, training, governing body, and geographic reach remain unresolved.
 
@@ -480,10 +480,11 @@ For full detail, consult:
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references, including `economy/Markets_Merchants_Guilds_and_Contracts.md` and `economy/Currency_Coinage_and_Moneychanging.md`.
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
-- `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
-- `creatures/` for the Tallowmere habitat baseline, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.
-- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life, including [Foodways of Tallowmere and Its Hinterland](world/Foodways_of_Tallowmere_and_the_Hinterland.md).
+- `world/` for everyday life and material culture, agriculture and food supply, medicine, education and literacy, law, travel, communication, and cross-regional practical systems. Key references include `world/Everyday_Life_and_Material_Culture.md`, `world/Education_Literacy_and_Knowledge.md`, `world/Medicine_Disease_and_Healing.md`, `world/Travel_Communication_and_Information.md`, and [Foodways of Tallowmere and Its Hinterland](world/Foodways_of_Tallowmere_and_the_Hinterland.md).
+- `creatures/` for the continental ecology baseline, Tallowmere habitat records, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.
+- `locations/starting_city/` for the full Tallowmere GM dossier and authoritative local records: government and council procedure; [Law in Practice and Local Justice](locations/starting_city/Law_in_Practice_and_Local_Justice.md); [Emergency Response and Civic Resilience](locations/starting_city/Emergency_Response_and_Civic_Resilience.md); [Public Life, Neighborhoods, and Entertainment](locations/starting_city/Public_Life_Neighborhoods_and_Entertainment.md); `Civic_Calendar_and_Seasonal_Routines.md`; `Streets_Landmarks_and_Routes.md`; `Regional_Geography_and_Points_of_Interest.md`; `Residential_Life_and_Housing.md`; `Workforce_and_Daily_Life.md`; `Shopkeepers_and_Stock.md`; `Medical_Care_in_Tallowmere.md`; `Water_Waste_and_Street_Cleanliness.md`; `Household_Comfort_Fuel_and_Winter_Preparation.md`; `Civic_NPCs.md`; and `Current_Situation_and_Rumors.md`.
+- `people/NPC_Roleplaying_Dossiers.md` for the expanded GM roleplaying cast, with suggested alignments and portrayal guidance distinguished from established canon.
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
-- `locations/starting_city/` for the full Tallowmere GM dossier and local references, including `Public_Life_Neighborhoods_and_Entertainment.md`.
+- `player_materials/Player_Starting_Handout.md` for the filtered player-facing introduction. It is a derivative of approved public knowledge, not a source of GM canon.
 
 **GM operating principle:** The world is larger than the PCs, but it is not a machine for punishing them. It should respond intelligently, proportionately, and consistently to what they do, what they ignore, and how much time passes.

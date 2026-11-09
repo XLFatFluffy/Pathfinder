@@ -764,3 +764,11 @@
 - Reconciled the Kharadorn summary: Dragonstone is the controlled stronghold, Khar-Dum is the ancestral homeland, and the central inland sea is a strategic sphere of influence rather than blanket sovereignty over every shore.
 - Updated the Bible's calendar summary to use the formal holiday names and include Tallowmere's established local civic observances.
 - The new chapter is a study-guide overview; detailed subject records remain authoritative and are linked for deeper reference.
+
+
+## 9 November 2026 — Obsydian and dragonglass distinction established
+
+- Added `campaign/magic/Obsydian_and_Dragonglass.md` to record the GM-established distinction: obsydian is ordinary black onyx; dragonglass is a separate material made by dragons; both possess necromantic properties.
+- Clarified that the materials are not interchangeable and have no automatic spell effect. Specific necromantic applications, dragonglass production, sources, and market values remain unresolved.
+- Integrated the reference into the Magic index, Magic Items and Enchantment, GM Campaign Bible, Names and Terminology Index, Open Questions Register, and Worldbuilding Readiness.
+- Kept any particular character's quantity or value of obsydian as a character-specific equipment decision, not a universal market price or starting allocation.

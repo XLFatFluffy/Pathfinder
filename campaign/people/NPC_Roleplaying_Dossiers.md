@@ -246,7 +246,7 @@ Odran is the same person named as Elira Pell's father and senior partner in the 
 - **Voice:** Controlled, dignified, careful with names.
 - **Sample:** “I will not condemn a household on rumor. Nor will I ask you to forget evidence.”
 - **Move her with:** Credible testimony, documentary proof, and a path to accountability that does not presume guilt beyond evidence.
-- **Important secret boundary:** She did not personally order the murders as established canon. Do not make her omniscient about the ratfolk PC's survival.
+- **Important secret boundary:** Under the provisional incident draft, she did not personally order the murders. Do not treat the incident, its survivor, or her knowledge of it as current campaign fact until the players confirm the attached backstory.
 - **Avoid:** Making the whole house uniformly guilty or innocent.
 
 ## Ser Corren Relland

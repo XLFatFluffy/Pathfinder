@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | TLM-HLD-001 | Tallowmere and modest surrounding lordship | House Denvor, Lord Oswin | Hereditary charter confirmed by House Kharadorn; tribute, harbor defense, and lawful transport/supply obligations | Established authority; exact perimeter unresolved |
 | TLM-HLD-002 | Millhaven | House Denvor; local reeve Harlan Tebb | Within Denvor lordship | Established; village limits not surveyed |
-| TLM-HLD-003 | Brackenholt and customary woodland rights | House Denvor oversight; customary rights among households | Within Denvor lordship; no single village reeve commands all burners | Established; individual cutting boundaries unresolved |
+| TLM-HLD-003 | Brackenholt and customary woodland rights | House Denvor oversight; customary rights among households | Within Denvor lordship; no single village reeve commands all burners | Established for managed Brackenwood; individual cutting boundaries and any extension into Deep Bracken unresolved |
 | TLM-HLD-004 | Stonehollow quarry rights | Several local family partnerships under Denvor charter | Extraction rights and dues set by charter; appeals to Denvor lordship court | Established; quarry boundaries and individual family shares unresolved |
 | TLM-HLD-005 | Ashcombe Manor | House Avenholt, Lady Ysabet; heir Ser Corvin | Minor house holding land under House Denvor; customary dues and military service | Established vassal holding; estate boundary not surveyed |
 | TLM-HLD-006 | Fordmere crossing | House Merewick, Sir Davren | Separate hereditary crossing charter recognized within Kharadorn's wider sphere; not a Denvor possession | Established charter; exact scope and outer boundary unresolved |

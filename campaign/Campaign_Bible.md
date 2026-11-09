@@ -1328,7 +1328,9 @@ The world should reward curiosity, initiative, alliances, ambition, caution, and
 **RETIRED — DO NOT USE.** The former simulator proposal, random event generation, automatic world-turn procedures, and related implementation ideas are no longer part of campaign scope. The GM determines all developments and consequences. This section is retained only as a historical marker; current campaign practice is described in `GM_Campaign_Bible.md` and the legacy records under `world_engine/`.
 
 19. PROVISIONAL LEGACY PLAYER CHARACTER AND STARTING-POINT DRAFT
-**PROVISIONAL LEGACY DRAFT — the players are revising their concepts.** The following old starting-point and character material is retained for source history only. Do not treat its party size, level, ancestries, relationships, or personal histories as current until confirmed.\n\nThe earlier draft described two player characters.
+**PROVISIONAL LEGACY DRAFT — the players are revising their concepts.** The following old starting-point and character material is retained for source history only. Do not treat its party size, level, ancestries, relationships, or personal histories as current until confirmed.
+
+The earlier draft described two player characters.
 
 Both begin at level 5.
 
@@ -1622,7 +1624,7 @@ Campaign
    ·   The second player character is a male ratfolk alchemist raised by the vampire.
    ·   The ratfolk character's mother died after asking the vampire to care for her infant son.
    ·   The circumstances surrounding the mother's death and the battlefield remain undefined.
-   ·   The World Simulator is intended to operate locally and offline.
+   ·   The earlier simulator proposal was intended to operate locally and offline; this requirement is retired and has no current implementation scope.
    ·   The Game Master retains authority over whether generated events become canon.
    ·   The GM's master atlas and undiscovered information remain private.
 
@@ -1706,7 +1708,7 @@ Campaign Development
   ·   Criminal organizations.
   ·   Local economy.
   ·   Regional conflicts.
-  ·   World Simulator implementation.
+  ·   Retired world-simulator implementation concept; archive only.
 
 
 END OF MASTER EDITION

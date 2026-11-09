@@ -561,3 +561,11 @@
 - Kept all new species and plant distributions PROPOSED. Possible Pathfinder threats in the wilderness reference remain distinct from ordinary fauna and confirmed populations.
 - Corrected the wildlife catalogue's section numbering after inserting the frontier material.
 - No species frequency, exact occurrence, migration, lair, harvesting right, or magical ingredient was established.
+
+
+## 2026-11-09 — Deep Bracken wildlife status reconciled
+
+- Reconciled the wildlife catalogue with `campaign/locations/starting_city/Wilderness_Beyond_Tallowmere.md`, which explicitly describes deer, boar, foxes, badgers, and wolves as common animals in the Deep Bracken.
+- Marked those five ordinary fauna as established occurrences in that named habitat only. No population size, pack territory, attack frequency, or distribution elsewhere was inferred.
+- Clarified the Tallowmere ecology baseline, creature index, and GM Campaign Bible so the mixed status is visible and the remaining species candidates stay proposed.
+- Kept possible Pathfinder threats, lairs, and supernatural ecology unconfirmed.

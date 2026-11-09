@@ -51,7 +51,7 @@ Millhaven is one of the principal grain collection points supplying Tallowmere. 
 **Approximate distance:** 14 miles west of Tallowmere, beyond the lower river farms  
 **Authority:** Denvor lordship, with customary woodland rights shared among several households
 
-Brackenholt supplies charcoal, firewood, poles, and rough timber. Its people work in scattered clearings and small clusters of homes rather than one dense village center.
+Brackenholt supplies charcoal, firewood, poles, and rough timber from the managed Brackenwood and its customary work areas. Its people work in scattered clearings and small clusters of homes rather than one dense village center. The Deep Bracken lies beyond the managed woodland: occasional charcoal camps and limited production are recorded there, but do not assume they provide the regular city supply or that Brackenholt's customary rights extend into the outer forest.
 
 **Economy**
 - Charcoal burning and firewood.

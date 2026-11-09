@@ -201,22 +201,19 @@ Possible consequences:
 - loss of commercial confidence;
 - factional influence.
 
-## 7. Economic event propagation
+## 7. Understanding economic disruption
 
-When an economic event occurs, evaluate it in this order:
+Economic relationships do not produce automatic outcomes. When a shortage, transport problem, price dispute, or loss of production becomes relevant to play, the GM should consider the specific circumstances:
 
-1. What production changed?
-2. What transport route is affected?
-3. What market receives less supply?
-4. What reserves exist?
-5. Who can substitute another supplier?
-6. Who gains from the shortage?
-7. Who loses revenue?
-8. Who has political leverage?
-9. What response is attempted?
-10. What secondary consequence follows?
+- Which producers and households are directly affected?
+- What goods are actually missing, delayed, damaged, or more expensive?
+- Which roads, rivers, ports, mills, or markets are involved?
+- What stores, credit, substitute suppliers, or alternative routes are available?
+- Who has the means to absorb the loss, and who cannot?
+- Which rights, contracts, customs, or political interests complicate a response?
+- What would the people involved reasonably know, attempt, and risk?
 
-This prevents the Living World Engine from treating economics as a random price generator.
+A delayed barge, a poor harvest on one estate, and a prolonged interruption of a major trade corridor are different problems. Their consequences depend on duration, scale, alternatives, and the choices of affected people. Use these relationships as context for GM judgment, not as a prescribed event chain.
 
 ## 8. Economic actors
 
@@ -283,11 +280,9 @@ Tallowmere's local disputes can therefore produce wider effects when they disrup
 
 ## 11. Economic reference limits
 
-Do not assign precise production quantities, continental prices, or tax totals without an established source.
+Do not assign precise production quantities, continental prices, tax totals, or market volumes without an established source. Existing records describe broad strengths, dependencies, routes, and rights. They do not constitute a complete census of production or a numerical economic model.
 
-The engine should track **relative pressure and dependency** first.
-
-Numerical economic modeling can be added later if play demonstrates that it is useful.
+When a specific price or quantity matters at the table, establish it for the relevant place, date, quality, and circumstances. Avoid presenting a local estimate as a universal continental rate.
 
 ## 12. Current baseline
 

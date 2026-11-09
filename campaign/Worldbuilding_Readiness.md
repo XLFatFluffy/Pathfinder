@@ -19,7 +19,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 | Cultures and ordinary life | EXPANDED / ONGOING | Regional cultural dossiers, everyday life, holidays, education, literacy, and knowledge access are documented; deeper local distinctions remain elective. |
 | Religion | ESTABLISHED FRAMEWORK | Pathfinder gods are real. Regional institutions and ordinary religious life are documented; divine magic's precise mechanism remains unresolved. |
 | Economy and trade | EXPANDED / ESTABLISHED FRAMEWORK | Continental dependencies, local supply, agriculture, markets, merchants, guilds, contracts, credit, currency, and moneychanging are documented. Local Tallowmere rents, dues, guild rules, shops, and supply relationships have their own authoritative records; detailed prices and quantities remain selective. |
-| Ecology and wildlife | EXPANDED / PROPOSED | Continental environmental tendencies and Tallowmere/frontier habitats are documented. Tallowmere fauna and flora catalogues remain proposals; individual species occurrences and frequencies require evidence or GM approval. |
+| Ecology and wildlife | EXPANDED / MIXED | Continental environmental tendencies and Tallowmere/frontier habitats are documented. Deer, boar, foxes, badgers, and wolves are established as common Deep Bracken fauna; other Tallowmere wildlife and flora candidates remain proposed unless separately approved or observed. |
 | NPCs and factions | ESTABLISHED / EXPANDING | GM roleplaying dossiers and political/civic reference records exist. Some identity and continuity questions remain open. |
 | Medicine and healing | ESTABLISHED FRAMEWORK | Practical care, disease, injury, childbirth, animal care boundaries, temple healing, and Pathfinder magic are documented; specific local practitioners and outbreaks remain open. |
 | Law and justice | ESTABLISHED FRAMEWORK | Feudal law, Crown/Council authority, Tallowmere law, jurisdiction, crime, evidence, punishment, and enforcement are documented; regional procedures remain open. |
@@ -53,7 +53,7 @@ The wider setting work should not assume the PCs' future choices or build around
 
 ## 4. Current worldbuilding priorities
 
-1. Review the proposed Tallowmere fauna and flora catalogues and approve only species and occurrences that should become setting canon. Keep frequency and distribution conservative.
+1. Continue reviewing Tallowmere fauna and flora candidates by habitat. The five common Deep Bracken animals are already established; approve other species and occurrences only when they add meaningful play value. Keep frequency and distribution conservative.
 2. Use the new continental ecology framework as a guide when distant regions become relevant; develop specific species and habitats only where they add meaningful play value.
 3. Review high-value continuity issues and institutional details when relevant, without inventing universal rules for every region.
 4. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.

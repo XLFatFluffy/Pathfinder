@@ -350,7 +350,7 @@ The continent is primarily agricultural, feudal, maritime, and regional. Grain, 
 
 Tallowmere is a regional port and River Vale trade hub, not a continent-scale breadbasket. Millhaven and the Northfields collect grain, flour, oats, and seasonal legumes. Nearby estates provide livestock, dairy, and orchard produce. Saltwick supplies fish; Brackenholt supplies charcoal, firewood, poles, and timber; Stonehollow supplies ordinary building stone. River and coastal shipping connect these producers to wider markets.
 
-A poor harvest does not automatically create famine. Stores, imports, credit, alternative foods, transport, and political decisions shape the outcome. Exact crop varieties, yields, prices, tax totals, and market volumes remain selective and should be established only when relevant. See `world/Agriculture_Food_and_Seasonal_Work.md`, `economy/Continental_Economic_Network.md`, and `economy/Markets_Merchants_Guilds_and_Contracts.md` for how trade, contracts, markets, and commercial influence work.
+A poor harvest does not automatically create famine. Stores, imports, credit, alternative foods, transport, and political decisions shape the outcome. Exact crop varieties, yields, prices, tax totals, and market volumes remain selective and should be established only when relevant. See `world/Agriculture_Food_and_Seasonal_Work.md`, `economy/Continental_Economic_Network.md`,  `economy/Markets_Merchants_Guilds_and_Contracts.md` for how trade, contracts, markets, and commercial influence work, and `economy/Currency_Coinage_and_Moneychanging.md` for the campaign's currency baseline and practical money use.
 
 ### Military institutions and warfare
 
@@ -473,7 +473,7 @@ For full detail, consult:
 - `politics/House_Rulers.md`, `politics/Court_and_Council.md`, `politics/Imperial_Governance_Operating_Framework.md`, `politics/Feudal_Law_and_Landed_Obligations.md`.
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
-- `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references, including `economy/Markets_Merchants_Guilds_and_Contracts.md`.
+- `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references, including `economy/Markets_Merchants_Guilds_and_Contracts.md` and `economy/Currency_Coinage_and_Moneychanging.md`.
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
 - `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
 - `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.

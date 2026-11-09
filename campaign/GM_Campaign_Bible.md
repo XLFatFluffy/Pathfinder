@@ -252,7 +252,7 @@ The approved words are canon. Use the dedicated Great House records for heraldry
 - **Seat:** Tidemark.
 - **Agenda:** Protect maritime trade, ports, and commercial independence.
 - **Internal tension:** Corvin favors naval strength and secure routes; Selene prioritizes commercial power; Aeric believes merchant families have too much influence.
-- **Constraint:** Merrowen's interests overlap with Vaelorian commerce but conflict with Kharadorn's control of inland-sea navigation. No blockade or imminent war is established.
+- **Constraint:** Merrowen's interests overlap with Vaelorian commerce but conflict with Kharadorn's strategic influence over key inland-sea routes and positions. No blockade or imminent war is established.
 
 ### Established inter-house relationship baseline
 

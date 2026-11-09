@@ -297,3 +297,10 @@ Added `campaign/locations/starting_city/Medical_Care_in_Tallowmere.md` to connec
 Added `campaign/locations/starting_city/Water_Waste_and_Street_Cleanliness.md` as a city-specific reference to public wells and pumps, the Old Cistern, privies, drains, refuse arrangements, district differences, flood and dry-period pressures, household practices, and likely civic disputes. It distinguishes established infrastructure from plausible daily practices and unresolved municipal responsibilities. No sewer network, citywide refuse service, public-health department, contamination event, or disease outbreak was invented.
 
 **Next work:** review the local civic and household records for contradictions around public services, maintenance obligations, and district responsibilities. Then develop the ordinary seasonal experience of Tallowmere's households beyond food supply: fuel, heating, lighting, clothing repair, and winter preparation.
+
+
+## Current development checkpoint — 9 November 2026 (household comfort and winter preparation)
+
+Added `campaign/locations/starting_city/Household_Comfort_Fuel_and_Winter_Preparation.md` to explain how fuel, heating, lighting, clothing, laundry, repair, and seasonal preparation affect Tallowmere households. Grounded local supply in Brackenholt's established firewood and charcoal trade, the existing Blue Heron laundry service, and listed shop inventories. Kept household practices as portrayal guidance and left exact fuel prices, consumption, local textile customs, specialist rosters, and winter weather unresolved.
+
+**Next work:** deepen Tallowmere's social life and public spaces: how people gather outside work, where news travels, how children and elders use streets, and how class, ancestry, faith, and neighborhood ties shape belonging. Use existing taverns, shrines, markets, and households rather than inventing an entirely new entertainment district.

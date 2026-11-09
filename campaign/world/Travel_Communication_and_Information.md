@@ -5,7 +5,7 @@
 **Visibility:** GM-ONLY  
 **Related records:** [Continental Economic Network](../economy/Continental_Economic_Network.md), [Agriculture, Food Supply, and Seasonal Work](Agriculture_Food_and_Seasonal_Work.md), [Education, Literacy, and Knowledge](Education_Literacy_and_Knowledge.md), [Tallowmere Regional Geography](../locations/starting_city/Regional_Geography_and_Points_of_Interest.md), [Tallowmere Settlements and Landholders](../locations/starting_city/Regional_Settlements_and_Landholders.md)
 
-Travel and communication determine how people experience distance, authority, trade, danger, and news. A royal decree may be clear in Valedorn and arrive weeks later in a distant settlement. A merchant may know that a ship is overdue before a noble receives an official report. A road may exist without being safe, maintained, or equally useful to every traveler.
+Travel and communication determine how people experience distance, authority, trade, danger, and news. Regional weather tendencies and their practical effects are summarized in [Weather, Climate, and Seasonal Hazards](Weather_Climate_and_Seasonal_Hazards.md). A royal decree may be clear in Valedorn and arrive weeks later in a distant settlement. A merchant may know that a ship is overdue before a noble receives an official report. A road may exist without being safe, maintained, or equally useful to every traveler.
 
 The setting uses high-medieval transport and communication. Roads, rivers, ships, horses, carts, messengers, merchants, temples, and personal networks carry people and information. There is no instantaneous communication network or universal postal service established.
 

@@ -809,3 +809,9 @@
 - Clarified that major settlements and fortresses are broadly known, while minor settlements, private holdings, local routes, and specialist details depend on character background and experience.
 - Reaffirmed that ancestry alone does not grant complete cultural knowledge and that ordinary facts do not require unnecessary skill checks.
 - Clarified that the player handout is a filtered derivative of public knowledge, not a source of GM canon.
+
+
+## 9 November 2026 — Player-knowledge readiness status
+
+- Added a readiness entry for the established player-knowledge baseline: major settlements and fortresses are broadly known, while minor settlements, private holdings, local routes, and specialist information depend on character background.
+- Confirmed that the player starting handout is a filtered derivative of GM canon.

@@ -69,6 +69,8 @@ Brackenholt supplies charcoal, firewood, poles, and rough timber from the manage
 
 **Local authority:** No single village reeve commands all the burners. A Denvor forester records cutting rights and reports serious disputes; household elders and work crews settle many ordinary matters themselves.
 
+The **Brackenwood Charcoal Fellowship** represents several working families. Mara Bellwood is its elected spokesman. The Fellowship seeks to preserve customary woodland access, predictable cutting limits, fair charcoal prices, and protection against outside buyers monopolizing local production. It does not own the woodland as a unified body, replace Denvor oversight, or speak for every household with customary rights.
+
 For a practical GM guide to charcoal production, woodland labor, customary access, the Burners' Green, and the Brackenwood/Deep Bracken distinction, see [Brackenholt: Woodland Work, Charcoal, and Customary Rights](Brackenholt_Woodland_Work_and_Charcoal.md).
 
 ### Stonehollow

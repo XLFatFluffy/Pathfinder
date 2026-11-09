@@ -386,11 +386,11 @@ See `world/Travel_Communication_and_Information.md` and the relevant regional ge
 
 ### Natural world
 
-Tallowmere's established habitats include the Northfields, Brackenwood, River Vale and tributaries, Greyback Ridges, Eastern Shore, Siltfen, and settled outskirts. These are working landscapes shaped by farms, mills, woodland management, quarrying, fishing, roads, and human settlement.
+Tallowmere's established habitats extend from the settled Northfields, Brackenwood, River Vale, Greyback Ridges, Eastern Shore, Siltfen, and city outskirts into the less continuously worked frontier environments of the Deep Bracken, Upper Vale, Greyback Heights, and Outer Eastern Shore. The Siltfen is a defined wetland region, not simply a generic marsh. The frontier belt includes old woodland, headwaters, broken uplands, wetlands, and exposed coast. These are working and traveled landscapes, but protection, infrastructure, and reliable local knowledge diminish farther from the settled hinterland.
 
-The regional wildlife and flora catalogues are substantial GM references but remain proposed species lists. Do not treat every candidate animal or plant as a confirmed local occurrence, assign exact abundance, or create a monster population from a single plausible habitat. No unique magical plant or supernatural ecology is established by the botanical catalogue.
+The regional wildlife and flora catalogues are substantial GM references but remain proposed species lists. The separate wilderness framework includes possible Pathfinder threats and ordinary resource opportunities; its lists do not establish every creature as a confirmed local population or place a lair at any specific site. Do not assign exact abundance, invent migrations, or create a monster population from a plausible habitat alone. No unique magical plant or supernatural ecology is established by the botanical catalogue.
 
-See `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, and `creatures/Tallowmere_Flora_and_Fungi.md`.
+See `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, `creatures/Tallowmere_Flora_and_Fungi.md`, and `locations/starting_city/Wilderness_Beyond_Tallowmere.md`.
 
 ## 10. Running a responsive world through GM judgment
 

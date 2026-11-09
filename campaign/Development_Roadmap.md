@@ -257,3 +257,15 @@ The core setting, starting region, political actors, first minor-house network, 
 ## Current development direction — 9 November 2026
 
 The active work is to deepen the world as a place the GM can understand and portray without relying on automated procedures. Priorities include ordinary ecology and useful plants, economy and trade in daily life, medicine and disease, law and justice, military life, education and literacy, regional customs, and layered history. Expand only where it improves immersion, supports plausible GM decisions, or creates useful material for play. Do not invent filler or force every category to completion.
+
+## Current development checkpoint — 9 November 2026 (continued)
+
+The following practical world references have now been added or expanded:
+
+- `campaign/military/Soldier_Life_and_Military_Service.md` — recruitment, training, garrison routines, equipment, service obligations, discipline, campaigning, wounds, and veterans.
+- `campaign/economy/Markets_Merchants_Guilds_and_Contracts.md` — commercial roles, market practice, guilds, quality, contracts, credit, transport risk, port operations, fraud, and commercial influence.
+- `campaign/economy/Currency_Coinage_and_Moneychanging.md` — Pathfinder First Edition currency baseline, everyday cash use, large payments, moneychanging, credit, and monetary disputes.
+
+These references distinguish continental working guidance from established local practice. Tallowmere's named guilds, dues, commercial rents, shop prices, and merchant relationships remain governed by their specific city records. No universal guild code, tariff, price schedule, regional mint, or monetary reform was created.
+
+**Next work:** review proposed Tallowmere wildlife and flora occurrences against the region's established geography and human use; then deepen continental natural history only where it adds meaningful ecological or cultural differences. Continue the GM Campaign Bible consolidation after subject references are stable enough to teach from.

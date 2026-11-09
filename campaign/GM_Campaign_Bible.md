@@ -483,6 +483,6 @@ For full detail, consult:
 - `creatures/` for the Tallowmere habitat baseline, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.
 - `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life, including [Foodways of Tallowmere and Its Hinterland](world/Foodways_of_Tallowmere_and_the_Hinterland.md).
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
-- `locations/starting_city/` for the full Tallowmere GM dossier.
+- `locations/starting_city/` for the full Tallowmere GM dossier and local references, including `Public_Life_Neighborhoods_and_Entertainment.md`.
 
 **GM operating principle:** The world is larger than the PCs, but it is not a machine for punishing them. It should respond intelligently, proportionately, and consistently to what they do, what they ignore, and how much time passes.

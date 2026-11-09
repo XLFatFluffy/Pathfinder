@@ -22,7 +22,7 @@ Do not add templates, class levels, special abilities, altered regeneration, or 
 
 - The troll is a planned opening-session threat associated with a damaged merchant wagon belonging to Selwick & Company.
 - The encounter is provisional until the GM has reviewed both completed player-character sheets and the proposed companion's final statistics.
-- The party consists of two level-five PCs, with a proposed companion whose final build remains subject to approval. A standard CR 5 troll can still be dangerous for a small party; assess the actual characters and available support before play.
+- Earlier preparation assumed two level-five PCs and a companion. That party model is superseded and must not be treated as current. Party size, levels, companion, route, and whether this troll is used remain undecided until final character materials and GM approval. Assess the standard CR 5 troll against the actual group if the encounter is selected.
 - The encounter should communicate the regeneration mechanic through observable clues or consequences rather than relying on players already knowing the creature's statistics.
 - Fire and acid should be discoverable or obtainable through the scene if the encounter is expected to be resolved through combat. Do not assume the PCs carry either.
 - The PCs are not required to kill the troll. Protecting the wagon crew, preserving cargo, retreating, negotiating, or using the environment may all matter to the outcome.

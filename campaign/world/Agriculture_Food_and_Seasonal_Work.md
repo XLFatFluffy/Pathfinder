@@ -3,7 +3,7 @@
 **Status:** GM reference; established economic dependencies with regional practices partly provisional  
 **Baseline:** 1 Harvestfall, 243 AC  
 **Visibility:** GM-ONLY  
-**Related records:** [Everyday Life and Material Culture](Everyday_Life_and_Material_Culture.md), [Continental Economic Network](../economy/Continental_Economic_Network.md), [Tallowmere Regional Settlements](../locations/starting_city/Regional_Settlements_and_Landholders.md), [Tallowmere Flora and Fungi](../creatures/Tallowmere_Flora_and_Fungi.md)
+**Related records:** [Everyday Life and Material Culture](Everyday_Life_and_Material_Culture.md), [Foodways of Tallowmere and Its Hinterland](Foodways_of_Tallowmere_and_the_Hinterland.md), [Continental Economic Network](../economy/Continental_Economic_Network.md), [Tallowmere Regional Settlements](../locations/starting_city/Regional_Settlements_and_Landholders.md), [Tallowmere Flora and Fungi](../creatures/Tallowmere_Flora_and_Fungi.md)
 
 This record explains how food is produced, moved, stored, and consumed across the setting. It is a practical guide for portraying farms, estates, markets, harvest work, and the consequences of weather or disrupted trade. It is not an automated calendar, crop simulator, or fixed schedule of seasonal events.
 

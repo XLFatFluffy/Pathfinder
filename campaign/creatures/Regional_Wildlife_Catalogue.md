@@ -199,7 +199,7 @@ The calendar's month names and seasonal framework are established elsewhere. The
 
 Do not create a rigid migration timetable unless a particular species becomes important. Weather, local land use, and food availability should matter more than a universal month-by-month chart.
 
-## 9. Tracks, signs, and field knowledge
+## 10. Tracks, signs, and field knowledge
 
 Ordinary people do not need formal natural philosophy to recognize useful signs. Farmers, foresters, hunters, fishers, shepherds, and carters build practical knowledge through repeated work.
 
@@ -213,7 +213,7 @@ Useful sensory clues include:
 
 A skilled local can often identify the likely animal but may still misjudge its size, number, age, or intent. A frightened witness is not a field guide.
 
-## 10. Predation, carrion, and ecological balance
+## 11. Predation, carrion, and ecological balance
 
 The candidate fauna suggests ordinary food webs rather than a wilderness full of apex predators:
 
@@ -226,7 +226,7 @@ The candidate fauna suggests ordinary food webs rather than a wilderness full of
 
 These relationships are plausible ecological guidance, not confirmed local population data. Avoid claiming that the disappearance of one species will cause a specific regional crisis without evidence about numbers and dependencies.
 
-## 11. Folklore and practical belief
+## 12. Folklore and practical belief
 
 No specific Tallowmere animal folklore is canonized by this catalogue. When local beliefs are needed, build them from occupation and lived experience rather than generic fantasy omens. Examples that may be proposed for a particular NPC or community, but are not established setting facts:
 
@@ -238,7 +238,7 @@ No specific Tallowmere animal folklore is canonized by this catalogue. When loca
 
 Folk remedies should be treated as beliefs or practical care, not automatically as effective medicine. Do not give ordinary animals supernatural knowledge or powers without a separate canon decision.
 
-## 12. Disease, injury, and animal care
+## 13. Disease, injury, and animal care
 
 Animal husbandry is part of the region's economy. Common practical concerns include wounds, parasites, poor feed, hoof problems, birthing complications, spoiled fodder, infected bites, and animals weakened by hard work or winter. The exact diseases, veterinary knowledge, and treatment traditions remain to be developed.
 
@@ -246,7 +246,7 @@ Do not casually introduce a devastating livestock epidemic. Such an event would 
 
 Carcasses are not simply scenery. They attract scavengers, create odor, may contaminate water, and require removal or burial near settlements. Disposal practices vary by wealth, custom, and local authority.
 
-## 13. Supernatural boundary
+## 14. Supernatural boundary
 
 Ordinary wildlife is not automatically a vehicle for supernatural clues. In particular:
 
@@ -257,7 +257,7 @@ Ordinary wildlife is not automatically a vehicle for supernatural clues. In part
 - The planned Session One troll encounter is a specific prepared event, not evidence of a local troll population.
 - No regional magical-beast population, undead ecology, dragon survival, or supernatural migration is established by this catalogue.
 
-## 14. Open decisions and future development
+## 15. Open decisions and future development
 
 The following should be decided only when they materially affect play:
 

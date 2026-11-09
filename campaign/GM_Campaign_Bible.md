@@ -334,7 +334,8 @@ Tallowmere's established habitats include the Northfields, Brackenwood, River Va
 The regional wildlife and flora catalogues are substantial GM references but remain proposed species lists. Do not treat every candidate animal or plant as a confirmed local occurrence, assign exact abundance, or create a monster population from a single plausible habitat. No unique magical plant or supernatural ecology is established by the botanical catalogue.
 
 See `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, and `creatures/Tallowmere_Flora_and_Fungi.md`.
-\n## 10. Running a responsive world through GM judgment
+
+## 10. Running a responsive world through GM judgment
 
 The setting exists independently of the player characters. People have duties, ambitions, fears, loyalties, families, work, and limited information. Events can continue while the PCs are elsewhere, but the GM decides what actually happens. There is no automated world simulator, required world-turn procedure, or universal schedule of consequences.
 
@@ -416,7 +417,9 @@ For full detail, consult:
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references.
-- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.\n- `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.\n- `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.
+- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.
+- `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
+- `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.
 - `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.

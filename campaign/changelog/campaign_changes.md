@@ -518,3 +518,9 @@
 - Clarified that Tallowmere and the campaign date are established while party composition, arrival circumstances, and the Selwick/troll opening await confirmation and approval.
 - Replaced the outdated unresolved Collegium name in the Canon Register with the established Collegium of the Nine Lamps.
 - Removed the retired simulator procedure from the old Campaign Bible section, retaining only an archive notice; marked the old PC profiles and starting-point assumptions as provisional.
+
+## 2026-11-09 — Soldier life and military service expanded
+
+- Added `campaign/military/Soldier_Life_and_Military_Service.md` as a GM reference for recruitment, training, garrison routines, equipment, food, service obligations, discipline, campaigning, wounds, veterans, and the human realities of armed service.
+- Kept force totals, pay scales, universal service terms, ranks, and local military procedures unresolved unless supported by existing records.
+- Linked the new reference from the military index. No new units, deployments, wars, or military obligations were established.

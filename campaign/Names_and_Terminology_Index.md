@@ -169,6 +169,20 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Shipwrights' Brotherhood | Craft association | ESTABLISHED | Shipwrights and specialist maritime crafts. |
 
 
+## Tallowmere — Streets, Crossings, and Civic Landmarks (2026-11-09)
+
+| Name / term | Category | Status | Notes |
+|---|---|---|---|
+| River Gate | City gate / controlled access | ESTABLISHED | River and western-bank access; distinct from the Rivergate district. |
+| River Steps | Public landing | ESTABLISHED | Stepped landing on the Rivergate waterfront; exact relation to the Ferry Steps crossing is unresolved. |
+| The Ferry Steps | Managed ferry crossing | ESTABLISHED | Local passenger and small-cargo crossing operated by The Ferryman's Steps. |
+| The Ferryman's Steps | Business / ferry operator | ESTABLISHED | Edrin Salk's local ferry and small-cargo punt business in Rivergate. |
+| Weighers' Court | Commercial court / public space | ESTABLISHED | Place for merchants to discuss measures and damaged goods before formal proceedings; not a court of law. |
+| The Weigh House | Civic/commercial landmark | ESTABLISHED | Stone building beside Weighers' Court containing public scales and measure standards. |
+| The Watch House | Civic landmark | ESTABLISHED | Principal Watch station near Market Street and North Gate road; contains short-term holding cells, not a long-term prison. |
+| The Denvor Granary | Storehouse | ESTABLISHED | Near the Rivergate approach; maintained under lordship oversight for public provisioning and charter obligations. |
+| The Old Cistern | Public water infrastructure | ESTABLISHED | Covered cistern in the older city; useful in dry periods and fires, not connected to every Underways water chamber. |
+
 ## Tallowmere — Regional and Current Situation (2026-11-04)
 
 | Name / term | Category | Status | Notes |
@@ -370,7 +384,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Sella Vane | Person | ESTABLISHED | Independent small-scale smuggler and boat owner. |
 | Othric Pell | Person | ESTABLISHED | Independent information broker. |
 | Dannel Rusk | Person | ESTABLISHED | Independent private debt enforcer. |
-| Civic Calendar and Seasonal Routines | Campaign reference | ESTABLISHED FRAMEWORK | Daily rhythms, seasonal trade, public notices, civic observances, and recurring routines; formal calendar remains unresolved. |
+| Civic Calendar and Seasonal Routines | Campaign reference | ESTABLISHED FRAMEWORK | Daily rhythms, seasonal trade, public notices, and Tallowmere observances; formal calendar is established, while local market frequency, bell patterns, gate hours, and observance dates remain open. |
 | Local Religion and Institutions | Campaign reference | ESTABLISHED | Tallowmere temples, clergy, local religious tensions, and limits of religious authority. |
 | Chartered Council and Civic Procedure | Campaign reference | ESTABLISHED | Seven-seat local council, appointments, quorum, petitions, and advisory procedure. |
 | Kharadorn Charter Presence | Campaign reference | ESTABLISHED | Charter House, resident Charter Warden, limited escort, and strategic review role. |

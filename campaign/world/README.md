@@ -1,0 +1,17 @@
+# World and Everyday Life Records
+
+This folder contains cross-regional references for ordinary life and the practical systems that make the setting function. These records describe the world beyond the decisions of the player characters; they are not automated simulation procedures.
+
+## Current references
+
+- [Everyday Life and Material Culture](Everyday_Life_and_Material_Culture.md) — household routines, food, preservation, childhood, marriage, death, medicine, work, money, communication, law, crime, sanitation, entertainment, class, and hospitality.
+- [Medicine, Disease, and Healing](Medicine_Disease_and_Healing.md) — practical care, physicians, midwives, barber-surgeons, herbalists, temples, injury, disease, sanitation, childbirth, disability, and supernatural healing boundaries.
+- [Agriculture, Food Supply, and Seasonal Work](Agriculture_Food_and_Seasonal_Work.md) — food production, agricultural labor, livestock, harvest, storage, milling, trade, food access, scarcity, and regional climate context.
+
+## Record principles
+
+- Separate established setting facts from working models and proposed detail.
+- Do not invent prices, yields, disease outbreaks, weather events, or regional practices merely to complete a section.
+- Local custom and geography matter. A continental overview does not override a specific settlement's records.
+- Preserve the distinction between ordinary practical knowledge, specialist knowledge, folklore, and supernatural truth.
+- Develop detail when it improves play, answers a real question, or makes a region meaningfully distinct.

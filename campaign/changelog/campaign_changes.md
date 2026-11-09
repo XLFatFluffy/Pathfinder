@@ -387,3 +387,14 @@
 - Added practical context for seasonal gathering, woodland rights, craft use, food, and the limits of folk medicine.
 - Kept all species and local uses provisional; no magical plants, definitive botanical distribution, crop yields, or medicinal cures were established.
 - Linked the new reference from the creature and natural-world folder index.
+
+
+## 2026-11-09 — Living World Engine retired and GM workflow clarified
+
+- Retired the former automated Living World Engine, world-turn cycle, simulation clocks, and procedural event advancement from campaign scope, per GM direction.
+- Replaced the engine section of `campaign/GM_Campaign_Bible.md` with a GM-judgment approach for handling NPC agency, player inaction, and extended downtime.
+- Replaced `campaign/Living_World_Engine.md` with a deprecation notice and pointers to useful preserved reference material.
+- Reclassified `campaign/world_engine/` as a legacy GM archive. Its political dossiers, minor houses, jurisdictions, factions, rumor records, information networks, and seasonal context remain available as descriptive references; ledgers are historical records, not live simulation databases.
+- Rewrote `campaign/Worldbuilding_Readiness.md` to reflect current campaign readiness, the dependency on final PC materials, and the actual worldbuilding priorities.
+- Updated the development roadmap, current world state, and campaign indexes to remove active simulation instructions.
+- WTR-001 remains a historical zero-time opening snapshot on 1 Harvestfall, 243 AC. No further automated world turns are planned or required. No lore, NPC, faction, or map assets were deleted.

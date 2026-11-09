@@ -99,11 +99,10 @@
 ## Phase F — Legacy world-state records (retired operating procedure)
 
 - Reconciled the Living World Engine with the completed political, economic, cultural, religious, historical, and minor-house frameworks.
-- Confirmed the actor, issue, project, holdings, event, and world-turn records as the authoritative simulation layer.
-- Confirmed the first world turn, **WTR-001**, as the approved zero-time opening snapshot on 1 Harvestfall, 243 AC. It does not advance the calendar.
-- Reconciled the world-turn ledger so WTR-001 is recorded as completed.
-- Established that future turns advance only when actual in-world time passes or the GM explicitly requests a simulation.
-- Preserved the rule that generated consequences are proposals until GM approval and that actors act from their own information and incentives.
+- Preserved the actor, issue, project, holdings, event, and turn records as descriptive GM references and historical provenance, not an active simulation layer.
+- Recorded WTR-001 as a zero-time historical opening snapshot on 1 Harvestfall, 243 AC. It does not advance the calendar and is not a recurring procedure.
+- The former future-turn and proposal/approval workflow is retired. The GM now determines developments and consequences directly through established lore, actual events, and judgment.
+- Actor motivations, information limits, projects, and local pressures remain useful descriptive context; they do not cause automatic action or escalation.
 
 **Phase F status:** ARCHIVED. WTR-001 remains a historical opening-state snapshot. No further automated turns are planned or required.
 
@@ -323,4 +322,6 @@ Completed the first GM Campaign Bible consolidation pass against the latest cult
 
 Retired remaining operational remnants in the legacy `world_engine/` archive. Preserved the minor-house and project descriptions, rumor truths, information channels, and WTR-001 dated opening snapshot, while removing future-turn procedures, obsolete PC-specific assumptions from the opening snapshot and actor references, and the unused report template. Corrected the archive README's malformed Markdown and clarified that statuses such as WATCH are descriptive, not automated clocks.
 
-**Next work:** continue the GM Campaign Bible consolidation through the political and historical chapters. Cross-check the Great House, Imperial Council, minor-house, succession, and historical summaries against their current subject records; preserve the Dragonstone/Khar-Dum distinction and avoid assigning unsurveyed borders, invented chronology, or PC-dependent hooks.
+Completed the political and historical Bible cross-check against `House_Rulers.md`, `Court_and_Council.md`, the Imperial Governance framework, the minor-house register, `World_History.md`, and the historical uncertainty register. The six Council representatives, Crown officers, court-faction leaders, and current Great House leadership align with the approved records. Corrected stale open-question wording that still described Council representatives as unresolved, and clarified that earlier Current World State notes were superseded by Stages 8 and 9.
+
+**Next work:** finish the GM Campaign Bible consolidation with a final audit of its GM-judgment guidance, calendar/timeline, open decisions, and authoritative reference index. Check that every major recent lore addition is reachable from the Bible and that unresolved questions remain genuinely unresolved rather than accidentally answered by summary wording.

@@ -120,7 +120,7 @@ These documented friction points may become active if new events or player actio
 
 ## Initial world-turn gate
 
-Before advancing the first world turn beyond 1 Harvestfall, 243 AC:
+Historical note: WTR-001 is a zero-time opening snapshot. The following material remains useful as a record of unresolved issues at campaign start; it does not direct a recurring turn procedure:
 1. Establish elapsed in-world time.
 2. Check whether any actor has taken a new action.
 3. Identify what each involved actor knows.

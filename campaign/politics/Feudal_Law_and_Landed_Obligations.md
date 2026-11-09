@@ -132,9 +132,9 @@ Independent cities and southern lordships may be governed by hereditary rulers, 
 
 A city council's authority comes from its charter and local acceptance. Do not assume a modern democratic system, universal suffrage, or a single standard for civic representation.
 
-## 11. World-engine application
+## 11. GM adjudication: changes in landholding
 
-When a PC or NPC acquires, loses, inherits, conquers, or is granted a holding, record:
+When a player character or NPC acquires, loses, inherits, conquers, or is granted a holding, consider the legal and practical circumstances:
 
 - The legal basis: inheritance, grant, purchase, marriage settlement, conquest, election, charter, or custom.
 - The prior holder and any heirs or claimants.
@@ -145,7 +145,7 @@ When a PC or NPC acquires, loses, inherits, conquers, or is granted a holding, r
 - The actors who benefit, lose, resist, or remain neutral.
 - The evidence available to each actor.
 
-A holding can change hands without every tenant changing allegiance. A title can be recognized while local officials refuse cooperation. A conqueror can control a castle while facing a legal, economic, or military struggle to govern its lands.
+A holding can change hands without every tenant changing allegiance. A title can be recognized while local officials refuse cooperation. A conqueror can control a castle while facing a legal, economic, or military struggle to govern its lands. The GM determines the actual response from the specific rights, evidence, people, and circumstances involved.
 
 ## 12. Open decisions for future play
 

@@ -188,7 +188,7 @@ Use the geographic and regional records for finer detail. Do not infer political
 |---|---|---|
 | Calderan | “By Right, We Remain.” | Human ruling dynasty; hereditary legitimacy, Crown administration, and the effort to strengthen royal authority without provoking a united opposition. |
 | Vaelorian | “Wealth Endures. Power Remembers.” | Elven commercial and financial dynasty; long memory, scholarship, mining, trade, credit, and careful political leverage. |
-| Kharadorn | “Stone Remembers. Blood Endures.” | Dwarven Great House and main branch of an enduring clan empire; engineering, heavy forces, metalwork, Dragonstone, and control of the Central Inland Sea. |
+| Kharadorn | “Stone Remembers. Blood Endures.” | Dwarven Great House and main branch of an enduring clan empire; engineering, heavy forces, metalwork, Dragonstone, and dominant strategic influence over the Central Inland Sea. |
 | Edarth | “Stand When Others Fall.” | Primarily human landed and martial dynasty; agricultural wealth, duty, traditional noble rights, experienced commanders, and vassal networks. |
 | Veyr | “Beyond the Wall, We Stand.” | Human northern dynasty; frontier defense, the Northern Watch, surviving portions of the Ancient Barrier, and dependence on southern supply. |
 | Merrowen | “All Roads Reach the Sea.” | Primarily human maritime dynasty; ports, shipping, naval tradition, coastal trade, and commercial independence. |
@@ -456,7 +456,7 @@ Years of downtime should be handled as a sequence of meaningful periods, not as 
 The following are durable political and economic conditions, not active crises or guaranteed future plots:
 
 - Crown authority versus Great House autonomy.
-- Kharadorn control of the Inland Sea versus Merrowen maritime interests.
+- Kharadorn's dominant strategic position in the Inland Sea versus Merrowen maritime interests.
 - Vaelorian financial leverage and the political price of credit.
 - Veyr frontier needs and southern support.
 - Edarth defense of traditional noble rights.

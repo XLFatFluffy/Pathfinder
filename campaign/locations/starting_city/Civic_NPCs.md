@@ -15,8 +15,8 @@ Methodical, restrained, and protective of administrative records. Marrec believe
 Direct, experienced, and difficult to intimidate. Ysella rose through harbor work and knows the difference between a legitimate delay and a manufactured excuse. She wants safe traffic, fair quay allocation, reliable fees, and a strong harbor reputation. Shipowners demand priority, warehouse holders demand predictability, and the Denvors expect results.
 
 ### Chief Magistrate Odran Pell
-**Office:** Chief Magistrate | **Ancestry:** Half-elf  
-Patient, observant, and exacting about testimony. Odran prefers cases that survive scrutiny. He values orderly hearings and consistent procedure but sees how wealthy litigants can afford delay while poorer residents cannot. He cannot repair the entire system alone.
+**Office:** Chief Magistrate; senior partner at Pell & Daughter | **Ancestry:** Half-elf  
+Patient, observant, and exacting about testimony. Odran prefers cases that survive scrutiny. He values orderly hearings and consistent procedure but sees how wealthy litigants can afford delay while poorer residents cannot. He cannot repair the entire system alone. He is Elira Pell's father and the shop's senior partner; this is the same person, not a duplicate-name NPC. No formal recusal rule for cases touching the business is established.
 
 ### Captain Brinna Salk
 **Office:** Captain of the Watch | **Ancestry:** Human  

@@ -6,7 +6,9 @@
 **Status:** Consolidated table reference; detailed source records remain authoritative.  
 **Prepared:** 6 November 2026
 
-> This is the operational guide to the campaign's starting city and immediate hinterland. It is deliberately separate from the continental Campaign Bible. Use it at the table; consult the linked source files for full shop inventories, legal text, NPC biographies, maps, and encounter mechanics.\n\n**PC-concept boundary:** Sections concerning the earlier vampire/ratfolk pairing, House Relland incident, and Selwick troll opening preserve previous preparation. They are provisional legacy material until the players confirm their revised concepts and the GM approves the opening.
+> This is the operational guide to the campaign's starting city and immediate hinterland. It is deliberately separate from the continental Campaign Bible. Use it at the table; consult the linked source files for full shop inventories, legal text, NPC biographies, maps, and encounter mechanics.
+
+**PC-concept boundary:** Sections concerning the earlier vampire/ratfolk pairing, House Relland incident, and Selwick troll opening preserve previous preparation. They are provisional legacy material until the players confirm their revised concepts and the GM approves the opening.
 
 ## 1. Tallowmere at a glance
 
@@ -292,7 +294,9 @@ Tallowmere has no unified thieves' guild, citywide criminal boss, or secret coun
 
 Crime is specific. The Watch has honest officers, opportunists, and overwhelmed people. Corruption may occur, but it is not universal. Ratfolk are not collectively criminal and do not control all tunnels.
 
-## 13. Provisional legacy PC connections and protected local secrets\n\n**Status:** Inactive legacy preparation pending confirmation of the revised player concepts. The details below are preserved for continuity only; do not build on them or present them as current campaign facts unless confirmed.
+## 13. Provisional legacy PC connections and protected local secrets
+
+**Status:** Inactive legacy preparation pending confirmation of the revised player concepts. The details below are preserved for continuity only; do not build on them or present them as current campaign facts unless confirmed.
 
 ### House Relland and the ratfolk PC
 
@@ -308,7 +312,7 @@ Approximately ten years before Session One, armed retainers wearing Relland colo
 - Do not make the incident a continent-wide conspiracy or implicate a Great House.
 - The exact roadside location remains approximate.
 
-### Vampire PC's identity
+### Earlier vampire-PC concept: concealed heir
 
 The vampire PC is the concealed surviving Crown Prince of the fallen dragon-riding dynasty. No local or continental actor is automatically aware of the identity or survival. House Relland, the Crown, Kharadorn, and intelligence actors do not receive knowledge without a plausible source, discovery, and causal chain. The PC's personal name remains the player's choice.
 
@@ -319,7 +323,9 @@ The vampire PC is the concealed surviving Crown Prince of the fallen dragon-ridi
 - No actor automatically knows a PC's identity, personal history, or secret.
 - Do not assign every rumor to the PCs or connect unrelated local pressures.
 
-## 14. Provisional opening encounter and sandbox\n\n**Status:** The city sandbox remains usable, but the Selwick wagon/troll encounter and its rewards are a prepared option only. Reassess them after final character sheets and the GM's decision on the opening.
+## 14. Provisional opening encounter and sandbox
+
+**Status:** The city sandbox remains usable, but the Selwick wagon/troll encounter and its rewards are a prepared option only. Reassess them after final character sheets and the GM's decision on the opening.
 
 ### Opening setup
 

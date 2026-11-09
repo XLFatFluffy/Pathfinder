@@ -282,11 +282,18 @@ Current representatives:
 
 ### Crown officers and court networks
 
-- **Othmar Rusk:** Royal Chancellor and Crown representative; procedural, measured, seeks legitimacy and workable compromise.
-- **Lady Meredyth Sorn:** Master of Coin; precise administrator, works with lenders but is not Vaelorian.
-- **High Prelate Aveline Marr:** Most visible religious adviser at court; represents an influential religious movement, not all faiths.
+The current Crown officers are distinct offices with different sources of influence:
+
+- **Lord Chancellor Othmar Rusk — Royal Chancellor:** Coordinates royal administration, decrees, correspondence, government business, and the Crown's formal dealings with the Imperial Council. He also holds the Calderan Council seat, which gives him unusual access but leads other representatives to question when he speaks as negotiator and when he speaks as the king's agent.
+- **Lady Meredyth Sorn — Master of Coin:** Oversees royal revenue, taxation, debts, the treasury, and financial reporting. She comes from a wealthy minor Crown-vassal family, not House Vaelorian. She believes the Crown is dangerously dependent on short-term borrowing and privileges granted to powerful houses.
+- **Lord Bastian Wycliffe — Master of Laws:** A learned jurist responsible for royal justice, major legal disputes, interpretation of Crown law, and advice on the boundaries between royal jurisdiction and noble privilege. He is cautious about changing law by decree because he believes precedent sustains royal legitimacy.
+- **Marshal Garran Holt — Master of War:** Coordinates the royal army, readiness, fortifications, military logistics, and defense planning. He understands the Crown's military limitations and does not assume the royal forces could defeat all six Great Houses acting together.
+- **Mistress Nerys Vale — Royal Spymaster:** Coordinates intelligence gathering, informant networks, and assessment of threats to the Crown. Her network is compartmentalized and relies on servants, merchants, messengers, and personal intermediaries. Its size and reach remain unresolved; she does not automatically know every private house, clan, religious, merchant, or local matter.
+- **Lord Perrin Ashcombe — Lord Chamberlain:** Manages the royal household, court ceremony, palace administration, schedules, staff, and access to the monarch. He is not the realm's chief strategist, but control over access gives him practical influence.
+
+Religious advisers are not Crown officers and do not speak for every faith:
+- **High Prelate Aveline Marr:** The most visible religious adviser at court; represents an influential religious movement, not all faiths.
 - **Prior-General Odran Thrice-Blessed:** Represents one influential religious order, not the whole Religious Establishment.
-- **Nerys Vale:** Crown intelligence figure; her network's size and reach are unresolved. She does not automatically know private house, clan, religious, merchant, or local information.
 
 Five overlapping court movements, not formal parties:
 1. **Royal Court:** Queen Elowen Calderan; key associate Othmar Rusk. Stability, legitimacy, compromise, gradual institutional strengthening.
@@ -519,6 +526,7 @@ For full detail, consult:
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references, including `economy/Markets_Merchants_Guilds_and_Contracts.md` and `economy/Currency_Coinage_and_Moneychanging.md`.
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
+- `politics/House_Rulers.md`, `politics/Court_and_Council.md`, and `politics/Imperial_Governance_Operating_Framework.md` for current Great House rulers, Imperial Council representatives, Crown officers, court factions, and constitutional procedure.
 - `magic/` for the rarity of arcane practice, Great House patronage, magic-item production and scarcity, and the distinct necromantically resonant materials obsydian and dragonglass.
 - `world/` for everyday life and material culture, agriculture and food supply, medicine, education and literacy, law, travel, communication, and cross-regional practical systems. Key references include `world/Everyday_Life_and_Material_Culture.md`, `world/Education_Literacy_and_Knowledge.md`, `world/Medicine_Disease_and_Healing.md`, `world/Travel_Communication_and_Information.md`, and [Foodways of Tallowmere and Its Hinterland](world/Foodways_of_Tallowmere_and_the_Hinterland.md).
 - `creatures/` for the continental ecology baseline, Tallowmere habitat records, established Deep Bracken fauna, proposed wildlife and flora candidates, and the River Vale/Siltfen aquatic resource and working-water reference.

@@ -186,7 +186,7 @@ Valedorn is the principal arena for Crown administration, Great House diplomacy,
 ### Current political climate
 The monarch seeks to strengthen royal authority without provoking another rebellion. The Great Houses publicly uphold the post-Rebellion settlement while privately competing for influence. Kharadorn remains independent and distrustful of the Crown. Vaelorian and Merrowen compete for commercial influence. Edarth and Veyr are wary of royal centralization for different reasons. The Religious Establishment is gaining influence in court affairs. The southern territories remain difficult for the Crown to control.
 
-**Still unresolved:** identities of the monarch and royal officeholders; exact composition of the royal forces; Council voting and legal procedures; representatives; faction leaders and membership; and the religious institutions and doctrines represented by the Religious Establishment.
+**Stage 6 unresolved at the time of this entry:** identities of the monarch and royal officeholders; exact composition of the royal forces; Council voting and legal procedures; representatives; faction leaders and membership; and the religious institutions and doctrines represented by the Religious Establishment. The monarch, officeholders, representatives, court-faction leaders, and Council procedures were subsequently established in Stages 8 and 9 below; the exact composition of the royal forces and detailed religious institutions remain open.
 
 
 ## Stage 7 — Religion and Religious Institutions (Established, 2026-11-04)

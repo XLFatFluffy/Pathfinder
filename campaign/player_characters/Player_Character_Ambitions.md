@@ -1,8 +1,8 @@
 # Player Character Ambitions and Established Background
 
-**Status:** ESTABLISHED PLAYER-CHARACTER INFORMATION  
+**Status:** PROVISIONAL LEGACY PLAYER-CONCEPT MATERIAL — pending confirmation  
 **Last updated:** 2026-11-06  
-**Important boundary:** These are player-character goals and backstory facts supplied by the GM. Do not invent, revise, or expand personal histories, motives, identities, or relationships beyond what the GM and players provide. The PCs are not assumed to be heroes.
+**Important boundary:** This file preserves goals and backstory from earlier player concepts. The players are revising their concepts. Do not treat any ambition, identity, or personal history below as current until the players confirm it. Do not build new setting hooks around this draft.
 
 ## 1. The Vampire Mesmerist and Surviving Heir
 

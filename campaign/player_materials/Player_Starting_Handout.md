@@ -156,7 +156,16 @@ Widely recognized observances include:
 - **Night of Remembrance (Duskreach):** A time to honor the dead through family stories, memorials, lamps, and shared meals.
 - **Yearturn:** Five days between years, traditionally associated with remembrance, settling debts, renewing oaths, honoring ancestors, and welcoming the new year.
 
-Local customs differ by region, faith, class, and household. The same observance may have different meanings in different communities.
+Local customs differ by region, faith, class, and household.
+
+Tallowmere also has several local public observances:
+- **First Safe Passage:** Sailors and families gather at the Tideward Shrine when the main sailing season opens.
+- **The Weighing of Measures:** A public inspection of market weights and measures, organized through the Reeve's office.
+- **The River Thanks:** River carriers and mill communities share offerings and a meal after the main harvest movement.
+- **Names of the Drowned:** A memorial service at the Tideward Shrine when seasonal weather turns.
+- **The Common Table:** A cold-season charitable meal coordinated by Lantern Hospice and willing temples.
+
+These customs follow local conditions and institutional decisions rather than fixed dates on the continental calendar. The same observance may have different meanings in different communities.
 
 ## Starting Circumstances and Resources
 

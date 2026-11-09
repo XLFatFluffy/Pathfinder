@@ -23,7 +23,7 @@ This folder contains dossiers and notes originally organized for a proposed auto
 - [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) — GM-only truth and public rumor distinctions.
 - [Regional Factions and Minor Houses](Regional_Factions_and_Minor_Houses.md) — local guilds, associations, and supporting actors.
 - [Seasonal Conditions and Agricultural Cycles](Seasonal_Conditions_and_Agricultural_Cycles.md) — descriptive seasonal, agricultural, travel, and logistics context. Do not use it to generate weather or timed events.
-- [World Turn 001 — Opening Baseline](reports/World_Turn_001_Opening_Baseline.md) — historical opening-state snapshot on 1 Harvestfall, 243 AC; no time elapsed.
+- [Historical Opening-State Snapshot](reports/World_Turn_001_Opening_Baseline.md) — historical opening-state snapshot on 1 Harvestfall, 243 AC; no time elapsed.
 
 ## Historical/administrative records
 

@@ -120,8 +120,10 @@ A suggested alignment should never force an NPC to behave irrationally. Lawful d
 - **Do not play as:** A smuggler or a servant of the Harbor Fellowship. Neither is established.
 
 ## Chief Magistrate Odran Pell
-**Role:** Chief Magistrate; civil and criminal hearings.  
+**Role:** Chief Magistrate; civil and criminal hearings; senior partner at Pell & Daughter with his daughter Elira.  
 **Ancestry:** Half-elf. **Suggested alignment:** Lawful Neutral.
+
+Odran is the same person named as Elira Pell's father and senior partner in the shop records. This is one NPC with a civic office and a commercial partnership, not two people with the same name. No formal recusal rule or conflict-of-interest procedure is established; do not invent one without a GM decision.
 
 - **Wants now:** Hear cases that can survive scrutiny and keep procedure consistent.
 - **Wants long-term:** Preserve public confidence that a dispute can be judged without wealth alone deciding the result.
@@ -1074,7 +1076,7 @@ The following names appear in established campaign records. Their names and role
 | Brunna Keld | Armorer | Profile above | Complete |
 | Jorren Vale | Weaponsmith | Profile above | Complete |
 | Elira Pell | Scribe/stationer | Profile above | Complete |
-| Odran Pell (senior partner) | Senior partner at Pell & Daughter; distinct from Chief Magistrate Odran Pell only if source confirms separate person | Current source text names Elira's father Odran as senior partner; possible name collision with Chief Magistrate Odran Pell | **Continuity blocker: resolve before treating as two people** |
+| Odran Pell | Chief Magistrate and senior partner at Pell & Daughter with Elira | One established NPC; civic and commercial roles coexist. No formal recusal rule established. | Complete |
 | Tessa Vale | Jorren Vale's sister; handles first contact at Redoubt Arms | Outgoing, handles customer contact | Needs full personality |
 | Prelate Damas Orrel | Abadar temple | Profile above | Complete |
 | Keeper Lethia Sorn | Pharasma temple | Profile above | Complete |

@@ -1,7 +1,7 @@
 # Tallowmere: Civic Calendar and Seasonal Routines
 
-**Status:** ESTABLISHED ROUTINE FRAMEWORK — 2026-11-04  
-**Calendar dependency:** The world's formal calendar remains unresolved. This document establishes recurring civic and seasonal practices without inventing month names, weekday names, year length, or a campaign date.
+**Status:** ESTABLISHED LOCAL ROUTINE FRAMEWORK — reconciled 2026-11-09  
+**Calendar dependency:** Uses the formal [Campaign Calendar](../../history/Calendar.md), established 2026-11-06. The AC dating system, year structure, month names, weekday names, Yearturn, leap day, and campaign start date are established. This document leaves local market schedules, bell times, gate hours, and exact dates of civic observances open.
 
 ## Daily rhythm
 
@@ -50,13 +50,13 @@ Public bells and posted notices communicate major civic events:
 - Changes to gate or harbor procedures.
 - Funerals or memorial gatherings of civic importance.
 
-The bell system is practical, not a precise citywide clock. Different bells may be used for fire, harbor danger, civic summons, and religious observance. Residents learn their meanings through habit.
+The bell system is practical, not a precise citywide clock. Bells may be used for religious observance, civic summons, and local warnings, but exact signal patterns, schedules, and meanings are not established. Do not assume a standardized citywide alarm code. See [Emergency Response and Civic Resilience](Emergency_Response_and_Civic_Resilience.md) for the limits of public warnings during an incident.
 
-Official notices are posted at Reeve's Hall, the Weigh House, principal market approaches, and relevant guild or harbor offices. Not every resident can read them; announcements are also made orally.
+Routine agenda notices of the Chartered Council are posted at Reeve's Hall and the principal market. Other notices may be placed at the Weigh House or relevant guild and harbor offices when appropriate, but no comprehensive posting network or fixed posting schedule is established. Not every resident can read a notice; information may also be repeated orally.
 
 ## Market and trade cycles
 
-Bellmarket operates on ordinary working days, with a larger gathering on recurring market days announced locally. The exact weekly structure and named weekdays are not fixed until the campaign calendar is approved.
+Bellmarket operates on ordinary working days, with a larger gathering on recurring market days announced locally. The formal seven-day week is Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, and Restday. The exact frequency and named day of Tallowmere's larger market gathering remain unresolved.
 
 Seasonal trade affects what appears:
 - Grain and orchard produce follow harvest and storage cycles.
@@ -70,7 +70,7 @@ The Harbor Office and guilds publish practical notices when major arrivals, clos
 
 ## Seasonal character
 
-The city recognizes four broad seasonal phases in ordinary speech, without yet fixing their formal names or exact calendar boundaries.
+Residents speak of four broad seasonal phases in ordinary terms, but their arrival, duration, and regional character vary. The formal calendar does not fix seasons to particular months; a month name is not a weather forecast.
 
 ### Spring
 - River levels rise with rain and upland melt.
@@ -102,7 +102,7 @@ These are broad tendencies, not guaranteed weather or harvest outcomes.
 
 ## Religious observances and civic gatherings
 
-Tallowmere does not have one universal religious festival. Individual temples set their own services and observances, while some civic customs have become shared occasions regardless of faith.
+Tallowmere does not have one universal religious festival. Individual temples set their own services and observances, while some civic customs have become shared occasions regardless of faith. These local observances complement the wider calendar's [Holidays and Public Observances](../../history/Holidays_and_Observances.md); they do not replace them.
 
 Established recurring customs include:
 - **First Safe Passage:** At the opening of the main sailing season, sailors and families gather at the Tideward Shrine for prayers and remembrance. The date follows local conditions, not a fixed calendar day.
@@ -111,11 +111,11 @@ Established recurring customs include:
 - **Names of the Drowned:** A memorial service held by the Tideward Shrine when seasonal weather turns and families remember those lost on the water. Families may add names throughout the year.
 - **The Common Table:** A charitable meal coordinated by Lantern Hospice and willing temples during the cold season. Its scale depends on donations and available stores.
 
-No event has a fixed date until the formal calendar is created. No festival requires every resident to participate.
+The formal calendar is established, but no fixed dates have been assigned to these local observances. Their timing follows local conditions and institutional decisions. No festival requires every resident to participate.
 
 ## Public order and weekly routine
 
-There is no universal curfew. Gates close according to posted schedules and seasonal daylight, with controlled exceptions for authorized travelers, urgent medical need, official business, and recognized emergencies. The exact gate hours are set by the Town Reeve and Captain of the Watch and may vary by gate and season.
+There is no universal curfew. Gates close according to posted schedules and seasonal daylight, with controlled exceptions for authorized travelers, urgent medical need, official business, and recognized emergencies. The exact gate hours, schedules, and local exceptions remain unresolved and may vary by gate or season.
 
 The Watch posts additional patrols during large market gatherings, major funerals, visiting noble events, and periods of heavy harbor traffic. These are staffing decisions, not proof that a riot or crime is expected.
 
@@ -123,4 +123,4 @@ The Council meets when summoned by the lord or through the Reeve's ordinary noti
 
 ## Open details
 
-The formal calendar, year length, months, named weekdays, era system, current campaign date, exact market-day frequency, bell times, seasonal festival dates, and historical commemorations remain unresolved. Do not invent these details in play as fixed canon until the calendar is approved.
+The exact market-day frequency, bell times and signal patterns, gate hours, seasonal dates for local observances, and historical civic commemorations remain unresolved. Do not invent a fixed schedule unless the GM establishes one for play.

@@ -127,7 +127,9 @@ Records mill deliveries and notices discrepancies between declared loads and act
 **Ancestry:** Human | **Work:** Hospice stores clerk, Lantern Ward  
 Tracks donations, food stores, blankets, and medicines for Sister Alwen. Meticulous and overworked. He wants the hospice accounts to be transparent, partly because rumors of favoritism threaten donations.
 
-Household fuel, heating, lighting, laundry, and repair needs are covered in [Household Comfort, Fuel, Clothing, and Winter Preparation](Household_Comfort_Fuel_and_Winter_Preparation.md). The local reference uses Brackenholt's established fuel supply and existing commercial services without inventing new shops or trades.\n\n## Daily Rhythm
+Household fuel, heating, lighting, laundry, and repair needs are covered in [Household Comfort, Fuel, Clothing, and Winter Preparation](Household_Comfort_Fuel_and_Winter_Preparation.md). The local reference uses Brackenholt's established fuel supply and existing commercial services without inventing new shops or trades.
+
+## Daily Rhythm
 
 **Before sunrise:** Bakers light ovens; fishers and river crews prepare; quay foremen gather laborers; market porters move goods before the streets fill.
 

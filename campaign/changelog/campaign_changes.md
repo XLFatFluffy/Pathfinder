@@ -364,3 +364,10 @@
 - Updated `campaign/Cultures_and_Societies.md` to link the detailed records and replace the former simulation-oriented cultural behavior section with GM judgment guidance.
 - Updated `campaign/README.md` so the GM reference is no longer described as containing a Living World Engine and the legacy `world_engine/` material is explicitly treated as source material rather than an operating simulation.
 - No PC-specific assumptions were added.
+
+## 2026-11-09 - Faith in ordinary life and religious index correction
+
+- Added `campaign/religions/Faith_in_Ordinary_Life.md` covering household worship, temple services, clergy, divine spellcasters, rites of passage, oaths, charity, education, pilgrimage, religious disagreement, and ordinary public faith.
+- Corrected `campaign/religions/README.md`: it had incorrectly described the gods' existence as uncertain, contradicting established canon. The gods are real; mortal interpretations and the mechanism of divine magic remain distinct open questions.
+- Linked the ordinary-faith reference and existing regional institution dossier from the religion index.
+- No new deity, major religious hierarchy, schism, or supernatural mechanism was invented.

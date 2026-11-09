@@ -314,7 +314,7 @@ Established broad tendencies:
 
 These are tendencies, not exclusive regional religions.
 
-## 16. Cultural rule for the Living World Engine
+## 16. Cultural portrayal rule
 
 When an NPC or institution acts, consider:
 
@@ -328,5 +328,11 @@ When an NPC or institution acts, consider:
 8. political allegiance;
 9. personal history.
 
-Do not reduce a character's behavior to ancestry or regional stereotype.
+Do not reduce a character's behavior to ancestry or regional stereotype. These factors are tools for informed GM judgment, not an algorithm for determining behavior.
+
+## 17. Detailed cultural records
+
+- [Vaelorian Elven Culture and Homelands](cultures/Vaelorian_Culture_and_Homelands.md) — detailed treatment of Vaelorian settlement, homes, family life, food, clothing, wealth, religion, art, military culture, and internal tensions.
+- [Everyday Life and Material Culture](world/Everyday_Life_and_Material_Culture.md) — ordinary food, childhood, medicine, money, work, law, crime, sanitation, communication, entertainment, and social class.
+- [Holidays and Public Observances](history/Holidays_and_Observances.md) — reasons for major civil observances and regional/class differences in how they are celebrated.
 

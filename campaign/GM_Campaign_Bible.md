@@ -269,30 +269,28 @@ Military power is based on noble obligations, household forces, local garrisons,
 
 Feudal law is governed by homage, land tenure, inheritance, jurisdiction, charters, customary rights, courts, and service obligations. Specific charters and local customs override broad assumptions. Use `politics/Feudal_Law_and_Landed_Obligations.md` for legal consequences and escalation.
 
-## 10. Living World Engine
+## 10. Running a responsive world through GM judgment
 
-The world continues to move when the PCs do not intervene, but it does not manufacture melodrama to keep them busy. Actors act according to goals, capability, opportunity, knowledge, opposition, risk, and alternatives.
+The setting exists independently of the player characters. People have duties, ambitions, fears, loyalties, families, work, and limited information. Events can continue while the PCs are elsewhere, but the GM decides what actually happens. There is no automated world simulator, required world-turn procedure, or universal schedule of consequences.
 
-### Engine rules
+### A practical approach
 
-1. Confirm the in-world date and elapsed time.
-2. Review only actors and issues affected by that interval.
-3. Separate an actor's long-term agenda from an active project or crisis.
-4. Resolve actions from established motives, resources, information, and opportunities.
-5. Do not roll random events without a causal basis.
-6. Distinguish objective changes from rumors and incomplete reports.
-7. Do not make NPCs omniscient. Information travels through plausible networks.
-8. Player inaction has consequences only when time, conditions, and an actor's ability create a plausible result.
-9. Do not force every event to connect to the PCs or one overarching conspiracy.
-10. Present proposed events to the GM. GM approval is required before they become canon.
-11. Record accepted changes in the event ledger, world-turn ledger, issue/project registers, actor dossiers, timeline, and current state as appropriate.
-12. Do not advance time merely to produce activity. The campaign clock advances when time passes in play or the GM explicitly advances it.
+When the PCs leave a place, ignore a problem, take an extended period of downtime, or change the balance of power:
 
-### Opening world state
+1. Establish how much in-world time has actually passed.
+2. Identify the people and institutions directly affected.
+3. Consider what each could reasonably know, afford, attempt, and risk.
+4. Consider ordinary constraints: distance, season, money, manpower, law, custom, weather, supply, and competing obligations.
+5. Decide which developments are important enough to occur off-screen and which can wait until play returns to them.
+6. Keep the result proportionate. Not every neglected issue becomes a crisis, and not every NPC takes decisive action.
+7. Record consequential events, changed relationships, new obligations, discoveries, and unresolved questions in their appropriate subject records.
 
-WTR-001 is a zero-day baseline dated 1 Harvestfall, 243 AC. No new event, war, assassination, famine, coup, blockade, territorial seizure, or succession crisis was generated. Existing pressures and projects remain at their opening status.
+Years of downtime should be handled as a sequence of meaningful periods, not as a single automatic roll. The GM can summarize routine continuity, then focus on major changes that follow plausibly from decisions, resources, and circumstances. The passage of time does not require a catastrophe or a dramatic event.
 
-Continental structural pressures:
+### Established structural tensions
+
+The following are durable political and economic conditions, not active crises or guaranteed future plots:
+
 - Crown authority versus Great House autonomy.
 - Kharadorn control of the Inland Sea versus Merrowen maritime interests.
 - Vaelorian financial leverage and the political price of credit.
@@ -300,19 +298,23 @@ Continental structural pressures:
 - Edarth defense of traditional noble rights.
 - Fragmented Southern Reaches and their independent interests.
 
-These are structural pressures, not automatically active crises.
+Use the dedicated Great House, minor-house, economic, and political records to understand these tensions. Do not assume that any one of them is escalating at the current date.
 
-### Living-world records
+### Useful legacy records
 
-- `world_engine/Actor_Register.md`: tracked actors and standards.
-- `world_engine/Great_House_Actor_Dossiers.md`: agendas, relationships, leverage, constraints.
-- `world_engine/Continental_Strategic_Pressure_Register.md`: structural continental tensions.
-- `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`: lesser powers.
-- `world_engine/Initial_Issue_Register.md`: opening issues.
-- `world_engine/Initial_Project_Register.md`: opening projects.
-- `world_engine/World_Event_Ledger.md` and `World_Turn_Ledger.md`: chronological state changes.
-- `world_engine/reports/World_Turn_001_Opening_Baseline.md`: approved opening snapshot.
-- `Living_World_Engine.md`: full procedure.
+The former world-engine folder contains useful descriptive dossiers and opening-state material. It is now a legacy GM reference archive, not an operating system:
+
+- `world_engine/Great_House_Actor_Dossiers.md`: established agendas, relationships, internal tensions, and constraints.
+- `world_engine/Continental_Strategic_Pressure_Register.md`: structural tensions and unresolved political conditions.
+- `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`: minor houses and independent regional powers.
+- `world_engine/Regional_Holdings_and_Jurisdictions.md`: local authority, charters, and unresolved borders.
+- `world_engine/Tallowmere_Political_Actor_Dossiers.md`: local houses and institutions.
+- `world_engine/Tallowmere_NPC_Information_Network.md`: plausible information channels and knowledge limits.
+- `world_engine/Tallowmere_Rumor_Truth_Register.md`: rumor truth and information boundaries.
+- `world_engine/Initial_Issue_Register.md` and `Initial_Project_Register.md`: opening-state notes; use as background, not as clocks or mandatory ongoing processes.
+- `world_engine/reports/World_Turn_001_Opening_Baseline.md`: historical opening snapshot on 1 Harvestfall, 243 AC. It did not advance the campaign calendar.
+
+The GM may consult, revise, or disregard these records as the campaign develops. A record is not an instruction to make its subject act.
 
 ## 11. Calendar and campaign timeline
 

@@ -4,7 +4,7 @@
 **Campaign date:** 1 Harvestfall, 243 AC  
 **Ruleset:** Pathfinder First Edition  
 **Visibility:** PLAYER_SHARED  
-**Last updated:** 2026-11-06
+**Last updated:** 2026-11-09
 
 This guide contains broad public information that a reasonably informed person could know. It is not an exhaustive gazetteer, and it does not mean every character knows every local detail. Your character's upbringing, education, travels, ancestry, class, and personal history may give them more specific knowledge. Major settlements and fortresses are widely known; small villages, minor estates, precise routes, local disputes, and detailed political arrangements may not be. This guide does not include private motives, hidden histories, or secrets.
 
@@ -14,7 +14,7 @@ The campaign takes place in a high-medieval fantasy world based on the Westeros 
 
 Humans are the largest population across much of the continent. Elves and dwarves hold major political power, while many other ancestries live throughout the settled lands. Ratfolk communities are often subterranean. Prejudice against ratfolk is widespread in surface society, but it is not universal and reactions vary by place and individual.
 
-Magic exists, but it is uncommon in everyday life. Many people will live their entire lives without seeing a spell cast. The gods of the Pathfinder pantheon are real and widely recognized, although worship and religious customs vary between communities. Divine spellcasters are uncommon; a temple or shrine does not necessarily have someone capable of magical healing.
+Magic exists, but it is uncommon in everyday life. Many ordinary people will live their entire lives without seeing a spell cast. Arcane practitioners are exceptionally rare; most recognized wizards serve Great Houses or other wealthy patrons. Enchanted items are scarce, expensive, and not ordinary shop stock. A magic weapon or protective item is a notable possession, not routine equipment for soldiers or merchants. The gods of the Pathfinder pantheon are real and widely recognized, although worship and religious customs vary between communities. Divine spellcasters are uncommon; a temple or shrine does not necessarily have someone capable of magical healing.
 
 ### Faith in everyday life
 
@@ -37,7 +37,7 @@ The current monarch is **King Aldric Calderan**, of House Calderan. The capital 
 |---|---|---|---|
 | **Calderan** | Human ruling dynasty; holds the Imperial Seat | Valedorn | King Aldric Calderan |
 | **Vaelorian** | Elven commercial and financial power in the western highlands | Aurelith | Lord Theren Vaelorian |
-| **Kharadorn** | Dwarven imperial dynasty; holds Dragonstone and dominates the central inland sea | Dragonstone; ancestral homeland at Khar-Dum | High King Durnak Kharadorn |
+| **Kharadorn** | Dwarven imperial dynasty; holds Dragonstone and exercises major strategic influence over the central inland sea | Dragonstone; ancestral homeland at Khar-Dum | High King Durnak Kharadorn |
 | **Edarth** | Primarily human landed and martial power in the western heartlands | Stoneguard | Lord Garrick Edarth |
 | **Veyr** | Human northern dynasty responsible for the northern frontier and the Ancient Barrier | Frosthold | Lord Edran Veyr |
 | **Merrowen** | Primarily human maritime and naval power along the eastern coast | Tidemark | Lady Maris Merrowen |
@@ -108,17 +108,20 @@ Tallowmere is a walled port city on the northwestern shore of the central inland
 
 ### Useful public destinations
 
-- **The Blue Heron:** A respectable inn in the Old Quays.
-- **Reeve's Hall:** Local administration, petitions, records, and notices.
+- **The Blue Heron:** A respectable, comparatively quiet inn in the Old Quays.
+- **The Crooked Oar:** A cheap, noisy working tavern at the New Quays.
+- **The Copper Ladle:** An inexpensive cooked-food stall near Bellmarket.
+- **Reeve's Hall:** Local administration, petitions, records, and public Council agenda notices.
 - **The Harbor Office:** Shipping declarations, berths, and harbor procedures.
-- **Bellmarket:** The principal public market in Market Ward.
+- **Bellmarket:** The principal public market in Market Ward and a major meeting place.
 - **The Warehouse Guild:** A major commercial institution in the city.
-- **Lantern Hospice:** Charity and care for people in need.
+- **Lantern Hospice:** A charitable house providing limited care and assistance; it is not a large hospital or a guaranteed source of magical healing.
+- **The House of the Dawn:** A Sarenite religious house providing meals, basic care, limited shelter, and charitable assistance. It is distinct from the hospice.
 - **The Underways:** Ratfolk communities and routes; access and introductions depend on local knowledge.
 
 ### Nearby regional communities
 
-The immediate region contains several distinct communities. These are established places, not a complete list of every farm, hamlet, or household.
+The immediate region contains several distinct communities. These are established places, not a complete list of every farm, hamlet, or household. People who live or work in the region are more likely to know the smaller places; a newcomer may recognize only the better-known settlements.
 
 | Place | What it is known for |
 |---|---|
@@ -144,13 +147,22 @@ A standard year has twelve months of thirty days each, followed by five addition
 
 The seven-day week runs Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, and Restday. Seasons are not fixed to particular months and can vary by region or last for extended periods. Month names are traditional and do not guarantee particular weather.
 
-Widely recognized observances include Winter's End, First Planting, Day of the Crown, Highsummer Feast, Harvest Home, Night of Remembrance, and Yearturn. Local customs differ.
+Widely recognized observances include:
+- **Winter's End (Thawrise):** Preparation for renewed travel, planting, trade, and outdoor work after winter.
+- **First Planting (Greenwake):** The beginning of the agricultural year where soil and weather permit; seed blessings and communal planting are common.
+- **Day of the Crown (Suncrest):** A civil observance of the monarchy and post-Rebellion settlement. People celebrate it for different reasons, including stability, tradition, and royal authority.
+- **Highsummer Feast (Highsun):** A celebration of abundance, work, food, music, games, and the growing season.
+- **Harvest Home (Harvestfall):** A major agricultural observance tied to the harvest, seasonal accounts, food stores, and preparation for winter.
+- **Night of Remembrance (Duskreach):** A time to honor the dead through family stories, memorials, lamps, and shared meals.
+- **Yearturn:** Five days between years, traditionally associated with remembrance, settling debts, renewing oaths, honoring ancestors, and welcoming the new year.
+
+Local customs differ by region, faith, class, and household. The same observance may have different meanings in different communities.
 
 ## Starting Circumstances and Resources
 
-The campaign begins as the two player characters arrive in Tallowmere. The characters already know one another; they are newcomers to the city, and no prior local contacts should be assumed unless their own backstories establish them.
+Player character concepts are still being finalized. The final party size, ancestries, classes, levels, relationships, arrival circumstances, and backstories will be confirmed from the completed character sheets and the GM-approved opening. Earlier references to two level-five characters, a pre-existing relationship, or a troll attack on a Selwick wagon are provisional legacy preparation, not current requirements.
 
-Both characters begin at **level 5**. Your completed character sheet is the authority for your character's actual statistics, equipment, carried currency, consumables, and possessions. No additional shared starting stipend, special item, or unlisted equipment has been assigned. Any proposed companion character is subject to GM approval and will be handled separately.
+Your completed character sheet and the GM's confirmed starting instructions will establish your statistics, equipment, carried currency, consumables, possessions, and any special starting items. No shared party stipend or additional unlisted equipment is currently established. Any companion character is subject to separate GM approval.
 
 ## What This Guide Does Not Establish
 

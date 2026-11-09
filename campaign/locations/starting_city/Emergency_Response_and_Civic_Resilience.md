@@ -23,6 +23,8 @@ These resources do not form a single coordinated emergency service. Response dep
 
 The city can organize a meaningful response to a local emergency. It cannot guarantee that every incident is contained quickly or that all affected residents receive equal assistance.
 
+The **Denvor Granary**, near the Rivergate approach, is an established storehouse maintained under the lordship's oversight for public provisioning and obligations under the local charter. The separate office of Master of Stores maintains grain reserves, emergency supplies, and materials held for city defense. The exact chain of responsibility between the office and the granary, current stock levels, grain quality, and release authority are not fully specified. The granary's existence does not mean unlimited reserves or automatic free distribution.
+
 ## 2. Fire: the most immediate urban danger
 
 Fire is a practical concern in a port city with warehouses, workshops, stables, crowded buildings, hearths, braziers, candles, oil lamps, stored fuel, and combustible cargo. The danger varies by building, contents, spacing, weather, and available water. Do not assume every district is equally vulnerable or that every building is timber-framed.

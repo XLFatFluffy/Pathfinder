@@ -2,7 +2,7 @@
 
 > **Scope update — 2026-11-09:** The former Living World Engine, automated simulation procedures, and recurring world turns are retired. Historical phases below document work that was once undertaken, not current operating instructions. Actor, issue, project, and political dossiers remain useful GM reference material. The world is advanced through GM judgment, especially across extended downtime. Current priorities are deeper setting lore, usable GM reference material, and a complete Campaign Bible.
 
-**Current milestone:** Prepare and run Session 1 on Sunday, 2026-11-08.  
+**Current milestone:** Continue deep worldbuilding and consolidate a complete, teachable GM Campaign Bible. Session One's earlier party concepts and troll/Selwick opening remain provisional until the players confirm their revised characters and the GM approves the opening.  
 **Guiding principle:** Build what play requires first. Expand the wider world as the campaign creates reasons to explore it.
 
 ## Milestone 0 — Session 1 readiness (Nov 3–8, 2026)

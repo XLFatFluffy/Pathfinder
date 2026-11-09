@@ -10,7 +10,7 @@ The wilderness record identifies deer, wild boar, foxes, badgers, and wolves as 
 
 **Canon boundary:** Their ordinary occurrence in the Deep Bracken is established. Exact population sizes, species or subspecies, breeding territories, den locations, seasonal movements, hunting quotas, and individual animals are not. The behavioral material below is grounded in ordinary animal ecology and is guidance for believable portrayal, not a claim that every detail has been separately documented by Tallowmere naturalists.
 
-The Deep Bracken is older and less-managed woodland beyond Brackenholt and the Brackenwood. It contains denser cover, old clearings, intermittent charcoal camps, game trails, and unreliable paths. The animals live within a landscape also used by hunters, charcoal burners, gatherers, livestock keepers, and occasional travelers.
+The Deep Bracken is older and less-managed woodland beyond Brackenholt and the managed Brackenwood. It contains denser cover, old clearings, intermittent charcoal camps, game trails, and unreliable paths. The five common animals in this dossier are established for the Deep Bracken only, not as a confirmed species list for Brackenwood. Occasional camps show that people sometimes use the outer forest; they do not establish continuous management, a complete supply chain to Tallowmere, or the exact reach of customary woodland rights. The animals live within a landscape also used by hunters, charcoal burners, gatherers, livestock keepers, and occasional travelers.
 
 ## 1. Deer
 

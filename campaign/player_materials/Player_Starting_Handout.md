@@ -171,7 +171,7 @@ These customs follow local conditions and institutional decisions rather than fi
 
 Player character concepts are still being finalized. The final party size, ancestries, classes, levels, relationships, arrival circumstances, and backstories will be confirmed from the completed character sheets and the GM-approved opening. Earlier references to two level-five characters, a pre-existing relationship, or a troll attack on a Selwick wagon are provisional legacy preparation, not current requirements.
 
-Your completed character sheet and the GM's confirmed starting instructions will establish your statistics, equipment, carried currency, consumables, possessions, and any special starting items. No shared party stipend or additional unlisted equipment is currently established. Any companion character is subject to separate GM approval.
+Your completed character sheet and the GM's confirmed starting instructions will establish your statistics, equipment, carried currency, consumables, possessions, and any special starting items. No shared party stipend or campaign-specific special item has been approved yet. Mundane personal belongings may be established through your backstory; unusual, inherited, restricted, or magical items require GM approval and must be recorded on the final sheet. Any companion character is subject to separate GM approval.
 
 ## What This Guide Does Not Establish
 

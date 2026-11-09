@@ -4,7 +4,7 @@
 **Last updated:** 2026-11-06  
 **Rules baseline:** Pathfinder First Edition.
 
-This registry is the campaign's source index for creatures, supernatural beings, regional threats, and creature ecology. It is intended to support both GM reference and a future in-app bestiary. It does not replace published Pathfinder stat blocks, and it does not make every published creature part of this setting.
+This registry is the campaign's source index for creatures, supernatural beings, regional threats, and creature ecology. See [Regional Creature Ecology and Field Guide](Regional_Creature_Ecology_and_Field_Guide.md) for continental occurrence boundaries, field signs, and habitat-based GM guidance. It is intended to support both GM reference and a future in-app bestiary. It does not replace published Pathfinder stat blocks, and it does not make every published creature part of this setting.
 
 ## 1. Registry standards
 

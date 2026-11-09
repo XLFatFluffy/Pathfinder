@@ -58,7 +58,7 @@ These are documented sources of friction or recurring complaints. They are not a
 | Fordmere | Toll collection during delays or ferry unavailability; Merewick opposition to a nearby competing bridge | Recurring commercial friction; no new bridge proposal currently established |
 | Saltwick | Fishing grounds disputed with crews from other ports; local resistance to city control of landing | Recurring concern; opposing ports/crews not identified |
 | Harthbridge | Competition with Tallowmere for inland trade; disagreement over road investment versus toll income | Established commercial rivalry, not an established feud |
-| House Relland | Concealed historical abuse by retainers and unresolved accountability | Established past wrongdoing; no current investigation or pursuit underway |
+| House Relland | Earlier PC-specific merchant incident draft | PROVISIONAL / QUARANTINED until player confirmation; not a current event or established scandal |
 
 ## 5. Border and map safeguards
 

@@ -197,7 +197,33 @@ Different people know different things:
 
 No universal herbalist guild, druidic monopoly, secret botanical order, or magical plant trade is established. Such institutions should be added only if useful and approved.
 
-## 13. Open decisions
+## 13. Frontier habitats — outer woodland, uplands, wetland, and shore
+
+The outer frontier environments are described in [Wilderness Beyond Tallowmere](../locations/starting_city/Wilderness_Beyond_Tallowmere.md). The plants below are habitat-consistent candidates, not confirmed species occurrences or grants of gathering rights.
+
+### Deep Bracken
+
+Older woodland beyond the managed coppice may contain mature trees, fallen timber, deadwood, shaded understory, mosses, ferns, fungi, and less-disturbed clearings. The exact tree composition remains open. Gatherers may find useful materials, but older stands can be subject to different ownership, customary rights, and access restrictions from the Brackenwood.
+
+### Upper Vale
+
+Headwater valleys and upland pasture support a changing mix of streamside growth, meadow grasses, rough pasture, scrub, and woodland pockets. Willow and alder are candidates along suitable watercourses; tougher grasses and low herbs may occupy exposed slopes. Do not assume alpine flora throughout the Upper Vale. Elevation, aspect, soil depth, and water availability must be established for a specific site.
+
+### Greyback Heights
+
+The higher and rougher country beyond the worked quarries may support scrub, grasses, mosses, lichens, and hardy plants adapted to shallow soil and exposed stone. The same broad candidates proposed for the lower Greyback Ridges may occur, but exact species and distribution are not established. Quarry spoil, old prospecting cuts, and unstable ground can create disturbed plant communities.
+
+### Siltfen
+
+The wetland's reeds, rushes, sedges, wet meadow grasses, alder, willow, and water-margin herbs are practical candidates. Their distribution depends on water depth, flow, seasonal flooding, grazing, and cutting. Reed beds may be harvested for thatch, mats, screens, and basketry; rights and customary access remain local questions. Peat and clay are mentioned as possible resources in the wilderness framework, not as universal or commercially important deposits.
+
+### Outer Eastern Shore
+
+Exposed coves and bluffs may support salt-tolerant grasses, low coastal herbs, hardy scrub, and plants adapted to wind, salt spray, and thin soils. Sheltered hollows may support different growth from exposed cliff edges. Coastal gathering must account for storm damage, erosion, and local rights.
+
+No frontier plant in this record is a confirmed magical ingredient, reliable cure, or supernatural sign. Rare finds should be valuable because a buyer wants a particular quality or material, not because every unusual plant is secretly magical.
+
+## 14. Open decisions
 
 1. Which candidate tree and crop species are confirmed for the Tallowmere region?
 2. Are flax, hemp, dye plants, and other craft crops grown locally or primarily imported?

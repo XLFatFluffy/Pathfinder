@@ -100,7 +100,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Secure dependable water access and repairs without exposing private routes or inviting surface control.  
 **Leverage:** Trust, practical knowledge, and relationships with maintainers.  
 **Limits:** No authority over all ratfolk households; no ability to guarantee community-wide compliance.  
-**PC connection:** May respect the ratfolk PC's concern for his people while remaining skeptical of grand promises that do not protect ordinary households.
 
 ### Tikka Vell
 
@@ -110,7 +109,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Obtain regular stalls and recognized leases for ratfolk businesses.  
 **Leverage:** Customers, craft relationships, and a growing petition network.  
 **Limits:** Cannot force landlords or the Market Guild to agree.  
-**PC connection:** Likely to see the ratfolk PC as a potential ally if he respects the work already being done and does not treat local traders as props in a larger political ambition.
 
 ### Serren Coil
 
@@ -120,7 +118,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Keep trusted routes safe and prevent sensitive passages from becoming common knowledge.  
 **Leverage:** Specific route knowledge and trusted introductions.  
 **Limits:** Does not control all passages or possess a comprehensive map.  
-**PC connection:** Trust must be earned through discretion and respect for household safety.
 
 ### Miraq Ashwhisk
 
@@ -130,7 +127,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Build a stable business with repeat customers and fair contracts.  
 **Leverage:** Craft skill, reliability, and commercial relationships.  
 **Limits:** Has no formal political office and cannot speak for all workshops.  
-**PC connection:** May be a practical source of local information and work opportunities.
 
 ### Vessa Reedtail
 
@@ -140,7 +136,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Ensure any public reform effort includes safeguards for households that cannot afford retaliation or exposure.  
 **Leverage:** Trust among families, memory of local agreements, and ability to coordinate aid.  
 **Limits:** Her influence is personal and neighborhood-based, not a formal office.  
-**PC connection:** Will judge the PC by whether his actions improve ordinary safety, not by his claimed future power.
 
 ### Pellit Quickstep
 
@@ -150,7 +145,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Expand legitimate courier work and earn more reliable income.  
 **Leverage:** Speed, contacts, and familiarity with selected routes.  
 **Limits:** Inexperienced; does not know every passage and may underestimate the risks of disclosure.  
-**PC connection:** Could become an enthusiastic contact, but should not be treated as a reliable source for information beyond personal experience.
 
 ### Dorrik Sootpaw
 
@@ -160,7 +154,6 @@ The groups below are informal networks, not formal guilds or political parties. 
 **Immediate goal:** Organize a refusal to accept exploitative work and force merchants to negotiate openly.  
 **Leverage:** Personal relationships among younger workers and knowledge of salvage labor.  
 **Limits:** No armed following, no citywide mandate, and limited patience for negotiation.  
-**PC connection:** May admire the PC's ambition but could oppose strategies that use ratfolk as expendable instruments.
 
 ## 7. Relationship and political map
 

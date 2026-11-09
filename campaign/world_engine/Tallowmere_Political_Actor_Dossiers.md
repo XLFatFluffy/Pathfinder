@@ -2,7 +2,7 @@
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** Consolidated GM reference based on established records.  
-**Use:** Living World Engine actor profiles. Unknown resources, secrets, and future actions remain unknown.
+**Use:** Legacy GM reference profiles for political actors. Unknown resources, secrets, and future actions remain unknown.
 
 ## House Denvor — TLM-ACT-HOUSE-DENVOR
 
@@ -35,7 +35,7 @@ Hereditary legitimacy, Greywatch, local customary dues, surrounding land, househ
 - Velleran: commercial neighbor and occasional regional partner, not an established enemy.
 - Merewick: separate crossing-charter authority with whom road and traffic coordination is necessary.
 
-### Active engine links
+### Related opening-state issue references
 TLM-ISS-001 through TLM-ISS-007, especially harbor allocation, defense review, and household priorities.
 
 ### Likely responses

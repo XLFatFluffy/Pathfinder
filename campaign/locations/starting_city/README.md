@@ -22,6 +22,7 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 - The current local pressures are indexed in [the Living World issue register](../../world_engine/Initial_Issue_Register.md).
 
 - [Public Life, Neighborhoods, and Entertainment](Public_Life_Neighborhoods_and_Entertainment.md) — established gathering places, local information networks, childhood, leisure, and social belonging.
+- [Communication, Records, and News](Tallowmere_Communication_and_News.md) — local information channels, written communication, records, public announcements, rumor chains, and practical knowledge limits.
 - [Government and Law](Government_and_Law.md), [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md), [Civic Calendar and Seasonal Routines](Civic_Calendar_and_Seasonal_Routines.md), and [Workforce and Daily Life](Workforce_and_Daily_Life.md).
 - [Law in Practice and Local Justice](Law_in_Practice_and_Local_Justice.md) — local roles, complaint pathways, evidence, civil disputes, enforcement limits, and illustrative cases.
 - [Emergency Response and Civic Resilience](Emergency_Response_and_Civic_Resilience.md) — fire, harbor accidents, flooding, medical pressure, warnings, coordination, and recovery limits.

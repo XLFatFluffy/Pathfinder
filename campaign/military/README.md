@@ -4,7 +4,7 @@ This folder contains GM references for the armed institutions, military obligati
 
 ## Current references
 
-- [Continental Military Institutions and Operational Doctrine](Continental_Military_Institutions_and_Operational_Doctrine.md) — Crown and Great House forces, military categories, command authority, vassal obligations, senior commanders, logistics, and the opening military baseline.
+- [Continental Military Institutions and Operational Doctrine](Continental_Military_Institutions_and_Operational_Doctrine.md) — Crown and Great House forces, military categories, command authority, vassal obligations, senior commanders, logistics, and the opening military baseline.\n- [Soldier Life and Military Service](Soldier_Life_and_Military_Service.md) — recruitment, training, garrison routines, equipment, food, service obligations, discipline, campaigning, wounds, veterans, and the human realities of armed service.
 
 ## Record standards
 

@@ -201,7 +201,7 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Orsik Ironworks | Business | ESTABLISHED | Common ironwork, tools, repairs, and commissioned fittings. |
 | Fenna Wale | Person / herbalist | ESTABLISHED | Runs Fenna's Physic Garden near the Lantern Ward hospice. |
 | Fenna's Physic Garden | Business | ESTABLISHED | Herbs, poultices, and mundane remedies. |
-| Miraq Ashwhisk | Person / ratfolk alchemist | ESTABLISHED | Ratfolk alchemist and proprietor of Tallowmere Alchemical Supply; potential professional contact and friend to the ratfolk PC, with relationship to develop through play. |
+| Miraq Ashwhisk | Person / ratfolk alchemist | ESTABLISHED | Ratfolk alchemist and proprietor of Tallowmere Alchemical Supply; independent professional; any personal relationship to a PC must develop through play and depends on the final character concept. |
 | Tallowmere Alchemical Supply | Business | ESTABLISHED | Limited stock of alchemical goods and laboratory supplies. |
 | Elira Pell | Person / merchant | ESTABLISHED | Co-owner of Pell & Daughter with Odran Pell. |
 | Odran Pell | Person / civic officer and merchant | ESTABLISHED | Chief Magistrate; senior partner in Pell & Daughter with his daughter Elira. |
@@ -450,9 +450,9 @@ Use this index before naming a new person, place, house, faction, title, religio
 | Continental Minor Houses and Regional Powers | Campaign reference | ESTABLISHED | First additional network of banner houses, Crown vassals, a dwarven clan, and independent southern powers. |
 | Continental Project Register | Campaign reference | ESTABLISHED | Initial wider-world administrative, commercial, and seasonal projects; progress remains time- and evidence-dependent. |
 | Feudal Law, Land Tenure, and Noble Obligations | Campaign legal framework | ESTABLISHED FRAMEWORK | Working rules for homage, inheritance, courts, land tenure, customary rights, and political consequences; detailed regional customs remain open. |
-| World Event Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index initialized for GM-approved world events; WTR-001 generated no event. |
-| World Turn Ledger | Campaign reference | ESTABLISHED FRAMEWORK | Chronological index for world simulation passes; WTR-001 opening baseline completed on 1 Harvestfall, 243 AC. |
-| World Turn 001 — Opening Baseline | GM-only world-turn report | ESTABLISHED | Zero-time opening snapshot; campaign date remains 1 Harvestfall, 243 AC. |
+| World Event Ledger | Campaign reference | HISTORICAL REFERENCE | Chronological index of GM-established events; WTR-001 generated no event. Not an automated event process. |
+| World Turn Ledger | Campaign reference | RETIRED HISTORICAL RECORD | Preserves the WTR-001 zero-time opening snapshot on 1 Harvestfall, 243 AC. No recurring world-turn process is active. |
+| World Turn 001 — Opening Baseline | GM-only historical snapshot | ESTABLISHED HISTORICAL RECORD | Zero-time opening snapshot; campaign date remains 1 Harvestfall, 243 AC. |
 
 
 ## Tallowmere Ratfolk Networks and NPCs — 2026-11-06

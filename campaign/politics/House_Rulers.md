@@ -67,4 +67,4 @@ These are setting NPCs. They do not establish or alter any player character's id
 - **Maris Merrowen and Durnak Kharadorn:** Maris wants freer navigation; Durnak preserves Kharadorn's dominant strategic position over key routes and naval approaches.
 
 ## Still Unresolved
-Wider family trees and collateral branches; individual Imperial Council representatives; household officers and commanders; exact formal titles and styles; and further relatives or retainers. Expand these when relevant to play.
+Wider family trees and collateral branches; household officers and commanders; exact formal titles and styles; and further relatives or retainers. Current Imperial Council representatives are established separately in `Court_and_Council.md`. Expand remaining details when relevant to play.

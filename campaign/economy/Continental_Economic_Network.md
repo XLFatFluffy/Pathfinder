@@ -2,7 +2,7 @@
 
 **Status:** GM-approved worldbuilding framework  
 **Baseline:** 1 Harvestfall, 243 AC  
-**Purpose:** Convert established Great House economic dependencies and trade routes into a usable world model for the Living World Engine.
+**Purpose:** Explain the continent's established production, trade, finance, and resource dependencies as context for GM decisions.
 
 ## 1. Economic principles
 
@@ -143,9 +143,9 @@ The following places are established as important nodes:
 - **Stormhaven:** southern/eastern maritime node.
 - **Duskport:** independent southern island port.
 
-## 6. Economic dependencies as Living World pressures
+## 6. Structural economic dependencies
 
-The following dependencies should be tracked by the simulator:
+These relationships shape the choices available to houses, merchants, towns, and households. They are structural conditions, not automatic crises or scheduled events.
 
 ### Grain dependency
 Northern and dwarven populations require reliable food imports.
@@ -281,7 +281,7 @@ Tallowmere's local disputes can therefore produce wider effects when they disrup
 - harbor activity;
 - road access.
 
-## 11. Economic simulation rule
+## 11. Economic reference limits
 
 Do not assign precise production quantities, continental prices, or tax totals without an established source.
 
@@ -300,5 +300,5 @@ At 1 Harvestfall, 243 AC:
 - No general currency crisis is established.
 - Normal seasonal trade is assumed.
 - Existing local disputes and projects remain the primary economic pressures.
-- The major structural economic dependencies above are available for future world turns.
+- The structural economic dependencies above are available as context for GM decisions.
 

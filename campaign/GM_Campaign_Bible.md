@@ -47,7 +47,7 @@ The central tone is grounded high-medieval fantasy. Supernatural horror and dang
 
 ### GM-only player-character truths
 
-These are protected campaign facts. They must not be casually exposed through public records, NPC omniscience, or world simulation.
+These are protected campaign facts. They must not be casually exposed through public records, NPC omniscience, or unearned exposition.
 
 **Vampire PC**
 - The character was formerly the nine-year-old Crown Prince of the fallen dragon-riding dynasty.
@@ -233,7 +233,14 @@ Established first network:
 - **House Veylan of Marrowgate:** Southern power.
 - **Duskport Shipmasters' Compact:** Independent maritime compact.
 
-The Longmead boundary dispute between Harrowden and Wrenford is an active, low-intensity dispute over customary grazing and woodland rights. No violence, eviction, seizure, or formal hearing is established. Southern powers are not automatically vassals of a Great House.
+The Longmead boundary dispute between Harrowden and Wrenford is a low-intensity dispute over customary grazing and woodland rights. No violence, eviction, seizure, or formal hearing is established. Southern powers are not automatically vassals of a Great House.
+
+Minor houses are not miniature Great Houses. Their influence usually comes from a manor, local charter, a useful road or crossing, rents, a specialist resource, marriage ties, or a small body of retainers. A minor house may be locally powerful and still be nearly irrelevant to continent-wide policy. A chartered town, guild, clan, or merchant compact can possess meaningful rights without becoming a noble house.
+
+The Tallowmere hinterland includes Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge. Their authority is divided among House Denvor, House Avenholt, the Merewick crossing charter, Saltwick's shore charter and freeholders, and House Velleran. The places have different economic roles: grain and milling, charcoal and woodland work, quarrying, agriculture, river crossing, fishing, and inland market trade. They are not all Denvor possessions.
+
+For named minor houses and regional powers, consult `world_engine/Continental_Minor_Houses_and_Regional_Powers.md` and `world_engine/Regional_Holdings_and_Jurisdictions.md`. Those files are descriptive GM references, not instructions for automatic action.
+
 
 ## 8. History
 
@@ -261,15 +268,73 @@ The dwarven leader who directed the rebellion ruled for more than a century afte
 
 Use `history/Historical_Accounts_and_Uncertainty.md` to separate public, noble, disputed, suppressed, and objective historical accounts.
 
+### How to handle historical accounts
+
+The public account, noble interpretation, scholarly record, suppressed testimony, and objective GM truth may differ. A person may know a version that is widely believed without knowing whether it is accurate. House histories often emphasize sacrifice, lawful inheritance, and the loyalty of ancestors; rival houses may emphasize broken oaths, self-interest, or unlawful ambition.
+
+The GM should preserve the difference between what happened, what was recorded, what was remembered, and what is believed. The surviving Crown Prince's identity and survival remain protected. The old dynasty's original name and the final name of Dragonstone remain unresolved.
+
+
 ## 9. Economy, military, and law
 
 The economy is medieval and regional: land rents, agricultural production, craft guilds, ports, river transport, tolls, charters, credit, and trade. Vaelorian finance and Kharadorn strategic maritime control are important structural influences, but neither controls all commerce. Merchant interests can shape policy through credit, supply, contracts, and access without becoming a sovereign government.
 
 Military power is based on noble obligations, household forces, local garrisons, levies, professional soldiers, ships, fortifications, and conventional siegecraft. Exact Great House force totals and readiness are not established. Do not invent army sizes or naval tonnage. The royal military is distinct from household guards and Great House forces; its exact organization and strength remain unresolved.
 
-Feudal law is governed by homage, land tenure, inheritance, jurisdiction, charters, customary rights, courts, and service obligations. Specific charters and local customs override broad assumptions. Use `politics/Feudal_Law_and_Landed_Obligations.md` for landholding and vassalage, and `world/Law_Justice_and_Crime.md` for ordinary justice, evidence, punishment, and enforcement.\n\nAgricultural production, food supply, livestock, storage, and seasonal work are described in `world/Agriculture_Food_and_Seasonal_Work.md`. Everyday material life, medicine, education, literacy, and travel/communication are covered in the corresponding records under `world/`. These references supply practical context; they do not establish exact prices, yields, literacy rates, weather events, or travel times where those remain unresolved.
+Feudal law is governed by homage, land tenure, inheritance, jurisdiction, charters, customary rights, courts, and service obligations. Specific charters and local customs override broad assumptions. Use `politics/Feudal_Law_and_Landed_Obligations.md` for landholding and vassalage, and `world/Law_Justice_and_Crime.md` for ordinary justice, evidence, punishment, and enforcement.
 
-## 10. Running a responsive world through GM judgment
+Agricultural production, food supply, livestock, storage, and seasonal work are described in `world/Agriculture_Food_and_Seasonal_Work.md`. Everyday material life, medicine, education, literacy, and travel/communication are covered in the corresponding records under `world/`. These references supply practical context; they do not establish exact prices, yields, literacy rates, weather events, or travel times where those remain unresolved.
+
+
+
+### Agriculture, food, and ordinary economy
+
+The continent is primarily agricultural, feudal, maritime, and regional. Grain, livestock, dairy, wool, hides, orchard produce, timber, charcoal, stone, metalwork, and fish support households and trade. The Western Heartlands, Crownlands, and fertile southern lowlands are important food-producing regions. Veyr, Kharadorn, Merrowen, and major cities depend on reliable movement of food from productive regions.
+
+Tallowmere is a regional port and River Vale trade hub, not a continent-scale breadbasket. Millhaven and the Northfields collect grain, flour, oats, and seasonal legumes. Nearby estates provide livestock, dairy, and orchard produce. Saltwick supplies fish; Brackenholt supplies charcoal, firewood, poles, and timber; Stonehollow supplies ordinary building stone. River and coastal shipping connect these producers to wider markets.
+
+A poor harvest does not automatically create famine. Stores, imports, credit, alternative foods, transport, and political decisions shape the outcome. Exact crop varieties, yields, prices, tax totals, and market volumes remain selective and should be established only when relevant. See `world/Agriculture_Food_and_Seasonal_Work.md` and `economy/Continental_Economic_Network.md`.
+
+### Military institutions and warfare
+
+Military power is layered. The Crown maintains a permanent household guard and a distinct royal military force. Great Houses retain their own forces and hereditary military obligations. Local lords may maintain household guards and garrisons; towns maintain watches; vassals provide only the service required by their particular charter or custom.
+
+Kharadorn's established strengths include heavy infantry, elite armored troops, engineers, siege specialists, clan contingents, underground fortifications, and naval forces controlling the Central Inland Sea. Veyr maintains the Northern Watch and mobile Marcher Companies. Vaelorian maintains a compact professional force, skilled archers, and selected mountain garrisons. Edarth's strength rests on a network of landed houses, fortifications, and military obligations. Merrowen's power includes shipping, naval tradition, port defenses, and maritime expertise.
+
+Readiness is not mobilization. Commercial vessels are not automatically warships. A garrison cannot be counted as a free field army without exposing its post. Exact troop totals, fleet sizes, budgets, and readiness remain unresolved. See `military/Continental_Military_Institutions_and_Operational_Doctrine.md`.
+
+### Law, justice, and authority
+
+The legal order is a patchwork of Crown authority, Great House privileges, local lordships, charters, guild rights, customary law, clan agreements, and religious jurisdiction. Law is consequential but not uniform. A charter, local custom, or recognized privilege may define rights that a neighboring jurisdiction does not share.
+
+Local officials and magistrates handle ordinary matters; lordship courts address estate, tenant, and local disputes; liege authority may hear vassal and charter questions; Crown courts act within royal jurisdiction; the Imperial Council handles major inter-house and constitutional matters. Religious courts generally address internal religious matters and do not automatically control secular crime.
+
+Status and wealth affect access to justice. Available remedies may include restitution, fines, forfeiture of privileges, detention, corporal punishment, or capital punishment where local law permits. Do not assume universal trial procedures, a standard penalty schedule, or automatic noble immunity. See `politics/Feudal_Law_and_Landed_Obligations.md` and `world/Law_Justice_and_Crime.md`.
+
+### Medicine, education, and knowledge
+
+Practical medicine is provided through household care, midwives, barber-surgeons, physicians, herbalists, and religious charity. These roles are not interchangeable. Magic is not routine medical infrastructure; clergy are not automatically spellcasters, and a temple cannot be assumed to provide magical healing on demand. Specific local practitioners, endemic diseases, and outbreaks remain open unless recorded.
+
+Literacy is valuable but not universal. Household instruction, apprenticeship, noble tutors, temple learning, commercial numeracy, military training, and specialist scholarship coexist. The Collegium of the Nine Lamps is an established independent scholarly network, not a single university. Its internal ranks, training, governing body, and geographic reach remain unresolved.
+
+See `world/Medicine_Disease_and_Healing.md`, `world/Education_Literacy_and_Knowledge.md`, and `religions/Religion_and_Faith.md`.
+
+### Travel, communication, and information
+
+People travel on foot, horseback, carts, wagons, caravans, rivers, coastal vessels, and inland-sea ships. Roads vary in condition and maintenance. The six major continental corridors are established, but exact courses and surveyed travel times remain subject to map calibration.
+
+Letters, official messengers, merchants, ship crews, temples, scholars, public notices, and local conversation carry information. There is no established universal postal service, passport system, or instantaneous communication network. Rumors may travel faster than verified facts. NPCs know only what they could plausibly learn through their own contacts and circumstances.
+
+See `world/Travel_Communication_and_Information.md` and the relevant regional geography records.
+
+### Natural world
+
+Tallowmere's established habitats include the Northfields, Brackenwood, River Vale and tributaries, Greyback Ridges, Eastern Shore, Siltfen, and settled outskirts. These are working landscapes shaped by farms, mills, woodland management, quarrying, fishing, roads, and human settlement.
+
+The regional wildlife and flora catalogues are substantial GM references but remain proposed species lists. Do not treat every candidate animal or plant as a confirmed local occurrence, assign exact abundance, or create a monster population from a single plausible habitat. No unique magical plant or supernatural ecology is established by the botanical catalogue.
+
+See `creatures/Tallowmere_Regional_Ecology.md`, `creatures/Regional_Wildlife_Catalogue.md`, and `creatures/Tallowmere_Flora_and_Fungi.md`.
+\n## 10. Running a responsive world through GM judgment
 
 The setting exists independently of the player characters. People have duties, ambitions, fears, loyalties, families, work, and limited information. Events can continue while the PCs are elsewhere, but the GM decides what actually happens. There is no automated world simulator, required world-turn procedure, or universal schedule of consequences.
 
@@ -351,7 +416,8 @@ For full detail, consult:
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references.
-- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.\n- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
+- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.\n- `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.\n- `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.
+- `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.
 - `world_engine/` for legacy actor, faction, jurisdiction, rumor, and information-network dossiers; consult them as descriptive references, not operating procedures.
 - `locations/starting_city/` for the full Tallowmere GM dossier.
 

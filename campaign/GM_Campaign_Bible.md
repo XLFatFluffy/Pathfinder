@@ -358,7 +358,7 @@ Military power is layered. The Crown maintains a permanent household guard and a
 
 Kharadorn's established strengths include heavy infantry, elite armored troops, engineers, siege specialists, clan contingents, underground fortifications, and naval forces controlling the Central Inland Sea. Veyr maintains the Northern Watch and mobile Marcher Companies. Vaelorian maintains a compact professional force, skilled archers, and selected mountain garrisons. Edarth's strength rests on a network of landed houses, fortifications, and military obligations. Merrowen's power includes shipping, naval tradition, port defenses, and maritime expertise.
 
-Readiness is not mobilization. Commercial vessels are not automatically warships. A garrison cannot be counted as a free field army without exposing its post. Exact troop totals, fleet sizes, budgets, and readiness remain unresolved. See `military/Continental_Military_Institutions_and_Operational_Doctrine.md`.
+Readiness is not mobilization. Commercial vessels are not automatically warships. A garrison cannot be counted as a free field army without exposing its post. Exact troop totals, fleet sizes, budgets, and readiness remain unresolved. See `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for institutional structure and `military/Soldier_Life_and_Military_Service.md` for recruitment, training, garrison routine, campaigning, and the lived experience of service.
 
 ### Law, justice, and authority
 
@@ -474,7 +474,7 @@ For full detail, consult:
 - `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md`, `Cultures_and_Societies.md`, and `economy/` for detailed social and institutional references.
-- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for the military institutions, force categories, command authority, obligations, and logistics.
+- `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.
 - `world/` for everyday life, agriculture, medicine, education, law, travel, communication, and practical cross-regional systems.
 - `creatures/` for the Tallowmere habitat baseline and proposed ordinary wildlife and flora catalogues.
 - `world/` for everyday life, material culture, medicine, agriculture, education, law, travel, communication, and the practical conditions of ordinary life.

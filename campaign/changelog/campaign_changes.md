@@ -902,3 +902,11 @@
 - Clarified the Brackenholt rights register and added the Brackenwood Charcoal Fellowship and Mara Bellwood's representative role to the settlement record. The Fellowship represents several working families but does not own the woodland or replace Denvor oversight and individual customary rights.
 - Retired remaining “Engine note” headings in `Tallowmere_Political_Actor_Dossiers.md` as GM adjudication notes and quarantined its Relland incident details as provisional legacy PC material.
 - Added the Brackenholt woodland-work dossier to the GM Bible reference index and updated readiness. No species, woodland boundaries, cutting quotas, prices, or new rights were invented.
+
+
+## 9 November 2026 — Tallowmere stable services reconciled
+
+- Audited Tallowmere's stable and animal-service references against the shop inventory, GM dossier, district and route records, and workforce material.
+- Added Brindle & Sons Stables to the Tallowmere-specific section of the animal-husbandry reference, using the established Toman Brindle and Ressa roles, West Gate/caravan-yard location, boarding/feed/tack/horse-trading services, listed stall and long-stay capacity, stock, and asking prices.
+- Distinguished the private House Denvor/Greywatch stables from public boarding services. Clarified that no named public veterinary office, farrier, or complete animal-health roster is established.
+- Linked the stable inventory to the broader animal-husbandry reference. No additional stable, livestock market, animal-service NPC, or local regulation was invented.

@@ -2,15 +2,14 @@
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Visibility:** GM-ONLY  
-**Purpose:** Fast table-side reference for the first session after the opening encounter. This does not create a quest chain or force a route.
+**Purpose:** Fast table-side reference for the first session after the opening encounter. This does not create a quest chain or force a route.  
+**Status:** PROVISIONAL LEGACY PREPARATION. The party level, relationship, troll encounter, Selwick introduction, reward, and companion assumptions must be confirmed against the players' final concepts and the GM's chosen opening before use. The city sandbox and established local pressures remain useful independently of that opening.
 
 ## 1. Opening state
 
-The PCs are two level-five newcomers approaching Tallowmere. They already know and trust one another. They are not established residents and have no assumed local contacts beyond anything in their own completed backstories.
+The legacy opening assumes two level-five newcomers approaching Tallowmere who already know and trust one another. It also assumes a troll attack on Selwick & Company's wagon. These are provisional character and encounter assumptions, not current requirements. Confirm party size, level, prior relationships, route, opening event, and any companion from the final character concepts before using this sequence.
 
-The planned opening is the attack on Selwick & Company's wagon by a troll on the approach road. The encounter remains provisional until the actual character sheets and companion statistics are reviewed.
-
-After the encounter, the campaign becomes a sandbox.
+The city sandbox, local institutions, active pressures, and NPC motivations can be used regardless of which opening the GM ultimately selects. After the party arrives, play remains open-ended.
 
 ## 2. Immediate consequences
 
@@ -112,7 +111,7 @@ The GM may let the players:
 - ignore local politics,
 - or create a problem of their own.
 
-The world engine continues independently. Consequences come from actor choices, information, time, resources, and player actions.
+Tallowmere and the wider setting exist independently of the PCs, but there is no automated world engine, simulation turn, or mandatory escalation procedure. The GM decides which established actors take action as time passes, based on their motives, information, resources, obligations, and the PCs' actions. An ignored issue may remain stable, change quietly, or worsen; it does not automatically advance toward disaster.
 
 ## 9. Table tracking after each meaningful event
 
@@ -132,4 +131,4 @@ Do not record proposed outcomes as history.
 
 ## 10. Opening boundary
 
-The first world turn is already complete as a zero-time baseline on 1 Harvestfall, 243 AC. Do not run another world turn before the campaign begins. The first actual world advance occurs only after in-world time passes at the table.
+The campaign's current opening date is 1 Harvestfall, 243 AC. This is a recorded starting state, not the result of a required world turn. No automated world turn is run before or during play. Advance the calendar as in-world time passes; the GM determines which NPC and faction activities or consequences occur and records only what is actually established.

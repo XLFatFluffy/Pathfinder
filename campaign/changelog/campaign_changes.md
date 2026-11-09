@@ -945,3 +945,12 @@
 - Corrected the troll registry cross-reference so the regional wildlife catalogue is not described as wholly proposed; it contains both established Deep Bracken fauna and proposed candidates elsewhere.
 - Fixed a literal escaped newline in the creature index that had merged the Deep Bracken and River Vale/Siltfen entries.
 - Updated Worldbuilding Readiness to distinguish the five ordinary fauna records, the PREPARED troll encounter, the historical dragon category, and vampirism as a supernatural condition. No new monster population or supernatural ecology was invented.
+
+
+## 9 November 2026 — NPC dossier coverage and identity audit
+
+- Cross-checked the NPC roleplaying collection against Tallowmere's civic officers, shopkeepers, religious leaders, workforce NPCs, regional faction representatives, and information-network contacts. No named NPC was missing a dossier heading in the audited source set.
+- Confirmed the Odran Pell identity explicitly: he is Chief Magistrate and Elira Pell's father/senior partner at Pell & Daughter, one person rather than a duplicate-name NPC. No formal recusal rule is established.
+- Added identity boundaries for similar names (including Ysella/Sella Vane, Odran/Othric Pell, Della/Dannel Rusk, Toman Brindle/Ser Toman Coldmere, and others) so no family or faction relationships are assumed without source support.
+- Removed a duplicated copy of the dossier's roleplaying and continuity standards section.
+- Verified that all repository paths in the dossier's source-record list exist. Updated Worldbuilding Readiness and Development Roadmap.

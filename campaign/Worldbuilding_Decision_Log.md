@@ -239,3 +239,10 @@ The GM also established that each established, permanent temple maintains or des
 
 **Continuity safeguards:** The Collegium of the Nine Lamps remains an independent scholarly network, not a magical academy or wizard-training institution. The reason magical knowledge became rare remains unresolved. The gods' method of granting divine magic remains unresolved. Existing named temple clergy are not silently reassigned as Champions. No individual Champion, magical guild, academy, new magical catastrophe, or specific item price multiplier is established by this decision.
 **Affected records:** GM_Campaign_Bible.md; Canon_Register.md; Current_World_State.md; religions/Religion_and_Faith.md; religions/Religious_Institutions_and_Regional_Practice.md; locations/starting_city/Local_Religion_and_Institutions.md; world/Education_Literacy_and_Knowledge.md; and magic/.
+
+
+### 2026-11-09 — Earlier player-character ambitions and attached hooks quarantined
+**Status:** SUPERSEDED AS CURRENT PC ASSUMPTIONS; RETAINED AS PROVISIONAL LEGACY MATERIAL
+**Decision:** The players are revising their character concepts. Earlier vampire/ratfolk identities, shared history, ambitions, personal incidents, relationship promises, and attached opening hooks are not current campaign facts unless the players confirm them in their final materials. The setting and its NPC communities are to be developed independently of those concepts. Preserve old drafts for possible reuse, but do not build additional hooks or import their character-dependent data as established canon.
+
+**Affected records:** `player_characters/Player_Character_Ambitions.md`, `player_characters/Player_Character_Concepts_and_Opening.md`, `politics/House_Relland_and_the_Merchant_Incident.md`, `database/seed_batch_03_relland.json`, `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`, `locations/starting_city/Selwick_Merchant_Contact.md`, `creatures/Creature_Registry.md`, `creatures/Troll.md`, `history/Campaign_Timeline.md`, and the archived Session One packet.

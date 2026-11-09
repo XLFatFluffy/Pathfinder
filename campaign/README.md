@@ -34,7 +34,7 @@ These governance records remain at the campaign root because they apply across a
 - [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, and religious history.
 - [creatures/](creatures/) — creatures, supernatural phenomena, undead, dragons, monsters, and regional threats.
 - [Table-Side GM Support Protocol](Table_Side_GM_Support_Protocol.md) — workflow for live rules help, improvisation, encounter support, tracking, and post-session database updates.
-- [world_engine/](world_engine/) — legacy actor, issue, project, and world-state records retained for source review and extraction. These are not an automated simulation system and should not be treated as a required GM procedure.
+- [world_engine/](world_engine/) — legacy descriptive GM archive of political actors, minor houses, jurisdictions, institutions, rumors, information networks, and opening-state notes. Automated simulation procedures are retired; do not run world turns.
 - [politics/Feudal_Law_and_Landed_Obligations.md](politics/Feudal_Law_and_Landed_Obligations.md) — working legal framework for landholding, vassalage, inheritance, jurisdiction, and customary rights.
 - [economy/](economy/) — merchants, shops, goods, services, markets, resources, production, and trade.
 - [maps/](maps/) — authoritative map artwork, map metadata, and geographic overlays.

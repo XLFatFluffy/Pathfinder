@@ -459,3 +459,12 @@
 - Reframed the feudal landholding section as GM adjudication guidance rather than a world-engine application procedure.
 - Linked the new reference from the world index and Tallowmere's local government-and-law record.
 - Left detailed regional criminal procedure, evidence rules, appeal rights, and specific penalties unresolved.
+
+
+## 2026-11-09 — Travel, communication, and information reference added
+
+- Added `campaign/world/Travel_Communication_and_Information.md` as a GM reference for foot, mounted, cart, caravan, river, coastal, and inland-sea travel; road infrastructure; stopping places; weather; jurisdiction; messengers; letters; public notices; maps; and information delays.
+- Preserved the six established continental corridors and Tallowmere's local routes without inventing exact geometry or surveyed travel times.
+- Clarified that there is no established universal postal service, passport system, standardized signal code, or omniscient information network.
+- Linked the reference from the world folder index and campaign directory.
+- No new roads, waystations, ports, couriers, travel schedules, or map geometry were created.

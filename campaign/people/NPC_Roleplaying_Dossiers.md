@@ -506,8 +506,144 @@ Odran is the same person named as Elira Pell's father and senior partner in the 
 - **Move her with:** Clear instructions, fair payment, and respect for confidentiality.
 - **Avoid:** Assuming the shop authenticates documents or displays private records.
 
-## Brunna / Jorren and other named shopkeepers
-Where a business is named in the shop register but its proprietor has not been individually established, do not invent a full identity merely to fill the page. Treat those businesses as locations until their proprietor becomes relevant in play. See the roster appendix for unresolved names and aliases.
+## Additional Tallowmere proprietors and service providers
+
+The following people are named in the established shop, medical, and local-service records. Their roles, ancestry where recorded, businesses, and practical responsibilities are canon. Their motives, fears, social methods, voice cues, and suggested alignments below are **GM portrayal guidance**, not additional secret history or immutable canon.
+
+### Della Rusk
+**Role:** Human widow; proprietor of the Copper Ladle, a cooked-food stall near Bellmarket.  
+**Suggested alignment:** Neutral Good (provisional).
+
+- **Wants now:** Keep the stall supplied, serve a steady stream of customers, and make enough from daily trade to support her household.
+- **Wants long-term:** Preserve a reliable business that can continue through seasonal changes and uncertain deliveries.
+- **Fears / avoids:** Spoilage, wasted stock, unpaid credit, and a disruption that leaves her with food she cannot sell.
+- **Contradiction:** She wants to keep meals inexpensive, but rising ingredient costs and irregular deliveries make that harder.
+- **Social method:** Busy, direct, attentive to regulars; she remembers who pays promptly and who needs a little patience.
+- **Pressure response:** Protects the day's stock and her sons' work first, then considers concessions.
+- **Voice cue:** Brisk, practical, not unkind.
+- **Sample line:** “Eat while it's hot. The argument will still be there when the bowl's empty.”
+- **Can be moved by:** Reliable orders, fair payment, and help that reduces waste or secures a delivery.
+- **Do not play as:** A tavern keeper, a political organizer, or a source of unlimited free food. Her two adult sons remain unnamed unless play requires otherwise.
+
+### Hadran Voss
+**Role:** Human leatherworker and harness-maker; proprietor of the Split Hide in the Old Quays.  
+**Suggested alignment:** Lawful Neutral (provisional).
+
+- **Wants now:** Complete repair work to a dependable standard and keep hides, straps, and fittings moving through the shop.
+- **Wants long-term:** Maintain a reputation for durable work among carters, sailors, horse owners, guards, and travelers.
+- **Fears / avoids:** Poor materials being blamed on his workmanship, rushed repairs failing in use, and customers demanding fine work at patchwork prices.
+- **Contradiction:** He values durable goods but must sometimes accept modest repairs for customers who cannot afford replacement.
+- **Social method:** Functional, unsentimental, prefers to inspect an item before promising a price or deadline.
+- **Pressure response:** Explains exactly what can be repaired and refuses to guarantee work beyond the material's condition.
+- **Voice cue:** Plain, measured, focused on wear, fit, and use.
+- **Sample line:** “That strap can be mended. It cannot be made young again.”
+- **Can be moved by:** Clear specifications, fair payment, and customers who understand the limits of damaged material.
+- **Do not play as:** The Castellan Hadrik Voss. Hadran is a separate human leatherworker; the similar surname is established and intentional.
+
+### Toman Brindle
+**Role:** Human stable owner; proprietor of Brindle & Sons Stables outside the West Gate. His daughter Ressa manages the books.  
+**Suggested alignment:** Neutral (provisional).
+
+- **Wants now:** Keep the stalls occupied, the animals fed, and the stable's reputation for practical, dependable care intact.
+- **Wants long-term:** Maintain a stable business through market seasons without taking on animals or clients the yard cannot safely manage.
+- **Fears / avoids:** Sick or mistreated animals, unpaid boarding, and customers who treat a horse as interchangeable cargo.
+- **Contradiction:** He wants to accommodate travelers, but crowding during market weeks can make one more booking a risk to every animal already in the yard.
+- **Social method:** Practical and observant; asks about an animal's condition, temperament, training, and intended use before discussing price.
+- **Pressure response:** Refuses unsafe arrangements and may turn away a customer rather than overfill the stable.
+- **Voice cue:** Calm, plainspoken, more interested in the animal than the owner's status.
+- **Sample line:** “Tell me what the horse does when it's frightened. Then I'll tell you what it's worth.”
+- **Can be moved by:** Honest descriptions, advance payment, and customers who accept that animal health and temperament matter.
+- **Do not play as:** A supplier of warhorses or trained mounts on demand. Such animals are not normally available for casual purchase.
+
+### Ressa Brindle
+**Role:** Human; manages the books and accounts at Brindle & Sons Stables.  
+**Suggested alignment:** Unspecified.
+
+- **Wants now:** Keep boarding, feed, sales, and deposits accurately recorded so the stable knows what it can promise.
+- **Wants long-term:** Be trusted as a capable business manager in her own right, not merely as the stable owner's daughter.
+- **Fears / avoids:** An animal being released on a disputed account, a deposit being misplaced, or a rushed promise creating a loss the stable cannot absorb.
+- **Contradiction:** She is careful with records but works in a business where weather, animal health, and late arrivals can disrupt even a well-kept schedule.
+- **Social method:** Organized, observant, and polite without being easily hurried.
+- **Pressure response:** Checks the ledger before agreeing to a disputed payment or booking.
+- **Voice cue:** Precise, composed, quietly firm.
+- **Sample line:** “I can show you what was paid. I cannot make the date on the receipt say something else.”
+- **Can be moved by:** Clear terms, advance notice, and evidence that a customer will honor an agreement.
+- **Do not play as:** A second stable owner or an independent political actor. Her established responsibility is the stable's accounts.
+
+### Veyra Dane
+**Role:** Half-elf innkeeper and former ship's cook; proprietor of the Blue Heron in the Old Quays.  
+**Suggested alignment:** Neutral (provisional).
+
+- **Wants now:** Keep rooms clean, meals dependable, the guest ledger accurate, and the inn's quieter reputation intact.
+- **Wants long-term:** Attract established sailors, small merchants, visiting factors, and travelers who value a clean bed and predictable service.
+- **Fears / avoids:** Damage to the inn, unpaid accounts, and guests whose conduct makes other customers feel unsafe.
+- **Contradiction:** She wants the Blue Heron to be welcoming, but its limited rooms and higher prices mean she cannot serve every traveler.
+- **Social method:** Observant and courteous; remembers guests, routines, and troublesome behavior without making a show of it.
+- **Pressure response:** Becomes formal, consults the guest ledger, and sets clear limits on what the inn will tolerate.
+- **Voice cue:** Calm, economical, hospitable without false familiarity.
+- **Sample line:** “A room is available. Whether it remains available depends on how you treat the people sleeping beside you.”
+- **Can be moved by:** Respectful conduct, reliable payment, and guests who understand that an innkeeper must protect the whole house.
+- **Do not play as:** A private intelligence broker or a noble salon hostess. The Blue Heron is a working inn, not a secret political club.
+
+### Pellik Sorn
+**Role:** Human former deckhand; proprietor of the Crooked Oar, a working tavern at the New Quays.  
+**Suggested alignment:** Chaotic Neutral (provisional).
+
+- **Wants now:** Keep drink and food moving, benches occupied, and the Watch from having reason to close the place.
+- **Wants long-term:** Make the Crooked Oar a dependable stop for dock laborers, sailors between voyages, and casual crews.
+- **Fears / avoids:** Serious violence, unpaid credit, and a disturbance that drives away the regulars who keep the business alive.
+- **Contradiction:** He accepts a loud, rough atmosphere as part of the tavern's appeal, but must intervene when an argument threatens to become costly violence.
+- **Social method:** Blunt, familiar with working crews, judges people by how they behave toward staff and other patrons.
+- **Pressure response:** Tries to settle a quarrel before it becomes a Watch matter; does not promise protection he cannot provide.
+- **Voice cue:** Loud enough to be heard over the room, plain and unsentimental.
+- **Sample line:** “You can finish the argument outside, or you can finish your drink and go home.”
+- **Can be moved by:** Prompt payment, respect for the staff, and customers who do not turn a cheap meal into a public brawl.
+- **Do not play as:** A criminal boss or a representative of dockside crime. The Crooked Oar is a rough working tavern, not a den of villains.
+
+### Edrin Salk
+**Role:** Human licensed ferryman; operates the Ferryman's Steps in Rivergate.  
+**Suggested alignment:** Lawful Neutral (provisional).
+
+- **Wants now:** Move passengers and small cargo safely across the local river reach and keep his boats in serviceable condition.
+- **Wants long-term:** Preserve the family's crossing business and its standing with regular users.
+- **Fears / avoids:** Unsafe crossings, damaged boats, unpaid fares, and customers who expect him to risk lives for an urgent schedule.
+- **Contradiction:** He earns his living by taking people across the water, but his judgment sometimes requires telling a paying customer to wait.
+- **Social method:** Practical and familiar with local users; asks where a passenger is going, what they carry, and how quickly they need to cross.
+- **Pressure response:** Refuses a crossing when river or weather conditions make it unsafe.
+- **Voice cue:** Matter-of-fact, attentive to current, depth, load, and timing.
+- **Sample line:** “The river is not late. You're early for a crossing it won't give you.”
+- **Can be moved by:** Fair payment, clear cargo information, and customers who respect safety decisions.
+- **Do not play as:** A long-distance river captain or a universal guide to every reach of the River Vale. His operation is local.
+
+### Merra Venn
+**Role:** Halfling? No ancestry is established. Delivery manager and cousin of Ollo Venn at Salt & Root Provisioners.  
+**Suggested alignment:** Unspecified.
+
+- **Wants now:** Coordinate deliveries so bulk orders arrive in the right quantity and condition.
+- **Wants long-term:** Make the provisioner's service dependable enough that shipmasters and caravan leaders return.
+- **Fears / avoids:** Spoiled cargo, missed delivery windows, and customers who change an order after the goods are already in transit.
+- **Contradiction:** She values flexibility for customers but knows that every last-minute change costs time, labor, and money.
+- **Social method:** Organized and brisk; asks for quantities, destinations, deadlines, and who will receive the goods.
+- **Pressure response:** Rechecks the order and offers only what the business can actually deliver.
+- **Voice cue:** Efficient, practical, focused on lists and timing.
+- **Sample line:** “I can change the order. I cannot pretend the first cart has not already left.”
+- **Can be moved by:** Clear orders, reliable payment, and advance notice.
+- **Do not play as:** A second owner or a political figure. Her established work is delivery management. Her ancestry remains unspecified.
+
+### Fenna Wale
+**Role:** Human herbalist and trained healer; proprietor of Fenna's Physic Garden near the Lantern Hospice.  
+**Suggested alignment:** Neutral Good (provisional).
+
+- **Wants now:** Provide useful mundane remedies, poultices, clean bandages, and carefully prepared supplies without making claims beyond what they can do.
+- **Wants long-term:** Maintain a trustworthy practice serving households, sailors, hospice staff, midwives, and cautious travelers.
+- **Fears / avoids:** A customer delaying necessary care because they expect an herb to cure a serious injury, curse, or magical disease.
+- **Contradiction:** She wants people to have access to practical remedies, but her careful warnings can disappoint customers seeking certainty.
+- **Social method:** Attentive and exact; asks what symptoms were observed, how long they have lasted, and what has already been tried.
+- **Pressure response:** Refuses to promise a cure and directs serious cases toward more appropriate care.
+- **Voice cue:** Calm, specific, gently corrective.
+- **Sample line:** “This may ease the swelling. It will not mend the bone.”
+- **Can be moved by:** Honest descriptions, clean preparation, and customers who follow instructions.
+- **Do not play as:** A spellcaster or a substitute for a physician, midwife, or alchemist. Her remedies do not automatically restore hit points or cure magical conditions.
 
 ---
 
@@ -1061,10 +1197,10 @@ The following names appear in established campaign records. Their names and role
 
 | NPC | Established role / source | What is established | Dossier status |
 |---|---|---|---|
-| Harlan Tebb | Reeve / miller contact at Millhaven; Millers' Guild | Mill rights, water, grain processing, river maintenance; referenced rather than duplicated | Expand when regional play requires |
-| Mara Bellwood | Brackenwood Charcoal Fellowship | Woodland rights and fair fuel prices | Needs full personality |
-| Dagna Vale | Stonehollow Quarry Compact | Quarry rights, stone contracts, Quarry Road | Needs full personality; distinct from Dagna Coppervein |
-| Edda Rusk | Saltwick Shore Compact | Fishing grounds, landing rights, net-making, food supply | Needs full personality |
+| Harlan Tebb | Reeve / miller contact at Millhaven; Millers' Guild | Mill rights, water, grain processing, river maintenance | Profile below; complete |
+| Mara Bellwood | Brackenwood Charcoal Fellowship | Woodland rights and fair fuel prices | Profile below; complete |
+| Dagna Vale | Stonehollow Quarry Compact | Quarry rights, stone contracts, Quarry Road | Profile below; distinct from Dagna Coppervein; complete |
+| Edda Rusk | Saltwick Shore Compact | Fishing grounds, landing rights, net-making, food supply | Profile below; complete |
 | Beren Harlowe | General storekeeper | Profile above | Complete |
 | Mara Venn | Tack shopkeeper | Profile above | Complete |
 | Orsik Feld | Smith | Profile above | Complete |
@@ -1077,7 +1213,18 @@ The following names appear in established campaign records. Their names and role
 | Jorren Vale | Weaponsmith | Profile above | Complete |
 | Elira Pell | Scribe/stationer | Profile above | Complete |
 | Odran Pell | Chief Magistrate and senior partner at Pell & Daughter with Elira | One established NPC; civic and commercial roles coexist. No formal recusal rule established. | Complete |
-| Tessa Vale | Jorren Vale's sister; handles first contact at Redoubt Arms | Outgoing, handles customer contact | Needs full personality |
+| Della Rusk | Copper Ladle proprietor | Human widow; runs the food stall with two adult sons | Profile above; complete |
+| Hadran Voss | Split Hide proprietor | Human leatherworker and harness-maker; distinct from Castellan Hadrik Voss | Profile above; complete |
+| Toman Brindle | Brindle & Sons Stables proprietor | Human stable owner; daughter Ressa manages the books | Profile above; complete |
+| Ressa Brindle | Stable accounts | Manages Brindle & Sons Stables accounts | Profile above; complete |
+| Veyra Dane | Blue Heron innkeeper | Half-elf; former ship's cook | Profile above; complete |
+| Pellik Sorn | Crooked Oar tavernkeeper | Human; former deckhand | Profile above; complete |
+| Edrin Salk | Licensed ferryman | Human; local passenger and small-cargo operation | Profile above; complete |
+| Merra Venn | Salt & Root delivery manager | Ollo Venn's cousin; ancestry unspecified | Profile above; complete |
+| Fenna Wale | Herbalist and trained healer | Human; proprietor of Fenna's Physic Garden; not a spellcaster | Profile above; complete |
+| Edda Moss | Midwife and practical healer | Human; independent Lantern Ward practice; not a spellcaster | Profile above; complete |
+| Brother Halen | Lantern Hospice stores clerk | Human; tracks donations, food, blankets, and medicines | Profile above; complete |
+| Tessa Vale | Jorren Vale's sister; handles first contact at Redoubt Arms | Profile below; customer contact and accounts | Complete |
 | Prelate Damas Orrel | Abadar temple | Profile above | Complete |
 | Keeper Lethia Sorn | Pharasma temple | Profile above | Complete |
 | Dawn-Sister Vaela Dorn | Sarenrae house | Profile above | Complete |
@@ -1103,15 +1250,15 @@ The following names appear in established campaign records. Their names and role
 | Pellan Reed | Bargemen's organizer | Profile above | Complete |
 | Sister Alwen | Hospice administrator | Profile above | Complete |
 | Brother Caldus | Shrine keeper | Profile above | Complete |
-| Odran Pell (Chief Magistrate) | Chief Magistrate | Profile above | Complete |
+
 | Reeve Marrec Holt | Town Reeve | Profile above | Complete |
 | Ysella Vane | Harbor Master | Profile above | Complete |
 | Brinna Salk | Watch Captain | Profile above | Complete |
 | Hadrik Voss | Castellan | Profile above | Complete |
 
-### Shop and service proprietors not yet individually characterized
+### Shop and service proprietor coverage
 
-The shop register contains additional named premises and businesses. Do not assume every named business has a separately established proprietor. Current entries to audit against the full shop register include The Copper Ladle, Thread & Thimble, The Split Hide, Brindle & Sons Stables, The Blue Heron, The Crooked Oar, The Ferryman's Steps, Fenna's Physic Garden, and other service entries. Add individual NPCs only where the source names them or where the GM explicitly approves a new creation.
+The named proprietors and recurring service contacts in the current shop and medical records now have individual entries or are covered in the supporting roster. Unnamed family members, staff, clerks, customers, and casual workers remain unnamed. Do not create additional proprietors or personal histories merely to fill every business slot.
 
 ### Unnamed or deliberately unfinalized people
 
@@ -1183,7 +1330,17 @@ Claims the inconsistent glass thickness came from a bad batch rather than carele
 
 ### Edda Moss
 **Role:** Human midwife and practical healer, Lantern Ward. **Suggested alignment:** Neutral Good (provisional).
-Respected for competence and discretion; works with the hospice when needed but maintains an independent practice. Wants patients treated safely and privately. Not a divine spellcaster. **Voice:** “You can tell me the truth now, or you can explain later why you did not.”
+
+- **Wants now:** Provide competent, discreet care to patients who may have few other options, and work with Lantern Hospice when a need exceeds her own practice.
+- **Wants long-term:** Preserve trust with the households she serves and keep practical care accessible without promising what she cannot provide.
+- **Fears / avoids:** A patient withholding important information, unsafe childbirth conditions, and being mistaken for a divine spellcaster or a substitute for every kind of physician.
+- **Contradiction:** She values privacy, but sometimes must persuade a patient or family to seek help beyond what she can safely manage alone.
+- **Social method:** Direct but discreet; asks necessary questions without humiliating people.
+- **Pressure response:** Focuses on immediate safety and gives clear instructions, even when they are unwelcome.
+- **Voice cue:** Firm, calm, practical.
+- **Sample line:** “You can tell me the truth now, or you can explain later why you did not.”
+- **Can be moved by:** Trust, honest information, clean supplies, and practical support for a patient.
+- **Do not play as:** A cleric or a guaranteed source of magical healing. Her exact training beyond midwifery and practical healing is not specified.
 
 ### Kett-of-the-Low-Arch
 **Role:** Ratfolk masonry patcher and passage inspector in the Underways. **Suggested alignment:** Lawful Neutral (provisional).
@@ -1199,7 +1356,17 @@ Notices discrepancies between declared grain loads and actual weights. Recently 
 
 ### Brother Halen
 **Role:** Human hospice stores clerk. **Suggested alignment:** Lawful Good (provisional).
-Meticulous and overworked; tracks donations, food, blankets, and medicines for Sister Alwen. Wants transparent accounts because rumors of favoritism threaten donations. **Voice:** “If the stores are short, we should know before the sick arrive.”
+
+- **Wants now:** Keep accurate accounts of donations, food, blankets, and medicines so Sister Alwen can make decisions with reliable information.
+- **Wants long-term:** Protect the hospice's public trust by ensuring that its limited resources are accounted for and used as intended.
+- **Fears / avoids:** Missing stock, opaque donations, favoritism rumors, and discovering a shortage only when a patient needs something.
+- **Contradiction:** His careful records support the hospice, but his insistence on accounting can seem cold when staff are dealing with urgent human needs.
+- **Social method:** Meticulous, polite, and overworked; prefers a written list to a vague promise.
+- **Pressure response:** Checks the ledger and stores before committing the hospice to a request.
+- **Voice cue:** Quiet, precise, apologetic about limits but firm about quantities.
+- **Sample line:** “If the stores are short, we should know before the sick arrive.”
+- **Can be moved by:** Clear donations, reliable deliveries, and practical help that does not bypass the hospice's needs.
+- **Do not play as:** A clinician or a person with authority to promise treatment. He manages stores and records, not medical decisions.
 
 ## Supplemental minor houses and regional powers
 

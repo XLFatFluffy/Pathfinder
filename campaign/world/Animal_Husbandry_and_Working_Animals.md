@@ -132,7 +132,24 @@ Stable work includes:
 
 A stable hand may know a horse's temperament and habits better than its owner. That knowledge is practical expertise, not merely menial labor.
 
-Tallowmere has established stables and animal-associated spaces, but this does not establish a single central stable service, a citywide animal registry, or a named veterinary office. The scale and ownership of particular yards remain governed by their local records.
+Tallowmere has one explicitly documented commercial stable: **Brindle & Sons Stables**, outside the West Gate beside the caravan yards. It is owned by Toman Brindle, with his daughter Ressa managing the books. Its established services include boarding, feed, tack, and horse trading. The listed opening stock and capacity are:
+
+- 12 day-stabling stalls at 5 sp per day, including ordinary feed;
+- 6 long-stay places at 3 gp per week, with advance payment preferred;
+- 2 light riding horses at 75 gp each;
+- 1 heavy horse at 200 gp;
+- 3 ponies at 30 gp each;
+- 2 mules at 8 gp each;
+- 20 feed portions per day at 5 cp each;
+- 3 saddles at 10 gp each and 2 used riding saddles at 7 gp each.
+
+These are the documented local asking prices and typical availability, not a guaranteed permanent inventory or a universal animal price list. The stable's own record cautions that temperament, health, training, and intended use affect value. Warhorses and trained mounts are not normally available for casual purchase.
+
+House Denvor's Greywatch Rise also contains household and garrison stables. These are part of the noble and defensive compound, not a public boarding service. Their capacity, staffing, and animal inventory are not established.
+
+Brindle & Sons is not a veterinary hospital or a citywide animal market. Toman and Ressa's established roles do not automatically make either a trained physician for animals or a farrier. Tallowmere has no named public veterinary office or complete roster of animal-health specialists.
+
+The city has established stables and animal-associated spaces, but this does not establish a single central stable service, a citywide animal registry, or universal access to every yard. The scale and ownership of particular spaces remain governed by their local records.
 
 ## 5. Animal health and treatment
 

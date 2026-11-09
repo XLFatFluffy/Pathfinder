@@ -1,5 +1,7 @@
 # Campaign Development Roadmap
 
+> **Scope update — 2026-11-09:** The former Living World Engine, automated simulation procedures, and recurring world turns are retired. Historical phases below document work that was once undertaken, not current operating instructions. Actor, issue, project, and political dossiers remain useful GM reference material. The world is advanced through GM judgment, especially across extended downtime. Current priorities are deeper setting lore, usable GM reference material, and a complete Campaign Bible.
+
 **Current milestone:** Prepare and run Session 1 on Sunday, 2026-11-08.  
 **Guiding principle:** Build what play requires first. Expand the wider world as the campaign creates reasons to explore it.
 
@@ -52,12 +54,12 @@
 
 **Phase A exit condition:** calibrated major-place anchors, traced major roads, non-overlapping Great House border drafts, calibrated geographic overlays, and reviewed player-layer promotion.
 
-## Phase B — Political world operations (Nov 6)
+## Phase B — Political and institutional reference framework (completed historical phase)
 
 - Established the Imperial Council's operating rules, voting thresholds, quorum, protected settlement matters, emergency authority, and representative appointment/removal rules in `politics/Imperial_Governance_Operating_Framework.md`.
 - Established the operational distinction between Crown authority, Great House authority, vassal obligations, charter rights, and local jurisdiction.
-- Established a political escalation ladder for the Living World Engine.
-- Confirmed that the six Great Houses should be simulated as internal political networks rather than single undifferentiated actors.
+- Established a political escalation framework as a GM reference; it is not an automated procedure.
+- Documented the six Great Houses as distinct political networks rather than single undifferentiated actors.
 - Reconciled the Council record and open-question register so Council procedure is no longer an unresolved worldbuilding dependency.
 - The existing first continental minor-house network remains the canonical starting network; additional houses should be added only when they create a useful political or economic relationship.
 
@@ -94,7 +96,7 @@
 
 **Phase E status:** CORE HISTORICAL FRAMEWORK COMPLETE. Exact rebellion chronology, original dynasty name, final Dragonstone name, surviving-dragon fate, and deeper post-Rebellion history remain intentional mysteries.
 
-## Phase F — Living World Engine operational baseline (Nov 6)
+## Phase F — Legacy world-state records (retired operating procedure)
 
 - Reconciled the Living World Engine with the completed political, economic, cultural, religious, historical, and minor-house frameworks.
 - Confirmed the actor, issue, project, holdings, event, and world-turn records as the authoritative simulation layer.
@@ -103,7 +105,7 @@
 - Established that future turns advance only when actual in-world time passes or the GM explicitly requests a simulation.
 - Preserved the rule that generated consequences are proposals until GM approval and that actors act from their own information and incentives.
 
-**Phase F status:** OPERATIONAL BASELINE COMPLETE. The engine is ready for the first real time-advancing turn during campaign play.
+**Phase F status:** ARCHIVED. WTR-001 remains a historical opening-state snapshot. No further automated turns are planned or required.
 
 ## Milestone 1 — Stabilize the local campaign (Sessions 1–3)
 - Flesh out the starting city and surrounding region in response to player choices.
@@ -157,7 +159,7 @@ At each meaningful worldbuilding checkpoint and after each session:
 - Do not complete lore merely because a category exists in the repository.
 - Prioritize anything the PCs can encounter, affect, or learn soon.
 - Keep proposals distinct from approved canon.
-- The simulator may suggest events; only GM approval makes them history.
+- The GM determines events and consequences directly; no simulator is used.
 - The high-medieval technology baseline remains in force unless explicitly revised.
 
 
@@ -250,3 +252,8 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 ## Campaign launch readiness checkpoint — 2026-11-06
 
 The core setting, starting region, political actors, first minor-house network, feudal framework, local and continental issues/projects, rumor truth register, ratfolk community networks, calendar, event ledger, and world-turn ledger are ready for the opening baseline turn. See `Worldbuilding_Readiness.md`. The campaign opens on 1 Harvestfall, 243 AC. The first world turn is an opening snapshot and must not advance the calendar. Session One combat balance remains pending the actual PC sheets and companion build.
+
+
+## Current development direction — 9 November 2026
+
+The active work is to deepen the world as a place the GM can understand and portray without relying on automated procedures. Priorities include ordinary ecology and useful plants, economy and trade in daily life, medicine and disease, law and justice, military life, education and literacy, regional customs, and layered history. Expand only where it improves immersion, supports plausible GM decisions, or creates useful material for play. Do not invent filler or force every category to completion.

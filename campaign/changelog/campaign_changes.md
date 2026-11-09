@@ -689,3 +689,9 @@
 - Confirmed that Chief Magistrate Odran Pell is the same person who is Elira Pell's father and senior partner at Pell & Daughter. The name collision is not a second NPC.
 - Updated the Civic NPC record and consolidated the NPC dossier roster into one entry.
 - The dual civic/commercial role is established. No formal recusal rule, conflict-of-interest procedure, or additional legal restriction has been invented.
+
+
+## 9 November 2026 — Tallowmere reference formatting cleanup
+
+- Replaced literal escaped paragraph-break characters with proper Markdown line breaks in `Government_and_Law.md` and `Tallowmere_GM_Dossier.md`.
+- No lore, procedure, NPC identity, or canon status changed.

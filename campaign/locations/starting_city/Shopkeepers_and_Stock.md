@@ -223,7 +223,7 @@ Do not apply arbitrary price changes to punish player success. State the asking 
 | Tailored work shirt | 12 | 3 sp | Better fit than mass-produced clothing |
 | Heavy wool coat | 4 | 3 gp | Seasonal stock |
 
-**Limitations:** Sella does not keep expensive clothing ready-made. Fitting and sewing take time; rush work costs more when her workroom is busy.
+**Limitations:** Sella does not keep expensive clothing ready-made. Fitting and sewing take time; rush work costs more when her workroom is busy. See [Clothing, Textiles, and Personal Adornment](../../world/Clothing_Textiles_and_Personal_Adornment.md) for broader material and regional dress guidance.
 
 ## 11. The Split Hide
 **District:** Old Quays, close to the cart route  

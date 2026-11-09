@@ -821,3 +821,15 @@
 
 - Fixed literal escaped paragraph breaks in `world/Everyday_Life_and_Material_Culture.md` and `creatures/Regional_Wildlife_Catalogue.md` so their headings and sections render as normal Markdown.
 - No creature occurrence, species proposal, or everyday-life canon changed.
+
+
+## 9 November 2026 — GM Bible consolidation and legacy archive retirement cleanup
+
+- Expanded the GM Bible's regional cultural orientation from the six approved culture dossiers, emphasizing that cultural patterns are not personality rules or ancestry stereotypes.
+- Expanded the ordinary-faith summary using `religions/Faith_in_Ordinary_Life.md`, including household practice, rites, charity, instruction, and institutional limits.
+- Added concise Tallowmere foodways and household-comfort context, including the established food businesses, Brackenholt fuel supply, uneven lighting, and the Blue Heron's next-day laundry service.
+- Refined the Kharadorn inland-sea summary: Dragonstone gives Kharadorn a dominant strategic position over the sea and approaches, not blanket sovereignty over every shoreline or port.
+- Retired remaining future-turn procedures in the legacy archive. Preserved the dated WTR-001 opening conditions, minor-house lore, project descriptions, rumor truths, and information channels while removing obsolete PC-specific assumptions from the historical opening snapshot and minor-house/network references.
+- Replaced the active world-turn ledger and report template with explicit historical/retired notices; clarified the event ledger and project reference as descriptive records rather than automated systems.
+- Corrected malformed Markdown in the legacy archive README and removed residual simulation wording from the jurisdiction guide.
+- No map geometry, political borders, PC concepts, or new campaign events were created or changed.

@@ -370,7 +370,7 @@ The legal order is a patchwork of Crown authority, Great House privileges, local
 
 Local officials and magistrates handle ordinary matters; lordship courts address estate, tenant, and local disputes; liege authority may hear vassal and charter questions; Crown courts act within royal jurisdiction; the Imperial Council handles major inter-house and constitutional matters. Religious courts generally address internal religious matters and do not automatically control secular crime.
 
-Status and wealth affect access to justice. Available remedies may include restitution, fines, forfeiture of privileges, detention, corporal punishment, or capital punishment where local law permits. Do not assume universal trial procedures, a standard penalty schedule, or automatic noble immunity. See `politics/Feudal_Law_and_Landed_Obligations.md` and `world/Law_Justice_and_Crime.md`. Tallowmere's local application is detailed in `locations/starting_city/Law_in_Practice_and_Local_Justice.md`.
+Status and wealth affect access to justice. Available remedies may include restitution, fines, forfeiture of privileges, detention, corporal punishment, or capital punishment where local law permits. Do not assume universal trial procedures, a standard penalty schedule, or automatic noble immunity. See `politics/Feudal_Law_and_Landed_Obligations.md` and `world/Law_Justice_and_Crime.md`. Tallowmere's local application is detailed in `locations/starting_city/Law_in_Practice_and_Local_Justice.md`. Emergency response, fire, flooding, harbor accidents, and recovery capacity are covered in `locations/starting_city/Emergency_Response_and_Civic_Resilience.md`.
 
 ### Medicine, education, and knowledge
 

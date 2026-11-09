@@ -73,6 +73,8 @@ The GM records the actual seasonal condition for the campaign when it becomes re
 
 ## Festivals and Observances
 
+For detailed cultural practice, see [Festivals and Observances](Festivals_and_Observances.md). The calendar entries below remain the concise reference; local customs vary by region and community.
+
 These are widely recognized observances. Their local customs may differ.
 
 | Observance | Usual month | General character |

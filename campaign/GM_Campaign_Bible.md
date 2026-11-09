@@ -124,6 +124,43 @@ Established geographic foundations:
 
 Other established major places include Tallowmere, Ironharbor, Deepwatch, Greywatch (the northern Veyr-associated settlement, distinct from Tallowmere's castle), Eastwatch, Deltaport, Stormhaven, and Duskport. The Southern Reaches are politically fragmented, not one unified kingdom.
 
+### Tallowmere — the starting city
+
+Tallowmere is a walled port of approximately 18,000 people on the northwestern shore of the central inland sea, where the navigable River Vale reaches the coast. It is a working port and regional trade hub, not a capital or a continent-scale breadbasket. Its importance comes from the meeting of river traffic, coastal shipping, inland roads, agricultural supply, and local craft and commercial networks.
+
+The city is ruled by **House Denvor**, a respected human minor house whose hereditary lordship is defined by a charter confirmed by House Kharadorn after the Great Rebellion. Lord Oswin Denvor holds local authority under that charter. House Denvor has no automatic Imperial Council seat. Kharadorn retains strategic rights concerning the harbor and inland-sea defense, but this is oversight of specific obligations, not ordinary city government or blanket ownership of every shoreline.
+
+The **Chartered Council** is a seven-seat advisory and negotiating body representing principal commercial, property, craft, and civic interests. It is influential because the city depends on cooperation, but it is not a sovereign legislature or criminal court. Religious institutions have no automatic seat, and ratfolk neighborhoods have no guaranteed separate seat. Ratfolk residents may petition or seek sponsorship, but this access is structurally unequal.
+
+The principal local offices are distinct:
+- **Town Reeve Marrec Holt:** civic administration, records, notices, dues, and petitions.
+- **Chief Magistrate Odran Pell:** delegated civil and criminal hearings, warrants, and judicial proceedings. Odran is also Elira Pell's father and senior partner at Pell & Daughter; this dual role is established, but no formal recusal rule is.
+- **Captain Brinna Salk:** commands the Watch, responsible for ordinary patrols, public order, and arrests.
+- **Harbor Master Ysella Vane:** vessel registration, anchorage, cargo declarations, quay assignments, harbor safety, and fees.
+- **Castellan Hadrik Voss:** Greywatch, the household guard, stores, and defensive readiness. The garrison is not the ordinary street patrol.
+
+Tallowmere's districts have different working and social characters:
+- **Greywatch Rise:** elevated noble and garrison quarter containing Greywatch, House Denvor's fortified seat.
+- **High Ward:** wealthier residences, civic offices, and the Open Ledger temple of Abadar.
+- **Old Quays:** older inner waterfront, maritime trades, the Tideward Shrine, and the Blue Heron inn.
+- **New Quays:** expanded wharves, bulk cargo yards, and rougher working spaces, including the Crooked Oar tavern.
+- **Market Ward:** Bellmarket, guildhalls, shops, moneychangers, scribes, and the Copper Ladle cooked-food stall.
+- **Rivergate:** lower river-facing working quarter with bargemen, mills, carters, landings, and the Denvor Granary.
+- **Lantern Ward:** religious, charitable, healing, and burial institutions, including Lantern Hospice and the House of the Dawn.
+- **The Underways:** a patchwork of subterranean homes, workshops, stores, shared infrastructure, and routes beneath parts of the city. Ratfolk communities are decentralized; the Underways are not one unified settlement or political faction, and the network is not fully mapped.
+
+Tallowmere's livelihood depends on the surrounding region. Grain moves from the Northfields through Millhaven into the city's bakeries and markets. Saltwick supplies fish; Brackenholt supplies charcoal, firewood, poles, and rough timber; Stonehollow supplies ordinary building stone. River and coastal transport connect these places to the city. The region also includes farms, estates, crossings, woodland communities, and smaller settlements. The player-facing baseline assumes that major settlements and fortresses are widely known, but not every minor settlement or private holding.
+
+Public life is distributed rather than centered on one grand square. Bellmarket, the quays, inns, taverns, shrines, temple grounds, workshops, and residential courtyards all serve as meeting places. The Copper Ladle is an inexpensive cooked-food stall; the Blue Heron is a comparatively quiet, respectable inn; the Crooked Oar is a cheap and noisy working tavern. These are different kinds of public space, not moral categories. News travels through merchants, ship crews, civic offices, temples, households, and ratfolk courier and mutual-aid networks. There is no universal postal service or single omniscient information network. Routine Chartered Council agenda notices are posted at Reeve's Hall and the principal market.
+
+The city's care and infrastructure are practical but limited. Lantern Hospice provides charitable care and temporary assistance within its means; Edda Moss is an independent midwife and practical healer; Fenna Wale supplies mundane remedies; Miraq Ashwhisk is a specialist alchemist; the House of the Dawn provides separate religious and charitable assistance. Divine healing is not automatically available. Public wells and pumps, drains, privies, the Old Cistern, and local refuse arrangements serve different districts unevenly. There is no universal sewer network, citywide refuse service, or public-health department. The Denvor Granary is a substantial storehouse for public provisioning and charter obligations, but it does not imply unlimited emergency reserves.
+
+Tallowmere has a Watch, garrison, Harbor Master, Reeve, Chief Magistrate, Master of Stores, charitable institutions, and local networks that respond to danger. It does not have an established professional fire brigade, rescue flotilla, ambulance service, public emergency-management department, or citywide evacuation plan. The Watch House contains holding cells for short-term detention, not a long-term prison. The Old Cistern can be useful during fires and dry periods, but its capacity and allocation are unresolved.
+
+At the campaign opening, **1 Harvestfall, 243 AC**, the city is not under martial law and no citywide disaster is underway. Its active pressures include the harbor allocation dispute, warehouse fire precautions after small fires and near-misses, the expected Northfield harvest, ratfolk market access, quiet discussion of the Denvor household's future, and Kharadorn's strategic review of harbor defenses and charter obligations. These are durable current issues, not mandatory quests or guaranteed escalations. The GM decides how they develop as time passes and as people act.
+
+For the detailed city record, consult `locations/starting_city/Tallowmere_GM_Dossier.md`. The local supporting records cover public life, calendar and seasonal routines, landmarks and routes, law and justice, emergency response, medical care, water and sanitation, household life, shops, services, and individual NPCs.
+
 ### Broad regional character
 
 These descriptions are geographic and cultural orientation, not surveyed borders or exact climate classifications.
@@ -182,8 +219,8 @@ The approved words are canon. Use the dedicated Great House records for heraldry
 - **Designated successor:** Prince Vorgun Kharadorn.
 - **Other figures:** Princess Brynja Kharadorn; Lord Kazrik Kharadorn.
 - **Council representative:** Thane Brokk Ironvein.
-- **Centers:** Dragonstone and the central inland sea; ancestral homeland at Khar-Dum.
-- **Agenda:** Preserve dwarven independence, control of Dragonstone and the inland sea, and freedom from surface interference in clan affairs.
+- **Seat:** Dragonstone. **Ancestral homeland:** Khar-Dum. **Strategic sphere:** the central inland sea.
+- **Agenda:** Preserve dwarven independence, control of Dragonstone, a dominant strategic position in the central inland sea, and freedom from surface interference in clan affairs.
 - **Internal tension:** Vorgun favors stronger military leverage; Brynja favors clan agreements and privileges; Kazrik believes the main branch is too accommodating; Durnak prioritizes unity and survival.
 - **Constraint:** Durnak is a later ruler, not the original post-Rebellion conqueror. Kharadorn's Tallowmere charter role is strategic oversight, not ordinary city government.
 
@@ -360,7 +397,7 @@ A poor harvest does not automatically create famine. Stores, imports, credit, al
 
 Military power is layered. The Crown maintains a permanent household guard and a distinct royal military force. Great Houses retain their own forces and hereditary military obligations. Local lords may maintain household guards and garrisons; towns maintain watches; vassals provide only the service required by their particular charter or custom.
 
-Kharadorn's established strengths include heavy infantry, elite armored troops, engineers, siege specialists, clan contingents, underground fortifications, and naval forces controlling the Central Inland Sea. Veyr maintains the Northern Watch and mobile Marcher Companies. Vaelorian maintains a compact professional force, skilled archers, and selected mountain garrisons. Edarth's strength rests on a network of landed houses, fortifications, and military obligations. Merrowen's power includes shipping, naval tradition, port defenses, and maritime expertise.
+Kharadorn's established strengths include heavy infantry, elite armored troops, engineers, siege specialists, clan contingents, underground fortifications, and naval forces that give the house a dominant strategic position in the Central Inland Sea. This does not imply sovereignty over every shore or adjacent coastal holding. Veyr maintains the Northern Watch and mobile Marcher Companies. Vaelorian maintains a compact professional force, skilled archers, and selected mountain garrisons. Edarth's strength rests on a network of landed houses, fortifications, and military obligations. Merrowen's power includes shipping, naval tradition, port defenses, and maritime expertise.
 
 Readiness is not mobilization. Commercial vessels are not automatically warships. A garrison cannot be counted as a free field army without exposing its post. Exact troop totals, fleet sizes, budgets, and readiness remain unresolved. See `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for institutional structure and `military/Soldier_Life_and_Military_Service.md` for recruitment, training, garrison routine, campaigning, and the lived experience of service.
 
@@ -455,7 +492,7 @@ The dating system is **AC: After the Crowning** and **BC: Before the Crowning**.
 - Seasons are variable and not fixed to month names.
 - The campaign begins on **1 Harvestfall, 243 AC**.
 
-Widely recognized observances include Winter's End, First Planting, Day of the Crown, Highsummer Feast, Harvest Home, Night of Remembrance, and Yearturn. Exact festival dates and many regional customs remain open.
+Widely recognized observances include Winter's End (Thawrise), First Planting (Greenwake), Day of the Crown (Suncrest), Highsummer Feast (Highsun), Harvest Home (Harvestfall), Night of Remembrance (Duskreach), and Yearturn. Tallowmere also observes First Safe Passage, the Weighing of Measures, River Thanks, Names of the Drowned, and the Common Table. The continental calendar is established; exact dates for these local observances and many regional customs remain open.
 
 ## 12. Open decisions and protected unknowns
 

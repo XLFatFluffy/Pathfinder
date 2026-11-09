@@ -860,3 +860,16 @@
 - Added a cross-reference noting that Fenna Wale's dried yarrow stock is established, without inferring local wild distribution, cultivation source, or guaranteed curative effect.
 - Fixed a malformed literal line break in the creature index and updated the readiness and development roadmap records.
 - No new species occurrence, remedy, gathering right, or ecological population was made canon.
+
+
+## 9 November 2026 — PC-concept continuity cleanup
+
+- Updated `history/Campaign_Timeline.md` to preserve the established date and starting city without assuming two level-five PCs or fixed arrival circumstances.
+- Marked the earlier party model in `creatures/Troll.md` as superseded; the CR 5 troll remains a prepared option only, subject to the actual party and GM selection.
+- Removed former ratfolk-PC relationship assumptions from `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`, retaining the networks' own goals, internal differences, and existing civic opportunities.
+- Kept Tavren Selwick and Selwick & Company established while marking the wagon, crew, reward, and opening connection provisional in `Selwick_Merchant_Contact.md`.
+- Generalized possible Miraq Ashwhisk relationships in `Civic_NPCs.md` and `Shopkeepers_and_Stock.md`; clarified provisional Relland-related knowledge in `NPC_Roleplaying_Dossiers.md`.
+- Marked the Relland JSON seed `provisional_legacy` and documented that it is not an active established-canon import. The source incident remains provisional until player confirmation.
+- Reclassified the old vampire DR 5 adjustment as provisional character-specific material, not a universal vampire rule.
+- Updated `Worldbuilding_Decision_Log.md` to mark earlier PC ambitions and attached hooks as superseded current assumptions while preserving their history.
+- No new PC identities, relationships, histories, ambitions, or encounter details were established.

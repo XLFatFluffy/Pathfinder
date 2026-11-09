@@ -561,7 +561,7 @@ Do not fill these gaps just to make the bible look complete:
 For full detail, consult:
 - `Current_World_State.md`, `Canon_Register.md`, `Worldbuilding_Decision_Log.md`, `Open_Questions_Register.md`.
 - `politics/House_Rulers.md`, `politics/Court_and_Council.md`, `politics/Imperial_Governance_Operating_Framework.md`, `politics/Feudal_Law_and_Landed_Obligations.md`.
-- `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Calendar.md`, `history/Holidays_and_Observances.md`, and `history/Campaign_Timeline.md`.
+- `history/World_History.md`, `history/Historical_Accounts_and_Uncertainty.md`, `history/Historical_Memory_in_Ordinary_Life.md`, `history/Calendar.md`, `history/Holidays_and_Observances.md`, and `history/Campaign_Timeline.md`.
 - `geography/` and `maps/` for approved geography, artwork, atlas layer rules, and calibration safeguards.
 - `religions/Religion_and_Faith.md` and `religions/Faith_in_Ordinary_Life.md` for religious doctrine, institutional structure, household worship, rites, charity, and ordinary religious practice; `Cultures_and_Societies.md` and `cultures/` for the detailed Vaelorian, Kharadorn, Edarth, Veyr, Merrowen, and Crownlands culture records. `economy/` contains trade, markets, currency, and commercial institutions, including `economy/Markets_Merchants_Guilds_and_Contracts.md` and `economy/Currency_Coinage_and_Moneychanging.md`.
 - `military/Continental_Military_Institutions_and_Operational_Doctrine.md` for military institutions, force categories, command authority, obligations, and logistics; `military/Soldier_Life_and_Military_Service.md` for the everyday experience of military service.

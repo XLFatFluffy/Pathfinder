@@ -450,3 +450,12 @@
 - Consolidated the established Collegium of the Nine Lamps as the named independent scholarly network, while leaving its ranks, training, governing body, and geographic reach unresolved.
 - Corrected a contradiction in `campaign/religions/Religion_and_Faith.md`, which had described the scholarly tradition's name as unresolved despite the established name in `Cultures_and_Societies.md`.
 - Linked the new reference from the world folder index. No literacy percentages, named schools, new institutions, or language systems were invented.
+
+
+## 2026-11-09 — Law, justice, and crime reference added
+
+- Added `campaign/world/Law_Justice_and_Crime.md` as a cross-regional GM reference for sources of law, jurisdiction, civil disputes, crime, investigation, evidence, hearings, punishment, status, enforcement, and commercial disputes.
+- Used Tallowmere's established civic offices and the approved feudal legal framework as concrete examples without inventing a universal court code.
+- Reframed the feudal landholding section as GM adjudication guidance rather than a world-engine application procedure.
+- Linked the new reference from the world index and Tallowmere's local government-and-law record.
+- Left detailed regional criminal procedure, evidence rules, appeal rights, and specific penalties unresolved.

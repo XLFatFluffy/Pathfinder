@@ -1,7 +1,7 @@
 # Current World State
 
 **Status:** Current GM-approved baseline  
-**Last reviewed:** 2026-11-06
+**Last reviewed:** 2026-11-09
 
 This is a concise navigation and continuity document, not a replacement for the full Campaign Bible.
 

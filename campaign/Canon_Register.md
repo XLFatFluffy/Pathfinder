@@ -193,7 +193,7 @@ This file tracks major setting decisions and their status. It does not replace d
 
 Succession tensions are deliberately distinct: Calderan's cautious heir versus an ambitious princess; Vaelorian traditionalists uneasy about the designated heir; Kharadorn's militaristic heir versus clan-consensus interests; Edarth's recognized heir alongside influential alternatives; Veyr's recognized daughter-heir alongside a popular military son; and Merrowen's ruling dynasty balancing merchant power against traditional maritime nobility. Merchant families can challenge Merrowen policy but do not presently threaten to replace the dynasty.
 
-**Reference:** `politics/House_Rulers.md`. Exact wider family trees, Council representatives, and household officers remain unresolved.
+**Reference:** `politics/House_Rulers.md`. Exact wider family trees and household officers remain unresolved. Council representatives were established separately in Stage 9 and are recorded in `politics/Court_and_Council.md`.
 
 
 ## Stage 9 — Imperial Council and Royal Court (2026-11-04)

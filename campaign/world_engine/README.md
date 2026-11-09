@@ -7,7 +7,7 @@ This folder contains dossiers and notes originally organized for a proposed auto
 
 **Do not run world turns, maintain simulation clocks, or treat these records as instructions for NPC action.** The GM decides what happens based on the campaign's established facts, the passage of in-world time, character choices, and plausible consequences. NPCs have independent lives, but their actions are determined through GM judgment rather than an automated process.
 
-## Useful descriptive references
+## Current cross-folder references\n\n- [Agriculture, Food Supply, and Seasonal Work](../world/Agriculture_Food_and_Seasonal_Work.md) — current reference for food production, livestock, seasonal work, and regional climate context.\n- [Continental Military Institutions and Operational Doctrine](../military/Continental_Military_Institutions_and_Operational_Doctrine.md) — current GM reference for military authority, force categories, and logistics.\n\n## Useful descriptive references
 
 - [Great House Actor Dossiers](Great_House_Actor_Dossiers.md) — established agendas, relationships, internal tensions, and constraints.
 - [Continental Strategic Pressure Register](Continental_Strategic_Pressure_Register.md) — structural political and economic tensions, not active crises.

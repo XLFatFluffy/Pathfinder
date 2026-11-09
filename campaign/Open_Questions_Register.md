@@ -289,9 +289,9 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 **STILL OPEN / SESSION PREPARATION:** The PCs' exact travel route and the troll's encounter site; the troll's suitability after both character sheets are complete; which wagon crew members survive and what cargo is lost or recovered; whether Selwick is personally present in Tallowmere when they arrive; and the exact first scene at the city gates or merchant's warehouse. The responsible house and basic merchant introduction are no longer open questions.
 
 
-## Living World Engine — remaining launch questions (2026-11-06)
+## Legacy opening-state records and remaining regional questions
 
-**ESTABLISHED:** The initial Tallowmere actors, seven local pressures, six local projects, continental strategic pressures, first minor-house network, six continental projects, feudal law framework, event ledger, and world-turn ledger are recorded under `world_engine/`.
+**HISTORICAL REFERENCE:** The initial Tallowmere actors, local pressures and projects, continental strategic pressures, minor-house network, and dated opening snapshot are retained under `world_engine/` as descriptive GM records. The associated event and turn ledgers are historical records, not active simulation databases.
 
 **ESTABLISHED:** The Longmead boundary dispute between Houses Harrowden and Wrenford is a low-intensity customary-rights dispute in the Western Heartlands. It has no violence or mapped boundary.
 
@@ -301,7 +301,7 @@ The initial workforce and daily-life framework is established in `Workforce_and_
 - Detailed regional inheritance customs and the exact legal procedures for challenging or confirming a succession.
 - Specific membership and relative influence of the five court factions.
 - Additional southern treaties, rulers, and jurisdictional boundaries beyond the initial independent powers.
-- **RESOLVED:** WTR-001, the opening world-turn snapshot, was completed on 1 Harvestfall, 243 AC with zero days elapsed. Future turns advance only when in-world time passes or the GM requests a simulation.
+- **HISTORICAL:** WTR-001 records the opening baseline on 1 Harvestfall, 243 AC with zero days elapsed. It remains a reference snapshot; no recurring or automated world turns are planned.
 - Final Session One encounter balance and companion build, pending completed PC sheets and the GM's companion decision.
 
 These are staged development items, not all prerequisites to begin play. Do not attempt to finish every continental border, family tree, or legal custom before Session One.

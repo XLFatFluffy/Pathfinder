@@ -285,7 +285,7 @@ Do not apply arbitrary price changes to punish player success. State the asking 
 | Saddle | 3 | 10 gp | Standard |
 | Riding saddle, used | 2 | 7 gp | Inspected; wear visible |
 
-**Limitations:** Animals are not interchangeable commodities. Temperament, health, training, and intended use affect price. Warhorses and trained mounts are not normally available for casual purchase.
+**Limitations:** Animals are not interchangeable commodities. Temperament, health, training, and intended use affect price. Warhorses and trained mounts are not normally available for casual purchase. See [Animal Husbandry and Working Animals](../../world/Animal_Husbandry_and_Working_Animals.md) for broader guidance on feed, care, animal value, and the limits of local animal services.
 
 ## 14. The Blue Heron
 **District:** Old Quays, overlooking the older harbor  

@@ -220,6 +220,8 @@ Tallowmere's working harbor, market, granaries, stables, cart traffic, inns, and
 
 The Northfields and nearby holdings support agricultural and pastoral work. The regional wildlife catalogue identifies cattle, sheep, goats, pigs, horses, donkeys or mules, chickens, geese, and dogs as plausible farm animals, but it does not confirm a fixed local inventory or specific breeds.
 
+Two additional local service points are established in the settlement record. **Ashcombe Manor** undertakes occasional horse breeding for local use; no breed, herd size, sale schedule, or price is established. **Fordmere** has stables serving travelers alongside its inn, small market yard, and toll office. This establishes traveler accommodation for animals, not a public breeding operation, large livestock market, or named veterinary service.
+
 The Brackenholt record establishes small-scale hunting, trapping, and woodland gathering alongside charcoal, firewood, poles, and timber. It does not establish a local livestock industry or unrestricted woodland grazing. The Siltfen supports limited grazing on firmer ground, but the exact stock, schedule, and rights remain unresolved.
 
 Saltwick's established role centers on fishing and shore trade; do not assume it is a major livestock center without further evidence.

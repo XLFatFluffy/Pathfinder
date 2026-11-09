@@ -379,3 +379,11 @@
 - Added habitat-specific candidate fauna, human and economic relationships, seasonal expectations, field signs, food-web context, animal care, disease cautions, folklore boundaries, and supernatural safeguards.
 - Preserved the catalogue as PROPOSED: plausible species are not confirmed local occurrences, and frequency remains unknown until evidence or explicit GM approval.
 - Linked the catalogue from the creature registry and creature folder index. The established Tallowmere habitat baseline was not changed; no new monster population, migration, livestock crisis, or supernatural ecology was established.
+
+
+## 2026-11-09 — Tallowmere flora and fungi reference added
+
+- Added `campaign/creatures/Tallowmere_Flora_and_Fungi.md` as a proposed GM-only botanical reference for crops, orchards, hedgerows, managed woodland, river margins, quarry scrub, eastern shore vegetation, household gardens, fungi, and useful plant materials.
+- Added practical context for seasonal gathering, woodland rights, craft use, food, and the limits of folk medicine.
+- Kept all species and local uses provisional; no magical plants, definitive botanical distribution, crop yields, or medicinal cures were established.
+- Linked the new reference from the creature and natural-world folder index.

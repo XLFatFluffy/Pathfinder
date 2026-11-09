@@ -536,3 +536,11 @@
 - Added `campaign/economy/Currency_Coinage_and_Moneychanging.md` to establish Pathfinder First Edition coin denominations and practical guidance for cash, large payments, moneychanging, credit, price variation, and monetary disputes.
 - Kept regional coin designs, mints, historical reforms, universal exchange fees, and formal banking institutions unresolved.
 - Linked the reference from the economy index. No new currency names, mints, exchange rates, or monetary institutions were invented.
+
+
+## 2026-11-09 — Tallowmere frontier habitats reconciled with ecology index
+
+- Updated `campaign/creatures/Tallowmere_Regional_Ecology.md` to include the established Siltfen, Outer Eastern Shore, and frontier environments described in `Wilderness_Beyond_Tallowmere.md`.
+- Clarified that the frontier is less continuously worked and protected, not uniformly hostile, and that possible creature lists in the wilderness framework do not establish confirmed populations or lairs.
+- Updated the GM Campaign Bible's natural-world overview and the creature index cross-reference.
+- No species occurrence, frequency, migration, lair, coordinates, jurisdiction, or new geographic feature was canonized.

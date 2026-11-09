@@ -7,6 +7,7 @@ Store Great Houses, minor houses, dynasties, ruling families, titles, succession
 - [The Six Great Houses: Current Rulers and Succession](House_Rulers.md) — approved Stage 8 rulers, immediate families, heirs, and succession tensions.
 - [The Imperial Council and Royal Court](Court_and_Council.md) — approved Stage 9 Council representatives, Crown officers, court factions, and political relationships.
 - [House Relland and the Merchant Incident](House_Relland_and_the_Merchant_Incident.md) — GM-facing minor-house record and the established incident affecting a player character.
+- [Minor Houses and Regional Powers](Minor_Houses_and_Regional_Powers.md) — active GM reference for lesser houses, regional powers, local holdings, and political relationships.
 
 The six Great Houses and their core identities are established: Vaelorian (elven), Kharadorn (dwarven), Edarth (primarily human), Calderan (human ruling dynasty), Veyr (human northern dynasty), and Merrowen (primarily human maritime dynasty). Their broad territories and principal seats are established in Stage 5.
 

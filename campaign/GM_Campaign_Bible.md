@@ -255,7 +255,7 @@ The dwarven leader who directed the rebellion ruled for more than a century afte
 - The former stronghold's final original name is unresolved; “Dragonstone” is a working label.
 - Exact dates of the rebellion, the Crowning, and the postwar reigns are unresolved.
 - Detailed campaign histories, individual house roles, and many named historical figures remain incomplete.
-- No living claimant to the old dynasty is publicly recognized. The surviving Crown Prince is the vampire PC, a GM-only truth.
+- No living claimant to the old dynasty is publicly recognized. One surviving Crown Prince is a GM-only truth; the earlier association of that survivor with a player character is provisional pending confirmation of the revised concepts.
 
 Use `history/Historical_Accounts_and_Uncertainty.md` to separate public, noble, disputed, suppressed, and objective historical accounts.
 

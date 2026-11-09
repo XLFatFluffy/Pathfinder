@@ -1,4 +1,4 @@
-# Great House Strategic and Roleplaying Dossiers — Legacy Reference
+# Great House Strategic and Roleplaying Dossiers — Legacy Descriptive Reference
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** Consolidation of established Great House canon. This file does not create new active plots, secret plans, or military ratings.
@@ -122,7 +122,7 @@ These are established interests and relationships, not active wars:
 - Vaelorian and Merrowen commercial cooperation and competition.
 - Kharadorn's independent status and uneasy peace with the human monarchy.
 
-## World-engine rules for Great Houses
+## GM portrayal and adjudication guidance
 
 - A strategic agenda is not automatically an active project.
 - A ruler's public position, private belief, and actual decision may differ.

@@ -672,3 +672,12 @@
 - Documented complaint pathways, evidence limitations, ordinary civil disputes, Watch response, hearings, remedies, unequal access, and illustrative local cases.
 - Cross-referenced the new guide from the Tallowmere index, Government and Law, Tallowmere GM Dossier, and GM Campaign Bible; updated the Development Roadmap.
 - Kept holding-cell location/capacity, custody and surety rules, appeal procedure, exact penalties, Watch staffing, and full charter wording unresolved. No new legal powers, universal procedures, or fixed sentence tariffs were created.
+
+
+## 9 November 2026 — Tallowmere emergency response and civic resilience
+
+- Added `campaign/locations/starting_city/Emergency_Response_and_Civic_Resilience.md` using the established Watch, garrison, Harbor Master, Reeve, Master of Stores, Old Cistern, hospice, House of the Dawn, and current warehouse-fire dispute.
+- Documented practical response considerations for fires, harbor and river accidents, flooding, injury, temporary shelter, warnings, evacuation limits, and unequal recovery.
+- Distinguished established capacities and current pressures from practical GM portrayal guidance. Preserved the fact that the warehouse fires are small incidents/near-misses, no major warehouse has burned, and their cause is unknown.
+- Cross-referenced the guide from the Tallowmere index, GM dossier, and GM Campaign Bible; updated the Development Roadmap.
+- Did not create a professional fire brigade, rescue flotilla, public emergency department, standardized alarm code, citywide evacuation plan, relief fund, or active disaster. Cistern capacity, stores inventory, response tools, and local procedures remain unresolved.

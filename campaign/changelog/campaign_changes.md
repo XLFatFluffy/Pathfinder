@@ -663,3 +663,12 @@
 - Clarified that Council agenda notices are posted at Reeve's Hall and the principal market, while closed-session matters and private records are not automatically public.
 - Cross-referenced the Tallowmere public-life dossier in the GM Campaign Bible and updated the Development Roadmap.
 - No universal postal service, guaranteed delivery schedule, royal relay network, or new courier group was established.
+
+
+## 9 November 2026 — Tallowmere law in practice
+
+- Added `campaign/locations/starting_city/Law_in_Practice_and_Local_Justice.md` to translate established legal authority and named civic roles into practical table guidance.
+- Clarified the distinct responsibilities of Lord Oswin, Reeve Marrec Holt, Chief Magistrate Odran Pell, Captain Brinna Salk, Harbor Master Ysella Vane, Castellan Hadrik Voss, guilds, community mediators, and Kharadorn's strategic representatives.
+- Documented complaint pathways, evidence limitations, ordinary civil disputes, Watch response, hearings, remedies, unequal access, and illustrative local cases.
+- Cross-referenced the new guide from the Tallowmere index, Government and Law, Tallowmere GM Dossier, and GM Campaign Bible; updated the Development Roadmap.
+- Kept holding-cell location/capacity, custody and surety rules, appeal procedure, exact penalties, Watch staffing, and full charter wording unresolved. No new legal powers, universal procedures, or fixed sentence tariffs were created.

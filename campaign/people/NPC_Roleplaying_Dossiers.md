@@ -616,7 +616,7 @@ The following people are named in the established shop, medical, and local-servi
 - **Do not play as:** A long-distance river captain or a universal guide to every reach of the River Vale. His operation is local.
 
 ### Merra Venn
-**Role:** Halfling? No ancestry is established. Delivery manager and cousin of Ollo Venn at Salt & Root Provisioners.  
+**Role:** Delivery manager and cousin of Ollo Venn at Salt & Root Provisioners. **Ancestry:** Unspecified.  
 **Suggested alignment:** Unspecified.
 
 - **Wants now:** Coordinate deliveries so bulk orders arrive in the right quantity and condition.

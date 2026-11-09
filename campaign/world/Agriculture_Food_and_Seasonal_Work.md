@@ -118,7 +118,7 @@ No specific regional breeds, herd sizes, or annual production totals are establi
 
 ## 5. The work of the agricultural year
 
-The calendar names months, but seasons are variable and do not follow the month names reliably. Agricultural work follows soil, plant growth, weather, labor availability, and local custom.
+The calendar names months, but seasons are variable and do not follow the month names reliably. Agricultural work follows soil, plant growth, weather, labor availability, and local custom. For the regional weather framework and practical effects on work, transport, and household life, see [Weather, Climate, and Seasonal Hazards](Weather_Climate_and_Seasonal_Hazards.md).
 
 ### Preparing land
 

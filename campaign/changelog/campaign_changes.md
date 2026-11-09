@@ -892,3 +892,13 @@
 - Reconciled the reference with established everyday-life, foodways, regional wildlife, medicine, travel, and soldier-life records. It distinguishes broad portrayal guidance from local canon.
 - Linked the reference from the world index, everyday-life, Tallowmere foodways, medicine and disease, GM Campaign Bible, and Worldbuilding Readiness.
 - Exact breeds, herd sizes, prices, disease prevalence, veterinary providers, slaughter rules, and local husbandry customs remain unresolved. No local animal population or epidemic was invented.
+
+
+## 9 November 2026 — Brackenwood and Deep Bracken continuity reconciliation
+
+- Clarified the managed Brackenwood versus older, less-managed Deep Bracken distinction across `Tallowmere_Regional_Ecology.md`, `Wilderness_Beyond_Tallowmere.md`, `Regional_Wildlife_Catalogue.md`, and `Deep_Bracken_Common_Fauna.md`.
+- Confirmed that deer, boar, foxes, badgers, and wolves are established as common animals in the Deep Bracken only; proposed Brackenwood occurrences remain candidates.
+- Clarified that Brackenholt's regular fuel and timber supply is associated with the managed woodland. Intermittent outer-forest charcoal camps do not establish a guaranteed city supply or automatic extension of customary rights.
+- Clarified the Brackenholt rights register and added the Brackenwood Charcoal Fellowship and Mara Bellwood's representative role to the settlement record. The Fellowship represents several working families but does not own the woodland or replace Denvor oversight and individual customary rights.
+- Retired remaining “Engine note” headings in `Tallowmere_Political_Actor_Dossiers.md` as GM adjudication notes and quarantined its Relland incident details as provisional legacy PC material.
+- Added the Brackenholt woodland-work dossier to the GM Bible reference index and updated readiness. No species, woodland boundaries, cutting quotas, prices, or new rights were invented.

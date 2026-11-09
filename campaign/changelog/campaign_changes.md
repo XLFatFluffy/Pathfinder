@@ -756,3 +756,11 @@
 - Rebuilt the authoritative reference index to include the recent Tallowmere local records, the expanded NPC roleplaying dossier collection, the travel/communication framework, ecology references, and the filtered player handout. Removed a duplicated generic `world/` index entry.
 - Updated Worldbuilding Readiness to reflect the established Tallowmere medical network, named shopkeeper/service NPC profiles, and expanded local practical references.
 - Updated the Development Roadmap: the next major task is a section-by-section GM Campaign Bible consistency and usability pass. The structured subject records remain authoritative.
+
+
+## 9 November 2026 — GM Campaign Bible Tallowmere chapter
+
+- Added a dedicated Tallowmere starting-city chapter to the GM Campaign Bible, synthesizing geography, House Denvor's chartered authority, local government, districts, trade dependencies, public life, information channels, medical care, water and sanitation, emergency capacity, current pressures, and player-knowledge boundaries.
+- Reconciled the Kharadorn summary: Dragonstone is the controlled stronghold, Khar-Dum is the ancestral homeland, and the central inland sea is a strategic sphere of influence rather than blanket sovereignty over every shore.
+- Updated the Bible's calendar summary to use the formal holiday names and include Tallowmere's established local civic observances.
+- The new chapter is a study-guide overview; detailed subject records remain authoritative and are linked for deeper reference.

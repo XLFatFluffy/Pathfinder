@@ -1,10 +1,10 @@
 # Tallowmere — Session One GM Readiness Packet
 
-**Prepared:** 2026-11-06 | **Target session:** Sunday, 2026-11-08  
+**Legacy draft prepared:** 2026-11-06 | **Former target session:** Sunday, 2026-11-08  
 **In-world date:** 1 Harvestfall, 243 AC  
 **Player handout:** [Player Starting Handout](../../player_materials/Player_Starting_Handout.md)
 **System:** Pathfinder First Edition | **Format:** Sandbox after the introductory arrival  
-**Status:** GM running packet. Encounter mechanics remain provisional until character sheets and companion build are available.
+**Status:** ARCHIVED PROVISIONAL PREPARATION. This packet assumes earlier vampire/ratfolk concepts and a specific troll opening. Do not use as a current running packet until the players confirm their revised concepts, the session date is set, and the GM approves the encounter.
 
 ## 1. Session One Goals
 

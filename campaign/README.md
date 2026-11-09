@@ -28,7 +28,7 @@ These governance records remain at the campaign root because they apply across a
 - [geography/](geography/) — continent, territories, regions, physical geography, settlements, and geographic references.
 - [locations/](locations/) — location-specific dossiers. The current starting-city collection is in [locations/starting_city/](locations/starting_city/).
 - [history/](history/) — historical foundations, chronology, calendar, and dating conventions.
-- [world/](world/) — everyday life, material culture, medicine, disease, and other cross-regional setting references.
+- [world/](world/) — everyday life, material culture, medicine, disease, agriculture, food supply, seasonal work, and other cross-regional setting references.
 - [politics/](politics/) — Great Houses, dynasties, succession, royal government, court, council, and political incidents.
 - [people/](people/) — NPC biographies, family records, personal relationships, and status histories.
 - [factions/](factions/) — organized political, military, criminal, commercial, scholarly, and other groups.

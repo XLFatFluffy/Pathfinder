@@ -78,7 +78,7 @@ A working person's clothing may show:
 
 Merchants and craftspeople may afford better cloth and more varied dyes. Nobles can afford finer fabrics, embroidery, imported textiles, fur, jewelry, and specialized tailoring. Clothing communicates status, but it also communicates occupation and whether someone has time or money to maintain their appearance.
 
-The exact local names of garments, regional textile patterns, and Tallowmere tailoring customs remain open.
+The exact local names of garments, regional textile patterns, and Tallowmere tailoring customs remain open. See [Clothing, Textiles, and Personal Adornment](../../world/Clothing_Textiles_and_Personal_Adornment.md) for the wider material framework and established local services.
 
 ## 6. Washing and laundry
 

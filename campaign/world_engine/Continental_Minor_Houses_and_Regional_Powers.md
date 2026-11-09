@@ -1,7 +1,7 @@
 # Continental Minor Houses and Regional Powers
 
 **Snapshot:** 1 Harvestfall, 243 AC  
-**Status:** Newly established campaign canon, created under the GM's explicit delegation to develop minor houses, NPCs, and factions.  
+**Status:** GM-approved regional actor reference. Individual holdings remain descriptive and are not surveyed map geometry.  
 **Scope:** First continental layer beyond the six Great Houses and the established Tallowmere network.  
 **Map status:** All holdings are regional descriptions only. No exact borders, coordinates, road traces, or political polygons are established here.
 
@@ -327,22 +327,21 @@ The following actors are deliberately independent of the six Great Houses. Their
 | House Veylan | Independent island lordship | Balancing shipmasters and hereditary harbor rights | Island politics |
 | Duskport Shipmasters' Compact | Independent port association | Open-port privileges vs. outside control | Island commerce |
 
-## 10. Starting-state guardrails
+## 10. Opening-state guardrails
 
-At 1 Harvestfall, 243 AC:
+At the dated baseline of 1 Harvestfall, 243 AC:
 
 - The Longmead boundary dispute is the only new named territorial/customary boundary dispute established by this document. It is local, low-intensity, and not an armed conflict.
 - No Great House war, continental border war, naval blockade, assassination plot, or southern invasion is established.
 - No new alliance among the Southern powers is established.
 - No new house is placed on the map with exact borders or coordinates.
-- No actor knows the vampire PC's identity or survival unless the player establishes otherwise.
-- No actor knows the ratfolk PC survived the Relland incident unless the player reveals it or evidence emerges in play.
-- The first world turn must evaluate the new actors' actual opportunities and actions. It must not automatically escalate the Longmead dispute or any WATCH item.
+- WATCH and UNDERWAY labels describe the recorded opening condition of an actor or effort. They are not clocks, deadlines, or instructions for automatic change.
+- Player-character identities, histories, relationships, and knowledge are outside this regional actor reference. Do not infer any PC-specific connection from these houses unless the players establish it and the GM approves it.
 
-## 11. Next expansion targets
+## 11. Further development
 
-1. Add only those additional houses needed to support actual map regions and local politics.
-2. Develop southern rulers and treaties only when their relationships affect travel, trade, or campaign events.
-3. Add individual NPC dossiers when the PCs encounter them or the engine needs a decision-maker.
-4. Calibrate all holding geometry against authoritative maps before adding atlas polygons.
-5. Review this register after the first several sessions to see which actors matter in play.
+1. Add additional houses only where they support an established region, political relationship, or actual campaign need.
+2. Develop southern rulers and treaties when their relationships materially affect travel, trade, or play.
+3. Add individual NPC dossiers when a person becomes relevant to the campaign.
+4. Calibrate holding geometry against authoritative maps before adding atlas polygons.
+5. Revise this reference when play or an explicit GM decision establishes a meaningful change.

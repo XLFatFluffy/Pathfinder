@@ -257,7 +257,7 @@ Ordinary wildlife is not automatically a vehicle for supernatural clues. In part
 - The planned Session One troll encounter is a specific prepared event, not evidence of a local troll population.
 - No regional magical-beast population, undead ecology, dragon survival, or supernatural migration is established by this catalogue.
 
-## 15. Open decisions and future development
+## 15. Aquatic ecology reference\n\nThe River Vale and Siltfen resource framework is developed in [River Vale and Siltfen — Aquatic Ecology and Working Waters](River_Vale_and_Siltfen_Aquatic_Ecology.md). Fishing in the River Vale, Siltfen fishing and waterfowl gathering, eel and frog resources, and reed cutting are established activities. Exact species beyond those resource categories, fishing methods, seasonal patterns, catch volumes, and rights remain unresolved or proposed as detailed in that record.\n\n## 16. Open decisions and future development
 
 The following should be decided only when they materially affect play:
 

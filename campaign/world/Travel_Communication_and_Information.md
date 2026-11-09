@@ -239,16 +239,57 @@ Established local routes include:
 
 The local settlement record provides approximate journeys to Millhaven, Brackenholt, Stonehollow, Ashcombe Manor, Fordmere, Saltwick, and Harthbridge. These are table-planning estimates, not surveyed map measurements.
 
-Tallowmere's communication channels include:
-- civic notices and official messengers;
-- harbor officials and ship crews;
-- merchants, factors, and warehouse workers;
-- guild meetings and shopkeepers;
-- inns, markets, and public gathering places;
-- temples, clergy, and charitable institutions;
-- the ratfolk community's own local networks and couriers.
+Tallowmere's communication channels are distinct and unevenly connected. The city's established NPC information-network dossier in `world_engine/Tallowmere_NPC_Information_Network.md` records likely channels and their limits; the local public-life reference describes where ordinary conversation takes place. These are descriptive GM references, not a secret organization or automated information system.
 
-These channels are distinct. A harbor official may know which ships arrived; a warehouse clerk may know which cargo was delayed; a ratfolk courier may know which passage is safe; a noble household may know only what its servants or officers have reported.
+### Civic notices and official records
+
+Routine agenda notices of the Chartered Council are posted at Reeve's Hall and the principal market. These notices communicate matters placed on the public agenda; they do not make every petition, council discussion, court matter, or administrative record public. Commercially sensitive disputes, security matters, private petitions, and personnel questions may be heard in closed session.
+
+Reeve Marrec Holt's channels include petitions, notices, civic records, ordinary residents, and merchants. He is a strong source for matters that have reached civic administration, not a universal source for private crimes, Underways affairs, or noble household decisions. Harbor Master Ysella Vane has a narrower but more precise view of shipping, berth allocation, cargo declarations, and practical harbor disruptions. Harbor paperwork is evidence of recorded activity, not proof of criminal intent.
+
+A public notice can be read by literate residents and repeated orally to others. Do not assume every resident sees a notice, understands its legal implications, or receives it at the same time.
+
+### Commercial and regional reports
+
+Merchants, factors, warehouse workers, ship crews, guilds, and carriers exchange information as part of doing business. Their knowledge is often current within their own trade and route, but may be partial or self-interested.
+
+- **Harbor and shipping:** Ysella Vane, captains, crews, quay workers, and harbor paperwork are the strongest local channels for arrivals, berth disputes, cargo movement, and disruptions.
+- **Warehousing and trade disputes:** Meret Sorn and warehouse contacts are likely to hear about storage, fire precautions, labor, credit, and cargo issues. Commercial gossip may be incomplete or strategically framed.
+- **Grain and river traffic:** Harlan Tebb and Millhaven's millers hear from farmers, river carriers, grain merchants, and mill workers. Their strongest knowledge concerns harvests, river levels, milling, and grain movement around Millhaven.
+- **Fuel and woodland work:** Mara Bellwood and Brackenholt workers hear about woodland access, charcoal, fuel buyers, and labor conditions.
+- **Quarry and road work:** Dagna Vale and Stonehollow families hear about stone demand, quarry access, road conditions, and construction labor.
+- **Eastern shore:** Edda Rusk and Saltwick households hear about fishing, nets, coastal conditions, and local shore access.
+
+A merchant's report can be valuable without being neutral. A shipmaster may know that a vessel has not arrived; they may not know whether it was delayed, diverted, seized, or lost.
+
+### Ratfolk community channels
+
+Tallowmere's ratfolk have several overlapping networks, not a single authority or unified intelligence service. Tikka Vell is a public-facing advocate for market access; Miraq Ashwhisk is commercially connected through customers and workshops; Nix-of-the-Cistern prioritizes household safety and trusted routes; Vessa Reedtail is a practical mediator concerned with consent and neighborhood security. Serren Coil and the Underway Couriers provide a route-and-message contact, but their knowledge is bounded by their routes, contacts, and willingness to take a job.
+
+These channels can carry news unavailable to surface officials, especially about particular passages, household concerns, and local safety. They do not grant universal knowledge of the Underways, and no one contact speaks for all ratfolk.
+
+### Religious, household, and informal channels
+
+Temples, clergy, charitable workers, household servants, neighbors, workshops, inns, and public gathering places carry news through repeated personal contact. Their knowledge follows their work and relationships. A temple may hear about illness, bereavement, charity needs, or a dispute brought to its clergy; it does not automatically know private confessions or the affairs of distant temples. A servant may know the routines of one household without knowing its lord's political plans.
+
+The Blue Heron, Crooked Oar, Copper Ladle, Bellmarket, the quays, and neighborhood spaces provide places where information is exchanged. Their patrons and staff do not form a unified rumor network. See [Tallowmere Public Life, Neighborhoods, and Entertainment](../locations/starting_city/Public_Life_Neighborhoods_and_Entertainment.md).
+
+### Letters, couriers, and the limits of delivery
+
+Letters may be carried by household servants, hired messengers, merchants, ship crews, religious travelers, and trusted intermediaries. The Underway Couriers are an established local ratfolk network, but their existence does not imply a universal delivery service. No citywide public postal service, guaranteed delivery schedule, or comprehensive courier registry is established.
+
+A sender must choose a carrier they can reach and trust. The carrier may know the destination but not the contents; a recipient may recognize a seal but not know whether the letter's account is truthful. A letter can be delayed, lost, damaged, intercepted, forged, or opened. These are possibilities, not automatic complications. Most routine messages should arrive unless circumstances give a reason otherwise.
+
+### How to adjudicate what someone knows
+
+For a piece of information, distinguish:
+1. **Observation:** what the person directly saw or heard.
+2. **Record:** what an office, ledger, letter, petition, or notice actually documents.
+3. **Report:** what a trusted or untrusted intermediary told them.
+4. **Inference:** what they believe the facts mean.
+5. **Rumor:** what has been repeated without reliable confirmation.
+
+When a PC asks who would know something, start with the closest relevant channel. Then consider whether the source is accessible, whether they have reason to share, whether confidentiality or self-interest matters, and how long the information has had to travel. Do not make a rumor accurate merely because it is useful to the plot.
 
 The city has no single omniscient information network.
 

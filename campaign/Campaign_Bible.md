@@ -1324,52 +1324,11 @@ Useful campaign tools will include:
 The world should reward curiosity, initiative, alliances, ambition, caution, and experimentation.
 
 18. RETIRED WORLD SIMULATOR CONCEPT — ARCHIVE ONLY
-**RETIRED — DO NOT USE AS AN ACTIVE SYSTEM.** The campaign no longer uses a living World Simulator. The following text is preserved as historical source material only. Current world developments are determined by GM judgment, not automated simulation.\n\nThe earlier campaign draft proposed a living World Simulator concept to help manage the world
-independently of the player characters.
 
-The purpose is to create a setting that continues to develop even when the players are focused on
-their own activities.
+**RETIRED — DO NOT USE.** The former simulator proposal, random event generation, automatic world-turn procedures, and related implementation ideas are no longer part of campaign scope. The GM determines all developments and consequences. This section is retained only as a historical marker; current campaign practice is described in `GM_Campaign_Bible.md` and the legacy records under `world_engine/`.
 
-The simulator should support:
-
-   ·   Advancing the world's calendar.
-   ·   Tracking factions and their objectives.
-   ·   Tracking noble houses and political relationships.
-   ·   Generating potential events through random rolls.
-   ·   Managing developments occurring away from the player characters.
-   ·   Tracking consequences of previous events.
-   ·   Maintaining economic and political changes.
-   ·   Recording rumors and discoveries.
-   ·   Preserving unresolved mysteries.
-
-18.1 Game Master Authority
-The simulator should generate potential developments, not automatically establish canon.
-
-The Game Master reviews generated results and determines what actually happens.
-<PARSED TEXT FOR PAGE: 31 / 40>
-Random events should create opportunities for storytelling rather than dictate the campaign.
-
-18.2 Offline and Privacy Requirements
-The intended system should operate locally and offline without relying on an external API.
-
-The GM's master atlas is private.
-
-Players should only see maps and information they have acquired or been shown.
-
-Maps, shop inventories, and other information should be selectively shared.
-
-The system must distinguish between:
-
-   ·   Established Canon.
-   ·   GM-Only Knowledge.
-   ·   Player-Known Information.
-   ·   Undiscovered Information.
-
-Information known to the Game Master must not automatically become known to the player
-characters.
-
-19. ESTABLISHED CAMPAIGN STARTING POINT
-The campaign begins with two player characters.
+19. PROVISIONAL LEGACY PLAYER CHARACTER AND STARTING-POINT DRAFT
+**PROVISIONAL LEGACY DRAFT — the players are revising their concepts.** The following old starting-point and character material is retained for source history only. Do not treat its party size, level, ancestries, relationships, or personal histories as current until confirmed.\n\nThe earlier draft described two player characters.
 
 Both begin at level 5.
 

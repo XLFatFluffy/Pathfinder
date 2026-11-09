@@ -9,6 +9,7 @@ Store setting-specific creature lore, supernatural phenomena, undead, vampires, 
 - [Continental Ecology and Biogeography](Continental_Ecology_and_Biogeography.md) — continent-wide environmental framework by major region, grounded in established geography and agricultural tendencies; does not establish species inventories.
 - [Tallowmere Regional Ecology](Tallowmere_Regional_Ecology.md) — established habitat baseline and ecology development rules.
 - [Tallowmere Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) — established Deep Bracken fauna plus proposed ordinary wildlife candidates, food webs, seasonal expectations, field signs, and human relationships.
+- [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) — practical GM dossiers for the five established common animals: deer, wild boar, foxes, badgers, and wolves.
 - [Tallowmere Flora and Fungi](Tallowmere_Flora_and_Fungi.md) — proposed crops, orchard and hedgerow plants, woodland and river vegetation, shore flora, useful materials, fungi, and gathering practices.
 - [Wilderness Beyond Tallowmere](../locations/starting_city/Wilderness_Beyond_Tallowmere.md) — established frontier habitats and abandoned sites, with possible threats and resource opportunities that must not be mistaken for confirmed creature occurrences.
 

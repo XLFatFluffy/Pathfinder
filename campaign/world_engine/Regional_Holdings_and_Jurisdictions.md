@@ -80,4 +80,4 @@ These are documented sources of friction or recurring complaints. They are not a
 6. The actual identities and claims of outside fishing crews disputing Saltwick's grounds.
 7. Exact rights and procedures for resolving local boundary, water, woodland, and quarry disputes.
 
-Do not fill these gaps merely to make the map or simulation look complete.
+Do not fill these gaps merely to make the map or reference look complete.

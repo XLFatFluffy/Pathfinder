@@ -109,7 +109,7 @@ These are the only entries registered in this first pass. The list is intentiona
 - **Evidence:** Established campaign history.
 - **Public knowledge:** The former dynasty's use of dragons and the rebellion against its power form part of public history; details vary by source and social position.
 - **Specialist knowledge:** Detailed bonding mechanics and historical numbers may not be universally known.
-- **PC knowledge:** The vampire PC's personal knowledge is determined by his backstory and player choices; do not disclose his identity or private history through this entry.
+- **PC knowledge:** If a player character has a relevant connection to the fallen dragon-riding dynasty, determine personal knowledge from the final backstory and actual discoveries; do not infer identity or private history from this entry.
 - **GM-only truth:** Whether any dragons survived, where they went, and whether the old bond can recur remain unresolved.
 - **Related records:** `../history/World_History.md`, `../politics/` (fallen dynasty records), and the campaign timeline.
 
@@ -118,8 +118,8 @@ These are the only entries registered in this first pass. The list is intentiona
 - **Record ID:** `vampirism`
 - **Status:** ESTABLISHED as a supernatural condition; origins and wider ecology UNKNOWN.
 - **Category:** Undead / supernatural condition.
-- **Pathfinder reference:** Pathfinder First Edition vampire template, with the campaign-approved damage reduction adjustment recorded in the relevant character record.
-- **Rules notes:** The vampire PC uses the full approved vampire template except damage reduction is DR 5, bypassed by silver and magic. Do not assume this exact adjustment applies to every vampire unless the GM confirms it as a universal setting rule.
+- **Pathfinder reference:** Pathfinder First Edition vampire template. Any campaign-specific mechanical adjustment must be recorded for the specific character or NPC to which it applies.
+- **Rules notes:** An earlier player-character draft used the full vampire template with DR 5 bypassed by silver and magic. This is provisional legacy character material, not a universal vampire rule. Do not apply it unless the player confirms the concept and the GM approves the final build.
 - **Known range:** UNKNOWN.
 - **Frequency:** UNKNOWN.
 - **Evidence:** Existing player-character and NPC records establish individual vampires.

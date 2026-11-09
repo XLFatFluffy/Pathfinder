@@ -552,3 +552,12 @@
 - Grounded the framework in the existing geography and agriculture records. It distinguishes environmental tendencies from detailed climate classifications, species inventories, migrations, and supernatural ecology.
 - Linked the reference from the creature index and GM Campaign Bible; updated readiness and roadmap notes.
 - No species ranges, population counts, migration routes, climate normals, disease events, or new geographic features were established.
+
+
+## 2026-11-09 — Tallowmere frontier wildlife and flora expanded
+
+- Extended the proposed wildlife catalogue to cover the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore, using the existing wilderness framework as the geographic authority.
+- Extended the proposed flora reference to cover the same frontier habitats and their practical uses.
+- Kept all new species and plant distributions PROPOSED. Possible Pathfinder threats in the wilderness reference remain distinct from ordinary fauna and confirmed populations.
+- Corrected the wildlife catalogue's section numbering after inserting the frontier material.
+- No species frequency, exact occurrence, migration, lair, harvesting right, or magical ingredient was established.

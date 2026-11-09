@@ -33,7 +33,8 @@ These governance records remain at the campaign root because they apply across a
 - [military/](military/) — armed institutions, command authority, feudal military obligations, logistics, and warfare reference.
 - [people/](people/) — NPC biographies, family records, personal relationships, and status histories.
 - [factions/](factions/) — organized political, military, criminal, commercial, scholarly, and other groups.
-- [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, and religious history.
+- [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, Temple Champions, and religious history.
+- [magic/](magic/) — arcane practice, wizardly learning, patronage, magical craftsmanship, magic-item markets, and the setting's scarcity of magic.
 - [creatures/](creatures/) — creatures, supernatural phenomena, undead, dragons, monsters, and regional threats.
 - [Table-Side GM Support Protocol](Table_Side_GM_Support_Protocol.md) — workflow for live rules help, improvisation, encounter support, tracking, and post-session database updates.
 - [world_engine/](world_engine/) — legacy descriptive GM archive of political actors, minor houses, jurisdictions, institutions, rumors, information networks, and opening-state notes. Automated simulation procedures are retired; do not run world turns.

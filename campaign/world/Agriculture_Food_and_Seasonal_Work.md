@@ -212,6 +212,25 @@ Broad geographic tendencies provide context:
 
 These are broad tendencies, not detailed climate classifications. Exact local weather patterns, crop calendars, flood cycles, and drought histories remain open unless recorded in a regional reference.
 
+### Regional sensitivities at a glance
+
+| Region | Working environmental tendency | Seasonal sensitivities | Limits |
+|---|---|---|---|
+| Northern Wilderness / Frozen Expanse | Severe cold, snow, ice, and exposed terrain | Surface travel, frozen crossings, shelter, and limited forage | The Barrier's builders, purpose, and threats beyond it remain unresolved. |
+| Northern Holds and Pine Marches | Cold uplands, forests, valleys, and frontier settlements | Winter stores, fuel, livestock protection, road maintenance, and long supply routes | Structural grain dependence is established; no current shortage is. |
+| Western Highlands and High Peaks | Mountain and forest country with elevation-driven variation | Pass conditions, snowmelt, slope failures, timber access, and mine access | Do not assume every pass closes in winter. |
+| Green Valleys and Western Forests | Sheltered woodland valleys and productive local land | Rainfall, woodland growth, harvest timing, river levels, and access rights | Local estate and woodland rights remain distinct from sovereign territory. |
+| Western Heartlands / Golden Fields / Riverlands | Temperate agricultural plains and river valleys | Planting, grain harvest, pasture, flooding, and bridge maintenance | No universal yield or flood schedule is established. |
+| Central Crownlands / Royal Basin | Inland river basin, central routes, markets, and administrative centers | River crossings, grain movement, road conditions, and urban provisioning | Exact river network and Crownland boundaries remain subject to review. |
+| Central Inland Sea basin | Large inland waterbody with substantial shipping and coastal settlements | Storms, fog, navigation, port capacity, fishing, and shipping conditions | Sudden storms are known; they are not inherently supernatural. |
+| Northeastern Mountain System / Khar-Dum | High mountains with dwarven surface and subterranean settlements | Surface pass access, mining entrances, supply movement, and mountain weather | Underground communities still depend on food, trade, and access. |
+| Eastern Forests and Eastern Shore | Forested coastal and river country | Coastal storms, timber access, river levels, port conditions, and pilotage | Merrowen's maritime reach does not imply control of every port. |
+| Eastern River Delta / Great Delta | Low-lying branching waterways and coastal wetlands | Flooding, channel changes, silting, navigation, wet-season access, and fishing | Do not invent a specific flood or channel shift without an event. |
+| Southwestern Marches | Arid highlands, dry valleys, plateaus, and oases | Water storage, wells, caravan access, heat, drought, and sudden runoff | Water scarcity is structural; no current drought is established. |
+| Southern Principalities | Fertile lowlands, forests, rivers, and independent cities | Crop cycles, river transport, local flooding, market supply, and harvest labor | Political fragmentation creates local variation. |
+| Southern Islands | Island chains, sheltered harbors, fishing settlements, and maritime principalities | Wind, storms, safe anchorage, fishing seasons, and inter-island transport | No unified island authority or current blockade is established. |
+
+
 ## 10. Tallowmere's opening agricultural context
 
 At 1 Harvestfall, 243 AC:

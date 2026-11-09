@@ -606,3 +606,11 @@
 - Documented practical patient pathways, hospice limitations, childbirth and household care, sanitation vulnerabilities, occupational knowledge, and GM portrayal guidance.
 - Reconciled `campaign/world/Medicine_Disease_and_Healing.md` so the established hospice and named providers are no longer left as entirely unresolved. Exact capacity, staffing, visiting physicians, endemic diseases, and public magical-healing services remain open.
 - Linked the local guide from the world index, GM Bible, readiness record, and roadmap.
+
+
+## 2026-11-09 — Tallowmere water, waste, and street cleanliness documented
+
+- Added `campaign/locations/starting_city/Water_Waste_and_Street_Cleanliness.md` as a GM reference for established public wells, pumps, the Old Cistern, drains, privies, uneven refuse arrangements, district differences, flood risks, and household water practices.
+- Distinguished established infrastructure from plausible household and neighborhood behavior. The Old Cistern remains a specific public resource, not a citywide water network.
+- Documented likely sanitation pressures and disputes without creating an active contamination event, disease outbreak, public-health department, universal sewer, or citywide refuse service.
+- Linked the reference from residential life, medicine, the Tallowmere GM dossier, GM Bible, readiness record, roadmap, and changelog.

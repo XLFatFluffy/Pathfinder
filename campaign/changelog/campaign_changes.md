@@ -954,3 +954,14 @@
 - Added identity boundaries for similar names (including Ysella/Sella Vane, Odran/Othric Pell, Della/Dannel Rusk, Toman Brindle/Ser Toman Coldmere, and others) so no family or faction relationships are assumed without source support.
 - Removed a duplicated copy of the dossier's roleplaying and continuity standards section.
 - Verified that all repository paths in the dossier's source-record list exist. Updated Worldbuilding Readiness and Development Roadmap.
+
+
+## 9 November 2026 — Tallowmere communication and news framework
+
+**Added:** `campaign/locations/starting_city/Tallowmere_Communication_and_News.md`.
+
+**Integrated:** Tallowmere index, Tallowmere GM dossier, GM Campaign Bible, Development Roadmap, and Worldbuilding Readiness.
+
+**What changed:** Applied the established continental travel and communication framework to Tallowmere. Documented local information sources, occupational and institutional knowledge, written letters, civic records, public announcements, rumor transmission, competing accounts, social access to information, and a practical GM method for deciding whether an NPC would know something.
+
+**Canon discipline:** No universal postal service, intelligence organization, censorship office, new courier network, or secret communication system was invented. Existing world-engine information-network material remains a supporting source-review record rather than an automated operating procedure.

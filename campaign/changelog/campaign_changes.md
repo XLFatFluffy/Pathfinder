@@ -653,3 +653,13 @@
 - Connected existing local apprenticeship examples and practical instruction through workshops, commercial houses, scribes, and private tutors.
 - Reaffirmed that Pell & Daughter is a scribal/stationer service, not a school, and that other temples are not automatically educational institutions.
 - Updated the Development Roadmap. No school system, academy, literacy rate, or new named tutor was invented.
+
+
+## 9 November 2026 — Tallowmere communication channels reconciled
+
+- Expanded `campaign/world/Travel_Communication_and_Information.md` with a grounded local account of public notices, civic records, harbor administration, commercial and regional reporting, ratfolk networks, household and religious channels, letters, and courier limits.
+- Integrated established contacts and information boundaries from `campaign/world_engine/Tallowmere_NPC_Information_Network.md` without treating the legacy dossier as an automated system or secret organization.
+- Distinguished observation, record, report, inference, and rumor as separate knowledge categories for GM adjudication.
+- Clarified that Council agenda notices are posted at Reeve's Hall and the principal market, while closed-session matters and private records are not automatically public.
+- Cross-referenced the Tallowmere public-life dossier in the GM Campaign Bible and updated the Development Roadmap.
+- No universal postal service, guaranteed delivery schedule, royal relay network, or new courier group was established.

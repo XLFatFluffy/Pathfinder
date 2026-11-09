@@ -136,11 +136,11 @@ These are possibilities to discover, not mandatory quests.
 
 **Personal ambitions:** The vampire may conceal or reveal his identity, build wealth and influence, investigate Dragonstone, and pursue his dynastic goals. The ratfolk may develop his alchemical talent and pursue greater standing and safety for ratfolk. Neither arc has a predetermined solution or timetable.
 
-## 10. World-State Rhythm
+## 10. Time, Ongoing Pressures, and GM Judgment
 
 At campaign start, harbor negotiations continue, warehouse safety measures are debated, harvest expectations remain uncertain, ratfolk market access is unresolved, Kharadorn's defense review is underway, and merchant credit/supply disputes remain private and fragmented.
 
-When several days pass, update negotiations, deliveries, stock, and NPC activity. Ignored problems progress plausibly, not automatically toward disaster. PC interventions can alter outcomes. Do not preserve a planned result against player action.
+When several days pass, consider whether negotiations, deliveries, stock, and NPC activity would plausibly change. This is GM adjudication, not an automated simulation or mandatory world turn. Ignored problems do not automatically escalate. PC interventions can alter outcomes. Do not preserve a planned result against player action.
 
 ## 11. Practical GM Standards
 
@@ -172,6 +172,6 @@ When several days pass, update negotiations, deliveries, stock, and NPC activity
 
 ## 13. Detailed Reference Records
 
-Consult the existing records for full detail: City Overview; Government and Law; Guilds and Commerce; Guild Membership and Trade Rules; Commercial Property and Premises; Faction Relationships and Local Power; Current Situation and Rumors; Civic NPCs; Shopkeepers and Stock; Merchant Relationships and Supply Lines; Merchant Personalities and Disputes; Workforce and Daily Life; Residential Life and Housing; Streets, Landmarks and Routes; Regional Settlements and Landholders; Regional Geography and Points of Interest; Wilderness Beyond Tallowmere; History and Local Memory; Ratfolk Underways; Faith and Temples; Local Religion and Institutions; Crime and Informal Power; Surrounding Region; Selwick Merchant Contact; and Player Character Concepts and Opening.
+Consult the existing records for full detail: City Overview; Government and Law; Law in Practice and Local Justice; Chartered Council and Civic Procedure; Emergency Response and Civic Resilience; Current Situation and Rumors; Civic NPCs; NPC Roleplaying Dossiers; Shopkeepers and Stock; Merchant Relationships and Supply Lines; Merchant Personalities and Disputes; Workforce and Daily Life; Residential Life and Housing; Public Life, Neighborhoods, and Entertainment; Medical Care in Tallowmere; Water, Waste, and Street Cleanliness; Household Comfort, Fuel, and Winter Preparation; Foodways of Tallowmere and Its Hinterland; Travel, Roads, Shipping, and Communication; Regional Settlements and Landholders; Regional Geography and Points of Interest; Wilderness Beyond Tallowmere; History and Local Memory; Ratfolk Underways; Faith and Temples; Local Religion and Institutions; Crime and Informal Power; Surrounding Region; Selwick Merchant Contact; and Player Character Concepts and Opening. The legacy PC concepts and troll/Selwick opening remain provisional.
 
 The companion's final concept and mechanics remain in the separate companion record and must be confirmed before the encounter is finalized.

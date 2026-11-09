@@ -1,3 +1,125 @@
+# GM Campaign Bible — Master Reference
+
+**Visibility:** GM-ONLY  
+**Snapshot:** 1 Harvestfall, 243 AC  
+**Ruleset:** Pathfinder First Edition  
+**Status:** Consolidated GM reference; dedicated source records remain authoritative for detailed mechanics and canon.  
+**Prepared:** 6 November 2026
+
+> This is the working GM-facing guide to the campaign's current world. It consolidates the setting's operating assumptions and points to the detailed records. It does not replace those records. When a detail conflicts, apply the canon hierarchy below.
+
+## 1. Canon control and how to use this bible
+
+### Canon hierarchy
+
+1. Explicit GM decisions in conversation.
+2. Latest approved stage, decision log, and current GM-approved change.
+3. Latest dedicated lore or rules reference for the subject.
+4. `campaign/Current_World_State.md`.
+5. This consolidated guide and the older imported `Campaign_Bible.md`.
+6. Unapproved proposals and brainstorming.
+
+A later approved decision supersedes an earlier statement. The imported 40-page `Campaign_Bible.md` contains legacy wording and unresolved-topic lists that have since been superseded. It is preserved source material, not the sole authority. Do not reintroduce discarded names, old descriptions, or old claims that the setting is unrelated to Westeros.
+
+### Status labels
+
+- **ESTABLISHED:** Approved campaign fact.
+- **APPROVED FRAMEWORK:** Direction and operating structure accepted; some details remain open.
+- **PROVISIONAL:** Prepared for possible use, but not locked.
+- **UNRESOLVED:** Do not fill in without evidence or a GM decision.
+- **GM-ONLY:** Not player-facing unless deliberately revealed.
+
+### Campaign premise
+
+The setting is an original fantasy world built around the political and dynastic framework of Westeros / *Game of Thrones*, using Pathfinder First Edition for its rules, gods, ancestries, classes, monsters, spells, and equipment. It is not Golarion and is not a direct copy of Westeros. Tallowmere is the campaign's starting city, not the entire setting. The campaign is intended to support noble politics, feudal obligations, personal ambitions, exploration, trade, military conflict, and a living world that responds to player choices.
+
+The central tone is grounded high-medieval fantasy. Supernatural horror and dangerous wilderness exist, but they support rather than replace the political and social campaign.
+
+## 2. Current campaign state
+
+- **Date:** 1 Harvestfall, 243 AC.
+- **Starting location:** Tallowmere, on the northwestern shore of the central inland sea.
+- **Campaign focus:** The setting is being developed independently of the player characters. The first region is prepared, but the wider world is not built around assumed PC choices.
+- **Player concepts:** The players are revising their character concepts. Do not assume the previous vampire/ratfolk pairing, ancestries, classes, levels, relationships, private histories, or personal ambitions are current until the players confirm their final concepts and supply authoritative sheets and backstories.
+- **Opening structure:** A roadside encounter involving a troll and a Selwick & Company wagon has been prepared as a possible opening. Its route, location, composition, reward, and encounter balance remain subject to the final party and GM approval.
+- **Companion:** A companion concept has been discussed, but identity, statistics, equipment, role, and approval remain undecided.
+- **Historical opening snapshot:** WTR-001 is retained as a dated zero-time reference on 1 Harvestfall, 243 AC. It is not a recurring simulation procedure.
+
+### Player-character preparation boundary
+
+Earlier player-character concepts, personal secrets, family incidents, and related hooks remain preserved in the GM-only `player_characters/` records and any linked supporting files. Treat those materials as provisional legacy concepts, not current campaign facts, until the players confirm what they are keeping.
+
+Until the concepts are locked:
+- Do not build new NPCs, factions, conspiracies, political claims, or setting history around an assumed PC backstory.
+- Do not expose or use old PC secrets as active campaign facts.
+- Do not assign character-specific knowledge, allies, enemies, or obligations.
+- Do not finalize encounter balance, treasure, companion mechanics, or personal hooks.
+- Continue developing the setting, its institutions, cultures, geography, and ordinary people independently.
+
+When the final character sheets and backstories arrive, reconcile them against the preserved material. Keep what the players confirm, revise what they change, and leave the rest archived rather than forcing the characters into old plans.
+
+## 3. World foundations
+
+### Technology and everyday life
+
+The technological baseline is high medieval: fortified stone keeps, walled towns, hereditary nobility, knights, sworn retainers, household guards, levies, conventional armies, sailing vessels, horse transport, agriculture, guilds, and skilled craft production. There is no industrial or steampunk technological culture. Alchemy exists as specialized Pathfinder-based knowledge and craft; it does not imply industrialization.
+
+Magic is real but uncommon in everyday life. Arcane spellcasters are rare, divine spellcasters are also uncommon, and the average person may live their entire life without seeing a spell cast. Magic item creation is rare because the required talent, knowledge, and materials are uncommon. Player-character spellcasting still follows Pathfinder rules; social rarity does not rewrite mechanics.
+
+### Ancestries and societies
+
+- Humans dominate much of the continent.
+- Elves possess a major political power through House Vaelorian.
+- Dwarves maintain an enduring, relatively compact empire composed of independent clans united under the main branch. It has never collapsed. The main branch is said to descend from Torag himself. Dwarves primarily inhabit mountains and underground settlements; they rarely live in conventional surface stone-built settlements. Their cultural pride favors reproduction only with other dwarves, a cultural choice rather than biological incompatibility.
+- Ratfolk are naturally subterranean and live in decentralized networks rather than one unified people or government. Prejudice against them is widespread across surface societies, but it is not universal. Ratfolk are not inherently criminal, evil, diseased, or hostile.
+- Other Pathfinder ancestries may exist. None is automatically designated rare or uncommon by default.
+
+### Society and ordinary life
+
+The continent is feudal, agricultural, commercial, and socially unequal. Most people live through household labor, farming, animal care, craft, fishing, transport, service, or trade. Noble status brings rights and obligations, but wealth, office, guild privilege, religious standing, and commercial access can also create influence.
+
+A person's life is shaped by household, land, work, family, faith, local custom, and the authority that claims jurisdiction over them. A tenant farmer, freeholder, guild apprentice, merchant factor, household servant, sailor, soldier, and noble heir do not experience the same opportunities or risks.
+
+Literacy is valuable but not universal. People learn through households, apprenticeship, temples, noble tutors, commercial practice, military service, and specialist scholarship. Practical knowledge is not inferior to book learning: a farmer may understand soil and seasons better than a court scholar, while a merchant clerk may understand contracts and accounts better than a landed knight.
+
+For detailed everyday patterns, see `world/Everyday_Life_and_Material_Culture.md`. Education and access to knowledge are covered in `world/Education_Literacy_and_Knowledge.md`.
+
+### Religion
+
+The Pathfinder gods are real. The continent broadly recognizes the Pathfinder pantheon, but worship varies by region, culture, institution, and individual. There is no single supreme religious authority over all faiths. Major faiths maintain independent hierarchies. Clergy and divine spellcasters are not interchangeable; a priest may conduct rites, education, charity, records, or mediation without casting spells.
+
+The Religious Establishment has a recognized and growing presence at the royal court but no automatic Imperial Council seat. An independent scholarly tradition exists outside religious hierarchies, though it may cooperate with them. The exact mediation of divine magic, major institutional hierarchies, religious courts, and the legal role of religion in marriage, inheritance, coronation, and secular law remain open.
+
+## 4. Geography and the wider world
+
+### Continental scale and major features
+
+The continent's approved working dimensions are approximately 1,700 miles north to south and 1,300 miles east to west at its widest point, making it smaller than Westeros. It contains a central inland sea that shapes trade, naval power, and the strategic importance of Dragonstone.
+
+Established geographic foundations:
+- A large central inland sea.
+- Dragonstone, an island stronghold connected to the mainland by a narrow natural land bridge.
+- A GM-only dwarven underground route to Dragonstone. It is not known to ordinary actors and must not be inferred by player-facing map content.
+- Khar-Dum, the Kharadorns' ancestral homeland in the northeastern mountains.
+- Broad Great House territorial regions and the major seats listed below.
+- A harsh, sparsely populated northern wilderness beyond settled territories.
+- The Frozen Expanse beyond the Ancient Barrier. Its builders and original purpose are unknown; House Veyr maintains surviving portions.
+
+**Map discipline:** Do not invent exact borders, coordinates, route alignments, travel times, or political polygons. The authoritative artwork and calibrated atlas layers govern visual placement. Regional descriptions are not surveyed geometry. Political regions should not overlap unless a specific condition such as occupation or war justifies it. General geographic regions may overlap.
+
+### Major places and seats
+
+| Power | Principal seat / center | Broad role |
+|---|---|---|
+| House Calderan | Valedorn | Inland capital and Imperial Seat |
+| House Vaelorian | Aurelith | Western Highlands; finance and commerce |
+| House Kharadorn | Dragonstone; ancestral Khar-Dum | Dwarven empire, central inland sea, strategic maritime position |
+| House Edarth | Stoneguard | Western Heartlands; landed and martial power |
+| House Veyr | Frosthold | Northern Marches and frontier defense |
+| House Merrowen | Tidemark | Eastern coast and maritime power |
+
+Other established major places include Tallowmere, Ironharbor, Deepwatch, Greywatch (the northern Veyr-associated settlement, distinct from Tallowmere's castle), Eastwatch, Deltaport, Stormhaven, and Duskport. The Southern Reaches are politically fragmented, not one unified kingdom.
+
 ### Broad regional character
 
 These descriptions are geographic and cultural orientation, not surveyed borders or exact climate classifications.

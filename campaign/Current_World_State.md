@@ -278,3 +278,12 @@ WTR-001 was completed as an approved opening-state snapshot with zero days elaps
 ## Worldbuilding scope clarification — 2026-11-09
 
 The former Living World Engine and automated world-turn system are retired from campaign scope. The setting remains a responsive world, but all developments, including consequences of long periods of downtime, are determined by GM judgment rather than automated simulation. The records under `world_engine/` are retained as a legacy archive of NPC dossiers, political context, local institutions, rumors, and opening-state notes. They are reference material, not instructions to run turns or advance events.
+
+
+## 2026-11-09 — PC-dependent Tallowmere preparation quarantined
+
+- Marked the earlier PC ambitions, House Relland incident, related Relland NPC portrayals, and Selwick wagon/troll encounter packet as provisional legacy material pending player confirmation.
+- Kept House Relland's separate minor-house identity and the wider Tallowmere ratfolk community intact; only the PC-dependent incident and its attached portrayals were reclassified.
+- Added explicit warnings to the Tallowmere GM dossier and Session One packet so older character assumptions are not mistaken for current campaign facts.
+- Updated the names index and NPC dossier collection to distinguish established local people and institutions from provisional PC-hook and encounter material.
+- No new PC-specific hooks were created.

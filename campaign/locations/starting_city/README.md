@@ -13,6 +13,7 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 - [History and Local Memory](History_and_Local_Memory.md) — local historical record and remembered events.
 - [Surrounding Region](Surrounding_Region.md) — regional overview.
 - [Regional Geography and Points of Interest](Regional_Geography_and_Points_of_Interest.md), [Regional Settlements and Landholders](Regional_Settlements_and_Landholders.md), and [Wilderness Beyond Tallowmere](Wilderness_Beyond_Tallowmere.md) — regional travel, settlement, and wilderness references.
+- [Brackenholt: Woodland Work, Charcoal, and Customary Rights](Brackenholt_Woodland_Work_and_Charcoal.md) — local charcoal production, woodland labor, customary access, and the Burners' Green.
 - [Streets, Landmarks, and Routes](Streets_Landmarks_and_Routes.md), [City Layout and Defenses](City_Layout_and_Defenses.md), and [Residential Life and Housing](Residential_Life_and_Housing.md) — urban geography and daily spaces.
 
 ## Local institutions and power

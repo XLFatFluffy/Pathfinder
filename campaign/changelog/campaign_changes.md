@@ -524,3 +524,9 @@
 - Added `campaign/military/Soldier_Life_and_Military_Service.md` as a GM reference for recruitment, training, garrison routines, equipment, food, service obligations, discipline, campaigning, wounds, veterans, and the human realities of armed service.
 - Kept force totals, pay scales, universal service terms, ranks, and local military procedures unresolved unless supported by existing records.
 - Linked the new reference from the military index. No new units, deployments, wars, or military obligations were established.
+
+## 2026-11-09 — Markets and commercial life expanded
+
+- Added `campaign/economy/Markets_Merchants_Guilds_and_Contracts.md` covering commercial roles, markets, guilds and craft associations, quality and measures, contracts, credit, transport risk, ports, merchant reputation, fraud, and commercial influence.
+- Distinguished established continental trade relationships from proposed local commercial practices. No universal guild structure, weights and measures, contract code, market schedule, tariff, price, or insurance system was established.
+- Linked the new GM reference from the economy index. No new merchant factions, guilds, charters, prices, or trade routes were created.

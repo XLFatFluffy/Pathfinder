@@ -794,3 +794,10 @@
 - Updated `Arcane_Arts_and_Wizardry.md` to state the established commercial role of patronage: powerful households commission selected magic items for sale or favored buyers while controlling production volume so the market is not flooded and scarcity, value, and strategic usefulness are preserved.
 - Updated OQ-012 in the Open Questions Register. The core explanation for arcane scarcity is established; exact practitioner counts, distribution, and patron-by-patron production limits remain open.
 - This does not establish a centralized licensing authority or a continent-wide conspiracy, and it does not change Pathfinder First Edition item prices or crafting rules.
+
+
+## 9 November 2026 — GM Bible index and Tallowmere education summary
+
+- Completed another GM Bible navigation pass: removed a duplicate politics reference, added the holidays index, detailed culture dossiers, and explicit magic references, and expanded the Tallowmere local reference list.
+- Added Tallowmere's education pathways to the starting-city chapter: limited numeracy instruction at the Open Ledger, household and workshop learning, negotiated apprenticeships, private tutors, and the distinction between Pell & Daughter's scribal services and a school.
+- The Bible remains a consolidated study guide; detailed source records remain authoritative.

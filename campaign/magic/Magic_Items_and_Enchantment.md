@@ -42,6 +42,8 @@ The world uses the full range of Pathfinder First Edition magic-item categories 
 
 Do not create a universal rule that all magic items are ancient, unique, sentient, or religious. Ordinary Pathfinder items can exist; they are simply not common retail stock.
 
+Two necromantically resonant materials are established but distinct: **obsydian**, ordinary black onyx, and **dragonglass**, a separate material made by dragons. Both have necromantic properties, but their specific effects and uses remain undefined. See [Obsydian and Dragonglass](Obsydian_and_Dragonglass.md). Do not treat either as an automatic spell component or magic item.
+
 ## 5. Buying, commissioning, and finding items
 
 Characters may acquire magic items through several routes:
@@ -75,6 +77,8 @@ Player characters who meet published crafting requirements can craft items. Thei
 ## 8. Open details
 
 The following remain unresolved and should be developed only when needed:
+
+- The specific necromantic effects, uses, sources, and market values of obsydian and dragonglass.
 
 - The number and identity of wizards employed by each Great House.
 - Named independent enchanters and the locations of their workshops.

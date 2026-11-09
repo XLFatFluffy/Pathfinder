@@ -910,3 +910,12 @@
 - Added Brindle & Sons Stables to the Tallowmere-specific section of the animal-husbandry reference, using the established Toman Brindle and Ressa roles, West Gate/caravan-yard location, boarding/feed/tack/horse-trading services, listed stall and long-stay capacity, stock, and asking prices.
 - Distinguished the private House Denvor/Greywatch stables from public boarding services. Clarified that no named public veterinary office, farrier, or complete animal-health roster is established.
 - Linked the stable inventory to the broader animal-husbandry reference. No additional stable, livestock market, animal-service NPC, or local regulation was invented.
+
+
+## 9 November 2026 — Tallowmere animal services and supply-chain audit
+
+- Reconciled the animal-husbandry reference with established Tallowmere services: Brindle & Sons Stables outside West Gate; House Denvor's private household/garrison stables; occasional horse breeding at Ashcombe Manor; and traveler stables at Fordmere.
+- Added the documented Brindle & Sons inventory, boarding capacity, feed, tack, and asking prices to the animal-husbandry reference. The local inventory remains a snapshot, not a guaranteed permanent stock list.
+- Connected local animal supply to Millhaven/Northfields oats and the established West Road livestock traffic. The share of oats reserved for feed, hay/fodder suppliers, prices, gate inspection, and drovers' procedures remain unresolved.
+- Added Brindle & Sons' manure, bedding, and stable waste as a local sanitation concern while explicitly leaving disposal grounds and collection arrangements open.
+- Linked the animal-husbandry reference from agriculture, local stable stock, the Tallowmere GM dossier, the GM Campaign Bible, and readiness records. No veterinary service, livestock market, new handler, animal regulation, or waste contractor was invented.

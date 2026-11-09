@@ -374,7 +374,7 @@ Practical medicine is provided through household care, midwives, barber-surgeons
 
 Literacy is valuable but not universal. Household instruction, apprenticeship, noble tutors, temple learning, commercial numeracy, military training, and specialist scholarship coexist. The Collegium of the Nine Lamps is an established independent scholarly network, not a single university. Its internal ranks, training, governing body, and geographic reach remain unresolved.
 
-See `world/Medicine_Disease_and_Healing.md`, `world/Education_Literacy_and_Knowledge.md`, and `religions/Religion_and_Faith.md`.
+See `world/Medicine_Disease_and_Healing.md` and `locations/starting_city/Medical_Care_in_Tallowmere.md`, `world/Education_Literacy_and_Knowledge.md`, and `religions/Religion_and_Faith.md`.
 
 ### Travel, communication, and information
 

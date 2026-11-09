@@ -54,7 +54,7 @@ Its scholars may study and preserve history, genealogy, mathematics, accounting,
 
 Scholars may serve noble households, royal offices, major temples, and wealthy cities. Some may also be ordained clergy, but scholarship does not require ordination, and theologians need not be spellcasters.
 
-The order's final name, internal ranks, training system, governing body, geographic reach, and relationship with the Crown remain unresolved.
+The independent scholarly tradition is known as the Collegium of the Nine Lamps, a loose network rather than a single university. Its internal ranks, training system, governing body, geographic reach, and formal relationship with the Crown remain unresolved.
 
 ## 6. Divine Spellcasters
 

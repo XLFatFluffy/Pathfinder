@@ -5,6 +5,7 @@ The detailed campaign reference is [Religion, Faith, and Religious Institutions]
 Supporting records:
 - [Religious Institutions and Regional Practice](Religious_Institutions_and_Regional_Practice.md) — established examples of major temples and religious institutions, their roles, regional practice, courts, and limits of authority.
 - [Faith in Ordinary Life](Faith_in_Ordinary_Life.md) — household worship, rites of passage, clergy, charity, education, pilgrimage, and everyday religious practice.
+- Temple Champions are the designated defenders of established temples; see the Temple Champions sections in the two detailed religious references.
 
 Use Pathfinder First Edition's established deities, domains, portfolios, and traditions as the mechanical and cultural foundation unless a later decision changes this.
 

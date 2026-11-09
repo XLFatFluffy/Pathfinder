@@ -39,33 +39,24 @@ The central tone is grounded high-medieval fantasy. Supernatural horror and dang
 
 - **Date:** 1 Harvestfall, 243 AC.
 - **Starting location:** Tallowmere, on the northwestern shore of the central inland sea.
-- **Player characters:** Two level-5 characters who already know one another and arrive as newcomers. Their exact route and arrival time are not yet fixed.
-- **Opening structure:** A planned roadside encounter involving a troll attacking a Selwick & Company wagon, followed by a freeform Tallowmere sandbox.
-- **Opening world turn:** WTR-001 is an approved zero-time baseline. It did not advance the date or create a new event.
-- **Companion:** A companion NPC has been discussed, with a provisional CR estimate around 8. Exact identity, statistics, equipment, role, and approval remain to be confirmed.
-- **Character sheets/backstories:** Concepts exist, but the completed sheets and final backstories must be treated as authoritative when supplied. Do not invent unprovided mechanical details.
+- **Campaign focus:** The setting is being developed independently of the player characters. The first region is prepared, but the wider world is not built around assumed PC choices.
+- **Player concepts:** The players are revising their character concepts. Do not assume the previous vampire/ratfolk pairing, ancestries, classes, levels, relationships, private histories, or personal ambitions are current until the players confirm their final concepts and supply authoritative sheets and backstories.
+- **Opening structure:** A roadside encounter involving a troll and a Selwick & Company wagon has been prepared as a possible opening. Its route, location, composition, reward, and encounter balance remain subject to the final party and GM approval.
+- **Companion:** A companion concept has been discussed, but identity, statistics, equipment, role, and approval remain undecided.
+- **Historical opening snapshot:** WTR-001 is retained as a dated zero-time reference on 1 Harvestfall, 243 AC. It is not a recurring simulation procedure.
 
-### GM-only player-character truths
+### Player-character preparation boundary
 
-These are protected campaign facts. They must not be casually exposed through public records, NPC omniscience, or unearned exposition.
+Earlier player-character concepts, personal secrets, family incidents, and related hooks remain preserved in the GM-only `player_characters/` records and any linked supporting files. Treat those materials as provisional legacy concepts, not current campaign facts, until the players confirm what they are keeping.
 
-**Vampire PC**
-- The character was formerly the nine-year-old Crown Prince of the fallen dragon-riding dynasty.
-- He survived the destruction of Dragonstone; his survival and identity remain concealed.
-- His long-term ambition is to rebuild his dynasty, wealth, and influence.
-- He rescued the ratfolk PC during the attack on the latter's family and later taught him alchemy.
-- The PC's personal name and further private details belong to the player. Do not invent or reveal them.
+Until the concepts are locked:
+- Do not build new NPCs, factions, conspiracies, political claims, or setting history around an assumed PC backstory.
+- Do not expose or use old PC secrets as active campaign facts.
+- Do not assign character-specific knowledge, allies, enemies, or obligations.
+- Do not finalize encounter balance, treasure, companion mechanics, or personal hooks.
+- Continue developing the setting, its institutions, cultures, geography, and ordinary people independently.
 
-**Ratfolk PC**
-- Male ratfolk, raised by the vampire after being rescued as a child.
-- His travelling-merchant parents were murdered approximately ten years before Session One by armed men wearing House Relland colors.
-- The attackers were led by Ser Deylan Marrick, an armsman supervising Relland road patrols who abused that authority to extort travellers.
-- The attack was an extortion scheme, not a lawful toll. The vampire killed the attackers and saved the child.
-- The PC wants to improve the standing of ratfolk.
-- House Relland does not know the child survived. Its current head and heir have different levels of knowledge; see the dedicated incident record.
-
-**Shared relationship**
-The PCs already know and trust one another. Their exact relationship history and dynamic should be completed from player backstories, not assumed beyond the established rescue and mentorship.
+When the final character sheets and backstories arrive, reconcile them against the preserved material. Keep what the players confirm, revise what they change, and leave the rest archived rather than forcing the characters into old plans.
 
 ## 3. World foundations
 

@@ -780,3 +780,10 @@
 - Reconciled the current House Rulers dossier and legacy Great House actor reference: Kharadorn controls Dragonstone and maintains a dominant strategic position over key inland-sea routes and naval approaches, not blanket sovereignty over every shoreline.
 - Retitled the legacy Great House actor section as GM portrayal and adjudication guidance rather than an active world-engine procedure.
 - Added the player-facing obsydian/dragonglass summary to the material reference. The character-specific 100 gp quantity was not generalized into a market price or starting rule.
+
+
+## 9 November 2026 — GM Bible Crown officeholder coverage expanded
+
+- Expanded the Imperial Government and Court chapter to include all six established Crown officeholders: Royal Chancellor Othmar Rusk, Master of Coin Meredyth Sorn, Master of Laws Bastian Wycliffe, Master of War Garran Holt, Royal Spymaster Nerys Vale, and Lord Chamberlain Perrin Ashcombe.
+- Distinguished Crown officers from the High Prelate and Prior-General, who are influential religious advisers rather than Crown officers or representatives of all faiths.
+- Added direct reference links to the current House Rulers, Court and Council, and Imperial Governance framework records.

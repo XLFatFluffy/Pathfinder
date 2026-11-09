@@ -412,6 +412,7 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - `Government_and_Law.md` and `Chartered_Council_and_Civic_Procedure.md`: law and procedure.
 - `Streets_Landmarks_and_Routes.md`, `City_Layout_and_Defenses.md`, `Residential_Life_and_Housing.md`: city layout.
 - `Shopkeepers_and_Stock.md`, `Commercial_Property_and_Premises.md`, `Merchant_Personalities_and_Disputes.md`, `Merchant_Relationships_and_Supply_Lines.md`: commerce.
+- `Public_Life_Neighborhoods_and_Entertainment.md`: gathering places, information routes, childhood, leisure, and neighborhood belonging.
 - `Faith_and_Temples.md` and `Local_Religion_and_Institutions.md`: local faith.
 - `Crime_and_Informal_Power.md` and `Criminal_Operators_and_Networks.md`: illicit activity.
 - `Current_Situation_and_Rumors.md` and `world_engine/Tallowmere_Rumor_Truth_Register.md`: rumor and objective truth.

@@ -9,7 +9,7 @@ This directory contains the campaign's lore, canon records, GM materials, maps, 
 
 ## Authority and canon control
 
-- [Campaign Bible](Campaign_Bible.md) — living master reference and consolidated setting record.
+- [Campaign Bible](Campaign_Bible.md) — preserved earlier consolidated source with legacy material; consult the GM Campaign Bible, dedicated subject records, and Canon Register for current authoritative lore.
 - [Canon Register](Canon_Register.md) — approved, proposed, and unresolved status of major setting decisions.
 - [Current World State](Current_World_State.md) — concise current GM-approved baseline.
 - [Worldbuilding Direction](Worldbuilding_Direction.md) — approved creative direction and boundaries.

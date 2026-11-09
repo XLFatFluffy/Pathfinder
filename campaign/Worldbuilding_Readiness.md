@@ -58,6 +58,8 @@ The wider setting work should not assume the PCs' future choices or build around
 3. Review high-value continuity issues and institutional details when relevant, without inventing universal rules for every region.
 4. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.
 
+Tallowmere now has a dedicated public-life reference covering established gathering places, information networks, childhood, leisure, and social belonging. It uses existing venues and leaves unestablished schools, performers, clubs, and entertainment venues unresolved.
+
 ## 5. Cartographic limits
 
 - Major-place anchors and approved route overlays have been reviewed.

@@ -371,3 +371,11 @@
 - Corrected `campaign/religions/README.md`: it had incorrectly described the gods' existence as uncertain, contradicting established canon. The gods are real; mortal interpretations and the mechanism of divine magic remain distinct open questions.
 - Linked the ordinary-faith reference and existing regional institution dossier from the religion index.
 - No new deity, major religious hierarchy, schism, or supernatural mechanism was invented.
+
+
+## 2026-11-09 — Tallowmere ordinary wildlife and natural history expanded
+
+- Expanded `campaign/creatures/Regional_Wildlife_Catalogue.md` from a short candidate species list into a GM-only natural-history reference for the Northfields, Brackenwood, River Vale, Greyback Ridges, Eastern Shore, and Tallowmere itself.
+- Added habitat-specific candidate fauna, human and economic relationships, seasonal expectations, field signs, food-web context, animal care, disease cautions, folklore boundaries, and supernatural safeguards.
+- Preserved the catalogue as PROPOSED: plausible species are not confirmed local occurrences, and frequency remains unknown until evidence or explicit GM approval.
+- Linked the catalogue from the creature registry and creature folder index. The established Tallowmere habitat baseline was not changed; no new monster population, migration, livestock crisis, or supernatural ecology was established.

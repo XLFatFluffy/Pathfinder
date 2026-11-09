@@ -287,3 +287,12 @@ The former Living World Engine and automated world-turn system are retired from 
 - Added explicit warnings to the Tallowmere GM dossier and Session One packet so older character assumptions are not mistaken for current campaign facts.
 - Updated the names index and NPC dossier collection to distinguish established local people and institutions from provisional PC-hook and encounter material.
 - No new PC-specific hooks were created.
+
+
+## Arcane practice, magic items, and temple defense — 2026-11-09
+
+- Arcane spellcasters are exceptionally rare. Most recognized wizards serve Great Houses or other powerful patrons, providing arcane services and limited magical-item production.
+- No magical academies or standardized wizard schools exist. Arcane knowledge is learned through private apprenticeship, rare texts, or difficult self-study. The Collegium of the Nine Lamps is a scholarly network, not a wizard-training institution.
+- Magic items are exceptionally scarce and expensive. Patronage, restricted output, limited expertise, time, materials, and strategic interests constrain the market. Pathfinder First Edition crafting rules remain unchanged.
+- Each established, permanent temple maintains or designates a Temple Champion responsible for defense and investigation of threats relevant to its deity. Clergy primarily keep the temple and serve worshippers; clerics are not automatically defenders. Small shrines and caretaker sites are not automatically staffed by a resident Champion.
+- Individual Great House wizards, local Champions, item stock, and specific commissions remain unassigned until separately established. The reason arcane knowledge is scarce and the gods' precise mediation of divine magic remain unresolved.

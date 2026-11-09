@@ -261,7 +261,7 @@ Player character sheets and detailed backstories are pending. Do not assign star
 
 The first additional network of minor houses and independent regional powers is established in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`. It includes banner houses in the Veyr, Vaelorian, Edarth, and Merrowen spheres; a Crown vassal; a dwarven clan within the Kharadorn union; and independent powers in the Southern Reaches. Exact holdings remain unmapped. The only new active dispute is the low-intensity Longmead customary boundary case between Houses Harrowden and Wrenford in the Western Heartlands. No armed conflict is underway.
 
-The campaign remains at **1 Harvestfall, 243 AC**. WTR-001 has been completed as a zero-time opening snapshot; no calendar time has advanced.
+The campaign remains at **1 Harvestfall, 243 AC**. WTR-001 is retained as a historical opening-state snapshot; no calendar time has advanced.
 
 ## Tallowmere Ratfolk Community Networks — 2026-11-06
 
@@ -270,7 +270,7 @@ The Underways remain decentralized, with no single ratfolk leader or unified pol
 
 ## Supplemental regional factions — 1 Harvestfall, 243 AC
 
-The Tallowmere hinterland now has additional non-noble actors for the Living World Engine: the Millers' Guild of the River Vale, Brackenwood Charcoal Fellowship, Stonehollow Quarry Compact, Saltwick Shore Compact, and Tallowmere Warehouse Guild. Their interests and internal divisions are recorded in `world_engine/Regional_Factions_and_Minor_Houses.md`. These organizations do not possess automatic territorial sovereignty.
+The Tallowmere hinterland now has additional non-noble actors as additional regional institutions: the Millers' Guild of the River Vale, Brackenwood Charcoal Fellowship, Stonehollow Quarry Compact, Saltwick Shore Compact, and Tallowmere Warehouse Guild. Their interests and internal divisions are recorded in `world_engine/Regional_Factions_and_Minor_Houses.md`. These organizations do not possess automatic territorial sovereignty.
 
 Two supplemental minor houses are also established outside the calibrated Tallowmere map: House Corven, a coastal minor house with an unresolved liege relationship, and House Calderick, a southern minor house with a local succession uncertainty. Neither creates a current Great House dispute or mapped border.
 
@@ -279,3 +279,8 @@ Existing continental minor houses remain recorded in `world_engine/Continental_M
 ## First world turn — 1 Harvestfall, 243 AC
 
 WTR-001 was completed as an approved opening-state snapshot with zero days elapsed. The campaign's initial local and continental issues/projects, minor-house dispute, rumor knowledge boundaries, and wider political context were reviewed. No new event, war, assassination, crisis, or issue escalation was introduced. The campaign begins on 1 Harvestfall, 243 AC; subsequent world turns advance only when in-world time passes or the GM explicitly requests a simulation.
+
+
+## Worldbuilding scope clarification — 2026-11-09
+
+The former Living World Engine and automated world-turn system are retired from campaign scope. The setting remains a responsive world, but all developments, including consequences of long periods of downtime, are determined by GM judgment rather than automated simulation. The records under `world_engine/` are retained as a legacy archive of NPC dossiers, political context, local institutions, rumors, and opening-state notes. They are reference material, not instructions to run turns or advance events.

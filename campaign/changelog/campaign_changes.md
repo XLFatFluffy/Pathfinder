@@ -577,3 +577,13 @@
 - Covered feeding, behavior, field signs, seasonal portrayal, human relationships, occupational knowledge, and protected unknowns.
 - Kept exact populations, territories, den locations, hunting laws, bounties, and unusual individuals unresolved. No local subspecies, supernatural traits, or new wildlife populations were invented.
 - Linked the dossier from the creature index and GM Campaign Bible.
+
+
+## 2026-11-09 — River Vale and Siltfen aquatic ecology developed
+
+- Added `campaign/creatures/River_Vale_and_Siltfen_Aquatic_Ecology.md` as a GM-only practical reference for the River Vale watershed and Siltfen wetland.
+- Consolidated established resource use: River Vale fishing; Siltfen fishing, eel and frog resources, waterfowl gathering, reed cutting, useful plant gathering, and limited grazing on firmer ground. Preserved the established uncertainty around overlapping Siltfen rights.
+- Distinguished the lower navigable river, its pools, mill reaches, gravel bars, tributaries, and flood meadows from the Siltfen's shallow pools, muddy channels, reed beds, wet meadows, and firmer ridges.
+- Added practical guidance on fishing as household and commercial work, reed harvesting, food handling and preservation, river transport, flooding, water hazards, occupational knowledge, and sensory portrayal.
+- Kept exact fish and bird species, fishing methods, catch volumes, prices, rights boundaries, migration and spawning schedules, and unusual aquatic animals unresolved. No new guild, named fisher, active dispute, disease event, or monster population was created.
+- Linked the new reference from the wildlife catalogue, ecology baseline, creature index, GM Bible, readiness record, and roadmap.

@@ -703,3 +703,10 @@
 - Marked the legacy party assumptions and troll/Selwick opening explicitly provisional in the sandbox reference. The city sandbox remains usable independently of those concepts.
 - Updated `Session_One_GM_Readiness_Packet.md` to clarify GM-led time progression and add the recent local references for justice, emergency response, social life, medicine, sanitation, foodways, and communication.
 - Updated Development Roadmap and Worldbuilding Readiness. No PC concepts, opening encounter, or world event was newly approved.
+
+
+## 9 November 2026 — Historical opening snapshot and roadmap status clarified
+
+- Renamed the legacy `WTR-001` section in `Current_World_State.md` as a historical opening-state review. It records a zero-day continuity snapshot only; it is not a recurring world-turn procedure or permission to run simulations.
+- Updated the Development Roadmap's current milestone. The former 8 November Session One target is historical; party concepts and the troll/Selwick opening remain provisional pending player confirmation and GM approval.
+- This is a scope and status clarification only. No in-world time, event, or campaign outcome changed.

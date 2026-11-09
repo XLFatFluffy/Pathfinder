@@ -170,13 +170,13 @@ The following are established:
 - Tallowmere is a working harbor city with wells, drains, refuse, cellars, granaries, stables, temples, and crowded residential areas.
 - Magic is real but uncommon in ordinary life.
 - The local temples and clergy are documented, but clergy are not automatically divine spellcasters.
-- The city has ordinary healers and service workers as part of its broad social life, but a complete named medical roster has not been established.
-- The availability of any specific spell, physician, midwife, apothecary, or charitable infirmary must be checked against the relevant NPC and institution records.
+- Tallowmere has an established local care network: Lantern Hospice and its administrator Sister Alwen; hospice stores clerk Brother Halen; independent midwife and practical healer Edda Moss; herbalist and trained healer Fenna Wale; alchemist Miraq Ashwhisk; and the House of the Dawn's basic charitable care. Their distinct roles and limits are documented in [Medical Care in Tallowmere](../locations/starting_city/Medical_Care_in_Tallowmere.md).
+- No named local physician or routine public magical-healing service is established. Specific spellcasting must be checked against an actual NPC build and current availability.
 
 The following remain unresolved:
-- Whether Tallowmere has a formal infirmary, hospice, or dedicated sickhouse.
-- The names, training, prices, and working arrangements of local physicians, midwives, surgeons, and apothecaries.
-- Which medical practitioners serve the harbor, garrison, temples, poor households, or noble residences.
+- The exact layout, number of beds, resident clinical staff, and daily capacity of Lantern Hospice.
+- Whether Tallowmere has a separate formal infirmary or dedicated sickhouse beyond the established charitable hospice.
+- Whether a physician visits Tallowmere regularly from another settlement, and which practitioners serve the harbor, garrison, or noble residences.
 - Which diseases are locally familiar and which are rare or imported.
 - Whether any formal medical guild, school, or licensing custom exists.
 

@@ -415,3 +415,12 @@
 - Preserved the variable-season calendar rule and the opening-date safeguards: no specific weather event or famine is established on 1 Harvestfall, 243 AC.
 - Reframed the continental economic network as a descriptive reference for GM judgment rather than a Living World Engine input.
 - No crop yields, prices, disease events, regional borders, or current shortages were invented.
+
+
+## 2026-11-09 — Military reference reframed for GM judgment
+
+- Reframed `campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md` as a GM reference rather than a Living World Engine procedure.
+- Preserved established Crown and Great House force distinctions, senior military roles, vassal and clan obligation boundaries, logistical constraints, and unresolved force totals.
+- Replaced the automated mobilization sequence and escalation ladder with descriptive guidance on authority, information, readiness, and the non-automatic nature of military action.
+- Added a military folder index and linked the reference from the campaign directory and GM Campaign Bible.
+- No troop totals, fleet sizes, readiness figures, new commanders, mobilizations, or wars were invented.

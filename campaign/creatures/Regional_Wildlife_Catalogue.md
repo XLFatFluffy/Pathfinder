@@ -44,7 +44,7 @@ Farm animals likely to be encountered include cattle, sheep, goats, pigs, horses
 
 ## 3. Brackenwood — managed woodland and coppice
 
-**Established habitat:** a worked woodland west of Tallowmere, with coppice, mature stands, clearings, charcoal burns, gathering areas, and older unmanaged pockets. Woodland rights and customary users shape access.
+**Established habitat:** a worked woodland west of Tallowmere, with coppice, mature stands, clearings, charcoal burns, gathering areas, and older unmanaged pockets. Woodland rights and customary users shape access. The Deep Bracken is the older, less-managed woodland beyond it; the five common animals established there are not automatically confirmed in Brackenwood.
 
 ### Candidate wildlife
 

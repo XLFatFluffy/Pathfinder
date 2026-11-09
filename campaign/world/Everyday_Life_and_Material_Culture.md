@@ -337,7 +337,7 @@ Owners care about:
 
 A dead horse is not simply an inconvenience. It may represent lost transport, lost trade capacity, or a serious financial blow.
 
-Dogs, cats, chickens, goats, pigs, sheep, cattle, and working animals are common according to region and household wealth.
+Dogs, cats, chickens, goats, pigs, sheep, cattle, and working animals are common according to region and household wealth. Their practical care, feed, labor, ownership, and economic roles are detailed in [Animal Husbandry and Working Animals](Animal_Husbandry_and_Working_Animals.md).
 
 ## 18. Streets and sanitation
 

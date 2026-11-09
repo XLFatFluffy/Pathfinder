@@ -468,3 +468,10 @@
 - Clarified that there is no established universal postal service, passport system, standardized signal code, or omniscient information network.
 - Linked the reference from the world folder index and campaign directory.
 - No new roads, waystations, ports, couriers, travel schedules, or map geometry were created.
+
+
+## 2026-11-09 — Readiness and GM Bible navigation updated
+
+- Updated `campaign/Worldbuilding_Readiness.md` to reflect the new agriculture, medicine, law, military, education, and travel/communication references and to focus remaining natural-history work on reviewing proposed Tallowmere species rather than creating unsupported populations.
+- Added navigation from the GM Campaign Bible to the new practical world references, including food supply, education, law, and everyday systems.
+- The GM Bible remains marked for substantial consolidation and expansion; these links do not represent the final printable edition.

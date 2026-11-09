@@ -614,3 +614,11 @@
 - Distinguished established infrastructure from plausible household and neighborhood behavior. The Old Cistern remains a specific public resource, not a citywide water network.
 - Documented likely sanitation pressures and disputes without creating an active contamination event, disease outbreak, public-health department, universal sewer, or citywide refuse service.
 - Linked the reference from residential life, medicine, the Tallowmere GM dossier, GM Bible, readiness record, roadmap, and changelog.
+
+
+## 2026-11-09 — Tallowmere household comfort and winter preparation expanded
+
+- Added `campaign/locations/starting_city/Household_Comfort_Fuel_and_Winter_Preparation.md` as a GM reference on fuel, heating, lighting, clothing, laundry, repair, and seasonal household preparation.
+- Grounded the local material in Brackenholt's established firewood and charcoal supply, the Blue Heron's listed laundry service, existing lighting goods, and documented seasonal preparation needs.
+- Distinguished practical household portrayal from established local business facts. No new tailor, laundress, candle-maker, fuel tariff, household consumption figure, or winter weather event was created.
+- Linked the reference from everyday life, workforce, GM Bible, readiness, roadmap, and changelog.

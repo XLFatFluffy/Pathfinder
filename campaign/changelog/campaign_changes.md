@@ -919,3 +919,12 @@
 - Connected local animal supply to Millhaven/Northfields oats and the established West Road livestock traffic. The share of oats reserved for feed, hay/fodder suppliers, prices, gate inspection, and drovers' procedures remain unresolved.
 - Added Brindle & Sons' manure, bedding, and stable waste as a local sanitation concern while explicitly leaving disposal grounds and collection arrangements open.
 - Linked the animal-husbandry reference from agriculture, local stable stock, the Tallowmere GM dossier, the GM Campaign Bible, and readiness records. No veterinary service, livestock market, new handler, animal regulation, or waste contractor was invented.
+
+
+## 9 November 2026 — Weather, climate, and seasonal hazards reference
+
+- Added `campaign/world/Weather_Climate_and_Seasonal_Hazards.md` to explain the campaign's variable seasons and broad regional weather tendencies without creating a fixed climate map or automatic weather system.
+- Covered the northern wilderness, western highlands, agricultural heartlands, Crownlands, Central Inland Sea, northeastern mountains, eastern forests and delta, Southwestern Marches, Southern Principalities, and Southern Islands.
+- Connected weather to agriculture, woodland and quarry work, roads, rivers, shipping, health, household life, and Tallowmere's established flood/dry-period vulnerabilities.
+- Preserved the opening-date boundary: no specific temperature, rainfall, storm, frost, drought, flood, or severe weather event is established for 1 Harvestfall, 243 AC.
+- Linked the reference from the world index, agriculture, travel/communication, GM Campaign Bible, and readiness records. No forecast table, weather simulator, climate averages, or current disaster was invented.

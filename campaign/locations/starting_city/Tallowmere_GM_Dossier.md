@@ -416,6 +416,7 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - `Shopkeepers_and_Stock.md`, `Commercial_Property_and_Premises.md`, `Merchant_Personalities_and_Disputes.md`, `Merchant_Relationships_and_Supply_Lines.md`: commerce.
 - `../../world/Animal_Husbandry_and_Working_Animals.md`: domestic animal care and the local stable, breeding, and traveler-service baseline.
 - `Public_Life_Neighborhoods_and_Entertainment.md`: gathering places, information routes, childhood, leisure, and neighborhood belonging.
+- `Tallowmere_Communication_and_News.md`: local communication channels, records, public announcements, rumor chains, and knowledge boundaries.
 - `Civic_Calendar_and_Seasonal_Routines.md`: local daily rhythms, notices, market cycles, seasonal pressures, and Tallowmere's public observances.
 - `Faith_and_Temples.md` and `Local_Religion_and_Institutions.md`: local faith.
 - `Crime_and_Informal_Power.md` and `Criminal_Operators_and_Networks.md`: illicit activity.

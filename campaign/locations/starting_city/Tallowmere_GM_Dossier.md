@@ -119,7 +119,9 @@ Housing quality varies sharply by street. Wealthier homes may have enclosed cour
 
 A missed week of work can threaten a laborer's ability to pay rent. Neighbors share childcare, tools, meals, repairs, and information, but mutual aid creates obligations and disagreements. Ratfolk and other marginalized residents may face unequal rents, refusals, harassment, or pressure to use less desirable entrances. These are individual and institutional behaviors, not universal rules.
 
-Sanitation and water conditions are described in the dedicated [Water, Waste, and Street Cleanliness reference](Water_Waste_and_Street_Cleanliness.md); the city has wells, pumps, the Old Cistern, drains, privies, and uneven refuse arrangements, but no established universal sewer or collection service.\n\n## 5. NPC directory
+Sanitation and water conditions are described in the dedicated [Water, Waste, and Street Cleanliness reference](Water_Waste_and_Street_Cleanliness.md); the city has wells, pumps, the Old Cistern, drains, privies, and uneven refuse arrangements, but no established universal sewer or collection service.
+
+## 5. NPC directory
 
 ### Civic and noble
 | NPC | Role | Personality / priorities | Limits and connections |

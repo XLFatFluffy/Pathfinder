@@ -4,6 +4,8 @@
 **Visibility:** GM ONLY  
 **Purpose:** A table-facing roleplaying reference for established named NPCs. These are people to portray, not quest dispensers.
 
+**Coverage audit — 9 November 2026:** Cross-checking the core Tallowmere civic, shopkeeper, religious, workforce, and regional-faction rosters found no named NPC missing a dossier heading. Odran Pell is explicitly one person: Chief Magistrate and Elira Pell's father/senior partner at Pell & Daughter. Similar names below are not evidence of family or faction ties.
+
 > **Canon discipline:** This collection consolidates established NPCs from the campaign records and adds practical portrayal guidance. It does not silently create new history, relationships, crimes, powers, or secrets. Fields marked **Portrayal recommendation** are GM tools, not immutable canon. Alignment is a suggested Pathfinder 1e roleplaying shorthand, not a substitute for personality and not a moral verdict. Change it when play establishes a more accurate characterization. **Unspecified** means the repository has not established enough to make a responsible call.
 
 ## How to use a dossier at the table
@@ -1502,6 +1504,23 @@ Insists that judgment and customer fitting require time; trusts Neri with repair
 - The secret underground route to Dragonstone is not known to ordinary actors.
 - No NPC automatically knows the PCs' class abilities, equipment, history, or intentions.
 
+## Identity distinctions
+
+The following names are similar enough to cause table confusion. They are separate established NPCs; no family, business, or faction relationship between each pair is established unless another source says otherwise:
+
+- **Harbor Master Ysella Vane** and **Sella Vane**, the independent smuggler.
+- **Chief Magistrate Odran Pell** and **Othric Pell**, the information broker. Odran's relationship to Elira Pell is established; no relationship to Othric is.
+- **Della Rusk**, proprietor of the Copper Ladle, and **Dannel Rusk**, the independent debt enforcer.
+- **Toman Brindle**, owner of Brindle & Sons Stables, and **Ser Toman Coldmere**.
+- **Jorren Vale**, Redoubt Arms weaponsmith, and **Edrik Vale**, the copyist and forger.
+- **Dorrik Slatehand**, Rivergate stoneworker, and **Dorrik Sootpaw**, the ratfolk repairer and small-goods trader.
+- **Ser Merek Veyr** and **Ser Merek Wrenford**.
+- **Lady Ysabet Avenholt** and **Lady Ysabet Edarth**.
+- **Lord Corvin Velleran** and **Lord Corvin Merrowen**.
+- **Sella Marr**, tailor at Thread & Thimble, and **Sella Vane**, the smuggler.
+
+Do not invent a relationship to explain a shared name. If a connection becomes relevant, establish it deliberately and update both dossiers and source records.
+
 ## Relationship tracking
 After a meaningful interaction, record:
 - **Disposition:** hostile / wary / neutral / cordial / trusting / loyal (use judgment, not a numeric meter by default).
@@ -1535,55 +1554,6 @@ This collection supplements, and does not replace:
 - `campaign/world_engine/Regional_Factions_and_Minor_Houses.md`
 - `campaign/world_engine/Continental_Minor_Houses_and_Regional_Powers.md`
 - `campaign/locations/starting_city/Workforce_and_Daily_Life.md`
-- `campaign/locations/starting_city/Shopkeepers_and_Stock.md`
-
-**Maintenance rule:** When a new named NPC is created, add a dossier or a roster entry here and update the relevant source document. When an NPC's personality changes through play, update the source record and note the event that caused the change. Do not retroactively rewrite a character's motives to make a later plot convenient.
-
-
-## Alignment policy
-- Alignment suggestions are provisional roleplaying aids.
-- Do not treat alignment as a complete personality or a prediction of every decision.
-- Update alignment only when a sustained pattern of conduct supports it.
-- A character can be lawful and exploitative, chaotic and compassionate, neutral and deeply principled.
-
-## Information boundaries
-- An NPC knows only what their experience, office, relationships, and credible information channels permit.
-- A rumor is not objective truth. Consult the Tallowmere Rumor Truth Register.
-- The House Relland incident is provisional legacy PC material. If the GM confirms it, the previously drafted knowledge limits for Lady Mereth and Corren apply; do not use them as current facts beforehand.
-- No NPC automatically knows a player's secret identity or personal history; any earlier vampire-heir association remains provisional until the revised concept is confirmed.
-- The secret underground route to Dragonstone is not known to ordinary actors.
-- No NPC automatically knows the PCs' class abilities, equipment, history, or intentions.
-
-## Relationship tracking
-After a meaningful interaction, record:
-- **Disposition:** hostile / wary / neutral / cordial / trusting / loyal (use judgment, not a numeric meter by default).
-- **Trust basis:** what the NPC actually witnessed or was told.
-- **Obligation:** favor, debt, promise, contract, or unresolved grievance.
-- **Knowledge gained:** exact fact learned and source.
-- **Changed motive:** what event changed their priorities, if anything.
-
-## At-table portrayal shortcut
-When unsure how an NPC responds, ask:
-1. What are they trying to protect?
-2. What do they know for certain?
-3. What would this request cost them?
-4. What would make them say yes?
-5. What would make them walk away?
-6. What would they do if the PCs never returned?
-
-Do not force a scene to produce a quest. A conversation can end with a refusal, a small favor, a useful fact, a new obligation, or nothing at all.
-
-## Source records
-This collection supplements, and does not replace:
-- `campaign/locations/starting_city/Civic_NPCs.md`
-- `campaign/locations/starting_city/House_Denvor.md`
-- `campaign/locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`
-- `campaign/locations/starting_city/Merchant_Personalities_and_Disputes.md`
-- `campaign/locations/starting_city/Criminal_Operators_and_Networks.md`
-- `campaign/locations/starting_city/Local_Religion_and_Institutions.md`
-- `campaign/world_engine/Tallowmere_Political_Actor_Dossiers.md`
-- `campaign/world_engine/Great_House_Actor_Dossiers.md`
-- `campaign/world_engine/Tallowmere_NPC_Information_Network.md`
 - `campaign/locations/starting_city/Shopkeepers_and_Stock.md`
 
 **Maintenance rule:** When a new named NPC is created, add a dossier or a roster entry here and update the relevant source document. When an NPC's personality changes through play, update the source record and note the event that caused the change. Do not retroactively rewrite a character's motives to make a later plot convenient.

@@ -569,3 +569,11 @@
 - Marked those five ordinary fauna as established occurrences in that named habitat only. No population size, pack territory, attack frequency, or distribution elsewhere was inferred.
 - Clarified the Tallowmere ecology baseline, creature index, and GM Campaign Bible so the mixed status is visible and the remaining species candidates stay proposed.
 - Kept possible Pathfinder threats, lairs, and supernatural ecology unconfirmed.
+
+
+## 2026-11-09 — Deep Bracken common fauna dossier added
+
+- Added `campaign/creatures/Deep_Bracken_Common_Fauna.md` with practical natural-history and GM portrayal guidance for the five animals already established as common in the Deep Bracken: deer, wild boar, foxes, badgers, and wolves.
+- Covered feeding, behavior, field signs, seasonal portrayal, human relationships, occupational knowledge, and protected unknowns.
+- Kept exact populations, territories, den locations, hunting laws, bounties, and unusual individuals unresolved. No local subspecies, supernatural traits, or new wildlife populations were invented.
+- Linked the dossier from the creature index and GM Campaign Bible.

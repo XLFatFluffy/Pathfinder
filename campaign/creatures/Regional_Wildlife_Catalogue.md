@@ -129,7 +129,65 @@ Candidate urban animals include rats, mice, pigeons, sparrows, flies, beetles, s
 
 Urban pests reveal failures in infrastructure: leaking grain stores, blocked drains, careless refuse disposal, damaged roofs, and overcrowded cellars. A sudden increase should have a mundane cause unless play establishes otherwise.
 
-## 8. Seasonal patterns — working expectations, not fixed calendar law
+## 8. The outer frontier belt — less-managed habitats beyond the hinterland
+
+The frontier environments are established in [Wilderness Beyond Tallowmere](../locations/starting_city/Wilderness_Beyond_Tallowmere.md). The candidate wildlife below is consistent with those descriptions, but remains PROPOSED unless a specific occurrence is approved or observed. The frontier is less continuously worked and protected than the settled basin; it is not uniformly dangerous.
+
+### Deep Bracken — older woodland
+
+The Deep Bracken continues beyond the managed Brackenwood. Older stands, denser cover, abandoned clearings, and fewer maintained paths allow wildlife to use larger and quieter territories.
+
+- **Deer, wild boar, foxes, and badgers** are the ordinary mammals already identified as plausible or common in the wider woodland framework. Their signs may be easier to find than the animals themselves.
+- **Wolves** are identified in the wilderness framework as common animals in the deeper woodland. They should be treated as wary predators with territory, prey needs, and reasons to avoid people, not as creatures that automatically attack every traveler.
+- **Owls, hawks, ravens, woodpeckers, bats, and small woodland birds** remain plausible, with local variation by tree cover and disturbance.
+- **Mature-tree fungi, deadwood insects, and cavity-nesting animals** may be more evident in older stands than in regularly coppiced woodland.
+
+Hunting, trapping, timber cutting, and gathering are possible, but paths, rights, and local knowledge become less reliable farther from settled holdings. A wolf sign does not establish a pack at the site; a carcass does not establish a permanent hunting ground.
+
+### Upper Vale — headwaters and upland pasture
+
+The Upper Vale contains stony streams, ravines, broken hills, upland pasture, and scattered shepherd shelters. It is not uniformly high mountain country.
+
+- **Wolves, boar, and foxes** are plausible around woodland margins, grazing routes, and quieter valleys.
+- **Bears and mountain cats** are possible in suitable remote cover, as identified by the wilderness framework. Their presence should be tied to appropriate terrain and prey rather than assumed throughout the valley.
+- **Deer and other grazing or browsing animals** may use sheltered slopes and woodland edges.
+- **Raptors and large scavenging birds** may use cliffs and open slopes; the wilderness reference lists giant eagles as a possible Pathfinder threat, not ordinary background fauna.
+- **Freshwater fish and aquatic life** may occur in suitable reaches, but fast headwater streams should not be treated as equivalent to the lower navigable River Vale.
+
+Livestock, shepherds, and seasonal grazing shape the valley. Predation, lost animals, difficult crossings, and weather can create conflict without requiring a monster encounter.
+
+### Greyback Heights — broken uplands beyond the quarries
+
+The Heights are rougher and more exposed than the low Greyback Ridges near Stonehollow. The wilderness framework identifies bears, mountain lions, giant eagles, monstrous vermin, and cave-dwelling creatures as possible threats.
+
+Ordinary candidate wildlife includes foxes, badgers, ravens, hawks, smaller birds, rodents, and reptiles suited to exposed stone and scrub. Grazing animals may use accessible upland pasture. Do not populate the Heights with alpine species merely because the terrain is rough; the exact elevation and climate are not fully established.
+
+Quarrying and prospecting disturb habitat. Abandoned cuts can provide shelter or trap animals, but a cave or adit is not automatically a lair. Tracks near a shaft may belong to an animal using it for shelter rather than a creature living permanently underground.
+
+### Siltfen — wet meadows, reed beds, and channels
+
+The Siltfen is a working wetland of shallow pools, muddy channels, reed beds, alder stands, wet meadows, and firmer ridges. Its ordinary ecology should be built around water level, vegetation, insects, fish, and waterfowl.
+
+- **Frogs and other amphibians** are strong candidates around pools and wet meadows.
+- **Waterfowl and wading birds** may use shallow channels and open pools; fish-eating birds follow suitable water.
+- **Eels and other freshwater fish** are candidates in connected channels, though exact species and seasonal movements remain open.
+- **Snakes, small mammals, and wetland insects** may occupy reed margins and drier hummocks.
+- **Otters** are possible along quieter connected waterways, but are not confirmed.
+- The wilderness framework mentions giant frogs, giant insects, stirges, and crocodiles only in suitable warmer waters as possible Pathfinder threats. These are not ordinary fauna or confirmed populations. Do not assume crocodiles inhabit the Siltfen without a deliberate climate and canon decision.
+
+Reed cutting, fishing, seasonal grazing, and boat access alter habitat and create competing rights. Floodwater may erase paths and change where animals feed. A wetland that looks empty may still be full of calls, insects, movement in reeds, and signs at the water's edge.
+
+### Outer Eastern Shore — exposed coast beyond Saltwick
+
+Beyond the more regularly used Saltwick shore, isolated coves, shingle beaches, low cliffs, and temporary fishing camps provide habitat under harsher exposure.
+
+Gulls and other seabirds, shore crabs, shellfish, coastal fish, and scavenging birds remain plausible. Seals or similar coastal mammals are possible but unconfirmed. The exact marine and shoreline species are unresolved. Do not assume every cove supports the same fishery or that a wreck site has a resident predator.
+
+Storms, surf, cliff erosion, and limited fresh water shape both wildlife and human access. Wreck salvage, fishing, and temporary camps may leave food waste that attracts scavengers. A sudden concentration of birds or scavengers can have a mundane explanation such as a fish run, discarded catch, or carcass.
+
+The frontier wildlife list is not a monster-placement map. Any specific lair, nest, breeding site, or dangerous population must be established separately.
+
+## 9. Seasonal patterns — working expectations, not fixed calendar law
 
 The calendar's month names and seasonal framework are established elsewhere. The exact local timing of migrations, breeding, spawning, and harvest-related animal behavior remains open. The following are broad expectations for a temperate agricultural region and should be adjusted to the campaign's actual weather.
 

@@ -49,7 +49,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 - [Seasonal Conditions and Agricultural Cycles](Seasonal_Conditions_and_Agricultural_Cycles.md) provides a cautious weather, agriculture, travel, trade, and logistics framework. It does not assign weather to calendar months or create current weather events.
 
 ### Military institutions and obligations
-- [Continental Military Institutions and Operational Doctrine](../military/Continental_Military_Institutions_and_Operational_Doctrine.md) consolidates established military facts and proposes a conservative Living World Engine procedure. It does not assign force totals, new commanders, or active mobilizations; treat it as a GM framework proposal until approved.
+- [Continental Military Institutions and Operational Doctrine](../military/Continental_Military_Institutions_and_Operational_Doctrine.md) consolidates established military facts and GM guidance on authority, force categories, and logistics. It does not assign force totals, new commanders, or active mobilizations.
 
 ### Law and landed obligations
 - [Feudal Law, Land Tenure, and Noble Obligations](../politics/Feudal_Law_and_Landed_Obligations.md) provides the working framework for homage, inheritance, jurisdiction, courts, customary rights, and vassal consequences. Specific charters and local customs override general assumptions where documented.
@@ -85,7 +85,7 @@ The dossiers distinguish established strategic agendas from active projects. Do 
 
 ## Important distinctions
 
-- A named house is not automatically a fully simulated actor.
+- A named house is not a single-minded actor; its ruler, family, officers, vassals, and interests may differ.
 - A title does not establish effective control; control does not automatically establish lawful legitimacy.
 - A commercial rival is not automatically a political enemy.
 - A charter relationship is not automatically feudal vassalage.

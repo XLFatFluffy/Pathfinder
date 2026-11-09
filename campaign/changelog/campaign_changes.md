@@ -936,3 +936,12 @@
 - Reconciled the guide with Tallowmere's established mixed stone/timber housing, Stonehollow building stone, Brackenholt timber and poles, local construction trades, Dorrik Slatehand, commercial premises, and emergency/fire records.
 - Linked the reference from the world index, Tallowmere residential housing, commercial property, GM Campaign Bible, and readiness records.
 - Kept exact building codes, construction prices, local material production, named specialist trades, and detailed repair schedules unresolved. No new building style, supplier, ordinance, or NPC was invented.
+
+
+## 9 November 2026 — Creature registry and bestiary status audit
+
+- Reviewed the creature registry, record templates, troll preparation, ordinary wildlife catalogue, and supernatural boundaries.
+- Added individual registry entries for the five established common Deep Bracken animals: deer, wild boar, fox, badger, and wolf. Each is limited to the Deep Bracken; broader occurrence, population, and detailed ranges remain unresolved.
+- Corrected the troll registry cross-reference so the regional wildlife catalogue is not described as wholly proposed; it contains both established Deep Bracken fauna and proposed candidates elsewhere.
+- Fixed a literal escaped newline in the creature index that had merged the Deep Bracken and River Vale/Siltfen entries.
+- Updated Worldbuilding Readiness to distinguish the five ordinary fauna records, the PREPARED troll encounter, the historical dragon category, and vampirism as a supernatural condition. No new monster population or supernatural ecology was invented.

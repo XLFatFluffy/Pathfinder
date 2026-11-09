@@ -2,6 +2,8 @@
 
 **Status:** Initial commercial property framework established. Named properties below are available opportunities, not reserved for the PCs. Availability can change through ordinary transactions and campaign events.
 
+For the wider material and maintenance context behind buildings and workshops, see [Building, Construction, and Maintenance](../../world/Building_Construction_and_Maintenance.md).
+
 ## Commercial Districts and Their Uses
 
 ### Market Ward

@@ -42,6 +42,8 @@ Revenue comes from customary dues and fees: harbor fees, market rents, warehouse
 ## Kharadorn Oversight
 Kharadorn's rights are strategic. Dwarven envoys may inspect obligations, negotiate shipping support, assess defenses, or intervene over a charter breach. They do not ordinarily adjudicate petty theft or market disputes. Denvor autonomy is real so long as the house honors its charter and does not threaten Kharadorn's strategic interests.
 
+For a practical account of how complaints, Watch responses, hearings, guild mediation, and unequal access to justice work at street level, see [Law in Practice and Local Justice](Law_in_Practice_and_Local_Justice.md). It does not establish unresolved custody rules, fixed penalties, or new legal powers.
+
 ## Open Details
 Exact charter text, council seat allocation, court procedure, tax schedule, watch strength, garrison numbers, and remaining officeholders are not yet fixed. No specific privilege or restriction is established until recorded.
 

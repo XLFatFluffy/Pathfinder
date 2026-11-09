@@ -270,9 +270,9 @@ Two supplemental minor houses are also established outside the calibrated Tallow
 
 Existing continental minor houses remain recorded in `world_engine/Continental_Minor_Houses_and_Regional_Powers.md`; the supplemental register deliberately does not duplicate them.
 
-## First world turn — 1 Harvestfall, 243 AC
+## Historical opening-state review — 1 Harvestfall, 243 AC
 
-WTR-001 was completed as an approved opening-state snapshot with zero days elapsed. The campaign's initial local and continental issues/projects, minor-house dispute, rumor knowledge boundaries, and wider political context were reviewed. No new event, war, assassination, crisis, or issue escalation was introduced. The campaign begins on 1 Harvestfall, 243 AC; subsequent world turns advance only when in-world time passes or the GM explicitly requests a simulation.
+The campaign's opening state was reviewed as a zero-day baseline. This was a one-time historical continuity review of local and continental issues, minor-house disputes, rumor knowledge boundaries, and wider political context. No calendar time advanced and no new event, war, assassination, crisis, or issue escalation was introduced. The legacy identifier WTR-001 is retained only to identify that historical review; it does not establish a recurring turn procedure or authorize future simulations.
 
 
 ## Worldbuilding scope clarification — 2026-11-09

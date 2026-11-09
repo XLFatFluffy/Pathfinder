@@ -156,3 +156,15 @@ The following are established:
 
 The deeper truth should emerge through campaign evidence rather than being preemptively solved.
 
+## 14. Temple Champions
+
+Every established, permanent temple maintains or designates a dedicated defender, commonly called its Temple Champion or its paladin. This is an institutional office rather than a universal Pathfinder class assignment. A Champion uses a class and abilities legal under Pathfinder First Edition; not every deity's alignment permits a literal paladin, so another suitable martial or divine class may fulfill the role.
+
+The Champion's principal responsibility is defense: the temple, its clergy, worshippers under its protection, sacred property, and the community where a threat is directly relevant to the deity's concerns. The Champion may investigate reports of supernatural activity, desecration, undead, heresy, or other threats appropriate to the faith. The clergy assess information and provide religious, local, and historical knowledge; the Champion decides how to investigate and respond within the office's authority.
+
+Clergy are primarily temple keepers and servants of the faithful. They conduct worship, rites, charity, records, counsel, education, and ordinary care. Clerics may serve at a temple, but are not automatically its defenders. They may support the Champion in exceptional danger or when their particular divine abilities are needed. The Champion and senior priest are distinct positions unless specifically established otherwise.
+
+A Champion is not a general law officer or commander of a noble's forces. They may cooperate with secular authorities, request help, or appeal to their faith's wider hierarchy. A major mobilization or crusade is rare and requires appropriate religious authorization, resources, and consideration of secular consequences; an individual Champion cannot declare one alone. Small shrines and caretaker sites are not automatically required to keep a resident Champion. A small permanent temple may share a Champion with a nearby institution where its resources or circumstances require it.
+
+The identities, statistics, training traditions, and current appointments of individual Champions remain open until separately established. Do not silently convert an existing senior priest, keeper, or named NPC into a Champion.
+

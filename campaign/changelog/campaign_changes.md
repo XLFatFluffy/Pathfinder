@@ -622,3 +622,12 @@
 - Grounded the local material in Brackenholt's established firewood and charcoal supply, the Blue Heron's listed laundry service, existing lighting goods, and documented seasonal preparation needs.
 - Distinguished practical household portrayal from established local business facts. No new tailor, laundress, candle-maker, fuel tariff, household consumption figure, or winter weather event was created.
 - Linked the reference from everyday life, workforce, GM Bible, readiness, roadmap, and changelog.
+
+
+## 2026-11-09 — Arcane patronage, magic-item scarcity, and Temple Champions established
+
+- Added campaign/magic/Arcane_Arts_and_Wizardry.md to define the rare, private, patronage-based arcane profession; no magical academies; self-directed study from rare texts; and private apprenticeships.
+- Added campaign/magic/Magic_Items_and_Enchantment.md to establish a restricted and exceptionally expensive magic-item market, Great House patronage, limited production, and player-facing acquisition principles.
+- Clarified that the Collegium of the Nine Lamps is a scholarly network, not a magical academy or wizard-training institution.
+- Established the Temple Champion tradition for permanent temples, distinguishing defenders from ordinary clergy and clerics; set limits on investigations, mobilization, and crusades.
+- Preserved Pathfinder First Edition crafting and character mechanics: no extra mandatory ingredients, crafting costs, checks, or prerequisites were introduced. No individual Champion or new magical institution was named.

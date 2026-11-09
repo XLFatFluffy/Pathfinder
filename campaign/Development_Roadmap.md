@@ -305,4 +305,6 @@ Added `campaign/locations/starting_city/Household_Comfort_Fuel_and_Winter_Prepar
 
 Added `campaign/locations/starting_city/Public_Life_Neighborhoods_and_Entertainment.md` to document established gathering places, the different social roles of the Copper Ladle, Blue Heron, and Crooked Oar, local information routes, childhood and older residents, informal leisure, and class/ancestry/neighborhood belonging. The record distinguishes canon from portrayal guidance and leaves schools, performers, clubs, named games, and new venues unresolved.
 
-**Next work:** review Tallowmere's education, literacy, apprenticeship, and access-to-knowledge framework against its local institutions and occupations. Resolve only meaningful gaps and avoid inventing a universal school system.
+Reviewed `campaign/world/Education_Literacy_and_Knowledge.md` against the latest Tallowmere religious, workforce, commercial, and social-life records. Clarified the established limited numeracy teaching at the Open Ledger, negotiated workshop apprenticeships, and the roles of scribes and private tutors. Kept Pell & Daughter distinct from a school and did not create a public school system or broaden the teaching role of other temples.
+
+**Next work:** examine how news, letters, official records, and oral reports move between Tallowmere and the wider realm, checking the existing travel/communication reference and local information-network dossiers for gaps or contradictions.

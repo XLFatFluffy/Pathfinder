@@ -928,3 +928,11 @@
 - Connected weather to agriculture, woodland and quarry work, roads, rivers, shipping, health, household life, and Tallowmere's established flood/dry-period vulnerabilities.
 - Preserved the opening-date boundary: no specific temperature, rainfall, storm, frost, drought, flood, or severe weather event is established for 1 Harvestfall, 243 AC.
 - Linked the reference from the world index, agriculture, travel/communication, GM Campaign Bible, and readiness records. No forecast table, weather simulator, climate averages, or current disaster was invented.
+
+
+## 9 November 2026 — Building, construction, and maintenance reference
+
+- Added `campaign/world/Building_Construction_and_Maintenance.md` as a practical guide to construction stages, stone/timber/earth materials, foundations, walls, roofs, fire and water concerns, repair labor, building types, and regional architectural tendencies.
+- Reconciled the guide with Tallowmere's established mixed stone/timber housing, Stonehollow building stone, Brackenholt timber and poles, local construction trades, Dorrik Slatehand, commercial premises, and emergency/fire records.
+- Linked the reference from the world index, Tallowmere residential housing, commercial property, GM Campaign Bible, and readiness records.
+- Kept exact building codes, construction prices, local material production, named specialist trades, and detailed repair schedules unresolved. No new building style, supplier, ordinance, or NPC was invented.

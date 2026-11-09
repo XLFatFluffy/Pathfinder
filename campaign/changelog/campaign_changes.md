@@ -433,3 +433,12 @@
 - Reframed political escalation and information assessment as GM reference guidance rather than automated simulation procedures.
 - Reclassified the former engine launch questions in the Open Questions Register as legacy opening-state context; WTR-001 remains a historical snapshot only.
 - No legal rights, Council thresholds, intelligence operations, political events, or military obligations were changed.
+
+
+## 2026-11-09 — Legacy world-state archive language cleaned
+
+- Reframed remaining world-engine actor and faction records as descriptive GM references rather than simulated actors or automated event hooks.
+- Reframed the continental strategic-pressure register as structural political context; tensions do not become active events without GM judgment.
+- Clarified that WTR-001 and the initial issue/project registers are historical opening-state references, not recurring procedures.
+- Updated the legacy archive index to point to the current agriculture and military references.
+- No actors, factions, issues, projects, political positions, or historical events were added or removed.

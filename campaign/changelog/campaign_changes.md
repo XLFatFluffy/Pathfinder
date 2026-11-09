@@ -833,3 +833,13 @@
 - Replaced the active world-turn ledger and report template with explicit historical/retired notices; clarified the event ledger and project reference as descriptive records rather than automated systems.
 - Corrected malformed Markdown in the legacy archive README and removed residual simulation wording from the jurisdiction guide.
 - No map geometry, political borders, PC concepts, or new campaign events were created or changed.
+
+
+## 9 November 2026 — Political and historical Bible continuity audit
+
+- Cross-checked the GM Bible's Great House leadership, Imperial Council representatives, Crown officers, court factions, minor-house network, and constitutional summaries against the current political source records.
+- Cross-checked the rebellion and post-Rebellion settlement summary against `World_History.md` and the historical uncertainty register, retaining the exact twelve-dragon peak, exclusive Targaryen bloodline eligibility, one-dragon rider bond, telepathic bond, and the distinction between Dragonstone and Khar-Dum.
+- Corrected stale unresolved-status wording: Council representatives are established in `Court_and_Council.md`, not an open question in `House_Rulers.md`, the Stage 8 note in `Canon_Register.md`, or the Stage 8 entry in `Open_Questions_Register.md`.
+- Clarified in `Current_World_State.md` that the earlier Stage 6 list of unresolved government details predates the later Stage 8 and Stage 9 decisions.
+- Clarified the roadmap's retired Phase F: WTR-001 is historical provenance, and former turn/proposal procedures are no longer active.
+- No new rulers, council members, political rights, borders, historical dates, or PC-specific connections were invented.

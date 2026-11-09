@@ -30,6 +30,7 @@ These governance records remain at the campaign root because they apply across a
 - [history/](history/) — historical foundations, chronology, calendar, and dating conventions.
 - [world/](world/) — everyday life, material culture, medicine, disease, agriculture, food supply, seasonal work, and other cross-regional setting references.
 - [politics/](politics/) — Great Houses, dynasties, succession, royal government, court, council, and political incidents.
+- [military/](military/) — armed institutions, command authority, feudal military obligations, logistics, and warfare reference.
 - [people/](people/) — NPC biographies, family records, personal relationships, and status histories.
 - [factions/](factions/) — organized political, military, criminal, commercial, scholarly, and other groups.
 - [religions/](religions/) — deities, faith, religious institutions, doctrines, orders, and religious history.

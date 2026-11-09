@@ -29,6 +29,21 @@ A later approved decision supersedes an earlier statement. The imported 40-page 
 - **UNRESOLVED:** Do not fill in without evidence or a GM decision.
 - **GM-ONLY:** Not player-facing unless deliberately revealed.
 
+### Knowledge levels and player access
+
+Campaign information should be separated by how a person could reasonably know it, not simply by whether the GM has written it down.
+
+- **Common knowledge:** Widely repeated public facts, such as the names of the Great Houses, the current monarch, major cities, principal fortresses, and major geographic features.
+- **Educated knowledge:** Information more readily available to literate or formally instructed people, such as dynastic history, legal precedent, distant political arrangements, and scholarly accounts.
+- **Local knowledge:** Details learned by living, working, traveling, trading, worshipping, or maintaining relationships in a particular place. A newcomer may know the major town and fortress names without knowing every village, estate, road, or local dispute.
+- **Specialist knowledge:** Information tied to a trade, office, faith, military role, scholarly field, or magical practice. A shipmaster may understand tides and harbor records; a scribe may understand charters; neither automatically knows the other's expertise.
+- **Rumor and belief:** Claims that circulate but may be false, incomplete, distorted, or self-serving. Record the source and reliability separately from objective truth.
+- **GM-only truth:** Facts deliberately concealed from the public or most characters. Do not allow them to leak merely because they appear in a campaign file.
+
+The player-facing baseline is that all major settlements and fortresses are widely known, but not every minor settlement, private holding, or local route. Character background, upbringing, occupation, education, travel, and personal relationships determine more specific knowledge. Ancestry alone does not grant complete cultural or geographic expertise.
+
+Do not require a skill check for ordinary facts a character would plainly know. Use relevant knowledge skills or a clear background justification for specialist or obscure information. The player handout is a filtered derivative of approved public knowledge, not an authority for GM-only truth.
+
 ### Campaign premise
 
 The setting is an original fantasy world built around the political and dynastic framework of Westeros / *Game of Thrones*, using Pathfinder First Edition for its rules, gods, ancestries, classes, monsters, spells, and equipment. It is not Golarion and is not a direct copy of Westeros. Tallowmere is the campaign's starting city, not the entire setting. The campaign is intended to support noble politics, feudal obligations, personal ambitions, exploration, trade, and military conflict in a responsive world whose changes and consequences are adjudicated through GM judgment rather than automated simulation.

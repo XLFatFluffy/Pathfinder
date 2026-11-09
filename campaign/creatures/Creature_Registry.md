@@ -82,7 +82,7 @@ These are the only entries registered in this first pass. The list is intentiona
 ### Troll
 
 - **Detailed record:** [Troll](Troll.md).
-- **Regional ordinary fauna:** [Tallowmere Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) — proposed natural-history reference; candidate species are not confirmed occurrences.
+- **Regional ordinary fauna:** [Tallowmere Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) — established Deep Bracken common fauna plus proposed wildlife candidates elsewhere; see [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) for the five established species.
 - **Record ID:** `troll`
 - **Status:** PREPARED
 - **Category:** Giant
@@ -128,6 +128,82 @@ These are the only entries registered in this first pass. The list is intentiona
 - **PC knowledge:** Character-specific knowledge belongs in the restricted character/NPC records.
 - **GM-only truth:** Origins, transmission, age limits, lineages, vulnerabilities beyond the approved mechanics, and the full history of vampirism remain open.
 - **Related records:** Restricted player-character records and any future vampire NPC dossiers.
+
+
+### Deer
+
+- **Record ID:** `deer`
+- **Status:** ESTABLISHED as common Deep Bracken fauna.
+- **Category:** Animal.
+- **Pathfinder reference:** No exact species or stat block selected; use an appropriate published ordinary-animal entry only if mechanics are needed.
+- **Known range:** Deep Bracken only; broader occurrence is not established by this record.
+- **Frequency:** COMMON within Deep Bracken.
+- **Evidence:** [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) and the regional wildlife source record.
+- **Public knowledge:** Ordinary residents of the hinterland may recognize deer and common signs of their presence. Local familiarity varies.
+- **Specialist knowledge:** Hunters, trappers, foresters, and woodland workers may recognize tracks, feeding signs, and likely movement.
+- **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; specialist behavior and tracking depend on background and skills.
+- **GM-only truth:** Exact species, population, range, herd structure, and seasonal movement remain unresolved.
+- **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+
+### Wild boar
+
+- **Record ID:** `wild-boar`
+- **Status:** ESTABLISHED as common Deep Bracken fauna.
+- **Category:** Animal.
+- **Pathfinder reference:** No exact stat block or size variant selected; use an appropriate published ordinary-animal entry only if mechanics are needed.
+- **Known range:** Deep Bracken only; broader occurrence is not established by this record.
+- **Frequency:** COMMON within Deep Bracken.
+- **Evidence:** [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) and the regional wildlife source record.
+- **Public knowledge:** Residents may know that boar forage in woodland and can be dangerous when cornered or protecting young. Specific local sayings remain open.
+- **Specialist knowledge:** Hunters and woodland workers may recognize rooting, tracks, wallows, and signs of recent passage.
+- **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; hunting and tracking expertise depends on background and skills.
+- **GM-only truth:** Exact population, range, breeding sites, and seasonal movement remain unresolved.
+- **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+
+### Fox
+
+- **Record ID:** `fox`
+- **Status:** ESTABLISHED as common Deep Bracken fauna.
+- **Category:** Animal.
+- **Pathfinder reference:** No exact species or stat block selected; use an appropriate published ordinary-animal entry only if mechanics are needed.
+- **Known range:** Deep Bracken only; broader occurrence is not established by this record.
+- **Frequency:** COMMON within Deep Bracken.
+- **Evidence:** [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) and the regional wildlife source record.
+- **Public knowledge:** Foxes are familiar woodland animals, but stories about them may exaggerate cleverness or supernatural significance.
+- **Specialist knowledge:** Hunters and trappers may recognize tracks, dens, prey remains, and scavenging behavior.
+- **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; detailed tracking depends on background and skills.
+- **GM-only truth:** Exact population, den sites, range, and seasonal movement remain unresolved.
+- **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+
+### Badger
+
+- **Record ID:** `badger`
+- **Status:** ESTABLISHED as common Deep Bracken fauna.
+- **Category:** Animal.
+- **Pathfinder reference:** No exact species or stat block selected; use an appropriate published ordinary-animal entry only if mechanics are needed.
+- **Known range:** Deep Bracken only; broader occurrence is not established by this record.
+- **Frequency:** COMMON within Deep Bracken.
+- **Evidence:** [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) and the regional wildlife source record.
+- **Public knowledge:** Residents may recognize badgers and their burrows, though they may not distinguish fresh from abandoned setts.
+- **Specialist knowledge:** Woodland workers and hunters may identify setts, feeding signs, and disturbance.
+- **PC knowledge:** Basic recognition is ordinary for characters familiar with the region; field signs require relevant experience.
+- **GM-only truth:** Exact population, sett distribution, range, and seasonal behavior remain unresolved.
+- **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
+
+### Wolf
+
+- **Record ID:** `wolf`
+- **Status:** ESTABLISHED as common Deep Bracken fauna.
+- **Category:** Animal.
+- **Pathfinder reference:** No exact species, pack size, or stat block variant selected; use an appropriate published ordinary-animal entry only if mechanics are needed.
+- **Known range:** Deep Bracken only; broader occurrence is not established by this record.
+- **Frequency:** COMMON within Deep Bracken.
+- **Evidence:** [Deep Bracken Common Fauna](Deep_Bracken_Common_Fauna.md) and the regional wildlife source record.
+- **Public knowledge:** Residents may know wolves are present and can threaten livestock, but a particular loss is not automatically attributable to wolves.
+- **Specialist knowledge:** Shepherds, hunters, trappers, and foresters may recognize tracks, scat, calls, and signs of a pack's passage.
+- **PC knowledge:** Basic awareness is ordinary for characters familiar with the region; identifying a particular pack or its behavior requires evidence and relevant knowledge.
+- **GM-only truth:** Exact population, pack territories, dens, range, and seasonal movement remain unresolved. Wolves are not automatically supernatural or connected to House Veyr.
+- **Related records:** `Deep_Bracken_Common_Fauna.md`; `Regional_Wildlife_Catalogue.md`.
 
 ## 6. App and data-handling requirements
 

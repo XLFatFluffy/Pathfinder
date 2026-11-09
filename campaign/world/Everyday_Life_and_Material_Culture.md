@@ -34,7 +34,7 @@ A working household may begin the day with:
 - weak beer or small beer;
 - water or watered wine in wealthier households.
 
-Breakfast is usually practical rather than ceremonial.
+Breakfast is usually practical rather than ceremonial. For the established local supply chain, named food businesses, household patterns, and public eating in Tallowmere, see [Foodways of Tallowmere and Its Hinterland](Foodways_of_Tallowmere_and_the_Hinterland.md).
 
 ### Common meals
 

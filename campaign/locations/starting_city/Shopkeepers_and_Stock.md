@@ -121,7 +121,7 @@ Tallowmere's shops are independent businesses. They do not share identical stock
 
 **Personality and relationships:** Miraq is observant, dry-humored, technically curious, and slow to trust people who treat her as a novelty or assume she represents all ratfolk. She has earned her position through skill, careful accounts, and stubborn persistence. She knows Tikka Vell through the local trading community and occasionally buys repaired glassware and small fittings from her. She has no automatic loyalty to any PC. A character who approaches her through alchemy, trade, or professional respect may find common ground, but friendship develops only through honest dealing and shared experience. Miraq has her own customers, obligations, and opinions about how ratfolk should pursue acceptance.
 
-**Possible PC connection:** Miraq could become a professional contact, supplier, rival, confidante, or genuine friend to the ratfolk alchemist. The relationship is open and should emerge through play. She may be interested in comparing techniques, discussing reagent sourcing, or collaborating on a commission, but will not automatically hand over trade secrets or become a permanent sidekick.
+**Possible interaction:** A PC with alchemical or commercial interests could develop a professional relationship with Miraq through commissions, reagent sourcing, or technical exchange. The relationship is open and should emerge through play. She will not automatically hand over trade secrets or become a permanent sidekick.
 
 ## 6. Pell & Daughter, Scribes and Stationers
 **District:** High Ward, near the magistrates' offices  

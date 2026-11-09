@@ -420,6 +420,7 @@ The opening encounter is not a mandatory quest chain. Once the PCs reach Tallowm
 - `Crime_and_Informal_Power.md` and `Criminal_Operators_and_Networks.md`: illicit activity.
 - `Current_Situation_and_Rumors.md` and `world_engine/Tallowmere_Rumor_Truth_Register.md`: rumor and objective truth.
 - `Regional_Settlements_and_Landholders.md`, `Regional_Geography_and_Points_of_Interest.md`, `Surrounding_Region.md`, `Wilderness_Beyond_Tallowmere.md`: hinterland and travel.
+- `Brackenholt_Woodland_Work_and_Charcoal.md`: practical local guide to Brackenholt's charcoal industry, customary woodland access, and working relationship with Tallowmere.
 - `world_engine/Tallowmere_NPC_Information_Network.md`: information flow.
 - `world_engine/Initial_Issue_Register.md` and `Initial_Project_Register.md`: historical opening-state records, not active simulation procedures.
 

@@ -210,7 +210,7 @@ Succession tensions are deliberately distinct: Calderan's cautious heir versus a
 
 **Court faction leaders and key associates:** Royal Court — Queen Elowen Calderan, with Othmar Rusk; Traditionalists — Lord Garrick Edarth, with Lady Ysabet Edarth; Royal Expansionists — Princess Maerelle Calderan, with Marshal Garran Holt as a professionally aligned associate, not a declared partisan; Merchant Interests — Lady Cassia Merrowen, with Lady Ilyra Vaelorian; Religious Establishment — High Prelate Aveline Marr, with Prior-General Odran Thrice-Blessed.
 
-The factions are overlapping political networks, not formal parties. House affiliation does not determine membership. The Council representatives are distinct from their house rulers and are appointed by their respective houses. Religious authorities have no automatic Council seat. The Council's exact voting rules, quorum, vetoes, and formal procedures remain unresolved.
+The factions are overlapping political networks, not formal parties. House affiliation does not determine membership. The Council representatives are distinct from their house rulers and are appointed by their respective houses. Religious authorities have no automatic Council seat. Council voting thresholds, quorum, protected matters, monarch postponement, and limits on direct military command are established in `politics/Imperial_Governance_Operating_Framework.md`; remaining procedural interpretation and legal edge cases remain open.
 
 **Reference:** `politics/Court_and_Council.md`.
 

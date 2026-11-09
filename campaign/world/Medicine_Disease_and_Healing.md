@@ -94,7 +94,7 @@ Potential categories for future setting use include:
 - **Chronic conditions:** recurring pain, impaired mobility, breathing problems, sensory loss, and long-term weakness.
 - **Animal disease:** illness among livestock, working animals, and pets, with consequences for food, transport, labor, and wealth.
 
-These are broad categories, not established endemic diseases. No named local outbreak, mortality rate, seasonal epidemic pattern, or pathogen is established. A major outbreak requires deliberate GM approval and a coherent cause, timeline, transmission pattern, and social consequence.
+Animal care and working-animal health are developed separately in [Animal Husbandry and Working Animals](Animal_Husbandry_and_Working_Animals.md). These are broad categories, not established endemic diseases. No named local outbreak, mortality rate, seasonal epidemic pattern, or pathogen is established. A major outbreak requires deliberate GM approval and a coherent cause, timeline, transmission pattern, and social consequence.
 
 ## 5. Sanitation, water, and housing
 

@@ -78,7 +78,7 @@ Tracks unresolved setting questions so that uncertainty is deliberate rather tha
 
 **RESOLVED:** Current rulers and immediate families of all six Great Houses, including designated heirs and principal succession tensions, are established in `politics/House_Rulers.md` (2026-11-04).
 
-**Still open:** Wider family trees and collateral branches; individual Imperial Council representatives; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded.
+**Still open:** Wider family trees and collateral branches; royal and house household officers; commanders and senior retainers; formal succession law and customary practices where not otherwise recorded. Individual Council representatives are established in `politics/Court_and_Council.md`.
 
 
 ## Provisional Legacy Player Character Information

@@ -2,7 +2,7 @@
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** GM reference; synthesis of established Great House, Crown, and political canon.  
-**Purpose:** Give the Living World Engine a wider political context without manufacturing a current crisis.
+**Purpose:** Summarize structural political context without treating every tension as an active crisis.
 
 This register captures structural tensions that already exist in the setting. They are not dated events, active wars, secret conspiracies, or guaranteed future plots. A pressure becomes an active issue only when a specific actor takes action, conditions materially change, or evidence establishes a concrete dispute.
 
@@ -11,7 +11,7 @@ This register captures structural tensions that already exist in the setting. Th
 - **STRUCTURAL:** A continuing political or economic condition.
 - **WATCH:** Worth reviewing when relevant time passes or new evidence appears.
 - **ACTIVE ISSUE:** A concrete, current dispute or organized effort. None of the entries below is automatically an active issue.
-- **UNKNOWN:** Deliberately unresolved. Do not fill it by simulation.
+- **UNKNOWN:** Deliberately unresolved. Do not fill it by inference.
 
 ## Continental pressures
 
@@ -116,7 +116,7 @@ This register captures structural tensions that already exist in the setting. Th
 
 ## Campaign-start guardrail
 
-At 1 Harvestfall, 243 AC, these pressures provide context for future simulation. They do **not** establish a current Great House war, active continental border dispute, assassination plot, succession emergency, naval blockade, or northern invasion. The Living World Engine should generate such developments only from a credible chain of causes and a GM-approved world-state change.
+At 1 Harvestfall, 243 AC, these pressures describe the political background. They do **not** establish a current Great House war, active continental border dispute, assassination plot, succession emergency, naval blockade, or northern invasion. A structural tension becomes a concrete event only when the GM establishes an action, changed circumstance, or credible evidence.
 
 
 ### CSP-007 — Water rights and caravan access in the Southwestern Marches

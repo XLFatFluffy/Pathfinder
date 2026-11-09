@@ -695,3 +695,11 @@
 
 - Replaced literal escaped paragraph-break characters with proper Markdown line breaks in `Government_and_Law.md` and `Tallowmere_GM_Dossier.md`.
 - No lore, procedure, NPC identity, or canon status changed.
+
+
+## 9 November 2026 — Session One references reconciled with GM-led campaign operation
+
+- Updated `Session_One_Sandbox_Reference.md` to remove obsolete references to a completed/required world turn and the retired world engine. The GM now determines actor actions and consequences as in-world time passes; no automated simulation or mandatory escalation is used.
+- Marked the legacy party assumptions and troll/Selwick opening explicitly provisional in the sandbox reference. The city sandbox remains usable independently of those concepts.
+- Updated `Session_One_GM_Readiness_Packet.md` to clarify GM-led time progression and add the recent local references for justice, emergency response, social life, medicine, sanitation, foodways, and communication.
+- Updated Development Roadmap and Worldbuilding Readiness. No PC concepts, opening encounter, or world event was newly approved.

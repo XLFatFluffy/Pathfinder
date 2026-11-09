@@ -631,3 +631,16 @@
 - Clarified that the Collegium of the Nine Lamps is a scholarly network, not a magical academy or wizard-training institution.
 - Established the Temple Champion tradition for permanent temples, distinguishing defenders from ordinary clergy and clerics; set limits on investigations, mobilization, and crusades.
 - Preserved Pathfinder First Edition crafting and character mechanics: no extra mandatory ingredients, crafting costs, checks, or prerequisites were introduced. No individual Champion or new magical institution was named.
+
+
+## 9 November 2026 — Tallowmere public life and neighborhood culture
+
+**Added:** `campaign/locations/starting_city/Public_Life_Neighborhoods_and_Entertainment.md`.
+
+**Integrated:** Updated the Tallowmere starting-city index, Tallowmere GM dossier, GM Campaign Bible reference index, Development Roadmap, and Worldbuilding Readiness.
+
+**What changed:** Documented established public gathering places and their distinct roles, including Bellmarket, the Copper Ladle, the Blue Heron, the Crooked Oar, the Sailors' Shrine, Lantern Ward institutions, residential spaces, and the decentralized Underways. Added practical guidance on information networks, rumor reliability, childhood, older residents, informal leisure, class, ancestry, and neighborhood belonging.
+
+**Canon discipline:** Existing venues and established facts remain canon. General social patterns are labeled as portrayal guidance. No school system, named performers, clubs, new entertainment venues, legal restrictions, or formal associations were invented. Exact venue schedules, named local games, and other low-value details remain unresolved.
+
+**Approval status:** GM-directed development; portrayal guidance is not a new binding rule or institutional canon.

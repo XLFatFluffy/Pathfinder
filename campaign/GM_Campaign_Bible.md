@@ -101,7 +101,7 @@ A person's life is shaped by household, land, work, family, faith, local custom,
 
 Literacy is valuable but not universal. People learn through households, apprenticeship, temples, noble tutors, commercial practice, military service, and specialist scholarship. Practical knowledge is not inferior to book learning: a farmer may understand soil and seasons better than a court scholar, while a merchant clerk may understand contracts and accounts better than a landed knight.
 
-For detailed everyday patterns, see `world/Everyday_Life_and_Material_Culture.md`. Education and access to knowledge are covered in `world/Education_Literacy_and_Knowledge.md`.
+For detailed everyday patterns, see `world/Everyday_Life_and_Material_Culture.md`. Education and access to knowledge are covered in `world/Education_Literacy_and_Knowledge.md`. Tallowmere's local communication and information flow are covered in `locations/starting_city/Tallowmere_Communication_and_News.md`.
 
 ### Religion
 

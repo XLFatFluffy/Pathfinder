@@ -173,7 +173,9 @@ People may use herbs, poultices, washes, teas, oils, and salves for comfort, wou
 
 Do not make a plant a reliable cure for infection, poison, serious wounds, disease, or supernatural conditions without explicit setting and rules approval. Pathfinder magic remains a separate matter. A healer's practical knowledge can be valuable without being equivalent to spellcasting.
 
-Specific remedies, dosages, toxicology, and regional medical traditions belong in the medicine reference when that work is developed. This document does not establish them.
+Fenna Wale's established local stock includes dried yarrow and other labeled herbs, as recorded in [Medical Care in Tallowmere](../locations/starting_city/Medical_Care_in_Tallowmere.md). This confirms that dried yarrow is available through her practice; it does not, by itself, establish where it was grown, that it is gathered wild in the region, or that it has a guaranteed mechanical or curative effect.
+
+Specific remedies, dosages, toxicology, and regional medical traditions belong in the medicine reference. This document does not establish them.
 
 ## 11. Seasonal gathering and work
 
@@ -215,7 +217,7 @@ The higher and rougher country beyond the worked quarries may support scrub, gra
 
 ### Siltfen
 
-The wetland's reeds, rushes, sedges, wet meadow grasses, alder, willow, and water-margin herbs are practical candidates. Their distribution depends on water depth, flow, seasonal flooding, grazing, and cutting. Reed beds may be harvested for thatch, mats, screens, and basketry; rights and customary access remain local questions. Peat and clay are mentioned as possible resources in the wilderness framework, not as universal or commercially important deposits.
+Reed beds and reed cutting are established features of the Siltfen; the reeds are used for thatch, mats, and basketry. This establishes the resource and its practical uses, not the exact reed species, cutting season, named gatherers, or individual rights holders. Rushes, sedges, wet meadow grasses, alder, willow, and water-margin herbs remain habitat-consistent candidates. Their distribution depends on water depth, flow, seasonal flooding, grazing, and cutting. Peat and clay are mentioned as possible resources in the wilderness framework, not as universal or commercially important deposits.
 
 ### Outer Eastern Shore
 

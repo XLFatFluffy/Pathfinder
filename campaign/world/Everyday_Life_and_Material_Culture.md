@@ -201,7 +201,7 @@ Nobles can afford:
 
 A person's clothing also indicates whether they work with animals, soil, metal, food, ships, or books.
 
-## 11. Work
+Household fuel, heating, lighting, laundry, clothing repair, and seasonal preparation in Tallowmere are developed in [Household Comfort, Fuel, Clothing, and Winter Preparation](../locations/starting_city/Household_Comfort_Fuel_and_Winter_Preparation.md).\n\n## 11. Work
 
 Most people work.
 

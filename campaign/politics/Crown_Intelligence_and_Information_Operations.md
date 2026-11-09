@@ -2,11 +2,11 @@
 
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** GM operating framework proposal; network size and specific operations remain unresolved  
-**Authority:** Established Royal Spymaster role and current Living World Engine information rules.
+**Authority:** Established Royal Spymaster role and campaign knowledge-boundary standards.
 
 ## 1. Purpose
 
-This document defines a cautious model for how the Crown gathers, evaluates, protects, and acts on information. It supports political play and the Living World Engine without turning the Royal Spymaster into an omniscient observer.
+This document defines a cautious GM reference for how the Crown may gather, evaluate, protect, and act on information without turning the Royal Spymaster into an omniscient observer.
 
 The framework does not establish a secret conspiracy, a current investigation, named agents, a fixed number of informants, or a particular operation.
 
@@ -45,7 +45,7 @@ The following are possible source categories consistent with the established des
 
 No source category grants automatic access to every location, house, council, or private conversation.
 
-## 4. Collection and evaluation procedure
+## 4. Evaluating information
 
 Use this sequence when the Crown receives potentially important information:
 
@@ -112,9 +112,9 @@ A false report does not automatically mean the source is a traitor. Mistakes, po
 
 When a report is wrong, preserve what the recipient believed at the time and record when the error was discovered. Do not retroactively make an actor omniscient.
 
-## 9. Living World Engine use
+## 9. GM reference: who knows what
 
-When deciding whether an actor knows something, record:
+When deciding whether an actor plausibly knows something, distinguish:
 
 - **Claim:** What is alleged or observed?
 - **Source:** Who or what provided it?
@@ -123,7 +123,7 @@ When deciding whether an actor knows something, record:
 - **Date received:** When could the recipient plausibly know it?
 - **Reliability:** Unverified, plausible, corroborated, disputed, or disproven.
 - **Recipient belief:** What does the actor actually think?
-- **Action:** What can the actor credibly do with this information?
+- **Possible response:** What could the actor credibly do with this information, given their authority and resources?
 - **Exposure risk:** Could acting reveal the source or method?
 
 Information travel time depends on route, weather, vessel availability, messenger access, secrecy, and institutional delay. Do not assign exact delivery times without a relevant map route and established travel basis.

@@ -82,6 +82,7 @@ These are the only entries registered in this first pass. The list is intentiona
 ### Troll
 
 - **Detailed record:** [Troll](Troll.md).
+- **Regional ordinary fauna:** [Tallowmere Regional Wildlife Catalogue](Regional_Wildlife_Catalogue.md) — proposed natural-history reference; candidate species are not confirmed occurrences.
 - **Record ID:** `troll`
 - **Status:** PREPARED
 - **Category:** Giant

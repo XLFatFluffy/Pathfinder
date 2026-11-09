@@ -442,3 +442,11 @@
 - Clarified that WTR-001 and the initial issue/project registers are historical opening-state references, not recurring procedures.
 - Updated the legacy archive index to point to the current agriculture and military references.
 - No actors, factions, issues, projects, political positions, or historical events were added or removed.
+
+
+## 2026-11-09 — Education, literacy, and knowledge reference added
+
+- Added `campaign/world/Education_Literacy_and_Knowledge.md` as a cross-regional GM reference for childhood learning, literacy, numeracy, apprenticeship, noble and administrative education, religious instruction, scholarship, books, translation, and social access to knowledge.
+- Consolidated the established Collegium of the Nine Lamps as the named independent scholarly network, while leaving its ranks, training, governing body, and geographic reach unresolved.
+- Corrected a contradiction in `campaign/religions/Religion_and_Faith.md`, which had described the scholarly tradition's name as unresolved despite the established name in `Cultures_and_Societies.md`.
+- Linked the new reference from the world folder index. No literacy percentages, named schools, new institutions, or language systems were invented.

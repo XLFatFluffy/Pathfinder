@@ -222,6 +222,8 @@ The Northfields and nearby holdings support agricultural and pastoral work. The 
 
 Two additional local service points are established in the settlement record. **Ashcombe Manor** undertakes occasional horse breeding for local use; no breed, herd size, sale schedule, or price is established. **Fordmere** has stables serving travelers alongside its inn, small market yard, and toll office. This establishes traveler accommodation for animals, not a public breeding operation, large livestock market, or named veterinary service.
 
+Millhaven and the Northfields collect grain, flour, oats, and seasonal legumes. Oats are an established local crop and a recognized animal-feed category, but the amount reserved for animals, the suppliers of hay, and the price or availability of fodder are not recorded. The West Road carries livestock and other goods toward the city; morning cart traffic is heavy. No dedicated drovers' route, gate inspection system, or citywide animal-movement regulation is established.
+
 The Brackenholt record establishes small-scale hunting, trapping, and woodland gathering alongside charcoal, firewood, poles, and timber. It does not establish a local livestock industry or unrestricted woodland grazing. The Siltfen supports limited grazing on firmer ground, but the exact stock, schedule, and rights remain unresolved.
 
 Saltwick's established role centers on fishing and shore trade; do not assume it is a major livestock center without further evidence.

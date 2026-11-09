@@ -406,3 +406,12 @@
 - Distinguished practical care, learned medicine, folk practice, religious care, and supernatural healing. Confirmed that clergy are not automatically spellcasters and that no temple or healer can provide unestablished magical services on demand.
 - Kept named practitioners, local facilities, specific endemic diseases, medical guilds, and epidemic events unresolved. No new disease outbreak or magical cure was established.
 - Linked the reference from Everyday Life and Material Culture and the campaign directory index.
+
+
+## 2026-11-09 — Agriculture, food supply, and seasonal work reference
+
+- Added `campaign/world/Agriculture_Food_and_Seasonal_Work.md` as a cross-regional GM reference for agricultural society, major food-producing regions, crops, livestock, seasonal labor, storage, milling, transport, food markets, scarcity, and regional climate tendencies.
+- Consolidated useful descriptive material from the retired seasonal operating worksheet while removing world-turn fields, automatic event propagation, and simulation procedures.
+- Preserved the variable-season calendar rule and the opening-date safeguards: no specific weather event or famine is established on 1 Harvestfall, 243 AC.
+- Reframed the continental economic network as a descriptive reference for GM judgment rather than a Living World Engine input.
+- No crop yields, prices, disease events, regional borders, or current shortages were invented.

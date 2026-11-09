@@ -89,7 +89,7 @@ A creature encounter should leave evidence appropriate to the creature and circu
 ## 7. Open work
 
 - Approve a modest catalogue of ordinary wildlife by habitat.
-- Establish fishing and river food resources where relevant to play.
+- Refine aquatic species and fishing practices only when useful to play; the established resource framework is now documented in `River_Vale_and_Siltfen_Aquatic_Ecology.md`.
 - Define seasonal changes and migration only where useful.
 - Record useful plant species and gathering customs only when approved or observed.
 - Add dangerous species based on campaign tone, terrain, and actual play.

@@ -19,7 +19,7 @@ This document tracks what is established, what remains useful to prepare, and wh
 | Cultures and ordinary life | EXPANDED / ONGOING | Regional cultural dossiers, everyday life, holidays, education, literacy, and knowledge access are documented; deeper local distinctions remain elective. |
 | Religion | ESTABLISHED FRAMEWORK | Pathfinder gods are real. Regional institutions and ordinary religious life are documented; divine magic's precise mechanism remains unresolved. |
 | Economy and trade | EXPANDED / ESTABLISHED FRAMEWORK | Continental dependencies, local supply, agriculture, markets, merchants, guilds, contracts, credit, currency, and moneychanging are documented. Local Tallowmere rents, dues, guild rules, shops, and supply relationships have their own authoritative records; detailed prices and quantities remain selective. |
-| Ecology and wildlife | EXPANDED / PROPOSED | Tallowmere habitats are established; ordinary fauna and flora have substantial GM reference catalogues, but individual species occurrences and frequencies remain proposed unless confirmed in play or by GM decision. |
+| Ecology and wildlife | EXPANDED / PROPOSED | Continental environmental tendencies and Tallowmere/frontier habitats are documented. Tallowmere fauna and flora catalogues remain proposals; individual species occurrences and frequencies require evidence or GM approval. |
 | NPCs and factions | ESTABLISHED / EXPANDING | GM roleplaying dossiers and political/civic reference records exist. Some identity and continuity questions remain open. |
 | Medicine and healing | ESTABLISHED FRAMEWORK | Practical care, disease, injury, childbirth, animal care boundaries, temple healing, and Pathfinder magic are documented; specific local practitioners and outbreaks remain open. |
 | Law and justice | ESTABLISHED FRAMEWORK | Feudal law, Crown/Council authority, Tallowmere law, jurisdiction, crime, evidence, punishment, and enforcement are documented; regional procedures remain open. |
@@ -53,12 +53,10 @@ The wider setting work should not assume the PCs' future choices or build around
 
 ## 4. Current worldbuilding priorities
 
-1. Review the proposed Tallowmere fauna and flora catalogues and approve only the species and occurrences that should become setting canon. Keep frequency and distribution conservative.
-2. Review the new continental commercial references against Tallowmere's specific guild, property, merchant, and shop records; preserve the distinction between local established practice and continental working guidance.
-3. Review the proposed Tallowmere fauna and flora catalogues and approve only the species and occurrences that should become setting canon. Keep frequency and distribution conservative.
-4. Expand continental natural history by major geographic region when the party is likely to travel there; do not populate every biome simply to complete a catalogue.
-5. Resolve remaining high-value continuity issues and specific institutional details when they become relevant, without inventing universal rules for every region.
-6. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.
+1. Review the proposed Tallowmere fauna and flora catalogues and approve only species and occurrences that should become setting canon. Keep frequency and distribution conservative.
+2. Use the new continental ecology framework as a guide when distant regions become relevant; develop specific species and habitats only where they add meaningful play value.
+3. Review high-value continuity issues and institutional details when relevant, without inventing universal rules for every region.
+4. Rebuild the GM Campaign Bible as a substantial, coherent, printable study guide derived from the authoritative subject records. The existing Bible remains a starting consolidation, not the finished edition.
 
 ## 5. Cartographic limits
 

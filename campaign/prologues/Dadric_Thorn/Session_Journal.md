@@ -55,3 +55,17 @@ Append each session in chronological order. Do not rewrite prior entries to smoo
 - **Consequences and unresolved threads:** Dadric has business to attend to with Spark this morning. The letter incident remains an active thread. Dadric intends to stay in Tallowmere for approximately one week.
 - **Potential main-campaign impact:** None established yet.
 - **Canon updates required:** Correct Spark's sex to female in any campaign records where it is specified. No broader world-canon changes arise from these events.
+
+
+### Continuation — A donation to the shrine
+
+- **In-world date and time:** 1 Harvestfall, 243 AC; morning. Exact hour not established.
+- **Location:** Mrs. Anwen's shrine in Tallowmere.
+- **Events:** After completing his morning prayer, Dadric told Mrs. Anwen that important business would keep him from helping with shrine repairs for a few days. He offered to leave money so she could hire help in his absence. Anwen estimated that an ordinary helper would cost about 1 sp per day, with someone experienced in carpentry costing somewhat more; she said one or two gold pieces would go a long way. Dadric gave her 1 gp and asked her to get some help for a few days, promising that he would help himself when he returned.
+- **Dadric's decisions and actions:** Donated 1 gp toward temporary repair labor and promised to resume helping with the repairs after his business.
+- **NPCs encountered:** Mrs. Anwen.
+- **Relationship changes:** Anwen received the gift with genuine gratitude and agreed to use it for the shrine's needs. She said she would hold Dadric to his promise to return and help finish the work.
+- **Information learned by Dadric:** Anwen's rough estimate for ordinary repair help is about 1 sp per day; a worker with carpentry experience would cost somewhat more. These are local estimates given by Anwen, not a formal town wage schedule.
+- **Combat and mechanical changes:** None.
+- **Inventory, wealth, and resource changes:** Dadric's wealth decreases by 1 gp. His exact remaining balance is still unknown because the earlier weekly lodging transaction is not fully itemized in the available record.
+- **Consequences and unresolved threads:** Mrs. Anwen can arrange a few days of hired help for the shrine repairs. Dadric intends to help again when he returns.

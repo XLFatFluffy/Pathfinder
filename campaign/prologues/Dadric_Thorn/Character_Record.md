@@ -116,7 +116,7 @@ The rope, pitons, hammer, lantern, oil, torches, and spare waterskin are carried
 | Packed reserve gear | As listed above | 27 lb. |
 | **Horse tack, supplies, and packed gear total** | | **139 lb.** |
 
-**Combined listed gear weight:** 213.5 lb. This is the sum of Dadric's worn/carried equipment and the horse's tack, seven-day feed, and packed reserve gear, not the weight of the horse or rider. The horse's load is tracked separately from Dadric's personal encumbrance. Waterskins are counted full; the feed is 10 lb. per day. Wooden holy symbols and flint and steel have no listed weight in the standard equipment tables.
+**Combined listed gear weight:** 213.5 lb. This is the sum of Dadric's worn/carried equipment and the horse's tack, seven-day feed, and packed reserve gear, not the weight of the horse or rider. The horse's load is tracked separately from Dadric's personal encumbrance. With Dadric weighing 220 lb., his body, personal equipment, horse tack, seven-day feed, and packed reserve gear total 433.5 lb. on the horse. A light warhorse (Strength 16, Large quadruped) has a medium-load limit of 460 lb., so this is a medium load with 26.5 lb. of capacity remaining before it becomes heavy. Waterskins are counted full; the feed is 10 lb. per day. Wooden holy symbols and flint and steel have no listed weight in the standard equipment tables.
 
 The light warhorse is provisioned as an assigned mount from Dadric's prior religious service and is separate from his 175 gp starting wealth. It is not treated as a purchase from his character funds. Its name, appearance, temperament, and detailed history remain to be established in play or background.
 
@@ -127,7 +127,7 @@ The submitted PDF records 36 gp, 6 sp, and 6 cp remaining. The equipment list an
 - Gender: male
 - Age: 32
 - Height: 6 ft. 3 in.
-- Weight: 265 lb.
+- Weight: 220 lb. (player-confirmed; supersedes the submitted sheet's earlier 265 lb. entry)
 - Hair: dark brown
 - Eyes: grey
 

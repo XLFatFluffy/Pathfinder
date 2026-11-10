@@ -144,3 +144,36 @@ This section supersedes earlier sections above wherever dates, location, investi
 - Distinguish observed facts, verified facts, NPC testimony, rumor, and GM-only information. Do not reveal hidden plot or information Dadric has not discovered.
 - Campaign setting is based on Game of Thrones/Westeros. Tallowmere is the starting location, not the whole setting. Do not substitute Golarion setting lore.
 - At meaningful checkpoints, update Campaign_State.md, Session_Journal.md, and Character_Record.md as appropriate. Do not claim a repository update unless it has actually been committed.
+
+
+## Audited personal purse and outstanding wages — 10 November 2026
+
+### Personal coin reconciliation
+
+Use **36 gp, 6 sp, 6 cp** as Dadric's actual spendable starting purse before Tallowmere transactions. This is the corrected starting purse from the player's starting-wealth calculation; the PDF's 34 gp, 6 sp, 6 cp reflects the later 2 gp payment to Harlan for Tomas's treatment, not the pre-transaction starting purse.
+
+| Transaction | Change | Running balance |
+|---|---:|---:|
+| Starting purse | — | 36 gp, 6 sp, 6 cp |
+| Paid Harlan toward Tomas's treatment | −2 gp | 34 gp, 6 sp, 6 cp |
+| Paid Merek in advance for three nights' full care of Spark | −3 gp | 31 gp, 6 sp, 6 cp |
+| First Copper Kettle room/meal bill | −1 gp, 4 sp | 30 gp, 2 sp, 6 cp |
+| Separate bath charge | −3 sp | 29 gp, 9 sp, 6 cp |
+| Weekly lodging: 2 gp, 5 sp less 4 sp credit | −2 gp, 1 sp | 27 gp, 8 sp, 6 cp |
+| Donation to Mrs. Anwen | −1 gp | **26 gp, 8 sp, 6 cp** |
+| Paid Garrick 2 gp; later reimbursed 2 gp by Ser Alester | net 0 gp | **26 gp, 8 sp, 6 cp** |
+
+This reconciliation assumes the listed lodging, bath, stable, Harlan, and donation payments are the complete set of personal transactions through the afternoon of 4 Harvestfall. Employer-paid provisions (3 gp 3 sp) and Rowan's fee (12 sp) are excluded. No other personal purchases are recorded. The 2 gp Garrick payment is fully reimbursed and therefore has no net effect.
+
+**Current personal purse before receipt of wages: 26 gp, 8 sp, 6 cp.**
+
+### Wages owed by Ser Alester Vane
+
+- Contract rate: 2 gp per day, beginning 1 Harvestfall, 243 AC.
+- Dadric completed the recovery and reported back during the afternoon of 4 Harvestfall. Count four contracted days (1, 2, 3, and 4 Harvestfall) unless a later explicit agreement changes the accounting.
+- **Accrued wages: 8 gp total.** No wage payment has been recorded as received.
+- Earlier campaign conversation established the intended allocation as 1 gp/day to Mrs. Anwen's shrine and 1 gp/day to Dadric personally. On that basis, Ser Alester owes **4 gp to Dadric** and **4 gp earmarked for Mrs. Anwen**, for 8 gp total. Keep the shrine portion separate from Dadric's purse until it is actually handed to Anwen or otherwise spent as directed.
+- If Ser Alester pays the full agreed allocation, Dadric's personal purse becomes **30 gp, 8 sp, 6 cp**, and the shrine receives 4 gp. Until payment is actually made in play, keep the purse at 26 gp, 8 sp, 6 cp and record 8 gp as wages outstanding.
+- The additional coffer-recovery reward was mentioned in the original contract but never quantified. It remains unpriced and is not included in the 8 gp wages.
+
+Do not narrate that Dadric has received these wages until the player actually collects them. The next appropriate opportunity is to raise the unpaid wages with Ser Alester; do not assume the payment has already been made.

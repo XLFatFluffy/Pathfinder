@@ -176,3 +176,13 @@ Update this record whenever the character gains experience, levels, feats, skill
 - Contract wages: 2 gp/day from 1 through 4 Harvestfall inclusive = 8 gp accrued, none recorded as paid. Allocation: 4 gp personally to Dadric and 4 gp earmarked for Mrs. Anwen's shrine (1 gp/day each). Until collected, do not add wages to purse. If paid in full as agreed, Dadric's purse becomes 30 gp, 8 sp, 6 cp, with a separate 4 gp shrine allocation.
 - The additional coffer-recovery reward is unquantified and not included.
 - Full itemized ledger is in Campaign_State.md.
+
+
+## Current update — 5 Harvestfall, 243 AC
+
+- Dadric remains level 1, 12/12 HP, with no conditions and no XP award recorded.
+- **Current purse: 30 gp, 2 sp, 6 cp.** The 4 gp personal wage share from Ser Alester is now counted as received. The separate 4 gp shrine allocation is assigned to Mrs. Anwen and is not part of Dadric's personal purse. Dadric then spent 1 sp on supper and 5 sp on work clothes.
+- Added to inventory: one plain work outfit (wool trousers, linen shirt, sturdy vest), purchased for 5 sp. Dadric retains his traveler's outfit.
+- Dadric ate breakfast at the Copper Kettle; it was included in his prepaid lodging.
+- Dadric stabled Spark before entering the Copper Kettle on 4 Harvestfall. No new stable charge has been recorded; the prior prepaid care arrangement remains in force.
+- Dadric began volunteer service at Mrs. Anwen's shrine on the morning of 5 Harvestfall, praying and sweeping/clearing the courtyard. No mechanical benefit, XP, reputation, followers, or shrine upgrade is granted merely for beginning this work.

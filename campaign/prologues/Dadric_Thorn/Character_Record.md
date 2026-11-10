@@ -57,7 +57,7 @@ These are review flags, not silent edits:
 1. The PDF records Charisma 16. Confirm whether the human +2 bonus is intended to raise it to 18.
 2. The PDF lists saves as Fortitude +5, Reflex +3, Will +5. These do not match the ordinary level-1 paladin base saves plus the listed ability modifiers if no additional modifiers apply. Recalculate before play and identify any intended miscellaneous bonuses.
 3. The listed feat choices appear compatible with a level-1 human paladin: Power Attack requires Strength 13, and Weapon Focus requires proficiency and base attack bonus +1. The campaign house-rule waivers do not remove any other prerequisites.
-4. Verify the final skill-point allocation and skill totals against the confirmed Intelligence score, human favored-class choice, and paladin skill ranks.
+4. Verify the final skill-point allocation and skill totals against the confirmed Intelligence score, human ancestry skill rank, human favored-class bonus choice (+1 skill rank or +1 hit point at this level), and paladin skill ranks. The submitted sheet currently shows three skill ranks and 12 hit points; the favored-class bonus choice is not documented.
 5. The sheet's campaign field says "westoros"; the campaign setting is the original Pathfinder setting using the Westeros / Game of Thrones political and dynastic framework. Correct the spelling/label if desired.
 6. The sheet's homeland field appears blank in the extracted form data. Leave it open until established by the player's background or play.
 

@@ -207,3 +207,13 @@ Append each session in chronological order. Do not rewrite prior entries to smoo
 - **Wealth and inventory:** The 4 gp personal wage share from Ser Alester is now counted as received, with a separate 4 gp shrine allocation assigned to Mrs. Anwen. Dadric's purse after wage receipt was 30 gp, 8 sp, 6 cp. Supper cost 1 sp; work clothes cost 5 sp. Current purse is 30 gp, 2 sp, 6 cp. Breakfast was included in prepaid lodging. Add work clothes to inventory; retain traveler's outfit. No additional stable charge recorded for Spark.
 - **Player OOC direction:** The player intends Dadric to work toward improving the shrine and attracting more followers of Sarenrae. This is a long-term goal only. Do not make it happen automatically. Resolve it through credible in-world effort, resources, relationships, local response, and consequences.
 - **Current scene:** Morning, 5 Harvestfall. Dadric is at the shrine after completing courtyard cleanup. Other offered tasks remain.
+
+
+### Shrine volunteer work — herb beds
+
+- **Date:** 5 Harvestfall, 243 AC, morning through late morning.
+- Dadric continued his volunteer work at Mrs. Anwen's shrine without complaint, glad to help.
+- Working alongside Mrs. Anwen, he weeded the herb beds, pruned dead growth, loosened soil, checked watering needs, and followed her instructions on separating medicinal herbs from culinary varieties.
+- The herb beds were in noticeably better condition by late morning. Mrs. Anwen thanked him.
+- No check was required for this routine task. No XP, reputation, followers, or shrine improvement beyond the immediate maintenance is awarded or assumed.
+- The storeroom and two deliveries previously mentioned remain outstanding options.

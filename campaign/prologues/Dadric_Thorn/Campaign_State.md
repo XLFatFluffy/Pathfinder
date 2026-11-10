@@ -177,3 +177,20 @@ This reconciliation assumes the listed lodging, bath, stable, Harlan, and donati
 - The additional coffer-recovery reward was mentioned in the original contract but never quantified. It remains unpriced and is not included in the 8 gp wages.
 
 Do not narrate that Dadric has received these wages until the player actually collects them. The next appropriate opportunity is to raise the unpaid wages with Ser Alester; do not assume the payment has already been made.
+
+
+## Shrine service and current checkpoint — 5 Harvestfall, 243 AC
+
+This entry supersedes prior current-position and purse statements where they conflict.
+
+- **Date/location:** Morning, 5 Harvestfall, 243 AC. Dadric is at Mrs. Anwen's shrine in Tallowmere.
+- **Previous evening:** After returning to the Copper Kettle on 4 Harvestfall, Dadric stabled Spark before entering, bought a cheap supper for 1 sp, and retired early. Mrs. Mara's weekly lodging remains paid through the evening of 7 Harvestfall; breakfast is included.
+- **Morning purchases:** Dadric ate the included breakfast, then bought plain, durable work clothes for 5 sp (wool trousers, linen shirt, sturdy vest). These are additional to his traveler's outfit.
+- **Wages:** Dadric's 4 gp personal wage share has been added to his purse, and the separate 4 gp shrine allocation is treated as assigned to Mrs. Anwen. This reflects the player's correction that the expected post-wage purse was 30 gp before subsequent purchases. Do not count the shrine allocation as Dadric's spendable coin.
+- **Current purse:** 30 gp, 2 sp, 6 cp after the 1 sp supper and 5 sp work-clothes purchase. Starting from the reconciled pre-wage purse of 26 gp, 8 sp, 6 cp, add 4 gp personal wages, subtract 1 sp supper, and subtract 5 sp clothes.
+- **Spark:** Dadric stabled Spark before entering the inn on 4 Harvestfall. Her previously prepaid care arrangement remains recorded; do not invent a new stable charge. Feed consumption after the last recorded 13-day supply is not yet separately reconciled.
+- **Shrine activity:** Dadric told Mrs. Anwen he wished both to pray and help. He prayed at the shrine, then began practical volunteer work. By midmorning he had swept and cleared the courtyard while Mrs. Anwen worked on the herb beds. She mentioned that regular visitors already know the shrine but few newcomers attend. This is an observation, not evidence of a broader local religious trend.
+- **Work remaining today:** Herb beds, storeroom organization, and two deliveries to an elderly couple were offered as possible tasks. Dadric has not yet chosen or completed those tasks.
+- **Player's out-of-character long-term intention:** Dadric hopes to help improve the shrine and bring more people to become followers of Sarenrae. This is an aspiration, not an accomplished outcome or guaranteed campaign reward. It must develop through play, credible relationships, community response, practical resources, and consequences. Do not automatically grant followers, upgrades, influence, or institutional growth merely because the player wants it. Do not obstruct it arbitrarily either; let actions and the setting determine results.
+- **Character:** 12/12 HP, no conditions, level 1. No XP award or advancement recorded.
+- **Continuity instruction:** Curly-braced text from the player is out-of-character GM direction, not in-character dialogue or action. Keep it separate from Dadric's spoken words and from what NPCs know.

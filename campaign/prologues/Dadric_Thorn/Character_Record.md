@@ -186,3 +186,14 @@ Update this record whenever the character gains experience, levels, feats, skill
 - Dadric ate breakfast at the Copper Kettle; it was included in his prepaid lodging.
 - Dadric stabled Spark before entering the Copper Kettle on 4 Harvestfall. No new stable charge has been recorded; the prior prepaid care arrangement remains in force.
 - Dadric began volunteer service at Mrs. Anwen's shrine on the morning of 5 Harvestfall, praying and sweeping/clearing the courtyard. No mechanical benefit, XP, reputation, followers, or shrine upgrade is granted merely for beginning this work.
+
+
+## Current checkpoint — late 5 Harvestfall, 243 AC
+
+- Dadric remains level 1, 12/12 HP, with no conditions and no XP award or advancement.
+- **Current tracked purse: 29 gp, 9 sp, 6 cp.** The previously recorded 30 gp, 2 sp, 6 cp balance was reduced by 3 sp for supper at the Copper Kettle on the evening of 5 Harvestfall.
+- No inventory changes during this checkpoint. The plain work outfit remains in addition to his traveler's outfit.
+- Dadric completed the two deliveries for Mrs. Anwen, helped Alden and Betha move their woodpile, and completed the shrine storeroom organization. No personal payment was made for the shrine medicine/herbs.
+- Dadric intends to return to Alden and Betha on 6 Harvestfall with gate-repair supplies. No supplies have been purchased yet. The upper hinge is intact; the post's old fastening holes have widened. Alden has a hammer available.
+- Mrs. Mara reports that Ser Alester's steward was at the Copper Kettle the previous day asking after Dadric, but no message has arrived. The cottage inquiry remains pending.
+- Prepaid lodging remains valid through the evening of 7 Harvestfall. The 3 sp supper on 5 Harvestfall was paid separately.

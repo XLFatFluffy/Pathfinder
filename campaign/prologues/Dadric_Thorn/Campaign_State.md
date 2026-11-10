@@ -4,99 +4,106 @@
 **Status:** In progress  
 **Last updated:** 10 November 2026
 
-## Starting parameters
+## Character and rules
+- Dadric Thorn; human male; level 1 Paladin; Lawful Good; Sarenrae; Pathfinder First Edition.
+- Character sheet: player-uploaded editable PDF, Dadric Thorn.pdf.
+- Ability scores shown on the uploaded sheet: STR 18 (+4), DEX 12 (+1), CON 14 (+2), INT 10 (+0), WIS 14 (+2), CHA 18 (+4).
+- Sheet lists 12 HP, BAB +1, initiative +1, AC 18 (flat-footed 17, touch 11), longsword +6 (1d8+4), dagger +5 (1d4+4), scale mail, heavy steel shield.
+- Feats: Power Attack; Weapon Focus (longsword). Class features: Aura of Good, Detect Evil, Smite Evil 1/day.
+- Skills with ranks: Diplomacy 1, Ride 1, Knowledge (religion) 1. The PDF's Diplomacy total is internally inconsistent: it displays +7 using CHA +3, while its ability block records CHA 18 (+4). Recalculate Diplomacy as +8 (CHA +4, 1 rank, +3 class skill) unless the player corrects the sheet.
+- No XP awards, level changes, damage, or conditions recorded.
 
-- Character: Dadric Thorn
-- Starting level: 1
-- Starting class: Paladin
-- Starting alignment: Lawful Good
-- Deity: Sarenrae
-- Ruleset: Pathfinder First Edition
-- Main-campaign continuity date: 1 Harvestfall, 243 AC
-- Prologue endpoint: 1 Harvestfall, 243 AC, the opening date of the main campaign
+## Current position and immediate situation
+- **In-world date:** 3 Harvestfall, 243 AC.
+- **Time:** First light / morning; exact hour not established.
+- **Location:** Concealed woodland camp a short distance from the abandoned hunting lodge, north of Greyfield. Exact distance and coordinates are not established.
+- **Party present:** Dadric, Edric, Rowan, and Corren. Rowan's two hunting dogs are with the group. Dadric's light warhorse Spark and Edric's horse are nearby; they were left outside the lodge during the infiltration.
+- **Immediate objective:** Continue north along the old charcoal-burner's track toward the abandoned watchtower and recover the locked coffer taken from Edric and Tomas.
+- **Current condition:** The party rested through the remainder of the night after leaving the hunting lodge. No pursuit or incident occurred during the rest. The party is preparing to resume the trail at first light.
+- **Last scene:** Dadric entered the hunting lodge unnoticed through a partially shuttered eastern window. After a floorboard creaked and a guard turned toward the storage area, Dadric revealed himself and said he was there for the coffer on Ser Alester Vane's behalf. He repeatedly stated he did not want to kill or harm anyone. The men did not attack. After questioning them, Dadric warned them to abandon criminal activity and left the lodge with the party.
 
-## Current position
+## Contract and expenses
+- Ser Alester Vane hired Dadric to investigate the theft, recover the coffer if possible, identify who arranged the ambush, and learn how the attackers knew about the shipment.
+- Contract: 2 gp/day beginning 1 Harvestfall, reasonable Vane-business travel expenses covered, additional recovery reward not yet specified. Ser Alester said the agreement would be written up. No wages have been confirmed as paid.
+- Rowan was hired as a tracker for 3 sp/day plus meals. This is charged to Ser Alester's investigation expenses, not Dadric's personal funds.
+- Additional provisions purchased for 3 gp 3 sp on Ser Alester's account: 6 trail rations (3 gp) and 6 horse-feed rations (3 sp).
+- Dadric personally paid Garrick 2 gp for information. This is not a Vane expense.
+- Dadric previously donated 1 gp to Mrs. Anwen for shrine repairs in Tallowmere.
 
-- **In-world date:** 1 Harvestfall, 243 AC.
-- **Time:** Morning; exact hour not established.
-- **Location:** Vanehold, Ser Alester Vane's manor north of Tallowmere; currently in Ser Alester's solar.
-- **Immediate situation:** Dadric has accepted a direct contract from Ser Alester Vane to investigate the theft of a locked coffer, seek its recovery if possible, identify who arranged the ambush, and learn how the attackers knew about the shipment. Dadric has explicitly stated that he will do no dishonorable work and only draws steel when there is no other choice. Ser Alester agreed that there should be no dishonest dealings, harm to innocents, or needless violence.
-- **Contract terms:** 2 gp per day, beginning today; reasonable travel expenses for Vane's business covered; additional reward if the coffer is recovered, amount not yet specified. Ser Alester said he would have the agreement written up. No wages or expenses have yet been paid. Dadric answers directly to Ser Alester; no loyalty oath to House Vane was required.
-- **Lodging:** Weekly rate in Tallowmere arranged and paid. A previously paid meal and room bill was credited; do not charge it again. Exact weekly rate and transaction amounts are not recorded here.
-- **Mount:** Spark is a mare. She and Edric's horse are currently stabled at Vanehold. Dadric quietly told Spark to be on guard and warned the stablehand that she is feisty; the stablehand took her carefully and offered a stall away from the other horses.
+## Investigation: established facts and claims
 
-## Active relationships and contacts
+### Original theft
+- Edric and his injured brother Tomas were ambushed by three attackers the day before Dadric met them, roughly two miles from Tallowmere. Tomas was wounded. The attackers took a small locked iron-bound oak coffer and displayed burgundy-and-gold stag imagery, claiming the coffer belonged to the Stormlands.
+- Edric and Tomas had been hired by Ser Alester Vane. Vane's steward handed the coffer to Edric at Greyfield. Edric did not know its contents.
+- Ser Alester told Dadric that the coffer contained names, payments, and correspondence concerning merchants and minor lords operating between the Stormlands and the Crownlands. Dadric has not inspected it; this description is Ser Alester's account.
+- The source of the attackers' information and their true affiliation remain unresolved.
 
-- **Mrs. Mara:** Host / lodging contact in Tallowmere. Dadric thanked her for her generosity at breakfast.
-- **Merek:** Stablehand in Tallowmere. Has cared for Spark and prepared her for Dadric's use.
-- **Mrs. Anwen:** Kind woman Dadric met at the shrine. Dadric gave her 1 gp for a few days of hired repair help and promised to resume helping when he returns; she accepted gratefully.
-- **Edric:** Merchant whose delivery was ambushed. He accompanied Dadric to Vanehold and handed over the letter. Ser Alester intends to compensate him separately and asked him to remain available for further testimony. Edric's horse is stabled at Vanehold.
-- **Tomas:** Edric's injured brother, recovering at a merchant friend's home in Tallowmere after being treated by Master Harlon. He has not accompanied Dadric to Vanehold.
-- **Master Harlon:** Healer in Tallowmere who treated Tomas. Edric and Tomas told him only that they intended to return the sealed letter to Ser Alester; they did not show him the letter or disclose its contents.
-- **Ser Alester Vane:** Landed knight with modest holdings north of Tallowmere. Dadric met him at Vanehold. He hired Dadric to investigate the stolen coffer under explicit moral boundaries. Dadric used Detect Evil on him and detected no evil aura; this does not establish innocence or guilt.
-- **Vane's steward:** Unnamed. Handed the coffer and separate sealed letter to Edric at Greyfield. Has not yet been questioned by Dadric.
-- **Three attackers:** Unidentified. Attacked Edric and Tomas, wounded Tomas, and stole the coffer. Associated with burgundy-and-gold stag imagery and claimed the coffer belonged to the Stormlands. Their identity, actual allegiance, and source of information are unknown.
-- **Letter writer / expected visitor:** Unknown. The letter concerned a meeting at Vanehold and an expected arrival carrying information about activity along the Stormlands border. Identity and current whereabouts are unknown.
+### Greyfield
+- A stablehand who had worked there for about seven years helped load the coffer. He said he had not disclosed details to anyone. He recalled an unknown man in the yard the evening before shipment, asking whether merchants were expected the next morning. Description: average height, dark hair, beard, brown cloak. He left by morning.
+- The Greyfield innkeeper remembered a man matching that description staying three nights earlier, paying for one night, leaving before sunrise on foot, and asking about the southern road and merchant traffic.
+- Rowan, a local hunter/tracker with two dogs, was hired for 3 sp/day plus meals, on Ser Alester's account.
+- Rowan tracked the stranger north from Greyfield. Near a creek he found a second set of footprints, suggesting two people.
+- Two men were concealed across the creek behind a fallen log/oak. Dadric called out openly. One, Garrick, admitted seeing the brown-cloaked man three mornings earlier. Garrick said the stranger crossed the creek, followed it north, and used an old hunting track toward a ruined mill.
+- Dadric paid Garrick 2 gp personally. Garrick said the brown-cloaked man was nervous, expected at the old mill, and later met a tall dark-haired rider wearing a grey riding cloak and a scar from left ear toward jaw. The two argued about the failed ambush and the coffer not being where expected, then rode north together. Garrick said an old charcoal-burner's track beyond the mill led toward a disused hunting lodge. Garrick asked not to be named; Dadric agreed not to identify him.
+- Dadric warned Garrick not to become involved in banditry.
 
-No numerical relationship scores, promises, debts, or favors have been established beyond the explicit details above.
+### Ruined mill and Corren
+- At the ruined mill, Dadric found fresh hoofprints, a recently extinguished campfire, and people inside.
+- Dadric met a tall, well-built man in his late 30s, grey riding cloak, scar from left ear toward jaw. He identified himself as Corren.
+- Corren said the brown-cloaked man was called Merek. This is not the same person as Merek, the stablekeeper in Tallowmere; Corren said he did not know the stablekeeper.
+- Corren claimed Merek rode north with the coffer the previous day, toward an abandoned watchtower beyond the old hunting lodge. Corren said he helped arrange the meeting at the mill but was not part of the ambush.
+- Corren named Varrick as the person who arranged/paid for the ambush and information about the route. These are Corren's claims, not independently verified facts.
+- Corren offered to guide the party and help recover the coffer in exchange for being protected from Varrick. Dadric accepted the offer. A younger crossbowman named Hal was inside the mill; Corren told him to lower the weapon and said he would return when matters settled. Hal's subsequent whereabouts are not confirmed.
+- Corren led the party through woodland to an overlook of the old hunting lodge. The abandoned watchtower was described as about half a day's travel beyond the lodge.
 
-## Dadric's known background and outlook
+### Hunting lodge
+- Rowan scouted the lodge and reported at least three men outside: two near the front entrance and one moving around the rear. He could not establish how many were inside. The eastern wall had a small window partly covered by old shutters. Corren said a dog was sometimes kept at the rear entrance; he did not know whether it was there that night.
+- Dadric chose a night approach to avoid bloodshed. Rowan opened the eastern shutters; Dadric entered unnoticed, followed by Rowan, Edric, and Corren. The dogs remained outside.
+- Inside, two men were at a table, another moved in an adjoining room, and footsteps were heard overhead. The men were heard saying: "Varrick wants the chest moved before dawn" and "He's taking it to the tower. We just need to hold this place until the others arrive."
+- Dadric searched quietly but did not find the coffer. A floorboard creaked and one man turned toward the storage area.
+- Dadric revealed himself and stated he was there for the coffer for Ser Alester Vane, and did not want to kill or harm anyone. The broad-shouldered man, whom the GM called Harl, challenged his claim and said Varrick would not let anyone walk away with the chest.
+- Dadric used a verbal threat to compel cooperation. Harl backed down and said the coffer was not at the lodge; Merek had taken it north along the old charcoal-burner's track toward the watchtower. Harl said Merek had the coffer and that others were expected to meet him farther along. A second man said the tower was about half a day's travel away.
+- Dadric noticed a timing inconsistency: the men had said the chest was to be moved before dawn, while Harl said Merek had left the previous day. Harl clarified that Merek had gone ahead with the coffer, while the lodge men were to hold the place until the others arrived before dawn and then follow. This remains the lodge men's account, not independently verified.
+- Dadric warned Harl and the others that if he saw them involved in criminal activity again he would ensure they faced prison. Dadric then left. The lodge occupants did not attack or pursue the party as it departed.
+- The party moved away from the lodge and made a concealed camp. The night passed without incident.
 
-- Dadric has spent most of his life in a temple and described his departure as his first time away from that life.
-- He was raised in a loving but structured environment with a rigid schedule and paladin training.
-- His religious teaching emphasized that light destroys darkness and good overcomes evil.
-- He chose to devote his life to being an instrument of light, destroying darkness, and leaving things better than he found them.
-- He needs coin to help others, but has stated that he will not do dishonorable work and only draws steel when there is no other choice.
-- He has met Mrs. Anwen at the shrine and is beginning to feel positively about Tallowmere and its people.
+## Active NPCs and relationships
+- **Ser Alester Vane:** Employer. Contract and moral boundaries described above.
+- **Edric:** Merchant whose shipment was ambushed; traveling with Dadric. Has a horse.
+- **Rowan:** Hunter/tracker hired at 3 sp/day plus meals on Vane's account; has two hunting dogs.
+- **Corren:** Grey-cloaked rider with facial scar; admitted helping arrange the mill meeting and claims Varrick arranged the ambush. Currently guiding the party; his account is not independently verified.
+- **Merek (brown cloak):** Suspected intermediary who had the coffer and reportedly left ahead toward the watchtower. Not the Tallowmere stablekeeper.
+- **Varrick:** Named by Corren and lodge men as the person directing the operation. Identity, motive, and role remain unverified.
+- **Garrick:** Creekside witness paid 2 gp by Dadric; asked not to be named.
+- **Harl:** Broad-shouldered lodge guard who yielded information after Dadric's threat. Exact full name and wider role unknown.
+- **Hal:** Young crossbowman at the ruined mill; current whereabouts unknown.
+- **Tallowmere stablekeeper Merek:** Separate individual from brown-cloaked Merek.
+- **Mrs. Anwen:** Shrine contact in Tallowmere; received 1 gp toward repair labor.
 
-## Current investigation: the Vane coffer
+## Mechanical, wealth, and inventory tracking
+- No damage, conditions, XP awards, or level advancement recorded.
+- Relevant checks during the lodge encounter:
+  - Stealth: d20 roll 14; modifier +1 Dexterity and –4 scale-mail armor check penalty; total modifier –3; result 11. Dadric initially entered unnoticed; later movement produced a floorboard creak.
+  - Diplomacy: d20 roll 1. The PDF's Diplomacy line is inconsistent; CHA 18 (+4), 1 rank, and +3 class-skill bonus calculate to +8, giving result 9. The earlier narration mistakenly used +7 and result 8. This correction does not change the outcome: Harl was not persuaded and remained hostile/guarded.
+  - Intimidate: d20 roll 7; Charisma +4; no ranks recorded; result 11. Harl backed down and provided information.
+- **Trail rations:** 12 remaining (7 starting; 1 consumed during the first camp; 6 purchased on Vane's account).
+- **Horse feed for Spark:** 13 days remaining (7 starting; 6 purchased on Vane's account). No further feed consumption has been recorded.
+- **Personal coin:** The uploaded PDF shows 34 gp, 6 sp, 6 cp, while the existing Character_Record.md says 36 gp, 6 sp, 6 cp. Dadric has made confirmed personal expenditures of 1 gp to Mrs. Anwen and 2 gp to Garrick. A definitive current balance is not locked until the starting-balance discrepancy and earlier lodging transactions are reconciled. If 34 gp was the balance before those two expenditures, the provisional balance is 31 gp, 6 sp, 6 cp.
+- **Vane-account expenses:** 3 gp 3 sp for 6 trail rations and 6 horse-feed rations; Rowan at 3 sp/day plus meals. Keep separate from Dadric's coin.
+- **Mounts:** Spark is Dadric's light warhorse and is female. Edric's horse is also with the party. Both were left outside the hunting lodge and are currently with the camp.
 
-### Established facts known to Dadric
+## Open questions and next steps
+1. Follow Merek's trail north toward the abandoned watchtower.
+2. Locate and recover the coffer without unnecessary violence or harm.
+3. Establish whether Merek is still carrying the coffer and whether others are waiting to meet him.
+4. Identify Varrick and verify Corren's and the lodge men's claims.
+5. Determine the contents and intended destination of the coffer from evidence, not assumption.
+6. Establish what happened to Hal and whether the lodge occupants alert anyone.
+7. Reconcile the currency discrepancy between the uploaded PDF and Character_Record.md, including earlier lodging transactions.
 
-- Before entering Tallowmere on 1 Harvestfall, Dadric encountered Edric and his injured brother Tomas roughly two miles from town. They were merchants.
-- Three attackers had ambushed them the previous day, wounded Tomas, and taken a small locked iron-bound oak coffer. The attackers displayed burgundy-and-gold stag imagery and claimed the coffer belonged to the Stormlands.
-- Edric and Tomas had been hired in Tallowmere three days earlier by Ser Alester Vane. Vane's steward handed the coffer to Edric at Greyfield, south of Tallowmere. Edric kept it locked and did not know its contents.
-- Edric chose the western road toward Tallowmere. Several people may have witnessed the coffer being loaded. The attackers knew which coffer to take, but how they learned about it and the route is unresolved.
-- A separate letter was given to Edric by Vane's steward. It was sealed in dark red wax with a tower beneath a crescent moon. Edric kept it unopened until Vane opened it in his solar.
-- The letter concerned a meeting that was supposed to take place at Vanehold. Someone was expected to arrive carrying information about activity along the Stormlands border. The writer warned that someone was paying men to disrupt shipments and intimidate those involved, and believed the activity was organized by someone with access to information from within the region.
-- Ser Alester stated that the coffer contained records: names, payments, and correspondence concerning merchants and minor lords operating between the Stormlands and the Crownlands. These are details Ser Alester disclosed; Dadric has not inspected the coffer or independently verified its contents.
-- Ser Alester denied having business with House Baratheon or authorizing anyone to collect the coffer. He acknowledged that House Baratheon bears a crowned stag but said burgundy and gold were not colours he associated with their banners.
-- Ser Alester said the attackers were willing to hurt the merchants but left once they had the coffer. Edric reported that one attacker struck Tomas when he resisted, but they did not pursue Edric after he fled.
-- Dadric used Detect Evil on Edric and Tomas earlier and detected no evil aura. He used Detect Evil on Ser Alester at Vanehold and also detected no evil aura. A negative result is not proof of innocence.
-- Dadric told Ser Alester that he had spoken only with the healer in Tallowmere; Edric clarified they had not shown Harlon the letter or disclosed its contents.
-
-### Open leads and questions
-
-1. Who are the three attackers, and what is their actual affiliation?
-2. How did the attackers know the coffer's identity, route, and timing?
-3. Who witnessed or learned of the coffer being loaded at Greyfield?
-4. What does Vane's steward know, and was the steward involved or compromised?
-5. Who wrote the letter, and who was expected to arrive at Vanehold with information?
-6. What exactly is recorded in the coffer, and who would benefit from its theft?
-7. Is there an informant or compromised person with access to regional shipment information?
-8. Can the coffer be recovered without unnecessary violence or harm to innocents?
-
-These are investigative questions, not established answers. Do not invent conclusions or promote suspicion into fact without evidence.
-
-## Mechanical and resource tracking
-
-- Level: 1 paladin.
-- XP: No awards recorded.
-- HP, conditions, prepared resources, and other expendable resources: No changes recorded in the Vanehold scene.
-- Inventory: No confirmed changes.
-- Wealth: Dadric previously donated 1 gp to Mrs. Anwen. Weekly lodging was paid, but exact amount and resulting balance are not recorded. The Vane contract begins at 2 gp/day today, but no payment has yet been received. Do not assume a new balance until wages are actually paid.
-- Mount: Spark is stabled at Vanehold. Edric's horse is also stabled there.
-
-## Continuity rules
-
-Update after each session or meaningful downtime interval:
-- Current in-world date, time, and location
-- Current level, experience, hit points, conditions, and expendable resources
-- Current wealth, inventory, equipment, and mount status
-- Active obligations, leads, goals, and unresolved matters
-- NPC relationships, promises, debts, favors, and reputation
-- Faction awareness and political consequences
-- Information Dadric knows, rumors he has heard, and facts he has not discovered
-- GM-only world state and unresolved continuity questions
-
-Do not fill this file with future plot beats. It is a state tracker, not a spoiler outline.
+## Continuity and GM rules
+- Dadric's decisions and dialogue belong to the player. Do not dictate his actions or assume checks succeed.
+- Dadric has stated he will not do dishonorable work and draws steel only when there is no other choice. Respect his stated preference to avoid needless violence while preserving real consequences.
+- Distinguish established facts from NPC claims, rumors, and GM-only information.
+- Track the date, location, party, mounts, expenses, inventory, and mechanical changes at meaningful checkpoints.
+- Do not invent geography, political affiliations, NPC motives, or coffer contents.

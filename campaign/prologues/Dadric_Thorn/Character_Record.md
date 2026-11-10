@@ -166,3 +166,13 @@ Update this record whenever the character gains experience, levels, feats, skill
 - Dadric asked Ser Alester to investigate the old woodcutter's cottage east of Tallowmere. The steward's inquiry is pending; no purchase or deposit has been made.
 - **Currency warning:** Do not use the old 31 gp 6 sp 6 cp or 33 gp 6 sp 6 cp balances as audited current funds. The full ledger must be reconciled before asserting an exact purse. See Campaign_State.md for the known transaction history and continuity rules.
 - Dadric remains level 1, 12/12 HP, no conditions. No XP award or advancement recorded.
+
+
+## Audited purse and wages — 10 November 2026
+
+- Corrected starting purse before Tallowmere transactions: 36 gp, 6 sp, 6 cp. The PDF's 34 gp, 6 sp, 6 cp corresponds to the balance after the 2 gp payment to Harlan for Tomas's treatment.
+- Confirmed personal transactions: Harlan 2 gp; Merek 3 gp advance for Spark's three nights of care; Copper Kettle first room/meal bill 1 gp 4 sp; separate bath 3 sp; weekly lodging 2 gp 1 sp after 4 sp credit; Mrs. Anwen donation 1 gp. Garrick's 2 gp payment was fully reimbursed by Ser Alester, net zero.
+- **Audited personal purse before unpaid wages: 26 gp, 8 sp, 6 cp.** This assumes no unrecorded personal purchases; employer-paid provisions and Rowan's fee are excluded.
+- Contract wages: 2 gp/day from 1 through 4 Harvestfall inclusive = 8 gp accrued, none recorded as paid. Allocation: 4 gp personally to Dadric and 4 gp earmarked for Mrs. Anwen's shrine (1 gp/day each). Until collected, do not add wages to purse. If paid in full as agreed, Dadric's purse becomes 30 gp, 8 sp, 6 cp, with a separate 4 gp shrine allocation.
+- The additional coffer-recovery reward is unquantified and not included.
+- Full itemized ledger is in Campaign_State.md.

@@ -203,3 +203,30 @@ This entry supersedes prior current-position and purse statements where they con
 - By late morning, the herb beds were in noticeably better condition. Mrs. Anwen expressed her thanks.
 - This is practical maintenance, not a formal shrine renovation. No new followers, reputation, mechanical benefit, XP, or broader community response has been established.
 - The storeroom organization and two deliveries to an elderly couple remain possible tasks offered earlier; neither has yet been completed.
+
+
+## Continuity update — late 5 Harvestfall, 243 AC
+
+This checkpoint supersedes earlier current-position, activity, and purse statements where they conflict.
+
+- **Date/time:** 5 Harvestfall, 243 AC, late evening. Exact hour not established.
+- **Location:** Dadric has returned to his prepaid room at the Copper Kettle after spending the day volunteering at Mrs. Anwen's shrine and helping Alden and Betha.
+- **Shrine deliveries:** Dadric delivered the food parcel (bread, dried beans, and cheese) to Alden and Betha, an elderly couple living beyond the old well at the eastern edge of Tallowmere beside a pear tree. He also delivered the salve, clean linen, and medicinal herbs to Ellyn, an elderly woman in a nearby cottage down the eastern lane. Ellyn accepted the supplies and said her hands had been troubling her. She knows little about Sarenrae, though Mrs. Anwen has spoken to her about the faith. This is an opening for possible future conversation, not a conversion or commitment.
+- Dadric declined any payment for Ellyn's parcel. The supplies came from the shrine's stores. Dadric offered to pay for the medicine and herbs, but Mrs. Anwen explained that the supplies were drawn from shrine stock and suggested discussing replenishment costs if he wished to replace them. No replenishment payment was agreed or made. Do not deduct any amount from Dadric's purse for this offer.
+- **Alden and Betha:** After delivering their food parcel, Dadric offered further help. He moved approximately 25 split logs from beside the side wall to beside the back door. He inspected their garden gate: the upper hinge is intact but has pulled loose from the wooden post because the old fastening holes have widened. Dadric noted that a repair will likely require longer fastenings and a sound piece of timber to reinforce the post. Alden has a hammer in the cottage. Dadric said he would return tomorrow with supplies. No repair has yet been attempted and no materials have been purchased.
+- **Storeroom:** Dadric completed Mrs. Anwen's storeroom task despite disliking this kind of work. He grouped herbs by type, folded and stacked linens, checked supplies, and recorded low or possibly spoiled stock for Mrs. Anwen's review. Nothing was discarded. Mrs. Anwen reviewed the work and thanked him. No check was required; no payment or mechanical reward was granted.
+- Mrs. Anwen told Dadric not to spend personal coin on shrine supplies without first discussing it with her. She asked him to pass her regards to Alden and Betha when he returned tomorrow.
+- **Evening:** Dadric returned to the Copper Kettle tired and hungry. He asked Mrs. Mara whether she had seen Ser Alester's steward. Mara had not seen him that day; she said the steward had been at the inn the previous day asking after Dadric, and no message had arrived. The cottage ownership, sale status, price, condition, and claims inquiry therefore remains pending.
+- Dadric ate beef stew, bread, and water at the inn, then paid Mara 3 sp before retiring to his room. This was a separate supper charge, not included in prepaid lodging.
+- **Purse:** Prior confirmed balance 30 gp, 2 sp, 6 cp; supper payment 3 sp; current tracked balance **29 gp, 9 sp, 6 cp**. No other transaction occurred during this checkpoint.
+- **Lodging:** Dadric's week remains prepaid through the evening of 7 Harvestfall. Breakfast is included. No lodging charge is due tonight.
+- **Character:** 12/12 HP, no conditions, level 1, no XP award or advancement. No inventory changes. Spark's previously recorded feed count and stable arrangement are unchanged pending explicit reconciliation; do not invent a new stable charge.
+- **Next intention:** On 6 Harvestfall, Dadric intends to return to Alden and Betha with suitable gate-repair supplies. No supplies have yet been acquired.
+- **Long-term shrine goal:** Dadric continues to aspire to improve the shrine and bring more people to follow Sarenrae. These day's deliveries and maintenance are concrete acts of service, but no new followers, reputation, institutional upgrade, or guaranteed future response is established.
+
+### Continuity distinctions
+
+- Ellyn is the recipient of the medicine parcel; Alden and Betha received the food parcel. Do not merge the two deliveries or describe them as one elderly couple.
+- Dadric's offer to pay for Ellyn's supplies was not a completed payment. Mrs. Anwen's stock remains shrine property; any replenishment cost must be established before charging Dadric.
+- The gate repair is planned, not completed. The hinge is intact; the failure is in the widened fastening holes in the post. Alden has a hammer available at his cottage.
+- Mara has not received a message from the steward. The steward was reportedly at the inn the previous day, but the inquiry's result remains unknown.

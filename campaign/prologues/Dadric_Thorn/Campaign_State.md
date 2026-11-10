@@ -88,7 +88,7 @@
   - Intimidate: d20 roll 7; Charisma +4; no ranks recorded; result 11. Harl backed down and provided information.
 - **Trail rations:** 12 remaining (7 starting; 1 consumed during the first camp; 6 purchased on Vane's account).
 - **Horse feed for Spark:** 13 days remaining (7 starting; 6 purchased on Vane's account). No further feed consumption has been recorded.
-- **Personal coin:** The uploaded PDF shows 34 gp, 6 sp, 6 cp, while the existing Character_Record.md says 36 gp, 6 sp, 6 cp. Dadric has made confirmed personal expenditures of 1 gp to Mrs. Anwen and 2 gp to Garrick. A definitive current balance is not locked until the starting-balance discrepancy and earlier lodging transactions are reconciled. If 34 gp was the balance before those two expenditures, the provisional balance is 31 gp, 6 sp, 6 cp.
+- **Personal coin:** Current tracked balance: **31 gp, 6 sp, 6 cp**. The uploaded PDF's 34 gp, 6 sp, 6 cp is treated as Dadric's balance at the start of play. Confirmed personal expenditures since then: 1 gp given to Mrs. Anwen and 2 gp paid to Garrick. The older Character_Record.md figure of 36 gp, 6 sp, 6 cp is superseded as an inconsistent stale entry. Do not deduct provisions or Rowan's fee from Dadric's purse; those are on Ser Alester's account.
 - **Vane-account expenses:** 3 gp 3 sp for 6 trail rations and 6 horse-feed rations; Rowan at 3 sp/day plus meals. Keep separate from Dadric's coin.
 - **Mounts:** Spark is Dadric's light warhorse and is female. Edric's horse is also with the party. Both were left outside the hunting lodge and are currently with the camp.
 

@@ -107,3 +107,40 @@
 - Distinguish established facts from NPC claims, rumors, and GM-only information.
 - Track the date, location, party, mounts, expenses, inventory, and mechanical changes at meaningful checkpoints.
 - Do not invent geography, political affiliations, NPC motives, or coffer contents.
+
+
+## Continuity correction and current checkpoint — 10 November 2026
+
+This section supersedes earlier sections above wherever dates, location, investigation status, lodging, or current party state conflict.
+
+- **In-world date/time:** 4 Harvestfall, 243 AC, afternoon.
+- **Current location:** The Copper Kettle, Tallowmere. Dadric has returned to the inn after reporting the recovered coffer to Ser Alester Vane.
+- **Lodging:** Mrs. Mara is the owner of the Copper Kettle and the innkeeper, not a guest. Dadric has already paid for a week of lodging. The agreed weekly rate was 2 gp 5 sp; a 4 sp lodging credit was applied, so the additional weekly payment was 2 gp 1 sp. This secures the room through the evening of 7 Harvestfall. Breakfast is included. Other meals, drinks, and additional services are charged separately to the inn tab. The earlier room/meal bill of 1 gp 4 sp and separate bath charge of 3 sp were paid and must never be charged again. Dadric is an existing weekly guest; do not ask him to book or pay again during this period.
+- **Earlier stable arrangement:** Dadric paid Merek 3 gp in advance for three nights of full care for Spark. Do not treat this as unpaid or charge it again.
+- **Cottage inquiry:** Dadric asked Ser Alester about acquiring a humble home. Ser Alester described an old woodcutter's cottage about two miles east of Tallowmere, near a spring, with a small plot suitable for a garden and perhaps a few animals. It needs repairs. He also mentioned a woodland parcel south of the settlement for a build-from-scratch option. Dadric asked Ser Alester to inquire about the cottage. Ser Alester agreed to have his steward discreetly establish the owner/title, willingness to sell, asking price, condition, and any debts, claims, or obligations. No purchase has been made and no money spent. Dadric said he would be at the Copper Kettle; Ser Alester will send word there.
+- **Latest narrative position:** Dadric is at the Copper Kettle. He told the innkeeper he would be there. Mrs. Mara owns and operates the inn; she is not a lodger to be located.
+- **Recovered coffer:** Delivered locked and unopened to Ser Alester Vane on 4 Harvestfall. Dadric did not inspect its contents. Ser Alester has custody. Merek's testimony about Varrick Selmy and the operation remains testimony, not independently proven fact.
+- **Companions:** Edric, Rowan, Corren, and Merek accompanied Dadric to Tallowmere. Ser Alester intends to keep Corren and Merek somewhere secure but discreet. Rowan was paid 12 sp by Ser Alester for four days of tracking; this was not Dadric's expense. Ser Alester reimbursed Dadric 2 gp for the payment Dadric had made to Garrick. Dadric's promise not to identify Garrick remains binding; do not disclose his name to Ser Alester or anyone else.
+- **Character condition:** 12/12 HP; no conditions; level 1; no XP award recorded.
+- **Resources:** 12 trail rations; 13 days of horse feed for Spark, based on prior tracking. Confirm any further consumption only when play establishes it.
+
+### Money ledger: preserve uncertainty rather than inventing a balance
+
+- The submitted PDF's initial displayed balance was 34 gp, 6 sp, 6 cp, but the player later clarified the actual starting wealth calculation as 175 gp total wealth, with equipment and horse/adventuring supplies purchased, leaving 36 gp, 6 sp, 6 cp before Tallowmere expenses. A 2 gp payment to Harlan for Tomas's treatment left 34 gp, 6 sp, 6 cp.
+- Dadric paid Merek 3 gp in advance for Spark's three nights of full care.
+- The Copper Kettle first-night room/meal bill was 1 gp 4 sp and was paid. The separate bath charge was 3 sp and was paid. The weekly room rate was 2 gp 5 sp, less a 4 sp lodging credit, leaving 2 gp 1 sp paid in advance. A prior assistant stated a purse of 28 gp, 1 sp, 6 cp at the weekly-payment checkpoint, but that figure does not reconcile cleanly with every separately recorded transaction. Do not repeat it as a fully audited balance without resolving the discrepancy.
+- Dadric donated 1 gp to Mrs. Anwen. He later paid Garrick 2 gp for information; Ser Alester reimbursed the full 2 gp, so Garrick's payment has no net effect after reimbursement.
+- An earlier campaign-state balance of 31 gp, 6 sp, 6 cp and a later conversational balance of 33 gp, 6 sp, 6 cp omit some combination of the lodging/stabling/shrine transactions and are not reliable audited balances. **Do not assert a precise current purse until the transaction ledger is reconciled.** Keep the known transactions and employer-paid expenses separate. Ser Alester's provisions and Rowan's fee are employer expenses, not Dadric's personal spending.
+
+### GM continuity requirements
+
+- Before every continuation, consult this file, the latest Session_Journal.md entry, and Character_Record.md. The GitHub repository is the campaign source of truth; do not rely on a partial conversational summary when these records are available.
+- Never invent a prior payment, lodging arrangement, NPC relationship, location, item, or date to fill a gap. Search prior journal/conversation records or state that the detail is unresolved.
+- Never treat Mrs. Mara as a guest. She owns the Copper Kettle. Dadric's week is prepaid through the evening of 7 Harvestfall.
+- Maintain an explicit transaction ledger. Do not charge paid bills twice. Keep personal funds, employer expenses, reimbursements, and open tabs distinct.
+- User rolls all Dadric checks and attacks. State the applicable Pathfinder 1e modifier and DC when appropriate, then wait for the user's roll. GM rolls NPC/secret checks. Never roll for Dadric.
+- Do not control Dadric's actions, thoughts, or dialogue. Preserve player agency. Dadric avoids bloodshed, refuses dishonorable work, and draws steel only when necessary; do not railroad him into violence.
+- Use Pathfinder First Edition rules. Track inventory, consumables, mounts, money, conditions, and HP at meaningful checkpoints. Remember Spark is female and Edric has his own horse.
+- Distinguish observed facts, verified facts, NPC testimony, rumor, and GM-only information. Do not reveal hidden plot or information Dadric has not discovered.
+- Campaign setting is based on Game of Thrones/Westeros. Tallowmere is the starting location, not the whole setting. Do not substitute Golarion setting lore.
+- At meaningful checkpoints, update Campaign_State.md, Session_Journal.md, and Character_Record.md as appropriate. Do not claim a repository update unless it has actually been committed.

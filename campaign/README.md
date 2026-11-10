@@ -25,6 +25,8 @@ These governance records remain at the campaign root because they apply across a
 
 ## Subject folders
 
+- [prologues/](prologues/) — separate character-focused preludes played within the shared campaign setting; track their journals and consequences without mixing them into the main party's session archive.
+
 - [geography/](geography/) — continent, territories, regions, physical geography, settlements, and geographic references.
 - [locations/](locations/) — location-specific dossiers. The current starting-city collection is in [locations/starting_city/](locations/starting_city/).
 - [history/](history/) — historical foundations, chronology, calendar, and dating conventions.

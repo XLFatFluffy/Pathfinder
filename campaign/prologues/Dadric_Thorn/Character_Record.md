@@ -155,3 +155,14 @@ Update this record whenever the character gains experience, levels, feats, skill
 - Rowan's tracker fee is 3 sp per day plus meals, charged to Ser Alester's account.
 - No damage, conditions, XP, or level advancement have been recorded.
 - Dadric's Charisma 18 (+4) gives a calculated Diplomacy modifier of +8 with one rank and the +3 class-skill bonus, despite the PDF's displayed +7 total. The discrepancy is documented above.
+
+
+## Continuity update — 10 November 2026
+
+- Current campaign checkpoint: 4 Harvestfall, 243 AC, afternoon; Dadric is at the Copper Kettle in Tallowmere after delivering the recovered locked, unopened coffer to Ser Alester Vane.
+- Mrs. Mara owns and operates the Copper Kettle. Dadric's weekly lodging is already paid through the evening of 7 Harvestfall. Weekly rate 2 gp 5 sp, less 4 sp lodging credit, additional payment 2 gp 1 sp. The earlier 1 gp 4 sp room/meal bill and separate 3 sp bath charge were paid. Breakfast is included; other meals, drinks, and services go on a separate tab. Do not charge these transactions again.
+- Dadric paid Merek 3 gp in advance for three nights of full care for Spark.
+- Dadric donated 1 gp to Mrs. Anwen. He paid Garrick 2 gp for information; Ser Alester later reimbursed the full 2 gp. Rowan was paid 12 sp directly by Ser Alester for four days. These employer payments are not personal expenditures.
+- Dadric asked Ser Alester to investigate the old woodcutter's cottage east of Tallowmere. The steward's inquiry is pending; no purchase or deposit has been made.
+- **Currency warning:** Do not use the old 31 gp 6 sp 6 cp or 33 gp 6 sp 6 cp balances as audited current funds. The full ledger must be reconciled before asserting an exact purse. See Campaign_State.md for the known transaction history and continuity rules.
+- Dadric remains level 1, 12/12 HP, no conditions. No XP award or advancement recorded.

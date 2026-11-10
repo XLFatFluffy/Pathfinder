@@ -179,3 +179,12 @@ Append each session in chronological order. Do not rewrite prior entries to smoo
 - **Inventory and resources:** Coffer delivered to Ser Alester, locked and unopened. Trail rations last recorded at 12; Spark's feed at 13 days. Rowan's fee and the 3 gp 3 sp provisions purchase were Ser Alester's expenses. Rowan received 12 sp directly from Ser Alester. Dadric's 2 gp payment to Garrick was reimbursed by Ser Alester.
 - **Wealth correction:** The precise current personal balance remains unresolved because earlier ledger entries do not reconcile. Preserve the confirmed transactions in Campaign_State.md; do not repeat 31 gp 6 sp 6 cp or 33 gp 6 sp 6 cp as an audited balance.
 - **Open threads:** Ser Alester's steward must report on the cottage. Varrick Selmy's role and identity require corroboration. The source of the route leak remains unknown. The coffer remains in Ser Alester's custody.
+
+
+### Accounting correction — Personal purse and unpaid Vane wages
+
+- Reconciled starting spendable purse to 36 gp, 6 sp, 6 cp. The PDF's 34 gp, 6 sp, 6 cp reflects the 2 gp payment to Harlan for Tomas's treatment.
+- Confirmed personal spending after that: 3 gp advance to Merek for Spark's three nights of full care; 1 gp 4 sp first room/meal bill at the Copper Kettle; 3 sp separate bath; 2 gp 1 sp weekly lodging after a 4 sp credit; 1 gp donation to Mrs. Anwen. Garrick's 2 gp was fully reimbursed by Ser Alester and nets to zero.
+- Result: Dadric's personal purse before wages is **26 gp, 8 sp, 6 cp**, assuming no unrecorded personal purchases. Employer-paid provisions and Rowan's fee are not deducted.
+- Ser Alester's contract pays 2 gp/day beginning 1 Harvestfall. Four days accrued through Dadric's return on 4 Harvestfall, for **8 gp unpaid**. The agreed allocation recorded from prior play is 1 gp/day to Dadric and 1 gp/day to Mrs. Anwen's shrine: 4 gp personally owed to Dadric, 4 gp earmarked for the shrine. No wages are recorded as received. The separate recovery reward remains unquantified.
+- This is an accounting correction only; it does not imply Ser Alester has handed over the wages.

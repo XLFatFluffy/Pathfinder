@@ -50,7 +50,9 @@ The selected array is 18, 16, 14, 14, 12, 10.
 - Class features listed: Aura of Good; Detect Evil; Smite Evil (1/day)
 - Skills with ranks: Diplomacy 1; Ride 1; Knowledge (religion) 1
 - Languages listed: Common
-- Currency recorded: 36 gp, 6 sp, 6 cp
+- Currency recorded at start of play from uploaded PDF: 34 gp, 6 sp, 6 cp
+
+**Current tracked balance (3 Harvestfall, 243 AC): 31 gp, 6 sp, 6 cp.** Personal expenditures since the uploaded balance: 1 gp to Mrs. Anwen and 2 gp to Garrick. The older 36 gp, 6 sp, 6 cp figure in this record was an inconsistent stale entry and is superseded. Ser Alester's 3 gp 3 sp provisions purchase and Rowan's 3 sp/day plus meals are charged to the employer, not Dadric.
 
 ## Mechanical audit notes
 

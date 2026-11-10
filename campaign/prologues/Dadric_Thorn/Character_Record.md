@@ -65,9 +65,9 @@ These are review flags, not silent edits:
 
 ## Equipment and mount
 
-The current equipment list and weights are:
+Dadric does not routinely carry every piece of expedition equipment on his person. His ordinary carried load is kept practical; bulky or situational gear is packed on the warhorse. Equipment stored with the horse is not automatically available when Dadric is away from it.
 
-### Dadric's personal equipment
+### Dadric's worn and carried equipment
 
 | Item | Quantity | Weight |
 |---|---:|---:|
@@ -78,21 +78,32 @@ The current equipment list and weights are:
 | Wooden holy symbol of Sarenrae | 1 | negligible |
 | Backpack | 1 | 2 lb. |
 | Bedroll | 1 | 5 lb. |
-| Waterskin, full | 2 | 8 lb. total |
+| Waterskin, full | 1 | 4 lb. |
 | Trail rations | 7 days | 7 lb. |
 | Flint and steel | 1 set | negligible |
 | Whetstone | 1 | 1 lb. |
 | Belt pouch | 1 | 1/2 lb. |
+| Traveler's outfit | 1 | 5 lb. |
+| **Personal equipment total** | | **74.5 lb.** |
+
+This is the listed carried/worn equipment weight, including armor and shield. Actual encumbrance and movement should be calculated using what Dadric is wearing and carrying at the time.
+
+### Equipment packed with the warhorse
+
+| Item | Quantity | Weight |
+|---|---:|---:|
 | Hemp rope, 50 ft. | 1 | 10 lb. |
 | Torch | 2 | 2 lb. total |
 | Hooded lantern | 1 | 2 lb. |
 | Oil, 1-pint flask | 2 | 2 lb. total |
 | Small hammer | 1 | 2 lb. |
 | Iron piton | 10 | 5 lb. total |
-| Traveler's outfit | 1 | 5 lb. |
-| **Personal equipment total** | | **101.5 lb.** |
+| Waterskin, full | 1 | 4 lb. |
+| **Packed reserve gear total** | | **27 lb.** |
 
-### Horse equipment and supplies
+The rope, pitons, hammer, lantern, oil, torches, and spare waterskin are carried with the horse for when they are needed, rather than routinely worn or carried by Dadric. They are packed on the horse; this does not mean every item must physically fit inside the saddlebags.
+
+### Horse tack and supplies
 
 | Item | Quantity | Weight |
 |---|---:|---:|
@@ -102,9 +113,10 @@ The current equipment list and weights are:
 | Bit and bridle | 1 set | 1 lb. |
 | Horse blanket | 1 | 3 lb. |
 | Horse feed | 7 days | 70 lb. |
-| **Horse tack and supply total** | | **112 lb.** |
+| Packed reserve gear | As listed above | 27 lb. |
+| **Horse tack, supplies, and packed gear total** | | **139 lb.** |
 
-**Combined listed gear weight:** 213.5 lb. This is the sum of Dadric's personal equipment and the horse's tack and seven-day feed, not the weight of the horse or rider. The horse's load will be tracked separately from Dadric's personal encumbrance. Waterskins are counted full; the feed is 10 lb. per day. Wooden holy symbols and flint and steel have no listed weight in the standard equipment tables.
+**Combined listed gear weight:** 213.5 lb. This is the sum of Dadric's worn/carried equipment and the horse's tack, seven-day feed, and packed reserve gear, not the weight of the horse or rider. The horse's load is tracked separately from Dadric's personal encumbrance. Waterskins are counted full; the feed is 10 lb. per day. Wooden holy symbols and flint and steel have no listed weight in the standard equipment tables.
 
 The light warhorse is provisioned as an assigned mount from Dadric's prior religious service and is separate from his 175 gp starting wealth. It is not treated as a purchase from his character funds. Its name, appearance, temperament, and detailed history remain to be established in play or background.
 

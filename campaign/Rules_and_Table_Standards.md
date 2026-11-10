@@ -55,4 +55,16 @@ The PCs are important protagonists, but the world does not exist solely for them
 The GM should neither force a predetermined story nor protect the PCs from every consequence. The campaign is an open world governed by consistent rules and a living setting.
 
 ## Approved House Rules
-None recorded at this time.
+
+The following campaign-wide house rules were approved on 10 November 2026. They apply to PCs and NPCs consistently unless a rule's wording explicitly limits its scope.
+
+### Combat Expertise prerequisite waiver
+Combat Expertise is not required as a prerequisite for any feat that normally lists it. All other prerequisites for the feat still apply.
+
+### Intelligence prerequisite waiver for combat maneuver feats
+An Intelligence score of 13 is not required for combat maneuver feats. All other listed prerequisites still apply, including any other ability-score, feat, base-attack-bonus, or special requirements.
+
+### Expanded ability score increases
+At character levels 4, 8, 12, 16, and 20, a character receives two +1 ability score increases instead of the standard single +1 increase. The two increases must be assigned to different ability scores; they cannot both be applied to the same score at the same level.
+
+This is a campaign-wide advancement adjustment intended to compensate for the setting's scarcity of magic items. It does not change the normal ability-score increase schedule or grant additional increases at other levels.

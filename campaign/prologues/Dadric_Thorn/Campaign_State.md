@@ -194,3 +194,12 @@ This entry supersedes prior current-position and purse statements where they con
 - **Player's out-of-character long-term intention:** Dadric hopes to help improve the shrine and bring more people to become followers of Sarenrae. This is an aspiration, not an accomplished outcome or guaranteed campaign reward. It must develop through play, credible relationships, community response, practical resources, and consequences. Do not automatically grant followers, upgrades, influence, or institutional growth merely because the player wants it. Do not obstruct it arbitrarily either; let actions and the setting determine results.
 - **Character:** 12/12 HP, no conditions, level 1. No XP award or advancement recorded.
 - **Continuity instruction:** Curly-braced text from the player is out-of-character GM direction, not in-character dialogue or action. Keep it separate from Dadric's spoken words and from what NPCs know.
+
+
+### Shrine work update — 5 Harvestfall, 243 AC
+
+- Dadric continued volunteering without complaint and completed the immediate tending of the shrine's herb beds alongside Mrs. Anwen.
+- He weeded, pruned dead growth, loosened soil, checked watering needs, and followed Mrs. Anwen's guidance on keeping medicinal and culinary herbs properly arranged.
+- By late morning, the herb beds were in noticeably better condition. Mrs. Anwen expressed her thanks.
+- This is practical maintenance, not a formal shrine renovation. No new followers, reputation, mechanical benefit, XP, or broader community response has been established.
+- The storeroom organization and two deliveries to an elderly couple remain possible tasks offered earlier; neither has yet been completed.

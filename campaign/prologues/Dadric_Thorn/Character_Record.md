@@ -1,7 +1,7 @@
 # Character Record — Dadric Thorn
 
 **Visibility:** GM-ONLY  
-**Status:** Initial sheet received; mechanical review pending  
+**Status:** Initial sheet received; mechanical review remains partly open  
 **Ruleset:** Pathfinder First Edition  
 **Character level:** 1  
 **Class:** Paladin  
@@ -31,7 +31,7 @@ The selected array is 18, 16, 14, 14, 12, 10.
 | Wisdom | 14 | +2 |
 | Charisma | 16 | +3 |
 
-**Pending confirmation:** Earlier character setup assigned the human +2 ancestry bonus to Charisma, which would make Charisma 18 (+4). The submitted PDF currently records Charisma 16 (+3). Do not silently alter the authoritative sheet; reconcile this with the player before locking the final statistics.
+**Current uploaded PDF reading:** The PDF supplied on 10 November 2026 records Charisma 18 (+4). The older text of this repository record said 16 (+3), so that earlier note is superseded by the currently supplied PDF. The PDF's Diplomacy skill line still displays +7 using CHA +3, 1 rank, and +3 class-skill bonus; with CHA 18 (+4), the calculated Diplomacy modifier is +8. Use +8 unless the player corrects the sheet.
 
 **Human favored-class benefit selected:** +1 energy resistance (fire) at level 1. This is the human paladin alternate favored-class option from the Advanced Race Guide. Each additional time this option is selected at a later paladin level, increase the resistance to the chosen energy type by +1, to a maximum of 10. It replaces the normal +1 hit point or +1 skill rank for that level.
 
@@ -120,7 +120,7 @@ The rope, pitons, hammer, lantern, oil, torches, and spare waterskin are carried
 
 The light warhorse is provisioned as an assigned mount from Dadric's prior religious service and is separate from his 175 gp starting wealth. It is not treated as a purchase from his character funds. Its name, appearance, temperament, and detailed history remain to be established in play or background.
 
-The submitted PDF records 36 gp, 6 sp, and 6 cp remaining. The equipment list and funds should be reconciled after the final sheet audit.
+The currently uploaded PDF records 34 gp, 6 sp, and 6 cp. The previous version of this repository record said 36 gp, 6 sp, and 6 cp; that discrepancy remains to be reconciled against the original starting wealth and prior lodging transactions. Dadric has since made confirmed personal expenditures of 1 gp to Mrs. Anwen and 2 gp to Garrick. Do not treat a derived current balance as final until the starting balance and lodging charges are reconciled.
 
 ## Identity details recorded on submitted sheet
 
@@ -142,3 +142,14 @@ No experience awards or level advancement have yet been recorded.
 | 1 | Starting state | Human paladin; initial sheet received |
 
 Update this record whenever the character gains experience, levels, feats, skills, ability score increases, class features, equipment, wealth, conditions, or other lasting mechanical changes.
+
+
+## Prologue checkpoint — 10 November 2026
+
+- Dadric's current recorded trail-ration count is 12: seven starting, one consumed at the first camp, and six purchased on Ser Alester's account.
+- Spark's current recorded horse-feed supply is 13 days: seven starting and six purchased on Ser Alester's account.
+- The additional six trail rations and six feed rations cost 3 gp 3 sp, charged to Ser Alester's investigation expenses.
+- Dadric personally paid Garrick 2 gp for information. This is separate from Vane's expenses.
+- Rowan's tracker fee is 3 sp per day plus meals, charged to Ser Alester's account.
+- No damage, conditions, XP, or level advancement have been recorded.
+- Dadric's Charisma 18 (+4) gives a calculated Diplomacy modifier of +8 with one rank and the +3 class-skill bonus, despite the PDF's displayed +7 total. The discrepancy is documented above.

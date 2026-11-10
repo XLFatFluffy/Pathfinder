@@ -1,7 +1,7 @@
 # Dadric Thorn Prologue — Current State
 
 **Visibility:** GM-ONLY  
-**Status:** Not yet begun  
+**Status:** In progress  
 **Last updated:** 10 November 2026
 
 ## Starting parameters
@@ -13,13 +13,53 @@
 - Deity: Sarenrae
 - Ruleset: Pathfinder First Edition
 - Main-campaign continuity date: 1 Harvestfall, 243 AC
-- Prologue endpoint: 1 Harvestfall, 243 AC
+- Prologue endpoint: 1 Harvestfall, 243 AC, the opening date of the main campaign
 
 ## Current position
 
-No in-world scene has been played. Starting location, opening circumstances, and prologue chronology will be established through play and recorded here when they occur.
+- **In-world date:** 1 Harvestfall, 243 AC.
+- **Time:** Morning; exact hour not established.
+- **Location:** Tallowmere, at the stables / preparing to leave on business.
+- **Immediate situation:** Dadric has arranged to stay in Tallowmere for approximately one week. He has asked stablehand Merek to prepare Spark, his mare, because he needs her for business today.
+- **Lodging:** Weekly rate arranged and paid. A previously paid meal and room bill was credited; do not charge it again. Exact weekly rate and transaction amounts are not recorded here.
+- **Mount:** Spark is a mare. She is currently with Merek at the stables and has been prepared for Dadric to take out. Do not refer to Spark as male.
 
-## Tracking
+## Active relationships and contacts
+
+- **Mrs. Mara:** Host / lodging contact. Dadric thanked her for her generosity at breakfast.
+- **Merek:** Stablehand. Has cared for Spark and prepared her for Dadric's use.
+- **Mrs. Anwen:** Kind woman Dadric met at the shrine.
+- **Edric:** Person with whom Dadric discussed his temple upbringing, faith, and calling.
+- **Harlan:** Dadric arranged to meet him during the evening.
+- **Letter-related contact:** Dadric chose to return a letter and report what happened while concealing his suspicions to observe the person's reaction. The identity and exact details of this interaction must be recovered from the prior play conversation before further conclusions are recorded.
+
+No numerical relationship scores, promises, debts, or favors have been established in this state record.
+
+## Dadric's known background and outlook
+
+- Dadric has spent most of his life in a temple and described his departure as his first time away from that life.
+- He was raised in a loving but structured environment with a rigid schedule and paladin training.
+- His religious teaching emphasized that light destroys darkness and good overcomes evil.
+- He chose to devote his life to being an instrument of light, destroying darkness, and leaving things better than he found them.
+- He has met Mrs. Anwen at the shrine and is beginning to feel positively about Tallowmere and its people.
+
+## Active goals and threads
+
+1. Attend to the business Dadric has planned for this morning, taking Spark.
+2. Continue settling into Tallowmere during the planned week-long stay.
+3. Resolve or investigate the letter-related concern without prematurely revealing Dadric's suspicions.
+4. Establish whether a temple of Sarenrae is present in or near Tallowmere; the question was asked, but no answer is recorded here.
+
+## Mechanical and resource tracking
+
+- Level: 1 paladin.
+- XP: No awards recorded.
+- HP, conditions, prepared resources, and other expendable resources: No changes recorded in this opening sequence.
+- Inventory: No changes recorded.
+- Wealth: Weekly lodging paid, but exact amount and resulting balance are not recorded in this state file. Consult the character sheet and prior transaction details rather than estimating.
+- Mount: Spark is available at the stables; her current location and readiness should be updated after Dadric's outing.
+
+## Continuity rules
 
 Update after each session or meaningful downtime interval:
 

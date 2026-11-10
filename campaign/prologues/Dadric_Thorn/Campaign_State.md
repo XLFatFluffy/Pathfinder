@@ -74,3 +74,13 @@ Update after each session or meaningful downtime interval:
 - GM-only world state and unresolved continuity questions
 
 Do not fill this file with future plot beats. It is a state tracker, not a spoiler outline.
+
+
+## Recovered roadside incident and current letter lead
+
+- **Roadside encounter:** Before entering Tallowmere on 1 Harvestfall, Dadric encountered concealed mounted travelers roughly two miles from town in morning mist. They were Edric and his injured brother Tomas, merchants. Three attackers had ambushed them the previous day, wounded Tomas, and taken a locked iron-bound oak coffer while seeking the sender or cargo. The attackers displayed burgundy-and-gold stag imagery and claimed the coffer belonged to the Stormlands. They did not take the separate sealed letter Edric retained.
+- **Coffer delivery:** Edric and Tomas had been hired in Tallowmere three days earlier by Ser Alester Vane, a landed knight with modest holdings north of Tallowmere. Vane's steward handed the coffer to Edric at Greyfield, south of Tallowmere. Edric kept it locked; its contents are unknown. Edric chose the western road to Tallowmere. Several people may have witnessed the loading. How the attackers identified the coffer and route is unresolved.
+- **Letter:** Edric retains an unopened parchment sealed with dark red wax. Its seal depicts a tower beneath a crescent moon, distinct from the stag imagery associated with the attackers. Dadric did not open it. Its contents and intended message remain unknown.
+- **Dadric's response:** He stabilized Tomas with his healer's kit, detected no evil aura on either brother, failed to identify the heraldic imagery, and continued to Tallowmere. Later, after discussing the matter with Harlan, Dadric decided to speak with Edric first, retrieve the letter, and report the ambush to Ser Alester Vane while concealing his suspicions in order to observe Vane's reaction. Harlan warned that a reaction alone would not prove guilt.
+- **Current lead for Edric:** Edric's exact present whereabouts are not confirmed. Earlier information placed him overnight at a merchant friend's house near the western street/watchhouse. Harlan has now suggested the cooper's yard near the eastern end of town as another place to look. Dadric has not yet found Edric or retrieved the letter.
+- **Ser Alester Vane:** Not yet met. His involvement in the ambush or the coffer's contents is not established.

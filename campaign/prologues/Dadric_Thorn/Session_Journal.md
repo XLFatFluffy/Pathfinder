@@ -188,3 +188,22 @@ Append each session in chronological order. Do not rewrite prior entries to smoo
 - Result: Dadric's personal purse before wages is **26 gp, 8 sp, 6 cp**, assuming no unrecorded personal purchases. Employer-paid provisions and Rowan's fee are not deducted.
 - Ser Alester's contract pays 2 gp/day beginning 1 Harvestfall. Four days accrued through Dadric's return on 4 Harvestfall, for **8 gp unpaid**. The agreed allocation recorded from prior play is 1 gp/day to Dadric and 1 gp/day to Mrs. Anwen's shrine: 4 gp personally owed to Dadric, 4 gp earmarked for the shrine. No wages are recorded as received. The separate recovery reward remains unquantified.
 - This is an accounting correction only; it does not imply Ser Alester has handed over the wages.
+
+
+### Continuation — Return to the Copper Kettle and volunteer at the shrine
+
+- **In-world date/time:** Late afternoon/evening 4 Harvestfall through morning/midmorning 5 Harvestfall, 243 AC.
+- **Location:** The Copper Kettle, Tallowmere; then Mrs. Anwen's shrine.
+- **Events:**
+  - After returning to the inn, Dadric first stabled Spark, then entered the Copper Kettle. He bought a cheap supper for 1 sp and retired early. His room remained prepaid through the evening of 7 Harvestfall.
+  - Dadric slept through the night and rose on 5 Harvestfall. He ate the breakfast included with his lodging.
+  - Dadric purchased plain, durable work clothes for 5 sp: wool trousers, a linen shirt, and a sturdy vest. These are additional to his traveler's outfit.
+  - Dadric went to Mrs. Anwen's shrine intending to pray and help. He told her he wished to do both. He prayed, then began volunteer work.
+  - By midmorning, Dadric had swept and cleared the courtyard while Mrs. Anwen tended the herb beds. She observed that regular visitors already know the shrine, but few newcomers attend. This is her observation, not an established census or proof of local religious sentiment.
+  - Mrs. Anwen identified further work: tending herb beds, organizing the storeroom, and making two deliveries to an elderly couple who cannot easily travel. Dadric has not yet chosen or completed those tasks.
+- **Dadric's decisions:** Chose to spend the day helping at the shrine; prayed before working; purchased suitable work clothes; continued his voluntary service without asking for payment.
+- **NPCs:** Mrs. Anwen, shrine caretaker/contact. Mrs. Mara remains owner/operator of the Copper Kettle.
+- **Mechanical changes:** No checks, combat, damage, conditions, XP, or level changes.
+- **Wealth and inventory:** The 4 gp personal wage share from Ser Alester is now counted as received, with a separate 4 gp shrine allocation assigned to Mrs. Anwen. Dadric's purse after wage receipt was 30 gp, 8 sp, 6 cp. Supper cost 1 sp; work clothes cost 5 sp. Current purse is 30 gp, 2 sp, 6 cp. Breakfast was included in prepaid lodging. Add work clothes to inventory; retain traveler's outfit. No additional stable charge recorded for Spark.
+- **Player OOC direction:** The player intends Dadric to work toward improving the shrine and attracting more followers of Sarenrae. This is a long-term goal only. Do not make it happen automatically. Resolve it through credible in-world effort, resources, relationships, local response, and consequences.
+- **Current scene:** Morning, 5 Harvestfall. Dadric is at the shrine after completing courtyard cleanup. Other offered tasks remain.

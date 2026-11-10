@@ -217,3 +217,31 @@ Append each session in chronological order. Do not rewrite prior entries to smoo
 - The herb beds were in noticeably better condition by late morning. Mrs. Anwen thanked him.
 - No check was required for this routine task. No XP, reputation, followers, or shrine improvement beyond the immediate maintenance is awarded or assumed.
 - The storeroom and two deliveries previously mentioned remain outstanding options.
+
+
+### Continuation — Deliveries, storeroom service, and return to the Copper Kettle
+
+- **In-world date and time:** 5 Harvestfall, 243 AC, late morning through late evening. Exact hours are not established.
+- **Location:** Mrs. Anwen's shrine; Alden and Betha's cottage on the eastern edge of Tallowmere; Ellyn's nearby cottage; the Copper Kettle.
+- **Character level / XP:** Level 1. No XP award or advancement recorded.
+- **Opening state:** Dadric had completed the herb-bed maintenance at Mrs. Anwen's shrine. The two prepared parcels and storeroom organization remained to be done.
+- **Events:**
+  - Dadric took the food parcel (bread, dried beans, and cheese) to Alden and Betha, an elderly couple living beyond the old well at the eastern edge of Tallowmere beside a pear tree. He offered further help after delivering the food.
+  - Dadric moved approximately 25 split logs from beside the side wall to beside the back door. He then inspected their garden gate. The upper hinge is intact but has pulled loose from the wooden post because the old fastening holes have widened. Alden has a hammer inside. Dadric noted that longer fastenings and a sound piece of timber to reinforce the post would likely be needed. He said he would return the following day with supplies. No repair has yet been attempted and no materials have been purchased.
+  - Dadric delivered the second parcel, containing salve, clean linen, and medicinal herbs, to Ellyn, an elderly woman in a nearby cottage down the eastern lane. Ellyn accepted it and said her hands had been troubling her. She knows little about Sarenrae, though Mrs. Anwen has spoken to her about the faith. This is not a conversion or commitment.
+  - Ellyn offered to settle with Mrs. Anwen when she next visited. Dadric declined payment and identified himself as "Dadric Thane, bringer of the light." Preserve the spoken name/title as recorded; his character record remains Dadric Thorn. No money changed hands.
+  - Dadric offered to pay for Ellyn's medicine and herbs. Mrs. Anwen explained that the supplies came from the shrine's stores and said replenishment costs could be discussed if he wished to replace them. Dadric did not make a replenishment payment or agree to a price. No personal expense is recorded.
+  - Dadric returned to the shrine and completed the storeroom task Mrs. Anwen had assigned. He grouped herbs by type, folded and stacked linens, checked supplies, and recorded low or possibly spoiled stock for Mrs. Anwen's review. He discarded nothing. Mrs. Anwen reviewed the work and thanked him. No check was required and no mechanical reward was granted.
+  - Mrs. Anwen told Dadric not to spend personal coin on shrine supplies without speaking with her first. She asked him to pass her regards to Alden and Betha on his return tomorrow.
+  - Tired and hungry, Dadric returned to the Copper Kettle and asked Mrs. Mara whether she had seen Ser Alester's steward. Mara had not seen him that day, but said the steward had been at the inn the previous day asking after Dadric. No message had arrived and the cottage inquiry remains pending.
+  - Dadric ate beef stew, bread, and water, then paid Mara 3 sp before retiring to his prepaid room.
+- **Dadric's decisions and actions:** Completed both shrine deliveries; offered practical assistance to Alden and Betha; moved their woodpile; assessed the gate without attempting an unsuitable repair; committed to returning with supplies; declined payment for Ellyn's parcel; completed the storeroom organization; offered to replenish shrine stock but made no payment; returned to the inn and paid for supper.
+- **NPCs encountered:** Mrs. Anwen; Alden; Betha; Ellyn; Mrs. Mara. Ser Alester's steward was not seen by Dadric.
+- **Relationship changes:** Alden and Betha expressed gratitude for the delivery and help. Ellyn was receptive and familiar with Sarenrae by name through Mrs. Anwen, but no conversion or commitment occurred. Mrs. Anwen thanked Dadric for completing the storeroom work.
+- **Information learned by Dadric:** The gate's hinge is intact but the wooden post's old fastening holes are widened. Alden has a hammer. Longer fastenings and reinforcing timber are likely needed. Mara reports that the steward was at the inn yesterday asking after Dadric, but she has no message from him.
+- **Rumors and uncertain claims:** The steward's visit is Mara's report. The cottage inquiry's outcome, owner, price, title, condition, and any claims remain unknown.
+- **Combat and mechanical changes:** No checks, combat, damage, conditions, XP, or level changes.
+- **Inventory, wealth, and resource changes:** No inventory changes. Supper cost 3 sp. Dadric's tracked purse moves from 30 gp, 2 sp, 6 cp to **29 gp, 9 sp, 6 cp**. No payment for shrine medicine/herbs was made. Prepaid lodging remains in force through the evening of 7 Harvestfall; supper is separate. No new stable charge or feed consumption is established.
+- **Consequences and unresolved threads:** Dadric intends to return to Alden and Betha on 6 Harvestfall with gate-repair supplies. The steward's cottage inquiry remains pending. Ellyn may be open to a future conversation about Sarenrae, but her response to any further approach is unknown. Shrine stock replenishment has not been priced or paid.
+- **Potential main-campaign impact:** No wider political or faction consequence established.
+- **Canon updates required:** No wider setting canon changes. Record the local cottage, recipient, and gate details only as established above.

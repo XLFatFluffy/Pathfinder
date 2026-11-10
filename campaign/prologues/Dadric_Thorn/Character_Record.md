@@ -33,6 +33,8 @@ The selected array is 18, 16, 14, 14, 12, 10.
 
 **Pending confirmation:** Earlier character setup assigned the human +2 ancestry bonus to Charisma, which would make Charisma 18 (+4). The submitted PDF currently records Charisma 16 (+3). Do not silently alter the authoritative sheet; reconcile this with the player before locking the final statistics.
 
+**Human favored-class benefit selected:** +1 energy resistance (fire) at level 1. This is the human paladin alternate favored-class option from the Advanced Race Guide. Each additional time this option is selected at a later paladin level, increase the resistance to the chosen energy type by +1, to a maximum of 10. It replaces the normal +1 hit point or +1 skill rank for that level.
+
 ## Submitted mechanical details
 
 - Hit points: 12
@@ -63,14 +65,46 @@ These are review flags, not silent edits:
 
 ## Equipment and mount
 
-The current equipment list includes the following:
+The current equipment list and weights are:
 
-- Wooden holy symbol of Sarenrae
-- Backpack, bedroll, two waterskins, seven days of rations
-- Flint and steel, whetstone, belt pouch
-- 50 ft. hemp rope, two torches, hooded lantern, two flasks of oil
-- Small hammer, ten iron pitons, traveler's clothes
-- Light warhorse, saddlebags, bit and bridle, horse blanket, seven days of feed
+### Dadric's personal equipment
+
+| Item | Quantity | Weight |
+|---|---:|---:|
+| Scale mail | 1 | 30 lb. |
+| Heavy steel shield | 1 | 15 lb. |
+| Longsword | 1 | 4 lb. |
+| Dagger | 1 | 1 lb. |
+| Wooden holy symbol of Sarenrae | 1 | negligible |
+| Backpack | 1 | 2 lb. |
+| Bedroll | 1 | 5 lb. |
+| Waterskin, full | 2 | 8 lb. total |
+| Trail rations | 7 days | 7 lb. |
+| Flint and steel | 1 set | negligible |
+| Whetstone | 1 | 1 lb. |
+| Belt pouch | 1 | 1/2 lb. |
+| Hemp rope, 50 ft. | 1 | 10 lb. |
+| Torch | 2 | 2 lb. total |
+| Hooded lantern | 1 | 2 lb. |
+| Oil, 1-pint flask | 2 | 2 lb. total |
+| Small hammer | 1 | 2 lb. |
+| Iron piton | 10 | 5 lb. total |
+| Traveler's outfit | 1 | 5 lb. |
+| **Personal equipment total** | | **101.5 lb.** |
+
+### Horse equipment and supplies
+
+| Item | Quantity | Weight |
+|---|---:|---:|
+| Light warhorse | 1 | Not counted as carried gear |
+| Military saddle | 1 | 30 lb. |
+| Saddlebags | 1 pair | 8 lb. |
+| Bit and bridle | 1 set | 1 lb. |
+| Horse blanket | 1 | 3 lb. |
+| Horse feed | 7 days | 70 lb. |
+| **Horse tack and supply total** | | **112 lb.** |
+
+**Combined listed gear weight:** 213.5 lb. This is the sum of Dadric's personal equipment and the horse's tack and seven-day feed, not the weight of the horse or rider. The horse's load will be tracked separately from Dadric's personal encumbrance. Waterskins are counted full; the feed is 10 lb. per day. Wooden holy symbols and flint and steel have no listed weight in the standard equipment tables.
 
 The light warhorse is provisioned as an assigned mount from Dadric's prior religious service and is separate from his 175 gp starting wealth. It is not treated as a purchase from his character funds. Its name, appearance, temperament, and detailed history remain to be established in play or background.
 

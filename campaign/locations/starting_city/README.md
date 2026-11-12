@@ -8,7 +8,7 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 - [NPC Roleplaying Dossier Collection](../../people/NPC_Roleplaying_Dossiers.md) — the table-facing roleplaying reference for established named NPCs, including motivations, fears, social methods, voice cues, and provisional alignments.
 
 - [City Overview](City_Overview.md) — established premise, sandbox principles, and core city identity.
-- [Session One GM Readiness Packet](Session_One_GM_Readiness_Packet.md) — current session-preparation reference.
+- [Session One Current GM Packet](Session_One_Current_GM_Packet.md) — current generic table-side preparation.\n- [Session One GM Readiness Packet](Session_One_GM_Readiness_Packet.md) — legacy packet retained for provenance; do not use its character-specific assumptions.
 - [Current Situation and Rumors](Current_Situation_and_Rumors.md) — present conditions and information circulating locally.
 - [History and Local Memory](History_and_Local_Memory.md) — local historical record and remembered events.
 - [Surrounding Region](Surrounding_Region.md) — regional overview.

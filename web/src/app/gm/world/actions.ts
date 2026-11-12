@@ -27,8 +27,7 @@ function uuid(value: string) {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
 }
 
-export async function createWorldReview(
-  _previous: WorldReviewFormState,
+async function createWorldReviewWithState(
   formData: FormData,
 ): Promise<WorldReviewFormState> {
   const member = await getCurrentCampaignMember();
@@ -58,8 +57,7 @@ export async function createWorldReview(
   return { message: "World review created." };
 }
 
-export async function createWorldReviewItem(
-  _previous: WorldReviewFormState,
+async function createWorldReviewItemWithState(
   formData: FormData,
 ): Promise<WorldReviewFormState> {
   const member = await getCurrentCampaignMember();
@@ -93,8 +91,7 @@ export async function createWorldReviewItem(
   return { message: "World-review proposal added." };
 }
 
-export async function updateWorldReviewItem(
-  _previous: WorldReviewFormState,
+async function updateWorldReviewItemWithState(
   formData: FormData,
 ): Promise<WorldReviewFormState> {
   const member = await getCurrentCampaignMember();
@@ -123,8 +120,7 @@ export async function updateWorldReviewItem(
   return { message: "Proposal disposition saved." };
 }
 
-export async function updateWorldReviewStatus(
-  _previous: WorldReviewFormState,
+async function updateWorldReviewStatusWithState(
   formData: FormData,
 ): Promise<WorldReviewFormState> {
   const member = await getCurrentCampaignMember();
@@ -154,4 +150,27 @@ export async function updateWorldReviewStatus(
   if (error) return { error: `Unable to update world review: ${error.message}` };
   revalidatePath("/gm/world");
   return { message: "World review status saved." };
+}
+
+async function requireSuccessfulAction(
+  action: () => Promise<WorldReviewFormState>,
+): Promise<void> {
+  const result = await action();
+  if (result.error) throw new Error(result.error);
+}
+
+export async function createWorldReview(formData: FormData): Promise<void> {
+  await requireSuccessfulAction(() => createWorldReviewWithState(formData));
+}
+
+export async function createWorldReviewItem(formData: FormData): Promise<void> {
+  await requireSuccessfulAction(() => createWorldReviewItemWithState(formData));
+}
+
+export async function updateWorldReviewItem(formData: FormData): Promise<void> {
+  await requireSuccessfulAction(() => updateWorldReviewItemWithState(formData));
+}
+
+export async function updateWorldReviewStatus(formData: FormData): Promise<void> {
+  await requireSuccessfulAction(() => updateWorldReviewStatusWithState(formData));
 }

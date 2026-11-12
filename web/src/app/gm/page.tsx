@@ -174,6 +174,7 @@ export default async function GmPage({
     { label: "Add NPC", href: "/gm/npcs" },
     { label: "Add location", href: "/gm/locations" },
     { label: "Manage sessions", href: "/gm/sessions" },
+    { label: "Review living world", href: "/gm/world" },
     { label: "Record campaign event", href: "/gm/calendar" },
     { label: "Review atlas", href: "/gm/atlas" },
   ];

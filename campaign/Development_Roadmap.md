@@ -1,8 +1,8 @@
 # Campaign Development Roadmap
 
-> **Scope update — 2026-11-09:** The former Living World Engine, automated simulation procedures, and recurring world turns are retired. Historical phases below document work that was once undertaken, not current operating instructions. Actor, issue, project, and political dossiers remain useful GM reference material. The world is advanced through GM judgment, especially across extended downtime. Current priorities are deeper setting lore, usable GM reference material, and a complete Campaign Bible.
+> **Scope update — 2026-11-12:** The former automated world-turn procedure is retired. **Living World Engine v2 is active** as a GM-reviewed workflow for responsive world state. Historical phases below document earlier work; current work focuses on play readiness, authoritative indexing, final continuity checks, and table-useful preparation. Actor, issue, project, and political dossiers remain useful reference/state material.
 
-**Current milestone:** Continue deep worldbuilding and consolidate a complete, teachable GM Campaign Bible. Session One's earlier party concepts and troll/Selwick opening remain provisional until the players confirm their revised characters and the GM approves the opening.  
+**Current milestone:** Complete repository/play-readiness audit, verify the application and database, keep Living World Engine v2 usable at the table, and then integrate final player characters before Session One. Earlier party concepts and the troll/Selwick opening remain provisional until confirmed.  
 **Guiding principle:** Build what play requires first. Expand the wider world as the campaign creates reasons to explore it.
 
 ## Milestone 0 — Session 1 readiness (Nov 3–8, 2026)
@@ -235,7 +235,7 @@ These stages supersede earlier roadmap statements that treated these frameworks 
 - Added `campaign/world_engine/Great_House_Actor_Dossiers.md` consolidating established agendas and constraints for all six Great Houses without inventing new plots or numerical resources.
 - Added reusable world-event and world-turn report templates.
 - Added the initial project register and linked actor, holdings, issue, project, and event documentation.
-- WTR-001 has since been completed as a zero-time campaign-opening snapshot on 1 Harvestfall, 243 AC. Future turns advance only when in-world time passes or the GM requests a simulation.
+- WTR-001 has since been completed as a zero-time campaign-opening snapshot on 1 Harvestfall, 243 AC. Historical WTR-001 material is retained as reference; future world changes are handled through the active GM-reviewed Living World Engine v2, not recurring autonomous turns.
 
 
 ## Living World Engine — pre-opening preparation (Nov 6, 2026)

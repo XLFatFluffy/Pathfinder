@@ -75,7 +75,7 @@ Fenna Wale's Physic Garden is a practical source of herbs and mundane preparatio
 - limited antitoxin and purchased alchemical supplies;
 - scent-masking herbs for household use.
 
-Her stock and listed prices are controlled by [Tallowmere Shops, Stock, and Prices](../locations/starting_city/Shopkeepers_and_Stock.md). Do not change them in this document.
+Her stock and listed prices are controlled by [Tallowmere Shops, Stock, and Prices](Shopkeepers_and_Stock.md). Do not change them in this document.
 
 Fenna refuses to claim that herbs cure curses, magical diseases, or grievous wounds. She may explain what a preparation is traditionally used for, what she has observed, and what she does not know. A preparation should only grant a reliable mechanical effect if its effect is defined by Pathfinder rules or separately approved campaign canon.
 
@@ -162,8 +162,8 @@ Do not resolve these details just to make the document look complete. They can b
 ## 11. Related records
 
 - [Medicine, Disease, and Healing in the Realm](../../world/Medicine_Disease_and_Healing.md)
-- [Tallowmere Residential Life and Housing](../locations/starting_city/Residential_Life_and_Housing.md)
+- [Tallowmere Residential Life and Housing](Residential_Life_and_Housing.md)
 - [Tallowmere Local Religion and Institutions](../locations/starting_city/Local_Religion_and_Institutions.md)
-- [Tallowmere Shops, Stock, and Prices](../locations/starting_city/Shopkeepers_and_Stock.md)
+- [Tallowmere Shops, Stock, and Prices](Shopkeepers_and_Stock.md)
 - [Tallowmere NPC Roleplaying Dossiers](../../people/NPC_Roleplaying_Dossiers.md)
 - [Tallowmere Streets, Landmarks, and Routes](../locations/starting_city/Streets_Landmarks_and_Routes.md)

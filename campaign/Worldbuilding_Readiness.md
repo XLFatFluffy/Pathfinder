@@ -73,7 +73,7 @@ Tallowmere now has dedicated public-life and communication references covering e
 
 ## 6. Scope and canon rules
 
-- The former Living World Engine and automated world-turn procedures are retired. There is no required simulation, turn cycle, or automated consequence system.
+- The Living World Engine v2 is active as a GM-reviewed observe → propose → review → record → surface workflow. It does not autonomously invent canon or force outcomes.
 - The world remains independent of the PCs. The GM determines what happens through motives, knowledge, resources, geography, time, custom, and circumstance.
 - Legacy records under `world_engine/` remain available as descriptive GM reference material, not as an operating procedure.
 The minor-house framework has been audited against Great House, feudal, Tallowmere regional, and geography canon. Lesser-house relationships are active in `politics/Minor_Houses_and_Regional_Powers.md`; borders and exact holdings remain uncalibrated where the map does not establish them.

@@ -123,7 +123,7 @@ The broad regional placements and principal seats of the six Great Houses are es
 
 ## Approved territorial framework — 2026-11-04
 - House Veyr controls the majority of the northern frontier and northern territories.
-- House Calderan's main Crown territory is farther inland, not directly on the inland sea; the precise capital site remains open.
+- House Calderan's main Crown territory is centered farther inland, with **Valedorn** established as the capital and location of the Imperial Seat. Exact Crownland borders remain unresolved.
 - House Merrowen extends along the eastern coast.
 - House Kharadorn controls Dragonstone, the central inland sea, and surrounding territory. Khar-Dum remains the separate ancestral homeland in the northeastern mountains.
 - Exact borders, seats, port jurisdictions, and the limits of Kharadorn's surrounding territory remain unresolved. Lesser political powers continue to occupy parts of the continent, particularly the south.

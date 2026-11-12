@@ -1,7 +1,7 @@
 # Current Worldbuilding Direction
 
 **Status:** APPROVED direction / details unresolved  
-**Last reviewed:** 2026-11-03
+**Last reviewed:** 2026-11-12
 
 This file records current GM-approved creative direction. It supplements the imported Campaign Bible; it does not silently rewrite preserved source material.
 
@@ -21,7 +21,7 @@ This file records current GM-approved creative direction. It supplements the imp
 
 - Use broad fantasy archetypes and political structures as inspiration, not copied names, maps, house identities, histories, sigils, or plotlines.
 - Rename and substantially rework legacy Game of Thrones scaffolding before treating it as final setting lore.
-- The existing continent atlas is a provisional visual reference, not the final geography.
+- The current continent atlas is the authoritative master geographic artwork; subordinate map geometry must fit it. The map registry controls what is approved, pending calibration, or unresolved.
 
 ## Major ancestries and societies
 

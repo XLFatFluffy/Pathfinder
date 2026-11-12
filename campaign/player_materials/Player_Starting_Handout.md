@@ -4,7 +4,7 @@
 **Campaign date:** 1 Harvestfall, 243 AC  
 **Ruleset:** Pathfinder First Edition  
 **Visibility:** PLAYER_SHARED  
-**Last updated:** 2026-11-09
+**Last updated:** 2026-11-12
 
 This guide contains broad public information that a reasonably informed person could know. It is not an exhaustive gazetteer, and it does not mean every character knows every local detail. Your character's upbringing, education, travels, ancestry, class, and personal history may give them more specific knowledge. Major settlements and fortresses are widely known; small villages, minor estates, precise routes, local disputes, and detailed political arrangements may not be. This guide does not include private motives, hidden histories, or secrets.
 

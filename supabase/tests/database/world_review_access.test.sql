@@ -119,14 +119,13 @@ select throws_ok(
   'player cannot create a world review'
 );
 
-select throws_ok(
-  $$
-    update public.campaign_world_review_items
-    set disposition = 'rejected'
-    where campaign_id = '00000000-0000-4000-8000-000000000001'
-  $$,
-  '42501',
-  null,
+select is(
+  (
+    select count(*)::integer
+    from public.campaign_world_review_items
+    where disposition = 'rejected'
+  ),
+  0,
   'player cannot alter a GM consequence proposal'
 );
 

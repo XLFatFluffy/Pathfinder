@@ -277,7 +277,7 @@ The campaign's opening state was reviewed as a zero-day baseline. This was a one
 
 ## Worldbuilding scope clarification — 2026-11-09
 
-The former Living World Engine and automated world-turn system are retired from campaign scope. The setting remains a responsive world, but all developments, including consequences of long periods of downtime, are determined by GM judgment rather than automated simulation. The records under `world_engine/` are retained as a legacy archive of NPC dossiers, political context, local institutions, rumors, and opening-state notes. They are reference material, not instructions to run turns or advance events.
+The former automated world-turn system was retired on 2026-11-09. The Living World Engine v2 is now active as a GM-reviewed decision-support and recordkeeping workflow. The setting remains responsive and independent of the PCs; meaningful consequences are proposed from established motives, knowledge, resources, geography, time, custom, and circumstance, then reviewed by the GM before becoming canon. The records under `world_engine/` remain active GM reference/state records.
 
 
 ## 2026-11-09 — PC-dependent Tallowmere preparation quarantined

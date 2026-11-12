@@ -1,38 +1,199 @@
-# Retired World Simulation Framework
+# Living World Engine
 
-**Status:** RETIRED — NOT IN CAMPAIGN SCOPE  
-**Retired:** 2026-11-09  
-**Replacement approach:** GM judgment using established lore and ordinary recordkeeping
+**Status:** ACTIVE — GM-reviewed responsive world system  
+**Activated:** 2026-11-12  
+**Campaign date:** 1 Harvestfall, 243 AC  
+**Ruleset:** Pathfinder First Edition
 
-The former Living World Engine proposed an automated or procedural system for advancing actors, issues, projects, events, and world turns. The GM has removed that system from campaign scope. This document is retained as a clear deprecation notice so older links do not imply that the procedures remain active.
+The Living World Engine is the campaign's structured method for keeping the world active while the PCs play. It is **not** an autonomous storyteller and it does not invent canon, force outcomes, or run a hidden simulation without GM review.
 
-## What replaces it
+The engine exists to make the GM's judgment fast, consistent, and recordable.
 
-The setting is still a world that exists independently of the player characters. Its people and institutions have their own motives, resources, duties, beliefs, and limited information. The GM decides what they do and what consequences follow.
+## Operating principle
 
-When the PCs take action, ignore an issue, leave a region, or spend years in downtime, consider:
-- who is directly affected and what they know;
-- what those people want and what they can realistically do;
-- time, distance, geography, money, manpower, law, custom, weather, supply, and competing obligations;
-- whether a change is important enough to record or can remain ordinary background continuity;
-- what the PCs can observe, what is rumor, and what remains GM-only.
+The world continues to exist when the PCs are elsewhere. People work, factions pursue interests, projects advance, rumors spread, resources are consumed, relationships change, and consequences accumulate. The engine does not decide these things by itself.
 
-There are no mandatory world turns, simulation clocks, random event procedures, or automated escalation ladders. Time advances through play and GM decisions. Long periods of downtime are resolved through reasoned summaries of meaningful changes, not a mechanical turn cycle.
+For every meaningful change, the GM considers:
 
-## Preserved reference material
+1. **Who acts?** NPC, house, faction, institution, community, or environmental process.
+2. **What do they know?** Use established knowledge limits. Do not give actors information they could not reasonably possess.
+3. **What do they want?** Use established motives, obligations, fears, resources, and relationships.
+4. **What can they actually do?** Apply time, distance, money, manpower, law, geography, custom, weather, supply, and competing obligations.
+5. **What changed?** Record only meaningful changes. Ordinary background activity does not need a database entry.
+6. **What can the PCs know?** Separate observed fact, public information, rumor, inference, and GM-only truth.
+7. **What becomes canon?** A proposed consequence is not canon until the GM accepts it or it occurs through play.
 
-The former supporting records remain available under [world_engine/](world_engine/). They contain useful descriptive setting information, including:
-- Great House agendas, internal tensions, and constraints.
-- Minor houses, regional powers, guilds, and local institutions.
-- Tallowmere jurisdictions, charters, and unresolved boundaries.
-- NPC information channels, rumor distinctions, and knowledge limits.
-- Seasonal, agricultural, travel, and logistics context.
-- A dated opening-state snapshot for 1 Harvestfall, 243 AC.
+## The five engine operations
 
-These records are reference material. They do not cause an NPC to act, establish a current crisis, or require the GM to run a procedure.
+### 1. Observe
 
-## Recordkeeping
+At the start or end of a session, review only the world elements that could reasonably have changed:
 
-When something actually changes, update the appropriate subject record: politics, people, factions, economy, geography, history, locations, world events, or session logs. Record the cause and source where useful. Keep proposals distinct from events that have occurred. Do not maintain a parallel simulation state.
+- active quests and unresolved problems;
+- important NPC status;
+- faction activity;
+- house relationships and political pressures;
+- pending events and deadlines;
+- locations affected by recent PC actions;
+- resources, trade, travel, law, and seasonal conditions where relevant;
+- consequences explicitly established during play.
 
-The campaign's current readiness and priorities are in [Worldbuilding Readiness](Worldbuilding_Readiness.md). The consolidated GM reference is [GM Campaign Bible](GM_Campaign_Bible.md).
+Do not perform a continent-wide simulation sweep merely because the database contains a lot of records.
+
+### 2. Propose
+
+When time passes or the PCs cause a meaningful change, the GM may create one or more **proposed consequences**.
+
+Each proposal must identify:
+
+- actor or affected institution;
+- established motive or pressure;
+- relevant knowledge;
+- available resources;
+- proposed action or consequence;
+- expected time scale;
+- affected records;
+- uncertainty or competing possibilities.
+
+Proposals remain provisional until reviewed.
+
+### 3. Review
+
+The GM accepts, modifies, rejects, or defers each proposal.
+
+The engine must never silently convert a plausible idea into established canon.
+
+### 4. Record
+
+Once accepted or actually observed in play, update the authoritative record:
+
+- NPC status/history;
+- house relationship;
+- faction activity;
+- quest;
+- event;
+- location;
+- economy;
+- geography;
+- history;
+- session log;
+- journal or GM note.
+
+Record the cause and date where useful.
+
+### 5. Surface
+
+At the table, the engine provides the GM with only the information needed for play:
+
+- current date and location;
+- active threads;
+- recent world changes;
+- NPCs likely to matter;
+- upcoming events;
+- unresolved consequences;
+- player-visible information separately from GM-only information.
+
+## Time advancement
+
+Time advances because the GM establishes that it has advanced.
+
+There is no mandatory recurring turn length.
+
+For short gaps, update only directly relevant records. For significant downtime, perform a focused world review covering the actors, projects, issues, travel, economy, politics, and locations plausibly affected by the elapsed time.
+
+A downtime review should answer:
+
+- What changed?
+- What did not change?
+- Who benefited?
+- Who lost ground?
+- What new information circulated?
+- What opportunities expired?
+- What remains unresolved?
+
+## Consequence rules
+
+The engine may connect existing records, but it may not create unsupported major facts.
+
+### Allowed
+
+- advancing an established project because time passed;
+- changing an NPC's status after an event;
+- recording a faction reaction supported by its established goals;
+- moving an existing quest forward;
+- adding a consequence directly caused by PC action;
+- creating a small ordinary detail needed to make a scene function.
+
+### Requires explicit GM approval
+
+- new named NPCs;
+- new houses or factions;
+- new settlements;
+- new wars or major political crises;
+- new supernatural phenomena;
+- new territorial claims;
+- new permanent alliances or betrayals;
+- changes to established geography;
+- major changes to canon history;
+- anything derived from a provisional player concept.
+
+## Canon and visibility
+
+Every engine result must retain the campaign's existing canon and knowledge distinctions:
+
+- **ESTABLISHED:** approved fact.
+- **APPROVED FRAMEWORK:** accepted structure with open details.
+- **PROVISIONAL:** prepared but not locked.
+- **UNRESOLVED:** intentionally unanswered.
+- **RUMOR:** an in-world claim whose truth may differ.
+- **GM-ONLY:** concealed information.
+- **PLAYER-SHARED:** intentionally available to players.
+
+The engine never makes GM-only information player-visible merely because it is linked to a public record.
+
+## Table workflow
+
+### Before a session
+
+1. Review the current date.
+2. Review the last session summary.
+3. Review active quests and unresolved threads.
+4. Review NPCs/factions directly connected to those threads.
+5. Review pending calendar events.
+6. Review any world changes made since the previous session.
+7. Prepare only the locations and encounters likely to matter.
+
+### During a session
+
+Record meaningful changes as they happen:
+
+- new NPC status;
+- discovered location;
+- quest change;
+- faction/house relationship change;
+- important event;
+- player-visible discovery;
+- GM-only consequence;
+- inventory/economic consequence when relevant.
+
+Do not stop play to maintain perfect paperwork. Capture a short note and structure it afterward.
+
+### After a session
+
+1. Record the session summary.
+2. Record actual events and consequences.
+3. Update affected NPCs, factions, quests, locations, and relationships.
+4. Update the campaign date if it changed.
+5. Review unresolved threads.
+6. Create focused consequence proposals only where the passage of time or PC action warrants them.
+7. Leave unsupported speculation out of canon.
+
+## Engine safety rule
+
+The engine is a **decision-support and recordkeeping system**, not an independent GM.
+
+If the database does not establish enough information to determine a consequence, the correct result is:
+
+> **UNRESOLVED — GM DECISION REQUIRED**
+
+That is preferable to inventing lore and discovering six sessions later that the invented nonsense has somehow become canon.

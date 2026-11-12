@@ -74,7 +74,7 @@ Supabase test project.
 
 ## Campaign material
 
-- `campaign/` — campaign canon, reference records, maps, and source documents
+- `campaign/` — campaign canon, reference records, maps, and source documents. Start with [`campaign/INDEX.md`](./campaign/INDEX.md) for searchable navigation and canon authority.
 - `campaign/import/` — import template, preparation guide, and reviewed JSON
   bundle
 - `sessions/` — session notes and handoff templates

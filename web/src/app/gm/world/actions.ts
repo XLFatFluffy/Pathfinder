@@ -50,7 +50,6 @@ export async function createWorldReview(
     to_campaign_date: toDate,
     trigger,
     summary: summary ?? "",
-    created_by: member.user_id,
   });
   if (error) return { error: `Unable to create world review: ${error.message}` };
 

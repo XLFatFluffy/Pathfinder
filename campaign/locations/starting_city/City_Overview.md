@@ -14,7 +14,7 @@ The city is a persistent sandbox. It must feel like an inhabited place with its 
 The city should support open-ended exploration and meaningful interaction with the wider world.
 
 - **Independent momentum:** Factions and important NPCs have goals, resources, relationships, and plans. They act without waiting for the PCs.
-- **Consequences:** Events progress when ignored. PC actions can alter relationships, opportunities, local conditions, and faction plans.
+- **Consequences:** The city continues independently of the PCs, but changes are adjudicated through the GM-reviewed Living World Engine v2. Ignoring an issue does not automatically escalate it.
 - **Discoverability:** Exploration can reveal useful places, hidden histories, local customs, unusual people, forgotten structures, and opportunities. Not every discovery is a combat encounter or a quest hook.
 - **Social depth:** The city contains people with varied motives, loyalties, livelihoods, and opinions. No ancestry, class, neighborhood, or faction is monolithic.
 - **Economic life:** Shipping, markets, labor, crafts, services, taxation, shortages, and trade disputes should affect daily life.
@@ -31,30 +31,29 @@ The city should provide opportunities to source materials, find expertise, reach
 
 A ratfolk presence beneath the city is part of the intended foundation. It should be represented as a real community with homes, families, businesses, workshops, leadership, internal disagreements, and connections to the wider subterranean network. It must not be reduced to a sewer-dwelling criminal faction or a single unified political bloc.
 
-The details of its location, size, leadership, relationship with surface authorities, and internal factions remain undecided.
+The details of its location, size, leadership, relationship with surface authorities, and internal factions are now substantially documented in the dedicated ratfolk records; exact neighborhood geometry, population, and selected internal relationships remain open.
 
 ## Geographic and Political Constraints
 
 - The city is on the central inland sea.
 - The inland sea and its surrounding region are associated with House Kharadorn's sphere of influence, but exact port jurisdiction and local political arrangements remain unresolved.
-- The city is not the royal capital. Valedorn remains the capital and location of the Imperial Seat.
-- Do not assume the city is directly ruled by a Great House, independent, or governed by a charter until that is decided.
+- The city is not the royal capital. **Valedorn** is established as the capital and location of the Imperial Seat.
+- Tallowmere is directly governed by **House Denvor** under a hereditary charter confirmed by House Kharadorn. Exact territorial extent and superior jurisdiction over some neighboring settlements remain unresolved.
 - Do not assume exact coordinates, coastline, nearby settlements, or travel times before the map and local geography are developed.
 
 ## Remaining City Development
 
-The city's name, broad location, approximate population, hereditary ruling house, local government framework, and relationship with House Kharadorn are established. The following remain to be developed:
-- Exact coastline, river course, harbor engineering, and placement on the final map.
-- Founding date, detailed history, and older names or titles.
-- Final district boundaries, streets, gates, landmarks, and surrounding settlements.
-- Detailed trade flows, major exports/imports, seasonal patterns, and specific merchant interests.
-- Ratfolk community name, settlement layout, leadership, customs, and relationship with surface authorities.
-- Civic officers, guilds, religious institutions, local factions, and broader NPC cast.
-- Current events, local tensions, and the campaign's opening situation.
+The city's name, broad location, approximate population, hereditary ruling house, local government framework, and relationship with House Kharadorn are established. The following remain elective or partially unresolved:
+- Exact cartographic calibration of coastline, river trace, harbor geometry, district boundaries, streets, gates, and surrounding settlement positions.
+- Founding date, earliest settlement name, exact charter date/negotiators, and selected older historical details.
+- Some detailed trade quantities, seasonal schedules, and specific merchant arrangements.
+- Exact Underways neighborhood geometry, population, and selected internal leadership relationships.
+- The campaign's opening situation and which NPCs the PCs encounter in Session One.
+- Future local events and relationships that should emerge through play.
 
 ## Development Standard
 
-Build the city in layers, beginning with its identity and political status, then developing its economy, districts, communities, factions, institutions, NPCs, and living event systems. Keep player-facing information separate from GM-only secrets. Record approved decisions as canon and keep proposals clearly labeled until approved.
+Build new city material by updating the dedicated authoritative records first, then this overview only when navigation or baseline summaries change. The Living World Engine v2 handles responsive state through GM review rather than an autonomous event system. Keep player-facing information separate from GM-only secrets.
 
 
 ## City Identity and Political Foundation
@@ -157,9 +156,9 @@ These records establish the initial framework. Names, relationships, statistics,
 
 - [Shopkeepers and Stock](Shopkeepers_and_Stock.md): named independent businesses, distinct opening inventories, asking prices, services, and stock-change standards.
 
-## Current Development Update — Tallowmere (2026-11-04)
+## Current Development Update — Tallowmere (2026-11-12)
 
-This overview contains older planning language that has since been superseded by dedicated Tallowmere records. The starting city is named **Tallowmere**, has an approximate population of **18,000**, lies on the northwestern shore of the central inland sea at the mouth of a navigable river, and is governed locally by **House Denvor** under a hereditary charter confirmed by **House Kharadorn**. Its districts, government, civic cast, guilds, merchants, commercial premises, workforce, and surrounding region are now documented in the linked records below. Where older statements in this overview say the city name, population, ruling house, or government remain undecided, the newer dedicated records take precedence.
+This overview retains some historical planning language for provenance; where it conflicts with dedicated Tallowmere records, the dedicated records and current campaign canon take precedence. The starting city is named **Tallowmere**, has an approximate population of **18,000**, lies on the northwestern shore of the central inland sea at the mouth of a navigable river, and is governed locally by **House Denvor** under a hereditary charter confirmed by **House Kharadorn**. Its districts, government, civic cast, guilds, merchants, commercial premises, workforce, and surrounding region are now documented in the linked records below. Where older statements in this overview say the city name, population, ruling house, or government remain undecided, the newer dedicated records take precedence.
 
 ### Current Supporting Records
 - `City_Layout_and_Defenses.md`
@@ -213,11 +212,11 @@ This develops the regional framework beyond generic settlement types. Exact map 
 
 **CURRENT STATUS: INITIAL WILDERNESS FRAMEWORK ESTABLISHED.** The first frontier environments, abandoned sites, resource opportunities, and threat principles beyond Tallowmere are recorded in [Wilderness Beyond Tallowmere](Wilderness_Beyond_Tallowmere.md). The framework includes the Deep Bracken, Upper Vale, Greyback Heights, Siltfen, and Outer Eastern Shore. Specific creature lairs, hidden histories, and exact boundaries remain unresolved.
 
-## Current Development Status — Regional Map Integration (2026-11-04)
+## Current Development Status — Regional Map Integration (2026-11-12)
 
 The GM-provided regional illustration **The Lands About Tallowmere** is now the visual reference for the broad relative placement of the city, neighboring settlements, major terrain, River Vale, and the Inland Sea. Its relative arrangement is consistent with the dedicated regional geography record.
 
-The illustration's printed scale bar is not reliable and must not override the written journey distances. The regional geography record explains the discrepancy and establishes how the map is to be used. A properly scaled regional map and a separate detailed city map remain future cartographic work.
+The illustration's printed scale bar is not reliable and must not override the written journey distances. The regional geography record explains the discrepancy and establishes how the map is to be used. The approved regional and city artwork are now registered in the map library. Exact normalized coordinates and geometry promotion still require visual calibration and GM review.
 
 Tallowmere's city framework is substantially developed across its dedicated records: districts and defenses, streets and landmarks, government and law, history, factions, commerce, guilds, shops and inventories, workforce, housing, ratfolk community, religion, crime, surrounding settlements, regional geography, and wilderness. Remaining city work should focus on reconciling outstanding details, filling specific institutional gaps, and preparing the city for actual play rather than reopening established foundations.
 
@@ -226,7 +225,7 @@ Tallowmere's city framework is substantially developed across its dedicated reco
 
 **CURRENT STATUS: LOCAL INSTITUTIONAL FRAMEWORK COMPLETE AT THE INITIAL SANDBOX LEVEL.** The city's specific temples and clergy are documented in [Local Religion and Institutions](Local_Religion_and_Institutions.md); the seven-seat advisory council and its procedures in [Chartered Council and Civic Procedure](Chartered_Council_and_Civic_Procedure.md); Kharadorn's resident charter representative and strategic presence in [Kharadorn Charter Presence](Kharadorn_Charter_Presence.md); named fragmented criminal operators in [Criminal Operators and Networks](Criminal_Operators_and_Networks.md); and ordinary daily and seasonal routines in [Civic Calendar and Seasonal Routines](Civic_Calendar_and_Seasonal_Routines.md).
 
-The formal world calendar remains unresolved. These records deliberately avoid fixed month names, weekday names, year length, or a campaign date. Tallowmere is now sufficiently developed for broad sandbox play; its remaining work is primarily map integration, session-opening preparation, and refinement through actual play rather than foundational institution design.
+The campaign calendar is established in `../../history/Calendar.md`, and the current campaign date is **1 Harvestfall, 243 AC**. Exact historical dates outside the established calendar remain open. Tallowmere is now sufficiently developed for broad sandbox play; its remaining work is primarily map integration, session-opening preparation, and refinement through actual play rather than foundational institution design.
 
 
 ## Player Arrival and Merchant Introduction — 2026-11-04

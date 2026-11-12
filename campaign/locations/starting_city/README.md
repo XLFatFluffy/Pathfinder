@@ -8,7 +8,8 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 - [NPC Roleplaying Dossier Collection](../../people/NPC_Roleplaying_Dossiers.md) — the table-facing roleplaying reference for established named NPCs, including motivations, fears, social methods, voice cues, and provisional alignments.
 
 - [City Overview](City_Overview.md) — established premise, sandbox principles, and core city identity.
-- [Session One Current GM Packet](Session_One_Current_GM_Packet.md) — current generic table-side preparation.\n- [Session One GM Readiness Packet](Session_One_GM_Readiness_Packet.md) — legacy packet retained for provenance; do not use its character-specific assumptions.
+- [Session One Current GM Packet](Session_One_Current_GM_Packet.md) — current generic table-side preparation.
+- [Session One GM Readiness Packet](Session_One_GM_Readiness_Packet.md) — legacy packet retained for provenance; do not use its character-specific assumptions.
 - [Current Situation and Rumors](Current_Situation_and_Rumors.md) — present conditions and information circulating locally.
 - [History and Local Memory](History_and_Local_Memory.md) — local historical record and remembered events.
 - [Surrounding Region](Surrounding_Region.md) — regional overview.
@@ -18,7 +19,8 @@ This folder is the consolidated GM reference for Tallowmere and its immediate re
 
 ## Local institutions and power
 
-- [Living World regional holdings and jurisdiction register](../../world_engine/Regional_Holdings_and_Jurisdictions.md) and [Tallowmere political actor dossiers](../../world_engine/Tallowmere_Political_Actor_Dossiers.md) consolidate established local political reference and jurisdictional context for GM review.\n- The active responsive-world workflow is [Living World Engine v2](../../Living_World_Engine.md).
+- [Living World regional holdings and jurisdiction register](../../world_engine/Regional_Holdings_and_Jurisdictions.md) and [Tallowmere political actor dossiers](../../world_engine/Tallowmere_Political_Actor_Dossiers.md) consolidate established local political reference and jurisdictional context for GM review.
+- The active responsive-world workflow is [Living World Engine v2](../../Living_World_Engine.md).
 - The current local pressures are indexed in [the Living World issue register](../../world_engine/Initial_Issue_Register.md).
 
 - [Public Life, Neighborhoods, and Entertainment](Public_Life_Neighborhoods_and_Entertainment.md) — established gathering places, local information networks, childhood, leisure, and social belonging.

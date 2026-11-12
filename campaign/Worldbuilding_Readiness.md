@@ -75,7 +75,7 @@ Tallowmere now has dedicated public-life and communication references covering e
 
 - The Living World Engine v2 is active as a GM-reviewed observe → propose → review → record → surface workflow. It does not autonomously invent canon or force outcomes.
 - The world remains independent of the PCs. The GM determines what happens through motives, knowledge, resources, geography, time, custom, and circumstance.
-- Legacy records under `world_engine/` remain available as descriptive GM reference material, not as an operating procedure.
+- Records under `world_engine/` remain active GM reference/state material. They are not autonomous instructions for NPC behavior.
 The minor-house framework has been audited against Great House, feudal, Tallowmere regional, and geography canon. Lesser-house relationships are active in `politics/Minor_Houses_and_Regional_Powers.md`; borders and exact holdings remain uncalibrated where the map does not establish them.
 
 - Distinguish established canon, provisional material, rumor, public belief, GM-only truth, and unresolved questions.

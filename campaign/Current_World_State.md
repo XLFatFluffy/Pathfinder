@@ -296,3 +296,18 @@ The former automated world-turn system was retired on 2026-11-09. The Living Wor
 - Magic items are exceptionally scarce and expensive. Patronage, restricted output, limited expertise, time, materials, and strategic interests constrain the market. Pathfinder First Edition crafting rules remain unchanged.
 - Each established, permanent temple maintains or designates a Temple Champion responsible for defense and investigation of threats relevant to its deity. Clergy primarily keep the temple and serve worshippers; clerics are not automatically defenders. Small shrines and caretaker sites are not automatically staffed by a resident Champion.
 - Individual Great House wizards, local Champions, item stock, and specific commissions remain unassigned until separately established. The reason arcane knowledge is scarce and the gods' precise mediation of divine magic remain unresolved.
+
+
+## Pre-Campaign Simulation State
+
+The continent-wide Living World Simulation was run from **1 Goldleaf, 243 AC** through **1 Harvestfall, 243 AC** before campaign play began. The PCs were absent from these turns.
+
+The resulting pre-campaign history is recorded sequentially in:
+- `campaign/world_engine/reports/World_Turn_000_PreCampaign_Baseline.md`
+- `campaign/world_engine/reports/World_Turn_001_8_Goldleaf.md`
+- `campaign/world_engine/reports/World_Turn_002_15_Goldleaf.md`
+- `campaign/world_engine/reports/World_Turn_003_22_Goldleaf.md`
+- `campaign/world_engine/reports/World_Turn_004_29_Goldleaf.md`
+- `campaign/world_engine/reports/World_Turn_005_1_Harvestfall.md`
+
+These records establish the simulated world state immediately before Session One. Future simulation turns must begin from the latest recorded state and must be committed to GitHub before the next turn is run.

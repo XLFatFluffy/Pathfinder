@@ -57,9 +57,11 @@ The political settlement includes House Calderan's legitimate hereditary claim t
 **Naming update:** House Kharadorn is the approved original name of the dwarven Great House. The legacy placeholder House Baratheon is superseded. Khar-Dum is the ancestral homeland; Dragonstone is the conquered former Targaryen stronghold.
 
 
-## Approved continental geography direction — Stage 5 (2026-11-03)
+## Stage 5 — superseded continental geography direction (2026-11-03)
 
-- The continent is vast and substantially larger than Westeros, following the larger scale implied by the provisional atlas. Exact dimensions and travel distances remain open.
+The following was the earlier Stage 5 scale direction. It is preserved for decision history; it is **not current canon** and was superseded by the revised geography direction immediately below.
+
+- The continent was described as vast and substantially larger than Westeros, following the larger scale implied by the provisional atlas. Exact dimensions and travel distances remained open.
 - Retain the enormous central inland sea.
 - Dragonstone is an island within that sea, connected to the mainland by a narrow natural land bridge. This is the only known surface route onto or off the island without dragons.
 - **GM-ONLY SECRET:** The dwarves have constructed an underground tunnel system providing another route to and from Dragonstone. The rest of the world does not know it exists. Exact route, entrances, extent, construction history, and who knows of it remain unresolved.
@@ -67,7 +69,7 @@ The political settlement includes House Calderan's legitimate hereditary claim t
 - Each Great House controls a substantial, clearly defined territory. Smaller noble houses, independent settlements, and lesser political powers also exist.
 - These are approved foundations, not a finalized map. Exact dimensions, scale, borders, house seats, geographic names, and precise placements remain unresolved.
 
-## Revised Geography Direction — 2026-11-03
+## Revised Geography Direction — 2026-11-03 (CURRENT)
 
 - The continent is deliberately smaller than Westeros. Use approximately 1,700 miles north to south and 1,300 miles east to west at its widest point as the approved working dimensions for the revised map; modest adjustment is acceptable to preserve the atlas's recognizable shape and coherent geography.
 - Preserve the atlas's major geographic identity: frozen north, northern mountain and forest systems, western highlands and forests, central plains and river valleys, central inland sea, northeastern mountains, eastern forests and river delta, southwestern arid region, and southern peninsulas and island chains.

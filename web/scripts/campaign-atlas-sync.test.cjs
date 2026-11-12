@@ -89,15 +89,17 @@ function makeSnapshot(source = parsedLayer.source) {
 
 test("validates the current public continental layer and stable source IDs", () => {
   assert.equal(parsedLayer.source.markers.length, 15);
-  assert.equal(parsedLayer.source.overlays.length, 0);
+  assert.equal(parsedLayer.source.overlays.length, 19);
   assert.equal(
     new Set(parsedLayer.source.markers.map((marker) => marker.source_id)).size,
     15,
   );
   assert.ok(parsedLayer.source.markers.every((marker) => marker.player_visible));
+  assert.equal(parsedLayer.source.overlays.filter((overlay) => overlay.player_visible).length, 6);
+  assert.equal(parsedLayer.source.overlays.filter((overlay) => !overlay.player_visible).length, 13);
 });
 
-test("the initial continental preview contains 15 public markers and no overlays", () => {
+test("the initial continental preview contains the current public markers and registered overlays", () => {
   const plan = planAtlasSync(parsedLayer.source, "continent-map", {
     maps: [{
       id: "continent-map",
@@ -111,7 +113,7 @@ test("the initial continental preview contains 15 public markers and no overlays
   });
   assert.equal(plan.markerUpserts.filter((item) => item.action === "add").length, 15);
   assert.equal(plan.locationUpserts.filter((item) => item.action === "add").length, 15);
-  assert.equal(plan.overlayUpserts.length, 0);
+  assert.equal(plan.overlayUpserts.filter((item) => item.action === "add").length, 19);
   assert.equal(plan.markerRemovals.length, 0);
   assert.equal(plan.overlayRemovals.length, 0);
 });
@@ -232,6 +234,7 @@ test("removes obsolete markers without planning location or lore deletion", () =
 test("adds and removes overlays by source ID", () => {
   const source = structuredClone(parsedLayer.source);
   const snapshot = makeSnapshot(source);
+  snapshot.overlays = [];
   source.overlays.push({
     source_id: "continent_atlas/river-road",
     name: "River Road",

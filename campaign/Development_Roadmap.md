@@ -96,10 +96,11 @@
 
 **Phase E status:** CORE HISTORICAL FRAMEWORK COMPLETE. Exact rebellion chronology, original dynasty name, final Dragonstone name, surviving-dragon fate, and deeper post-Rebellion history remain intentional mysteries.
 
-## Phase F — Legacy world-state records (retired operating procedure)
+## Phase F — Living World Engine v2 (active GM-reviewed workflow)
 
-- Reconciled the Living World Engine with the completed political, economic, cultural, religious, historical, and minor-house frameworks.
-- Preserved the actor, issue, project, holdings, event, and turn records as descriptive GM references and historical provenance, not an active simulation layer.
+- Reconciled the Living World Engine v2 with the established political, economic, cultural, religious, historical, and minor-house frameworks.
+- Preserved the actor, issue, holdings, event, and historical records as campaign state/reference material while adding a GM-reviewed world-review ledger to the cloud database.
+- Added the GM world-review cockpit so meaningful time, PC actions, and session consequences can be reviewed without inventing unsupported canon.
 - Recorded WTR-001 as a zero-time historical opening snapshot on 1 Harvestfall, 243 AC. It does not advance the calendar and is not a recurring procedure.
 - The former future-turn and proposal/approval workflow is retired. The GM now determines developments and consequences directly through established lore, actual events, and judgment.
 - Actor motivations, information limits, projects, and local pressures remain useful descriptive context; they do not cause automatic action or escalation.

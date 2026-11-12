@@ -1,10 +1,60 @@
-# Retired World-Turn Report Template
+# World Review Report Template
 
-**Status:** RETIRED — DO NOT USE  
-**Retired:** 9 November 2026
+**Status:** ACTIVE — GM-reviewed world review template  
+**Purpose:** Record a focused review of meaningful time passage or consequences.
 
-This template belonged to the former Living World Engine and is preserved only so old references do not point to a missing file. The automated simulation and recurring world-turn process are no longer part of the campaign.
+This template is not an autonomous simulation turn. Use it only when the GM decides a world review is warranted.
 
-Do not create reports with this template, run review cycles, or treat its former headings as required GM procedure.
+## Review
 
-For actual play, record session events, consequential decisions, discoveries, and changes in the campaign timeline and the relevant subject records. The historical WTR-001 opening snapshot remains available separately for reference.
+- From campaign date:
+- To campaign date:
+- Trigger: session_end / downtime / pc_action / gm_review / other
+- Scope:
+- Summary:
+
+## Actors and institutions
+
+For each relevant actor:
+
+- Established motive:
+- Known information:
+- Available resources:
+- Relevant obligation or constraint:
+- Plausible change:
+- GM disposition:
+
+## Issues, projects, and quests
+
+For each relevant thread:
+
+- Current state:
+- What changed:
+- Why:
+- Next plausible development:
+- GM disposition:
+
+## Politics and economy
+
+Only include changes supported by established records:
+
+- House/faction relationship:
+- Trade or supply:
+- Law/jurisdiction:
+- Resource pressure:
+- GM disposition:
+
+## Information and player knowledge
+
+- What became public:
+- What remains rumor:
+- What remains GM-only:
+- What the PCs could reasonably learn:
+
+## Recorded changes
+
+List the actual campaign records updated after review.
+
+## Unresolved
+
+List questions deliberately left unanswered. Do not fill them merely to complete the report.

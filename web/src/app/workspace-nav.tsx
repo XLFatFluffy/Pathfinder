@@ -27,6 +27,7 @@ export default function WorkspaceNav({ role }: WorkspaceNavProps) {
     { href: dashboardHref, label: role === "gm" ? "Overview" : "My campaign" },
     { href: calendarHref, label: "Calendar" },
     { href: timelineHref, label: "Timeline" },
+    ...(role === "gm" ? [{ href: "/gm/world", label: "Living world" }] : []),
     { href: locationsHref, label: role === "gm" ? "Locations" : "Discoveries" },
     { href: npcsHref, label: role === "gm" ? "NPCs" : "Known people" },
     { href: housesHref, label: role === "gm" ? "Noble houses" : "Known houses" },

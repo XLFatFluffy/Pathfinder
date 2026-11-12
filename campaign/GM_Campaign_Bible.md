@@ -4,7 +4,7 @@
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Ruleset:** Pathfinder First Edition  
 **Status:** Consolidated GM reference; dedicated source records remain authoritative for detailed mechanics and canon.  
-**Last consolidated:** 9 November 2026
+**Last consolidated:** 12 November 2026
 
 > This is the working GM-facing guide to the campaign's current world. It consolidates the setting's operating assumptions and points to the detailed records. It does not replace those records. When a detail conflicts, apply the canon hierarchy below.
 

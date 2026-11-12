@@ -149,7 +149,7 @@ Start with GM Campaign Bible for the knowledge model and Player Starting Handout
 | Supabase migrations | supabase/migrations/ |
 | Database tests | supabase/tests/database/ |
 
-The import bundle currently contains 88 supported records. Treat the import bundle as an import artifact, not as the highest authority for lore.
+The import bundle currently contains 88 supported records. Treat the import bundle as an import artifact, not as the highest authority for lore. The consolidated world export is a 2026-11-11 snapshot; it is useful for bulk reference but is not the source for the current Living World Engine v2 workflow or 2026-11-12 readiness changes.
 
 ## 9. Search terms
 

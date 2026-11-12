@@ -3,7 +3,7 @@
 **Snapshot:** 1 Harvestfall, 243 AC  
 **Status:** GM reference; established economic structure with clearly marked working practices  
 **Visibility:** GM-ONLY  
-**Related records:** [Continental Economic Network](Continental_Economic_Network.md), [Everyday Life and Material Culture](../world/Everyday_Life_and_Material_Culture.md), [Agriculture, Food, and Seasonal Work](../world/Agriculture_Food_and_Seasonal_Work.md), [Law, Justice, and Crime](../world/Law_Justice_and_Crime.md), [Travel and Communication](../world/Travel_and_Communication.md)
+**Related records:** [Continental Economic Network](Continental_Economic_Network.md), [Everyday Life and Material Culture](../world/Everyday_Life_and_Material_Culture.md), [Agriculture, Food, and Seasonal Work](../world/Agriculture_Food_and_Seasonal_Work.md), [Law, Justice, and Crime](../world/Law_Justice_and_Crime.md), [Travel and Communication](../world/Travel_Communication_and_Information.md)
 
 This record explains how goods pass between producers, carriers, merchants, workshops, markets, ports, and customers. It is intended to make commercial scenes credible and give the GM a practical way to think about disputes, delays, and economic influence.
 

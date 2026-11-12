@@ -72,9 +72,9 @@ No project advances or completes during this turn.
 
 ## 6. Rumors and information
 
-The ten initial Tallowmere rumors remain in circulation as documented in [Current Situation and Rumors](../locations/starting_city/Current_Situation_and_Rumors.md).
+The ten initial Tallowmere rumors remain in circulation as documented in [Current Situation and Rumors](../../locations/starting_city/Current_Situation_and_Rumors.md).
 
-The GM-only [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) establishes:
+The GM-only [Tallowmere Rumor Truth Register](../../Tallowmere_Rumor_Truth_Register.md) establishes:
 - The cargo-tally alteration is a limited, isolated act to conceal breakage/spoilage, not an established theft ring or arson connection.
 - Rivergate property inquiries are real but do not establish a coordinated consortium or completed property purchases.
 - A dockworker has used a limited old service passage; it is not a newly discovered route through the Underways.

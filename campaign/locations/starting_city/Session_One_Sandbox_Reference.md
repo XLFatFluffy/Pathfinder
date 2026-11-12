@@ -111,7 +111,7 @@ The GM may let the players:
 - ignore local politics,
 - or create a problem of their own.
 
-Tallowmere and the wider setting exist independently of the PCs, but there is no automated world engine, simulation turn, or mandatory escalation procedure. The GM decides which established actors take action as time passes, based on their motives, information, resources, obligations, and the PCs' actions. An ignored issue may remain stable, change quietly, or worsen; it does not automatically advance toward disaster.
+Tallowmere and the wider setting exist independently of the PCs. The Living World Engine v2 provides a GM-reviewed framework for deciding what established actors do as time passes, based on their motives, information, resources, obligations, and the PCs' actions. It does not run an autonomous simulation or mandatory escalation procedure. An ignored issue may remain stable, change quietly, or worsen; it does not automatically advance toward disaster.
 
 ## 9. Table tracking after each meaningful event
 

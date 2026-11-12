@@ -3,7 +3,7 @@
 **Campaign date:** 1 Harvestfall, 243 AC  
 **Setting:** Westeros-inspired original high-medieval fantasy using Pathfinder First Edition  
 **Starting location:** Tallowmere  
-**Last reviewed:** 2026-11-09
+**Last reviewed:** 2026-11-12
 
 This document tracks what is established, what remains useful to prepare, and what can safely wait. It is not a demand to finish an encyclopedia before play. The setting is developed independently of the PCs; player-specific material will be integrated after their concepts and sheets are settled.
 

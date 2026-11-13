@@ -47,6 +47,8 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 3 — Discovery and uncertainty
 
+**Status:** Phase 3 models and baseline state established. Unknowns/discovery, world forks, and the global transformation framework are defined in `Unknowns_and_Discovery_Model.md`, `World_Fork_Model.md`, and `Global_Transformation_Framework.md`. The machine-readable state now preserves discovery records, potential forks, and the deliberately undetermined global transformation without inventing a hidden outcome.
+
 10. Establish the **unknowns/discovery system** for things that may exist but are not yet established or known in-world. Unknowns must remain unresolved until the world provides a reason to reveal them.
 11. Establish the **world-fork system** for major developments where multiple materially different futures become plausible.
 12. Establish the **global transformation framework**. The campaign will eventually reach a point where the existing world may change fundamentally, but the nature, timing, and outcome of that transformation are intentionally undetermined.

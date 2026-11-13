@@ -37,6 +37,8 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 2 — Systems that make the world function
 
+**Status:** Phase 2 models and baseline system state established. Economic, military, diplomatic/relationship, long-term project, and seasonal/environmental models are defined in `Economic_Model.md`, `Military_Model.md`, `Diplomatic_Relationship_Model.md`, `Project_Progress_Model.md`, and `Seasonal_Environmental_Model.md`. `world_state.schema.json` and `world_state.json` now carry structured Phase 2 system state. No unsupported numerical force, treasury, production, price, route, or weather values were introduced.
+
 5. Build the **economic model** covering harvests, food, livestock, labor, major materials, trade, ports, taxation, wealth pressure, shortages, and surpluses where supported by canon.
 6. Build the **military model** covering forces, bases, mobilization, supply, fortifications, naval capability, strategic objectives, and political constraints without simulating individual combatants.
 7. Build the **diplomatic/relationship model** covering alliances, rivalries, debts, marriages, treaties, disputes, obligations, and changing political attitudes.

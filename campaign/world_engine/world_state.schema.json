@@ -2,106 +2,716 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Pathfinder Living World State",
   "type": "object",
-  "required": ["schema_version", "state_id", "in_world_date", "provenance", "actors", "issues", "projects", "relationships", "unknowns"],
+  "required": [
+    "schema_version",
+    "state_id",
+    "in_world_date",
+    "provenance",
+    "actors",
+    "issues",
+    "projects",
+    "relationships",
+    "unknowns"
+  ],
   "properties": {
-    "schema_version": {"type": "string"},
-    "state_id": {"type": "string"},
-    "in_world_date": {"type": "string"},
+    "schema_version": {
+      "type": "string"
+    },
+    "state_id": {
+      "type": "string"
+    },
+    "in_world_date": {
+      "type": "string"
+    },
     "provenance": {
       "type": "object",
-      "required": ["authority_order", "source_records"],
+      "required": [
+        "authority_order",
+        "source_records"
+      ],
       "properties": {
-        "authority_order": {"type": "array", "items": {"type": "string"}},
-        "source_records": {"type": "array", "items": {"type": "string"}}
+        "authority_order": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
-    "actors": {"type": "array", "items": {"$ref": "#/$defs/actor"}},
-    "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}},
-    "projects": {"type": "array", "items": {"$ref": "#/$defs/project"}},
-    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
-    "unknowns": {"type": "array", "items": {"$ref": "#/$defs/unknown"}},
-    "conditions": {"type": "array"},
-    "recent_events": {"type": "array"}
+    "actors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/actor"
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/issue"
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/project"
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unknown"
+      }
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "recent_events": {
+      "type": "array"
+    },
+    "systems": {
+      "type": "object",
+      "required": [
+        "economic",
+        "military",
+        "diplomatic",
+        "seasonal_environmental",
+        "projects"
+      ],
+      "properties": {
+        "economic": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/economic_condition"
+          }
+        },
+        "military": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/military_condition"
+          }
+        },
+        "diplomatic": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diplomatic_condition"
+          }
+        },
+        "seasonal_environmental": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/environmental_condition"
+          }
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/project_progress"
+          }
+        }
+      }
+    }
   },
   "$defs": {
     "actor": {
       "type": "object",
-      "required": ["id", "name", "type", "status", "source_records"],
+      "required": [
+        "id",
+        "name",
+        "type",
+        "status",
+        "source_records"
+      ],
       "properties": {
-        "id": {"type": "string"},
-        "name": {"type": "string"},
-        "type": {"type": "string"},
-        "status": {"type": "string"},
-        "leader": {"type": ["string", "null"]},
-        "recognized_heir": {"type": ["string", "null"]},
-        "seat": {"type": ["string", "null"]},
-        "objectives": {"type": "array", "items": {"type": "string"}},
-        "interests": {"type": "array", "items": {"type": "string"}},
-        "red_lines": {"type": "array", "items": {"type": "string"}},
-        "resources": {"type": "array", "items": {"type": "string"}},
-        "constraints": {"type": "array", "items": {"type": "string"}},
-        "issues": {"type": "array", "items": {"type": "string"}},
-        "projects": {"type": "array", "items": {"type": "string"}},
-        "knowledge": {"type": "array", "items": {"type": "string"}},
-        "beliefs": {"type": "array", "items": {"type": "string"}},
-        "visibility": {"type": "string"},
-        "source_records": {"type": "array", "items": {"type": "string"}},
-        "last_reviewed": {"type": "string"}
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "leader": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recognized_heir": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "seat": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "interests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "red_lines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "knowledge": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "beliefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_reviewed": {
+          "type": "string"
+        }
       }
     },
     "issue": {
       "type": "object",
-      "required": ["id", "title", "status", "actors", "established_facts", "unknowns", "source_records"],
+      "required": [
+        "id",
+        "title",
+        "status",
+        "actors",
+        "established_facts",
+        "unknowns",
+        "source_records"
+      ],
       "properties": {
-        "id": {"type": "string"},
-        "title": {"type": "string"},
-        "status": {"type": "string"},
-        "actors": {"type": "array", "items": {"type": "string"}},
-        "location": {"type": ["string", "null"]},
-        "established_facts": {"type": "array", "items": {"type": "string"}},
-        "pressures": {"type": "array", "items": {"type": "string"}},
-        "unknowns": {"type": "array", "items": {"type": "string"}},
-        "possible_paths": {"type": "array", "items": {"type": "string"}},
-        "escalation_conditions": {"type": "array", "items": {"type": "string"}},
-        "source_records": {"type": "array", "items": {"type": "string"}},
-        "last_reviewed": {"type": "string"}
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "actors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "established_facts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pressures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "possible_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "escalation_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_reviewed": {
+          "type": "string"
+        }
       }
     },
     "project": {
       "type": "object",
-      "required": ["id", "title", "sponsor", "status", "objective", "source_records"],
+      "required": [
+        "id",
+        "title",
+        "sponsor",
+        "status",
+        "objective",
+        "source_records"
+      ],
       "properties": {
-        "id": {"type": "string"},
-        "title": {"type": "string"},
-        "sponsor": {"type": "string"},
-        "status": {"type": "string"},
-        "objective": {"type": "string"},
-        "dependencies": {"type": "array", "items": {"type": "string"}},
-        "unknowns": {"type": "array", "items": {"type": "string"}},
-        "source_records": {"type": "array", "items": {"type": "string"}}
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "sponsor": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "objective": {
+          "type": "string"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "relationship": {
       "type": "object",
-      "required": ["id", "parties", "type", "condition", "source_records"],
+      "required": [
+        "id",
+        "parties",
+        "type",
+        "condition",
+        "source_records"
+      ],
       "properties": {
-        "id": {"type": "string"},
-        "parties": {"type": "array", "items": {"type": "string"}},
-        "type": {"type": "string"},
-        "condition": {"type": "string"},
-        "visibility": {"type": "string"},
-        "source_records": {"type": "array", "items": {"type": "string"}}
+        "id": {
+          "type": "string"
+        },
+        "parties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "type": {
+          "type": "string"
+        },
+        "condition": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "unknown": {
       "type": "object",
-      "required": ["id", "subject", "status", "source_records"],
+      "required": [
+        "id",
+        "subject",
+        "status",
+        "source_records"
+      ],
       "properties": {
-        "id": {"type": "string"},
-        "subject": {"type": "string"},
-        "status": {"type": "string"},
-        "notes": {"type": "string"},
-        "source_records": {"type": "array", "items": {"type": "string"}}
+        "id": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "economic_condition": {
+      "type": "object",
+      "required": [
+        "id",
+        "scope",
+        "condition",
+        "status",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "condition": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "direction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cause": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "military_condition": {
+      "type": "object",
+      "required": [
+        "id",
+        "actor",
+        "force_category",
+        "status",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string"
+        },
+        "force_category": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "readiness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mobilization": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "supply_condition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "command_authority": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "diplomatic_condition": {
+      "type": "object",
+      "required": [
+        "id",
+        "parties",
+        "condition",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "parties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "condition": {
+          "type": "string"
+        },
+        "obligations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pressures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recent_cause": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "visibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "environmental_condition": {
+      "type": "object",
+      "required": [
+        "id",
+        "region",
+        "condition",
+        "status",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "condition": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "duration": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "severity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affected_systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uncertainty": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "project_progress": {
+      "type": "object",
+      "required": [
+        "project_id",
+        "status",
+        "source_records"
+      ],
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "blockers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recent_progress": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "next_decision_point": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_consequence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     }
   }

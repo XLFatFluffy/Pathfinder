@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pathfinder Living World State",
+  "type": "object",
+  "required": ["schema_version", "state_id", "in_world_date", "provenance", "actors", "issues", "projects", "relationships", "unknowns"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "state_id": {"type": "string"},
+    "in_world_date": {"type": "string"},
+    "provenance": {
+      "type": "object",
+      "required": ["authority_order", "source_records"],
+      "properties": {
+        "authority_order": {"type": "array", "items": {"type": "string"}},
+        "source_records": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "actors": {"type": "array", "items": {"$ref": "#/$defs/actor"}},
+    "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}},
+    "projects": {"type": "array", "items": {"$ref": "#/$defs/project"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
+    "unknowns": {"type": "array", "items": {"$ref": "#/$defs/unknown"}},
+    "conditions": {"type": "array"},
+    "recent_events": {"type": "array"}
+  },
+  "$defs": {
+    "actor": {
+      "type": "object",
+      "required": ["id", "name", "type", "status", "source_records"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "type": {"type": "string"},
+        "status": {"type": "string"},
+        "leader": {"type": ["string", "null"]},
+        "recognized_heir": {"type": ["string", "null"]},
+        "seat": {"type": ["string", "null"]},
+        "objectives": {"type": "array", "items": {"type": "string"}},
+        "interests": {"type": "array", "items": {"type": "string"}},
+        "red_lines": {"type": "array", "items": {"type": "string"}},
+        "resources": {"type": "array", "items": {"type": "string"}},
+        "constraints": {"type": "array", "items": {"type": "string"}},
+        "issues": {"type": "array", "items": {"type": "string"}},
+        "projects": {"type": "array", "items": {"type": "string"}},
+        "knowledge": {"type": "array", "items": {"type": "string"}},
+        "beliefs": {"type": "array", "items": {"type": "string"}},
+        "visibility": {"type": "string"},
+        "source_records": {"type": "array", "items": {"type": "string"}},
+        "last_reviewed": {"type": "string"}
+      }
+    },
+    "issue": {
+      "type": "object",
+      "required": ["id", "title", "status", "actors", "established_facts", "unknowns", "source_records"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "status": {"type": "string"},
+        "actors": {"type": "array", "items": {"type": "string"}},
+        "location": {"type": ["string", "null"]},
+        "established_facts": {"type": "array", "items": {"type": "string"}},
+        "pressures": {"type": "array", "items": {"type": "string"}},
+        "unknowns": {"type": "array", "items": {"type": "string"}},
+        "possible_paths": {"type": "array", "items": {"type": "string"}},
+        "escalation_conditions": {"type": "array", "items": {"type": "string"}},
+        "source_records": {"type": "array", "items": {"type": "string"}},
+        "last_reviewed": {"type": "string"}
+      }
+    },
+    "project": {
+      "type": "object",
+      "required": ["id", "title", "sponsor", "status", "objective", "source_records"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "sponsor": {"type": "string"},
+        "status": {"type": "string"},
+        "objective": {"type": "string"},
+        "dependencies": {"type": "array", "items": {"type": "string"}},
+        "unknowns": {"type": "array", "items": {"type": "string"}},
+        "source_records": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "required": ["id", "parties", "type", "condition", "source_records"],
+      "properties": {
+        "id": {"type": "string"},
+        "parties": {"type": "array", "items": {"type": "string"}},
+        "type": {"type": "string"},
+        "condition": {"type": "string"},
+        "visibility": {"type": "string"},
+        "source_records": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "unknown": {
+      "type": "object",
+      "required": ["id", "subject", "status", "source_records"],
+      "properties": {
+        "id": {"type": "string"},
+        "subject": {"type": "string"},
+        "status": {"type": "string"},
+        "notes": {"type": "string"},
+        "source_records": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

@@ -5,20 +5,88 @@
 
 This folder contains the supporting records and turn history used by the Living World Engine. The engine simulates the established world independently of the PCs, while preserving GM control over canon.
 
-## Active records
+## Current architecture
 
-- [Simulation Guidelines](Simulation_Guidelines.md) — mandatory rules for every world turn.
-- [Actor Register](Actor_Register.md) — established people and institutions that may matter to world changes.
-- [Initial Issue Register](Initial_Issue_Register.md) — established pressures and unresolved problems.
-- [Tallowmere Political Actor Dossiers](Tallowmere_Political_Actor_Dossiers.md) — local political actors and constraints.
-- [Regional Holdings and Jurisdictions](Regional_Holdings_and_Jurisdictions.md) — authority, charter relationships, vassalage, and unresolved boundaries.
-- [Tallowmere NPC and Information Network](Tallowmere_NPC_Information_Network.md) — who can plausibly know what.
-- [Tallowmere Rumor Truth Register](Tallowmere_Rumor_Truth_Register.md) — public rumor versus GM-only truth.
-- [Regional Factions and Minor Houses](Regional_Factions_and_Minor_Houses.md) — local organized groups and supporting actors.
-- [Continental Strategic Pressure Register](Continental_Strategic_Pressure_Register.md) — structural pressures that can become relevant through play.
-- [Great House Actor Dossiers](Great_House_Actor_Dossiers.md) — established agendas, relationships, internal tensions, and constraints.
-- [World Turn 001 Opening Baseline](reports/World_Turn_001_Opening_Baseline.md) — historical opening-state reference.
-- [Simulation Turn History](reports/) — dated results of continent-wide simulation turns.
+The campaign is being separated into two cooperating systems:
+
+- **World Engine** — the macro world: political, military, economic, geographic, social, religious, environmental, and historical change that occurs whether or not the PCs are present.
+- **Character Engine** — the characters: character state, decisions, conversations, exploration, combat, personal goals, discoveries, and direct interaction with the world.
+
+The World Engine does not wait for the PCs to act. The Character Engine does not independently invent the macro world. Changes crossing the boundary are recorded as events and incorporated into subsequent world state.
+
+**World exists → actors pursue goals → world changes → characters encounter the world → character actions create consequences → world incorporates those consequences.**
+
+## Current work plan
+
+The following is the active development plan for the World Engine. Work should proceed in this order unless a later campaign need requires a deliberate change.
+
+### Phase 1 — Core world-state foundation
+
+1. Establish the consistent **world actor model** for Great Houses, Crown, minor houses, factions, major settlements, institutions, and other significant independent actors.
+2. Establish the **world-state model** for locations, political authority, resources, relationships, projects, conflicts, and unresolved conditions.
+3. Establish the **world-event/history model** so every significant simulated change can be recorded, dated, traced to causes, and carried forward.
+4. Establish the **information model** distinguishing:
+   - what is objectively true;
+   - what an actor knows;
+   - what an actor believes;
+   - what is publicly known;
+   - what remains GM-only;
+   - what is unknown even to the GM until the simulation develops it.
+
+### Phase 2 — Systems that make the world function
+
+5. Build the **economic model** covering harvests, food, livestock, labor, major materials, trade, ports, taxation, wealth pressure, shortages, and surpluses where supported by canon.
+6. Build the **military model** covering forces, bases, mobilization, supply, fortifications, naval capability, strategic objectives, and political constraints without simulating individual combatants.
+7. Build the **diplomatic/relationship model** covering alliances, rivalries, debts, marriages, treaties, disputes, obligations, and changing political attitudes.
+8. Build the **long-term project model** so actors can pursue goals over weeks, months, and years rather than only reacting to immediate events.
+9. Build the **seasonal/environmental model** covering seasons, harvest timing, weather pressure, storms, drought, flooding, sailing conditions, and other consequences where relevant.
+
+### Phase 3 — Discovery and uncertainty
+
+10. Establish the **unknowns/discovery system** for things that may exist but are not yet established or known in-world. Unknowns must remain unresolved until the world provides a reason to reveal them.
+11. Establish the **world-fork system** for major developments where multiple materially different futures become plausible.
+12. Establish the **global transformation framework**. The campaign will eventually reach a point where the existing world may change fundamentally, but the nature, timing, and outcome of that transformation are intentionally undetermined.
+
+### Phase 4 — Expanded world lore
+
+13. Add detailed **Dothraki/orc lore**. The Dothraki are established as orcs, are known to the wider world, and are feared. Their detailed culture, political organization, major groups, territory, military structure, religion, economy, and relationships will be developed separately.
+14. Expand the wider known and unknown world without inventing unsupported geography, borders, routes, or settlements.
+15. Integrate dragons and the wider-world concept as long-term unresolved world elements rather than predetermined plot outcomes.
+
+### Phase 5 — Continuous simulation
+
+16. Run the continent-wide simulation in discrete turns.
+17. Commit every completed turn before beginning the next.
+18. Carry unresolved consequences forward rather than resetting them.
+19. Allow the world to develop independently of the PCs.
+20. Feed meaningful player-created events back into the World Engine once the Character Engine exists.
+21. Periodically review the resulting world state for major forks, emerging conflicts, and consequences that require GM approval.
+
+## World-fork and major-twist rule
+
+The eventual major transformation of the world is **not predetermined**.
+
+The World Engine may identify a major fork when accumulated events make materially different futures plausible. When that happens, the simulation pauses at the decision point and presents the GM with the relevant possibilities.
+
+The GM may:
+
+- approve a direction;
+- reject a direction;
+- defer it;
+- or allow the World Engine to determine the outcome.
+
+The GM should not be given a hidden final answer merely to preserve the surprise. The future should remain genuinely uncertain until the simulation produces it.
+
+Major twists must arise from accumulated world state and plausible causes. The engine must not manufacture dramatic events merely to create excitement.
+
+## Active world concepts
+
+The following are intentional long-term design elements and are not predetermined outcomes:
+
+- **Dragons:** dragons are real; the old dragon-riding dynasty and the twelve-dragon historical peak are established canon. The fate and future relevance of surviving dragons remain unresolved.
+- **Wider world:** the known world is not necessarily the whole world. The extent, nature, and future significance of distant or poorly understood regions remain unresolved.
+- **Dothraki:** known and feared orc people. Detailed lore remains future work.
+- **Global transformation:** the world may eventually change substantially. Its form and timing are intentionally unknown.
 
 ## Operating model
 
@@ -26,7 +94,7 @@ The simulation advances the world whether or not the PCs are present.
 
 **Actor intent → available resources → information → opportunity → action → resolution → world-state update**
 
-The simulation may advance political, military, economic, agricultural, religious, factional, and local conditions. It must not invent unsupported canon merely to create activity.
+The simulation may advance political, military, economic, agricultural, religious, factional, environmental, and local conditions. It must not invent unsupported canon merely to create activity.
 
 Every turn is recorded in GitHub. The repository is the persistent world history and the source of truth for simulated changes.
 

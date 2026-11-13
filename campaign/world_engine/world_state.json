@@ -34,17 +34,43 @@
       "leader": "King Aldric Calderan",
       "recognized_heir": "Crown Prince Edric Calderan",
       "seat": "Valedorn",
-      "objectives": ["Gradually expand royal authority through appointments, administration, taxation, and strategic alliances without provoking open confrontation or united Great House opposition."],
-      "interests": ["Formal royal authority", "Imperial Seat legitimacy", "Central administration", "Institutional stability"],
-      "red_lines": ["No established red line beyond the documented constraint against provoking united Great House opposition."],
-      "resources": ["Crown administration", "Royal household guard", "Distinct royal military force", "Access to central institutions"],
-      "constraints": ["Great House interests", "Court factions", "Exact practical dependencies remain unresolved", "Exact force and treasury figures are unknown"],
+      "objectives": [
+        "Gradually expand royal authority through appointments, administration, taxation, and strategic alliances without provoking open confrontation or united Great House opposition."
+      ],
+      "interests": [
+        "Formal royal authority",
+        "Imperial Seat legitimacy",
+        "Central administration",
+        "Institutional stability"
+      ],
+      "red_lines": [
+        "No established red line beyond the documented constraint against provoking united Great House opposition."
+      ],
+      "resources": [
+        "Crown administration",
+        "Royal household guard",
+        "Distinct royal military force",
+        "Access to central institutions"
+      ],
+      "constraints": [
+        "Great House interests",
+        "Court factions",
+        "Exact practical dependencies remain unresolved",
+        "Exact force and treasury figures are unknown"
+      ],
       "issues": [],
-      "projects": ["CNT-PRJ-003"],
-      "knowledge": ["Crown authority and Great House relationships as documented in current political records"],
+      "projects": [
+        "CNT-PRJ-003"
+      ],
+      "knowledge": [
+        "Crown authority and Great House relationships as documented in current political records"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/Current_World_State.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/Current_World_State.md"
+      ],
       "last_reviewed": "2026-11-12"
     },
     {
@@ -55,17 +81,43 @@
       "leader": "Lord Theren Vaelorian",
       "recognized_heir": "Lady Seralyth Vaelorian",
       "seat": "Aurelith",
-      "objectives": ["Maintain financial dominance", "Preserve trade access", "Prevent rival powers from threatening Vaelorian interests"],
-      "interests": ["Finance", "Trade", "Commercial relationships", "Diplomatic leverage"],
+      "objectives": [
+        "Maintain financial dominance",
+        "Preserve trade access",
+        "Prevent rival powers from threatening Vaelorian interests"
+      ],
+      "interests": [
+        "Finance",
+        "Trade",
+        "Commercial relationships",
+        "Diplomatic leverage"
+      ],
       "red_lines": [],
-      "resources": ["Financial and diplomatic leverage", "Commercial relationships", "Trade agreements", "Noble debts", "Expertise"],
-      "constraints": ["Exact wealth, lending exposure, troop strength, and dependency figures are unknown", "Internal traditionalist resistance"],
+      "resources": [
+        "Financial and diplomatic leverage",
+        "Commercial relationships",
+        "Trade agreements",
+        "Noble debts",
+        "Expertise"
+      ],
+      "constraints": [
+        "Exact wealth, lending exposure, troop strength, and dependency figures are unknown",
+        "Internal traditionalist resistance"
+      ],
       "issues": [],
-      "projects": ["CNT-PRJ-004"],
-      "knowledge": ["Established Crown dependence on Vaelorian financial support", "Known Great House strategic tensions"],
+      "projects": [
+        "CNT-PRJ-004"
+      ],
+      "knowledge": [
+        "Established Crown dependence on Vaelorian financial support",
+        "Known Great House strategic tensions"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/world_engine/Continental_Project_Register.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Continental_Project_Register.md"
+      ],
       "last_reviewed": "2026-11-12"
     },
     {
@@ -76,17 +128,46 @@
       "leader": "High King Durnak Kharadorn",
       "recognized_heir": "Prince Vorgun Kharadorn",
       "seat": "Dragonstone / Khar-Dum",
-      "objectives": ["Preserve dwarven independence", "Control Dragonstone and the inland sea", "Maintain freedom from surface interference in clan affairs"],
-      "interests": ["Dwarven sovereignty", "Dragonstone", "Inland-sea control", "Clan autonomy", "Strategic charter rights"],
+      "objectives": [
+        "Preserve dwarven independence",
+        "Control Dragonstone and the inland sea",
+        "Maintain freedom from surface interference in clan affairs"
+      ],
+      "interests": [
+        "Dwarven sovereignty",
+        "Dragonstone",
+        "Inland-sea control",
+        "Clan autonomy",
+        "Strategic charter rights"
+      ],
       "red_lines": [],
-      "resources": ["Dwarven imperial institutions", "Dragonstone", "Inland-sea strategic position", "Specialized military tradition"],
-      "constraints": ["Exact force size, fleet strength, treasury, and readiness are unknown", "Uneasy peace with the human monarchy"],
-      "issues": ["TLM-ISS-006"],
-      "projects": ["TLM-PRJ-001"],
-      "knowledge": ["Established Tallowmere charter rights and harbor-defense review", "The secret underground Dragonstone route is GM-only and not known to ordinary actors"],
+      "resources": [
+        "Dwarven imperial institutions",
+        "Dragonstone",
+        "Inland-sea strategic position",
+        "Specialized military tradition"
+      ],
+      "constraints": [
+        "Exact force size, fleet strength, treasury, and readiness are unknown",
+        "Uneasy peace with the human monarchy"
+      ],
+      "issues": [
+        "TLM-ISS-006"
+      ],
+      "projects": [
+        "TLM-PRJ-001"
+      ],
+      "knowledge": [
+        "Established Tallowmere charter rights and harbor-defense review",
+        "The secret underground Dragonstone route is GM-only and not known to ordinary actors"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/world_engine/Initial_Issue_Register.md", "campaign/Current_World_State.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Initial_Issue_Register.md",
+        "campaign/Current_World_State.md"
+      ],
       "last_reviewed": "2026-11-12"
     },
     {
@@ -97,17 +178,44 @@
       "leader": "Lord Garrick Edarth",
       "recognized_heir": "Ser Rowan Edarth",
       "seat": "Stoneguard",
-      "objectives": ["Preserve traditional noble rights", "Resist royal centralization", "Maintain military and agricultural strength"],
-      "interests": ["Landed rights", "Agriculture", "Martial tradition", "Lesser-house relationships"],
+      "objectives": [
+        "Preserve traditional noble rights",
+        "Resist royal centralization",
+        "Maintain military and agricultural strength"
+      ],
+      "interests": [
+        "Landed rights",
+        "Agriculture",
+        "Martial tradition",
+        "Lesser-house relationships"
+      ],
       "red_lines": [],
-      "resources": ["Landed and agricultural strength", "Martial tradition", "Sworn families", "Influence among lesser landed houses"],
-      "constraints": ["Exact military strength, harvest surplus, and number of sworn houses are unknown", "Decentralized structure"],
-      "issues": ["EDA-ISS-001"],
-      "projects": ["CNT-PRJ-002"],
-      "knowledge": ["Longmead dispute between Harrowden and Wrenford exists at low intensity"],
+      "resources": [
+        "Landed and agricultural strength",
+        "Martial tradition",
+        "Sworn families",
+        "Influence among lesser landed houses"
+      ],
+      "constraints": [
+        "Exact military strength, harvest surplus, and number of sworn houses are unknown",
+        "Decentralized structure"
+      ],
+      "issues": [
+        "EDA-ISS-001"
+      ],
+      "projects": [
+        "CNT-PRJ-002"
+      ],
+      "knowledge": [
+        "Longmead dispute between Harrowden and Wrenford exists at low intensity"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/world_engine/Initial_Issue_Register.md", "campaign/world_engine/Continental_Project_Register.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Initial_Issue_Register.md",
+        "campaign/world_engine/Continental_Project_Register.md"
+      ],
       "last_reviewed": "2026-11-12"
     },
     {
@@ -118,17 +226,42 @@
       "leader": "Lord Edran Veyr",
       "recognized_heir": "Lady Anika Veyr",
       "seat": "Frosthold",
-      "objectives": ["Secure resources for the Northern Watch", "Preserve frontier control", "Prevent the south from neglecting the Ancient Barrier"],
-      "interests": ["Northern frontier", "Northern Watch", "Barrier maintenance", "Reliable southern supplies"],
+      "objectives": [
+        "Secure resources for the Northern Watch",
+        "Preserve frontier control",
+        "Prevent the south from neglecting the Ancient Barrier"
+      ],
+      "interests": [
+        "Northern frontier",
+        "Northern Watch",
+        "Barrier maintenance",
+        "Reliable southern supplies"
+      ],
       "red_lines": [],
-      "resources": ["Northern frontier territories", "Frontier experience", "Northern Watch", "Surviving portions of the Ancient Barrier"],
-      "constraints": ["Sparse settlement", "Reliance on southern supplies", "Exact force strength and supply reserves are unknown"],
+      "resources": [
+        "Northern frontier territories",
+        "Frontier experience",
+        "Northern Watch",
+        "Surviving portions of the Ancient Barrier"
+      ],
+      "constraints": [
+        "Sparse settlement",
+        "Reliance on southern supplies",
+        "Exact force strength and supply reserves are unknown"
+      ],
       "issues": [],
-      "projects": ["CNT-PRJ-001"],
-      "knowledge": ["Northern Watch provisioning needs as established in the project register"],
+      "projects": [
+        "CNT-PRJ-001"
+      ],
+      "knowledge": [
+        "Northern Watch provisioning needs as established in the project register"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/world_engine/Continental_Project_Register.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Continental_Project_Register.md"
+      ],
       "last_reviewed": "2026-11-12"
     },
     {
@@ -139,69 +272,1581 @@
       "leader": "Lady Maris Merrowen",
       "recognized_heir": "Lord Corvin Merrowen",
       "seat": "Tidemark",
-      "objectives": ["Protect eastern ports and shipping", "Preserve commercial independence", "Prevent Kharadorn or the Crown from dominating maritime trade"],
-      "interests": ["Ports", "Shipping", "Naval tradition", "Commercial relationships", "Eastern coastal routes"],
+      "objectives": [
+        "Protect eastern ports and shipping",
+        "Preserve commercial independence",
+        "Prevent Kharadorn or the Crown from dominating maritime trade"
+      ],
+      "interests": [
+        "Ports",
+        "Shipping",
+        "Naval tradition",
+        "Commercial relationships",
+        "Eastern coastal routes"
+      ],
       "red_lines": [],
-      "resources": ["Maritime territory", "Ports", "Naval tradition", "Commercial relationships", "Eastern coastal access"],
-      "constraints": ["Exact fleet strength, port capacity, and treasury are unknown", "Commercial interests are not a single unified faction"],
+      "resources": [
+        "Maritime territory",
+        "Ports",
+        "Naval tradition",
+        "Commercial relationships",
+        "Eastern coastal access"
+      ],
+      "constraints": [
+        "Exact fleet strength, port capacity, and treasury are unknown",
+        "Commercial interests are not a single unified faction"
+      ],
       "issues": [],
-      "projects": ["CNT-PRJ-005"],
-      "knowledge": ["Kharadorn control of key inland-sea routes and Merrowen preference for freer navigation"],
+      "projects": [
+        "CNT-PRJ-005"
+      ],
+      "knowledge": [
+        "Kharadorn control of key inland-sea routes and Merrowen preference for freer navigation"
+      ],
       "beliefs": [],
       "visibility": "PUBLIC",
-      "source_records": ["campaign/world_engine/Great_House_Actor_Dossiers.md", "campaign/world_engine/Continental_Project_Register.md"],
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Continental_Project_Register.md"
+      ],
       "last_reviewed": "2026-11-12"
     }
   ],
   "issues": [
-    {"id":"TLM-ISS-001","title":"Harbor berth allocation","status":"ACTIVE","actors":["Harbor Master Ysella Vane","Harbor Fellowship","Captain-Owner Tavin Rusk","smaller traders","River Company/Pellan Reed"],"location":"Tallowmere","established_facts":["Established shipowners seek predictable priority at newer quays during crowded seasons.","Smaller traders and river interests fear temporary priority becoming permanent privilege."],"pressures":["Capacity","Predictability","Established shipowner privileges","Smaller-trader access","River traffic needs"],"unknowns":["Actual berth capacity","Formal priority rules","Current petitions","Specific vessels and owners","Formal vote","Kharadorn position beyond strategic oversight"],"possible_paths":["Negotiated schedule","Revised rules","Temporary allocation","Delayed cargo","Council recommendation","Unresolved seasonal friction"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-002","title":"Warehouse fire precautions","status":"ACTIVE","actors":["Warehouse Guild","Meret Sorn","warehouse owners","Chartered Council"],"location":"Tallowmere","established_facts":["Small fires and near-misses have prompted safety measures.","Cause of fires is unknown."],"pressures":["Fire safety","Cost allocation","Disruption","Competition"],"unknowns":["Exact fire dates and sites","Causes","Damage","Responsible parties","Investigation","Individual owners","Whether incidents are connected"],"possible_paths":["Inspection","Voluntary repairs","Cost-sharing dispute","Ordinance proposal","Delayed work","Further incidents if an actual cause remains unaddressed"],"escalation_conditions":["Evidence of deliberate fire-setting or a new incident could change the issue"],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-003","title":"Northfield harvest","status":"WATCH","actors":["Northfield farms","grain merchants","Millhaven","Denvor administration"],"location":"Northfield","established_facts":["Harvest expected adequate but uneven.","Some farms report damage and labor shortages.","No famine is established."],"pressures":["Uneven yields","Farm damage","Labor shortages","Storage","Prices","Transport"],"unknowns":["Actual yields","Affected farms","Causes","Prices","Reserves","Contracts","Household hardship"],"possible_paths":["Adequate harvest with local winners and losers","Price movement","Delayed deliveries","Labor hiring","Localized hardship"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-004","title":"Ratfolk market access","status":"ACTIVE","actors":["Tikka Vell","Miraq Ashwhisk","Nix-of-the-Cistern","Vessa Reedtail","Market Guild","Beren Harlowe","Reeve Marrec Holt","Lady Anwen Denvor"],"location":"Tallowmere Market Ward","established_facts":["Ratfolk traders seek regular stalls and recognized leases.","Some merchants support access and others resist changing established practice.","Ratfolk networks differ over advocacy, gradual negotiation, and household safety.","No comprehensive Denvor ruling exists.","Ratfolk have petition access but no guaranteed Council seat."],"pressures":["Market access","Existing privileges","Retaliation risk","Political representation"],"unknowns":["Named applicants beyond Tikka","Exact proposed stalls and leases","Landlord positions","Legal basis for refusal","Petition text and status","Public support"],"possible_paths":["Trial stalls","Sponsored leases","Guild negotiation","Delayed petition","Divided community response","Civic ruling"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-005","title":"Denvor household priorities","status":"WATCH","actors":["Lord Oswin Denvor","Lady Catrin","Ser Edwyn","Lady Anwen"],"location":"Tallowmere","established_facts":["Household discussions concern future influence, defense investment, and family direction.","Oswin favors caution; Edwyn presses for investment; Anwen builds civic and commercial relationships.","No open succession crisis exists.","Edwyn is the recognized heir."],"pressures":["Defense costs","Infrastructure","Civic cooperation","Commercial relationships","Family continuity"],"unknowns":["Specific proposals","Budget","Timing","Which disagreements reach formal decision"],"possible_paths":["Internal agreement","Delayed investment","Compromise","Civic proposal","Continued deliberation"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-006","title":"Kharadorn harbor-defense review","status":"ACTIVE","actors":["Vardek Flintmark","Clerk Belda Ironmark","House Denvor","Castellan Hadrik Voss"],"location":"Tallowmere","established_facts":["Kharadorn requested updated defense accounts and review of harbor defenses and charter obligations.","This is legitimate oversight, not an established pretext for occupation.","Findings and remedies are not yet known."],"pressures":["Denvor autonomy","Harbor readiness","Repair cost","Trade growth","Charter compliance"],"unknowns":["Inspection date","Findings","Deficiencies","Repair costs","Deadlines","Formal recommendation"],"possible_paths":["Inspection and report","Repairs","Negotiated remedy","Delayed findings","Unresolved oversight"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"TLM-ISS-007","title":"Skilled labor, credit, and supply","status":"ACTIVE","actors":["Shipwrights' Brotherhood","Artificers' Hall","Warehouse Guild","independent merchants and lenders","Dagna Coppervein","Ilyne Marris"],"location":"Tallowmere","established_facts":["Skilled labor and merchant credit are under pressure.","Late deliveries, debts, quality concerns, and contracts create fragmented disputes.","No common scheme or single cause is established."],"pressures":["Specialist labor","Credit","Late deliveries","Quality disputes","Contract risk"],"unknowns":["Named debtors and creditors beyond established contacts","Exact sums","Wage rates","Material shortages","Late contracts"],"possible_paths":["Ordinary resolution","Delayed work","Renegotiated contracts","Localized shortage","Continued fragmented disputes"],"escalation_conditions":[],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"},
-    {"id":"EDA-ISS-001","title":"Longmead boundary dispute","status":"ACTIVE / LOW-INTENSITY","actors":["Lord Berold Harrowden","Lady Cerys Wrenford","House Edarth"],"location":"Western Heartlands / Longmead","established_facts":["Harrowden and Wrenford dispute customary grazing and woodland rights.","No armed clash, killing, raid, eviction, or formal seizure has occurred.","Neither side has submitted a complete formal claim with mutually accepted evidence."],"pressures":["Customary rights","Unclear boundary markers","Seasonal use","Edarth arbitration","Avoiding disruption"],"unknowns":["Original charter wording","Marker provenance","Exact disputed strip","Possible deliberate marker movement","Edarth hearing process"],"possible_paths":["Joint survey","Shared-use agreement","Edarth arbitration","Negotiated exchange","Continued low-level friction"],"escalation_conditions":["Deliberate marker destruction","Eviction","Livestock seizure","Violence by retainers"],"source_records":["campaign/world_engine/Initial_Issue_Register.md"],"last_reviewed":"2026-11-12"}
+    {
+      "id": "TLM-ISS-001",
+      "title": "Harbor berth allocation",
+      "status": "ACTIVE",
+      "actors": [
+        "Harbor Master Ysella Vane",
+        "Harbor Fellowship",
+        "Captain-Owner Tavin Rusk",
+        "smaller traders",
+        "River Company/Pellan Reed"
+      ],
+      "location": "Tallowmere",
+      "established_facts": [
+        "Established shipowners seek predictable priority at newer quays during crowded seasons.",
+        "Smaller traders and river interests fear temporary priority becoming permanent privilege."
+      ],
+      "pressures": [
+        "Capacity",
+        "Predictability",
+        "Established shipowner privileges",
+        "Smaller-trader access",
+        "River traffic needs"
+      ],
+      "unknowns": [
+        "Actual berth capacity",
+        "Formal priority rules",
+        "Current petitions",
+        "Specific vessels and owners",
+        "Formal vote",
+        "Kharadorn position beyond strategic oversight"
+      ],
+      "possible_paths": [
+        "Negotiated schedule",
+        "Revised rules",
+        "Temporary allocation",
+        "Delayed cargo",
+        "Council recommendation",
+        "Unresolved seasonal friction"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-002",
+      "title": "Warehouse fire precautions",
+      "status": "ACTIVE",
+      "actors": [
+        "Warehouse Guild",
+        "Meret Sorn",
+        "warehouse owners",
+        "Chartered Council"
+      ],
+      "location": "Tallowmere",
+      "established_facts": [
+        "Small fires and near-misses have prompted safety measures.",
+        "Cause of fires is unknown."
+      ],
+      "pressures": [
+        "Fire safety",
+        "Cost allocation",
+        "Disruption",
+        "Competition"
+      ],
+      "unknowns": [
+        "Exact fire dates and sites",
+        "Causes",
+        "Damage",
+        "Responsible parties",
+        "Investigation",
+        "Individual owners",
+        "Whether incidents are connected"
+      ],
+      "possible_paths": [
+        "Inspection",
+        "Voluntary repairs",
+        "Cost-sharing dispute",
+        "Ordinance proposal",
+        "Delayed work",
+        "Further incidents if an actual cause remains unaddressed"
+      ],
+      "escalation_conditions": [
+        "Evidence of deliberate fire-setting or a new incident could change the issue"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-003",
+      "title": "Northfield harvest",
+      "status": "WATCH",
+      "actors": [
+        "Northfield farms",
+        "grain merchants",
+        "Millhaven",
+        "Denvor administration"
+      ],
+      "location": "Northfield",
+      "established_facts": [
+        "Harvest expected adequate but uneven.",
+        "Some farms report damage and labor shortages.",
+        "No famine is established."
+      ],
+      "pressures": [
+        "Uneven yields",
+        "Farm damage",
+        "Labor shortages",
+        "Storage",
+        "Prices",
+        "Transport"
+      ],
+      "unknowns": [
+        "Actual yields",
+        "Affected farms",
+        "Causes",
+        "Prices",
+        "Reserves",
+        "Contracts",
+        "Household hardship"
+      ],
+      "possible_paths": [
+        "Adequate harvest with local winners and losers",
+        "Price movement",
+        "Delayed deliveries",
+        "Labor hiring",
+        "Localized hardship"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-004",
+      "title": "Ratfolk market access",
+      "status": "ACTIVE",
+      "actors": [
+        "Tikka Vell",
+        "Miraq Ashwhisk",
+        "Nix-of-the-Cistern",
+        "Vessa Reedtail",
+        "Market Guild",
+        "Beren Harlowe",
+        "Reeve Marrec Holt",
+        "Lady Anwen Denvor"
+      ],
+      "location": "Tallowmere Market Ward",
+      "established_facts": [
+        "Ratfolk traders seek regular stalls and recognized leases.",
+        "Some merchants support access and others resist changing established practice.",
+        "Ratfolk networks differ over advocacy, gradual negotiation, and household safety.",
+        "No comprehensive Denvor ruling exists.",
+        "Ratfolk have petition access but no guaranteed Council seat."
+      ],
+      "pressures": [
+        "Market access",
+        "Existing privileges",
+        "Retaliation risk",
+        "Political representation"
+      ],
+      "unknowns": [
+        "Named applicants beyond Tikka",
+        "Exact proposed stalls and leases",
+        "Landlord positions",
+        "Legal basis for refusal",
+        "Petition text and status",
+        "Public support"
+      ],
+      "possible_paths": [
+        "Trial stalls",
+        "Sponsored leases",
+        "Guild negotiation",
+        "Delayed petition",
+        "Divided community response",
+        "Civic ruling"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-005",
+      "title": "Denvor household priorities",
+      "status": "WATCH",
+      "actors": [
+        "Lord Oswin Denvor",
+        "Lady Catrin",
+        "Ser Edwyn",
+        "Lady Anwen"
+      ],
+      "location": "Tallowmere",
+      "established_facts": [
+        "Household discussions concern future influence, defense investment, and family direction.",
+        "Oswin favors caution; Edwyn presses for investment; Anwen builds civic and commercial relationships.",
+        "No open succession crisis exists.",
+        "Edwyn is the recognized heir."
+      ],
+      "pressures": [
+        "Defense costs",
+        "Infrastructure",
+        "Civic cooperation",
+        "Commercial relationships",
+        "Family continuity"
+      ],
+      "unknowns": [
+        "Specific proposals",
+        "Budget",
+        "Timing",
+        "Which disagreements reach formal decision"
+      ],
+      "possible_paths": [
+        "Internal agreement",
+        "Delayed investment",
+        "Compromise",
+        "Civic proposal",
+        "Continued deliberation"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-006",
+      "title": "Kharadorn harbor-defense review",
+      "status": "ACTIVE",
+      "actors": [
+        "Vardek Flintmark",
+        "Clerk Belda Ironmark",
+        "House Denvor",
+        "Castellan Hadrik Voss"
+      ],
+      "location": "Tallowmere",
+      "established_facts": [
+        "Kharadorn requested updated defense accounts and review of harbor defenses and charter obligations.",
+        "This is legitimate oversight, not an established pretext for occupation.",
+        "Findings and remedies are not yet known."
+      ],
+      "pressures": [
+        "Denvor autonomy",
+        "Harbor readiness",
+        "Repair cost",
+        "Trade growth",
+        "Charter compliance"
+      ],
+      "unknowns": [
+        "Inspection date",
+        "Findings",
+        "Deficiencies",
+        "Repair costs",
+        "Deadlines",
+        "Formal recommendation"
+      ],
+      "possible_paths": [
+        "Inspection and report",
+        "Repairs",
+        "Negotiated remedy",
+        "Delayed findings",
+        "Unresolved oversight"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "TLM-ISS-007",
+      "title": "Skilled labor, credit, and supply",
+      "status": "ACTIVE",
+      "actors": [
+        "Shipwrights' Brotherhood",
+        "Artificers' Hall",
+        "Warehouse Guild",
+        "independent merchants and lenders",
+        "Dagna Coppervein",
+        "Ilyne Marris"
+      ],
+      "location": "Tallowmere",
+      "established_facts": [
+        "Skilled labor and merchant credit are under pressure.",
+        "Late deliveries, debts, quality concerns, and contracts create fragmented disputes.",
+        "No common scheme or single cause is established."
+      ],
+      "pressures": [
+        "Specialist labor",
+        "Credit",
+        "Late deliveries",
+        "Quality disputes",
+        "Contract risk"
+      ],
+      "unknowns": [
+        "Named debtors and creditors beyond established contacts",
+        "Exact sums",
+        "Wage rates",
+        "Material shortages",
+        "Late contracts"
+      ],
+      "possible_paths": [
+        "Ordinary resolution",
+        "Delayed work",
+        "Renegotiated contracts",
+        "Localized shortage",
+        "Continued fragmented disputes"
+      ],
+      "escalation_conditions": [],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    },
+    {
+      "id": "EDA-ISS-001",
+      "title": "Longmead boundary dispute",
+      "status": "ACTIVE / LOW-INTENSITY",
+      "actors": [
+        "Lord Berold Harrowden",
+        "Lady Cerys Wrenford",
+        "House Edarth"
+      ],
+      "location": "Western Heartlands / Longmead",
+      "established_facts": [
+        "Harrowden and Wrenford dispute customary grazing and woodland rights.",
+        "No armed clash, killing, raid, eviction, or formal seizure has occurred.",
+        "Neither side has submitted a complete formal claim with mutually accepted evidence."
+      ],
+      "pressures": [
+        "Customary rights",
+        "Unclear boundary markers",
+        "Seasonal use",
+        "Edarth arbitration",
+        "Avoiding disruption"
+      ],
+      "unknowns": [
+        "Original charter wording",
+        "Marker provenance",
+        "Exact disputed strip",
+        "Possible deliberate marker movement",
+        "Edarth hearing process"
+      ],
+      "possible_paths": [
+        "Joint survey",
+        "Shared-use agreement",
+        "Edarth arbitration",
+        "Negotiated exchange",
+        "Continued low-level friction"
+      ],
+      "escalation_conditions": [
+        "Deliberate marker destruction",
+        "Eviction",
+        "Livestock seizure",
+        "Violence by retainers"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Issue_Register.md"
+      ],
+      "last_reviewed": "2026-11-12"
+    }
   ],
   "projects": [
-    {"id":"TLM-PRJ-001","title":"Harbor-defense and charter review","sponsor":"Vardek Flintmark / House Kharadorn, with Denvor cooperation","status":"UNDERWAY / review expected","objective":"Review harbor chain and boom, defensive positions, ship/transport records, defense stores, maintenance plans, and whether trade growth outpaced defenses.","unknowns":["Inspection date","Findings","Deficiencies","Costs","Recommendations","Deadlines"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"TLM-PRJ-002","title":"Warehouse safety improvements","sponsor":"Warehouse Guild; Meret Sorn; affected owners","status":"PROPOSED / under debate","objective":"Improve fire precautions and inspection after small fires and near-misses.","unknowns":["Exact works","Affected premises","Cost-sharing","Owners' agreement","Cause of incidents"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"TLM-PRJ-003","title":"Regular ratfolk market access","sponsor":"Tikka Vell and other interested ratfolk traders","status":"PETITION / advocacy underway","objective":"Secure regular stalls and recognized leases in Market Ward.","unknowns":["Exact applicants","Premises","Sponsors","Petition text","Reeve response","Guild positions"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"TLM-PRJ-004","title":"Harbor allocation arrangement","sponsor":"Harbor Fellowship; Harbor Master Ysella Vane; smaller traders and river interests","status":"DISPUTED / negotiation pressure","objective":"Establish predictable quay access during crowded seasons without entrenching permanent privilege.","unknowns":["Formal proposals","Actual capacity","Council action","Seasonal schedule"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"TLM-PRJ-005","title":"Northfield harvest monitoring","sponsor":"Northfield farms and grain merchants; Denvor administration as relevant","status":"MONITORING","objective":"Assess uneven harvest, farm damage, labor shortages, and likely grain supply.","unknowns":["Actual yield","Price","Delivery","Storage","Household impact"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"TLM-PRJ-006","title":"Denvor defense and infrastructure priorities","sponsor":"House Denvor; Oswin and Edwyn hold differing preferences","status":"INTERNAL DELIBERATION","objective":"Determine investment priorities while preserving city security and fiscal stability.","unknowns":["Specific proposal","Available funds","Council response","Charter-review findings"],"source_records":["campaign/world_engine/Initial_Project_Register.md"]},
-    {"id":"CNT-PRJ-001","title":"Northern Watch autumn provisioning","sponsor":"House Veyr","status":"UNDERWAY / seasonal","objective":"Prepare stores, transport, and supply arrangements before winter conditions worsen.","dependencies":["Southern grain and support","Transport availability","Weather conditions"],"unknowns":["Reserve levels","Quantities required","Suppliers","Contracts","Route condition","Delivery dates","Shortfall"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"CNT-PRJ-002","title":"Edarth banner rolls and service review","sponsor":"House Edarth","status":"UNDERWAY / administrative","objective":"Review sworn-house obligations, service records, unresolved petitions, and related customary disputes.","dependencies":["Banner-house records","Edarth authority","Existing petitions"],"unknowns":["Complete roster","Actual service terms","Record quality","Authorization for changes"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"CNT-PRJ-003","title":"Crownland road and courier service review","sponsor":"House Calderan / Crown","status":"UNDERWAY / administrative","objective":"Review royal messengers, relay stables, road maintenance, and Crownland service obligations.","dependencies":["House Rookwell records","Road and relay conditions"],"unknowns":["Routes included","Relay condition","Costs","Missed messages","Disputed obligations"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"CNT-PRJ-004","title":"Western Pass commercial terms review","sponsor":"House Vaelorian","status":"UNDERWAY / internal assessment","objective":"Review trade access, route reliability, commercial guarantees, and Western Pass terms.","dependencies":["Commercial records","Route reliability"],"unknowns":["Specific contracts","Route fees","Merchants involved","Disputed guarantees","Possible proposals"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"CNT-PRJ-005","title":"Eastern Coast pilotage and harbor-practice review","sponsor":"House Merrowen","status":"PROPOSED / information gathering","objective":"Gather reports from smaller ports and pilot houses before considering maritime-practice changes.","dependencies":["Port reports","Pilot-house responses","Maris Merrowen authorization"],"unknowns":["Authorization","Participating ports","Responses","Policy implications"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"CNT-PRJ-006","title":"Brightwater river-market charter review","sponsor":"Brightwater Civic Compact","status":"WATCH / routine review","objective":"Reassess market and river-use rules as trade volume and neighboring interests change.","dependencies":["Trade patterns","Neighboring interests"],"unknowns":["Specific rule under review","Supplier views","Neighbor positions"],"source_records":["campaign/world_engine/Continental_Project_Register.md"]}
+    {
+      "id": "TLM-PRJ-001",
+      "title": "Harbor-defense and charter review",
+      "sponsor": "Vardek Flintmark / House Kharadorn, with Denvor cooperation",
+      "status": "UNDERWAY / review expected",
+      "objective": "Review harbor chain and boom, defensive positions, ship/transport records, defense stores, maintenance plans, and whether trade growth outpaced defenses.",
+      "unknowns": [
+        "Inspection date",
+        "Findings",
+        "Deficiencies",
+        "Costs",
+        "Recommendations",
+        "Deadlines"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "TLM-PRJ-002",
+      "title": "Warehouse safety improvements",
+      "sponsor": "Warehouse Guild; Meret Sorn; affected owners",
+      "status": "PROPOSED / under debate",
+      "objective": "Improve fire precautions and inspection after small fires and near-misses.",
+      "unknowns": [
+        "Exact works",
+        "Affected premises",
+        "Cost-sharing",
+        "Owners' agreement",
+        "Cause of incidents"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "TLM-PRJ-003",
+      "title": "Regular ratfolk market access",
+      "sponsor": "Tikka Vell and other interested ratfolk traders",
+      "status": "PETITION / advocacy underway",
+      "objective": "Secure regular stalls and recognized leases in Market Ward.",
+      "unknowns": [
+        "Exact applicants",
+        "Premises",
+        "Sponsors",
+        "Petition text",
+        "Reeve response",
+        "Guild positions"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "TLM-PRJ-004",
+      "title": "Harbor allocation arrangement",
+      "sponsor": "Harbor Fellowship; Harbor Master Ysella Vane; smaller traders and river interests",
+      "status": "DISPUTED / negotiation pressure",
+      "objective": "Establish predictable quay access during crowded seasons without entrenching permanent privilege.",
+      "unknowns": [
+        "Formal proposals",
+        "Actual capacity",
+        "Council action",
+        "Seasonal schedule"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "TLM-PRJ-005",
+      "title": "Northfield harvest monitoring",
+      "sponsor": "Northfield farms and grain merchants; Denvor administration as relevant",
+      "status": "MONITORING",
+      "objective": "Assess uneven harvest, farm damage, labor shortages, and likely grain supply.",
+      "unknowns": [
+        "Actual yield",
+        "Price",
+        "Delivery",
+        "Storage",
+        "Household impact"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "TLM-PRJ-006",
+      "title": "Denvor defense and infrastructure priorities",
+      "sponsor": "House Denvor; Oswin and Edwyn hold differing preferences",
+      "status": "INTERNAL DELIBERATION",
+      "objective": "Determine investment priorities while preserving city security and fiscal stability.",
+      "unknowns": [
+        "Specific proposal",
+        "Available funds",
+        "Council response",
+        "Charter-review findings"
+      ],
+      "source_records": [
+        "campaign/world_engine/Initial_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-001",
+      "title": "Northern Watch autumn provisioning",
+      "sponsor": "House Veyr",
+      "status": "UNDERWAY / seasonal",
+      "objective": "Prepare stores, transport, and supply arrangements before winter conditions worsen.",
+      "dependencies": [
+        "Southern grain and support",
+        "Transport availability",
+        "Weather conditions"
+      ],
+      "unknowns": [
+        "Reserve levels",
+        "Quantities required",
+        "Suppliers",
+        "Contracts",
+        "Route condition",
+        "Delivery dates",
+        "Shortfall"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-002",
+      "title": "Edarth banner rolls and service review",
+      "sponsor": "House Edarth",
+      "status": "UNDERWAY / administrative",
+      "objective": "Review sworn-house obligations, service records, unresolved petitions, and related customary disputes.",
+      "dependencies": [
+        "Banner-house records",
+        "Edarth authority",
+        "Existing petitions"
+      ],
+      "unknowns": [
+        "Complete roster",
+        "Actual service terms",
+        "Record quality",
+        "Authorization for changes"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-003",
+      "title": "Crownland road and courier service review",
+      "sponsor": "House Calderan / Crown",
+      "status": "UNDERWAY / administrative",
+      "objective": "Review royal messengers, relay stables, road maintenance, and Crownland service obligations.",
+      "dependencies": [
+        "House Rookwell records",
+        "Road and relay conditions"
+      ],
+      "unknowns": [
+        "Routes included",
+        "Relay condition",
+        "Costs",
+        "Missed messages",
+        "Disputed obligations"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-004",
+      "title": "Western Pass commercial terms review",
+      "sponsor": "House Vaelorian",
+      "status": "UNDERWAY / internal assessment",
+      "objective": "Review trade access, route reliability, commercial guarantees, and Western Pass terms.",
+      "dependencies": [
+        "Commercial records",
+        "Route reliability"
+      ],
+      "unknowns": [
+        "Specific contracts",
+        "Route fees",
+        "Merchants involved",
+        "Disputed guarantees",
+        "Possible proposals"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-005",
+      "title": "Eastern Coast pilotage and harbor-practice review",
+      "sponsor": "House Merrowen",
+      "status": "PROPOSED / information gathering",
+      "objective": "Gather reports from smaller ports and pilot houses before considering maritime-practice changes.",
+      "dependencies": [
+        "Port reports",
+        "Pilot-house responses",
+        "Maris Merrowen authorization"
+      ],
+      "unknowns": [
+        "Authorization",
+        "Participating ports",
+        "Responses",
+        "Policy implications"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "CNT-PRJ-006",
+      "title": "Brightwater river-market charter review",
+      "sponsor": "Brightwater Civic Compact",
+      "status": "WATCH / routine review",
+      "objective": "Reassess market and river-use rules as trade volume and neighboring interests change.",
+      "dependencies": [
+        "Trade patterns",
+        "Neighboring interests"
+      ],
+      "unknowns": [
+        "Specific rule under review",
+        "Supplier views",
+        "Neighbor positions"
+      ],
+      "source_records": [
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    }
   ],
   "relationships": [
-    {"id":"REL-CROWN-VAELORIAN","parties":["HOUSE-CALDERAN","HOUSE-VAELORIAN"],"type":"financial dependence / political leverage","condition":"Crown needs Vaelorian financial support; Vaelorian expects influence in return.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-KHARADORN-MERROWEN","parties":["HOUSE-KHARADORN","HOUSE-MERROWEN"],"type":"strategic competition","condition":"Kharadorn preserves strategic control over key inland-sea routes while Merrowen seeks freer navigation.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-EDARTH-CROWN","parties":["HOUSE-EDARTH","HOUSE-CALDERAN"],"type":"political tension","condition":"Edarth resists royal centralization; Crown seeks gradual expansion of authority.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-VEYR-CROWN","parties":["HOUSE-VEYR","HOUSE-CALDERAN"],"type":"practical dependence / negotiation","condition":"Veyr seeks reliable southern resources and Crown support for northern needs.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md","campaign/world_engine/Continental_Project_Register.md"]},
-    {"id":"REL-VAELORIAN-MERROWEN","parties":["HOUSE-VAELORIAN","HOUSE-MERROWEN"],"type":"commercial cooperation and competition","condition":"The houses cooperate commercially while competing for trade influence.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-KHARADORN-CROWN","parties":["HOUSE-KHARADORN","HOUSE-CALDERAN"],"type":"uneasy formal relationship","condition":"Kharadorn recognizes the post-Rebellion settlement but does not consider itself subject to the Crown.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-EDARTH-VEYR","parties":["HOUSE-EDARTH","HOUSE-VEYR"],"type":"military understanding","condition":"The houses share a natural military understanding.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"REL-EDARTH-KHARADORN","parties":["HOUSE-EDARTH","HOUSE-KHARADORN"],"type":"mutual respect","condition":"Established mutual respect; no alliance is implied.","visibility":"PUBLIC","source_records":["campaign/world_engine/Great_House_Actor_Dossiers.md"]}
+    {
+      "id": "REL-CROWN-VAELORIAN",
+      "parties": [
+        "HOUSE-CALDERAN",
+        "HOUSE-VAELORIAN"
+      ],
+      "type": "financial dependence / political leverage",
+      "condition": "Crown needs Vaelorian financial support; Vaelorian expects influence in return.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-KHARADORN-MERROWEN",
+      "parties": [
+        "HOUSE-KHARADORN",
+        "HOUSE-MERROWEN"
+      ],
+      "type": "strategic competition",
+      "condition": "Kharadorn preserves strategic control over key inland-sea routes while Merrowen seeks freer navigation.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-EDARTH-CROWN",
+      "parties": [
+        "HOUSE-EDARTH",
+        "HOUSE-CALDERAN"
+      ],
+      "type": "political tension",
+      "condition": "Edarth resists royal centralization; Crown seeks gradual expansion of authority.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-VEYR-CROWN",
+      "parties": [
+        "HOUSE-VEYR",
+        "HOUSE-CALDERAN"
+      ],
+      "type": "practical dependence / negotiation",
+      "condition": "Veyr seeks reliable southern resources and Crown support for northern needs.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md",
+        "campaign/world_engine/Continental_Project_Register.md"
+      ]
+    },
+    {
+      "id": "REL-VAELORIAN-MERROWEN",
+      "parties": [
+        "HOUSE-VAELORIAN",
+        "HOUSE-MERROWEN"
+      ],
+      "type": "commercial cooperation and competition",
+      "condition": "The houses cooperate commercially while competing for trade influence.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-KHARADORN-CROWN",
+      "parties": [
+        "HOUSE-KHARADORN",
+        "HOUSE-CALDERAN"
+      ],
+      "type": "uneasy formal relationship",
+      "condition": "Kharadorn recognizes the post-Rebellion settlement but does not consider itself subject to the Crown.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-EDARTH-VEYR",
+      "parties": [
+        "HOUSE-EDARTH",
+        "HOUSE-VEYR"
+      ],
+      "type": "military understanding",
+      "condition": "The houses share a natural military understanding.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "REL-EDARTH-KHARADORN",
+      "parties": [
+        "HOUSE-EDARTH",
+        "HOUSE-KHARADORN"
+      ],
+      "type": "mutual respect",
+      "condition": "Established mutual respect; no alliance is implied.",
+      "visibility": "PUBLIC",
+      "source_records": [
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    }
   ],
   "unknowns": [
-    {"id":"UNK-GEO-001","subject":"Exact Great House borders and local political polygon geometry","status":"UNRESOLVED","notes":"Broad territorial arrangement is established; exact borders remain open pending calibrated map review.","source_records":["campaign/Current_World_State.md"]},
-    {"id":"UNK-MIL-001","subject":"Exact Great House military strengths","status":"UNRESOLVED","notes":"Do not assign numerical force totals without supporting canon.","source_records":["campaign/world_engine/Actor_Register.md","campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"UNK-FIN-001","subject":"Exact treasury and wealth figures","status":"UNRESOLVED","notes":"Qualitative financial leverage may be used where established; exact totals are not established.","source_records":["campaign/world_engine/Actor_Register.md","campaign/world_engine/Great_House_Actor_Dossiers.md"]},
-    {"id":"UNK-GEO-002","subject":"Exact travel routes, distances, and coordinates","status":"UNRESOLVED","notes":"Existing travel estimates are planning references, not surveyed map measurements.","source_records":["campaign/world/Travel_Communication_and_Information.md"]},
-    {"id":"UNK-NORTH-001","subject":"Ancient Barrier builders, original purpose, and conditions beyond it","status":"UNRESOLVED","notes":"The northern mystery remains intentionally open.","source_records":["campaign/Current_World_State.md"]},
-    {"id":"UNK-DRAGON-001","subject":"Fate of dragons that fled after the Great Rebellion","status":"UNRESOLVED","notes":"Their fate and future relevance are intentionally undetermined.","source_records":["campaign/Current_World_State.md"]},
-    {"id":"UNK-ARC-001","subject":"Reasons arcane spellcasters are rare","status":"UNRESOLVED","notes":"The setting establishes rarity but not its cause.","source_records":["campaign/Current_World_State.md"]},
-    {"id":"UNK-DIV-001","subject":"How Pathfinder gods grant or mediate divine magic","status":"UNRESOLVED","notes":"The gods are real; the mechanism remains open.","source_records":["campaign/Current_World_State.md"]},
-    {"id":"UNK-RAT-001","subject":"Detailed Underways geography, leadership, customs, and wider ratfolk network","status":"UNRESOLVED","notes":"Ratfolk networks are decentralized; detailed wider geography remains open.","source_records":["campaign/Current_World_State.md","campaign/world_engine/Actor_Register.md"]},
-    {"id":"UNK-ROYAL-001","subject":"Exact forces, relationships, and political dependencies constraining King Aldric Calderan","status":"UNRESOLVED","notes":"Do not assume a single controller or that Kharadorn controls the king.","source_records":["campaign/Current_World_State.md"]}
+    {
+      "id": "UNK-GEO-001",
+      "subject": "Exact Great House borders and local political polygon geometry",
+      "status": "UNRESOLVED",
+      "notes": "Broad territorial arrangement is established; exact borders remain open pending calibrated map review.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    },
+    {
+      "id": "UNK-MIL-001",
+      "subject": "Exact Great House military strengths",
+      "status": "UNRESOLVED",
+      "notes": "Do not assign numerical force totals without supporting canon.",
+      "source_records": [
+        "campaign/world_engine/Actor_Register.md",
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "UNK-FIN-001",
+      "subject": "Exact treasury and wealth figures",
+      "status": "UNRESOLVED",
+      "notes": "Qualitative financial leverage may be used where established; exact totals are not established.",
+      "source_records": [
+        "campaign/world_engine/Actor_Register.md",
+        "campaign/world_engine/Great_House_Actor_Dossiers.md"
+      ]
+    },
+    {
+      "id": "UNK-GEO-002",
+      "subject": "Exact travel routes, distances, and coordinates",
+      "status": "UNRESOLVED",
+      "notes": "Existing travel estimates are planning references, not surveyed map measurements.",
+      "source_records": [
+        "campaign/world/Travel_Communication_and_Information.md"
+      ]
+    },
+    {
+      "id": "UNK-NORTH-001",
+      "subject": "Ancient Barrier builders, original purpose, and conditions beyond it",
+      "status": "UNRESOLVED",
+      "notes": "The northern mystery remains intentionally open.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    },
+    {
+      "id": "UNK-DRAGON-001",
+      "subject": "Fate of dragons that fled after the Great Rebellion",
+      "status": "UNRESOLVED",
+      "notes": "Their fate and future relevance are intentionally undetermined.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    },
+    {
+      "id": "UNK-ARC-001",
+      "subject": "Reasons arcane spellcasters are rare",
+      "status": "UNRESOLVED",
+      "notes": "The setting establishes rarity but not its cause.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    },
+    {
+      "id": "UNK-DIV-001",
+      "subject": "How Pathfinder gods grant or mediate divine magic",
+      "status": "UNRESOLVED",
+      "notes": "The gods are real; the mechanism remains open.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    },
+    {
+      "id": "UNK-RAT-001",
+      "subject": "Detailed Underways geography, leadership, customs, and wider ratfolk network",
+      "status": "UNRESOLVED",
+      "notes": "Ratfolk networks are decentralized; detailed wider geography remains open.",
+      "source_records": [
+        "campaign/Current_World_State.md",
+        "campaign/world_engine/Actor_Register.md"
+      ]
+    },
+    {
+      "id": "UNK-ROYAL-001",
+      "subject": "Exact forces, relationships, and political dependencies constraining King Aldric Calderan",
+      "status": "UNRESOLVED",
+      "notes": "Do not assume a single controller or that Kharadorn controls the king.",
+      "source_records": [
+        "campaign/Current_World_State.md"
+      ]
+    }
   ],
   "conditions": [
-    {"id":"COND-CAMPAIGN-001","subject":"Campaign readiness","state":"PRE-CAMPAIGN / 1 Harvestfall 243 AC","cause":"Current GM-approved baseline"},
-    {"id":"COND-WORLD-001","subject":"World Engine execution mode","state":"GM-REVIEWED","cause":"Current campaign readiness and Living World Engine v2 guidance"}
+    {
+      "id": "COND-CAMPAIGN-001",
+      "subject": "Campaign readiness",
+      "state": "PRE-CAMPAIGN / 1 Harvestfall 243 AC",
+      "cause": "Current GM-approved baseline"
+    },
+    {
+      "id": "COND-WORLD-001",
+      "subject": "World Engine execution mode",
+      "state": "GM-REVIEWED",
+      "cause": "Current campaign readiness and Living World Engine v2 guidance"
+    }
   ],
-  "recent_events": []
+  "recent_events": [],
+  "systems": {
+    "economic": [
+      {
+        "id": "ECO-001",
+        "scope": "HOUSE-VEYR",
+        "condition": "Depends on grain, manufactured goods, and Crown support",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established regional economic network",
+        "dependencies": [
+          "Northern grain movement",
+          "Southern support",
+          "Long supply routes"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md"
+        ]
+      },
+      {
+        "id": "ECO-002",
+        "scope": "HOUSE-VAELORIAN",
+        "condition": "Depends on food, labor, and maritime access",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established regional economic network",
+        "dependencies": [
+          "Food supply",
+          "Labor availability",
+          "Maritime access"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md"
+        ]
+      },
+      {
+        "id": "ECO-003",
+        "scope": "HOUSE-EDARTH",
+        "condition": "Depends on metals, manufactured goods, and reliable roads",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established regional economic network",
+        "dependencies": [
+          "Metal goods",
+          "Manufactured goods",
+          "Road reliability"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md"
+        ]
+      },
+      {
+        "id": "ECO-004",
+        "scope": "HOUSE-CALDERAN",
+        "condition": "Depends on cooperation, revenue, and noble compliance",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established Crown economic position",
+        "dependencies": [
+          "Tax revenue",
+          "Great House cooperation",
+          "Political compliance"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md"
+        ]
+      },
+      {
+        "id": "ECO-005",
+        "scope": "HOUSE-KHARADORN",
+        "condition": "Depends on food and surface markets",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established dwarven surface-trade dependence",
+        "dependencies": [
+          "Food imports",
+          "Surface commerce"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md",
+          "campaign/world/Agriculture_Food_and_Seasonal_Work.md"
+        ]
+      },
+      {
+        "id": "ECO-006",
+        "scope": "HOUSE-MERROWEN",
+        "condition": "Depends on raw materials, food, and inland markets",
+        "status": "STRUCTURAL",
+        "direction": "dependency",
+        "cause": "Established maritime economic network",
+        "dependencies": [
+          "Raw materials",
+          "Food supply",
+          "Inland markets"
+        ],
+        "alternatives": [],
+        "source_records": [
+          "campaign/economy/Continental_Economic_Network.md"
+        ]
+      }
+    ],
+    "military": [
+      {
+        "id": "MIL-001",
+        "actor": "HOUSE-CALDERAN",
+        "force_category": "royal military force",
+        "status": "ESTABLISHED",
+        "role": "Protect Valedorn and uphold ordinary royal authority",
+        "location": "Valedorn / Crownlands",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": null,
+        "command_authority": "Crown; coordinated by Master of War Marshal Garran Holt",
+        "constraints": [
+          "Exact composition and strength unresolved",
+          "Not presumed capable of defeating all six Great Houses acting together"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md"
+        ]
+      },
+      {
+        "id": "MIL-002",
+        "actor": "HOUSE-VEYR",
+        "force_category": "Northern Watch",
+        "status": "ESTABLISHED",
+        "role": "Frontier defense and Ancient Barrier responsibility",
+        "location": "Northern frontier",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": "Seasonally dependent on southern provisioning",
+        "command_authority": "House Veyr / Northern Watch command",
+        "constraints": [
+          "Exact force strength unresolved",
+          "Fixed frontier posts are not assumed freely deployable"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md"
+        ]
+      },
+      {
+        "id": "MIL-003",
+        "actor": "HOUSE-VAELORIAN",
+        "force_category": "professional force",
+        "status": "ESTABLISHED",
+        "role": "Protect strategic passes, mines, commercial centers, and high-value routes",
+        "location": "Western Highlands",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": null,
+        "command_authority": "House Vaelorian",
+        "constraints": [
+          "Exact force totals and garrison locations unresolved"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md"
+        ]
+      },
+      {
+        "id": "MIL-004",
+        "actor": "HOUSE-EDARTH",
+        "force_category": "household and vassal forces",
+        "status": "ESTABLISHED",
+        "role": "Regional defense through ruling-house forces, landed nobility, roads, and fortifications",
+        "location": "Western Heartlands",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": null,
+        "command_authority": "House Edarth under established obligations",
+        "constraints": [
+          "Exact service obligations and force totals unresolved",
+          "Longmead dispute is not an armed conflict"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md"
+        ]
+      },
+      {
+        "id": "MIL-005",
+        "actor": "HOUSE-KHARADORN",
+        "force_category": "clan and naval forces",
+        "status": "ESTABLISHED",
+        "role": "Dwarven territorial defense and Central Inland Sea control",
+        "location": "Khar-Dum / Dragonstone / Central Inland Sea",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": "Depends in part on surface food and commerce",
+        "command_authority": "Kharadorn imperial and clan structures",
+        "constraints": [
+          "Exact force and fleet strength unresolved"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md"
+        ]
+      },
+      {
+        "id": "MIL-006",
+        "actor": "HOUSE-MERROWEN",
+        "force_category": "naval force",
+        "status": "ESTABLISHED",
+        "role": "Maritime defense, shipping protection, and coastal security",
+        "location": "Eastern coast / Merrowen ports",
+        "readiness": null,
+        "mobilization": "STANDING",
+        "supply_condition": null,
+        "command_authority": "House Merrowen and established maritime authorities",
+        "constraints": [
+          "Exact fleet strength and port capacity unresolved"
+        ],
+        "source_records": [
+          "campaign/military/Continental_Military_Institutions_and_Operational_Doctrine.md",
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      }
+    ],
+    "diplomatic": [
+      {
+        "id": "DIP-001",
+        "parties": [
+          "HOUSE-CALDERAN",
+          "HOUSE-VAELORIAN"
+        ],
+        "condition": "Financial dependence and political leverage",
+        "obligations": [
+          "Crown relies on Vaelorian financial support"
+        ],
+        "pressures": [
+          "Influence over Crown decisions",
+          "Avoiding arbitrary taxation"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md",
+          "campaign/politics/Court_and_Council.md"
+        ]
+      },
+      {
+        "id": "DIP-002",
+        "parties": [
+          "HOUSE-KHARADORN",
+          "HOUSE-MERROWEN"
+        ],
+        "condition": "Strategic competition over maritime access",
+        "obligations": [],
+        "pressures": [
+          "Kharadorn strategic control",
+          "Merrowen preference for freer navigation"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      },
+      {
+        "id": "DIP-003",
+        "parties": [
+          "HOUSE-EDARTH",
+          "HOUSE-CALDERAN"
+        ],
+        "condition": "Political tension over royal centralization",
+        "obligations": [],
+        "pressures": [
+          "Preserving noble rights",
+          "Crown expansion of practical authority"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md",
+          "campaign/politics/Court_and_Council.md"
+        ]
+      },
+      {
+        "id": "DIP-004",
+        "parties": [
+          "HOUSE-VEYR",
+          "HOUSE-CALDERAN"
+        ],
+        "condition": "Practical dependence and negotiation over northern support",
+        "obligations": [
+          "Northern Watch provisioning requires wider support"
+        ],
+        "pressures": [
+          "Reliable southern resources",
+          "Avoiding neglect of the northern frontier"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md",
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "id": "DIP-005",
+        "parties": [
+          "HOUSE-VAELORIAN",
+          "HOUSE-MERROWEN"
+        ],
+        "condition": "Commercial cooperation and competition",
+        "obligations": [],
+        "pressures": [
+          "Trade influence",
+          "Route access",
+          "Commercial stability"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      },
+      {
+        "id": "DIP-006",
+        "parties": [
+          "HOUSE-KHARADORN",
+          "HOUSE-CALDERAN"
+        ],
+        "condition": "Uneasy formal relationship",
+        "obligations": [
+          "Post-Rebellion settlement remains recognized"
+        ],
+        "pressures": [
+          "Dwarven sovereignty",
+          "Crown jurisdiction"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      },
+      {
+        "id": "DIP-007",
+        "parties": [
+          "HOUSE-EDARTH",
+          "HOUSE-VEYR"
+        ],
+        "condition": "Military understanding",
+        "obligations": [],
+        "pressures": [
+          "Shared security interests"
+        ],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      },
+      {
+        "id": "DIP-008",
+        "parties": [
+          "HOUSE-EDARTH",
+          "HOUSE-KHARADORN"
+        ],
+        "condition": "Mutual respect",
+        "obligations": [],
+        "pressures": [],
+        "recent_cause": null,
+        "visibility": "PUBLIC",
+        "source_records": [
+          "campaign/world_engine/Great_House_Actor_Dossiers.md"
+        ]
+      }
+    ],
+    "seasonal_environmental": [
+      {
+        "id": "ENV-001",
+        "region": "Northern Holds and Pine Marches",
+        "condition": "Cold-season supply, fuel, livestock, and road pressures are structural",
+        "status": "STRUCTURAL",
+        "duration": null,
+        "severity": null,
+        "affected_systems": [
+          "agriculture",
+          "fodder",
+          "travel",
+          "military logistics"
+        ],
+        "uncertainty": "Exact local weather and current conditions unresolved",
+        "source_records": [
+          "campaign/world/Agriculture_Food_and_Seasonal_Work.md",
+          "campaign/world/Weather_Climate_and_Seasonal_Hazards.md"
+        ]
+      },
+      {
+        "id": "ENV-002",
+        "region": "Western Heartlands / Golden Fields / Riverlands",
+        "condition": "Agricultural production is sensitive to planting, harvest, pasture, flooding, and bridge maintenance",
+        "status": "STRUCTURAL",
+        "duration": null,
+        "severity": null,
+        "affected_systems": [
+          "agriculture",
+          "food supply",
+          "river transport",
+          "roads"
+        ],
+        "uncertainty": "No universal yield or flood schedule established",
+        "source_records": [
+          "campaign/world/Agriculture_Food_and_Seasonal_Work.md",
+          "campaign/world/Weather_Climate_and_Seasonal_Hazards.md"
+        ]
+      },
+      {
+        "id": "ENV-003",
+        "region": "Central Inland Sea basin",
+        "condition": "Shipping is sensitive to storms, fog, navigation, port capacity, and fishing conditions",
+        "status": "STRUCTURAL",
+        "duration": null,
+        "severity": null,
+        "affected_systems": [
+          "shipping",
+          "trade",
+          "ports",
+          "fishing"
+        ],
+        "uncertainty": "No specific current storm or weather event established",
+        "source_records": [
+          "campaign/world/Weather_Climate_and_Seasonal_Hazards.md"
+        ]
+      },
+      {
+        "id": "ENV-004",
+        "region": "Northeastern Mountain System / Khar-Dum",
+        "condition": "Mountain access and surface supply are sensitive to snow, storms, slope conditions, and transport",
+        "status": "STRUCTURAL",
+        "duration": null,
+        "severity": null,
+        "affected_systems": [
+          "mining",
+          "roads",
+          "surface supply",
+          "military logistics"
+        ],
+        "uncertainty": "Exact local weather patterns remain open",
+        "source_records": [
+          "campaign/world/Agriculture_Food_and_Seasonal_Work.md",
+          "campaign/world/Weather_Climate_and_Seasonal_Hazards.md"
+        ]
+      },
+      {
+        "id": "ENV-005",
+        "region": "Tallowmere and River Vale",
+        "condition": "River and port activity can be affected by water levels, weather, and transport conditions",
+        "status": "STRUCTURAL",
+        "duration": null,
+        "severity": null,
+        "affected_systems": [
+          "river traffic",
+          "harbor activity",
+          "food movement",
+          "roads"
+        ],
+        "uncertainty": "No specific flood, storm, drought, or severe weather event established for the opening date",
+        "source_records": [
+          "campaign/world/Agriculture_Food_and_Seasonal_Work.md",
+          "campaign/world/Weather_Climate_and_Seasonal_Hazards.md"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_id": "TLM-PRJ-001",
+        "status": "UNDERWAY / review expected",
+        "stage": "review",
+        "dependencies": [
+          "Harbor access",
+          "Defense records",
+          "Maintenance information"
+        ],
+        "blockers": [],
+        "participants": [
+          "Vardek Flintmark",
+          "Denvor administration"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Inspection and review findings",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "TLM-PRJ-002",
+        "status": "PROPOSED / under debate",
+        "stage": "proposal",
+        "dependencies": [
+          "Owner agreement",
+          "Cost-sharing"
+        ],
+        "blockers": [],
+        "participants": [
+          "Warehouse Guild",
+          "Meret Sorn",
+          "Affected owners"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Agreement on works and cost-sharing",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "TLM-PRJ-003",
+        "status": "PETITION / advocacy underway",
+        "stage": "petition",
+        "dependencies": [
+          "Guild and civic response",
+          "Available market premises"
+        ],
+        "blockers": [],
+        "participants": [
+          "Tikka Vell",
+          "Interested ratfolk traders"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Reeve and guild response",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "TLM-PRJ-004",
+        "status": "DISPUTED / negotiation pressure",
+        "stage": "negotiation",
+        "dependencies": [
+          "Actual berth capacity",
+          "Formal proposals",
+          "Council action"
+        ],
+        "blockers": [],
+        "participants": [
+          "Harbor Fellowship",
+          "Harbor Master Ysella Vane",
+          "Smaller traders",
+          "River interests"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Seasonal allocation proposal",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "TLM-PRJ-005",
+        "status": "MONITORING",
+        "stage": "monitoring",
+        "dependencies": [
+          "Harvest conditions",
+          "Labor",
+          "Storage",
+          "Transport"
+        ],
+        "blockers": [],
+        "participants": [
+          "Northfield farms",
+          "Grain merchants",
+          "Denvor administration"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Assessment of actual yield and delivery",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "TLM-PRJ-006",
+        "status": "INTERNAL DELIBERATION",
+        "stage": "deliberation",
+        "dependencies": [
+          "Available funds",
+          "Charter review",
+          "Council response"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Denvor",
+          "Oswin",
+          "Edwyn"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Investment priority decision",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Initial_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-001",
+        "status": "UNDERWAY / seasonal",
+        "stage": "provisioning",
+        "dependencies": [
+          "Southern grain and support",
+          "Transport availability",
+          "Weather conditions"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Veyr",
+          "Northern Watch network"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Supply delivery and reserve review",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-002",
+        "status": "UNDERWAY / administrative",
+        "stage": "records review",
+        "dependencies": [
+          "Banner-house records",
+          "Edarth authority",
+          "Existing petitions"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Edarth"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Review of service records",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-003",
+        "status": "UNDERWAY / administrative",
+        "stage": "review",
+        "dependencies": [
+          "House Rookwell records",
+          "Road and relay conditions"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Calderan",
+          "Crown administration"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Road and relay findings",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-004",
+        "status": "UNDERWAY / internal assessment",
+        "stage": "assessment",
+        "dependencies": [
+          "Commercial records",
+          "Route reliability"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Vaelorian"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Assessment of commercial terms",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-005",
+        "status": "PROPOSED / information gathering",
+        "stage": "information gathering",
+        "dependencies": [
+          "Port reports",
+          "Pilot-house responses",
+          "Maris Merrowen authorization"
+        ],
+        "blockers": [],
+        "participants": [
+          "House Merrowen",
+          "Smaller ports",
+          "Pilot houses"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Authorization and responses",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      },
+      {
+        "project_id": "CNT-PRJ-006",
+        "status": "WATCH / routine review",
+        "stage": "watch",
+        "dependencies": [
+          "Trade patterns",
+          "Neighboring interests"
+        ],
+        "blockers": [],
+        "participants": [
+          "Brightwater Civic Compact"
+        ],
+        "recent_progress": [],
+        "next_decision_point": "Identification of rule requiring review",
+        "expected_consequence": null,
+        "source_records": [
+          "campaign/world_engine/Continental_Project_Register.md"
+        ]
+      }
+    ]
+  }
 }

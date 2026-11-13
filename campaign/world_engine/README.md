@@ -22,6 +22,8 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 1 — Core world-state foundation
 
+**Status:** Core record models established. The actor, world-state, event/history, and information models are now defined in `Actor_Model.md`, `World_State_Model.md`, `World_Event_History_Model.md`, and `Information_Model.md`. These documents formalize the existing campaign records without inventing unsupported canon. The next work is to integrate these models into a machine-readable state structure and validate them against the existing actor, issue, project, political, economic, military, and geographic records.
+
 1. Establish the consistent **world actor model** for Great Houses, Crown, minor houses, factions, major settlements, institutions, and other significant independent actors.
 2. Establish the **world-state model** for locations, political authority, resources, relationships, projects, conflicts, and unresolved conditions.
 3. Establish the **world-event/history model** so every significant simulated change can be recorded, dated, traced to causes, and carried forward.

@@ -1848,5 +1848,31 @@
         ]
       }
     ]
+  },
+  "discovery_records": [],
+  "world_forks": [],
+  "global_transformation": {
+    "status": "UNDETERMINED",
+    "established_elements": [
+      "Dragons are real.",
+      "The old dragon-riding dynasty and twelve-dragon historical peak are established canon.",
+      "The fate and future relevance of surviving dragons remain unresolved.",
+      "The wider world is not necessarily fully known.",
+      "Dothraki are established as orcs, known to the wider world, and feared.",
+      "Detailed Dothraki lore remains future work.",
+      "The world may eventually change substantially."
+    ],
+    "undetermined_elements": [
+      "Nature of the eventual transformation",
+      "Timing or trigger",
+      "Primary actors or factions involved",
+      "Whether the transformation is political, military, economic, environmental, supernatural, geographic, or a combination",
+      "Outcome"
+    ],
+    "evaluation_rule": "Monitor accumulated conditions, emerging pressures, plausible triggers, and materially different futures. Create a world fork only when the evidence supports a genuine divergence.",
+    "source_records": [
+      "campaign/world_engine/README.md",
+      "campaign/world_engine/Global_Transformation_Framework.md"
+    ]
   }
 }

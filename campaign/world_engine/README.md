@@ -3,7 +3,7 @@
 **Status:** Active continent-wide simulation system  
 **Campaign start:** 1 Harvestfall, 243 AC
 
-This folder contains the supporting records and turn history used by the Living World Engine. The engine simulates the established world independently of the PCs, while preserving GM control over canon.
+This folder contains the supporting records and turn history used by the Living World Engine. The engine models the established world independently of the PCs while preserving GM control over canon. The state layer is simulation-ready, but execution remains GM-reviewed under Living World Engine v2 until the campaign explicitly changes that operating mode.
 
 ## Current architecture
 
@@ -22,7 +22,7 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 1 — Core world-state foundation
 
-**Status:** Core record models established. The actor, world-state, event/history, and information models are now defined in `Actor_Model.md`, `World_State_Model.md`, `World_Event_History_Model.md`, and `Information_Model.md`. These documents formalize the existing campaign records without inventing unsupported canon. The next work is to integrate these models into a machine-readable state structure and validate them against the existing actor, issue, project, political, economic, military, and geographic records.
+**Status:** Phase 1 model and machine-readable state layer established. The actor, world-state, event/history, and information models are defined in `Actor_Model.md`, `World_State_Model.md`, `World_Event_History_Model.md`, and `Information_Model.md`. `world_state.schema.json` defines the structured contract and `world_state.json` contains the 1 Harvestfall, 243 AC baseline assembled from authoritative campaign records. The state layer preserves unknowns instead of inventing unsupported values. Execution remains GM-reviewed.
 
 1. Establish the consistent **world actor model** for Great Houses, Crown, minor houses, factions, major settlements, institutions, and other significant independent actors.
 2. Establish the **world-state model** for locations, political authority, resources, relationships, projects, conflicts, and unresolved conditions.
@@ -57,10 +57,10 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 5 — Continuous simulation
 
-16. Run the continent-wide simulation in discrete turns.
+16. Run GM-reviewed world-state evaluations in discrete turns when warranted.
 17. Commit every completed turn before beginning the next.
 18. Carry unresolved consequences forward rather than resetting them.
-19. Allow the world to develop independently of the PCs.
+19. Allow the world to develop independently of the PCs while keeping execution under GM review.
 20. Feed meaningful player-created events back into the World Engine once the Character Engine exists.
 21. Periodically review the resulting world state for major forks, emerging conflicts, and consequences that require GM approval.
 

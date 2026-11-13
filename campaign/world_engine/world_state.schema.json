@@ -121,6 +121,22 @@
           }
         }
       }
+    },
+    "discovery_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/discovery_record"
+      }
+    },
+    "world_forks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/world_fork"
+      }
+    },
+    "global_transformation": {
+      "type": "object",
+      "$ref": "#/$defs/global_transformation"
     }
   },
   "$defs": {
@@ -705,6 +721,208 @@
             "string",
             "null"
           ]
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "discovery_record": {
+      "type": "object",
+      "required": [
+        "id",
+        "subject",
+        "status",
+        "visibility",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "discoverer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "prior_information_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "new_information": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "affected_actors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_state_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "consequence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "world_fork": {
+      "type": "object",
+      "required": [
+        "id",
+        "status",
+        "trigger_conditions",
+        "affected_systems",
+        "paths",
+        "source_records"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "trigger_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_actors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "current_state": {
+          "type": "string"
+        },
+        "paths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "description",
+              "supporting_conditions"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "supporting_conditions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "favoring_conditions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "gm_status": {
+          "type": "string"
+        },
+        "resulting_event_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "global_transformation": {
+      "type": "object",
+      "required": [
+        "status",
+        "established_elements",
+        "undetermined_elements",
+        "evaluation_rule"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "established_elements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "undetermined_elements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evaluation_rule": {
+          "type": "string"
         },
         "source_records": {
           "type": "array",

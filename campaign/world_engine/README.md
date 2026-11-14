@@ -63,6 +63,8 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 5 — Continuous simulation
 
+**Status:** Phase 5 operational boundary and turn-transition protocol established. The engine now has a defined Character–World boundary and a repeatable state-transition procedure. No new world turn is being generated automatically; active play remains GM-reviewed.
+
 16. Run GM-reviewed world-state evaluations in discrete turns when warranted.
 17. Commit every completed turn before beginning the next.
 18. Carry unresolved consequences forward rather than resetting them.

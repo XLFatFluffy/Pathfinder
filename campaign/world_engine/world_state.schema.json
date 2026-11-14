@@ -152,6 +152,37 @@
           "$ref": "#/$defs/lore_scope"
         }
       }
+    },
+    "engine_status": {
+      "type": "object",
+      "required": [
+        "mode",
+        "campaign_phase",
+        "last_completed_turn"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string"
+        },
+        "campaign_phase": {
+          "type": "string"
+        },
+        "last_completed_turn": {
+          "type": "string"
+        },
+        "next_turn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
     }
   },
   "$defs": {

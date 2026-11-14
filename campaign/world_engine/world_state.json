@@ -1874,5 +1874,63 @@
       "campaign/world_engine/README.md",
       "campaign/world_engine/Global_Transformation_Framework.md"
     ]
+  },
+  "lore": {
+    "dothraki_orc": {
+      "status": "FRAMEWORK ESTABLISHED / DETAILED LORE UNRESOLVED",
+      "established": [
+        "Dothraki are an established orc people.",
+        "The wider world knows of the Dothraki.",
+        "The Dothraki are feared by the wider world."
+      ],
+      "unresolved": [
+        "Self-identification and terminology",
+        "Culture and social organization",
+        "Political organization and leadership",
+        "Major groups or factions",
+        "Territory, borders, settlements, and routes",
+        "Military organization, doctrine, and force strength",
+        "Religion and belief",
+        "Economy, resources, and trade",
+        "Relations with individual Great Houses and other powers",
+        "Detailed history and major past conflicts",
+        "Language, literacy, and knowledge systems"
+      ],
+      "source_records": [
+        "campaign/world_engine/Dothraki_Orc_Lore_Framework.md",
+        "campaign/world_engine/README.md",
+        "campaign/world_engine/Global_Transformation_Framework.md",
+        "campaign/Canon_Register.md",
+        "campaign/Current_World_State.md"
+      ]
+    },
+    "wider_world": {
+      "status": "SCOPE ESTABLISHED / DETAILS PARTIALLY UNRESOLVED",
+      "established": [
+        "Tallowmere is the starting location, not the boundary of the campaign world.",
+        "The established campaign world includes the Great Houses, Crown, Kharadorn dwarven empire, northern territories, Ancient Barrier, Frozen Expanse, western, central, eastern, and southern regional systems.",
+        "Major settlements and fortresses are broadly known to the wider settled population.",
+        "Minor settlements, local holdings, private routes, and specialist information vary by character background and access.",
+        "The wider world is not necessarily fully known."
+      ],
+      "unresolved": [
+        "Exact political borders and calibrated regional geometry",
+        "Exact coordinates, route alignments, and travel times",
+        "Some minor settlements and local holdings",
+        "Detailed geography beyond poorly understood regions",
+        "The extent and nature of distant regions beyond the established world scope",
+        "Builders and original purpose of the Ancient Barrier",
+        "Detailed conditions and geography beyond the Ancient Barrier",
+        "Other distant or poorly understood regions not established in campaign records"
+      ],
+      "source_records": [
+        "campaign/world_engine/Wider_World_and_Unknowns_Framework.md",
+        "campaign/Current_World_State.md",
+        "campaign/GM_Campaign_Bible.md",
+        "campaign/world_engine/Unknowns_and_Discovery_Model.md",
+        "campaign/maps/atlas_layer_registry.json",
+        "campaign/maps/atlas_player_layer.json"
+      ]
+    }
   }
 }

@@ -22,7 +22,10 @@
       "campaign/world_engine/Great_House_Actor_Dossiers.md",
       "campaign/politics/Minor_Houses_and_Regional_Powers.md",
       "campaign/world/Agriculture_Food_and_Seasonal_Work.md",
-      "campaign/world/Travel_Communication_and_Information.md"
+      "campaign/world/Travel_Communication_and_Information.md",
+      "campaign/world_engine/Dothraki_Orc_Lore_Framework.md",
+      "campaign/world_engine/Wider_World_and_Unknowns_Framework.md",
+      "campaign/world_engine/Dragon_and_Wider_World_Integration_Framework.md"
     ]
   },
   "actors": [

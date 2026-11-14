@@ -1935,5 +1935,12 @@
         "campaign/maps/atlas_player_layer.json"
       ]
     }
+  },
+  "engine_status": {
+    "mode": "GM-REVIEWED",
+    "campaign_phase": "ACTIVE PLAY / WORLD-ENGINE READY",
+    "last_completed_turn": "PRECAMPAIGN-BASELINE",
+    "next_turn": null,
+    "note": "Advance only from a recorded starting state. Player-originated consequences enter through boundary events and are reviewed before changing macro world state."
   }
 }

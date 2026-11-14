@@ -137,6 +137,21 @@
     "global_transformation": {
       "type": "object",
       "$ref": "#/$defs/global_transformation"
+    },
+    "lore": {
+      "type": "object",
+      "required": [
+        "dothraki_orc",
+        "wider_world"
+      ],
+      "properties": {
+        "dothraki_orc": {
+          "$ref": "#/$defs/lore_scope"
+        },
+        "wider_world": {
+          "$ref": "#/$defs/lore_scope"
+        }
+      }
     }
   },
   "$defs": {
@@ -923,6 +938,38 @@
         },
         "evaluation_rule": {
           "type": "string"
+        },
+        "source_records": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lore_scope": {
+      "type": "object",
+      "required": [
+        "status",
+        "established",
+        "unresolved",
+        "source_records"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "established": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unresolved": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
         "source_records": {
           "type": "array",

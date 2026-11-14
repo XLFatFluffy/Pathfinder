@@ -55,6 +55,8 @@ The following is the active development plan for the World Engine. Work should p
 
 ### Phase 4 — Expanded world lore
 
+**Status:** Phase 4 scope and lore-boundary records established. Dothraki/orc, wider-world, and dragon integration records now preserve established canon while explicitly separating unresolved details from approved setting facts. No unsupported Dothraki territory, borders, routes, troop figures, political structure, or hidden dragon outcome was invented.
+
 13. Add detailed **Dothraki/orc lore**. The Dothraki are established as orcs, are known to the wider world, and are feared. Their detailed culture, political organization, major groups, territory, military structure, religion, economy, and relationships will be developed separately.
 14. Expand the wider known and unknown world without inventing unsupported geography, borders, routes, or settlements.
 15. Integrate dragons and the wider-world concept as long-term unresolved world elements rather than predetermined plot outcomes.
@@ -91,7 +93,9 @@ The following are intentional long-term design elements and are not predetermine
 
 - **Dragons:** dragons are real; the old dragon-riding dynasty and the twelve-dragon historical peak are established canon. The fate and future relevance of surviving dragons remain unresolved.
 - **Wider world:** the known world is not necessarily the whole world. The extent, nature, and future significance of distant or poorly understood regions remain unresolved.
-- **Dothraki:** known and feared orc people. Detailed lore remains future work.
+- **Dothraki:** known and feared orc people. Detailed lore is now tracked through `Dothraki_Orc_Lore_Framework.md`; unresolved domains remain open rather than being fabricated.
+- **Wider world:** scope and knowledge boundaries are tracked through `Wider_World_and_Unknowns_Framework.md`.
+- **Dragons:** established historical canon and unresolved present/future questions are tracked through `Dragon_and_Wider_World_Integration_Framework.md`.
 - **Global transformation:** the world may eventually change substantially. Its form and timing are intentionally unknown.
 
 ## Operating model

@@ -1,3 +1,14 @@
+## 2026-11-21 — Player-created hideout and base development framework
+
+- Added `campaign/world/Hideout_and_Base_Development_System.md` as the approved GM framework for the PCs' player-created shared hideout.
+- Established a starting budget of 20 Base Development Points and 10 Starting Resource Points.
+- Established the core distinction that Development Points unlock base capabilities while gold pays for construction, labor, materials, equipment, acquisition, staffing, and maintenance.
+- Established that additional Development Points are earned primarily through character-development milestones and meaningful campaign accomplishments rather than being directly purchased with gold.
+- Left facility bonuses, mechanical effects, higher-quality access, upgrade paths, staffing requirements, maintenance, and construction costs for GM background design.
+- Added `campaign/player_materials/Player_Hideout_Creation_Guide.md` for the players, intentionally withholding the hidden mechanical benefits of facilities.
+- Updated the GM Campaign Bible and Current World State to supersede Tallowmere as the campaign starting location. Tallowmere remains an established setting location but is no longer the opening location.
+- Updated the active party concept to vampire necromancer wizard and fetchling ninja; previous ratfolk-PC and Tallowmere-opening assumptions remain legacy/provisional and are not active campaign facts.
+
 ## 2026-11-06 — Regional factions and supplemental minor actors
 
 - Added `campaign/world_engine/Regional_Factions_and_Minor_Houses.md` under the GM's explicit delegation to create whatever NPCs, minor factions, and supporting actors are needed for a living world.

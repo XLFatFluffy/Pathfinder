@@ -245,9 +245,40 @@ The last question matters. A hideout that is completely perfect, completely secu
 
 Your hideout can grow over the course of the campaign.
 
-You can gain additional Base Development Points through major campaign milestones and meaningful accomplishments.
+### How you gain more Development Points
 
-Gold is used to actually pay for construction, improvements, equipment, labor, materials, and other expenses.
+The normal rule is:
+
+**+1 Base Development Point whenever the party gains a character level.**
+
+You may also gain additional points for major accomplishments that substantially increase your ability to build and maintain your organization. These awards are normally **1–3 points**, depending on the significance of what you accomplish.
+
+Examples might include:
+
+- acquiring a substantial property;
+- securing territory;
+- establishing a valuable trade or supply connection;
+- recruiting an exceptional specialist;
+- building a meaningful intelligence network;
+- recovering a significant magical resource;
+- completing a major organizational project.
+
+Ordinary adventures do not automatically grant a point. The point represents lasting development of the organization, not a reward for every successful quest.
+
+### Gold and Development Points are different
+
+**Gold cannot be used to buy Development Points.**
+
+Gold is used to actually pay for:
+
+- construction;
+- improvements;
+- equipment;
+- labor;
+- materials;
+- staffing;
+- maintenance;
+- acquiring existing property.
 
 So you may have:
 
@@ -260,6 +291,8 @@ or
 and both situations matter.
 
 You may also acquire existing buildings, property, facilities, or useful resources during the campaign rather than constructing everything from scratch.
+
+Your base grows because you become more capable, accomplish things, acquire resources, and make decisions. It does not simply grow because you found a bag of coins.
 
 Your hideout is not just a place to sleep.
 

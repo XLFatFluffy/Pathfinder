@@ -50,14 +50,26 @@ The fallen dragon-riding dynasty's original name and the final name of its forme
 
 ## Campaign start
 
-- The campaign remains planned to begin in Tallowmere, a walled port city on the northwestern shore of the central inland sea, with an approximate population of 18,000.
 - **Campaign start date: 1 Harvestfall, 243 AC.** See `history/Calendar.md` and `history/Campaign_Timeline.md`.
-- Player character concepts are under revision. Earlier drafts described two level-five characters who already knew one another, including a human vampire mesmerist and a male ratfolk alchemist. These are provisional legacy concepts, not current assumptions.
-- Final ancestries, classes, levels, party size, relationships, arrival circumstances, backstories, equipment, and personal ambitions must come from the players' confirmed concepts and sheets.
-- A roadside encounter involving a troll and a Selwick & Company wagon remains a prepared option. Its suitability, route, staging, reward, and encounter balance must be reviewed against the actual party before use.
-- A companion concept has been discussed previously, but no companion identity, role, statistics, or approval is current until confirmed.
+- **Starting location:** The PCs will not begin in Tallowmere. Their exact starting region and property are not yet fixed.
+- **Starting structure:** The PCs will begin with a shared player-created hideout. The approved starting framework is documented in `world/Hideout_and_Base_Development_System.md`.
+- **Current party concept:** vampire necromancer wizard and fetchling ninja.
+- Names, exact statistics, equipment, levels, relationship details, private histories, and other character-specific facts remain pending final sheets and backstories unless separately approved.
+- The old Tallowmere roadside troll/Selwick opening is not the current opening structure.
+- The wider setting, its politics, cultures, geography, institutions, and NPCs continue to be developed independently of the player characters. Do not build new setting facts around unconfirmed character details.
 
-The wider setting, its politics, cultures, geography, institutions, and NPCs are being developed independently of the player characters. Do not build new setting facts around the earlier concepts while they remain unconfirmed.
+## Hideout and Base Development — Approved Framework
+
+- Starting hideout budget: **20 Base Development Points**.
+- Starting hideout resources: **10 Starting Resource Points**.
+- Development Points represent the hideout's development capacity and specialized capabilities. Gold is used separately to pay for construction, labor, materials, equipment, renovation, staffing, maintenance, and acquisition.
+- Development Points are not directly purchased with gold.
+- Additional Development Points are expected primarily through character-development milestones and meaningful campaign accomplishments. The exact milestone schedule remains open for final GM tuning.
+- Facilities establish infrastructure but do not automatically create personnel, wealth, magical items, spells, horses, soldiers, or spies.
+- Functional bonuses, mechanical benefits, higher-quality access, upgrade paths, staffing, maintenance, and construction costs are intentionally left to the GM's background design.
+- Existing properties or facilities acquired during play may provide development value without requiring equivalent new construction.
+- The hideout is intended to develop with the PCs' growing wealth, influence, territory, followers, military capability, intelligence, and magical power.
+
 
 ## Unresolved
 

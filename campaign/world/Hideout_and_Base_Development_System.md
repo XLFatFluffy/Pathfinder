@@ -250,61 +250,49 @@ The exact mechanical benefits of these combinations are intentionally **UNRESOLV
 
 ## Functional and Mechanical Benefits
 
-The current point costs describe the base's structure, not its final mechanics.
+The detailed functional and mechanical benefits are established in the GM-only reference:
 
-The GM will determine which facilities:
+- `campaign/world/Hideout_Functional_Mechanics.md`
 
-- provide bonuses to relevant activities;
-- reduce penalties or risks;
-- improve research, crafting, healing, training, or information gathering;
-- unlock access to higher-quality equipment or services;
-- reduce the cost or time of certain activities;
-- permit activities that could not reasonably be performed without the facility;
-- attract or support specialists;
-- improve the base's security or resistance to intrusion;
-- create additional campaign opportunities.
+The player-facing document deliberately withholds these exact mechanics.
 
-These mechanics are deliberately not exposed in the player creation document.
-
-A facility should not automatically grant a broad numerical bonus when a narrower, more meaningful benefit would better fit the campaign.
+The working rules use narrow, contextual benefits rather than blanket bonuses. Facilities can improve checks, provide specialized tools, unlock activities, improve acquisition options, support personnel, create research opportunities, and form stronger combined facilities.
 
 ## How the PCs Earn More Development Points
 
-Development Points should not simply arrive because a character leveled up. The base is part of the campaign world, not a second character sheet wearing a tiny hat.
+The approved advancement model is:
 
-The recommended progression is a **milestone system**:
+### Character level
 
-### Normal advancement
+The party gains **1 Base Development Point whenever the party gains a character level**.
 
-The party gains **1 Base Development Point at major character-development milestones**, normally tied to gaining a character level or an equivalent campaign advancement.
-
-The GM may delay or combine this point when the characters have not had meaningful opportunity to develop the base.
+This is the normal progression.
 
 ### Major accomplishments
 
-The party can earn additional Base Development Points for accomplishments that materially increase their ability to develop or sustain the base.
+The party may gain **1–3 additional Development Points** for major accomplishments that create lasting organizational value.
 
 Examples include:
 
-- acquiring a significant property;
-- establishing a valuable trade connection;
-- securing a new source of materials;
-- gaining a powerful patron or ally;
-- bringing a specialist into their organization;
-- completing a major construction project;
-- claiming or securing territory;
-- establishing a meaningful intelligence network;
+- acquiring a substantial property;
+- securing a new source of valuable materials;
+- establishing a meaningful trade connection;
+- recruiting an exceptional specialist;
+- establishing a durable intelligence network;
+- securing territory;
+- gaining a powerful patron or political ally;
 - recovering a significant magical resource;
-- defeating or removing a threat that materially affected the base;
+- completing a major construction project;
+- defeating a threat that materially endangered the organization;
 - completing a major campaign objective.
 
-These should generally award **1–3 points**, depending on significance.
+Ordinary quest completion does not automatically grant a point.
 
 ### Gold
 
-Gold does **not** directly purchase Base Development Points.
+Gold **does not directly purchase Development Points**.
 
-Gold pays for:
+Gold pays for the actual implementation of development:
 
 - construction;
 - renovation;
@@ -319,15 +307,13 @@ Gold pays for:
 - supplies;
 - acquisition of existing property.
 
-This means the PCs can have available Development Points but still lack the money or opportunity to use them.
-
-Conversely, they may discover or purchase an existing facility and avoid some construction requirements.
+This keeps Development Points and wealth as separate progression systems.
 
 ### Acquired Facilities
 
-If the PCs acquire an existing building, estate, ruin, workshop, tower, tunnel, or other useful property during play, the GM may award some of its development value without requiring the PCs to spend their own points.
+If the PCs acquire an existing building, estate, ruin, workshop, tower, tunnel, or other useful property, the GM may count usable facilities already present rather than requiring the PCs to construct them.
 
-The condition, ownership, security, legal status, location, and usefulness of the property still matter.
+The property does not automatically convert into free Development Points. Its usable facilities, condition, ownership, legal status, security, location, and usefulness are evaluated individually.
 
 ## Base Growth and Campaign Scale
 
@@ -372,6 +358,8 @@ The base therefore becomes one of the campaign's primary records alongside chara
 
 **APPROVED FRAMEWORK:** The 20-point starting hideout and 10-point starting resource pool are approved as the working campaign framework.
 
-**UNRESOLVED:** Exact starting location; exact starting property; construction costs; maintenance costs; staffing costs; functional bonuses; mechanical effects; facility upgrade paths; acquisition rules for existing properties; and the precise milestone schedule for additional Development Points.
+**UNRESOLVED:** Exact starting location; exact starting property; construction costs; maintenance costs; staffing costs; and the exact properties of individual mysterious/supernatural features.
+
+**APPROVED GM MECHANICS:** Functional facility benefits, facility synergies, upgrade framework, and Development Point advancement are defined in `campaign/world/Hideout_Functional_Mechanics.md`.
 
 No exact geography, borders, routes, or starting property are established by this document.

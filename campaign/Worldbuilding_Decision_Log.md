@@ -246,3 +246,18 @@ The GM also established that each established, permanent temple maintains or des
 **Decision:** The players are revising their character concepts. Earlier vampire/ratfolk identities, shared history, ambitions, personal incidents, relationship promises, and attached opening hooks are not current campaign facts unless the players confirm them in their final materials. The setting and its NPC communities are to be developed independently of those concepts. Preserve old drafts for possible reuse, but do not build additional hooks or import their character-dependent data as established canon.
 
 **Affected records:** `player_characters/Player_Character_Ambitions.md`, `player_characters/Player_Character_Concepts_and_Opening.md`, `politics/House_Relland_and_the_Merchant_Incident.md`, `database/seed_batch_03_relland.json`, `locations/starting_city/Ratfolk_Community_Networks_and_NPCs.md`, `locations/starting_city/Selwick_Merchant_Contact.md`, `creatures/Creature_Registry.md`, `creatures/Troll.md`, `history/Campaign_Timeline.md`, and the archived Session One packet.
+
+
+### 2026-11-21 — Hideout functional mechanics and Development Point advancement finalized
+**Status:** APPROVED
+**Decision:** The player-created shared hideout is now governed by a two-layer progression system. Base Development Points represent organizational development capacity; gold represents the actual economic implementation of that development. Gold cannot directly purchase Development Points.
+
+The normal advancement rate is **1 Base Development Point whenever the party gains a character level**. Additional **1–3 point awards** may be granted for major accomplishments that create lasting organizational value, such as acquiring substantial property, securing territory or valuable resources, establishing durable trade or intelligence infrastructure, recruiting exceptional specialists, recovering significant magical resources, or completing major organizational objectives. Ordinary quest completion does not automatically award a point.
+
+Functional facility mechanics are established in `campaign/world/Hideout_Functional_Mechanics.md`. Facility benefits are deliberately narrow and contextual, generally using +2 circumstance bonuses for ordinary specialized activities, with stronger facilities providing broader capabilities or access rather than indiscriminate numerical bonuses. Facility combinations can produce stronger synergies. Facilities can also unlock better-quality equipment, specialized research, or activities that are impractical without the appropriate workspace.
+
+Existing Pathfinder 1e downtime-building principles were used as design reference, particularly the concept that specialized rooms can provide narrow skill benefits and practical capabilities. The campaign subsystem remains custom and does not replace Pathfinder character, spellcasting, or crafting prerequisites.
+
+**Reason:** The GM requested that the hideout system be fully playable rather than leaving all mechanical benefits unresolved. The goal is meaningful long-term base progression without allowing wealth alone to purchase organizational power.
+
+**Affected records:** `campaign/world/Hideout_and_Base_Development_System.md`, `campaign/world/Hideout_Functional_Mechanics.md`, `campaign/player_materials/Player_Hideout_Creation_Guide.md`, and this changelog.

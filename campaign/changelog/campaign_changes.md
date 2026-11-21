@@ -1,3 +1,14 @@
+## 2026-11-21 — Hideout mechanics finalized
+
+- Added `campaign/world/Hideout_Functional_Mechanics.md` as the GM-only mechanical layer for the approved hideout/base system.
+- Finalized narrow, contextual facility benefits, specialized tool access, research/crafting advantages, facility synergies, upgrade tiers, damage/recovery rules, and practical maintenance.
+- Established **1 Base Development Point per character level gained** as the normal advancement rate.
+- Established **1–3 additional Development Points** for major accomplishments that create lasting organizational value.
+- Confirmed that gold **cannot directly purchase Development Points**. Gold pays for construction, equipment, labor, staffing, maintenance, acquisition, and related implementation costs.
+- Confirmed that acquired existing properties may contain usable facilities without requiring the PCs to construct every facility from scratch.
+- Preserved the player-facing hideout guide as intentionally incomplete about exact mechanical benefits.
+- Used Pathfinder 1e downtime-building principles as design inspiration while keeping this subsystem campaign-specific. No Pathfinder core crafting, spellcasting, or character progression rules were replaced.
+
 ## 2026-11-21 — Player-created hideout and base development framework
 
 - Added `campaign/world/Hideout_and_Base_Development_System.md` as the approved GM framework for the PCs' player-created shared hideout.

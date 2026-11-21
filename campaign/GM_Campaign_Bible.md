@@ -53,10 +53,10 @@ The central tone is grounded high-medieval fantasy. Supernatural horror and dang
 ## 2. Current campaign state
 
 - **Date:** 1 Harvestfall, 243 AC.
-- **Starting location:** Tallowmere, on the northwestern shore of the central inland sea.
+- **Starting location:** Not yet fixed. The PCs will not begin in Tallowmere. The campaign will begin from a player-created shared hideout whose broader region and exact property are still to be determined.
 - **Campaign focus:** The setting is being developed independently of the player characters. The first region is prepared, but the wider world is not built around assumed PC choices.
-- **Player concepts:** The players are revising their character concepts. Do not assume the previous vampire/ratfolk pairing, ancestries, classes, levels, relationships, private histories, or personal ambitions are current until the players confirm their final concepts and supply authoritative sheets and backstories.
-- **Opening structure:** A roadside encounter involving a troll and a Selwick & Company wagon has been prepared as a possible opening. Its route, location, composition, reward, and encounter balance remain subject to the final party and GM approval.
+- **Player concepts:** The current party concept is a vampire necromancer wizard and a fetchling ninja. Names, exact statistics, equipment, levels, relationship details, private histories, and other character-specific facts remain pending final sheets and backstories unless separately approved.
+- **Opening structure:** The campaign will begin from the PCs' shared hideout and the local situation surrounding it. The older Tallowmere roadside/troll opening is not the current starting structure and must not be treated as an active opening unless separately restored by GM decision.
 - **Companion:** A companion concept has been discussed, but identity, statistics, equipment, role, and approval remain undecided.
 - **Historical opening snapshot:** WTR-001 is retained as a dated zero-time reference on 1 Harvestfall, 243 AC. It is not a recurring simulation procedure.
 
@@ -574,3 +574,19 @@ For full detail, consult:
 - `player_materials/Player_Starting_Handout.md` for the filtered player-facing introduction. It is a derivative of approved public knowledge, not a source of GM canon.
 
 **GM operating principle:** The world is larger than the PCs, but it is not a machine for punishing them. It should respond intelligently, proportionately, and consistently to what they do, what they ignore, and how much time passes.
+
+
+## Hideout and Base Development Framework
+
+The current campaign uses a player-created shared hideout as the PCs' initial base of operations rather than assigning them a finished stronghold. The approved framework is recorded in `world/Hideout_and_Base_Development_System.md`.
+
+- **Starting Development:** 20 Base Development Points.
+- **Starting Resources:** 10 Starting Resource Points.
+- Development Points establish base capabilities and facilities; gold pays for construction, materials, labor, equipment, renovation, acquisition, and ongoing practical expenses.
+- Development Points are not directly purchased with gold.
+- Additional Development Points are expected primarily through character-development milestones and meaningful campaign accomplishments. The precise milestone schedule remains an APPROVED FRAMEWORK rather than a finalized leveling formula.
+- Facilities do not automatically provide personnel. Barracks do not create soldiers, intelligence rooms do not create spies, and stables do not create horses.
+- The GM will determine functional bonuses, mechanical effects, access to higher-quality goods or services, upgrade paths, staffing requirements, maintenance, and construction costs in the background layer.
+- Existing property, facilities, or resources acquired during play may provide development value without requiring the PCs to construct the equivalent from scratch.
+- The hideout is intended to grow into a headquarters, estate, compound, stronghold, political center, military base, magical center, or seat of power as the campaign develops.
+- The starting location and exact property remain unresolved. No exact geography, borders, routes, or coordinates are established by the hideout framework.
